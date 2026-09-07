@@ -1,0 +1,102 @@
+{
+  "code": "unsw-4755",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in chemical sciences.",
+      "evidenceLines": [
+        "**Institution**: University of New South Wales (UNSW Sydney)",
+        "**Course Code**: 4755",
+        "- **Institution**: University of New South Wales (UNSW Sydney)"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in chemical sciences.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Study Level**: Undergraduate",
+        "- **Study Level**: Undergraduate"
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within chemical sciences.",
+      "evidenceLines": [
+        "Subject: Molecules, Cells and Genes (BABS1201)",
+        "Subject: Applied Biomolecular Sciences (BABS1202)",
+        "**AQF Level**: Not specified"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in chemical sciences.",
+      "evidenceLines": [
+        "**Total Units / Units of Credit (UOC)**: 312",
+        "**Delivery Mode**: On Campus",
+        "- **Total Units / Units of Credit (UOC)**: 312"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in chemical sciences.",
+      "evidenceLines": [
+        "Subject: Genetics (BABS2204)",
+        "Subject: Microbial Genetics (BABS3021)",
+        "**CRICOS Code**: 088863C"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in chemical sciences.",
+      "evidenceLines": [
+        "**Academic Organisation**: Faculty of Law and Justice",
+        "- **Institution**: University of New South Wales (UNSW Sydney)",
+        "- **Study Level**: Undergraduate"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in chemical sciences.",
+      "evidenceLines": [
+        "**Handbook URL**: https://handbook.unsw.edu.au/undergraduate/programs/2026/4755",
+        "Subject: Immunology (BABS3041)",
+        "- **Total Units / Units of Credit (UOC)**: 312"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "- **Total Units / Units of Credit (UOC)**: 312",
+        "- **Institution**: University of New South Wales (UNSW Sydney)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Medicinal Chemistry.",
+        "evidenceLines": [
+          "- **Total Units / Units of Credit (UOC)**: 312",
+          "This program combines the professional LLB program with Bachelor of Medicinal Chemistry (Honours). Medicinal Chemistry (Honours) is an exciting, rapidly-expanding area within the broad discipline of Chemistry that has seen enormous growth recently both within Australia and globally. It includes the development of new pharmaceutical agents, from Concept to Clinic. Many different stages are involved; from the design and synthesis of novel drug candidates, to their biochemical effects, testing regimes and regulatory and ethical considerations. The Medicinal Chemistry (Honours) program had been designed to ensure that graduates will have a strong background in contemporary biology, biochemistry and pharmacology, based upon a solid foundation of essential chemistry. Combining this with a Bachelor of Laws also equips students with an understanding of the law, important in this industry, and provides graduates with a degree that is recognized as satisfying the academic requirements for admission as a legal practitioner in NSW."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in chemical sciences.",
+        "evidenceLines": [
+          "Subject: Molecules, Cells and Genes (BABS1201)",
+          "**Institution**: University of New South Wales (UNSW Sydney)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+    "evidenceLines": [
+      "**Institution**: The University of Sydney (USYD)",
+      "**Course / Program Identifier**: exercise-physiology",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+    "evidenceLines": [
+      "**Academic Year**: 2026",
+      "**Faculty**: medicine-health-pg",
+      "- **Course / Program Identifier**: exercise-physiology"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+    "evidenceLines": [
+      "Subject: Design and Implementation of Exercise (EXSS5101)",
+      "Subject: Assessment and the Exercise Physiologist (EXSS5102)",
+      "**Handbook URL**: https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/exercise-physiology.html"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+    "evidenceLines": [
+      "Critically evaluate foundational principles, evidence bases, and contemporary methodologies in design and implementation of exercise.",
+      "Synthesise disciplinary knowledge to resolve complex real-world challenges.",
+      "- **Faculty**: medicine-health-pg"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+    "evidenceLines": [
+      "Subject: Exercise in Cardiometabolic Diseases (EXSS5103)",
+      "Subject: Exercise and Musculoskeletal Rehabilitation I (EXSS5104)",
+      "Communicate evidence-based findings effectively to technical and professional stakeholders."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+    "evidenceLines": [
+      "Apply ethical frameworks and professional standards in practice.",
+      "- **Institution**: The University of Sydney (USYD)",
+      "- **Course / Program Identifier**: exercise-physiology"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+    "evidenceLines": [
+      "Critically evaluate foundational principles, evidence bases, and contemporary methodologies in assessment and the exercise physiologist.",
+      "Subject: Clinical Practice Unit 1 (EXSS5111)",
+      "- **Faculty**: medicine-health-pg"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "Students must complete 72 credit points, including:",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Exercise Physiology.",
+      "evidenceLines": [
+        "Students must complete 72 credit points, including:",
+        "(i) 60 credit points of 5000-level core units of study"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+      "evidenceLines": [
+        "Subject: Design and Implementation of Exercise (EXSS5101)",
+        "**Institution**: The University of Sydney (USYD)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

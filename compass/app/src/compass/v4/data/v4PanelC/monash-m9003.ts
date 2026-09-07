@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in public health.",
+    "evidenceLines": [
+      "Identify and apply the key principles, theories and frameworks, used in health promotion and prevention.",
+      "Define and explain the history of preventive health and health promotion",
+      "The Professional Certificate of Public Health builds knowledge of key principles in public health."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in public health.",
+    "evidenceLines": [
+      "Describe and apply the key steps of program planning including needs analysis, participation and the development of goals, objectives and strategies",
+      "Identify and adapt a range of approaches for promoting health that include upstream, mid-stream and downstream actions.",
+      "This course will explore key principles of public health, including determinants of health, the role of policy and advocacy."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within public health.",
+    "evidenceLines": [
+      "Subject: Foundations of health promotion and program planning (MPH5002)",
+      "Subject: Public health fundamentals (MPH5288)",
+      "Critically reflect on the role of Health Promotion in addressing contemporary and emerging challenges in health."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in public health.",
+    "evidenceLines": [
+      "Health promotion program plan (2,100 words): 35% (Hurdle: None)",
+      "Essay (900 words): 15% (Hurdle: None)",
+      "It will develop knowledge and skills in health promotion and prevention, applied across public health challenges."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in public health.",
+    "evidenceLines": [
+      "Subject: Foundations of health promotion and program planning (MPH5002)",
+      "Subject: Public health fundamentals (MPH5288)",
+      "Report (1,800 words): 30% (Hurdle: None)"
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in public health.",
+    "evidenceLines": [
+      "Health promotion and resource rationale (1,200 words): 20% (Hurdle: None)",
+      "The Professional Certificate of Public Health builds knowledge of key principles in public health.",
+      "This course will explore key principles of public health, including determinants of health, the role of policy and advocacy."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in public health.",
+    "evidenceLines": [
+      "Analyse and articulate contemporary and emerging challenges in public health.",
+      "Subject: Public health fundamentals (MPH5288)",
+      "It will develop knowledge and skills in health promotion and prevention, applied across public health challenges."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "The course comprises 12 credit points of study (2 units) where you will be introduced to public health at a graduate level.",
+      "The Professional Certificate of Public Health builds knowledge of key principles in public health."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Professional Certificate of Public Health.",
+      "evidenceLines": [
+        "The course comprises 12 credit points of study (2 units) where you will be introduced to public health at a graduate level.",
+        "Units are 6 credit points unless otherwise stated."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in public health.",
+      "evidenceLines": [
+        "Subject: Foundations of health promotion and program planning (MPH5002)",
+        "Identify and apply the key principles, theories and frameworks, used in health promotion and prevention."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

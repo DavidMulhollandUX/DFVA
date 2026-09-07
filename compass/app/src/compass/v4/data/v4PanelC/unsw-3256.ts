@@ -1,0 +1,94 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 7,
+  "C1": {
+    "score": 2,
+    "rationale": "Collaborative multi-disciplinary design teams, client presentation of interior schemes, and cross-cultural spatial communication (CILOs).",
+    "evidenceLines": [
+      "Employ collaborative and equitable team work practices and skills.",
+      "Effectively communicate knowledge and ideas to a range of audiences and settings using verbal and visual, analogue and digital representational techniques."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Exceptional spatial design creativity, material innovation, and generating original interior architectural interventions from room scale to urban public space (Description, CILOs).",
+    "evidenceLines": [
+      "Initiate and lead innovative change using creativity, analytical skills and the development of new knowledge in the field of interior architecture.",
+      "Interior Architecture at UNSW is positioned as a research-led creative practice which focuses on the design and agency of the inhabited interiors of the built environment, from the scale of the room to the scale of the city, from permanent to temporary spaces."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Complex structural, material, environmental, and spatial analysis integrating human ergonomics and built-environment performance (CILOs).",
+    "evidenceLines": [
+      "Critically analyse, evaluate and synthesise complex field specific knowledge and contexts in a reflective and independent manner using advanced theoretical and technical skills through a robust understanding of cultural diversity.",
+      "Interpret and communicate complex, field-specific information and ideas; providing critique and reflection, utilising innovative and creative technologies and analysis."
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Adapts spatial design concepts iteratively across shifting site constraints, architectural briefs, and structural parameters (CILOs).",
+    "evidenceLines": [
+      "Demonstrate adaptability and responsibility as a collaborative scholar who is capable of research-led design enquiry and ethical design practices.",
+      "We consider the interior as a dynamic and open-ended conceptual space through which the human scale and experiences inherent in the private and public spaces of our urban environments can be interrogated and projected."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Physical scale model construction, material tactile fabrication, site measurements, and spatial layout installation (Description, CILOs).",
+    "evidenceLines": [
+      "Effectively communicate knowledge and ideas to a range of audiences and settings using verbal and visual, analogue and digital representational techniques.",
+      "Interior Architecture at UNSW is positioned as a research-led creative practice which focuses on the design and agency of the inhabited interiors of the built environment, from the scale of the room to the scale of the city, from permanent to temporary spaces."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Authentic interior architectural studio projects solving commercial, residential, healthcare, and exhibition design briefs (Description, Careers).",
+    "evidenceLines": [
+      "Interior Architect in architecture and design practices, self-employed consultants, Corporate Interior Designers specialising in multi-storey residential, retail, hospitality, medical, hotel or exhibition design.",
+      "Initiate and lead innovative change using creativity, analytical skills and the development of new knowledge in the field of interior architecture."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Rigorous professional design ethics, sustainable building standards, universal accessibility, and culturally respectful spatial interventions (CILOs).",
+    "evidenceLines": [
+      "Engage responsibly and sensitively with cultural, historical and interdisciplinary global contexts in the synthesis of ethical and sustainable design solutions.",
+      "Demonstrate adaptability and responsibility as a collaborative scholar who is capable of research-led design enquiry and ethical design practices."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Professional architectural CAD/BIM software, building codes (NCC/BCA), accessibility compliance standards, and digital fabrication machinery (CILOs, Description).",
+    "evidenceLines": [
+      "Interpret and communicate complex, field-specific information and ideas; providing critique and reflection, utilising innovative and creative technologies and analysis.",
+      "Effectively communicate knowledge and ideas to a range of audiences and settings using verbal and visual, analogue and digital representational techniques."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Comprehensive four-year Level 8 Honours degree in Interior Architecture.",
+      "evidenceLines": [
+        "Interior Architecture at UNSW is positioned as a research-led creative practice which focuses on the design and agency of the inhabited interiors of the built environment, from the scale of the room to the scale of the city, from permanent to temporary spaces."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Advanced design studio progression and professional interior architecture competencies satisfied.",
+      "evidenceLines": [
+        "Initiate and lead innovative change using creativity, analytical skills and the development of new knowledge in the field of interior architecture."
+      ]
+    }
+  },
+  "ambiguities": [],
+  "notScoreable": []
+};
+
+export default record;

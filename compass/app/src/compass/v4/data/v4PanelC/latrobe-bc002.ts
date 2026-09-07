@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+    "evidenceLines": [
+      "Apply and critically evaluate prompting techniques and AI tools in diverse business contexts",
+      "Analyse and critically evaluate AI strategies and policies to support responsible adoption in varied business environments",
+      "Logistics and Supply Chain Management is a thriving field with exponential growth."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+    "evidenceLines": [
+      "Design and develop in teams, AI chatbot solutions that address complex business challenges, demonstrating alignment with ethical principles, governance frameworks, and cybersecurity standards.",
+      "Apply advanced analytics techniques and tools aligned with industry best practice to generate data-driven insights, design effective dashboards, and support evidence-based decision-making.",
+      "Our Graduate Certificate in Logistics and Supply Chain Management course equips you with the knowledge, skills, and strategic acumen needed to tackle real-world industry challenges and leverage emerging technologies for transformative logistics and supply chain practices."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+    "evidenceLines": [
+      "Subject: ARTIFICIAL INTELLIGENCE FOR BUSINESS (BUS4005)",
+      "Subject: PRINCIPLES OF BUSINESS ANALYTICS (BUS4011)",
+      "Evaluate cybersecurity, data protection, and ethical challenges in organisational analytics and AI, and apply frameworks to ensure responsible and compliant data practices."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+    "evidenceLines": [
+      "Critically examine the purpose and strategic value of analytics and AI in organisations to enhance decision-making, operational efficiency, and innovation.",
+      "Understand the importance of the acknowledgment and the referencing of sources",
+      "This course is designed to rapidly upskill individuals in just one (1) semester, offering a fundamental understanding of end-to-end supply chains."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+    "evidenceLines": [
+      "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+      "Subject: FOUNDATION OF LOGISTICS AND SUPPLY CHAIN MANAGEMENT (MGT4001)",
+      "Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+    "evidenceLines": [
+      "Recognise and understand academic integrity responsibilities.",
+      "Logistics and Supply Chain Management is a thriving field with exponential growth.",
+      "Our Graduate Certificate in Logistics and Supply Chain Management course equips you with the knowledge, skills, and strategic acumen needed to tackle real-world industry challenges and leverage emerging technologies for transformative logistics and supply chain practices."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+    "evidenceLines": [
+      "Propose informed solutions to real-world logistics and supply chain challenges, through both individual and collaborative efforts.",
+      "Subject: SUSTAINABLE PROCUREMENT AND SUPPLY PLANNING (MGT4004)",
+      "This course is designed to rapidly upskill individuals in just one (1) semester, offering a fundamental understanding of end-to-end supply chains."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "Logistics and Supply Chain Management is a thriving field with exponential growth. Our Graduate Certificate in Logistics and Supply Chain Management course equips you with the knowledge, skills, and strategic acumen needed to tackle real-world industry challenges and leverage emerging technologies for transformative logistics and supply chain practices. This course is designed to rapidly upskill individuals in just one (1) semester, offering a fundamental understanding of end-to-end supply chains. The course focuses on three core pillars:",
+      "Logistics and Supply Chain Management is a thriving field with exponential growth."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate in Logistics and Supply Chain Management.",
+      "evidenceLines": [
+        "Logistics and Supply Chain Management is a thriving field with exponential growth. Our Graduate Certificate in Logistics and Supply Chain Management course equips you with the knowledge, skills, and strategic acumen needed to tackle real-world industry challenges and leverage emerging technologies for transformative logistics and supply chain practices. This course is designed to rapidly upskill individuals in just one (1) semester, offering a fundamental understanding of end-to-end supply chains. The course focuses on three core pillars:",
+        "To qualify for the award of Graduate Certificate in Logistics and Supply Chain Management, students must complete 60 credit points consisting of:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in business and management.",
+      "evidenceLines": [
+        "Subject: ARTIFICIAL INTELLIGENCE FOR BUSINESS (BUS4005)",
+        "Apply and critically evaluate prompting techniques and AI tools in diverse business contexts"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

@@ -1,0 +1,91 @@
+{
+  "code": "anu-bspsy",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 10,
+    "workplace": 6,
+    "C1": {
+      "score": 2,
+      "rationale": "Collaborative group case analysis and cultivating cross-cultural interpersonal competence for client interactions across diverse communities (PSYC3025, PSYC2012).",
+      "evidenceLines": [
+        "Collaborate effectively in small groups to analyse case study content.",
+        "Students will also learn how to apply their knowledge of cross-cultural differences in their real lives and work, and develop an understanding of difficulties practitioners may face in working with clients whose culture is different from their own."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Integrates empirical research and clinical perspectives to formulate multi-factorial case conceptualisations of complex psychopathology (PSYC3025, PSYC3202).",
+      "evidenceLines": [
+        "This course offers an integrative approach to psychological disorders, in which abnormal behaviour and psychopathology are contrasted with \"normal\" functioning. The course uses case examples, video material, and knowledge from both research and clinical perspectives to help bring alive the challenges of diagnosis, assessment, conceptualisation, and treatment of major psychological disorders across the lifespan.",
+        "Students complete a laboratory report with a teamwork component."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Multi-model critical evaluation of psychopathology across biological, cognitive, social, and cultural dimensions, alongside diagnostic criteria (DSM-5) analysis (PSYC3025).",
+      "evidenceLines": [
+        "Critically evaluate and apply different theoretical models of psychopathology, including biological, psychological, social, and cultural perspectives.",
+        "Discuss issues and changes in clinical assessment and psychiatric classification (e.g., DSM-5).",
+        "Analyse and evaluate symptoms and aetiology associated with psychological disorders and demonstrate ability to apply this knowledge to culturally diverse case examples."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Critical reflection on cultural embedding and historical biases in psychological science and statistical measurement methodologies (PSYC3018, PSYC2012).",
+      "evidenceLines": [
+        "identify biases in the historic and current use of statistics, including in attempts to justify cultural hegemony, racist ideologies, and other forms of discrimination.",
+        "The aim of this course is to explore the concept of culture and demonstrate how psychological science is a product of the culture in which psychologists are embedded."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Engages with live in-person behavioral observation, laboratory experimentation, and statistical analysis execution (PSYC3018, PSYC3025).",
+      "evidenceLines": [
+        "implement statistical analyses in JASP and read and interpret data analysis output;",
+        "Collaborate effectively in small groups to analyse case study content."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Applies evidence-based diagnostic assessment, clinical classification, and etiology evaluation to authentic diverse case studies (PSYC3025).",
+      "evidenceLines": [
+        "Demonstrate preliminary knowledge and appreciate the evidence-based foundations of psychological treatments covered in this course.",
+        "Analyse and evaluate symptoms and aetiology associated with psychological disorders and demonstrate ability to apply this knowledge to culturally diverse case examples."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Grounds students in professional psychological ethics, culturally safe practice for Indigenous Australian clients, and awareness of historical ideological misuse (PSYC2012, PSYC3018).",
+      "evidenceLines": [
+        "Particular emphasis will be placed on Indigenous issues in psychology and the importance of understanding these in the context of working with Indigenous Australian people in practice and research.",
+        "identify biases in the historic and current use of statistics, including in attempts to justify cultural hegemony, racist ideologies, and other forms of discrimination."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Professional clinical classification standards (DSM-5) and specialized psychological statistical software (JASP) for clinical and behavioral research (PSYC3025, PSYC3018).",
+      "evidenceLines": [
+        "implement statistical analyses in JASP and read and interpret data analysis output;",
+        "Discuss issues and changes in clinical assessment and psychiatric classification (e.g., DSM-5)."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "APAC-accredited three-year psychology sequence covering cognitive, biological, developmental, and social psychology.",
+        "evidenceLines": [
+          "The primary focus of this course is onconceptualunderstanding of the various topics and the two approaches, with a secondary focus on implementation and use of ANOVA and MRC techniques (in JASP)."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Clinical assessment and evidence-based diagnostic classification requirements satisfied.",
+        "evidenceLines": [
+          "Discuss issues and changes in clinical assessment and psychiatric classification (e.g., DSM-5)."
+        ]
+      }
+    },
+    "ambiguities": [],
+    "notScoreable": []
+  }
+}

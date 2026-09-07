@@ -1,0 +1,102 @@
+{
+  "code": "monash-b6030",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in economics.",
+      "evidenceLines": [
+        "You can complete only one of the following units: ECC2551 or ETF2700 or ETC2440",
+        "You can complete only one of the following units: ECF5923 or ECC5901",
+        "This course provides professional education for those wishing to become economics professionals."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in economics.",
+      "evidenceLines": [
+        "You can complete only one of the following units: ECF5927 or ECC5900",
+        "You can complete only one of the following units: ETF5910 or ETC2410",
+        "It has a strong emphasis on developing analytical skills and offers a solid grounding and professional competence in aspects of commerce required for careers in the corporate sector, government and the professions."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within economics.",
+      "evidenceLines": [
+        "Subject: Mathematical economics (ECC2551)",
+        "Subject: Special topics in advanced economics (ECC5010)",
+        "You can complete only one of the following units: ECX5479 or ETC5341 or ETF5320"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in economics.",
+      "evidenceLines": [
+        "You can complete only one of the following units: ECX5479 or ETC5341 or ETF5320 or ETX5441",
+        "find the equilibrium outcomes in models of strategic interaction",
+        "The course will enable you to build a high level of expertise in economics."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in economics.",
+      "evidenceLines": [
+        "Subject: Economic growth: Causes and consequences (ECC5511)",
+        "Subject: Economics research project S1 (ECC5581)",
+        "use notions of sets, relations, and functions to model problems studied in various sub-fields of economics"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in economics.",
+      "evidenceLines": [
+        "set up and analyse simple problems involving dynamic optimisation",
+        "This course provides professional education for those wishing to become economics professionals.",
+        "It has a strong emphasis on developing analytical skills and offers a solid grounding and professional competence in aspects of commerce required for careers in the corporate sector, government and the professions."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in economics.",
+      "evidenceLines": [
+        "use single-variable and multi-variable calculus to solve unconstrained and constrained optimization problems",
+        "Subject: Economics research project S2 (ECC5582)",
+        "The course will enable you to build a high level of expertise in economics."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The Master of Economics\u00a0is structured in four parts: Part A. Advanced preparatory studies,\u00a0Part B. Core studies,\u00a0Part C. Discipline studies and\u00a0Part D. Elective studies",
+        "This course provides professional education for those wishing to become economics professionals."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Economics.",
+        "evidenceLines": [
+          "The Master of Economics\u00a0is structured in four parts: Part A. Advanced preparatory studies,\u00a0Part B. Core studies,\u00a0Part C. Discipline studies and\u00a0Part D. Elective studies",
+          "Part B. Core studies"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in economics.",
+        "evidenceLines": [
+          "Subject: Mathematical economics (ECC2551)",
+          "You can complete only one of the following units: ECC2551 or ETF2700 or ETC2440"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

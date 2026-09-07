@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in banking and finance.",
+    "evidenceLines": [
+      "48 credit points (eight units) of the following units and",
+      "24 credit points which includes two sets of the paired discipline units listed below. When you select the two sets, you must complete both units in that set.",
+      "This specialised program in Banking and Finance will equip you with knowledge and applied skills to manage money and investments in the dynamic landscape of the banking and finance industries."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in banking and finance.",
+    "evidenceLines": [
+      "FIRST SEMESTER: measure and interpret information relating to financial performance, financial position, liquidity and risk indicators of businesses SECOND SEMESTER: analyse financial and non-financial information to inform planning, budgeting, and performance management",
+      "FIRST SEMESTER: demonstrate an understanding of various forms of business organisation SECOND SEMESTER: explain the role of accounting in various forms of business organisation and its contribution to effective managerial decision-making",
+      "You will learn about key banking and finance concepts, including financial management, investments, risk management, international finance, and commercial and investment banking."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within banking and finance.",
+    "evidenceLines": [
+      "Subject: Accounting fundamentals (ACF1001)",
+      "Subject: Introduction to financial accounting (ACF1100)",
+      "FIRST SEMESTER: apply financial and management accounting principles in the interpretation of financial statements SECOND SEMESTER: apply core financial and management accounting principles in evaluations of financial statements and business performance"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in banking and finance.",
+    "evidenceLines": [
+      "FIRST SEMESTER: develop the ability to work effectively in a team and demonstrate the development of judgement, and skills in problem solving, critical thinking and analysis. SECOND SEMESTER: demonstrate effective team communication and collaboration by contributing to shared problem-solving and group learning processes.",
+      "FIRST SEMESTER: measure and interpret financial and non-financial information for managers to use in planning, decision making and control SECOND SEMESTER: evaluate business decisions and accounting practices in relation to sustainability, ethics, inclusivity, and social and environmental responsibility",
+      "This program will equip you with the skills to pursue diverse banking and finance career opportunities, such as corporate treasurer, securities dealer, commercial and investment banker, financial analyst, merger and acquisitions specialist, risk consultant, fund manager and portfolio manager."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in banking and finance.",
+    "evidenceLines": [
+      "Subject: Foundations of finance (BFF1001)",
+      "Subject: Business finance (BFF2140)",
+      "3 - Examination: 40% (Hurdle: None)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in banking and finance.",
+    "evidenceLines": [
+      "1 - Project: 30% (Hurdle: None)",
+      "This specialised program in Banking and Finance will equip you with knowledge and applied skills to manage money and investments in the dynamic landscape of the banking and finance industries.",
+      "You will learn about key banking and finance concepts, including financial management, investments, risk management, international finance, and commercial and investment banking."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in banking and finance.",
+    "evidenceLines": [
+      "2 - Exercise: 30% (Hurdle: None)",
+      "Subject: Commercial banking and finance (BFF2401)",
+      "This program will equip you with the skills to pursue diverse banking and finance career opportunities, such as corporate treasurer, securities dealer, commercial and investment banker, financial analyst, merger and acquisitions specialist, risk consultant, fund manager and portfolio manager."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The course is structured in four parts: Part A. Core studies, Part B. Discipline studies, Part C. Capstone studies, and Part D. Elective studies.",
+      "This specialised program in Banking and Finance will equip you with knowledge and applied skills to manage money and investments in the dynamic landscape of the banking and finance industries."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Banking and Finance.",
+      "evidenceLines": [
+        "The course is structured in four parts: Part A. Core studies, Part B. Discipline studies, Part C. Capstone studies, and Part D. Elective studies.",
+        "Part A. Core studies"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in banking and finance.",
+      "evidenceLines": [
+        "Subject: Accounting fundamentals (ACF1001)",
+        "48 credit points (eight units) of the following units and"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

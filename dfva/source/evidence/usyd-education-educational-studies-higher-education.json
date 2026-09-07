@@ -1,0 +1,102 @@
+{
+  "code": "usyd-education-educational-studies-higher-education",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education.",
+      "evidenceLines": [
+        "**Institution**: The University of Sydney (USYD)",
+        "**Course / Program Identifier**: education-educational-studies-higher-education",
+        "- **Institution**: The University of Sydney (USYD)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Handbook URL**: https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/education-educational-studies-higher-education.html",
+        "- **Course / Program Identifier**: education-educational-studies-higher-education"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education.",
+      "evidenceLines": [
+        "Subject: University Teaching and Learning (EDPR5001)",
+        "Subject: Reflection and Practice in University T and L (EDPR5002)",
+        "Critically evaluate foundational principles, evidence bases, and contemporary methodologies in university teaching and learning."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education.",
+      "evidenceLines": [
+        "Synthesise disciplinary knowledge to resolve complex real-world challenges.",
+        "Communicate evidence-based findings effectively to technical and professional stakeholders.",
+        "- **Handbook URL**: https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/education-educational-studies-higher-education.html"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education.",
+      "evidenceLines": [
+        "Subject: University Teaching Portfolios (EDPR5003)",
+        "Subject: Developing Integ eLearning Env Higher Ed (EDPR6012)",
+        "Apply ethical frameworks and professional standards in practice."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education.",
+      "evidenceLines": [
+        "Critically evaluate foundational principles, evidence bases, and contemporary methodologies in reflection and practice in university t and l.",
+        "- **Institution**: The University of Sydney (USYD)",
+        "- **Course / Program Identifier**: education-educational-studies-higher-education"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education.",
+      "evidenceLines": [
+        "Synthesise disciplinary knowledge to resolve complex real-world challenges.",
+        "Subject: Developing Integ eLearning Env Higher Ed (EDPR6012)",
+        "- **Handbook URL**: https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/education-educational-studies-higher-education.html"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "Students complete 24 credit points, including:",
+        "- **Institution**: The University of Sydney (USYD)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Education.",
+        "evidenceLines": [
+          "Students complete 24 credit points, including:",
+          "(a) 24 credit points of core units of study"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in teacher education.",
+        "evidenceLines": [
+          "Subject: University Teaching and Learning (EDPR5001)",
+          "**Institution**: The University of Sydney (USYD)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

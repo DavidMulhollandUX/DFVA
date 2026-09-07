@@ -1,0 +1,102 @@
+{
+  "code": "adelaide-bags_bagricsci",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in agriculture.",
+      "evidenceLines": [
+        "**Institution**: The University of Adelaide",
+        "**Program Identifier / Slug**: bags_bagricsci",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in agriculture.",
+      "evidenceLines": [
+        "**Academic Calendar Year**: 2025/2026",
+        "**Faculty**: Faculty of Sciences, Engineering and Technology (SET)",
+        "- **Program Identifier / Slug**: bags_bagricsci"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within agriculture.",
+      "evidenceLines": [
+        "Subject: Agricultural Systems (AGRI1002)",
+        "Subject: Agricultural Systems I (AGRI1009)",
+        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/bags_bagricsci"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in agriculture.",
+      "evidenceLines": [
+        "Understand the biophysical and socioeconomic factors underpinning the major agricultural industries in southern Australia and how they inter-relate with one another",
+        "Understand the essential features of sustainable agricultural systems and the importance of physical and biological resource base as the foundation of sustainable production systems.",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in agriculture.",
+      "evidenceLines": [
+        "Subject: Biology I: Molecules, Genes and Cells (BIOL1022)",
+        "Subject: Biology 1B: Evolution and Diversity of Organisms (BIOL1004)",
+        "Develop a systems approach to agricultural science, where knowledge from different disciplines is integrated to develop an improved understanding of the operation of production practices in agriculture."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in agriculture.",
+      "evidenceLines": [
+        "Know and understand essential key concepts and terms used in professional practice",
+        "- **Institution**: The University of Adelaide",
+        "- **Program Identifier / Slug**: bags_bagricsci"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in agriculture.",
+      "evidenceLines": [
+        "Find, collate and critically evaluate information from different sources as an individual or as part of a team",
+        "Subject: Biology I: Organisms (BIOL1024)",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "This program will provide students with skills and knowledge in the physical, biological, technological and economic bases of modern agricultural systems. This program is designed to demonstrate how scientific and economic principles are applied to manage agricultural systems and the natural resources on which these systems depend. The first year develops basic skills in chemistry, biology and statistics as well as offering core courses in soils and agriculture. In the second and third year students study crop science, livestock science, soil science and agribusiness. Some specialisation is possible in the third year. Field trips and excursions are incorporated to expose students to best practice in the industry while practical skills are developed through a professional experience. While the majority of the degree is based at the Waite campus, education in livestock production and the practical component of agronomy is based at the Roseworthy campus.",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Agricultural Sciences.",
+        "evidenceLines": [
+          "This program will provide students with skills and knowledge in the physical, biological, technological and economic bases of modern agricultural systems. This program is designed to demonstrate how scientific and economic principles are applied to manage agricultural systems and the natural resources on which these systems depend. The first year develops basic skills in chemistry, biology and statistics as well as offering core courses in soils and agriculture. In the second and third year students study crop science, livestock science, soil science and agribusiness. Some specialisation is possible in the third year. Field trips and excursions are incorporated to expose students to best practice in the industry while practical skills are developed through a professional experience. While the majority of the degree is based at the Waite campus, education in livestock production and the practical component of agronomy is based at the Roseworthy campus.",
+          "The Bachelor of Agricultural Sciences is an AQF Level 7 program with a standard full-time duration of 3 years."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in agriculture.",
+        "evidenceLines": [
+          "Subject: Agricultural Systems (AGRI1002)",
+          "**Institution**: The University of Adelaide"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

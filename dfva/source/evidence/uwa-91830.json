@@ -1,0 +1,103 @@
+{
+  "code": "uwa-91830",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 14,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: High-stakes clinical communication with surgical patients, operative briefing of theatre teams, and professional health leadership.",
+      "evidenceLines": [
+        "Year 3, as part of the surgical coursework stream, students undertake placements in tertiary hospitals, surgical clinics and surgical theatres to develop their skills in communication, patient assessment, therapeutics, pre-operative workup, post-operative care as well as basic surgical skills and procedures.",
+        "The Doctor of Podiatric Surgery (DPS) is a 5-year part-time postgraduate course for registered general podiatrists wishing to become podiatric surgeons.",
+        "The outcome, content and teaching conducted in this program are based on five domains to produce a: 1) podiatric surgeon, 2) professional and ethical practitioner, 3) communicator and collaborator, 4) lifelong learner and 5) quality and risk manager."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical surgical decision-making, clinical risk evaluation, perioperative pharmacotherapeutic safety, and surgical case audit.",
+      "evidenceLines": [
+        "The final year of study solely focuses on the surgical coursework stream. As students are becoming high critical thinkers by this stage, building on the skills taught previously, the program focuses on developing skills in complex patient management, the deteriorating patient, post-operative complications, therapeutics and advanced surgical procedures.",
+        "The structure and duration of the course has been careful planned as two streams, surgical and research streams, which run concurrently for the majority of the program. This is to ensure students are taught progressively with adequate time to consolidate surgical critical thinking skills, hands-on surgical skills and develop high-quality research skills.",
+        "The outcome, content and teaching conducted in this program are based on five domains to produce a: 1) podiatric surgeon, 2) professional and ethical practitioner, 3) communicator and collaborator, 4) lifelong learner and 5) quality and risk manager."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Applied radiographic medical imaging interpretation, anatomical biomechanics, surgical instrumentation metrics, and gait diagnostics.",
+      "evidenceLines": [
+        "Subject: Foundations of Podiatric Surgery 1 (PODI5511)",
+        "Subject: Foundations of Podiatric Surgery 2 (PODI5512)",
+        "The first year of the surgical coursework stream focuses on foundation topics such as body systems, pharmacology, foot and ankle pathology, interpretation of medical imaging as well as scheduled medicines and their use in podiatric surgery."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Complex clinical synthesis across reconstructive foot/ankle surgery, advanced pharmacology, anaesthesia, and systemic pathology.",
+      "evidenceLines": [
+        "The final year of study solely focuses on the surgical coursework stream. As students are becoming high critical thinkers by this stage, building on the skills taught previously, the program focuses on developing skills in complex patient management, the deteriorating patient, post-operative complications, therapeutics and advanced surgical procedures.",
+        "The first year of the surgical coursework stream focuses on foundation topics such as body systems, pharmacology, foot and ankle pathology, interpretation of medical imaging as well as scheduled medicines and their use in podiatric surgery.",
+        "The Doctor of Podiatric Surgery (DPS) is a 5-year part-time postgraduate course for registered general podiatrists wishing to become podiatric surgeons."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Operative reconstructive surgical execution, cadaveric and clinical surgical procedures, and completion of an independent surgical research thesis.",
+      "evidenceLines": [
+        "Subject: Introduction to Surgical Skills (PODI5515)",
+        "Subject: Surgical Practicum 1A (PODI6531)",
+        "Subject: Surgical Practicum 3C (PODI6543)"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Accredited by the Podiatry Accreditation Committee, Ahpra, leading directly to specialist registration as a podiatric surgeon.",
+      "evidenceLines": [
+        "The Doctor of Podiatric Surgery (91830) is accredited by the Podiatry Accreditation Committee, Ahpra.",
+        "The outcome, content and teaching conducted in this program are based on five domains to produce a: 1) podiatric surgeon, 2) professional and ethical practitioner, 3) communicator and collaborator, 4) lifelong learner and 5) quality and risk manager.",
+        "The first year of the surgical coursework stream focuses on foundation topics such as body systems, pharmacology, foot and ankle pathology, interpretation of medical imaging as well as scheduled medicines and their use in podiatric surgery."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic clinical hospital surgical management, direct operative cases, pre- and post-operative patient rounds, and surgical case logbooks.",
+      "evidenceLines": [
+        "Year 3, as part of the surgical coursework stream, students undertake placements in tertiary hospitals, surgical clinics and surgical theatres to develop their skills in communication, patient assessment, therapeutics, pre-operative workup, post-operative care as well as basic surgical skills and procedures.",
+        "The final year of study solely focuses on the surgical coursework stream. As students are becoming high critical thinkers by this stage, building on the skills taught previously, the program focuses on developing skills in complex patient management, the deteriorating patient, post-operative complications, therapeutics and advanced surgical procedures.",
+        "In Year 2, under the surgical coursework stream, students undertake units that assist with their transition to the surgical learning environment. These units cover theoretical knowledge of surgical procedures, theatre etiquette, perioperative as well as therapeutic management of the patient."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Extensive compulsory hospital rotations and surgical clerkships across tertiary hospitals, clinics, and surgical theatres.",
+      "evidenceLines": [
+        "Year 3, as part of the surgical coursework stream, students undertake placements in tertiary hospitals, surgical clinics and surgical theatres to develop their skills in communication, patient assessment, therapeutics, pre-operative workup, post-operative care as well as basic surgical skills and procedures.",
+        "Transitioning from Year 2 to 3, students are on placements during the summer break to ensure clinical exposure is uninterrupted during their training.",
+        "Subject: Surgical Practicum 1A (PODI6531)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A specialist professional doctorate delivering comprehensive clinical, surgical, and research training.",
+        "evidenceLines": [
+          "Take all units (72 points):",
+          "The Doctor of Podiatric Surgery (DPS) is a 5-year part-time postgraduate course for registered general podiatrists wishing to become podiatric surgeons."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Accredited specialist professional doctorate structured through advanced surgical skills, clinical rotations, and research.",
+        "evidenceLines": [
+          "The Doctor of Podiatric Surgery (91830) is accredited by the Podiatry Accreditation Committee, Ahpra.",
+          "The Doctor of Podiatric Surgery (DPS) is a 5-year part-time postgraduate course for registered general podiatrists wishing to become podiatric surgeons."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for surgical imaging and biomechanics without theoretical computer science.",
+      "W3: Scored at Level 3 due to mandatory multi-year clinical surgical rotations in accredited hospital settings."
+    ],
+    "notScoreable": []
+  }
+}

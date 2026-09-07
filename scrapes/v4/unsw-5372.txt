@@ -1,0 +1,245 @@
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/programs/2026/5372 =====
+# Health Data Science (5372)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 5372
+- **Academic Year**: 2026
+- **Study Level**: Postgraduate
+- **AQF Level**: Level 8
+- **Total Units / Units of Credit (UOC)**: 48
+- **Delivery Mode**: Fully online, Face-to-face (includes blended)
+- **CRICOS Code**: 096226k
+- **Academic Organisation**: School of Biomedical Sciences
+- **Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/5372
+
+## Description
+Health Data Science (HDS) is the science and art of generating data-driven solutions through comprehension of complex real-world health problems, employing critical thinking and analytics to derive knowledge from (big) data. HDS is an emergent discipline, arising at the intersection of (bio)statistics, computer science, and health. The Graduate Diploma Health Data Science covers the second part of the HDS pipeline concerned with data analytics, machine learning and data mining, data modelling, and communication including data visualisation.
+
+Graduate Certificate in Health Data Science graduates will be well suited to an identified area of workforce demand, in both public and private health sectors. High-achieving graduates will have potential for consideration of further study in MSc in Health Data Science (9372). The program is designed to appeal to both those new to Health Data Science and those already working in the field looking to upskill. The Graduate Diploma is appropriate for both an Australian and international audience. Potential students from any undergraduate background and/ or who possess relevant work experience will be considered for admission.
+
+The program can be completed in 12 months full-time or part-time over 3 years. The 48 unit of credit coursework program is fully articulated, with options for further study at MSc level (further 24 UoC).
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+3. Cognitive skills and critical thinking - Graduates will be able to apply Statistical Thinking to synthesise and critically evaluate complex Health Data Science concepts.
+4. Communication, adaptive and interactional skills - Graduates will be able to communicate knowledge arising from Health Data Science insights to diverse audiences, in a variety of media including data visualisation (Vis), oral and written word.
+1. Global outlook - Graduates will be able to demonstrate a global perspective for the potential of Health Data Science to positively impact health at both individual and community levels.
+5. Enquiry-based learning - Graduates will be able to generate data-driven solutions through comprehension of real-world health problems, employing critical thinking and analytics to derive knowledge from (big) data.
+2. Advanced disciplinary knowledge and practice - Graduates will be able to apply Health Data Science principles to novel contexts.
+
+## Career Opportunities & Employment Areas
+The Graduate Diploma in Health Data Science aims to graduate professionals with a sound grounding in Health Data Science, appealing to an identified area of workforce need.  Thus graduates will be well positioned for a range of roles in both the public and private healthcare sectors.  High-achieving students will also be well suited to further academic study, particularly at MSc level.
+
+## Program Structure & Degree Requirements
+Students must complete 48 Units of Credit (UOC) structured across the following academic components:
+
+### Core Courses (48 UOC)
+Students must take 48 UOC of the following courses.
+
+#### Core Courses
+- **HDAT9100**: Context of Health Data Science [6 UOC]
+- **HDAT9500**: Health Data Analytics: Machine Learning I [6 UOC]
+- **HDAT9800**: Visualisation and Communication of Health Data [6 UOC]
+- **HDAT9600**: Health Data Analytics: Statistical Modelling I [6 UOC]
+- **HDAT9400**: Management and Curation of Health Data [6 UOC]
+- **HDAT9700**: Health Data Analytics: Statistical Modelling II [6 UOC]
+- **HDAT9200**: Statistical Foundations for Health Data Science [6 UOC]
+
+#### One of the following:
+- **HDAT9300**: Computing for Health Data Science [6 UOC]
+- **COMP9021**: Principles of Programming [6 UOC]
+
+## Progression & Academic Rules
+Students enrolled in the Grad Dip Health Data Science program may exit early at the Graduate Certificate 7372 program if they meet the requirements of this degree.
+
+## Admission Requirements
+**Limitations on Recognition of Prior Learning**:
+Recognition of prior learning (RPL) is awarded in accordance with UNSW 'Recognition of Prior Learning (Coursework Programs) Policy' and 'Recognition of Prior Learning Procedure', for both program admission and credit.
+
+In the case of HDAT9200 and HDAT9300, combinations of both formal and non-formal learning, and RPL accepted for program entry will be considered towards credit.  For all other courses in the program, non-conferred formal learning beyond that acknowledged for program entry will be considered towards credit.  Recognition of formal learning is assessed for equivalence to an entire (HDAT) course on a case-by-case basis.  Recognition of non-formal learning will result from successful completion of an equivalent course from our suite of Continual Professional Development.
+
+Credit granted will yield specified credit for the equivalent 6 UoC course.  Reduction in the total volume of learning due to advance standing is limited to a maximum of 50% of the total UoC for the program.
+
+**Minimum Entry Requirements**:
+The entry criteria are:
+
+- an undergraduate degree in a cognate discipline
+
+- a degree in a cognate or non-cognate discipline at honours level (or above)
+
+Cognate discipline is defined as a degree in one of the following disciplines:
+
+- a science allied with medicine, including
+
+medicine
+
+nursing
+
+dentistry
+
+physiotherapy
+
+optometry
+
+biomedical/ biological science
+
+pharmacy
+
+public health
+
+veterinary science
+
+biology
+
+biochemistry
+
+statistics
+
+mathematical sciences
+
+computer science
+
+psychology
+
+(health) economics
+
+data science
+
+other (case-by-case basis)
+
+Recognition of prior learning (RPL) is awarded in accordance with UNSW 'Recognition of Prior Learning (Coursework Programs) Policy' and 'Recognition of Prior Learning Procedure' for both program admission and credit.
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/COMP9021 =====
+Subject: Principles of Programming (COMP9021)
+Credit Points: 6
+Overview: This course provides students with solid conceptual knowledge and practical skills of both generic programming techniques and Python programming, to be used effectively in the many specialised courses that expect students to have acquired strong enough programming skills and well mastered the Python language. The features of the language are covered to a significant depth, and there is a strong emphasis on problem solving, from a broad base of application domains, with quite a few that involve mathematical notions. Like all foundation courses for postgraduate students, there is a lot of contents to study in limited time and the learning curve is not gentle. Still the course does not assume any prior knowledge of programming in general, or of Python programming in particular, as its content is self-contained for students with the expected mathematical background.
+Learning Outcomes:
+- Apply appropriate tools, in particular for editing, testing and debugging.
+- Apply Python language, including advanced syntax and programming techniques.
+- Design, implement and test programs written in a language with procedural, object-oriented, and functional constructs.
+- Create clear, reliable, well-structured, well-tested, well-documented programs.
+- Analyse what happens behind the scene when operating on Python data types, with an understanding of efficiency and memory use.
+- Use fundamental data structures and algorithms.
+- Design programs to solve small to medium scale problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/HDAT9100 =====
+Subject: Context of Health Data Science (HDAT9100)
+Credit Points: 6
+Overview: Today, health data is measured in trillions of gigabytes and is collected by health systems (such as GPs, pharmacies, hospitals, and allied health care) as well as wearable devices. But this data is often collected for different purposes and has specific uses. What data exist in the Australian health system, and how are they used currently? This course introduces how data are generated and used in the Australian Health System. We look at how health outcomes can be measured and reported in various forms of health data, and how these health data can reveal inequalities in health. The course describes the major sources of health data, including those relating to primary care, hospital admissions and prescription medicines. We will look at how this and other information can be used by the health data scientist to create evidence for policy and research.
+Learning Outcomes:
+- Describe major data sources which are generated and used in the Australian Health System
+- Demonstrate the use of major health data sources to conduct enquiries to inform research and policy questions
+- Apply the knowledge of the health delivery system and data sources to novel health problems.
+- Analyse the structure and operation of Australian health delivery systems in a global and community context.
+- Analyse the role of social determinants of health from the perspective of the Australian health system
+- Demonstrate the ability to communicate findings to a variety of stakeholders.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal -: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/HDAT9200 =====
+Subject: Statistical Foundations for Health Data Science (HDAT9200)
+Credit Points: 6
+Overview: Health data is often complex and noisy. Obtaining actionable insights (or revealing the hidden signals) from such data requires the utilisation of probabilistic concepts. Thus a solid understanding of the principles of statistics is intrinsic to Health Data Science. The aim of this course to introduce the foundations required to understand such phenomena.
+Learning Outcomes:
+- Evaluate the role of Causation, Bias, and Confounding in Epidemiology.
+- Investigate epidemiological risks and rates.
+- Appraise probability distributions and their summaries.
+- Critique the Frequentist and Bayesian frameworks of probability.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/HDAT9300 =====
+Subject: Computing for Health Data Science (HDAT9300)
+Credit Points: 6
+Overview: Computing now pervades nearly every aspect of modern life, including health care delivery and health services management. The objective of this course is to develop 'computational thinking' in health data science students, by providing a thorough and principled introduction to computer programming, algorithms, data structures and software engineering best practices. The ability to write clear, efficient and correct computer code is at the core of most data science practice and is a foundation skill set. In this course, you will learn to program in the Python language through tackling health-related problems. Topics include data types, functions, data processing, simulation, software development and program testing and debugging. Theoretical principles are reinforced with extensive ‘hands-on’ coding in Python, including the NumPy and Pandas packages. Core material will be delivered through short lectures and readings supported by interactive coding activities.
+Learning Outcomes:
+- Conduct extensive testing and debugging of Python programs.
+- Appraise good (Pythonic) coding practice, including code documentation.
+- Implement algorithms using the Python programming language.
+- Design algorithms to solve computation problems.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/HDAT9400 =====
+Subject: Management and Curation of Health Data (HDAT9400)
+Credit Points: 6
+Overview: This course is designed to equip you with the skills required to collect or obtain data, design data management strategies aligned with best practice, and appreciate the day to day practicalities of data curation for sound data management. You will develop data wrangling skills required to assemble data suitable for analysis and research purposes, including data from linkage projects. Data wrangling skills will focus on the key areas of data security, data exploration, documentation of data (for example data dictionaries) and data management, with the ultimate aim of creating analysis-ready datasets and ensuring reproducible results.
+Learning Outcomes:
+- Discuss data linkage strategies and the process of applying for linked data.
+- Design (and document) data management plans involving data dictionaries and generation of metadata.
+- Apply the concepts of confidentiality, privacy and security in managing health data.
+- Generate syntax (code) required to produce analysis ready datasets.
+- Evaluate data quality.
+- Develop and implement data merging and cleaning rules involving linked data.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/HDAT9500 =====
+Subject: Health Data Analytics: Machine Learning I (HDAT9500)
+Credit Points: 6
+Overview: Advances in Artificial Intelligence (AI) are reshaping healthcare, with machine learning models increasingly used for tasks ranging from supporting clinical decision-making to improving diagnostic accuracy. Understanding how these systems work is becoming essential for anyone working with health data. This course provides an introduction to machine learning in health. It will equip you with the fundamental knowledge and practical skills needed to answer real-world health data science questions using machine learning techniques. This course is not only about algorithms and techniques. You will learn about the health data science workflow from beginning to end, from identifying the right health question to designing an appropriate analytical approach. You will also learn to extract meaningful conclusions, remembering that behind our algorithmic outputs are patients, not just numbers. By the end of the course, you will not only understand key machine learning techniques used in health, but also develop the capacity to continue learning and advancing your expertise in AI and machine learning beyond the classroom.
+Learning Outcomes:
+- Evaluate health questions and classify them according to standard protocols
+- Reflect on human and ethical implications and the impact they have on various stakeholders to make recommendations for the deployment of appropriate machine learning solutions
+- Assess the performance of machine learning models using appropriate metrics and evaluate them against established standards and specifications in the context of specific health data questions.
+- Apply machine learning modelling techniques to solve health data questions
+- Apply the principles of data engineering to health datasets
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/HDAT9600 =====
+Subject: Health Data Analytics: Statistical Modelling I (HDAT9600)
+Credit Points: 6
+Overview: This course is offered in two modes: either face to face (on-campus) or fully online. This course provides a sound grounding in the theory and practice of fitting statistical regression models, with particular focus on the flexibility of generalised linear models (GLMs). Starting with linear regression, a major theme of the course is best practice in model fitting, including thorough exploratory data analysis, model assumption checking, data preparation and transformation, and careful attention to model adequacy and diagnostics. Emphasis is given to content-aware, purposive model building to inform model parameter selection. Logistic, binomial and Poisson models for count data are also covered. Effect modifications (interactions) and their meaning in a health context are explored. The presentation and visualisation of statistical models is considered, with emphasis on the explanatory insights that can be gained from well-constructed models. The final part of the course covers survival analysis and other time-to-event models.
+Learning Outcomes:
+- Compose narratives of generalised linear model interpretation within the framework of statistical inference
+- Visualise ‘standard’ statistical techniques as special simplified cases of the generalised linear model
+- Appraise model fit using a variety of model diagnostics
+- Construct generalised linear models with appropriate covariate sets in health research scenarios
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/HDAT9700 =====
+Subject: Health Data Analytics: Statistical Modelling II (HDAT9700)
+Credit Points: 6
+Overview: Sophisticated modelling techniques are essential for the analysis of real-world health data. Building on Health Data Analytics: Statistical Modelling I (HDAT9600), this course expands the statistical toolkit and broadens your understanding of relevant statistical approaches for the analysis of realistically complex data structures and research questions. The course is aimed at those currently working or planning on working in health or a health-related field, and who are interested in applying advanced statistical methods to analyse complex data. Topics covered in this course include multilevel models for hierarchical data; analysis of time series and longitudinal data; causal directed acyclic graphs (DAGs) and quasi-experimental approaches to inform causal analysis of observational data; and multiple imputation for missing values. Content is delivered through a combination of online readings, expert guest lectures and practical hands-on tutorials. Statistical concepts are illustrated with a variety of health examples, and you will learn how to implement methods using leading statistical software.
+Learning Outcomes:
+- Appraise model fit using a variety of model diagnostics.
+- Compose code using appropriate statistical software to run a range of sophisticated analytic techniques.
+- Critique the relative merits of a range of statistical models for analysing health research data.
+- Construct statistical models with appropriate data structures to address distinct health research questions.
+- Interpret the fitted model parameters from a range of statistical models.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/HDAT9800 =====
+Subject: Visualisation and Communication of Health Data (HDAT9800)
+Credit Points: 6
+Overview: Health Data Scientists need to present information to audiences across a range of backgrounds and spanning a spectrum from non-practitioners of a discipline to highly informed and expert audiences. Effective communication across different media types is essential. Appropriate data visualisation techniques can greatly enhance communication and increase the effectiveness of communication. Increasingly the scientific community has become aware of problems regarding lack of transparency and reproducibility. This course takes a toolbox approach to creating appropriate, reproducible, and transparent analyses and visualisations. The R software ecosystems is used primarily but the course also covers the use of Python and other software platforms for visualisation and communication. The course presents useful best-practice data science analysis and visualisation techniques with a focus on different types of data visualisations. Theory aspects of the course cover basic understanding of how people process information, and effective communication of technical and quantitative information to different types of audience, including people with perceptual disabilities.
+Learning Outcomes:
+- Design effective static visualisations for communicating health data and research findings
+- Design effective static and interactive visualisations of quantitative data including geospatial data
+- Create effective interactive online data analysis and visualisation tools
+- Employ best-practice for managing project code and data artefacts
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+

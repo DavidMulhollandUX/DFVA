@@ -1,0 +1,102 @@
+{
+  "code": "usyd-data-analytics",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science, n.e.c..",
+      "evidenceLines": [
+        "**Institution**: The University of Sydney (USYD)",
+        "**Course / Program Identifier**: data-analytics",
+        "- **Institution**: The University of Sydney (USYD)"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science, n.e.c..",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Faculty**: science-pg",
+        "- **Course / Program Identifier**: data-analytics"
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science, n.e.c..",
+      "evidenceLines": [
+        "Subject: Machine Learning and Data Mining (OCMP5318)",
+        "Subject: Deep Learning (OCMP5329)",
+        "**Handbook URL**: https://www.sydney.edu.au/handbooks/science-pg/coursework/data-analytics.html"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science, n.e.c..",
+      "evidenceLines": [
+        "LO1 . Students will be able to describe the basic principles, strengths, weaknesses and applicability of machine learning algorithms for solving classification, regression, clustering and reinforcement learning tasks.",
+        "LO2 . Students will be able to design machine learning algorithms through practical experience in designing, implementing and evaluation machine learning algorithms.",
+        "- **Handbook URL**: https://www.sydney.edu.au/handbooks/science-pg/coursework/data-analytics.html"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science, n.e.c..",
+      "evidenceLines": [
+        "Subject: Data Analytics Foundations (ODAT5011)",
+        "Subject: Data Visualisation and Communication (ODAT5012)",
+        "LO3 . Students will be able to design machine learning algorithms for solving classification, regression, clustering, and reinforcement learning tasks using machine learning software and libraries."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science, n.e.c..",
+      "evidenceLines": [
+        "LO4 . Students will be able to present and interpret data and information in verbal and written form.",
+        "- **Institution**: The University of Sydney (USYD)",
+        "- **Course / Program Identifier**: data-analytics"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science, n.e.c..",
+      "evidenceLines": [
+        "Mid-Term Quiz Mid-Term Quiz: 10%: Week 04% (Hurdle: False)",
+        "Subject: Data Wrangling and Databases (ODAT5013)",
+        "- **Handbook URL**: https://www.sydney.edu.au/handbooks/science-pg/coursework/data-analytics.html"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "To qualify for the award of the Master of Data Analytics, a candidate must complete 72 credit points, comprising:",
+        "- **Institution**: The University of Sydney (USYD)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Data Analytics.",
+        "evidenceLines": [
+          "To qualify for the award of the Master of Data Analytics, a candidate must complete 72 credit points, comprising:",
+          "(i) 42 credit points of core units"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in computer science, n.e.c..",
+        "evidenceLines": [
+          "Subject: Machine Learning and Data Mining (OCMP5318)",
+          "**Institution**: The University of Sydney (USYD)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

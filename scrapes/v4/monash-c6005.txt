@@ -1,0 +1,346 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/C6005 =====
+## Master of Information Technology Systems
+##### C6005
+##### 72 credit points
+You are viewing the 2026 version
+
+### Overview
+The Master of Information Technology Systems is a program in information technology with two specialisations, advanced information technology applications and practice with a focus on network computing for students who have a first qualification in a technical information technology field. The second specialisation is in artificial intelligence, which has a focus on deep learning, modern optimisation techniques, natural language process and human computer interactions.
+
+It is only offered in partnership with Southeast University China as part of an international double degree that enables you to complete the requirements of the Monash Master of Information Technology Systems as well as a second masters degree with Southeast University (SEU).
+
+### AQF level
+Level 9 - Master's Degree (Coursework)
+### CRICOS code
+077239G 
+### Post-nominals
+MInfoTechSys 
+### Course duration (full time)
+
+
+### Structure
+This course is structured in two parts: Part A. Advanced information technology studies and Part B. Core master's studies in either Advanced information technology applications and practice, or Artificial intelligence.
+
+Course progression map
+
+The course progression map provides guidance on unit enrolment for each semester of study.
+
+### Requirements
+The course comprises 72 points structured into two parts: Part A. Advanced information technology studies (24 points) and Part B. Advanced information technology applications and practice, or Artificial intelligence (48 points).
+
+Units are 6 points unless otherwise stated.
+
+Part A. Core studies (24 points)
+
+Students at Southeast University, China, receive block credit for masters level study at Southeast University (24 points)
+
+Part B. Specialist studies (48 points)
+
+You must complete one of the specialisations below:
+
+Advanced information technology applications and practice
+
+  * FIT5032 Internet applications development
+
+  * FIT5037 Network security
+
+  * FIT5047 Fundamentals to artificial intelligence
+
+  * FIT5136 Software engineering
+
+  * FIT5163 Introduction to cryptography for cybersecurity
+
+  * FIT5190 Introduction to IT research methods
+
+  * FIT5225 Cloud computing and security
+
+  * FIT5238 Information technology systems capstone project
+
+Artificial intelligence
+
+  * FIT5047 Fundamentals of artificial intelligence
+
+  * FIT5190 Introduction to IT research methods
+
+  * FIT5201 Machine learning
+
+  * FIT5215 Deep learning
+
+  * FIT5217 Natural language processing
+
+  * FIT5222 Planning and automated reasoning
+
+  * FIT5226 Multi-agent systems and collective behaviour
+
+  * FIT5238 Information technology systems capstone project
+
+### Course structure
+72 credit points
+**Part B. Specialist studies** **48 credit points**
+You must complete one of the following specialisations
+  **Artificial intelligence** **48 credit points**
+  You must complete the following units
+    [ _arrow_forward_ FIT5226 Multi agent systems and collective behaviour ](https://handbook.monash.edu/2026/units/FIT5226)
+    [ _arrow_forward_ FIT5222 Planning and automated reasoning ](https://handbook.monash.edu/2026/units/FIT5222)
+    [ _arrow_forward_ FIT5238 Information technology systems capstone project ](https://handbook.monash.edu/2026/units/FIT5238)
+    [ _arrow_forward_ FIT5217 Natural language processing ](https://handbook.monash.edu/2026/units/FIT5217)
+    [ _arrow_forward_ FIT5201 Machine learning ](https://handbook.monash.edu/2026/units/FIT5201)
+    [ _arrow_forward_ FIT5047 Fundamentals of artificial intelligence ](https://handbook.monash.edu/2026/units/FIT5047)
+    [ _arrow_forward_ FIT5190 Introduction to IT research methods ](https://handbook.monash.edu/2026/units/FIT5190)
+    [ _arrow_forward_ FIT5215 Deep learning ](https://handbook.monash.edu/2026/units/FIT5215)
+  **Advanced information technology applications and practice** **48 credit points**
+  You must complete the following units
+    [ _arrow_forward_ FIT5037 Network security ](https://handbook.monash.edu/2026/units/FIT5037)
+    [ _arrow_forward_ FIT5032 Internet applications development ](https://handbook.monash.edu/2026/units/FIT5032)
+    [ _arrow_forward_ FIT5225 Cloud computing and security ](https://handbook.monash.edu/2026/units/FIT5225)
+    [ _arrow_forward_ FIT5136 Software engineering ](https://handbook.monash.edu/2026/units/FIT5136)
+    [ _arrow_forward_ FIT5190 Introduction to IT research methods ](https://handbook.monash.edu/2026/units/FIT5190)
+    [ _arrow_forward_ FIT5047 Fundamentals of artificial intelligence ](https://handbook.monash.edu/2026/units/FIT5047)
+    [ _arrow_forward_ FIT5163 Introduction to cryptography for cybersecurity ](https://handbook.monash.edu/2026/units/FIT5163)
+    [ _arrow_forward_ FIT5238 Information technology systems capstone project ](https://handbook.monash.edu/2026/units/FIT5238)
+**Part A. Core studies** **24 credit points**
+If you are at Southeast University, China, you will receive block credit for masters level study at Southeast University.
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+demonstrate independent judgement in addressing technical and research problems;
+**2.**
+a solid understanding of significant areas of information technology to a level of depth and sophistication consistent with senior professional practice;
+**3.**
+abilities to undertake independent research evidenced through completion of a related project;
+**4.**
+demonstrate cross cultural competence within technical and learning contexts.
+**5.**
+knowledge, understanding and experiences that go beyond current technology, and will be well equipped to deal with the ongoing and often rapid changes in information technology;
+
+### AHEGS
+The Master of Information Technology Systems is a postgraduate award. The course is taught in English and takes one and a half years of full-time study to complete. It equips graduates with the knowledge and skills required to act as independent and competent practitioners or researchers in information technology or artificial intelligence. Graduates are prepared to deal with ongoing and rapid changes in information technology. The Master of Information Technology Systems is a Level 9 Australian Qualification Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations.
+
+### Degrees awarded
+Master of Information Technology Systems
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5032 =====
+Subject: Internet applications development (FIT5032)
+Credit Points: 6
+Overview: This unit provides you with the knowledge, understanding and skills required to develop an application system which uses a web interface to a back-end database. The unit assumes a sound basic knowledge of programming and database concepts and skills as developed in the introductory units in these areas. The emphasis in the unit is on mastery of the key concepts and the basic knowledge and skills required to build this kind of application. The unit will provide you with an awareness of the wide range of technologies which are used to support this kind of application, but will examine only a limited number of these technologies to demonstrate the key concepts and their application. The unit will take a strongly practical focus in examining the technology issues involved, and highlight the key issues which a developer needs to address in developing applications of this kind for real-world systems.
+Learning Outcomes:
+- Analyse and critique the key technological issues confronting developers building web-database applications;
+- Design, construct and publish web-database applications;
+- Test the key features of programming languages which are commonly used for developing web-database application;
+- Apply, analyse and critique a professional approach towards the development of web-database applications, considering data privacy and cybersecurity aspects..
+- Assess the MVC design pattern and construct a web-database application using the MVC design pattern;
+- Demonstrate the impact of the history of web applications development on current web-technology;
+Assessment Tasks:
+- In-semester quizzes: 30% (Hurdle: None)
+- Assignment portfolio and demonstration: 50% (Hurdle: None)
+- Studio assessment tasks: 20% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5037 =====
+Subject: Network security (FIT5037)
+Credit Points: 6
+Overview: Network security is an important part of any computer network and essential knowledge for IT professionals. This unit provides fundamental network security for IT students and professionals. It covers wired and wireless communication and network security, security at different layers, computer system security, network services and applications security, basic defence systems, cryptography for network security, techniques for identifying system vulnerabilities and penetration testing.
+Learning Outcomes:
+- Design secure networked systems against intruders and malicious networked applications whilst adhering to ethical principles.
+- Describe and critique common security standards and protocols for networked applications
+- Identify security issues and network attacks relating to wired and wireless networks and take action to mitigate or neutralise potential issues and attacks
+- Compare, select and apply cryptographic techniques for network security .
+- Critically assess networked environments for security threats, vulnerabilities, and risks, and recommend improvements
+Assessment Tasks:
+- Assignment 1: 30% (Hurdle: None)
+- Final Assignment: practical and report: 40% (Hurdle: None)
+- Class tests: 30% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5047 =====
+Subject: Fundamentals of artificial intelligence (FIT5047)
+Credit Points: 6
+Overview: This unit introduces the main problems and approaches to designing intelligent software systems including automated search methods, knowledge representation and reasoning, planning, reasoning under uncertainty, machine learning paradigms, and evolutionary algorithms.
+Learning Outcomes:
+- Explain the theoretical foundations of Artificial Intelligence (AI) - such as rational agency and symbolic and data-driven reasoning - that underpin the application to information technology and society;
+- Utilise and explain evaluation criteria to measure the correctness and/or suitability of models.
+- Critically explain, evaluate and apply appropriate AI theories, models and/or techniques in practice - including logical inference, heuristic search, genetic algorithms, machine learning and Bayesian inference;
+- Utilise appropriate software tools to develop AI models or software;
+Assessment Tasks:
+- Weekly quizzes: 24% (Hurdle: None)
+- Assignment: 25% (Hurdle: None)
+- Lab: Machine learning: 17% (Hurdle: None)
+- Knowledge Representation: 17% (Hurdle: None)
+- Lab: Bayesian networks: 17% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5136 =====
+Subject: Software engineering (FIT5136)
+Credit Points: 6
+Overview: Software has become an integral part of our modern world, permeating various sectors. Thus, software engineering is a branch of computer science in which engineering principles are applied to create software systems that meet project requirements that are reliable, and stay within budget and timeline constraints. In this unit, you will learn about modern software development lifecycle (SDLC), processes, tools, and technologies. You will also gain practical experience in a range of software engineering activities, including project planning, requirement analysis, software design and development, software quality assurance, and testing. By the end of the unit, you are equipped with the knowledge and skills needed to tackle complex software projects and adapt to the ever-evolving landscape of technology, making them valuable assets in a wide range of industries, from software companies to finance, healthcare, and more
+Learning Outcomes:
+- Design and document software architecture using appropriate diagrams and notations;
+- Describe and differentiate the various phases of the SDLC, including requirements gathering, design, implementation, testing, deployment, and maintenance;
+- Effectively work and communicate in team-based software development projects;
+- Identify ethical issues in software engineering including intellectual property, privacy, and security, and adhere to professional standards and practices.
+- Implement and execute software testing strategies to ensure the reliability and functionality correctness of the developed software;
+- Implement a maintainable software system using Object-Oriented Principles (OOP);
+Assessment Tasks:
+- Assessment 3: Development Process and Artifacts: 40% (Hurdle: None)
+- Assessment 1: Requirement Gathering and Analysis: 15% (Hurdle: None)
+- Assessment 4: Software Quality and Testing: 30% (Hurdle: None)
+- Assessment 2: Software Design: 15% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average three/four hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5163 =====
+Subject:  Introduction to cryptography for cybersecurity (FIT5163)
+Credit Points: 6
+Overview: The unit aims to provide you with in depth knowledge of techniques required to deal with security problems in information systems. The main areas of study include symmetric and asymmetric encryption techniques, cryptographic hash functions with related topics of message authentication codes and digital signatures. Study of techniques and algorithms for providing mutual trust include key management and distribution and user authentication to establish trust in the identity of communicating partner are also included. It looks at various management issues, including use and abuse of encryption, distributed systems authentication and integrity management. A range of security applications are used as examples. You will learn how to apply cryptographic techniques in practice.
+Learning Outcomes:
+- Apply a variety of cryptographic algorithms to develop methods to disguise information to ensure its integrity, confidentiality and authenticity;
+- Implement cryptographic techniques to preserve the security of information and evaluate its effectiveness;
+- Apply a variety of security control technologies to IT systems in an organisation.
+- Implement user authentication and access control mechanisms to create a security architecture to protect the assets of the information system;
+- Apply a variety of methods for key management and distribution and analyse the risks associated with the various approaches;
+- Critically assess threats, vulnerabilities and risks to an organisation's information assets, and propose control technologies and techniques which can be applied to reduce the security risk;
+Assessment Tasks:
+- Assignment - group: 40% (Hurdle: None)
+- In-class test 1: 30% (Hurdle: None)
+- In-class test 2: 30% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5190 =====
+Subject: Introduction to IT research methods (FIT5190)
+Credit Points: 6
+Overview: This unit introduces you to IT research. Specifically, it introduces major research methods that are used by IT researchers including experiments, surveys, case studies, and design science. It also addresses the collection and analysis of quantitative and qualitative data. You will learn how to effectively communicate research. Skills developed and knowledge acquired from this unit will prepare you to conduct your own research, as well as to be knowledgeable consumers of others' research.
+Learning Outcomes:
+- Explain the major philosophies and principles of research
+- Communicate research findings, orally and in writing, to a variety of audiences review and critique IT research literature and research design
+- Plan, design and develop a research project
+- Collect and analyse quantitative and qualitative research data
+- Select and justify an appropriate research methodology for a research project
+- Apply the major research methods used in IT research
+Assessment Tasks:
+- Assignment 3: 40% (Hurdle: None)
+- Assignment 2: 30% (Hurdle: None)
+- Assignment 1: 30% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5201 =====
+Subject: Machine learning (FIT5201)
+Credit Points: 6
+Overview: This unit introduces machine learning and the major kinds of statistical learning models and algorithms used in data analysis. Learning and the different kinds of learning will be covered and their usage will be discussed. The unit presents foundational concepts in machine learning and statistical learning theory, e.g. bias-variance, model selection, and how model complexity interplays with model's performance on unobserved data. A series of different models and algorithms will be presented and interpreted based on the foundational concepts: linear models for regression and classification (e.g. linear basis function models, logistic regression, Bayesian classifiers, generalised linear models), discriminative, probabilistic, and generative models, non-parametric models (e.g., k-nearest neighbour, Gaussian process regression), k-means and latent variable models (e.g. Gaussian mixture model), expectation-maximisation, and neural networks and deep learning. Moreover, implementation techniques will be introduced and practiced that allow to practically implement the introduced algorithms in a scalable manner with robust and standardised interfaces.
+Learning Outcomes:
+- Describe and discuss ethical challenges when deploying machine learning systems in practice.
+- Describe the components and theoretical concepts of statistical machine learning;
+- Derive and implement the most widely used machine learning models and algorithms and apply them to real-world and synthetic datasets;
+- Assess and explain theoretically the performance of machine learning approaches and derive recommendations for algorithm and model selection;
+- Develop scalable and standardised implementations of typical machine learning algorithms using suitable programming techniques and libraries;
+Assessment Tasks:
+- Scheduled final assessment (2 hours and 10 minutes): 50% (Hurdle: Threshold)
+- Assignment 2: 16% (Hurdle: Threshold)
+- Assignment 1: 25% (Hurdle: Threshold)
+- Quizzes: 9% (Hurdle: Threshold)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5215 =====
+Subject: Deep learning (FIT5215)
+Credit Points: 6
+Overview: Modern machine learning provides core underlying theory and techniques to data science and artificial intelligence. This unit is for you to develop practical knowledge of modern machine learning and deep learning and how they can be used in real-world settings such as image recognition or text clustering via neural embeddings. Learning activities will focus on designing machine learning systems, a broad landscape of supervised and unsupervised learning methods with a focus on modern deep learning knowledge for data analytics including deep neural networks, representation learning and embedding methods, and deep models used for time-series data which are rapidly used in science and industry.
+Learning Outcomes:
+- Describe what deep learning (DL) is, access what makes DL work or fail and where they should be applied;
+- Develop unsupervised feature learning models and representation learning models.
+- Develop and apply deep neural networks, convolutional neural networks, recurrent neural networks and different optimisation strategies for training them;
+- Describe the life cycle of a machine leaning system, what is involved in designing such systems and strategy to maintain them;
+Assessment Tasks:
+- Scheduled final assessment (2 hours and 10 minutes): 40% (Hurdle: Threshold)
+- Assignment 2: 20% (Hurdle: Threshold)
+- In class test 1: 10% (Hurdle: Threshold)
+- Assessment 1b: 20% (Hurdle: Threshold)
+- In class test 2: 10% (Hurdle: Threshold)
+- Assessment 1a: 20% (Hurdle: Threshold)
+- Assessment 2: 20% (Hurdle: Threshold)
+- Scheduled final assessment (2 hours and 10 minutes): 40% (Hurdle: Threshold)
+- Assignment 1: 20% (Hurdle: Threshold)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5217 =====
+Subject: Natural language processing (FIT5217)
+Credit Points: 6
+Overview: Natural language processing (NLP) stands as a cornerstone in the information age, made even more riveting with the rise of Generative AI and the introduction of models like LLM. NLP not only supports artificial intelligence in grasping intricate language nuances but also heralds a range of innovative applications. This unit delves into the fundamental principles of NLP, covering essential techniques for analyzing language syntax and meaning. We will also explore the neural network underpinnings of contemporary language models in the context of important real-world problems such as Machine Translation. Furthermore, we'll delve into the theoretical and practical foundations of recent LLMs.
+Learning Outcomes:
+- assess various recent approaches to NLP.
+- organise core problems and applications in NLP;
+- Evaluation of NLP models from utility & ethics, and safety perspectives.
+- design systems to tackle NLP problems;
+Assessment Tasks:
+- Assignment 1: 25% (Hurdle: Threshold)
+- Examination (2 hours and 10 minutes): 50% (Hurdle: Threshold)
+- Assignment 2: 25% (Hurdle: Threshold)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities. Clayton campus - no Lab in week 1.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5222 =====
+Subject: Planning and automated reasoning (FIT5222)
+Credit Points: 6
+Overview: This unit focuses on the foundations of automated planning and reasoning and their real-world applications. Autonomous agents are active agents that independently execute actions to achieve a certain goal or goals. These agents perceive their environment and reason and plan in order to effect their environment and achieve their goals. This is a very popular and highly researched AI approach and has many significant implications beyond the traditional area of AI (optimisation, robotics, scheduling, etc?). This course will give you the foundations to develop and design your own autonomous agents.
+Learning Outcomes:
+- evaluate, design, and implement automated planning and reasoning technique;
+- explain the theoretical concepts of automated planning and reasoning techniques;
+- describe strengths and weaknesses of different automated planning and reasoning approaches for software agents;
+- apply automated planning and concurrent programming techniques to non-trivial distributed problems;
+- apply agent modelling techniques to analyse, design and implement a small agent-based system;
+- describe and discuss planning security challenges and solutions through goal recognition algorithms.
+Assessment Tasks:
+- Assignment 1: 38% (Hurdle: None)
+- Assignment 1: Flatland Challenge: 32% (Hurdle: None)
+- In-semester test: Heuristic Search: 18% (Hurdle: None)
+- In-semester test: Automated Planning: 18% (Hurdle: None)
+- Assignment 2: 38% (Hurdle: None)
+- Lab Reports: 24% (Hurdle: None)
+- Assignment 2: Overcooked: 32% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5225 =====
+Subject: Cloud computing and security (FIT5225)
+Credit Points: 6
+Overview: Cloud computing has emerged as a backend solution for many modern IT applications. It offers on-demand resources and subscription-based services in a pay-as-you-go model to individual and corporate end-users. Cloud computing facilitates setup, implementation, maintenance, and management of the integrated computation and storage services. This unit will enable you to develop a basic knowledge of cloud computing technology and design and implement cloud applications using cloud services. It also introduces the security and privacy issues of the off-the-shelf cloud services. Learning activities will focus on understanding cloud delivery and service models, identifying various cloud platforms, and fundamental cloud technologies such as virtualisation, containers, serverless, web services and their security challenges.
+Learning Outcomes:
+- design and implement a highly scalable cloud-based application;
+- analyse and evaluate the security of the current cloud services and in-cloud applications.
+- apply different cloud programming methods and tools;
+- demonstrate a comprehensive understanding of virtualisation and container technologies;
+- describe fundamental principles and paradigms of cloud computing;
+- identify appropriate design choices when developing real-world cloud computing applications;
+Assessment Tasks:
+- Quiz 2: 15% (Hurdle: None)
+- Quiz 1: 15% (Hurdle: None)
+- Assignment 2: 40% (Hurdle: None)
+- Assignment 1: 30% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5226 =====
+Subject: Multi agent systems and collective behaviour (FIT5226)
+Credit Points: 6
+Overview: A multi-agent system (MAS) consists of a number of autonomous agents interacting with each other and with their environment. MAS is one of the fastest-growing areas of AI and a very general paradigm to understand many complex natural phenomena, such as the behaviour of ant colonies, fish swarms and human groups. Conversely, MAS approaches are crucial in the design of some of the most cutting-edge AI and cyber-physical systems, such as swarm robots. Hybrid cyber-physical systems, in which natural and artificial agents interact, represent the third important form of MAS. The internet, where millions of humans and computational agents interact in intricate and complex ways, is the paradigmatic example of such a hybrid. This highly interdisciplinary unit discusses the most important methods to describe, analyse and design MAS and discusses their practical applications in scientific modelling and artificial intelligence.
+Learning Outcomes:
+- Discuss the limitations of the modelling approaches and use multi-model solutions to mitigate or overcome these
+- Implement and deploy MAS models to answer the relevant questions about a given real-world scenario
+- Select MAS modelling methods suited to the problem
+- Apply formal MAS modelling approaches as appropriate
+- Judge whether a particular real-world problem or application can usefully be modelled as a MAS
+Assessment Tasks:
+- In-semester Assessment b: 35% (Hurdle: None)
+- Scheduled final assessment: 50% (Hurdle: None)
+- In-semester Assessment a: 15% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5238 =====
+Subject: Information technology systems capstone project (FIT5238)
+Credit Points: 6
+Overview: This unit gives you the opportunity to research contemporary approaches to developing a defined project applying and integrating the skills and knowledge you have already gained in your course. You will develop a specific project, and carry out research or design in a systematic manner to develop and deliver a solution to a complex problem in your area of study.
+Learning Outcomes:
+- Evaluate, assess and communicate both personal and team progress and learning, thus engaging in meaningful reflective practice of one's self and the outcomes and process of the projects.
+- Apply, working within a team, new concepts as well as aspects of theoretical approaches already learned, selecting the most appropriate fit for a specific solution
+- Critically analyse, as a team, complex information relevant to advanced specialist domains and identify requirements interpreting how they may be of benefit stakeholders.
+Assessment Tasks:
+- Assignment 2: Team System Build: 40% (Hurdle: None)
+- Assignment 1: Team Research and Concept Development: 50% (Hurdle: None)
+- Assignment. 3: Individual Reflection: 10% (Hurdle: None)
+Workload: 
+

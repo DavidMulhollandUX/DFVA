@@ -1,0 +1,166 @@
+===== SOURCE: https://calendar.adelaide.edu.au/aprcw/2025/gcdsc_gcdatasc =====
+# Graduate Certificate in Data Science (GCertDataSc) (gcdsc_gcdatasc)
+
+## Program Overview
+- **Institution**: The University of Adelaide
+- **Program Identifier / Slug**: gcdsc_gcdatasc
+- **Academic Calendar Year**: 2025/2026
+- **Faculty**: Faculty of Sciences, Engineering and Technology (SET)
+- **Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/gcdsc_gcdatasc
+
+## Overview
+Program Code
+GCDSC
+
+Program Faculty
+Faculty of Sciences, Engineering and Technology
+
+Special Notes
+There will be no further intake into this program in 2025.
+
+There will be no further intake into this program in 2025.
+
+Academic Year
+2025
+
+These Program Rules should be read in conjunction with the University's policies (
+https://www.adelaide.edu.au/policies
+).
+
+The Graduate Certificate in Data Science is designed for students who wish to develop new skills in the growing area of data science, with a specific focus on large-scale data analysis, or big data. In this program, students undertake a variety of core and elective courses, designed to combine skills in computer science, mathematics, data science and data science analysis.
+The program provides the necessary skills for entering the world of Big Data and Data Science, an emerging area of necessity for many fields, including Science, Engineering, Economics and Digital Humanities. The program will help learners understand how data is changing our world, and how learners can apply data science techniques to drive changes in their organisation or area. The program will provide an introduction to the emerging field of data, and introduce fundamental analysis techniques, explored through a range of case studies, gaining deeper knowledge of relevant computational and mathematical techniques, such a machine learning and data mining.
+The Graduate Certificate in Data Science is an AQF Level 8 Qualification with a standard full-time duration of 0.5 years.
+
+## Program Learning Outcomes
+Demonstrate knowledge and understanding of the content, technologies and practices of data science, especially in relation to challenging data, and how it can apply to informing organisational change.
+Apply, evaluate and use best-practice algorithms, techniques and theory of machine learning, statistics and optimisation to the analysis and transformation of data in a range of application domains.
+Demonstrate understanding of the social and ethical aspects of data science, to inform the design and development of data science applications within a sound ethical framework.
+Apply principles of data analysis, presentation and visualisation to effectively communicate patterns and relationships in data.
+Demonstrate problem-solving skills to apply data science techniques to real-world problems.
+
+## Conditions
+Interruption of program
+: Students must apply for permission from the Executive Dean or delegate before taking a Leave of Absence. Any extension of the leave without approval will result in the loss of place in the program but an application may be made to be re-admitted to the program subject to the admission procedures in place at the time.
+Program Maximum Duration:
+As specified in Table 1 of the
+Coursework Academic Programs Policy
+, this program must be completed within a Maximum Duration which includes any periods of non-enrolment, leave of absence or approved study at other institutions for credit towards a Program.
+
+## Academic Program Rules for Graduate Certificate in Data Science
+There shall be a Graduate Certificate in Data Science.
+
+## Qualification Requirements
+To qualify for the degree of Graduate Certificate in Data Science, the student must complete satisfactorily a program of study consisting of the following requirements with a combined total of not less than 12 units comprising:
+
+Core courses to the value of 12 units
+
+Core Courses
+
+## Core Courses
+Core Courses
+To satisfy the requirements for Core Courses students must complete courses to the value of 12 units.
+All of the following courses must be completed:
+Subject/Catalogue
+Course Title
+Unit Value
+COMP SCI 7210
+Foundations of Computer Science A
+3
+COMP SCI 7328
+Concepts in Cyber Security
+3
+MATHS 7027
+Mathematical Foundations of Data Science
+3
+MATHS 7107
+Data Taming
+3
+
+To satisfy the requirements for Core Courses students must complete courses to the value of 12 units.
+
+All of the following courses must be completed:
+
+Subject/Catalogue
+Course Title
+Unit Value
+COMP SCI 7210
+Foundations of Computer Science A
+3
+COMP SCI 7328
+Concepts in Cyber Security
+3
+MATHS 7027
+Mathematical Foundations of Data Science
+3
+MATHS 7107
+Data Taming
+3
+
+Published on:
+29 October, 2025 | 15:45:42
+
+DISCLAIMER:
+The information in this publication is current as at the date of printing and is subject to change.
+You can find updated information on our website at adelaide.edu.au With the aim of continual improvement the University of Adelaide is committed to regular reviews of the degrees, diplomas, certificates and courses on offer.
+As a result the specific programs and courses available will change from time to time.
+Please refer to adelaide.edu.au for the most up to date information or contact us on 1800 061 459.
+The University of Adelaide assumes no responsibility for the accuracy of information provided by third parties.
+
+Australian University Provider Number PRV12105
+
+CRICOS 00123M © The University of Adelaide.
+
+Content generated from http://calendar.adelaide.edu.au
+
+===== SOURCE: https://adelaide.edu.au/study/courses/comp-5041/ =====
+Subject: Foundations of Computer Science A (COMP5041)
+Credit Points: 6
+Overview: This course will develop your coding and problem-solving skills with a focus on data and data science. You will learn fundamental programming concepts such as data, selection, iteration, functional decomposition, data organisation as well as how to apply these programming fundamental knowledge to practical problems. You will build fundamental software development skills including the use of the Python programming language and tools, debugging, object-oriented design, basic data structures, and fundamentals of good programming practice, style and design.
+Learning Outcomes:
+- Interpret and decompose problems in computational domains.
+- Justify and demonstrate an understanding of programming fundamentals.
+- Apply programming fundamental knowledge to practical problems.
+- Use the Python programming language to construct programs to solve real-world problems.
+- Independently find and interpret discipline-related documentation.
+- Explain the benefits of object-oriented design and understand when it is an appropriate methodology to use.
+- Design object-oriented solutions for small systems involving multiple objects.
+- Translate real-world data to computer representation using different data structures.
+Assessment Tasks:
+Workload: N/A
+
+===== SOURCE: https://adelaide.edu.au/study/courses/comp-5067/ =====
+Subject: Concepts in Cyber Security (COMP5067)
+Credit Points: 6
+Overview: This course surveys the practical application of machine learning in modern organisations and society. Case studies will be used to demonstrate current best practice as well as common pitfalls. You will learn processes for tool-selection based on requirements and available resources; verifying and validating discovered models and how to apply results in real environments; and information resources for tracking technological advances.
+Learning Outcomes:
+- Understand when and why machine learning tools are used in industries.
+- Select an appropriate method and tool for a given problem and data set
+- Distinguish problems and data sets that are amenable to machine learning methods from those that are not
+- Analyse results and solutions to verify their correctness and identify sources of error
+- Compare the significance and validity of solutions obtained by multiple methods
+- Design data management procedures to enable accurate application of machine learning
+Assessment Tasks:
+Workload: N/A
+
+===== SOURCE: https://adelaide.edu.au/study/courses/math-5113/ =====
+Subject: Mathematical Foundations of Data Science (MATH5113)
+Credit Points: 6
+Overview: This course introduces fundamental mathematical concepts relevant to computer science and provides a basis for further postgraduate study in data science, statistical machine learning, and cybersecurity. Topics covered are include: probability: sets, counting, probability axioms, Bayes theorem; optimisation and calculus: differentiation, integration, functions of several variables, series approximations; linear algebra: vector and matrices, matrix algebra, vector spaces; discrete mathematics and statistics: linear regression, linear least squares, regularisation. Applications of the theory to data science and machine learning will be developed.
+Learning Outcomes:
+Assessment Tasks:
+Workload: N/A
+
+===== SOURCE: https://adelaide.edu.au/study/courses/math-5030/ =====
+Subject: Data Taming (MATH5030)
+Credit Points: 6
+Overview: This course is a practical introduction to the practice of wrangling, finding relationships in, and making predictions from, messy datasets using statistical methods. The course introduces the principles of tidy data, types of data and data formats, exploratory data analysis, data transformation, as well as model fitting and prediction using statistical machine learning tools. A focus will be to introduce R programming for data science applications, particularly through real-world case studies.
+Learning Outcomes:
+- Describe the principles of data taming and approaches used to tidy data.
+- Identify the different types of data and data variables.
+- Select from data analysis and visualisation techniques to create a linear model and make predictions from it.
+- Execute techniques to transform, reduce and summarise data in order to visualise it.
+- Articulate the ideas that data scientists consider when looking at data.
+- Communicate professionally on the application of linear models through the use of real-world case studies.
+Assessment Tasks:
+Workload: N/A
+

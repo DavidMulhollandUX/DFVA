@@ -1,0 +1,102 @@
+{
+  "code": "uq-2290",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in midwifery.",
+      "evidenceLines": [
+        "**Institution**: The University of Queensland (UQ)",
+        "**Program Code**: 2290",
+        "- **Institution**: The University of Queensland (UQ)"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in midwifery.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Program Level**: Undergraduate",
+        "- **Program Level**: Undergraduate"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within midwifery.",
+      "evidenceLines": [
+        "Subject: Integrated Biomedical Sciences for Nursing (BIOM2070)",
+        "Subject: Integrated Biomedical Sciences for Midwifery (BIOM2071)",
+        "**AQF Level**: Refer to your component degrees for AQF level."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in midwifery.",
+      "evidenceLines": [
+        "**Duration**: Not specified",
+        "**Faculty**: The University of Queensland",
+        "- **AQF Level**: Refer to your component degrees for AQF level."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in midwifery.",
+      "evidenceLines": [
+        "Subject: Professions, People and Healthcare (HLTH1000)",
+        "Subject: Working with Aboriginal and Torres Strait Islander Peoples, Families and Communities (INDH2107)",
+        "**Teaching Location**: St Lucia"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in midwifery.",
+      "evidenceLines": [
+        "**Attendance Mode**: Internal",
+        "- **Institution**: The University of Queensland (UQ)",
+        "- **Program Level**: Undergraduate"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in midwifery.",
+      "evidenceLines": [
+        "**Handbook URL**: https://my.uq.edu.au/programs-courses/program.html?acad_prog=2290",
+        "Subject: Principles of Midwifery & Woman Centred Care (MIDW1101)",
+        "- **AQF Level**: Refer to your component degrees for AQF level."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "- **Duration**: Not specified",
+        "- **Institution**: The University of Queensland (UQ)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelors of Nursing / Midwifery.",
+        "evidenceLines": [
+          "- **Duration**: Not specified",
+          "To graduate with a Bachelors of Nursing / Midwifery a student must have successfully completed all requirements of the program as"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in midwifery.",
+        "evidenceLines": [
+          "Subject: Integrated Biomedical Sciences for Nursing (BIOM2070)",
+          "**Institution**: The University of Queensland (UQ)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

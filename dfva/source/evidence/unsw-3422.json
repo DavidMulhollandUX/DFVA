@@ -1,0 +1,103 @@
+{
+  "code": "unsw-3422",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Professional oral advocacy, criminological policy briefs, socio-legal analysis, and multi-agency stakeholder communication.",
+      "evidenceLines": [
+        "Demonstrate effective oral and written communication, collaboration, self-management and autonomy.",
+        "Critically analyse criminal justice and social policy issues and debates within organisations, communities and governance frameworks.",
+        "The program brings together expertise from criminology, sociology, law, public health, youth work, and policy studies."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Deep critique of criminal justice systems, systemic inequality, incarceration impacts, and anti-colonial justice frameworks affecting Indigenous peoples.",
+      "evidenceLines": [
+        "Explain the importance of ethical, social and professional responsibility in criminology and criminal justice.",
+        "Articulate a critical awareness of historical and contemporary legal and criminal justice policy issues and practices affecting Indigenous peoples.",
+        "Grounded in research-led teaching and real-world engagement, the BCCJ challenges students to think beyond traditional approaches to criminology and to examine how justice systems impact individuals and communities."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Applied empirical methods covering qualitative and quantitative social research techniques in SOSS2001 and SOSS2002 alongside crime data analysis.",
+      "evidenceLines": [
+        "Conduct rigorous quantitative and qualitative social and criminological research.",
+        "Subject: Qualitative Social Research (SOSS2001)",
+        "Subject: Quantitative Social Research (SOSS2002)"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary conceptual synthesis uniting substantive criminal law, criminological theory, sociological policy analysis, and justice administration.",
+      "evidenceLines": [
+        "Demonstrate an understanding of substantive criminal law and the relationships between criminal law, criminal process, criminalisation and disadvantage.",
+        "Recognise a range of key concepts and theoretical approaches in criminology and relevant socio-legal theory.",
+        "The BCCJ features two integrated core curricula: the Criminology & Criminal Justice Core and the Social Science Core."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied social research investigations, policy analysis projects, and portfolio development addressing contemporary criminal justice challenges.",
+      "evidenceLines": [
+        "Conduct rigorous quantitative and qualitative social and criminological research.",
+        "Subject: Criminology in Practice (CRIM3000)",
+        "Subject: Policy Analysis (SOSS3003)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Alignment with statutory legal frameworks, criminal court procedures, and professional ethics in corrections, law enforcement, and advocacy.",
+      "evidenceLines": [
+        "Demonstrate an understanding of substantive criminal law and the relationships between criminal law, criminal process, criminalisation and disadvantage.",
+        "Explain the importance of ethical, social and professional responsibility in criminology and criminal justice.",
+        "Subject: Criminal Laws (LAWS1022)"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic policy evaluation, crime prevention strategy design, and real-world case studies in policing, cybercrime, and justice reform.",
+      "evidenceLines": [
+        "The Bachelor of Criminology & Criminal Justice integrates career readiness training through our Criminology Capstone course, Criminology in Practice, alongside mentoring programs, job-seeking modules, and professional career support opportunities. In this course, you'll draw together key concepts, themes and debates in criminology and apply them to current issues. You'll graduate with a portfolio of work that touches on eight current themes within criminology.",
+        "As a criminologist, you can apply your skills to make a difference in crime prevention, law enforcement, corrective services, terrorism, cybercrime, policy design and more.",
+        "Students engage with diverse perspectives, including from those with lived experience of the criminal justice system, and explore topics such as criminalisation, policing, incarceration, alternative justice systems, and the impacts of colonisation and systemic inequality."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2: Embedded capstone experience in CRIM3000 Criminology in Practice with industry engagement and portfolio creation, plus elective WIL placement options.",
+      "evidenceLines": [
+        "The Bachelor of Criminology & Criminal Justice integrates career readiness training through our Criminology Capstone course, Criminology in Practice, alongside mentoring programs, job-seeking modules, and professional career support opportunities.",
+        "Students can choose to further build their knowledge and skills through the range of work-integrated learning and internship opportunities available in the program or by undertaking one of the four double degree options.",
+        "Subject: Criminology Work Integrated Learning Placement (CRIM3025)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A 144 UOC three-year undergraduate program providing foundational and advanced training in criminology, criminal justice, and social science research.",
+        "evidenceLines": [
+          "- **Total Units / Units of Credit (UOC)**: 144",
+          "The Bachelor of Criminology & Criminal Justice (BCCJ) is a three-year full-time, or six-year part-time equivalent, undergraduate degree that offers a critical, interdisciplinary exploration of crime, justice, and social change."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist criminology degree structured through dual integrated cores in criminal justice and social sciences.",
+        "evidenceLines": [
+          "The BCCJ features two integrated core curricula: the Criminology & Criminal Justice Core and the Social Science Core.",
+          "As a criminologist, you can apply your skills to make a difference in crime prevention, law enforcement, corrective services, terrorism, cybercrime, policy design and more."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for quantitative and qualitative social research methods without advanced mathematical econometrics.",
+      "W3: Scored at Level 2 as the capstone is compulsory while the direct workplace placement CRIM3025 is an elective stream."
+    ],
+    "notScoreable": []
+  }
+}

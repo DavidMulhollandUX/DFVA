@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+    "evidenceLines": [
+      "Reflect on the United Nations Convention on the Rights of Persons with Disability (UNCRPD and the National Disability Insurance Scheme (NDIS and their impact on the lived experience of people with disabilities and their support network.",
+      "Interpret and transmit information about support for decision making frameworks for people with cognitive disabilities.",
+      "La Trobe’s Master of Disability Practice gives you the expertise to assist people with special needs and advance your career in the disability, health and community services sectors."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+    "evidenceLines": [
+      "Demonstrate the ability to advocate for people with a disability and their families.",
+      "Critically analyse the different levels at which people with disabilities, with and without cognitive impairment, might exercise choice and control over their life.",
+      "Discover how to make a difference to the lives of people with disabilities by examining and improving the policies, programs and services that support them."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+    "evidenceLines": [
+      "Subject: ADVOCACY IN CONTEMPORARY DISABILITY PRACTICE (ADP5ADP)",
+      "Subject: SCOPING REVIEWS IN DISABILITY RESEARCH (ADP5RDR)",
+      "Critically evaluate specialist disability and mainstream service systems available to people with a disability."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+    "evidenceLines": [
+      "Design unbiased methods to select and evaluate the research literature.",
+      "Formulate a research question in a disability-related field of practice.",
+      "You’ll be taught by internationally renowned academics from La Trobe's Living with Disability Research Centre."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+    "evidenceLines": [
+      "Subject: RESEARCH THESIS (ADP5RTH)",
+      "Subject: SUPPORT PLANNING WITH PEOPLE WITH DISABILITIES (ADP5SPD)",
+      "Critically evaluate the data obtained so as to address the research question."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+    "evidenceLines": [
+      "Synthesise information and transmit knowledge in the form of a scoping review suitable for publication.",
+      "La Trobe’s Master of Disability Practice gives you the expertise to assist people with special needs and advance your career in the disability, health and community services sectors.",
+      "Discover how to make a difference to the lives of people with disabilities by examining and improving the policies, programs and services that support them."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+    "evidenceLines": [
+      "Select and apply appropriate methods for the extraction and synthesis of data.",
+      "Subject: DISABILITY AND THE LAW (LAW5DAL)",
+      "You’ll be taught by internationally renowned academics from La Trobe's Living with Disability Research Centre."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "To qualify for the award of Master of Disability Practice, students must complete 180 credit points consisting of:",
+      "La Trobe’s Master of Disability Practice gives you the expertise to assist people with special needs and advance your career in the disability, health and community services sectors."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Disability Practice.",
+      "evidenceLines": [
+        "To qualify for the award of Master of Disability Practice, students must complete 180 credit points consisting of:",
+        "180 core credit points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+      "evidenceLines": [
+        "Subject: ADVOCACY IN CONTEMPORARY DISABILITY PRACTICE (ADP5ADP)",
+        "Reflect on the United Nations Convention on the Rights of Persons with Disability (UNCRPD and the National Disability Insurance Scheme (NDIS and their impact on the lived experience of people with disabilities and their support network."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

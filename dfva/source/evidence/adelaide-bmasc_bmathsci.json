@@ -1,0 +1,102 @@
+{
+  "code": "adelaide-bmasc_bmathsci",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in mathematics.",
+      "evidenceLines": [
+        "**Institution**: The University of Adelaide",
+        "**Program Identifier / Slug**: bmasc_bmathsci",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in mathematics.",
+      "evidenceLines": [
+        "**Academic Calendar Year**: 2025/2026",
+        "**Faculty**: Faculty of Sciences, Engineering and Technology (SET)",
+        "- **Program Identifier / Slug**: bmasc_bmathsci"
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within mathematics.",
+      "evidenceLines": [
+        "Subject: Introductory Economics and Personal Finance (ECON1008)",
+        "Subject: UO Principles of Economics (ECON1010)",
+        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/bmasc_bmathsci"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in mathematics.",
+      "evidenceLines": [
+        "Explain the principles of economics, including the economic way of thinking, market demand and supply, the elasticity of demand and supply, market structures, measurement of the size of the economy, inflation, and unemployment",
+        "Apply microeconomic and macroeconomic knowledge and skills to make informed decisions in today's world",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in mathematics.",
+      "evidenceLines": [
+        "Subject: Introductory Economics and Personal Finance (ECON1008)",
+        "Subject: UO Principles of Economics (ECON1010)",
+        "Explain the principles of personal finance, including the financial planning process, financial statements, income taxes, cash and savings, credit cards, and consumer loans"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in mathematics.",
+      "evidenceLines": [
+        "Apply personal financial knowledge and skills to make informed decisions in today's world",
+        "- **Institution**: The University of Adelaide",
+        "- **Program Identifier / Slug**: bmasc_bmathsci"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in mathematics.",
+      "evidenceLines": [
+        "Evaluate and present a national economic issue or a personal financial issue based on a predetermined set of criteria",
+        "Subject: UO Principles of Economics (ECON1010)",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The Bachelor of Mathematical Sciences is an AQF Level 7 qualification with a standard full-time duration of 3 years.",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Mathematical Sciences.",
+        "evidenceLines": [
+          "The Bachelor of Mathematical Sciences is an AQF Level 7 qualification with a standard full-time duration of 3 years.",
+          "Program Maximum Duration:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in mathematics.",
+        "evidenceLines": [
+          "Subject: Introductory Economics and Personal Finance (ECON1008)",
+          "**Institution**: The University of Adelaide"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "code": "monash-b2001",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 11,
+    "workplace": 7,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The Bachelor of Commerce comprises 144 credit points structured into core commerce foundations, a specialized major, capstone studies, and elective breadth, with clear progression and accreditation pathways.",
+        "evidenceLines": [
+          "You must complete units as specified in Parts A, B, C and D (144 credit points): including 96 credit points of study in Parts A, B and C, and 48 points of electives in Part D.",
+          "ETC1000 Business and economic statistics",
+          "ACC1100 Introduction to financial accounting"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core quantitative and business curriculum requires decision-making under probabilistic and economic uncertainty: ETC1000 models uncertainty and risk, while BEX3350 consulting projects address real-world organizational challenges.",
+        "evidenceLines": [
+          "apply probability concepts to model uncertainty and assess risk in business and economic contexts",
+          "interpret and evaluate relationships between variables for business and economic decision-making using simple and multiple linear regression",
+          "report on project deliverables and recommendations, providing a professional and coherent business solution that is evidence-based and context-specific"
+        ]
+      }
+    },
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 is met through team-based decision making and problem solving in MGC1010 and BEX3350. In MGC1010 students work in teams applying management theory to solve real-life management problems (40% project); in BEX3350 consulting teams deliver client projects with individual and peer contributions evaluated. Not level 3: human/AI division of labour is not explicitly assessed.",
+      "evidenceLines": [
+        "While working in teams, you will learn how to apply management theory and research evidence in analysing and creatively solving real-life management problems.",
+        "evaluate individual and peer contributions (where applicable) to a consulting project, and reflect on personal and professional growth using feedback practices, digital tools and inclusive approaches that value diverse perspectives.",
+        "3 - Project: 50%"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 is met: reflective self-appraisal and peer evaluation are assessed in BEX3350 (evaluating individual and peer contributions to consulting) and BEX3500 (Portfolio: 40% assessing professional development). Not level 3: criterion-referenced justification of AI or automated tool reliance is not documented in the core.",
+      "evidenceLines": [
+        "evaluate individual and peer contributions (where applicable) to a consulting project, and reflect on personal and professional growth using feedback practices, digital tools and inclusive approaches that value diverse perspectives.",
+        "4 - Portfolio: 40%"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2 is met across the core: ETC1000 teaches quantitative modeling, multi-variable data analysis, and statistical regression, while ACC1100 introduces computerized accounting records. Not level 3: AI ethics and governance are not compulsory in the common degree core, though available in business analytics majors.",
+      "evidenceLines": [
+        "ETC1000 Business and economic statistics",
+        "analyse multi-variable data to draw conclusions for business and economic decision-making"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 is sustained: compulsory studies in business statistics (ETC1000), accounting standards (ACC1100), and microeconomics (ECC1000) demand multi-stage empirical problem solving, hypothesis testing, econometric regression modeling, and financial analysis.",
+      "evidenceLines": [
+        "apply probability concepts to model uncertainty and assess risk in business and economic contexts",
+        "interpret and evaluate relationships between variables for business and economic decision-making using simple and multiple linear regression",
+        "analyse multi-variable data to draw conclusions for business and economic decision-making"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 is met: BEX3500 Professional development for commerce requires students to build and demonstrate an authentic professional development portfolio and artifact assessing lifelong learning and career self-regulation.",
+      "evidenceLines": [
+        "4 - Portfolio: 40%"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 is met: ethical managerial decision-making, corporate social responsibility, and professional stakeholder communication are explicitly assessed in MGC1010 and BEX3350.",
+      "evidenceLines": [
+        "evaluate managerial decisions in the context of the organisation's ethical, environmental and social responsibility",
+        "communicate evolving project insights, outputs and recommendations clearly and appropriately across various stakeholder interaction points by adopting professional communication standards"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3 is met: BEX3350 Consulting Project places students as consultants on an actual business project for an external client, with 50% project deliverable and 20% professional presentation assessing authentic client recommendations.",
+      "evidenceLines": [
+        "participating as consultants (with academic guidance) on an actual business or organisational project.",
+        "report on project deliverables and recommendations, providing a professional and coherent business solution that is evidence-based and context-specific",
+        "3 - Project: 50%"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2 is met: capstone studies require practical client-facing consulting or studio engagement (BEX3350). Formal external 6-month industry placements (BEX3006) are an electable capstone stream rather than mandatory for all students, capping common-core W3 at level 2.",
+      "evidenceLines": [
+        "participating as consultants (with academic guidance) on an actual business or organisational project."
+      ]
+    },
+    "ambiguities": [
+      "C1: Consulting project (BEX3350) and management (MGC1010) assess group project outputs with peer appraisal, but do not assess human/AI division of labour, resolving to level 2.",
+      "C3: The Business Analytics major mandates machine learning and data science, but the degree core is scored across common units (ETC1000), resolving to level 2.",
+      "W3: While formal industry placements (BEX3006/BEX3012) are offered in the capstone options, the minimum compulsory requirement can be satisfied via consulting projects (BEX3350) or professional development (BEX3500), resolving to level 2."
+    ]
+  }
+}

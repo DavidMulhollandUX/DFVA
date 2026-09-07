@@ -1,0 +1,102 @@
+{
+  "code": "monash-m5013",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in psychology.",
+      "evidenceLines": [
+        "Apply knowledge of ethical and legislative frameworks to ethical concerns in mental health practice and research",
+        "Critically reflect on your beliefs and attitudes towards psychological disorders to identify personal development opportunities.",
+        "This course offers graduates a major in psychology accredited by the Australian Psychology Accreditation Council (APAC), permitting them to undertake the further training needed to obtain professional qualifications."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in psychology.",
+      "evidenceLines": [
+        "Apply best practice approaches to the assessment and treatment of psychological disorders, accounting for a range of contexts and diverse populations.",
+        "Describe key biological, psychological and socio-cultural perspectives on the cause, presentation, diagnosis and treatment of mental health disorders across the lifespan.",
+        "This course enables you to gain an introduction to psychology as a behavioural science including training in research techniques and research design and analysis."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within psychology.",
+      "evidenceLines": [
+        "Subject: Psychopathology and clinical science (PSY4032)",
+        "Subject: Psychological testing and ethics (PSY4041)",
+        "Critically evaluate theoretical perspectives and current research findings to advance knowledge of the causes, diagnosis, management and outcomes of psychological disorders."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in psychology.",
+      "evidenceLines": [
+        "Effectively use a range of digital media and online collaboration tools, in both individual and group contexts, for evidence-based discussion of psychological case studies.",
+        "Workbook & critical review (Part A: 750-1,000 words (25%) Part B: 1,250 words (35%)): 60% (Hurdle: None)",
+        "As you progress through the course, you will cover topics such as developmental and biological psychology, psychopathology and clinical psychology, principles and processes of test development, test administration and test interpretation."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in psychology.",
+      "evidenceLines": [
+        "Subject: Psychological inquiry: Theory, methods, and practice 1 (PSY4051)",
+        "Subject: Psychological inquiry: Theory, methods, and practice 2 (PSY4062)",
+        "Case formulation (Part A: 1,250 words (25%) Part B: 750 words (15%) Total 2,000 words): 40% (Hurdle: None)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in psychology.",
+      "evidenceLines": [
+        "Generate a psychological report which accurately summarises relevant clinical information derived from psychological assessment for diverse audiences.",
+        "This course offers graduates a major in psychology accredited by the Australian Psychology Accreditation Council (APAC), permitting them to undertake the further training needed to obtain professional qualifications.",
+        "This course enables you to gain an introduction to psychology as a behavioural science including training in research techniques and research design and analysis."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in psychology.",
+      "evidenceLines": [
+        "Reflect on personal biases and assumptions in relation to ethical principles and theoretical perspectives for application in professional contexts.",
+        "Subject: Perception and cognition (PSY4081)",
+        "As you progress through the course, you will cover topics such as developmental and biological psychology, psychopathology and clinical psychology, principles and processes of test development, test administration and test interpretation."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course consists of nine core units and one elective unit. You must complete both foundational units (PSY4111 and\u00a0PSY4122) before proceeding to the intermediate units (PSY4131 and PSY4051). Once both intermediate units are complete, you are able to progress onto the advanced level units.",
+        "This course offers graduates a major in psychology accredited by the Australian Psychology Accreditation Council (APAC), permitting them to undertake the further training needed to obtain professional qualifications."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Diploma in Psychology.",
+        "evidenceLines": [
+          "The course consists of nine core units and one elective unit. You must complete both foundational units (PSY4111 and\u00a0PSY4122) before proceeding to the intermediate units (PSY4131 and PSY4051). Once both intermediate units are complete, you are able to progress onto the advanced level units.",
+          "60 credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in psychology.",
+        "evidenceLines": [
+          "Subject: Psychopathology and clinical science (PSY4032)",
+          "Apply knowledge of ethical and legislative frameworks to ethical concerns in mental health practice and research"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

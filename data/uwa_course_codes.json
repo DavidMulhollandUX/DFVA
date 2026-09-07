@@ -1,0 +1,1784 @@
+[
+  {
+    "code": "BP020",
+    "title": "Bachelor of Agribusiness",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP020"
+  },
+  {
+    "code": "BP019",
+    "title": "Bachelor of Agricultural Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP019"
+  },
+  {
+    "code": "BP070",
+    "title": "Bachelor of Art History and Curatorial Studies",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP070"
+  },
+  {
+    "code": "BP001",
+    "title": "Bachelor of Arts",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP001"
+  },
+  {
+    "code": "BW001",
+    "title": "Bachelor of Arts (Integrated Professional)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BW001"
+  },
+  {
+    "code": "BP025",
+    "title": "Bachelor of Biological Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP025"
+  },
+  {
+    "code": "BP006",
+    "title": "Bachelor of Biomedical Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP006"
+  },
+  {
+    "code": "BP056",
+    "title": "Bachelor of Biomedicine (Specialised)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP056"
+  },
+  {
+    "code": "BP009",
+    "title": "Bachelor of Business",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP009"
+  },
+  {
+    "code": "BP002",
+    "title": "Bachelor of Commerce",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP002"
+  },
+  {
+    "code": "BW002",
+    "title": "Bachelor of Commerce (Integrated Professional)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BW002"
+  },
+  {
+    "code": "BP050",
+    "title": "Bachelor of Criminology and Criminal Justice",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP050"
+  },
+  {
+    "code": "BP029",
+    "title": "Bachelor of Earth Sciences",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP029"
+  },
+  {
+    "code": "BP013",
+    "title": "Bachelor of Economics",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP013"
+  },
+  {
+    "code": "BP011",
+    "title": "Bachelor of Environmental Design",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP011"
+  },
+  {
+    "code": "BP022",
+    "title": "Bachelor of Environmental Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP022"
+  },
+  {
+    "code": "BP055",
+    "title": "Bachelor of Geographical and Spatial Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP055"
+  },
+  {
+    "code": "BP034",
+    "title": "Bachelor of Human Rights",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP034"
+  },
+  {
+    "code": "BP031",
+    "title": "Bachelor of Human Sciences",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP031"
+  },
+  {
+    "code": "BP058",
+    "title": "Bachelor of International Relations",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP058"
+  },
+  {
+    "code": "BP501",
+    "title": "Bachelor of Letters",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP501"
+  },
+  {
+    "code": "BP023",
+    "title": "Bachelor of Marine Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP023"
+  },
+  {
+    "code": "BP059",
+    "title": "Bachelor of Mathematics",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP059"
+  },
+  {
+    "code": "BP069",
+    "title": "Bachelor of Media and Communication",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP069"
+  },
+  {
+    "code": "BP054",
+    "title": "Bachelor of Modern Languages",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP054"
+  },
+  {
+    "code": "BP028",
+    "title": "Bachelor of Molecular Sciences",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP028"
+  },
+  {
+    "code": "BP008",
+    "title": "Bachelor of Music",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP008"
+  },
+  {
+    "code": "BP012",
+    "title": "Bachelor of Philosophy, Politics and Economics",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP012"
+  },
+  {
+    "code": "BP503",
+    "title": "Bachelor of Psychological Studies",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP503"
+  },
+  {
+    "code": "BP030",
+    "title": "Bachelor of Psychology",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP030"
+  },
+  {
+    "code": "BP004",
+    "title": "Bachelor of Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP004"
+  },
+  {
+    "code": "BW004",
+    "title": "Bachelor of Science (Integrated Professional)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BW004"
+  },
+  {
+    "code": "BP502",
+    "title": "Bachelor of Science and Technology",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP502"
+  },
+  {
+    "code": "BP062",
+    "title": "Bachelor of Social and Environmental Sustainability",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP062"
+  },
+  {
+    "code": "BP026",
+    "title": "Bachelor of Sport and Exercise Sciences",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BP026"
+  },
+  {
+    "code": "BH008",
+    "title": "Bachelor of Advanced Computer Science [Honours]",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH008"
+  },
+  {
+    "code": "BH001",
+    "title": "Bachelor of Arts (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH001"
+  },
+  {
+    "code": "BH024",
+    "title": "Bachelor of Biological Science (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH024"
+  },
+  {
+    "code": "BH006",
+    "title": "Bachelor of Biomedical Science (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH006"
+  },
+  {
+    "code": "BH021",
+    "title": "Bachelor of Business (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH021"
+  },
+  {
+    "code": "BH002",
+    "title": "Bachelor of Commerce (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH002"
+  },
+  {
+    "code": "BH018",
+    "title": "Bachelor of Criminology and Criminal Justice (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH018"
+  },
+  {
+    "code": "BH026",
+    "title": "Bachelor of Earth Sciences (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH026"
+  },
+  {
+    "code": "BH013",
+    "title": "Bachelor of Economics (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH013"
+  },
+  {
+    "code": "BH020",
+    "title": "Bachelor of Education (Primary) (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH020"
+  },
+  {
+    "code": "BH011",
+    "title": "Bachelor of Engineering (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH011"
+  },
+  {
+    "code": "BH040",
+    "title": "Bachelor of Environmental Design (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH040"
+  },
+  {
+    "code": "BH019",
+    "title": "Bachelor of Human Rights Honours",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH019"
+  },
+  {
+    "code": "BH039",
+    "title": "Bachelor of Landscape Architecture (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH039"
+  },
+  {
+    "code": "BH025",
+    "title": "Bachelor of Marine Science (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH025"
+  },
+  {
+    "code": "BH035",
+    "title": "Bachelor of Mathematics (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH035"
+  },
+  {
+    "code": "BH016",
+    "title": "Bachelor of Modern Languages Honours",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH016"
+  },
+  {
+    "code": "BH009",
+    "title": "Bachelor of Music (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH009"
+  },
+  {
+    "code": "BH028",
+    "title": "Bachelor of Nursing (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH028"
+  },
+  {
+    "code": "BH005",
+    "title": "Bachelor of Philosophy (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH005"
+  },
+  {
+    "code": "BH015",
+    "title": "Bachelor of Philosophy, Politics, and Economics (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH015"
+  },
+  {
+    "code": "BH014",
+    "title": "Bachelor of Psychology (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH014"
+  },
+  {
+    "code": "BH004",
+    "title": "Bachelor of Science (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH004"
+  },
+  {
+    "code": "BH017",
+    "title": "Bachelor of Social Work (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH017"
+  },
+  {
+    "code": "BH032",
+    "title": "Bachelor of Sport and Exercise Sciences (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BH032"
+  },
+  {
+    "code": "CB001",
+    "title": "Bachelor of Agribusiness and Bachelor of Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB001"
+  },
+  {
+    "code": "CB009",
+    "title": "Bachelor of Agricultural Science and Bachelor of Arts",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB009"
+  },
+  {
+    "code": "CB010",
+    "title": "Bachelor of Agricultural Science and Bachelor of Commerce",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB010"
+  },
+  {
+    "code": "CB003",
+    "title": "Bachelor of Agricultural Science and Bachelor of Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB003"
+  },
+  {
+    "code": "CB049",
+    "title": "Bachelor of Art History and Curatorial Studies and Bachelor of Arts",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB049"
+  },
+  {
+    "code": "CB052",
+    "title": "Bachelor of Art History and Curatorial Studies and Bachelor of Commerce",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB052"
+  },
+  {
+    "code": "CB047",
+    "title": "Bachelor of Criminology and Criminal Justice and Bachelor of Arts",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB047"
+  },
+  {
+    "code": "CB053",
+    "title": "Bachelor of Criminology and Criminal Justice and Bachelor of Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB053"
+  },
+  {
+    "code": "CB020",
+    "title": "Bachelor of Economics / Bachelor of Commerce",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB020"
+  },
+  {
+    "code": "CB030",
+    "title": "Bachelor of Engineering (Honours) and Bachelor of Modern Languages",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB030"
+  },
+  {
+    "code": "CB034",
+    "title": "Bachelor of Engineering (Honours)/ Bachelor of Arts",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB034"
+  },
+  {
+    "code": "CB006",
+    "title": "Bachelor of Engineering (Honours)/ Bachelor of Commerce",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB006"
+  },
+  {
+    "code": "CB014",
+    "title": "Bachelor of Engineering (Honours)/ Bachelor of Philosophy (Honours)",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB014"
+  },
+  {
+    "code": "CB004",
+    "title": "Bachelor of Engineering (Honours)/ Bachelor of Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB004"
+  },
+  {
+    "code": "CB008",
+    "title": "Bachelor of Environmental Science and Bachelor of Arts",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB008"
+  },
+  {
+    "code": "CB007",
+    "title": "Bachelor of Environmental Science and Bachelor of Commerce",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB007"
+  },
+  {
+    "code": "CB002",
+    "title": "Bachelor of Environmental Science and Bachelor of Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB002"
+  },
+  {
+    "code": "CB022",
+    "title": "Bachelor of Human Rights and Bachelor of Arts",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB022"
+  },
+  {
+    "code": "CB023",
+    "title": "Bachelor of Human Rights and Bachelor of Commerce",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB023"
+  },
+  {
+    "code": "CB046",
+    "title": "Bachelor of International Relations and Bachelor of Arts",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB046"
+  },
+  {
+    "code": "CB054",
+    "title": "Bachelor of International Relations and Bachelor of Commerce",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB054"
+  },
+  {
+    "code": "CB044",
+    "title": "Bachelor of Mathematics and Bachelor of Arts",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB044"
+  },
+  {
+    "code": "CB021",
+    "title": "Bachelor of Media and Communication and Bachelor of Arts",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB021"
+  },
+  {
+    "code": "CB048",
+    "title": "Bachelor of Media and Communication and Bachelor of Commerce",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB048"
+  },
+  {
+    "code": "CB026",
+    "title": "Bachelor of Modern Languages and Bachelor of Arts",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB026"
+  },
+  {
+    "code": "CB032",
+    "title": "Bachelor of Modern Languages and Bachelor of Biomedical Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB032"
+  },
+  {
+    "code": "CB028",
+    "title": "Bachelor of Modern Languages and Bachelor of Business",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB028"
+  },
+  {
+    "code": "CB027",
+    "title": "Bachelor of Modern Languages and Bachelor of Commerce",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB027"
+  },
+  {
+    "code": "CB029",
+    "title": "Bachelor of Modern Languages and Bachelor of Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB029"
+  },
+  {
+    "code": "CB038",
+    "title": "Bachelor of Music and Bachelor of Arts",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB038"
+  },
+  {
+    "code": "CB042",
+    "title": "Bachelor of Music and Bachelor of Biomedical Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB042"
+  },
+  {
+    "code": "CB041",
+    "title": "Bachelor of Music and Bachelor of Business",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB041"
+  },
+  {
+    "code": "CB039",
+    "title": "Bachelor of Music and Bachelor of Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB039"
+  },
+  {
+    "code": "CB031",
+    "title": "Bachelor of Philosophy (Honours)/Bachelor of Modern Languages",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB031"
+  },
+  {
+    "code": "CB012",
+    "title": "Bachelor of Philosophy, Politics and Economics and Bachelor of Arts",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB012"
+  },
+  {
+    "code": "CB017",
+    "title": "Bachelor of Philosophy, Politics and Economics and Bachelor of Commerce",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB017"
+  },
+  {
+    "code": "CB011",
+    "title": "Bachelor of Psychology and Bachelor of Arts",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB011"
+  },
+  {
+    "code": "CB013",
+    "title": "Bachelor of Psychology and Bachelor of Commerce",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB013"
+  },
+  {
+    "code": "CB043",
+    "title": "Bachelor of Psychology and Bachelor of Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB043"
+  },
+  {
+    "code": "CB045",
+    "title": "Bachelor of Social and Environmental Sustainability and Bachelor of Arts",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CB045"
+  },
+  {
+    "code": "CM029",
+    "title": "Bachelor of  Biological Science and Master of Biotechnology",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM029"
+  },
+  {
+    "code": "CM011",
+    "title": "Bachelor of  Marine Science and Master of Environmental Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM011"
+  },
+  {
+    "code": "CM017",
+    "title": "Bachelor of  Sport and Exercise Sciences  and Master of Public Health",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM017"
+  },
+  {
+    "code": "CM014",
+    "title": "Bachelor of Agribusiness and Master of Agricultural Economics",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM014"
+  },
+  {
+    "code": "CM013",
+    "title": "Bachelor of Agricultural Science and  Master of Agricultural Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM013"
+  },
+  {
+    "code": "CM005",
+    "title": "Bachelor of Biological Science and Master of Biological Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM005"
+  },
+  {
+    "code": "CM009",
+    "title": "Bachelor of Earth Sciences and Master of Geoscience",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM009"
+  },
+  {
+    "code": "CM012",
+    "title": "Bachelor of Earth Sciences and Master of Oceanography",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM012"
+  },
+  {
+    "code": "CM002",
+    "title": "Bachelor of Economics and Master of Economics",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM002"
+  },
+  {
+    "code": "CM008",
+    "title": "Bachelor of Environmental Science and Master of Environmental Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM008"
+  },
+  {
+    "code": "CM032",
+    "title": "Bachelor of Geographical and Spatial Science and Master of Environmental Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM032"
+  },
+  {
+    "code": "CM039",
+    "title": "Bachelor of Human Sciences (Pharmaceutical Health) and Doctor of Pharmacy",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM039"
+  },
+  {
+    "code": "CM021",
+    "title": "Bachelor of Human Sciences and Master of Bioinformatics",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM021"
+  },
+  {
+    "code": "CM030",
+    "title": "Bachelor of Human Sciences and Master of Biomedical Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM030"
+  },
+  {
+    "code": "CM010",
+    "title": "Bachelor of Marine Science and Master of Marine Biology",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM010"
+  },
+  {
+    "code": "CM038",
+    "title": "Bachelor of Marine Sciences and Master of Oceanography",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM038"
+  },
+  {
+    "code": "CM004",
+    "title": "Bachelor of Molecular Sciences and Master of  Biomedical Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM004"
+  },
+  {
+    "code": "CM007",
+    "title": "Bachelor of Molecular Sciences and Master of  Biotechnology",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM007"
+  },
+  {
+    "code": "CM024",
+    "title": "Bachelor of Molecular Sciences and Master of Bioinformatics",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM024"
+  },
+  {
+    "code": "CM015",
+    "title": "Bachelor of Science Frontier Physics and Master of Physics",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM015"
+  },
+  {
+    "code": "CM040",
+    "title": "Bachelor of Science Frontier Physics and Master of Physics - Medical Physics",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM040"
+  },
+  {
+    "code": "CM018",
+    "title": "Bachelor of Sport and Exercise Sciences  and Master of Clinical Exercise Physiology",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM018"
+  },
+  {
+    "code": "CM019",
+    "title": "Bachelor of Sport and Exercise Sciences and Master of Applied Human Performance Science",
+    "level": "Undergraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=CM019"
+  },
+  {
+    "code": "25240",
+    "title": "Graduate Certificate in Architectural Conservation",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=25240"
+  },
+  {
+    "code": "70230",
+    "title": "Graduate Certificate in Autism Diagnosis",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=70230"
+  },
+  {
+    "code": "41210",
+    "title": "Graduate Certificate in Business",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=41210"
+  },
+  {
+    "code": "42270",
+    "title": "Graduate Certificate in Business Analytics",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=42270"
+  },
+  {
+    "code": "41270",
+    "title": "Graduate Certificate in Business Information and Logistics Management",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=41270"
+  },
+  {
+    "code": "7329Z",
+    "title": "Graduate Certificate in Business Psychology (Online)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=7329Z"
+  },
+  {
+    "code": "90250",
+    "title": "Graduate Certificate in Clinical Science",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=90250"
+  },
+  {
+    "code": "41280",
+    "title": "Graduate Certificate in Commerce",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=41280"
+  },
+  {
+    "code": "92220",
+    "title": "Graduate Certificate in Communicable Diseases Epidemiology",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=92220"
+  },
+  {
+    "code": "41390",
+    "title": "Graduate Certificate in Digital Marketing",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=41390"
+  },
+  {
+    "code": "42230",
+    "title": "Graduate Certificate in Economics",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=42230"
+  },
+  {
+    "code": "90240",
+    "title": "Graduate Certificate in Emergency Medicine Research",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=90240"
+  },
+  {
+    "code": "41230",
+    "title": "Graduate Certificate in Entrepreneurship and Innovation",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=41230"
+  },
+  {
+    "code": "92210",
+    "title": "Graduate Certificate in Environment and Health",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=92210"
+  },
+  {
+    "code": "41250",
+    "title": "Graduate Certificate in Finance",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=41250"
+  },
+  {
+    "code": "72280",
+    "title": "Graduate Certificate in Forensic Anthropology",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=72280"
+  },
+  {
+    "code": "42200",
+    "title": "Graduate Certificate in Health Leadership and Management",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=42200"
+  },
+  {
+    "code": "90210",
+    "title": "Graduate Certificate in Health Professions Education",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=90210"
+  },
+  {
+    "code": "91270",
+    "title": "Graduate Certificate in Health Professions Education (online)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=91270"
+  },
+  {
+    "code": "41260",
+    "title": "Graduate Certificate in Human Resources and Employment Relations",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=41260"
+  },
+  {
+    "code": "12280",
+    "title": "Graduate Certificate in International Relations",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=12280"
+  },
+  {
+    "code": "41220",
+    "title": "Graduate Certificate in Leadership",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=41220"
+  },
+  {
+    "code": "6221Z",
+    "title": "Graduate Certificate in Leadership and Ethics in AI",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=6221Z"
+  },
+  {
+    "code": "41290",
+    "title": "Graduate Certificate in Marketing",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=41290"
+  },
+  {
+    "code": "43200",
+    "title": "Graduate Certificate in Minerals and Energy Management",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=43200"
+  },
+  {
+    "code": "91230",
+    "title": "Graduate Certificate in Population Health Studies",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=91230"
+  },
+  {
+    "code": "42280",
+    "title": "Graduate Certificate in Public Policy",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=42280"
+  },
+  {
+    "code": "40260",
+    "title": "Graduate Certificate in Social Impact",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=40260"
+  },
+  {
+    "code": "11270",
+    "title": "Graduate Certificate in Social Policy Practice",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=11270"
+  },
+  {
+    "code": "12240",
+    "title": "Graduate Certificate in Strategic Communication",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=12240"
+  },
+  {
+    "code": "00200",
+    "title": "Graduate Certificate in Studies",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=00200"
+  },
+  {
+    "code": "61250",
+    "title": "Graduate Certificate in Tailings Management",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=61250"
+  },
+  {
+    "code": "30250",
+    "title": "Graduate Certificate in Tertiary Teaching",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=30250"
+  },
+  {
+    "code": "73260",
+    "title": "Graduate Certificate in the Diagnosis and Assessment of Fetal Alcohol Spectrum Disorder (FASD)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=73260"
+  },
+  {
+    "code": "12220",
+    "title": "Graduate Certificate in Translation Studies",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=12220"
+  },
+  {
+    "code": "25210",
+    "title": "Graduate Certificate in Urban Design",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=25210"
+  },
+  {
+    "code": "10370",
+    "title": "Graduate Diploma in Advanced Social Work",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=10370"
+  },
+  {
+    "code": "25340",
+    "title": "Graduate Diploma in Building Information Modelling",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=25340"
+  },
+  {
+    "code": "25360",
+    "title": "Graduate Diploma in Building Information Modelling (Online)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=25360"
+  },
+  {
+    "code": "42340",
+    "title": "Graduate Diploma in Commerce (Chartered Accounting)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=42340"
+  },
+  {
+    "code": "72380",
+    "title": "Graduate Diploma in Forensic Anthropology",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=72380"
+  },
+  {
+    "code": "91340",
+    "title": "Graduate Diploma in Health Professions Education",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=91340"
+  },
+  {
+    "code": "91390",
+    "title": "Graduate Diploma in Health Professions Education (online)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=91390"
+  },
+  {
+    "code": "51330",
+    "title": "Graduate Diploma in Infectious Diseases",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=51330"
+  },
+  {
+    "code": "21320",
+    "title": "Graduate Diploma in International Law",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=21320"
+  },
+  {
+    "code": "11380",
+    "title": "Graduate Diploma in International Relations",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=11380"
+  },
+  {
+    "code": "20320",
+    "title": "Graduate Diploma in Law",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=20320"
+  },
+  {
+    "code": "21340",
+    "title": "Graduate Diploma in Law, Policy and Government",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=21340"
+  },
+  {
+    "code": "30380",
+    "title": "Graduate Diploma in Mental Health and Wellbeing in Education",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=30380"
+  },
+  {
+    "code": "21360",
+    "title": "Graduate Diploma in Natural Resources Law",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=21360"
+  },
+  {
+    "code": "62370",
+    "title": "Graduate Diploma in Ocean Technology and Engineering",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=62370"
+  },
+  {
+    "code": "12340",
+    "title": "Graduate Diploma in Strategic Communication",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=12340"
+  },
+  {
+    "code": "21350",
+    "title": "Graduate Diploma in Taxation Law",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=21350"
+  },
+  {
+    "code": "25310",
+    "title": "Graduate Diploma in Urban Design",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=25310"
+  },
+  {
+    "code": "25540",
+    "title": "Master of Building Information Modelling (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=25540"
+  },
+  {
+    "code": "25560",
+    "title": "Master of Building Information Modelling (Online) (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=25560"
+  },
+  {
+    "code": "42520",
+    "title": "Master of Business Administration (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=42520"
+  },
+  {
+    "code": "4252Q",
+    "title": "Master of Business Administration (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=4252Q"
+  },
+  {
+    "code": "42650",
+    "title": "Master of Business Administration - Global (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=42650"
+  },
+  {
+    "code": "42630",
+    "title": "Master of Business Analytics (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=42630"
+  },
+  {
+    "code": "41670",
+    "title": "Master of Business Information  and Logistics Management (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=41670"
+  },
+  {
+    "code": "73550",
+    "title": "Master of Business Psychology (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=73550"
+  },
+  {
+    "code": "90540",
+    "title": "Master of Clinical Audiology (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=90540"
+  },
+  {
+    "code": "41680",
+    "title": "Master of Commerce (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=41680"
+  },
+  {
+    "code": "43680",
+    "title": "Master of Commerce - Articulation (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=43680"
+  },
+  {
+    "code": "62530",
+    "title": "Master of Data Science (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=62530"
+  },
+  {
+    "code": "41660",
+    "title": "Master of Human Resources and Employment Relations (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=41660"
+  },
+  {
+    "code": "62510",
+    "title": "Master of Information Technology (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=62510"
+  },
+  {
+    "code": "6251Q",
+    "title": "Master of Information Technology (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=6251Q"
+  },
+  {
+    "code": "21520",
+    "title": "Master of International Law (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=21520"
+  },
+  {
+    "code": "21530",
+    "title": "Master of Law, Policy and Government (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=21530"
+  },
+  {
+    "code": "20500",
+    "title": "Master of Laws (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=20500"
+  },
+  {
+    "code": "21560",
+    "title": "Master of Legal Practice (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=21560"
+  },
+  {
+    "code": "41780",
+    "title": "Master of Management (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=41780"
+  },
+  {
+    "code": "41690",
+    "title": "Master of Marketing (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=41690"
+  },
+  {
+    "code": "20550",
+    "title": "Master of Mining and Energy Law (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=20550"
+  },
+  {
+    "code": "62540",
+    "title": "Master of Ocean Leadership (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=62540"
+  },
+  {
+    "code": "62570",
+    "title": "Master of Offshore and Coastal Engineering (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=62570"
+  },
+  {
+    "code": "70590",
+    "title": "Master of Ore Deposit Geology (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=70590"
+  },
+  {
+    "code": "42660",
+    "title": "Master of Professional Accounting (Chartered Accounting) (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=42660"
+  },
+  {
+    "code": "73590",
+    "title": "Master of Professional Psychology (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=73590"
+  },
+  {
+    "code": "62560",
+    "title": "Master of Renewable and Future Energy (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=62560"
+  },
+  {
+    "code": "20560",
+    "title": "Master of Resources and International Commercial Law (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=20560"
+  },
+  {
+    "code": "11550",
+    "title": "Master of Social Work (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=11550"
+  },
+  {
+    "code": "32550",
+    "title": "Master of Teaching \u2013 Secondary (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=32550"
+  },
+  {
+    "code": "43520",
+    "title": "Master of Business Administration (coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=43520"
+  },
+  {
+    "code": "93530",
+    "title": "Master of Dental Public and Primary Health (coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=93530"
+  },
+  {
+    "code": "30580",
+    "title": "Master of Education (coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=30580"
+  },
+  {
+    "code": "72580",
+    "title": "Master of Forensic Anthropology (coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=72580"
+  },
+  {
+    "code": "90570",
+    "title": "Master of Health Professions Education (coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=90570"
+  },
+  {
+    "code": "90580",
+    "title": "Master of Health Professions Education (online) (coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=90580"
+  },
+  {
+    "code": "53580",
+    "title": "Master of Industrial and Organisational Psychology (coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=53580"
+  },
+  {
+    "code": "73660",
+    "title": "Master of Medical Physics (coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=73660"
+  },
+  {
+    "code": "53560",
+    "title": "Master of Physics (coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=53560"
+  },
+  {
+    "code": "73530",
+    "title": "Master of Agricultural Economics (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=73530"
+  },
+  {
+    "code": "72510",
+    "title": "Master of Agricultural Science (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=72510"
+  },
+  {
+    "code": "42560",
+    "title": "Master of Applied Finance (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=42560"
+  },
+  {
+    "code": "25520",
+    "title": "Master of Architecture (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=25520"
+  },
+  {
+    "code": "70550",
+    "title": "Master of Bioinformatics (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=70550"
+  },
+  {
+    "code": "72520",
+    "title": "Master of Biological Science (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=72520"
+  },
+  {
+    "code": "71520",
+    "title": "Master of Biomedical Science (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=71520"
+  },
+  {
+    "code": "71580",
+    "title": "Master of Biotechnology (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=71580"
+  },
+  {
+    "code": "73520",
+    "title": "Master of Clinical Exercise Physiology (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=73520"
+  },
+  {
+    "code": "92510",
+    "title": "Master of Clinical Pathology (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=92510"
+  },
+  {
+    "code": "90740",
+    "title": "Master of Clinical Science (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=90740"
+  },
+  {
+    "code": "42670",
+    "title": "Master of Economics (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=42670"
+  },
+  {
+    "code": "73540",
+    "title": "Master of Energy Geoscience (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=73540"
+  },
+  {
+    "code": "70570",
+    "title": "Master of Environmental Economics (Online) (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=70570"
+  },
+  {
+    "code": "72530",
+    "title": "Master of Environmental Science (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=72530"
+  },
+  {
+    "code": "72550",
+    "title": "Master of Geoscience (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=72550"
+  },
+  {
+    "code": "72540",
+    "title": "Master of Hydrogeology (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=72540"
+  },
+  {
+    "code": "54540",
+    "title": "Master of Infectious Diseases (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=54540"
+  },
+  {
+    "code": "71550",
+    "title": "Master of International Development (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=71550"
+  },
+  {
+    "code": "11580",
+    "title": "Master of International Relations (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=11580"
+  },
+  {
+    "code": "25550",
+    "title": "Master of Landscape Architecture (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=25550"
+  },
+  {
+    "code": "74540",
+    "title": "Master of Marine Biology (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=74540"
+  },
+  {
+    "code": "71590",
+    "title": "Master of Oceanography (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=71590"
+  },
+  {
+    "code": "40610",
+    "title": "Master of Professional Accounting (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=40610"
+  },
+  {
+    "code": "92550",
+    "title": "Master of Public Health (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=92550"
+  },
+  {
+    "code": "91550",
+    "title": "Master of Public Health (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=91550"
+  },
+  {
+    "code": "42580",
+    "title": "Master of Public Policy (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=42580"
+  },
+  {
+    "code": "51580",
+    "title": "Master of Science Communication (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=51580"
+  },
+  {
+    "code": "12540",
+    "title": "Master of Strategic Communication (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=12540"
+  },
+  {
+    "code": "00500",
+    "title": "Master of Studies (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=00500"
+  },
+  {
+    "code": "21550",
+    "title": "Master of Taxation Law (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=21550"
+  },
+  {
+    "code": "12520",
+    "title": "Master of Translation Studies (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=12520"
+  },
+  {
+    "code": "25530",
+    "title": "Master of Urban Design (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=25530"
+  },
+  {
+    "code": "91590",
+    "title": "Doctor of Optometry (coursework) (extended)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=91590"
+  },
+  {
+    "code": "51500",
+    "title": "Doctor of Pharmacy (coursework) (extended)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=51500"
+  },
+  {
+    "code": "91860",
+    "title": "Doctor of Dental Medicine",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=91860"
+  },
+  {
+    "code": "91850",
+    "title": "Doctor of Medicine",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=91850"
+  },
+  {
+    "code": "90850",
+    "title": "Doctor of Medicine",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=90850"
+  },
+  {
+    "code": "91870",
+    "title": "Doctor of Podiatric Medicine",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=91870"
+  },
+  {
+    "code": "20820",
+    "title": "Juris Doctor",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=20820"
+  },
+  {
+    "code": "62550",
+    "title": "Master of Professional Engineering",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=62550"
+  },
+  {
+    "code": "51610",
+    "title": "Master of Exercise Science (thesis and coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=51610"
+  },
+  {
+    "code": "90670",
+    "title": "Master of Health Professions Education (thesis and coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=90670"
+  },
+  {
+    "code": "92610",
+    "title": "Master of Pathology (thesis and coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=92610"
+  },
+  {
+    "code": "70630",
+    "title": "Master of Science (thesis and coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=70630"
+  },
+  {
+    "code": "10750",
+    "title": "Master of Advanced Social Work (research)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=10750"
+  },
+  {
+    "code": "25770",
+    "title": "Master of Curatorial Studies in Fine Arts (research)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=25770"
+  },
+  {
+    "code": "50770",
+    "title": "Master of Forensic Anthropology (research)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=50770"
+  },
+  {
+    "code": "00710",
+    "title": "Master of Philosophy (research)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=00710"
+  },
+  {
+    "code": "25760",
+    "title": "Master of Architecture (Design) (research)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=25760"
+  },
+  {
+    "code": "25740",
+    "title": "Master of Fine Arts (research)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=25740"
+  },
+  {
+    "code": "10720",
+    "title": "Master of Music (research)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=10720"
+  },
+  {
+    "code": "00810",
+    "title": "Doctor of Philosophy",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=00810"
+  },
+  {
+    "code": "01820",
+    "title": "Doctor of Philosophy",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=01820"
+  },
+  {
+    "code": "01830",
+    "title": "Doctor of Philosophy",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=01830"
+  },
+  {
+    "code": "01840",
+    "title": "Doctor of Philosophy",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=01840"
+  },
+  {
+    "code": "01850",
+    "title": "Doctor of Philosophy",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=01850"
+  },
+  {
+    "code": "00860",
+    "title": "Doctor of Philosophy (joint/double-badged)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=00860"
+  },
+  {
+    "code": "00870",
+    "title": "Doctor of Philosophy (joint/double-badged)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=00870"
+  },
+  {
+    "code": "90840",
+    "title": "Doctor of Clinical Dentistry",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=90840"
+  },
+  {
+    "code": "91830",
+    "title": "Doctor of Podiatric Surgery",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=91830"
+  },
+  {
+    "code": "25920",
+    "title": "Doctor of Architecture (Design)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=25920"
+  },
+  {
+    "code": "10940",
+    "title": "Doctor of Musical Arts",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=10940"
+  },
+  {
+    "code": "40910",
+    "title": "Doctor of Commerce",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=40910"
+  },
+  {
+    "code": "80910",
+    "title": "Doctor of Dental Science",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=80910"
+  },
+  {
+    "code": "40920",
+    "title": "Doctor of Economics",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=40920"
+  },
+  {
+    "code": "60910",
+    "title": "Doctor of Engineering",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=60910"
+  },
+  {
+    "code": "20920",
+    "title": "Doctor of Laws",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=20920"
+  },
+  {
+    "code": "10910",
+    "title": "Doctor of Letters",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=10910"
+  },
+  {
+    "code": "90920",
+    "title": "Doctor of Medical Science",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=90920"
+  },
+  {
+    "code": "10920",
+    "title": "Doctor of Music",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=10920"
+  },
+  {
+    "code": "50910",
+    "title": "Doctor of Science",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=50910"
+  },
+  {
+    "code": "70910",
+    "title": "Doctor of Science in Agriculture",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=70910"
+  },
+  {
+    "code": "90930",
+    "title": "Doctor of Surgery",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=90930"
+  },
+  {
+    "code": "30810",
+    "title": "Doctor of Education",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=30810"
+  },
+  {
+    "code": "10970",
+    "title": "Doctor of Social Work",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=10970"
+  },
+  {
+    "code": "43530",
+    "title": "Master of Business Administration (coursework and dissertation) and Master of Laws (coursework)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=43530"
+  },
+  {
+    "code": "12590",
+    "title": "Master of Commerce (coursework) and Master of Translation Studies (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=12590"
+  },
+  {
+    "code": "21540",
+    "title": "Master of International Law (coursework) and Master of International Relations (coursework or coursework and dissertation)",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=21540"
+  },
+  {
+    "code": "BHQ01",
+    "title": "Bachelor of Advanced Computer Science [Artificial Intelligence] [Honours]",
+    "level": "Postgraduate",
+    "url": "https://www.handbooks.uwa.edu.au/coursedetails?code=BHQ01"
+  }
+]

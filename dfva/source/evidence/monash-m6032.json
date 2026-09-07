@@ -1,0 +1,102 @@
+{
+  "code": "monash-m6032",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in physiotherapy.",
+      "evidenceLines": [
+        "Apply knowledge of the anatomy, physiology and biomechanics of the limbs and spine to common conditions encountered in physiotherapy practice.",
+        "Design and implement evidence-based, safe exercise interventions for individuals with a range of health conditions and activity levels.",
+        "This course enables students with an undergraduate degree in foundational sciences to obtain an entry-level qualification at a postgraduate level of study to practice as a physiotherapist."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in physiotherapy.",
+      "evidenceLines": [
+        "Analyse health-related data by executing quantitative analysis to investigate comparisons and associations between variables.",
+        "Appraise levels of research evidence, study design and sources of bias that inform person-centred physiotherapy care.",
+        "The course will provide you with an integrated curriculum centred on case-based learning and clinical education that satisfies Physiotherapy Board of Australia (AHPRA) registration requirements and aligns to Physiotherapy practice thresholds in Australia and Aotearoa New Zealand."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within physiotherapy.",
+      "evidenceLines": [
+        "Subject: Foundations of physiotherapy (PTY5106)",
+        "Subject: Musculoskeletal physiotherapy (PTY5107)",
+        "Evaluate service delivery models within Australian healthcare systems and explain the roles and responsibilities of members of the healthcare team."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in physiotherapy.",
+      "evidenceLines": [
+        "Analyse the influence of culture and connection to country on Aboriginal and Torres Strait Islander peoples\u2019 concepts of health and wellbeing to inform culturally safe practice.",
+        "Analyse and compare health and health promotion frameworks across individual, cultural, and population contexts.",
+        "The vision for the Doctor of Physiotherapy is to create skilled physiotherapy graduates with the cultural, theoretical and critical ability to progress physiotherapy practice to the evolving needs of the community."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in physiotherapy.",
+      "evidenceLines": [
+        "Subject: Neurological physiotherapy (PTY5108)",
+        "Subject: Cardiorespiratory physiotherapy (PTY5109)",
+        "Adapt professional communication and collaborative practice to diverse contexts through reflexive evaluation and improvement of personal performance."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in physiotherapy.",
+      "evidenceLines": [
+        "Justify evidence-informed strategies to improve personal and community determinants of health that promote sustainable health outcomes.",
+        "This course enables students with an undergraduate degree in foundational sciences to obtain an entry-level qualification at a postgraduate level of study to practice as a physiotherapist.",
+        "The course will provide you with an integrated curriculum centred on case-based learning and clinical education that satisfies Physiotherapy Board of Australia (AHPRA) registration requirements and aligns to Physiotherapy practice thresholds in Australia and Aotearoa New Zealand."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in physiotherapy.",
+      "evidenceLines": [
+        "Practice ethical and professional conduct consistent with physiotherapy practice thresholds as a beginning-level practitioner.",
+        "Subject: Integrated practice (PTY5201)",
+        "The vision for the Doctor of Physiotherapy is to create skilled physiotherapy graduates with the cultural, theoretical and critical ability to progress physiotherapy practice to the evolving needs of the community."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "This course enables students with an undergraduate degree in foundational sciences to obtain an entry-level qualification at a postgraduate level of study to practice as a physiotherapist. The course will provide you with an integrated curriculum centred on case-based learning and clinical education that satisfies Physiotherapy Board of Australia (AHPRA) registration requirements and aligns to Physiotherapy practice thresholds in Australia and Aotearoa New Zealand.",
+        "This course enables students with an undergraduate degree in foundational sciences to obtain an entry-level qualification at a postgraduate level of study to practice as a physiotherapist."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Doctor of Physiotherapy.",
+        "evidenceLines": [
+          "This course enables students with an undergraduate degree in foundational sciences to obtain an entry-level qualification at a postgraduate level of study to practice as a physiotherapist. The course will provide you with an integrated curriculum centred on case-based learning and clinical education that satisfies Physiotherapy Board of Australia (AHPRA) registration requirements and aligns to Physiotherapy practice thresholds in Australia and Aotearoa New Zealand.",
+          "The course comprises 144 credit points."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in physiotherapy.",
+        "evidenceLines": [
+          "Subject: Foundations of physiotherapy (PTY5106)",
+          "Apply knowledge of the anatomy, physiology and biomechanics of the limbs and spine to common conditions encountered in physiotherapy practice."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

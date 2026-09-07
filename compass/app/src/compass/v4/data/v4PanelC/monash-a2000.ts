@@ -1,0 +1,94 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 11,
+  "workplace": 6,
+  "C1": {
+    "score": 2,
+    "rationale": "Emphasises respectful collaborative scholarship and intercultural communication across culturally diverse environments (CILOs, Overview).",
+    "evidenceLines": [
+      "engage in scholarship or professional practice collaboratively and respectfully;",
+      "The capacity to successfully navigate the complexities of culturally different environments is a signature capability of an Arts graduate."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Requires intellectual creativity to formulate innovative solutions and design an independent research project (CILOs).",
+    "evidenceLines": [
+      "develop and communicate creative and innovative solutions in at least one area of study in a range of formats, and for various audiences;",
+      "design, conduct, and communicate an independent research project;"
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Rigorous critical, evaluative, and analytical argumentation applied to theoretical frameworks and disciplinary methodologies across humanities and social sciences (CILOs).",
+    "evidenceLines": [
+      "communicate an argument through the use of critical, evaluative and analytical skills;",
+      "critically analyse and apply the content, methods of investigation and theoretical frameworks that constitute the knowledge base of at least one area of study;"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Prepares graduates to navigate ambiguity and adapt effectively within complex, rapidly changing globalised environments (Overview).",
+    "evidenceLines": [
+      "Our world needs graduates who thrive in an era of uncertainty and change. In the Monash Bachelor of Arts you will cultivate your intellect, foster your passions and develop your capacity to ask the questions and find the solutions required to transform our world.",
+      "The capacity to successfully navigate the complexities of culturally different environments is a signature capability of an Arts graduate."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Requires active in-person engagement through global mobility programs, international field immersion, and campus-based collaborative seminars (Overview).",
+    "evidenceLines": [
+      "Broaden your knowledge and life experience by participating in the Global Immersion Guarantee or one of our other short study trips or a semester-long programs. Our high quality international mobility experiences help our graduates to engage in the world and prepare them for the global workplace.",
+      "engage in scholarship or professional practice collaboratively and respectfully;"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Applies disciplinary humanities and social science knowledge in real-world professional workplace scenarios and industry internships (Overview).",
+    "evidenceLines": [
+      "Through industry internships and placements, create networks and skills for your career development. Professional experiences allow you to start activating your knowledge in real world scenarios. It aids you to see your learning in an employment context.",
+      "develop and communicate creative and innovative solutions in at least one area of study in a range of formats, and for various audiences;"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Grounds students in responsible global citizenship, ethical conduct, and respectful professional scholarship (CILOs).",
+    "evidenceLines": [
+      "demonstrate competencies required for responsible global citizenship.",
+      "engage in scholarship or professional practice collaboratively and respectfully;"
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Prepares students for diverse industry contexts and professional communication across varied formats and professional media (CILOs, Overview).",
+    "evidenceLines": [
+      "develop and communicate creative and innovative solutions in at least one area of study in a range of formats, and for various audiences;",
+      "Through industry internships and placements, create networks and skills for your career development. Professional experiences allow you to start activating your knowledge in real world scenarios. It aids you to see your learning in an employment context."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Comprehensive Bachelor of Arts program satisfying foundational disciplinary depth across major sequences.",
+      "evidenceLines": [
+        "critically analyse and apply the content, methods of investigation and theoretical frameworks that constitute the knowledge base of at least one area of study;"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Professional Futures integration ensuring authentic contextual application and research competence.",
+      "evidenceLines": [
+        "Through industry internships and placements, create networks and skills for your career development. Professional experiences allow you to start activating your knowledge in real world scenarios. It aids you to see your learning in an employment context."
+      ]
+    }
+  },
+  "ambiguities": [],
+  "notScoreable": []
+};
+
+export default record;

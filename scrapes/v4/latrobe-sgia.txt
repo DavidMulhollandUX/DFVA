@@ -1,0 +1,179 @@
+===== SOURCE: https://handbook.latrobe.edu.au/courses/2026/SGIA =====
+## Graduate Diploma in Artificial intelligence   - Melbourne (Bundoora)
+##### SGIA
+##### 120 credit points
+You are viewing the 2026 version
+
+### Overview
+Learn to use AI technology in a wide range of contexts, including digital healthcare, smart manufacturing, smart cities, sustainable energy infrastructure, precision agriculture and more. You’ll learn from world-renowned lecturers who are leading the advancement of virtual reality and computer engineering.
+
+Get a hands-on approach. Use your AI skills to solve real-world problems when you take on an industry-based project with leading organisations including Microsoft, Optus, 4Pi Labs, Aerion, Quantum Victoria, Nanjing University of Information Science and Technology, Pivot Maritime International and Axicor.
+
+You’ll learn:
+
+  * Problem-solving with AI  * Discover how research skills and deep learning algorithms are used to develop AI-based solutions to real-world problems.
+
+  * Machine learning  * Learn how to analyse data to design, implement and evaluate machine learning techniques for solving real-world problems.
+
+  * Deep learning techniques  * Explore deep learning techniques and apply them to AI functions like image recognition, machine translation and speech synthesis.
+
+  * Social, legal and ethical impact of AI  * Gain an understanding of the legal, moral and societal issues faced by today's IT industry and their impact on how AI technology is used.
+
+### Location(s)
+Melbourne (Bundoora)
+### CRICOS code
+104800C
+### Course duration (full time)
+1 year
+### Study level
+Postgraduate
+### AQF level
+Level 8 - Graduate Diploma
+### Available only as an exit award
+Yes
+
+### Completion requirements
+To qualify for the award of Graduate Diploma in Artificial Intelligence, students must complete 120 credit points consisting of:
+
+90 core credit points
+
+30 predefined elective credit points
+
+### Course structure
+120 credit points
+**Level one** **120 credit points**
+  **Core** **90 credit points**
+    [ _arrow_forward_ LTU0AIM ACADEMIC INTEGRITY MODULE ](https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM)
+    [ _arrow_forward_ CSE5ML MACHINE LEARNING ](https://handbook.latrobe.edu.au/subjects/2026/CSE5ML)
+    [ _arrow_forward_ CSE4004 CYBER SECURITY PRINCIPLES ](https://handbook.latrobe.edu.au/subjects/2026/CSE4004)
+    [ _arrow_forward_ CSE4DBF DATABASE FUNDAMENTALS ](https://handbook.latrobe.edu.au/subjects/2026/CSE4DBF)
+    [ _arrow_forward_ CSE4002 ARTIFICIAL INTELLIGENCE FUNDAMENTALS ](https://handbook.latrobe.edu.au/subjects/2026/CSE4002)
+    [ _arrow_forward_ CSE4IP INTRODUCTION TO PROGRAMMING ](https://handbook.latrobe.edu.au/subjects/2026/CSE4IP)
+    [ _arrow_forward_ CSE4IFU INFORMATION TECHNOLOGY FUNDAMENTALS ](https://handbook.latrobe.edu.au/subjects/2026/CSE4IFU)
+  **Electives** **30 credit points**
+  Students to select subjects to the value of 30 credit points from the predefined elective list below.
+    [ _arrow_forward_ CSE5CV COMPUTER VISION ](https://handbook.latrobe.edu.au/subjects/2026/CSE5CV)
+    [ _arrow_forward_ CSE5DMI DATA MINING ](https://handbook.latrobe.edu.au/subjects/2026/CSE5DMI)
+    [ _arrow_forward_ CSE5DL DEEP LEARNING ](https://handbook.latrobe.edu.au/subjects/2026/CSE5DL)
+    [ _arrow_forward_ CSE5NLP NATURAL LANGUAGE PROCESSING ](https://handbook.latrobe.edu.au/subjects/2026/CSE5NLP)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+Apply advanced understanding of fundamental issues and techniques in information technology to artificial intelligence.
+**2.**
+Apply awareness of professional ethical and cultural values to communicate complex technical and professional issues in artificial intelligence to diverse audiences.
+**3.**
+Critically evaluate solutions to technical problems in artificial intelligence.
+**4.**
+Apply information technology principles and research to develop and implement artificial intelligence solutions.
+**5.**
+Synthesise and test theories in information technology using research and technical skill.
+
+### Course features
+### Career outcomes
+Digital disruption is producing strong demand for AI professionals in healthcare, manufacturing, agriculture, automotive and more. Graduates can pursue a range of career opportunities, including:
+
+  * Artificial intelligence architect
+  * Identify how AI technology can be applied successfully in business settings.
+
+  * Software engineer
+  * Use engineering principles and computer language to design, develop and maintain software systems.
+
+  * Data scientist
+  * Work with computer hardware systems and networks to optimise performance.
+
+### Internal course relationships
+
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4002 =====
+Subject: ARTIFICIAL INTELLIGENCE FUNDAMENTALS   (CSE4002)
+Credit Points: 15
+Overview: Semester 1/Term 2: subject description: The field of Artificial Intelligence (AI) engages computers for reasoning and decision-making. In this subject, you will be introduced to the fundamental concepts and different applications of AI. The main topics include searching, knowledge representation and reasoning, expert system design and development, and responsible AI principles and applications. Practice in the design and development of AI models for real world problems will be offered in laboratory classes. (Includes subject intended learning outcomes 1-4) Semester 2/Term 4: subject description: This subject gives you an introduction to AI and how AI transforms business and society. You will learn principal AI concepts, explore a variety of AI techniques for solving different types of problems, and examine ethical issues and concerns associated with AI. Upon completion of the subject, you will be equipped to recognise, select, and apply existing AI methods in both computer science and non-computer science fields that engage with AI technologies. (Includes subject intended learning outcomes 5-8)
+Learning Outcomes:
+- Semester 2/Term 4 - Assess ethical, social, and technical implications of AI systems to inform responsible decision-making.
+- Semester 1/Term 2 - Analyse and design basic machine learning algorithms to model a practical case.
+- Semester 2/Term 4 - Evaluate the suitability of different AI approaches for real-world problems and justify their selection in practical scenarios.
+- Semester 2/Term 4 - Apply AI approaches to solve business or technology challenges, considering constraints and objectives.
+- Semester 1/Term 2 - Represent knowledge using semantic networks, scripts, frames and logic-based mechanisms and write simple Prolog programs to enable automated reasoning.
+- Semester 1/Term 2 - Construct simple expert systems to solve a real-world problem.
+- Semester 1/Term 2 - Devise appropriate representations for state space search and game playing to solve practical problems.
+- Semester 2/Term 4 - Critically interpret and explain the core concepts of artificial intelligence and evaluate how common AI models are designed to operate and generate outputs in varied contexts.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4004 =====
+Subject: CYBER SECURITY PRINCIPLES (CSE4004)
+Credit Points: 15
+Overview: In the Internet era, industries and organisations need to be aware of, and be prepared to defend against threats and attacks. Stakeholders should be familiar with the basic principles and best practices of cyber security to better protect their businesses. In this subject, the principles, the state of the art, and strategies for the future of cyber security is explored thoroughly. The topics will focus on information security, ethical and legal practices, mitigating cyber vulnerabilities, and the process of incident response and analysis. The outline of the subject is targeted at ensuring the privacy, reliability, confidentiality and integrity of information systems. Cyber security is a very broad discipline, and therefore, this subject is only intended to cover the basics of the recent state of the art and leading cyber security topics.
+Learning Outcomes:
+- Analyse approaches to security networks, firewalls, intrusion detection systems and intrusion prevention systems
+- Appraise key terms and concepts in cyber security, cyber law, intellectual property and cyber crime
+- Formulate approaches for incident analysis, risk management in cyber space and incident response
+- Analyse various software design practices and principles of web security
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4DBF =====
+Subject: DATABASE FUNDAMENTALS (CSE4DBF)
+Credit Points: 15
+Overview: This subject starts with an overview of the architecture and management of database systems, and a discussion of different existing database models. The main focus includes relational database analysis, design, and implementation. The students learn: relational algebra as the formal foundation of relational databases; relational conceptual design using an entity-relationship diagram; relational logical database design; security and integrity; and SQL implementation of relational database queries. Students will also learn advanced normalization theory and the techniques to remove data anomalies and redundancies. In this subject, students are required to design a database application that meets the needs of a system requirement specification, and to implement the system using a commercial standard database system such as ORACLE.
+Learning Outcomes:
+- Evaluate database design in terms of data anomalies and redundancies by applying the appropriate normalization techniques.
+- Design a relational database using an ER or EER diagram, and use a transformation process to change the ER or EER diagram to a relational database design
+- Evaluate the possible risks and ethical and social considerations relevant to designed systems.
+- Explain the underlying model of relational database operations using relational algebra.
+- Implement database systems using SQL and advanced PL/SQL including stored procedures and triggers.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4IFU =====
+Subject: INFORMATION TECHNOLOGY FUNDAMENTALS (CSE4IFU)
+Credit Points: 15
+Overview: In this subject, you will learn computer system organization and its associated topics. It covers the hardware components of the computer, data storage and retrieval, and introduces system software, computer networks, data communications, the Internet, operating systems, file management systems and security. You will also be introduced to information systems and application software packages.
+Learning Outcomes:
+- Design and construct basic web pages using HTML and style sheets based on specific requirements.
+- Critically examine simple problems and develop spreadsheets to model these problems.
+- Differentiate between main types of computer networks and explain the purpose of major network components including any advantages and disadvantages of different data communication media.
+- Identify and critically evaluate functions of the main hardware components of computers.
+- Analyse and evaluate the requirements and functionality of different types of software.
+- Develop and interpret simple database tables, queries and reports based on specific requirements.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE5DMI =====
+Subject: DATA MINING (CSE5DMI)
+Credit Points: 15
+Overview: Data Mining refers to various techniques which can be used to uncover hidden information from a database. The data to be mined may be complex data including big data, multimedia, spatial and temporal data, biological and health data. Data Mining has evolved from several areas including: databases, artificial intelligence, algorithms, information retrieval and statistics. This subject is designed to provide you with a solid understanding of data mining concepts and tools. You will learn various data exploration techniques and analysis tools. The subject also covers algorithms and techniques for data pre-processing, data classification, association rule mining, and data clustering. The subject also discusses domain applications where data mining techniques are used.
+Learning Outcomes:
+- Implement classification, clustering, and association rule mining techniques for pattern discovery from selected datasets.
+- Analyse a given data science problem and recommend data mining strategies suitable to solve the problem.
+- Evaluate the performance of data mining models using appropriate metrics.
+- Present data-driven insights by written reports and visualizations and make data-informed recommendations to technical and non-technical audiences.
+- Assess the quality and suitability of data for mining tasks and develop effective data cleaning, reduction and transformation solutions.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE5NLP =====
+Subject: NATURAL LANGUAGE PROCESSING (CSE5NLP)
+Credit Points: 15
+Overview: Natural Language Processing (NLP) is broadly concerned with the interactions between computers and natural (i.e., human) languages; more particularly, it is concerned with the question of how to program computers to process and analyse large amounts of natural language data. Following a review of the essential mathematical and linguistic concepts underlying natural language processing, you will develop skills in important natural language processing sub-tasks including accessing corpora, tokenisation, morphological analysis, word sense disambiguation, part-of speech tagging, and analysing sentence structure. You will then apply these skills in the context of applications such as text categorisation, text clustering, text recommendation, and information retrieval. Where appropriate, both lexical (i.e. dictionary-based) and machine learning approaches will be used.
+Learning Outcomes:
+- Devise natural language processing(NLP)processing pipelines using existing NLP code libraries, textcorpora, and lexical resources such as WordNet.
+- Apply natural language processing sub tasks, including tokenisation, morphological analysis, word sense disambiguation, part-of-speech tagging, and analysing sentence structure, to natural languages texts.
+- Describe and evaluate the methods and algorithms used to process different types of textual data.
+- Critically evaluate results of applying natural language processing methods to real-world tasks such as text categorisation, text clustering, text recommendation and information retrieval.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM =====
+Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)
+Credit Points: 0
+Overview: The academic integrity module introduces academic integrity standards to inform and support students in avoiding plagiarism and academic misconduct. Students complete four parts that encompass academic misconduct and academic integrity decisions, including cheating, plagiarism, and collusion. Students learn about Turnitin (the text-matching tool) used at La Trobe University, and how to get help and support their development of referencing skills.
+Learning Outcomes:
+- Understand the importance of the acknowledgment and the referencing of sources
+- Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.
+- Recognise and understand academic integrity responsibilities.
+Assessment Tasks:
+Workload: 
+

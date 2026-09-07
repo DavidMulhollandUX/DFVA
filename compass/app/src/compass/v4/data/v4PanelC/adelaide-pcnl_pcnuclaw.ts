@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in law.",
+    "evidenceLines": [
+      "**Institution**: The University of Adelaide",
+      "**Program Identifier / Slug**: pcnl_pcnuclaw",
+      "- **Institution**: The University of Adelaide"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in law.",
+    "evidenceLines": [
+      "**Academic Calendar Year**: 2025/2026",
+      "**Faculty**: Faculty of Arts, Business, Law and Economics (ABLE)",
+      "- **Program Identifier / Slug**: pcnl_pcnuclaw"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within law.",
+    "evidenceLines": [
+      "Subject: Law Research Project (PG) (LAWS5066)",
+      "Subject: Law Research Project (LAWS3054)",
+      "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/pcnl_pcnuclaw"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in law.",
+    "evidenceLines": [
+      "Analyse advanced principles of law and evaluate complex legal information",
+      "Proposal: 5%% (Hurdle: False)",
+      "- **Academic Calendar Year**: 2025/2026"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in law.",
+    "evidenceLines": [
+      "Subject: Nuclear Regulatory Law (LAWS5070)",
+      "Subject: Law Research Project (PG) (LAWS5066)",
+      "Proposal: 10%% (Hurdle: False)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in law.",
+    "evidenceLines": [
+      "Report: 85%% (Hurdle: False)",
+      "- **Institution**: The University of Adelaide",
+      "- **Program Identifier / Slug**: pcnl_pcnuclaw"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in law.",
+    "evidenceLines": [
+      "Undertake self-directed research in law, analyse and synthesise legal information and materials.",
+      "Subject: Nuclear Regulatory Law (LAWS5070)",
+      "- **Academic Calendar Year**: 2025/2026"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The core Nuclear Regulatory Law course is taught intensively and is followed by a research project in nuclear law completed over a semester. Graduates of this program may be eligible to progress into programs into which this qualification is nested, including the Graduate Certificate in Law, Graduate Diploma in Law, Master of Laws and/or Master of International and Security Law, with credit for their courses completed in the Professional Certificate in Nuclear Law.",
+      "- **Institution**: The University of Adelaide"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Professional Certificate in Nuclear Law.",
+      "evidenceLines": [
+        "The core Nuclear Regulatory Law course is taught intensively and is followed by a research project in nuclear law completed over a semester. Graduates of this program may be eligible to progress into programs into which this qualification is nested, including the Graduate Certificate in Law, Graduate Diploma in Law, Master of Laws and/or Master of International and Security Law, with credit for their courses completed in the Professional Certificate in Nuclear Law.",
+        "The Professional Certificate in Nuclear Law is a non-AQF qualification with a standard full-time duration of 0.5 years."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in law.",
+      "evidenceLines": [
+        "Subject: Law Research Project (PG) (LAWS5066)",
+        "**Institution**: The University of Adelaide"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

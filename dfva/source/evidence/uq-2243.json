@@ -1,0 +1,102 @@
+{
+  "code": "uq-2243",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in general nursing.",
+      "evidenceLines": [
+        "**Institution**: The University of Queensland (UQ)",
+        "**Program Code**: 2243",
+        "- **Institution**: The University of Queensland (UQ)"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in general nursing.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Program Level**: Undergraduate",
+        "- **Program Level**: Undergraduate"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within general nursing.",
+      "evidenceLines": [
+        "Subject: Advanced Discipline Readings (NUMW6001)",
+        "Subject: Research Methods & Thesis Preparation (NUMW6002)",
+        "**AQF Level**: AQF level 8"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in general nursing.",
+      "evidenceLines": [
+        "**Duration**: Not specified",
+        "**Faculty**: The University of Queensland",
+        "- **Faculty**: The University of Queensland"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in general nursing.",
+      "evidenceLines": [
+        "Subject: Thesis (full-time study) (NUMW6003)",
+        "Subject: Thesis (part-time study) (NUMW6004)",
+        "**Teaching Location**: St Lucia"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in general nursing.",
+      "evidenceLines": [
+        "**Attendance Mode**: Internal",
+        "- **Institution**: The University of Queensland (UQ)",
+        "- **Program Level**: Undergraduate"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in general nursing.",
+      "evidenceLines": [
+        "**Handbook URL**: https://my.uq.edu.au/programs-courses/program.html?acad_prog=2243",
+        "Subject: Thesis (part-time study) (NUMW6004)",
+        "- **Faculty**: The University of Queensland"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "- **Duration**: Not specified",
+        "- **Institution**: The University of Queensland (UQ)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Nursing.",
+        "evidenceLines": [
+          "- **Duration**: Not specified",
+          "To graduate with a Bachelor of Nursing (Honours) a student must have successfully completed all requirements of the program as"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in general nursing.",
+        "evidenceLines": [
+          "Subject: Advanced Discipline Readings (NUMW6001)",
+          "**Institution**: The University of Queensland (UQ)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

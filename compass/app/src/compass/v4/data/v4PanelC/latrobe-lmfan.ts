@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in banking and finance.",
+    "evidenceLines": [
+      "45cps of advanced standing would be offered to students who have completed a Bachelor Degree, or Graduate Certificate, in a business discipline, which includes at least one subject in each of economics, accounting, and statistics.",
+      "15cps of advanced standing for the subject FIN5005 would be offered to students who, prior to census date in their final semester, successfully completed either:",
+      "Master every aspect of the financial sector and apply advanced analysis skills to make informed investment decisions for organisations and individuals with La Trobe's Master of Financial Analysis."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in banking and finance.",
+    "evidenceLines": [
+      "Analyse and record business transactions, and prepare financial statements using double-entry accounting principles.",
+      "Evaluate the accounting purpose, processes and systems within the Australian or an international regulatory environment",
+      "Access professional investment platforms used daily by the world’s leading organisations in our trading room."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within banking and finance.",
+    "evidenceLines": [
+      "Subject: ACCOUNTING PRINCIPLES AND PRACTICES (ACC4001)",
+      "Subject: ECONOMICS FOR GLOBAL LEADERS (BUA4003)",
+      "Critically evaluate financial performance of firms to inform decision making using relevant information."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in banking and finance.",
+    "evidenceLines": [
+      "Exercise professional judgement to solve accounting problems from ethical, social, and regulatory perspectives, and effectively communicate relevant information to a range of stakeholders",
+      "Apply economic frameworks to business and social problems for policy and decision-making.",
+      "Use powerful tools to analyse both historical and real-time data across international markets, conduct market research, create investment portfolios and respond to breaking news and events."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in banking and finance.",
+    "evidenceLines": [
+      "Subject: STATISTICS FOR BUSINESS AND FINANCE (BUA4004)",
+      "Subject: PRINCIPLES OF FINANCE (BUA4005)",
+      "Construct and present logical and persuasive economic arguments and communicate concepts professionally."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in banking and finance.",
+    "evidenceLines": [
+      "Research and apply economic concepts to predict how changes in economic conditions may impact individuals, businesses and industries within market structures.",
+      "Master every aspect of the financial sector and apply advanced analysis skills to make informed investment decisions for organisations and individuals with La Trobe's Master of Financial Analysis.",
+      "Access professional investment platforms used daily by the world’s leading organisations in our trading room."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in banking and finance.",
+    "evidenceLines": [
+      "Critically analyse economic data to explain relationships between economic variables and their impacts on policy, business and individuals.",
+      "Subject: CASE STUDIES IN FINANCE (FIN5005)",
+      "Use powerful tools to analyse both historical and real-time data across international markets, conduct market research, create investment portfolios and respond to breaking news and events."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "To qualify for the award of the Master of Financial Analysis, students must complete 240 credit points consisting of:",
+      "Master every aspect of the financial sector and apply advanced analysis skills to make informed investment decisions for organisations and individuals with La Trobe's Master of Financial Analysis."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Financial Analysis.",
+      "evidenceLines": [
+        "To qualify for the award of the Master of Financial Analysis, students must complete 240 credit points consisting of:",
+        "165 core credit points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in banking and finance.",
+      "evidenceLines": [
+        "Subject: ACCOUNTING PRINCIPLES AND PRACTICES (ACC4001)",
+        "45cps of advanced standing would be offered to students who have completed a Bachelor Degree, or Graduate Certificate, in a business discipline, which includes at least one subject in each of economics, accounting, and statistics."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

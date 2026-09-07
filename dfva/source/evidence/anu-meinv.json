@@ -1,0 +1,102 @@
+{
+  "code": "anu-meinv",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Venture pitch presentations, investor business proposals, stakeholder negotiations, and executive communication.",
+      "evidenceLines": [
+        "Evaluateandsynthesiseevidence to inform decision making",
+        "Createopportunities and innovative solutions to organisational challenges by using frameworks and tools for analysing, enabling and managing innovation processes",
+        "A single two year graduate award offered by theANU College of Business and Economics"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of entrepreneurial business models, venture capital risk, and technology commercialisation.",
+      "evidenceLines": [
+        "Createopportunities and innovative solutions to organisational challenges by using frameworks and tools for analysing, enabling and managing innovation processes",
+        "Workeffectively with others to resolve challenges through effective leadership and use of organisational change theories and frameworks",
+        "A single two year graduate award offered by theANU College of Business and Economics"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Applied financial modeling for start-ups, market analytics, and innovation metrics.",
+      "evidenceLines": [
+        "Workeffectively with others to resolve challenges through effective leadership and use of organisational change theories and frameworks",
+        "Subject: Managing in a Global Context (BUSI7280)",
+        "Subject: ANU College of Business and Economics Internship Program (PG) (CBEA6070)"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Comprehensive synthesis of venture creation, intellectual property, design thinking, and corporate innovation.",
+      "evidenceLines": [
+        "Evaluateandsynthesiseevidence to inform decision making",
+        "Workeffectively with others to resolve challenges through effective leadership and use of organisational change theories and frameworks",
+        "A single two year graduate award offered by theANU College of Business and Economics"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied business venture prototyping, lean startup experiments, and commercial viability testing.",
+      "evidenceLines": [
+        "Engage,informandinfluencestakeholders with an evidence-based understanding of best practice in strategic management, including business policy and corporate strategy",
+        "Subject: Technology and Project Management (MGMT7020)",
+        "Subject: New Venture Creation (MGMT7161)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Alignment with startup governance, venture capital legal frameworks, and commercial ethics.",
+      "evidenceLines": [
+        "Createopportunities and innovative solutions to organisational challenges by using frameworks and tools for analysing, enabling and managing innovation processes",
+        "A single two year graduate award offered by theANU College of Business and Economics",
+        "A single two year graduate award offered by theANU College of Business and Economics"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic commercial venture projects, startup incubator engagement, and applied business model design.",
+      "evidenceLines": [
+        "Evaluateandsynthesiseevidence to inform decision making",
+        "Createopportunities and innovative solutions to organisational challenges by using frameworks and tools for analysing, enabling and managing innovation processes",
+        "A single two year graduate award offered by theANU College of Business and Economics"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework master degree without compulsory external placement.",
+      "evidenceLines": [
+        "A single two year graduate award offered by theANU College of Business and Economics",
+        "A single two year graduate award offered by theANU College of Business and Economics"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A two-year master degree in entrepreneurship and innovation.",
+        "evidenceLines": [
+          "A single two year graduate award offered by theANU College of Business and Economics",
+          "A single two year graduate award offered by theANU College of Business and Economics"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist business program structured through core venture creation study.",
+        "evidenceLines": [
+          "A single two year graduate award offered by theANU College of Business and Economics",
+          "Subject: Managing in a Global Context (BUSI7280)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied financial modeling in startups.",
+      "W3: Scored at Level 1 as external placement is elective."
+    ],
+    "notScoreable": []
+  }
+}

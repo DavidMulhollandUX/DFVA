@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 6,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "**Institution**: University of New South Wales (UNSW Sydney)",
+      "**Course Code**: 3733",
+      "- **Institution**: University of New South Wales (UNSW Sydney)"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "**Academic Year**: 2026",
+      "**Study Level**: Undergraduate",
+      "- **Study Level**: Undergraduate"
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Subject: Aviation Safety Management Systems (AVIA3012)",
+      "Subject: Managing Safety and Risk at Work (AVIA3013)",
+      "**AQF Level**: Not specified"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "**Total Units / Units of Credit (UOC)**: 192",
+      "**Delivery Mode**: On Campus",
+      "- **Total Units / Units of Credit (UOC)**: 192"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Subject: Aviation Work Placement 1 (AVIA3199)",
+      "Subject: Aviation Work Placement 2 (AVIA3299)",
+      "**CRICOS Code**: This program is currently being assessed for CRICOS registration. Until CRICOS registration is obtained (which cannot be guaranteed), this program will not be available to international applicants wishing to study in Australia. If you are interested in this program then please contact the faculty and we will advise you should the program become registered on CRICOS."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "**Academic Organisation**: Faculty of Engineering",
+      "- **Institution**: University of New South Wales (UNSW Sydney)",
+      "- **Study Level**: Undergraduate"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "**Handbook URL**: https://handbook.unsw.edu.au/undergraduate/programs/2026/3733",
+      "Subject: BABS Work Placement 1 (BABS3199)",
+      "- **Total Units / Units of Credit (UOC)**: 192"
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Level 2: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "- **Total Units / Units of Credit (UOC)**: 192",
+      "- **Institution**: University of New South Wales (UNSW Sydney)"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Engineering Science / Science.",
+      "evidenceLines": [
+        "- **Total Units / Units of Credit (UOC)**: 192",
+        "The Bachelor of Science allows you to study a wide range of science subjects as well as many other areas of interest. This degree is ideal for students who seek a 'generalist' degree in which there is a large element of choice. Students are encouraged to choose a broad range of courses in the first year, to expand their general understanding of Science which then enables them to choose from a wide selection of major options in the second and third year. The rules and requirements for the degree are set out below."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: Aviation Safety Management Systems (AVIA3012)",
+        "**Institution**: University of New South Wales (UNSW Sydney)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

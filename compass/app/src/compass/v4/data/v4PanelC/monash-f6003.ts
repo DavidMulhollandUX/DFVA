@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in graphic and design studies.",
+    "evidenceLines": [
+      "12 credit points of level 4 units from the list below; and",
+      "12 credit points of level 5 units from the list below.",
+      "Architecture at Monash is a five-year academic program starting with the Bachelor of Architectural Design and leading to the Master of Architecture course."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in graphic and design studies.",
+    "evidenceLines": [
+      "12 credit points of level 4 units from the list below; and",
+      "12 credit points of level 5 units from the list below.",
+      "These together will qualify graduates to start their professional practice."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within graphic and design studies.",
+    "evidenceLines": [
+      "Subject: Art, Design and Architecture internship (ADA5406)",
+      "Subject: Architecture foundation studio 1 (ARC1001)",
+      "Apply and extend knowledge and skills obtained through your degree in a professional setting;"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in graphic and design studies.",
+    "evidenceLines": [
+      "Critically reflect upon the disciplinary, operational, managerial and logistical structures of the contemporary workplace.",
+      "Exercise quality decision making skills and judgements with the variety of complex tasks and issues that arise within a contemporary practice setting;",
+      "Creative practice is core to the three-year Bachelor of Architectural Design course."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in graphic and design studies.",
+    "evidenceLines": [
+      "Subject: Architecture foundation studio 2 (ARC1002)",
+      "Subject: Architectural performance 1 (ARC1102)",
+      "Contribute effectively and constructively as a team-member within a relevant workplace;"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in graphic and design studies.",
+    "evidenceLines": [
+      "Perform advanced tasks appropriate to the discipline within a relevant working environment to a high professional standard;",
+      "Architecture at Monash is a five-year academic program starting with the Bachelor of Architectural Design and leading to the Master of Architecture course.",
+      "These together will qualify graduates to start their professional practice."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in graphic and design studies.",
+    "evidenceLines": [
+      "Folio: 100% (Hurdle: None)",
+      "Subject: Architecture communications 1 (ARC1301)",
+      "Creative practice is core to the three-year Bachelor of Architectural Design course."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "Creative practice is core to the three-year Bachelor of Architectural Design course. The educational environment is built around opportunities to encounter, understand and explore addressing the emerging challenges of our age and profession through designerly and architectural approaches. You will develop these skills through key practice, performance, and history and theory units - and find opportunities to test and extend these skills across six semesters of project based studios. These design studios provide an expanded site that draws on expertise from current academics and practicing architects to deliver problem focused investigations of key urban, environmental, social or political issues.",
+      "Architecture at Monash is a five-year academic program starting with the Bachelor of Architectural Design and leading to the Master of Architecture course."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Architectural Design and Master of Architecture.",
+      "evidenceLines": [
+        "Creative practice is core to the three-year Bachelor of Architectural Design course. The educational environment is built around opportunities to encounter, understand and explore addressing the emerging challenges of our age and profession through designerly and architectural approaches. You will develop these skills through key practice, performance, and history and theory units - and find opportunities to test and extend these skills across six semesters of project based studios. These design studios provide an expanded site that draws on expertise from current academics and practicing architects to deliver problem focused investigations of key urban, environmental, social or political issues.",
+        "Refer to each partner course for the post nominals for the degree awarded"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in graphic and design studies.",
+      "evidenceLines": [
+        "Subject: Art, Design and Architecture internship (ADA5406)",
+        "12 credit points of level 4 units from the list below; and"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

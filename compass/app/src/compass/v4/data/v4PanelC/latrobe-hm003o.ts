@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+    "evidenceLines": [
+      "Critically evaluate and adapt systemic interventions to ensure respectful and inclusive practice that meets the needs of individuals and families from a range of cultural and diverse socio-cultural contexts.",
+      "Identify and synthesise systemic theories, associated frameworks and apply a range of skills and techniques to inform family work practice.",
+      "This practically orientated course provides training in family therapy with a focus on supervision of family work and integrating family therapy theory."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+    "evidenceLines": [
+      "Develop an agenda and focus for family work and demonstrate a collaborative and respectful process in working with families.",
+      "Contrast and compare a linear and systemic conceptualisation of families’ presenting issues identifying the implications",
+      "It's ideal for psychologists, social workers, occupational therapists, youth workers, drug and alcohol counsellors, psychiatric nurses or workers from other professions who want to focus specifically on family therapy counselling."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+    "evidenceLines": [
+      "Subject: FOUNDATIONS OF FAMILY AND SYSTEMIC PRACTICE  (FTH4001)",
+      "Subject: CONTEMPORARY APPLICATIONS OF FAMILY AND SYSTEMIC PRACTICE  (FTH4002)",
+      "Demonstrate a systemic understanding of the impact of loss, grief and trauma as experienced by individuals and families."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+    "evidenceLines": [
+      "Integrate key ideas from a range of systemic and associated approaches to develop case conceptualisations and plans as appropriate to the needs and capacities of workers and clients within the mandate and context of the work.",
+      "Synthesise and utilise personal learning about the influence of historical factors and current socio-cultural context on the worker's practice with individuals, families and other social and professional groups.",
+      "It offers a solid grounding in systems theory and substantial experiential learning, including supervised clinical practice and working with a team of peers in a family therapy context."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+    "evidenceLines": [
+      "Subject: FOUNDATIONAL FAMILY THERAPY MODELS (FTH5TPA)",
+      "Subject: FAMILY THERAPY MODELS AND APPLICATIONS (FTH5TPB)",
+      "Conduct a culturally sensitive, trauma informed, and effective single session family consultation."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+    "evidenceLines": [
+      "Develop an appropriate systemic formulation of presenting difficulties drawing on family therapy and other relevant theoretical frameworks.",
+      "This practically orientated course provides training in family therapy with a focus on supervision of family work and integrating family therapy theory.",
+      "It's ideal for psychologists, social workers, occupational therapists, youth workers, drug and alcohol counsellors, psychiatric nurses or workers from other professions who want to focus specifically on family therapy counselling."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+    "evidenceLines": [
+      "Analyse and integrate factors pertaining to values, interpersonal style and capacities that impact on your practice within the therapist-client system, using defined theoretical frameworks.",
+      "Subject: FAMILY THERAPY - ADVANCED APPLICATION (FTH5TPC)",
+      "It offers a solid grounding in systems theory and substantial experiential learning, including supervised clinical practice and working with a team of peers in a family therapy context."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "*Please be aware that this course includes mandatory in-person placement requirements. Students are expected to complete these placements in Australia.",
+      "This practically orientated course provides training in family therapy with a focus on supervision of family work and integrating family therapy theory."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Clinical Family Therapy.",
+      "evidenceLines": [
+        "*Please be aware that this course includes mandatory in-person placement requirements. Students are expected to complete these placements in Australia.",
+        "To qualify for the award of Master of Clinical Family Therapy, students must complete 180 credit points consisting of:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+      "evidenceLines": [
+        "Subject: FOUNDATIONS OF FAMILY AND SYSTEMIC PRACTICE  (FTH4001)",
+        "Critically evaluate and adapt systemic interventions to ensure respectful and inclusive practice that meets the needs of individuals and families from a range of cultural and diverse socio-cultural contexts."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

@@ -1,0 +1,95 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 7,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Collaboration across diverse practitioner communities, cross-cultural media engagement, and public stakeholder communication.",
+    "evidenceLines": [
+      "Collaborate effectively with local and international communities of practitioners across media contexts.",
+      "Engage in media practices that take cultural difference as crucial to media audiences, industries, and contexts."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Navigating evolving media structures, political and material contexts, and adaptive production problem solving.",
+    "evidenceLines": [
+      "Critically analyse the evolving media landscape in relation to historical, social, political, material and theoretical contexts, including settler colonialism.",
+      "Demonstrate creativity, rigour, adaptability, independence, and cultural reflexivity in the application of media skills and the production of media texts."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of complex media landscapes, First Nations historical contexts, and research methodological critique.",
+    "evidenceLines": [
+      "Critically analyse the evolving media landscape in relation to historical, social, political, material and theoretical contexts, including settler colonialism.",
+      "Evaluate and apply research methods appropriate to distinct media forms, practices, industries, and audiences."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Original media content production, creative storytelling across interactive media, screenwriting, animation, and game design.",
+    "evidenceLines": [
+      "Demonstrate creativity, rigour, adaptability, independence, and cultural reflexivity in the application of media skills and the production of media texts.",
+      "Video and sound producer, screenwriter, animator, filmmaker, game designer, smart phone app developer, interactive media designer, advertising creative, public relations consultant, advertising strategist, advertising creative specialist, community relations advisor, corporate affairs executive, media account executive, social media manager, digital producer, digital communications coordinator, media / government relations advisor, media relations advisor, journalist, editor, website content manager, internal communications specialist, communications officer, corporate communications"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applying structured research methods across distinct media forms, industries, and audience analyses.",
+    "evidenceLines": [
+      "Evaluate and apply research methods appropriate to distinct media forms, practices, industries, and audiences.",
+      "Media at UNSW pushes you to develop confidence in a diverse and flexible mix of creative, critical, and practical knowledges. You will gain essential skills for navigating media in the 21st century so that you can collaborate effectively, and drive and respond to innovation."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Industry-engaged learning through 100-hour work placements with host organisations and portfolio compilation.",
+    "evidenceLines": [
+      "In this course, you’ll undertake industry-engaged learning by interning with a relevant host while also earning credit towards your degree.",
+      "SAM internships require 100 hours of work with a host organisation and can be taken in first, second or third term."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Critical grounding in media ethics, justice, social engagement, and respect for First Nations cultural protocols.",
+    "evidenceLines": [
+      "Deploy a critically informed approach to ethics, justice, and social engagement in media practices, industries, and contexts.",
+      "Engage and situate diverse First Nations knowledges and media practices, and the historical, cultural, social, and political contexts that produced them."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Level 2: Proficiency in modern digital media workflows, audiovisual production technologies, and interactive digital design platforms.",
+    "evidenceLines": [
+      "Media at UNSW pushes you to develop confidence in a diverse and flexible mix of creative, critical, and practical knowledges. You will gain essential skills for navigating media in the 21st century so that you can collaborate effectively, and drive and respond to innovation.",
+      "Video and sound producer, screenwriter, animator, filmmaker, game designer, smart phone app developer, interactive media designer, advertising creative, public relations consultant, advertising strategist, advertising creative specialist, community relations advisor, corporate affairs executive, media account executive, social media manager, digital producer, digital communications coordinator, media / government relations advisor, media relations advisor, journalist, editor, website content manager, internal communications specialist, communications officer, corporate communications"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "High AI exposure across digital copy, automated reporting, graphic design, and synthetic audio-visual production.",
+      "evidenceLines": [
+        "The three-year Bachelor of Media (BMedia) equips you with expertise to make a difference in the exciting, challenging, and constantly evolving field of media."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Active media making, video production, game design, and 100-hour industry work placement.",
+      "evidenceLines": [
+        "SAM internships require 100 hours of work with a host organisation and can be taken in first, second or third term.",
+        "Demonstrate creativity, rigour, adaptability, independence, and cultural reflexivity in the application of media skills and the production of media texts."
+      ]
+    }
+  },
+  "ambiguities": [],
+  "notScoreable": []
+};
+
+export default record;

@@ -1,0 +1,767 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/AENSE =====
+# Bachelor of Engineering (Honours) in Software Engineering (AENSE)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: AENSE
+- **Academic Year**: 2027
+- **Career / Study Level**: Undergraduate
+- **Program Duration**: 4 year full-time
+- **Minimum Units Required**: 192 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal BEngHonsSofEng
+- **CRICOS Code**: code 108316E
+- **UAC Code**: code 135005 (BEngHons Soft Eng)
+- **Field of Education**: of Education Computer Engineering
+- **Academic Contact**: contact Charles Gretton
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/AENSE
+
+## Program Description
+A single four year undergraduate award offered by theANU College of Systems and Society
+
+Applicants with an ANU selection rank of85or above are guaranteed admission (subject to meeting any prerequisites).
+
+We consider the unique circumstances and experiences of all applicants. You may be eligible for adjustment factors that recognise educational disadvantages, personal challenges or other barriers that may have impacted your studies.
+
+Learn more about adjustments >
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Professionally apply systematic engineering methods to design optimised and sustainable solutions to complex, transdisciplinary real-world engineering problems.
+2. Formulate and evaluate solutions to software engineering problems by selecting and applying theoretical principles and methods from the underpinning mathematical, information and computer sciences.
+3. Proficiently apply advanced technical knowledge and appropriate tools in software engineering practices.
+4. Identify and critically evaluate current developments and emerging trends in the software engineering discipline.
+5. Understand the contextual factors that influence professional engineering practice, and identify the potential societal, ethical, and environmental impact of engineering activities.
+6. Communicate effectively with colleagues, other engineering professionals and the broader community employing a range of communication media and tools.
+7. Engage in independent research and investigation through the application of research-based knowledge and research methods, including searching, analysing and evaluating information sources within and beyond the software engineering discipline.
+8. Engage effectively in critical reflection and independent learning to continue practicing at the forefront of the software engineering discipline.
+9. Work effectively and proactively within cross-cultural, multi-disciplinary teams, demonstrating autonomy, ethical conduct, well-developed judgement, adaptability and responsibility to achieve engineering outcomes at a high standard.
+
+## Program Requirements & Study Options
+### Program Requirements
+The Bachelor of Engineering (Honours) in Software Engineering requires completion of 192 units, of which:
+
+### Elective Study
+Once you have met the program requirements of your degree, you may have enough electives to complete an additional elective
+major
+,
+minor
+or
+specialisation
+.
+
+### Study Options
+Year 1
+48 units
+ENGN1211
+Engineering Design 1: Discovering Engineering
+6 units
+MATH1013
+Mathematics and Applications 1
+6 units
+OR
+MATH1115
+;
+COMP1100
+Programming as Problem Solving
+6 units
+OR
+COMP1130
+;
+MATH1005
+Discrete Mathematical Models
+6 units
+COMP1600
+Foundations of Computing
+6 units
+COMP1110
+Structured Programming
+6 units
+OR
+COMP1140
+;
+A choice from
+ENGN1217
+,
+ENGN1218
+and
+COMP2400
+Elective Course
+6 Units
+Year 2
+48 units
+ENGN2300
+Engineering Design 2: Systems Approaches for Design
+6 units
+COMP2420
+COMP2300
+Computer Architecture
+6 units
+COMP2100
+Software Construction
+6 units
+ENGN2301
+Engineering Design 3: Systems Approaches for Analysis
+6 units
+COMP2120
+Software Engineering
+6 units
+COMP2310
+Systems, Networks, and Concurrency
+6 units
+Elective Course
+6 Units
+Year 3
+48 units
+ENGN3300
+Engineering Design 4A: Systems Approaches for Management
+6 units
+COMP3500
+Software Engineering Project
+6 units
+Elective Course
+6 Units
+Elective Course
+6 Units
+ENGN3301
+Engineering Design 4B: Systems Approaches for Operations
+6 units
+COMP3500
+Software Engineering Project
+6 units
+COMP3600
+Algorithms
+6 units
+Elective Course
+6 Units
+Year 4
+48 units
+A choice from
+ENGN4300
+,
+ENGN4350
+and
+COMP4500
+12 units across two semesters
+COMP4130
+Managing Software Quality and Process
+6 units
+ENGN4213
+Digital Systems and Microprocessors
+6 units
+Elective Course
+6 Units
+A choice from
+ENGN4300
+,
+ENGN4350
+and
+COMP4500
+12 units across two semesters
+COMP3900
+Human-Computer Interaction
+6 units
+Elective Course
+6 Units
+Elective Course
+6 Units
+
+### Admission Requirements
+At a minimum, all applicants must meet program-specific academic/non-academic requirements, and English language requirements. Admission to most ANU programs is on a competitive basis. Therefore, meeting all admission requirements does not guarantee entry into the program.
+
+### Prerequisites
+ACT: Mathematical Methods (Major)/Further Mathematics (Major)/Specialist Mathematics/Specialist Methods (Major)
+
+### Study Options
+Year 1
+48 units
+Elective Course
+6 units
+COMP1100
+Programming as Problem Solving
+6 units
+MATH1013
+Mathematics and Applications 1
+6 units
+A choice from
+ENGN1217
+,
+ENGN1218
+or
+COMP2610
+ENGN1211
+Engineering Design 1: Discovering Engineering
+6 units
+COMP1110
+Structured Programming
+6 units
+COMP2300
+Computer Architecture
+6 units
+MATH1005
+Discrete Mathematical Models
+6 units
+
+### Study Options
+Year 1
+48 units
+ENGN1211
+Engineering Design 1: Discovering Engineering
+6 units
+COMP1100
+Programming as Problem Solving
+6 units
+MATH1013
+Mathematics and Applications 1
+6 units
+MATH1005
+Discrete Mathematical Models
+6 units
+COMP1600
+Foundations of Computing
+6 units
+COMP1110
+Structured Programming
+6 units
+One of
+ENGN1217
+or
+ENGN1218
+or
+COMP2610
+Elective
+
+### Study Options
+Year 1
+48 units
+COMP1100
+Programming as Problem Solving
+6 units
+ENGN1211
+Engineering Design 1: Discovering Engineering
+6 units
+MATH1005
+Course from other degree
+COMP1110
+Structured Programming
+6 units
+MATH1013
+Mathematics and Applications 1
+6 units
+Course from other degree
+Course from other degree
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1100 =====
+Subject: Programming as Problem Solving (COMP1100)
+Credit Points: 6 units
+Overview: This course is the first of three core computer science courses on programming. It introduces students to the field of computer science as a discipline for solving problems through computation and provides the foundation for more advanced courses on programming and software development. Data structures and algorithms, the key concepts at the core of computer science, receive their first treatment in this course.
+
+The course covers functional programming in depth, developing the core idea of functions operating on data structures. Students learn the organization of programming languages using types, how programs are evaluated (reduction), functional composition, recursive functions, algebraic data types, pattern matching, parametric polymorphism, higher-order functions. Students also gain exposure to asymptotic analysis of basic data structures, abstract data types, modules, laziness, and streams. The functional paradigm demonstrates elegant solutions to many programming problems.
+
+The course also introduces students to standard productivity tools for software development that will be used throughout the course and remainder of the computer science degree. These include distributed software revision control systems.
+
+The Advanced version of this course covers these topics in more depth, allowing students to deepen their understanding and experience.
+Learning Outcomes:
+- Apply fundamental programming concepts, using a functional programming language, to solve problems.
+- Understand basic types and the benefits of static typing.
+- Describe, understand and evolve programs, via documentation, testing, and debugging.
+- Discuss, use, and apply the fundamentals of data structures, algorithms, and design; create, implement, and debug algorithms for solving problems, including recursively, using divide-and-conquer, and via decomposition.
+- Discuss basic algorithmic analysis for simple algorithms; determine appropriate algorithmic approaches to a problem (for example bruteforce, greedy, divide-and-conquer, recursive backtracking, heuristic, dynamic programming).
+- Understand and apply the concepts of parametric and ad-hoc polymorphism
+Assessment Tasks:
+- Assignments: 30% (Hurdle: False)
+- Lab Assessment: 5% (Hurdle: False)
+- Mid-term quiz: 10% (Hurdle: True)
+- Final Exam: 55% (Hurdle: True)
+Workload: Lectures, tutorial/laboratory sessions and self study to work through the material, prepare for labs, and complete assignments to reach a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1110 =====
+Subject: Structured Programming (COMP1110)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1130 =====
+Subject: Programming as Problem Solving (Advanced) (COMP1130)
+Credit Points: 6 units
+Overview: This course is a variation on Programming for Problem Solving (COMP1100). It covers the same topics in more depth, requiring additional contact hours to allow students to deepen their understanding and experience. They will understand the foundations of program semantics, program proof, and implementation of the programming language features that they have learned in the course. As the advanced version of the course the first six Learning Outcomes are the same as forCOMP1100.
+
+Students can start inCOMP1130and then drop back toCOMP1100during the semester.  You cannot change intoCOMP1130after week 2.
+
+This course is an Advanced Studies Extension Course (ASE), with the additional work required for an ASE built into theCOMP1130assessment.
+Learning Outcomes:
+- Apply fundamental programming concepts, using a functional programming language, to solve problems.
+- Understand basic types and the benefits of static typing.
+- Describe, understand and evolve programs, via documentation, testing, and debugging.
+- Discuss, use, and apply the fundamentals of data structures, algorithms, and design; create, implement, and debug algorithms for solving problems, including recursively, using divide-and-conquer, and via decomposition.
+- Discuss basic algorithmic analysis for simple algorithms; determine appropriate algorithmic approaches to a problem (for example bruteforce, greedy, divide-and-conquer, recursive backtracking, heuristic, dynamic programming).
+- Understand and apply the concepts of parametric and ad-hoc polymorphism.
+- Reflect on the fundamental mathematical concepts underlying functional programming.
+- Use formal proof and structural induction to reason about the correctness of functional programs.
+- Assessing the significance of different evaluation strategies, including laziness, for the computational behaviour of functional programs.
+Assessment Tasks:
+- Assignments: 30% (Hurdle: False)
+- Lab Assessment: 5% (Hurdle: False)
+- Mid-Term Exam: 10% (Hurdle: False)
+- Final Exam: 55% (Hurdle: False)
+Workload: Lectures, tutorial/laboratory sessions and self-study to work through the material, and prepare for assessments and labs.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1140 =====
+Subject: Structured Programming (Advanced) (COMP1140)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1600 =====
+Subject: Foundations of Computing (COMP1600)
+Credit Points: 6 units
+Overview: This course presents some formal notations that are commonly used for the description of computation and of computing systems, for the specification of software and for mathematically rigorous arguments about program properties. The following areas of study constitute the backbone of the course: predicate calculus and natural deduction, inductive definitions of data types as a basis for recursive functions and structural induction, specification languages and their use in program verification.
+Learning Outcomes:
+- Apply the concepts of mathematical logic to formulate, analyse and evaluate formal assertions about programs
+- Construct proofs or refutations in a variety of formalisms, particularly in a semi-automated, machine-assisted setting.
+- Prove simple properties of recursive functions on inductively defined data structures using structural induction.
+- Prove simple programs correct using Hoare Logic.
+Assessment Tasks:
+- Assignments: 40% (Hurdle: False)
+- Quizzes: 10% (Hurdle: False)
+- Final Exam: 50% (Hurdle: False)
+Workload: Lectures, tutorials and self-directed study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP2100 =====
+Subject: Software Construction (COMP2100)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP2120 =====
+Subject: Software Engineering (COMP2120)
+Credit Points: 6 units
+Overview: Real-world software development is a complex and dynamic activity involving people, technology and processes interacting within a complex environment of clients, users and other stakeholders while being observant of technological, physical, social, legal, and ethical constraints.This course will empower students with the ability and confidence necessary to exercise critical thinking and professional judgment to select and apply appropriate knowledge, practices and tools to the development of non-trivial software systems. This will be achieved by introducing students to important design methodologies. We will build on previous programming courses to deepen and broaden students' knowledge and understanding of the practices and tools used to build large software systems within complex environments. We will use real-world examples such as distributed, high-integrity, web-based systems where rigorous software engineering can demonstrably enhance business value.Students will learn how practices and tools can be adapted to suit specific project needs and contexts. Knowledge, practices and tools considered in this course will include process models, requirements engineering, design, modelling and user experience.
+Learning Outcomes:
+- Describe the breadth and nature of the software engineering process, including project management activities, and distinguish various phases of the process;
+- Evaluate other people's code contributions using modern formal code inspection approaches.
+- Apply correct techniques for ensuring and assessing the quality of software.
+- Assess the issues in constructing large software systems from their components, including considerations of cyber security and user-centred design, and evaluate the nature and design of these components.
+- Employ group working skills in solving software development problems;
+- Analyse and evaluate IT-related scenarios with reference to the software engineering code of ethics and professional practice.
+Assessment Tasks:
+- Individual Assignment: 5% (Hurdle: False)
+- Group Assignments & Presentation: 50% (Hurdle: False)
+- Final Exam: 45% (Hurdle: False)
+Workload: 130 hours including lectures, video lectures, tutorials and self-study.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP2300 =====
+Subject: Computer Architecture (COMP2300)
+Credit Points: 6 units
+Overview: This course is a rigorous introduction to the design of digital circuits and computer architecture. It provides technical foundations for how a computer system is built from the bottom up and how the high-level programming languages you learn in other courses are translated into simple instructions the computer executes. The course introduces the different abstraction layers necessary to make a computer system work, and a key focus is the connection between hardware and software.
+
+The course introduces the predominant stored-program computer paradigm and principles of digital design and computer architecture. Students build a fully functional general-purpose computer from simple logic circuits in a digital simulator. The course also demystifies assembly code, the machine language the processor speaks, and the mapping of assembly programs to higher levels of programming abstraction. The focus is on fundamental techniques employed in the design of modern microprocessors and their hardware/software interface.
+
+This course will challenge your understanding of how computers work and what happens in them when we run a program. At the end of this course, you will be able to navigate between layers of abstraction in a computer system, from individual digital circuits to high-level software, and understand how low-level structures enable and enhance the abilities of a computer system.
+
+This course covers topics such as combinational and sequential logic design, digital building blocks such as arithmetic/logic unit and random access memory, instruction set architectures and assembly programming, input/output systems, interrupt handling, single-cycle and pipelined processor design, out-of-order execution, and hardware speculation.
+Learning Outcomes:
+- Understand the basics of digital circuits and principles of digital design.
+- Learn how a modern computer works underneath from the bottom up.
+- Design and implement a simple processor in a digital simulator following a principled approach.
+- Evaluate tradeoffs of different designs and ideas.
+- Debug complex systems systematically at different abstraction layers.
+- Evaluate computer systems at abstraction levels from software to individual digital circuits and account for the implications of machine-level choices.
+- Write programs in assembly language and explain the relationship between high-level and assembly languages, including function calls and basic control structures.
+Assessment Tasks:
+- Labs and Quizzes: 10% (Hurdle: False)
+- Practical Assignments: 40% (Hurdle: False)
+- Final Exam: 50% (Hurdle: False)
+Workload: Lectures and laboratory sessions plus self study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP2310 =====
+Subject: Systems, Networks, and Concurrency (COMP2310)
+Credit Points: 6 units
+Overview: This course is based on the foundations set by the previous course on computer organisation. It expands particularly into all forms of concurrent programming including aspects of massively parallel programming. It introduces all basic mechanisms to analyse, design, and manage concurrent, single computer-node (multicore) as well as distributed applications (e.g. as performance or dependability enhancements).
+
+Following on from the previous course, the fields of operating systems and networking will also be expanded on. On the operating system side aspects of security, scheduling algorithms and memory management are discussed. More specific networking aspects follow on from message passing as a core concurrency construct. These include the basics of routing and dependable protocols.
+Learning Outcomes:
+- Model, design and program concurrent systems.
+- Select appropriate modeling techniques, tools and mechanisms to solve a range of problems in concurrent and distributed systems. This includes the appropriate programming language and runtime environment for the task at hand.
+- Analyse and debug concurrent programs.
+- Understand the aspects of an operating system concerning scheduling, protection and memory management.
+- Employ message passing locally and over networks to construct distributed systems
+- Distinguish as well as connect conceptual concurrency with physical parallelism at all levels of a distributed system.
+- Identify core aspects of operating systems and networks irrespective of the specific system at hand.
+Assessment Tasks:
+- Assignments: 30% (Hurdle: False)
+- Lab Exam: 5% (Hurdle: False)
+- Mid-Semester Test: 15% (Hurdle: False)
+- Final Exam: 50% (Hurdle: False)
+Workload: The total workload for the course will be 130 hours including lectures and tutorial/lab sessions. Additional effort will be required in preparing and deepening the material of those sessions. Two major assignments require multiple days of attention each.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP2400 =====
+Subject: Relational Databases (COMP2400)
+Credit Points: 6 units
+Overview: This course is an introduction to relational databases and the general skills for designing and using them. Topics include the relational data model, SQL, data modelling tools such as the entity-relationship model, functional dependencies, and (de-)normalisation, query processing and optimisation, and potential social and economic impacts of database design, for instance through (in-)security. Current development of database systems based on models other than the relational (known asNoSQL databases) will be introduced at the end of the course.
+Learning Outcomes:
+- Describe the basic concepts of the relational model and its mathematical foundation.
+- Connect database design with social and economic impacts including security, ethics, and Australian Privacy Principles.
+- Use SQL to define, query and manipulate a relational database, and describe principles of SQL query processing and optimisation.
+- Use data modelling concepts and practices to create, evaluate and communicate relational database designs, collaboratively and individually.
+Assessment Tasks:
+- In-class activities and quizzes: 10% (Hurdle: False)
+- Assignments: 30% (Hurdle: False)
+- Final Exam: 60% (Hurdle: False)
+Workload: Lectures and laboratory sessions plus self study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP2610 =====
+Subject: Information Theory (COMP2610)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP3500 =====
+Subject: Software Engineering Project (COMP3500)
+Credit Points: 6 units
+Overview: COMP3500is an annual course (6+6) that must be completed twice, in consecutive semesters.
+
+Students work in small groups and participate in all the development phases (requirements analysis, design, construction, testing and documentation) of a nontrivial software system. As well, each group has to address the control of the development process by constructing and following a detailed software development management plan. Students will also study relevant aspects of the software engineering milieux.
+
+Most students will work on projects for an industry, government or university client. Highly motivated students will be given an opportunity to engage with the ACT Innovation community and students across the university to create their own software-based start-up businesses.
+
+To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener.
+Learning Outcomes:
+- Work as an effective member of a team that creatively identifies, implements, and delivers a software solution to a complex problem.
+- Develop lifelong learning through reflection, as demonstrated through continual reflection on the software development lifecycle (SDLC) and teamwork processes experienced throughout the year.
+- Exhibit an awareness of team formation strategies and stages leading to the development of a high-performing self-managing team.
+- Present, communicate, and effectively defend sound engineering decisions at project reviews, both orally and in writing, with peers, supervisors, and project stakeholders.
+- Demonstrate experience in project, configuration, and risk management processes when undertaking a software development project.
+- Demonstrate experience in the different stages of the SDLC.
+- Demonstrate experience in and appropriate use of standards in software development.
+Assessment Tasks:
+- Three group project reviews: 70% (Hurdle: False)
+- Group Poster and Showcase: 10% (Hurdle: False)
+- Individual Reflection and Portfolio: 20% (Hurdle: False)
+Workload: Annual course. COMP3500 must be taken in two consecutive semesters. Around 50 contact hours across Team Formation Day, introductory lectures, tutor meetings, project reviews and public showcase. Around 210 hours of group project work and individual study across the 2 semesters.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP3600 =====
+Subject: Algorithms (COMP3600)
+Credit Points: 6 units
+Overview: Algorithms are the foundation of Computer Science. They enable advances in Artificial Intelligence, Machine Learning, Cybersecurity, Distributed, Mobile, and Cloud Computing, Computer Graphics and Animation, and many more. These advances have made Computer Science an indispensable part of our everyday life.
+
+The main goal of this course is to familiarize students with basic concepts in the design and analysis of algorithms and data structures. It focuses on fundamental computing problems such as sorting and searching. The students will learn how to use different algorithm design methods and data structures to solve such problems efficiently, as well as basic performance measures and analysis techniques.
+Learning Outcomes:
+- Display a solid understanding of classical algorithms for fundamental computing problems such as sorting and searching and their analysis.
+- Demonstrate knowledge of various data structures, such as binary search trees and heaps, and their applications.
+- Design efficient algorithms using techniques such as greedy approaches and dynamic programming.
+- Analyse the time and space complexity of algorithms.
+Assessment Tasks:
+- Assignments: 5% (Hurdle: False)
+- Midterm assessments: 40% (Hurdle: False)
+- Final Exam: 55% (Hurdle: False)
+Workload: Students are expected to recap and conduct independent studies for as many hours as they need to gain an understanding of the materials. To help this learning process, we provide lectures and tutorial/laboratory sessions. The total workload is expected to be 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP3900 =====
+Subject: Human-Computer Interaction (COMP3900)
+Credit Points: 6 units
+Overview: This course will provide an overview of the field of Human-Computer Interaction (HCI) and will introduce students to key interaction and experience design paradigms, approaches and methods. The course will equip students with theory, methods, and techniques to investigate different design situations, develop and prototype novel design ideas, and engage with the ethical dimensions of technology design.
+Learning Outcomes:
+- Explain and illustrate key aspects of human-computer interaction, including relevant theories, ethical considerations, and perspectives.
+- Apply a design and prototyping process to develop interactive systems that address user needs.
+- Investigate activities, practices, and contexts of technology use through research methods.
+- Critically evaluate novel technology designs using human-computer interaction approaches.
+Assessment Tasks:
+- Class Tasks: 10% (Hurdle: False)
+- Prototyping Assignment: 20% (Hurdle: False)
+- User Research Study: 30% (Hurdle: False)
+- Prototype Design and Research Project: 40% (Hurdle: False)
+Workload: Approximately 130 hours of study consisting of lectures and tutorials, plus self-directed study and assessment work.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP4130 =====
+Subject: Managing Software Quality and Process (COMP4130)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP4500 =====
+Subject: Software Engineering Team Project (COMP4500)
+Credit Points: 6 units
+Overview: COMP4500is an annual course that must be completed twice, in consecutive semesters.
+
+This course exposes students to professional software engineering practice and leadership through the development of a software system for an industry, government or university based customer, or by engaging with the ACT innovation community and students across the university to create a software-based start-up business. Students will lead small teams to plan (define, estimate, schedule) and manage an appropriate set of activities to ultimately deliver a software product. The implementation part of the project will include monitoring, measuring, tracking, and managing change.
+
+To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener.
+Learning Outcomes:
+- Develop as a leading member of a transdisciplinary team that creatively identifies, implements, and delivers a software solution to a complex problem.
+- Develop lifelong learning through reflection, as demonstrated through continual reflection on the software development lifecycle (SDLC) and teamwork processes experienced throughout the year.
+- Demonstrate and develop the ability to employ team formation strategies and stages leading to a high-performing self-managing team.
+- Present, communicate, and effectively defend sound engineering decisions at project reviews, both orally and in writing, with peers, supervisors, and project stakeholders.
+- Demonstrate a sound understanding of project, configuration, and risk management processes when undertaking a software development project.
+- Demonstrate a sound understanding of the different stages of the SDLC.
+- Demonstrate a sound use of standards in software development.
+Assessment Tasks:
+- Three group project reviews: 75% (Hurdle: False)
+- Group Poster and Showcase: 10% (Hurdle: False)
+- Individual Reflection: 15% (Hurdle: False)
+Workload: Annual course. COMP4500 must be taken in two consecutive semesters. Around 50 contact hours across Team Formation Day, introductory lectures, tutor meetings, project reviews and public showcase. Around 210 hours of group project work and individual study.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENGN1211 =====
+Subject: Engineering Design 1: Discovering Engineering (ENGN1211)
+Credit Points: 6 units
+Overview: Discovering Engineering is the foundation course for engineering. The course invites students to discover engineering by tackling an open-ended design project, as well as learning a variety of essential technical and non-technical skills. The major project for the course is to work in teams to design and build a robot rover that can autonomously navigate around a maze.
+
+Throughout the course, students undertake a variety of learning activities that introduce the key engineering concepts that are needed to successfully complete the project. Students learn about the engineering design process, including understanding what is needed in a project, generating concepts, prototyping, analysing, and implementing a solution. Students work in teams, allowing them to develop their collaboration and communication skills, as well as their project management skills. This is complemented by learning about the importance of reflective and ethical professional practice. At the same time students will also learn about basic electronics, coding and problem solving, providing a range of fundamental skills needed by a modern engineer.
+Learning Outcomes:
+- Demonstrate research into engineering concepts, technology and contexts.
+- Select and use appropriate engineering tools to model and analyse engineering components.
+- Design a solution to an open-ended problem using an engineering process.
+- Identify responsibilities within an engineering team in relation to professional practice.
+- Communicate engineering concepts and solutions effectively using different media to professional and other audiences.
+- Demonstrate self-reflection and evaluation of ideas
+Assessment Tasks:
+- Engineering Design Report: 15% (Hurdle: False)
+- Mid-semester Test: 15% (Hurdle: False)
+- Lab Quizzes: 15% (Hurdle: False)
+- Rover Project: 40% (Hurdle: False)
+- Reflection: 15% (Hurdle: False)
+Workload: 24 x 1 hour lectures 3 x 2-hour computer labs 3 x 2-hour project workshops 6 x 1-hour Project group updates with optional 1-hour drop-in Plus group and individual study
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENGN1217 =====
+Subject: Introduction to Mechanics (ENGN1217)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENGN1218 =====
+Subject: Introduction to Electronics (ENGN1218)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENGN2300 =====
+Subject: Engineering Design 2: Systems Approaches for Design (ENGN2300)
+Credit Points: 6 units
+Overview: Engineering Design 2: Systems Approaches for Design will build your proficiency to abstract, visualise, communicate and deliver engineering designs. ED2 is the second course in the interdisciplinary engineering design core, which situates design within the life-cycle of systems. You will undertake a project using a systems approach to design, which is a formal process for generating robust and relevant engineering designs, applicable to all areas of engineering.
+
+During the early stages of the course, you will become fluent in the language of systems engineering for the purposes of describing a design problem space. This includes how to research and systematically generate requirements, undertake a functional analysis of a system, and create and communicate the architecture of an engineering design. You will develop skills for life-long learning by completing modules in a range of prototyping and modelling methods including visualisation, electronics and fabrication. These modules will supplement the systems approach to design, allowing you to represent an engineering design from both a systems and visual perspective.
+
+Design Project
+
+The major project in this course will involve a real-world engineering problem. You will be challenged in small teams to generate an engineering design using the systems approach that meets the requirements of project stakeholders in one of a range of application domain areas of systems engineering. You will apply research and design techniques to visualise, prototype and evaluate alternatives, in situations limited by available resources and imperfect information. During the project, you will develop design outcomes justified through project documentation. Finally, you will develop skills in critical reflection as a part of professional practice by connecting your experiences and learning in your project to engineering and research practice.
+
+Engineering Design @ ANU
+
+At ANU, students are challenged to think of engineering design at a systems-level. Over the degree, you will learn how engineering design can be used to make a positive impact on society through five domains: design, analysis, research, professional practice and teamwork. In ED2, you will connect with your learning in the foundation courses, and learn the language of systems engineering, central to the design core.
+Learning Outcomes:
+- Research succinct and relevant system-level requirements for an engineering design within a transdisciplinary context including social, economic, and environmental perspectives
+- Undertake a functional analysis of engineering systems
+- Design and evaluate alternative system architectures
+- Effectively communicate engineering designs through engineering models
+- Operate as an effective member of an engineering team combining different disciplinary perspectives and strengths
+- Provide and act on feedback on engineering work in a professional environment
+- Reflect on taking a systems approach to engineering design within a transdisciplinary context as a professional engineering
+Assessment Tasks:
+- Learning Module Workshop Quizzes: 30% (Hurdle: False)
+- Design Project: 35% (Hurdle: False)
+- Reflection: 20% (Hurdle: False)
+- Prototyping and Modelling: 15% (Hurdle: False)
+Workload: 120 hours in total over the semester consisting of:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENGN2301 =====
+Subject: Engineering Design 3: Systems Approaches for Analysis (ENGN2301)
+Credit Points: 6 units
+Overview: Engineering Design 3: Systems Approaches for Analysis will develop your skills to undertake formal testing and evaluation of an engineering design as a technical process in the life-cycle of a system. ED3 is the third course in the interdisciplinary engineering design core, which situates design within the life-cycle of a system. You will learn how to design and execute engineering testing and analysis processes to improve design outcomes. These techniques build on concepts covered in ED2, and are applicable to all areas of engineering.
+
+During the early stages of the course, you will learn tools and approaches for analysing and testing engineering systems. This includes designing models and experiments to predict the behaviour of engineering designs, and working with data to make evidence-based decisions. You will apply techniques to analyse a system from a range of perspectives, from understanding human factors through to optimisation. You will undertake independent study modules on approaches useful for interpreting data and analysing a large range of engineering systems.
+
+Design ProjectThe major project in this course will be around a real-world engineering problem. You will be challenged in small teams to design the testing processes enabling you to evaluate an engineering design. You will apply research and analysis techniques to optimise or improve an engineering design. During the project, you will develop design outcomes justified through project documentation. Finally, you will develop skills in critical reflection as a part of professional practice by connecting your experiences and learning in your project to engineering and research practice.
+
+Engineering Design @ ANUAt ANU, students are challenged to think of engineering design at a systems-level. Over the degree, you will learn how engineering design can be used to make a positive impact on society through five domains: design, analysis, research, professional practice and teamwork. In ED3, you will connect with your learning in the foundation courses, and develop skills to design tests and undertake analysis essential for justifying engineering design decisions.
+Learning Outcomes:
+- Evaluate an engineering system through the design of engineering tests, incorporating business, social and environmental arguments
+- Navigate constraints and balance multiple design factors
+- Make predictions about the performance of a system based on engineering models, understanding that engineering design will depend on the context for which it is being developed
+- Construct clear justifications for design based on data and analysis
+- Operate as an effective member of an engineering team and work effectively with business, social and environmental expertise to inform engineering design for an external stakeholder
+- Provide and act on feedback in a transdisciplinary environment
+- Reflect on taking a systems approach to engineering testing in the context of professional engineering
+Assessment Tasks:
+- Analysis Tools Workshop Entry Quizzes: 15% (Hurdle: False)
+- Statistics Quizzes: 15% (Hurdle: False)
+- Project Framing and Analysis Plan Report: 20% (Hurdle: False)
+- Statistics Assignment: 20% (Hurdle: False)
+- Project Presentation and Interview: 20% (Hurdle: False)
+- Individual Reflection and Logbook: 10% (Hurdle: False)
+Workload: 120 hours in total over the semester consisting of:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENGN3300 =====
+Subject: Engineering Design 4A: Systems Approaches for Management (ENGN3300)
+Credit Points: 6 units
+Overview: In Engineering Design 4A: Systems Approaches for Management, you will develop industry-relevant techniques to manage a design project over the entire system life cycle, from problem conception through to project retirement. ED4A is the fourth course in the interdisciplinary engineering design core, and is followed by Engineering Design 4B: Systems Approaches for Operations. The project selected from a pool of projects that are representative of typical final year capstone projects, allowing you to design the management process for a significant engineering project.
+
+During the early stages of the course, you will learn project management techniques essential for delivering large-scale, complex engineering projects. This includes breaking projects into manageable parts, planning, scheduling, resourcing, controlling, accounting, balancing multiple criteria, and risk management. You will undertake guided study modules in a range of topics, including organisational structures, business planning, teamwork, professional conduct and legal and regulatory frameworks as they apply to the engineering profession. You will further develop skills in critical reflection as part of professional practice by connecting your prior experiences and learning to the topics covered in the course.
+
+Major Project
+
+The major project in this course will be around a real-world engineering problem. You will be part of a small team that is responsible for applying formal management techniques to improve the outcomes in an engineering design project. The project will deliver a Systems Engineering Management Plan (SEMP) that is representative of best professional practice in Engineering Management.
+
+Engineering Design @ ANU
+
+At ANU, students are challenged to think of engineering design at a systems-level. Over the degree, you will learn how engineering design can be used to make a positive impact on society through five domains: design, analysis, research, professional practice and teamwork. In Engineering Design 4A, you will connect with your learning in your major and other courses, and develop skills essential to managing outcomes in a complex engineering project.
+Learning Outcomes:
+- Design and implement a program of work in an open-ended engineering project
+- Select and apply appropriate management techniques to the running of an engineering project
+- Research and manage a design project within given constraints
+- Draw on the strengths of a diverse and interdisciplinary team for an external stakeholder
+- Uphold professional integrity and ethical behaviour in a management context
+- Enhance and reflect on complex engineering projects through professional engineering review cycles
+Assessment Tasks:
+- Quizzes: 20% (Hurdle: False)
+- Design Project: 25% (Hurdle: False)
+- Individual Assignment: 20% (Hurdle: False)
+- Exams: 35% (Hurdle: False)
+Workload: 120 hours over the semester including all class workshops, self-directed learning, team-based project-work and individual work.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENGN3301 =====
+Subject: Engineering Design 4B: Systems Approaches for Operations (ENGN3301)
+Credit Points: 6 units
+Overview: In Engineering Design 4B: Systems Approaches for Operations, you will learn industry-relevant techniques to operate and innovate an engineering system over the entire system life cycle, from problem conception through to system retirement. Engineering Design 4B is the fifth course in the interdisciplinary engineering design core. The project in this course explores the management and operation processes in a complex system in operations.
+
+You will learn project operations techniques relevant for optimising outcomes in large-scale, complex engineering systems. Topics will include understanding legislative and statutory requirements of the professional engineer, including processes for compliance and due-diligence, the reliability, availability and maintainability of systems, risk assessment and mitigation, the operational impacts of social, environmental, and organisational contexts, and changes, upgrades and end of life considerations in complex systems. The course will also explore the potential use and risks of emerging artificial intelligence tools in professional engineering applications.
+
+Design Project
+
+The major project in this course will address a real-world engineering system. You will be responsible for designing operational processes to improve the outcomes in an engineering system. The project will deliver a contextual analysis of the system and design outcomes, and you will justify these through appropriate project documentation. Finally, you will further develop skills in critical reflection as a part of professional practice by connecting your experiences and learning in your project to engineering and research practice.
+
+Engineering Design @ ANU
+
+At ANU, students are challenged to think of engineering design at a systems-level. Over the degree, you will learn how engineering design can be used to make a positive impact on society through five domains: design, analysis, research, professional practice, and teamwork. In ED4B, you will connect with your learning in your major, and develop skills required to innovate and optimise operations to deliver a design outcome.
+Learning Outcomes:
+- Design and innovate within a program of work in an open-ended engineering project
+- Research and apply technical knowledge to design opportunities in an operational environment
+- Justify appropriate operational decisions in the running of a complex engineering system
+- Navigate the operational environment of an engineering system in the real-world
+- Leverage the dynamics of collaborative teams to solve complex problems within given deadline
+- Uphold professional integrity and ethical behaviour in an operational context
+- Enhance and reflect on complex engineering projects through professional engineering review cycles
+Assessment Tasks:
+- Quizzes: 20% (Hurdle: False)
+- Optimisation Report: 25% (Hurdle: False)
+- Design Project: 40% (Hurdle: False)
+- Reflection: 15% (Hurdle: False)
+Workload: 130 hours in total including all class workshops, small class tutorials, self-directed learning, project-based team and individual work.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENGN4213 =====
+Subject: Digital Systems and Microprocessors (ENGN4213)
+Credit Points: 6 units
+Overview: This course introduces advanced theoretical and technical knowledge of digital circuits and embedded systems. Digital and embedded systems are at the heart of almost all modern mechatronic and electronic technologies, ranging from smartphones to robots and autonomous vehicles. The course has a clear hardware focus, with the first half of the curriculum centered around the analysis and design of sequential logic circuits, and their implementation on field-programmable-gate-array (FPGA) platform using the Verilog hardware-description language. The later part of the course focuses on microcontroller-based embedded system design using ARM chips and C programming. Through the many lab activities and projects, students will have the opportunity to analyse, design, bench test and operate a variety of systems. The course will also develop advanced cognitive, technical and communication skills associated with complex digital design problems.
+Learning Outcomes:
+- Explain the fundamental principles of sequential digital circuits and finite state machines.
+- Compare and describe the architecture and fundamental concepts of modern embedded microprocessor systems.
+- Design complex digital systems using schematics and Verilog HDL, and implement these on commercial-grade field-programmable gate array (FPGA) development boards.
+- Design an embedded system using C/C++ programming and microcontroller boards.
+- Analyse critically, and evaluate the performance of systems against given design requirements.
+- Plan, execute and report on a small project working in a group, communicating effectively in written and verbal form about their work.
+Assessment Tasks:
+- Practical Labs: 27% (Hurdle: False)
+- FPGA project: 35% (Hurdle: False)
+- C programming quiz: 4% (Hurdle: False)
+- Micro-controller Project: 34% (Hurdle: False)
+Workload: Standard course workload of 130 hrs over the semester including: 2 lectures per week (total 3 hrs) for 4 semester weeks and 1 lecture per week (total 2 hours) for 8 semester weeks; 1x practical labs a week for 8 semester weeks (5x3hr labs and 3x3.5hr labs); 1hr tutorial per week for 8 semester weeks; plus an average of 6-8 hours/week on reading, working on online course activities and/or conducting project work. Some of the lectures are pre-recorded followed by face-to-face Discussion and Q&A.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENGN4300 =====
+Subject: Capstone Design Project (ENGN4300)
+Credit Points: 6 to 12 units
+Overview: In Capstone Design Project, you will work as an independent group to deliver value on a real-world project. Teams will work to define and scope their project in consultation with project hosts, and tailor and manage system life-cycle processes to the delivery of the project.
+
+Students will undertake skills modules during the project, designed to improve the quality of the final deliverables. During the project, you will be situated with other teams to simulate an engineering firm working on multiple projects, and will take a lead in reviewing the output and processes of other projects.
+
+Design Project
+
+You will be expected to negotiate, scope, manage and deliver on all aspects of a significant design project, and present your work at a public showcase towards the end of the project. As a capstone course, you will be applying what you have learnt throughout their degree, including the systems methodology throughout the Engineering Design core and your engineering major. Project teams will be formed during a Team Formation event in the early weeks of your first semester.
+
+Engineering Design @ ANU
+
+At ANU, students are challenged to think of engineering design at a systems-level. At this stage in your degree, you will be using engineering design to make a positive impact on society through five domains: design, analysis, research, professional practice and teamwork. In Capstone Project, you will be able to navigate the whole project autonomously, drawing upon earlier Engineering Design courses and your major.
+Learning Outcomes:
+- Synthesise technical knowledge and approaches to generate solutions to an open-ended engineering problem
+- Develop, analyse, and critically evaluate alternative options in order to justify and generate solutions in a real-world project
+- Apply research skills and methodologies to identify, collate, summarise and critically evaluate relevant literature, data and sources
+- Apply project management and organisational skills to produce time-sensitive deliverables in a transdisciplinary team
+- Transmit design decisions and solutions using appropriate media to professional and lay audiences
+- Demonstrate and reflect on research, leadership and creativity as an individual and within a transdisciplinary team
+Assessment Tasks:
+- Design Project: 70% (Hurdle: False)
+- Presentation: 10% (Hurdle: False)
+- Reflections: 20% (Hurdle: False)
+Workload: Approximately 260 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENGN4350 =====
+Subject: Individual Project (ENGN4350)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1005 =====
+Subject: Discrete Mathematical Models (MATH1005)
+Credit Points: 6 units
+Overview: Introduction to discrete mathematics and its use in mathematical modelling. Emphasis will be placed on developing facility, technique and use in applications. Modelling of processes and phenomena which occur in the physical, environmental and life sciences, especially computer science, will be used as a vehicle throughout. Topics to be covered include: logic and set theory, mathematical reasoning, combinatorics and counting, probability, mathematical induction and recurrence relations, graph theory and networks, matrix arithmetic and Markov chains.
+Learning Outcomes:
+- Recall, invent, interpret examples of motivation for mathematical constructs used in discrete mathematics as models of processes in the world.
+- Recognise, define, explain and use terminology and notation from discrete mathematics.
+- Identify the logical structure of a statement, and then identify the logical structure of an argument that may be used to prove or disprove the statement.
+- Perform mathematical calculations in discrete mathematics using methods presented in the course.
+- Write simple proofs/construct explicit counterexamples for statements relating to discrete mathematics topics covered in the course.
+Assessment Tasks:
+- Workshop quizzes: 10% (Hurdle: False)
+- Workshop contributions: 10% (Hurdle: False)
+- Written assignments: 20% (Hurdle: False)
+- Final ExaminationRegardless of performance on other assessment items, a minimum scaled score of 40% on the final exam is required to pass the course.: 60% (Hurdle: True)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1013 =====
+Subject: Mathematics and Applications 1 (MATH1013)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1115 =====
+Subject: Advanced Mathematics and Applications 1 (MATH1115)
+Credit Points: 6 units
+Overview: This course begins an in-depth study of the fundamental concepts of calculus and linear algebra, with a particular emphasis on the underlying foundations of mathematics. The use and understanding of proof and abstract ideas will allow students to develop analytical skills which will form a base for further study in fundamental mathematics, as well as providing a foundation for a wide range of quantitative areas such as actuarial studies, computer science, economics, engineering, physics and statistics.
+
+Topics to be covered include:
+
+Calculus/Analysis - suprema and infima of sets of real numbers, completeness, Riemann-Darboux definition of integration, introductory formal logic, axioms for the real numbers, convergence, limits, continuity, existence of extrema, differentiation, applications of derivatives, proof of the fundamental theorem of calculus, Taylor polynomials, l'Hospital's rules, inverse functions;
+
+Linear Algebra - solving linear equations, matrix equations, linear independence, matrix transformations, matrix operations, matrix inverses, abstract vector spaces, subspaces, dimension and rank, determinants, Cramer's rule, complex numbers, eigenvectors and eigenvalues.
+
+Note: This is an Honours Pathway Course (HPC).
+
+It involves extra material and emphasises the use and understanding of proof and abstract ideas to a deeper conceptual level thanMATH1013.
+Learning Outcomes:
+- Explain the fundamental concepts of calculus and linear algebra and their role in modern mathematics and applied contexts.
+- Demonstrate accurate and efficient use of calculus and linear algebra techniques.
+- Demonstrate capacity for mathematical reasoning through analysing, proving and explaining concepts and theorems from calculus and linear algebra.
+- Apply problem-solving using calculus and linear algebra techniques applied to diverse situations in physics, engineering and other mathematical contexts.
+Assessment Tasks:
+- Weekly assignments and online quizzes: 30% (Hurdle: False)
+- In-class tests during the semester: 25% (Hurdle: False)
+- Final examination: 45% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+

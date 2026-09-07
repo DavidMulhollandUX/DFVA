@@ -1,0 +1,102 @@
+{
+  "code": "usyd-diagnostic-radiography",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in radiography.",
+      "evidenceLines": [
+        "**Institution**: The University of Sydney (USYD)",
+        "**Course / Program Identifier**: diagnostic-radiography",
+        "- **Institution**: The University of Sydney (USYD)"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in radiography.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Faculty**: medicine-health-pg",
+        "- **Course / Program Identifier**: diagnostic-radiography"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within radiography.",
+      "evidenceLines": [
+        "Subject: Foundations of Health Care Practice (MRSC5003)",
+        "Subject: Professional Practice Radiography 2 (MRSC5005)",
+        "**Handbook URL**: https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/diagnostic-radiography.html"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in radiography.",
+      "evidenceLines": [
+        "LO1 . Apply knowledge relating to the legal, ethical, professional and quality assurance requirements for the medical imaging sciences profession, including the use of radiation.",
+        "LO2 . Critically review the Australian healthcare system, including provisions for MIS practice, delivery of MIS services to the Australian population (including Medicare and private practice), patient advocacy, safety framework, and the roles and scopes of the professional and regulatory bodies associated with MIS.",
+        "- **Faculty**: medicine-health-pg"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in radiography.",
+      "evidenceLines": [
+        "Subject: Clinical Studies Radiography 1 (MRSC5026)",
+        "Subject: Clinical Studies Radiography 2 (MRSC5027)",
+        "LO3 . Critically review cultural awareness, leadership and professional/personal reflective practice within the MIS context, and identify ongoing professional learning needs including knowledge of CPD requirements and life-long learning."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in radiography.",
+      "evidenceLines": [
+        "LO4 . Critically review the perspectives and methods of health psychology and health sociology for the patient and healthcare professionals.",
+        "- **Institution**: The University of Sydney (USYD)",
+        "- **Course / Program Identifier**: diagnostic-radiography"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in radiography.",
+      "evidenceLines": [
+        "Accelerate Communication Excellence (ACE) Interviews: 0%: Multiple weeks% (Hurdle: False)",
+        "Subject: Clinical Studies Radiography 3 (MRSC5028)",
+        "- **Faculty**: medicine-health-pg"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "Students must complete 96 credit points, including:",
+        "- **Institution**: The University of Sydney (USYD)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Diagnostic Radiography.",
+        "evidenceLines": [
+          "Students must complete 96 credit points, including:",
+          "(a) 96 credit points of core units of study as listed in the sequence below"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in radiography.",
+        "evidenceLines": [
+          "Subject: Foundations of Health Care Practice (MRSC5003)",
+          "**Institution**: The University of Sydney (USYD)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

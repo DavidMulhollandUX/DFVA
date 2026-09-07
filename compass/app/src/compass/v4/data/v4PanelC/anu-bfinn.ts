@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 11,
+  "workplace": 5,
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2: Written and quantitative communication of financial models, asset allocations, and corporate investment proposals to diverse stakeholders.",
+    "evidenceLines": [
+      "Using a diverse range of discipline backgrounds and varied data, develop the skills necessary to collect, process, interpret and communicate the outcomes of financial problems.",
+      "Apply theoretical foundations in practice to various discipline backgrounds.",
+      "Recognise the important role of investment and financing decisions, equities, bonds and derivatives in the financial markets."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical appraisal of financial problems, evaluating investment performance metrics, and assessing fiduciary responsibilities and ethical duties to clients.",
+    "evidenceLines": [
+      "Develop the skills necessary to critically engage with and evaluate financial problems.",
+      "Demonstrate the ability to critically evaluate many newspaper and mag",
+      "This course is designed to prepare students for designing investment portfolios. It covers duties to clients, types of investment products, explores links between investment risk and return, introduces tools for use in portfolio construction, brings in analysis of fixed income products and introduces techniques to evaluate past investment performance."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Quantitative finance foundations: mathematical time value of money, arbitrage pricing, modern portfolio theory, derivatives risk modeling, and regression econometrics in STAT2008.",
+    "evidenceLines": [
+      "Demonstrate an understanding of the three basic ideas underpinning finance: the time value of money; diversification; and, arbitrage and their application to corporate financial decision-making; investment decisions and portfolio management; derivatives and risk management; portfolio construction; corporate valuation; and debt markets.",
+      "This course is designed to familiarise students with the components of the financial system as well as to introduce them to the three basic ideas underpinning finance, namely the time value of money, diversification and arbitrage. In doing so, the course provides students with introductory exposure to financial transactions, institutions and markets incl",
+      "Regression Modelling (STAT2008)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Multi-tier financial synthesis: corporate valuation, capital structure optimization, fixed income analytics, portfolio construction, and derivatives risk hedging across financial markets.",
+    "evidenceLines": [
+      "Demonstrate an understanding of the three basic ideas underpinning finance: the time value of money; diversification; and, arbitrage and their application to corporate financial decision-making; investment decisions and portfolio management; derivatives and risk management; portfolio construction; corporate valuation; and debt markets.",
+      "This course focuses on tools and techniques used in modern financial management. Material in the course has an applied focus and is designed to provide students with the knowledge and skills required for understanding, exploring and analysing financial management issues. The course draws upon topical material in order to contextualise theoretical discuss",
+      "Recognise the important role of investment and financing decisions, equities, bonds and derivatives in the financial markets."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Empirical collection, processing, and statistical regression modeling of financial market time-series to test asset pricing and investment performance predictions.",
+    "evidenceLines": [
+      "Using a diverse range of discipline backgrounds and varied data, develop the skills necessary to collect, process, interpret and communicate the outcomes of financial problems.",
+      "introduces techniques to evaluate past investment performance.",
+      "Regression Modelling (STAT2008)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Strict alignment with professional investment management conventions, financial reporting regulations, and fiduciary duties to clients.",
+    "evidenceLines": [
+      "It covers duties to clients, types of investment products, explores links between investment risk and return, introduces tools for use in portfolio construction, brings in analysis of fixed income products and introduces techniques to evaluate past investment performance.",
+      "The course focuses on the nature and scope of business reporting and the need for financial and non-financial information for business decision-making. It provides students with fundamental financial management knowledge in the contemporary business environment.",
+      "This course focuses on tools and techniques used in modern financial management."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic portfolio design, investment performance evaluation, and practical corporate financial analysis applied to contemporary market conditions.",
+    "evidenceLines": [
+      "This course is designed to prepare students for designing investment portfolios. It covers duties to clients, types of investment products, explores links between investment risk and return, introduces tools for use in portfolio construction, brings in analysis of fixed income products and introduces techniques to evaluate past investment performance.",
+      "This course focuses on tools and techniques used in modern financial management. Material in the course has an applied focus and is designed to provide students with the knowledge and skills required for understanding, exploring and analysing financial management issues. The course draws upon topical material in order to contextualise theoretical discuss",
+      "Apply theoretical foundations in practice to various discipline backgrounds."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Focused academic curriculum in finance and investments without a compulsory external workplace placement.",
+    "evidenceLines": [
+      "A single three year undergraduate award offered by theANU College of Business and Economics",
+      "The Bachelor of Finance requires completion of 144 units, of which:"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "A 144 unit undergraduate program covering foundations of finance, corporate finance, investments, economics, and statistics.",
+      "evidenceLines": [
+        "- **Minimum Units Required**: 144 Units",
+        "A single three year undergraduate award offered by theANU College of Business and Economics"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist finance degree delivering sequential advanced study through corporate finance and portfolio investment management.",
+      "evidenceLines": [
+        "- **Field of Education**: of Education Banking and Finance",
+        "The Bachelor of Finance requires completion of 144 units, of which:"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C4: Scored at Level 3 due to comprehensive quantitative demands in derivatives pricing, portfolio optimization, and corporate valuation.",
+    "W3: Scored at Level 1 as external internship is elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

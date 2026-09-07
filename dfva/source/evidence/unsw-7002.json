@@ -1,0 +1,102 @@
+{
+  "code": "unsw-7002",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "**Institution**: University of New South Wales (UNSW Sydney)",
+        "**Course Code**: 7002",
+        "- **Institution**: University of New South Wales (UNSW Sydney)"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Study Level**: Undergraduate",
+        "- **Study Level**: Undergraduate"
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: Communication and Academic Literacy 1 (DPGE1001)",
+        "Subject: Communication and Academic Literacy 2 (DPGE1002)",
+        "**AQF Level**: Level 5"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "**Total Units / Units of Credit (UOC)**: 48",
+        "**Delivery Mode**: Face-to-face (includes blended)",
+        "- **Total Units / Units of Credit (UOC)**: 48"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: Communication and Academic Literacy 3 (DPGE1003)",
+        "Subject: Communication and Academic Literacy - Standard (DPGE1004)",
+        "**CRICOS Code**: 095863M"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "**Academic Organisation**: UNSW College Diplomas",
+        "- **Institution**: University of New South Wales (UNSW Sydney)",
+        "- **Study Level**: Undergraduate"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "**Handbook URL**: https://handbook.unsw.edu.au/undergraduate/programs/2026/7002",
+        "Subject: Fundamentals of Mathematics B (DPST1012)",
+        "- **Total Units / Units of Credit (UOC)**: 48"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "- **Total Units / Units of Credit (UOC)**: 48",
+        "- **Institution**: University of New South Wales (UNSW Sydney)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Engineering.",
+        "evidenceLines": [
+          "- **Total Units / Units of Credit (UOC)**: 48",
+          "In this Diploma program students will be able to experience a university environment and university life, while being supported to acquire all of the knowledge and skills needed for successful transition to undergraduate studies at UNSW. Students receive a solid background in science through their science courses, while the engineering courses provide them with the opportunity to engage in real-life situations including the design and construction of engineering prototypes. The courses in this program have been designed to be equivalent in content and outcomes to first year UNSW courses but the pace is slower and the face-to-face contact hours are greater. The course structure allows students to get accustomed to University learning styles - in Lectures, Laboratories, and Problem-Solving Workshops - while receiving additional support as required for the duration of the Diploma."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in engineering and related technologies, n.e.c..",
+        "evidenceLines": [
+          "Subject: Communication and Academic Literacy 1 (DPGE1001)",
+          "**Institution**: University of New South Wales (UNSW Sydney)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

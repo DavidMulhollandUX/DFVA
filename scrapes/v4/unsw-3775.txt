@@ -1,0 +1,748 @@
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/programs/2026/3775 =====
+# Surveying (3775)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 3775
+- **Academic Year**: 2026
+- **Study Level**: Undergraduate
+- **AQF Level**: Level 7
+- **Total Units / Units of Credit (UOC)**: 192
+- **Delivery Mode**: Face-to-face (includes blended)
+- **CRICOS Code**: Not specified
+- **Academic Organisation**: School of Civil and Environmental Engineering
+- **Handbook URL**: https://handbook.unsw.edu.au/undergraduate/programs/2026/3775
+
+## Description
+This program is only available combined with the Civil Engineering specialisation within the Bachelor of Engineering (Honours) (3707) program.
+
+The Bachelor of Surveying is designed to equip you for a career as a professional Surveyor. We provide you with a solid background that will prepare you for learning knowledge and skills in this discipline. You will get the chance to apply yourself to surveying knowledge, application and professional practice.
+
+## Career Opportunities & Employment Areas
+Engineer working in the mining industry, construction surveying firms, architecture firms, land management and planning, hydrographic surveying, aerial imaging and cartography.
+
+## Program Structure & Degree Requirements
+Students must complete 192 Units of Credit (UOC) structured across the following academic components:
+
+### Disciplinary Component (144 UOC)
+Students must complete 144 UOC of the following to satisfy the core requirements of this degree
+
+#### Engineering Foundation Core Courses (72 UOC)
+Students must take 72 UOC of the following courses.
+
+##### Engineering Foundation Core Courses
+- **ENGG1300**: Engineering Mechanics [6 UOC]
+- **CVEN2002**: Civil and Environmental Engineering Computations [6 UOC]
+- **CVEN3101**: Engineering Operations and Control [6 UOC]
+- **CVEN3401**: Transport and Highway Engineering [6 UOC]
+- **CVEN3501**: Water Resources Engineering [6 UOC]
+- **DESN1000**: Introduction to Engineering Design and Innovation [6 UOC]
+- **ENGG1811**: Computing for Engineers [6 UOC]
+- **ENGG2500**: Fluid Mechanics for Engineers [6 UOC]
+- **MATH2019**: Engineering Mathematics 2E [6 UOC]
+
+##### One of the following:
+- **MATH1131**: Mathematics 1A [6 UOC]
+- **MATH1141**: Higher Mathematics 1A [6 UOC]
+
+##### One of the following:
+- **MATH1231**: Mathematics 1B [6 UOC]
+- **MATH1241**: Higher Mathematics 1B [6 UOC]
+
+##### One of the following:
+- **PHYS1121**: Physics 1A [6 UOC]
+- **PHYS1131**: Higher Physics 1A [6 UOC]
+
+#### Surveying Core Courses (66 UOC)
+Students must take 66 UOC of the following courses.
+
+- **GMAT1110**: Surveying and Geospatial Engineering [6 UOC]
+- **GMAT2120**: Surveying and Geospatial Technology [6 UOC]
+- **GMAT2500**: Surveying Computations A [6 UOC]
+- **GMAT2550**: Surveying Computations B [6 UOC]
+- **GMAT2700**: Foundations of Geodesy & Geospatial Ref Frames [6 UOC]
+- **GMAT3100**: Surveying Applications and Design [6 UOC]
+- **GMAT3150**: Surveying Field Projects [6 UOC]
+- **GMAT3220**: Geospatial Information Systems [6 UOC]
+- **GMAT3420**: Cadastral Surveying and Land Law [6 UOC]
+- **GMAT3500**: Remote Sensing and Photogrammetry [6 UOC]
+- **GMAT3700**: Geodetic Positioning and Applications [6 UOC]
+
+#### Professional Electives (6 UOC)
+Students must take at least 6 UOC of the following courses.
+
+Students must take GMAT4400 Land Management Project for recognition by the Board of Surveying and Spatial Information of New South Wales.
+
+- **CVEN4102**: Operations and Projects [6 UOC]
+- **CVEN4103**: Engineering Contracts [6 UOC]
+- **CVEN4104**: Sustainability in Construction [6 UOC]
+- **CVEN4201**: Rock and Slope Engineering [6 UOC]
+- **CVEN4202**: Advanced Topics in Geotechnical Engineering [6 UOC]
+- **CVEN4204**: Ground Improvement and Monitoring Techniques [6 UOC]
+- **CVEN4301**: Advanced Concrete Structures [6 UOC]
+- **CVEN4308**: Structural Dynamics [6 UOC]
+- **CVEN4402**: Transport Networks [6 UOC]
+- **CVEN4404**: Traffic Engineering [6 UOC]
+- **CVEN4503**: Groundwater Resource Investigation [6 UOC]
+- **CVEN4507**: Resilient Flood Design [6 UOC]
+- **CVEN4701**: Planning Sustainable Infrastructure [6 UOC]
+- **CVEN4703**: Advanced Water Quality Principles [6 UOC]
+- **CVEN4800**: Satellite Remote Sensing and Applications [6 UOC]
+- **GEOS3731**: Coastal Processes and Hazards [6 UOC]
+- **GEOS3761**: Environmental Change [6 UOC]
+- **GEOS3911**: Environmental Impact Assessment [6 UOC]
+- **GEOS3921**: Coastal Resource Management [6 UOC]
+- **GMAT4400**: Land Management Project [6 UOC]
+
+### Free Electives (36 UOC)
+Students must take at least 36 UOC of the following courses.
+
+### General Education (12 UOC)
+Students must take at least 12 UOC of the following courses.
+
+## Progression & Academic Rules
+Progression rules are in accordance with university policy.
+
+## Admission Requirements
+This program is not available in standalone mode and is only offered as part of the 3776 Engineering (Honours) / Surveying double degree program.
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/CVEN2002 =====
+Subject: Civil and Environmental Engineering Computations (CVEN2002)
+Credit Points: 6
+Overview: An introduction to the application of advanced analytical, statistical and numerical techniques to the solution of engineering problems relevant to civil and environmental engineers and surveyors. Review of analytical techniques. Addressing issues of variability and uncertainty in engineering. Descriptive statistics. Foundations of Probability. Random variables. Special distributions (discrete and continuous). Normal distribution, sampling distributions. Confidence Intervals. Hypothesis testing. Inferences for proportions, variances and means. Regression. ANOVA. Numerical solution of linear and non-linear equations; numerical differentiation and integration, finite differences; differential equations, boundary value problems, initial value problems and partial differential equations.
+Learning Outcomes:
+- Utilize the MATLAB environment and programming for calculating solutions to numerical problems, graphical and statistical analyses, including assignment problems in subsequent courses.
+- Apply various graphical and data analysis methods for summarising and understanding data.
+- Describe the various ways in which random variation arises in engineering contexts.
+- Calculate numerical (as opposed to analytical) solutions to problems in linear and non-linear equations; numerical differentiation and integration, finite differences; differential equations, boundary value problems, initial value problems and partial differential equations.
+- Apply various statistical models and methods for drawing conclusions and making decisions under uncertainty in engineering contexts.
+- Apply numerical methods and statistics to problems in the fields of Civil and Environmental Engineering and Surveying.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/CVEN3101 =====
+Subject: Engineering Operations and Control (CVEN3101)
+Credit Points: 6
+Overview: This course is an introduction to the general principles of the organisation and control of engineering operations. The course covers project management and organisation, project scheduling and control, engineering economics, procurement and contract management, cost estimation, construction safety and quality management, and engineering ethics and risk.
+Learning Outcomes:
+- Discuss the elements of economics and financial management and risk management
+- Analyse practical considerations when managing construction projects
+- Characterise the key aspects of project management including time, cost, safety and quality
+- Articulate the role of ethics in engineering professionalism
+- Define engineering and management work
+- Apply project management tools such as: Gantt chart and CPM charts
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/CVEN3401 =====
+Subject: Transport and Highway Engineering (CVEN3401)
+Credit Points: 6
+Overview: This is the first introductory course in the discipline of transport engineering as part of the broad field of civil and environmental engineering. An outline of the field of transport engineering and its relationships with other engineering and non-engineering disciplines is provided within the course. The course comprises two strands. - Strand one focuses on analysing, designing, and evaluating traffic and transport systems. It includes traffic flow theory and the "4-step transport modeling" method to determine travel demands, which are essential for infrastructure feasibility assessments and ensuring smooth operations. - The second strand provides a brief overview of the geometric design of Rural Highways and Roads. Topics include an introduction to road design, route location process, and design practice of urban and rural roads.
+Learning Outcomes:
+- Present and document the road design in a standard format
+- Describe basic concepts of four-step travel demand modelling and apply computational methods related to each step
+- Explain relationships between fundamental traffic flow parameters
+- Develop and evaluate horizontal and vertical alignments according to various design criteria
+- Design cross-sections appropriate for various types of roads
+- Perform computational evaluations of network traffic management methods
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/CVEN3501 =====
+Subject: Water Resources Engineering (CVEN3501)
+Credit Points: 6
+Overview: The objective of CVEN3501 is to introduce engineering hydrology and its application in water resources management and flood estimation. Topics discussed include hydrological cycle, climatology, atmospheric circulation, meteorological measurements, precipitation, streamflow measurement, runoff components, hydrograph analysis, loss rates, IFD and design storm hyetographs, flood frequency analysis, unit hydrographs concepts and linear reservoir method, groundwater, hydraulic conductivity, Darcy's law, intrinsic permeability, water potential, hydraulic head, unsaturated zone, aquifers, aquicludes, aquitards, steady state flow, transient flow, effective stress, transmissitivity, storativity, pump test interpretation.
+Learning Outcomes:
+- Conduct a hydrological assessment of a catchment.
+- Describe the hydrologic cycle and energy fluxes to calculate evaporation.
+- Assess groundwater resources, including estimating flows, storage and surface water interactions.
+- Quantify the size of design floods and risk of exceedance.
+- Collaborate as a team to prepare a report, implementing organisational and interpersonal tools effectively.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/CVEN4102 =====
+Subject: Operations and Projects (CVEN4102)
+Credit Points: 6
+Overview: Most engineering work fits within what is broadly referred to as operations and projects. For example an earthmoving operation may involve trucks cycling between an excavator and some dump point; an engineering project may involve the design, construction and commissioning of infrastructure. Operations tend to be ongoing but can be time limited, while projects have a defined time frame. The course will cover issues to do with resources (materials, equipment, people), cost and time in engineering operations and on engineering projects. Examples will be chosen to highlight efficient practices and methods adopted in engineering operations and on engineering projects.
+Learning Outcomes:
+- Select a suitable method for constructing underground tunnels.
+- Work independently on the design a permanent or temporary structure
+- Work effectively in teams for group assignments.
+- Explain the process of construction operations
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/CVEN4103 =====
+Subject: Engineering Contracts (CVEN4103)
+Credit Points: 6
+Overview: The majority of engineering work is procured through contracts, within an array of delivery methods. The course examines the relationship between tenders and contracts and the various popular forms of delivery methods. The course covers the formation and documentation involved in contracts, the commercial aspects of contractual agreements including payment types and conditions of contract, the contractual and administrative connections of project delivery, and dispute avoidance and resolution. The contract law that will be covered is applicable to a common law system.
+Learning Outcomes:
+- Review and summarise legal case studies and determine how they will impact future directions in the industry
+- Evaluate the elements within contract documents and how they apply to specific circumstances
+- Assess the engineering profession, its scope, and the role of Civil and Environmental Engineers within it.
+- Analyse tender documentation and contribute in the preparation of a tender
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/CVEN4104 =====
+Subject: Sustainability in Construction (CVEN4104)
+Credit Points: 6
+Overview: This course will provide fundamental knowledge and hands-on experience for practising sustainability in construction. The aim is teaching the environmental, social and economic impacts of buildings and built environment and demonstrating how sustainable construction design can avoid global warming and resource depletion issues. The contents of this course are designed to provide hands-on experience in analytical thinking and decision making with regards to the application of sustainability in construction projects. This course explains history and drivers of sustainability in construction and review sustainability policies, programs, and incentives in Australia. Principles of life cycle assessment (LCA) and life cycle costs (LCC) will be explained, and hands-on experience of evaluating LCA and LCC will be offered in the workshop classes and group assignment. This course also provides an overview of the current green rating systems for buildings and built environment in Australia. Additionally, examples of sustainable construction design, materials and energy resources, as well as case studies of best sustainable practices and future trends of sustainable construction will be demonstrated. A number of alternative strategies available in design, procurement, construction, operation and end-of-life phases to reduce the overall environmental impact of a construction project are discussed. Students are expected to learn how the available strategies, standards and guidelines can be applied to analyse and improve sustainability in practice.
+Learning Outcomes:
+- Summarise the history and drivers of sustainability in construction, as well as sustainability policies, programs, and incentives in Australia
+- Demonstrate hands-on skills in evaluating life cycle assessment and life cycle cost assessment in a construction-related activity
+- Distinguish sustainable construction design, materials and energy resources used in case studies of best sustainable practices and future trends in sustainable construction
+- Explain how green rating schemes work in Australia
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/CVEN4201 =====
+Subject: Rock and Slope Engineering (CVEN4201)
+Credit Points: 6
+Overview: Description of rock mass and discontinuities; rock strength and failure criteria. Core logging; field data collection, mapping and fracture surveys; data presentation; hemispherical projections; introductory rock slope stability; foundations on rock; excavation on rock; in-situ stress; stresses about underground openings; classification systems and tunnel support requirements; site investigations for landslides and slope stabilisation techniques; use of slope stability analysis programs. The course includes a compulsory field trip.
+Learning Outcomes:
+- Perform basic design in rock engineering including foundation, slope stability and tunnel designs
+- Utilise software to assess the stability of a slope and various remediation measures
+- Describe the basic principles related to the theory and design of rock and soil slopes
+- Work effectively in a team
+- Illustrate the methods of site investigation, soil and rock slope analysis and different methods of slope stabilisation
+- Describe the basic principles related to the theory and design of rock engineering including methods for describing, recording and presenting features of rock masses
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/CVEN4202 =====
+Subject: Advanced Topics in Geotechnical Engineering (CVEN4202)
+Credit Points: 6
+Overview: This course will be delivered in two parts. Part one is focused on ground energy and ground source heat pump systems, common design parameters and approaches and available analytical solutions to understand the concept of geothermal systems. To better understand the physics and governing equations involved in ground energy systems the interactions between the systems and the surrounding ground, the educational finite element software COMSOL will be used to computationally model different cases of ground energy systems. The second part of the course covers the basic principles of critical state soil mechanics and soil plasticity, and the use of elastic-plastic constitutive models to simulate soil stress-strain behaviour. Students will learn to use elastic-plastic soil models to solve geotechnical engineering problems.
+Learning Outcomes:
+- Explain the concept and applications of ground energy systems. Design and evaluate of these systems via hand calculations and computational modelling.
+- Explain the basic principles of critical state soil mechanics and soil plasticity, and use elastic-plastic constitutive models to simulate soil stress-strain behaviour.
+- Use finite element method to solve geo-energy problems, including geothermal energy systems and their interaction with the ground.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/CVEN4204 =====
+Subject: Ground Improvement and Monitoring Techniques (CVEN4204)
+Credit Points: 6
+Overview: Assessment of the suitability and design of stabilisation techniques for difficult foundation soils including instrumentation and application of observational techniques to geotechnical engineering. Topics covered will include: principles of the observational method, instrumentation, braced excavations, dewatering, grouting, underpinning, stone columns, vertical and horizontal drains, vacuum pumping, deep compaction, vibrofloatation, lime stabilisation, reinforced earth and soil nailing.
+Learning Outcomes:
+- Analyse the performance of ground improvement designs.
+- Explain the problems of soft soils and the methods of improving their strength and serviceability.
+- Describe the types and functions of instrumentation used in geotechnical engineering and their advantages.
+- Identify suitable ground improvement methods and their critical parameters and control measures for a range of problematic soils.
+- Design and analyse reinforced earth structures
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/CVEN4301 =====
+Subject: Advanced Concrete Structures (CVEN4301)
+Credit Points: 6
+Overview: A course on the advanced analysis and design of concrete structures for students looking towards a career in Structural Engineering. The course deals with the design and behaviour of the following fundamental aspects for reinforced concrete member design: one-way and two-way concrete slabs (including the direct design, equivalent frame and simplified strip methods); retaining walls, strip, pad and pile footings; and the detailing of steel reinforcement in concrete members.
+Learning Outcomes:
+- Analyse short and long-term deflection effects of RC structures and deflection control
+- Explain the limit state design concepts, specifically recognising the difference between strength and serviceability limit states
+- Describe and apply RC design principles to the design of members subjected to ultimate limit states of flexure, shear, and punching shear.
+- Design Reinforced Concrete (RC) structures with two-way actions utilizing AS 3600 and AS 1170
+- Interpret structural design requirements, specifications, documents, and drawings and utilize them appropriately in design
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/CVEN4308 =====
+Subject: Structural Dynamics (CVEN4308)
+Credit Points: 6
+Overview: Structural engineers need to understand how structures behave when subjected to dynamic loads such as wind and earthquakes. In this course, you will develop an understanding of the fundamental principles of structural dynamics, including free and forced vibration of single- and multi-degree-of-freedom systems, numerical methods and modal analysis. You will learn how to apply these principles to analyse the dynamic response of civil engineering structures and develop a foundation for assessing structures subjected to dynamic loading.
+Learning Outcomes:
+- Apply the fundamental concepts of system dynamics with specific focus and application to civil/structural engineering
+- Apply the laws of dynamics to establish simple and realistic mathematical models of engineering structures
+- Identify and specify various types of dynamic loading for structural analysis
+- Apply dynamic analysis methods to practical problems in structural engineering and other disciplines
+- Analyse the dynamic response to a dynamic load and other important parameters for structural design
+- Evaluate the dynamic susceptibility of structures and the limitations of modelling techniques
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/CVEN4402 =====
+Subject: Transport Networks (CVEN4402)
+Credit Points: 6
+Overview: This course covers strategic transport network planning aspects related to urban transport systems, including network-based analysis, modelling and optimisation techniques. Network representation of transport systems and traffic route choice modelling including user equilibrium and system optimal are the two main broad topics that will be discussed in this subject. Knowledge about different types of transport network solutions and when and where to apply them are important for transport modelling professionals. The subject material focuses on network theory in some depth, and a reasonable mathematical competency, as well as the ability to perform computational work, will be required to follow this subject. Computer literacy will be helpful but is not essential.
+Learning Outcomes:
+- Apply network user equilibrium solution methods
+- Describe the fundamentals of transport network analysis
+- Apply transport network planning techniques
+- Apply route choice analysis techniques
+- Justify and describe the importance of transport network concepts for analysis and design
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/CVEN4404 =====
+Subject: Traffic Engineering (CVEN4404)
+Credit Points: 6
+Overview: Traffic engineering professionals are tasked with the responsibility of ensuring the safe and efficient movement of people and goods through the provision and maintenance of transportation systems. The effectiveness of the transport system impacts the economic development and quality of life for the entire community. The course will cover the broad topics of traffic flow theory and modelling, traffic control device design and implementation and traffic management practices. The fundamentals of traffic flow theory and the tools necessary to assess capacity and level of service for road segments and intersections are discussed in detail during the first half of the course. The second half of the course covers the application of the theory and use of the tools to conduct traffic studies and manage and control traffic related issues. Students will have the opportunity to analyse real traffic data, develop traffic management plans and design traffic control devices using industry prevalent modelling software, such as "SIDRA Intersection", which will provide students with the necessary practical skills to be a traffic engineer.
+Learning Outcomes:
+- Explain relationships between fundamental traffic flow parameters
+- Apply basic concepts, methods, and techniques in urban traffic management studies.
+- Solve complex existing and potential traffic management problems
+- Critically analyse field survey methodologies and traffic data
+- Identify and apply current technologies in traffic management and control
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/CVEN4503 =====
+Subject: Groundwater Resource Investigation (CVEN4503)
+Credit Points: 6
+Overview: Groundwater is one of Australia's most critical natural resources, yet the nation faces a persistent shortage of engineers with the skills to understand and manage it sustainably. This course equips you with theoretical, numerical and field skills to address this challenge. You will learn how to measure groundwater resources, understand groundwater recharge, its interaction with rivers and what drives movement of groundwater. You will also look at the impact of extraction on our groundwater resources. A highlight of the course is a 5-day field trip to UNSW's Wellington Field Research Station. During this trip, you'll have a chance to learn from experts in groundwater and geophysics and utilise state-of-the-art equipment. In teams, you will conduct a variety of groundwater, geochemical and geophysical surveys on site. This site features a network of boreholes through a landscape of clay and river deposits into weathered basalt overlying tight basement rocks and limestone formations, a geological setting that presents real questions about groundwater as a resource, its movement, interaction with streams and recharge. You will collect your own data, interpret it and build a synthesised site analysis interpretation with your team. Through this course, you will develop skills directly relevant to professional practice, including conducting field investigations and groundwater assessments, developing and interpreting conceptual and analytical groundwater models, analysing geological, hydrogeological and geophysical data and preparing high quality technical reports.
+Learning Outcomes:
+- Develop and use conceptual and analytical models to assess groundwater flow and the potential impacts of groundwater use.
+- Work effectively in teams during field and analytical activities, demonstrating professional collaboration, safe fieldwork conduct, responsibility, and shared problem-solving.
+- Communicate technical findings clearly and professionally supported by appropriate data, analysis, and engineering reasoning.
+- Interpret field and experimental data to understand groundwater behaviour and aquifer properties.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/CVEN4507 =====
+Subject: Resilient Flood Design (CVEN4507)
+Credit Points: 6
+Overview: This course focuses on advanced topics in flood engineering for resilient water infrastructure design. The course builds from third year hydrology and hydraulics to introduce you to estimation of large and extreme floods, the analysis and design of common hydraulic structures, including flow conveyance structures, energy dissipators and culverts and other advanced topics in hydrology and hydraulics.
+Learning Outcomes:
+- Apply sustainability concepts to the design of hydraulic structures.
+- Design common hydraulic structures by performing relevant calculations.
+- Apply hydrologic models appropriately to a design problem.
+- Calculate peak flows from large and extreme floods.
+- Describe the important characteristics of hydraulic structures.
+- Describe the sources of uncertainty in hydrologic calculations, including the effects of climate change.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/CVEN4701 =====
+Subject: Planning Sustainable Infrastructure (CVEN4701)
+Credit Points: 6
+Overview: The course builds on introductory knowledge from Stages 1 to 3 in water, transport, waste and engineering operations and enables students to design infrastructure systems that include social and cultural context, as well as having regard to sustainability principles in the planning of urban and regional precincts. The design brief will direct the conceptual planning of the infrastructure and allow students to be familiar with sustainability in terms of water and waste management, transport services, energy supply and distribution. This capstone course will encourage teamwork as well as independent and reflective learning through the delivery of individual and group assessment tasks that allow for critical thinking and the development of creative and appropriate sustainable outcomes in urban and regional communities.
+Learning Outcomes:
+- Critically assess infrastructure sustainability at varying scales and contexts.
+- Formulate and address urban and regional infrastructure problems using sustainability principles.
+- Demonstrate creativity by developing solutions, including those that may be considered unconventional.
+- Work independently and as part of a team to carry out literature reviews and effectively communicate findings.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/CVEN4703 =====
+Subject: Advanced Water Quality Principles (CVEN4703)
+Credit Points: 6
+Overview: Fundamental aspects of the chemistry and biology of aquatic environments are reviewed and extended enabling analysis and interpretation of processes occurring in surface and ground waters, as well as water and wastewater treatment systems. Consideration is given to recent developments in water and wastewater technologies.
+Learning Outcomes:
+- Evaluate knowledge and technologies from published literature and effectively disseminate findings through written reports and seminar presentations.
+- Recognize the challenges that exist in maintaining acceptable water quality and the knowledge gaps that remain with regard to understanding and mitigating particular water quality problems.
+- Identify key biogeochemical processes that operate within natural and engineered aquatic systems, and examine how these processes influence water quality.
+- Apply knowledge of both conventional and advanced methods for treating water and wastewater to achieve desired water quality standard.
+- Demonstrate interpersonal and process management skills in real-world dynamic team-work environments.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/CVEN4800 =====
+Subject: Satellite Remote Sensing and Applications (CVEN4800)
+Credit Points: 6
+Overview: This course introduces the concepts, principles and techniques used for satellite remote sensing to civil and environmental engineering students. Topics include: Electromagnetic radiation Principles of satellite remote sensing Multispectral remote sensing Hyperspectral remote sensing Thermal remote sensing LiDAR remote sensing Radar remote sensing Remote sensing applications in civil engineering structural deformation urban expansion Remote sensing applications in geotechnical engineering ground settlement slope stability mine subsidence earthquakes Remote sensing applications in environmental engineering coastal erosion bathymetry water pollution vegetation monitoring groundwater extraction oil spill flood bushfire Remote sensing applications in transport road traffic conditions ship detection underground tunnelling
+Learning Outcomes:
+- Be able to decide which technique to use for different civil, environmental and geospatial applications
+- Be competent in processing satellite imagery including choice of sensors, satellite tasking, pre-processing, classification, and visualisation.
+- Be familiar with the challenges and techniques of satellite remote sensing.
+- Understand the strengths and weaknesses, and characteristics of several different remote sensing techniques.
+Assessment Tasks:
+- Multimodal - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/DESN1000 =====
+Subject: Introduction to Engineering Design and Innovation (DESN1000)
+Credit Points: 6
+Overview: In this course, you will experience first-hand one of the major things that engineers do: designing and building creative solutions to problems. You will learn to think the way that engineers think, coming up with reasonable solutions to problems despite being limited by budget, time and resources, the requirement to also meet environmental and social objectives and, of course, the limitations of the laws of physics. This will help you appreciate engineering design's central ideas as an on-time, on-budget and fit-for-purpose solution to a poorly specified, open-ended problem. You will start to build critical skills for engineers that will be called upon repeatedly in your academic and professional lives, including concept development, critical thinking and evaluation skills, clear communication, research and information literacy skills and the skills involved in successfully functioning within a team environment to complete a given task. A key part of the course is a design project. During the first week, you will select a project to complete from a list of possible options offered. Once you have joined a project, you will be assigned to a team of around 5-6 students during the second week. With this team, you will work to practically solve your design problem for the rest of the term.
+Learning Outcomes:
+- Demonstrate the attributes of an effective team member, including the use of basic organisational and interpersonal tools.
+- Apply foundational technical theory and skills to a design project.
+- Demonstrate a systematic approach to design in response to a specified set of project requirements.
+- Use foundational project management techniques to plan, execute and complete a design project.
+- Explain designs using oral, written and visual forms of professional communication within the project context.
+- Test the suitability of designs using analytical and practical validation methods pertinent to the project.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ENGG1300 =====
+Subject: Engineering Mechanics (ENGG1300)
+Credit Points: 6
+Overview: This is the foundational mechanics course for students in Aerospace, Civil, Environmental, Manufacturing, Mechanical, Mechatronics and Mining Engineering, with content as follows: Revision of vectors, resultants and components, moments; The free body diagram; Equilibrium of planar rigid objects; Equilibrium of systems of co-planar multi-force members and planar trusses; Frames and Machines; Springs; Friction; Mass centre, centroids, distributed forces; Internal forces in beams; Introduction to 3-dimensional statics; Plane particle kinematics, including curvilinear and relative motion; Plane particle kinetics, including equations of motion, work-energy-power, friction, impulse-momentum, impact; Kinetics of systems of particles; Introduction to plane kinematics of rigid bodies, types of rigid body motion (translation, rotation about a fixed axis); Mass moment of inertia, parallel axis theorem, moment of inertia for various shapes, Introduction to plane kinetics of rigid bodies, rigid body in plane motion, equations of motion, work-energy for a rigid body.
+Learning Outcomes:
+- Produce individual work by leveraging a collaborative environment, helping and receiving help from peers professionally and ethically.
+- Demonstrate an ability to communicate clearly and precisely about technical matters related to Engineering Mechanics.
+- Demonstrate professional communication, both written and oral, that includes mathematical, graphical and diagrammatic elements.
+- Apply principles of Engineering Mechanics to solve structural problems: forces, moments, equilibrium, structural analysis, and momentum and energy for particles and rigid bodies.
+- Accomplish hands on tasks that require the application of knowledge of Engineering Mechanics.
+- Discern the relevant principles that must be applied to describe the equilibrium or motion of engineering systems and identify necessary information in the context.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly) - CVEN: N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly) - MME: N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly) - MERE: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/ENGG1811 =====
+Subject: Computing for Engineers (ENGG1811)
+Credit Points: 6
+Overview: Computing is an integral part of modern engineering. Computing is used in the design, automation, experimentation, monitoring, diagnosis, data collection, data analysis, visualisation and many other aspects of engineering. A very important skill for engineers is to be able to use computers to help them to solve problems efficiently. The aim of this course is to give an introduction to computing for engineers with an emphasis on computational problem solving. In order to realise this aim, the students will learn to use the Python programming language and some of its many packages to solve problems. Since the course is designed primarily for engineers, the computing examples are often presented together with an engineering context to help the students to appreciate the applications of computing in engineering. This course also includes a minor component in Matlab and spreadsheet.
+Learning Outcomes:
+- Implement algorithms using the Python programming language.
+- Write Python programs to automate many different tasks.
+- Use, at a simple level, the numerical computation packages of Matlab and Excel.
+- Design algorithms to solve computation problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/ENGG2500 =====
+Subject: Fluid Mechanics for Engineers (ENGG2500)
+Credit Points: 6
+Overview: This course introduces the student to the terminology, principles and methods used in engineering fluid mechanics. Fluid mechanics is a subject that deals with both fluid statics (fluids at rest) and fluid dynamics (fluids in motion). Fluid flow has a broad application area ranging from car/aeroplane aerodynamics, heat exchangers, combustion systems, micro-fluidics, and flows in artificial hearts. The knowledge of fluid mechanics gained in this course is a springboard for many other courses studied in the mechanical engineering degree program, including advanced thermofluids (heat transfer and advanced thermodynamics), computational fluid dynamics (CFD), automobile engine technology, and aerodynamics and propulsion, as well as other disciplines.
+Learning Outcomes:
+- Explain and apply the basic properties of fluids and how these relate to fluid flow.
+- Explain and describe the conditions for flows in pipes under which various flow regimes will occur: (i) laminar and turbulent flows, (ii) turbulent flows which are hydraulically rough or hydraulically smooth.
+- Calculate flow through pipes, including assessing energy losses and identify relevant supporting data requirements.
+- Explain the fundamental principles of fluid flow in pipes and free surface flows namely continuity, momentum and energy, and know to what situations these principles can be applied.
+- Solve real-world fluid mechanic problems by performing lab experiments.
+- Undertake dimensional analysis, make estimates of drag force and carry out computations related to boundary layers.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly) - MECH: N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly) - CIVIL: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GEOS3731 =====
+Subject: Coastal Processes and Hazards (GEOS3731)
+Credit Points: 6
+Overview: This course provides a lecture, laboratory and field-based study of the processes responsible for shaping and modifying Australian and global coastal environments. The foundation of the course is an application of the morphodynamic approach to understanding coastal processes and hazards. Topics covered include coastal evolution, nearshore waves, currents and sediment transport, beaches, dunes and coastal hazards and management. A strong emphasis is placed on practical applications related to coastal monitoring techniques. Fieldwork is an important component of the course and a multi-day field trip will involve expense to individual students. The course is well suited to any student interested in coastal environments and hazards and/or who are studying Geoscience, Geography, Environmental Science and Marine Science.
+Learning Outcomes:
+- Describe relationships between coastal processes and hazards and their relevance to contemporary coastal management issues.
+- Communicate written and analytical work in the format of a scientific research report.
+- Discuss and critically evaluate the role of human interactions in coastal environmental systems and hazards.
+- Work collaboratively in a group dynamic to develop and present a major research project.
+- Describe existing techniques, logistics, and data analysis associated with obtaining coastal environmental data.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GEOS3761 =====
+Subject: Environmental Change (GEOS3761)
+Credit Points: 6
+Overview: Due to increased greenhouse gas concentration in the atmosphere, the climate is changing: heatwaves, droughts, floods are becoming more frequent and more intense, ice-mass loss from Greenland and Antarctica is accelerating and sea-level is rising. Future climate projections are derived from climate model simulations, but how are these models benchmarked? Past climate changes provide a unique opportunity to understand the climate system to better project its trajectory. This course provides an overview of past climate and environmental change and of the processes that were involved. The course is designed to be accessible to all upper level science students. GEOS3761 is delivered as a blended course: online lectures are complemented by face-to-face practicals. The course has a Moodle Discussion Forum which provides an opportunity to engage with everyone. The students will get hands-on experience with techniques to reconstruct and understand past climate change.
+Learning Outcomes:
+- Perform basic data analysis using MATLAB.
+- Communicate the causes and impacts of past environmental/climate change, and understand the implications for future climate.
+- Analyze climate and paleo-proxy data to infer past climate change.
+- Critically evaluate the literature on environmental/climate change.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GEOS3911 =====
+Subject: Environmental Impact Assessment (GEOS3911)
+Credit Points: 6
+Overview: Environmental Impact Assessment (EIA) is an important part of environmental decision making throughout the world. This course provides students with an understanding of the Commonwealth and NSW legislative framework for EIA; guidelines for EIA; ecologically sustainable development; impact evaluation in terms of environmental and socio-economic criteria; procedures, techniques and issues in EIA; future directions. Case studies of environmental impact statements (EIS) from the physical and human environment are used throughout the course. The course is valuable for students interested in environmental management.
+Learning Outcomes:
+- Critically analyse Environmental Impact Statements and the state and federal Environmental Impact Assessment process.
+- Identify and apply the professional responsibilities placed upon environmental scientists, consultants, and decision makers within the context of Environmental Impact Assessment.
+- Identify the need for an Environmental Impact Assessment in the NSW and national contexts and justify its significance in relation to appropriate legislative frameworks.
+- Conduct an Environment Impact Assessment and prepare an environmental impact statements by applying relevant environmental management approaches.
+- Apply ecologically sustainable development principles to Environmental Impact Assessments.
+- Identify the governing laws and their components relevant to an Environmental Impact Statement (EIS), or alternative development approval documents.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GEOS3921 =====
+Subject: Coastal Resource Management (GEOS3921)
+Credit Points: 6
+Overview: This course focuses on coastal resource assessment and management and builds skills in science and policy-based solutions for coastal problems and issues. The course is designed for students aspiring to pursue a career as an environmental manager, environmental consultant or applied scientist. Case studies and topics on Australian coastal zone policy, coastal erosion and conservation, soil and water acidification, global aquaculture issues and management, causes of fish kills and fish disease outbreaks, estuary management, coastal water resource management, recreational and commercial fisheries and coastal wetlands are used to understand how science informs management. The course considers Australian and global perspectives on current and emerging coastal resource management issues. The course includes lectures, tutorials and a one-day field trip. Assignments build skills in writing ministerial advisories, management briefs, funding proposal writing, and production of a professional standard coastal management plan or management communication tool. Students also participate in a mock workshop to develop stakeholder engagement skills.
+Learning Outcomes:
+- Analyse and critique the broad and emerging issues, particular current and challenging coastal resource issues affecting society, the environment and economy.
+- Prepare a professional coastal resource management plan, applying an interdisciplinary approach.
+- Review coastal policy, management frameworks, and approaches to coastal resource management to generate advice for stakeholders and leaders.
+- Describe and analyse the roles of geography, environmental science, social science and engineering in interdisciplinary coastal resource management.
+- Describe processes that affect coastal degradation, including human impacts on coastal areas to develop strategies to manage or remediate negative environmental, social and economic impacts.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GMAT1110 =====
+Subject: Surveying and Geospatial Engineering (GMAT1110)
+Credit Points: 6
+Overview: Surveying and Geospatial Engineering deals with the science of determining relative positions of features above, on or below the surface of the Earth for a range of mapping, engineering and construction operations. The course combines lectures, workshops and outdoor practical exercises using modern electronic surveying equipment. Topics include levelling, orientation, distance measurement which combine into coordinate reference systems. Also traversing and control surveys, electronic detail surveys, construction setout, GPS/GNSS satellite positioning, geographic information systems (GIS) and sources of geospatial data such as laser scanning, remote sensing, aerial photogrammetry (UAVs and planes) and satellite imagery. Basic land law and cadastral surveying for NSW is introduced. The student will learn some basic surveying computations to critically assess spatial data quality. Students will be expected to have a good background in trigonometry and geometry from high school mathematics.
+Learning Outcomes:
+- Undertake basic survey computations from raw field observations to support a range of surveying and engineering applications such as levelling and terrain representation, area and volume calculations, traversing and construction set out.
+- Demonstrate basic field surveying techniques including handheld GPS and GIS, levelling, and use of a total station to acquire raw field observations and set out of a minor structure.
+- Demonstrate skill with various surveying instruments, forward planning for survey tasks, production of clear field notes and redundant field checks to ensure accuracy.
+- Apply the theory behind the various surveying and geospatial techniques presented in this course and critically assess the quality of geospatial data.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GMAT2120 =====
+Subject: Surveying and Geospatial Technology (GMAT2120)
+Credit Points: 6
+Overview: This course will cover some contemporary terrestrial surveying instruments and their use. The course will commence with precise digital levelling (bar-code level) instruments, covering design, accuracy, error sources, precise levelling techniques, errors and calibration. The theory will be supported with a practical exercise. Electronic total stations will be introduced, including circle reading, level sensors, centring systems, constrained centring, precise horizontal and zenith angle measurement, observation procedures and elimination of errors. This theory will be exercised with a larger field project and some minor exercises. Robotic total stations and ATR (automatic tracking) technology will be described. Finally, principles and applications of the Electronic Distance Meter (EDM), phase and pulse measurement techniques, wave propagation in atmosphere, measurement of atmospheric parameters, coefficient of refraction, velocity corrections, geometric reductions, reductions of distances to the ellipsoid, and analysis of errors will be dealt within a field practical exercise. An EDM height traversing practical will round out this course. At the conclusion of this course students will have gained an understanding of the impact specific field techniques and instrumentation on the attainable precision when conducting terrestrial surveys.
+Learning Outcomes:
+- Demonstrate efficient field work practices including skill with various surveying instruments, forward planning and logistics for complex survey tasks, production of clear field notes and redundant field checks to ensure accuracy.
+- Perform a precise digital levelling survey using a modern bar-code instrument, leap frog EDM height traverse using a modern total station to achieve first/second order quality, high precision horizontal and vertical directions using a modern total station and medium length EDM distance measurement.
+- Test various instruments and techniques to determine the size of errors and indicate the accuracy of the resulting measurements.
+- Perform reductions of observations from various field exercises and all associated statistical analysis.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GMAT2500 =====
+Subject: Surveying Computations A (GMAT2500)
+Credit Points: 6
+Overview: Principles of survey calculations. Radiation, intersection, resection, and trilateration calculations. Traversing: fieldwork, calculations, error detection and adjustment. Detail surveys with engineering surveying CAD software: data transfer with survey instruments, plan editing, and contouring from a digital terrain model. Cadastral calculations. Land Subdivisions in CAD. Design and computation of horizontal and vertical curves for roads, rail and pipelines in CAD.
+Learning Outcomes:
+- Be able to solve calculation problems using a variety of approaches and computing resources including manual calculation, calculators, spreadsheets (MS Excel or open source equivalents) and CAD software with surveying modules.
+- Be able to produce surveying, road design and subdivision drawings/plans using Magnet Office software package.
+- Ability to function effectively as an individual and in multicultural teams, as a team leader or manager as well as an effective team member.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GMAT2550 =====
+Subject: Surveying Computations B (GMAT2550)
+Credit Points: 6
+Overview: Least Squares measurement adjustment principles and concepts, with particular reference to surveying observations of distance, height difference, angular directions, GPS solutions. Determining input into, and analysing output from, typical Least Squares adjustment software. Inside Least Squares: Modelling observations, observation equations, parametric method, condition and combined methods, linearisation of equations, derivation of Least Squares algorithm, methods of forming normal equations. Variance-covariance matrices, measurement uncertainty, and error ellipses, and in particular the application of statistics and error analysis in surveying. Worked examples and case studies from various areas of cadastral and engineering surveys. Calibration of EDM instruments.
+Learning Outcomes:
+- Describe computer programming aspects used within LS software
+- Apply the basic principles of Least Squares analysis
+- Prepare data for Least Squares analysis, including a priori statistics
+- Interpret output from Least Squares analysis software, including variance factor and outlier investigations
+- Calculate a least squares adjustment of data step by step without using computer programs designed for Least Squares
+- Design a survey network using least squares analysis, including error ellipses and redundancy number investigations
+- Setup the equations within a parametric method least squares adjustment
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GMAT2700 =====
+Subject: Foundations of Geodesy & Geospatial Ref Frames (GMAT2700)
+Credit Points: 6
+Overview: Positioning and timing are critical aspects in surveying, mapping, navigation, and beyond. This course will explore the fundamentals of positioning and timing, including the definitions of modern geospatial reference frames and widely used coordinate systems, such as, International Terrestrial Reference Frames (ITRF), Geocentric Datum of Australia (GDA), Australian Height Datum (AHD). The course offers an in-depth understanding of geodetic theories on the Earth’s shape, gravity field, geoid, reference ellipsoid and map projections. You will use precise GPS/GNSS positioning instruments to define reference frames, as well as to determine coordinates of points in the frame.
+Learning Outcomes:
+- Explain the definition of geodesy and its major tasks
+- Use GPS/GNSS to define reference frames and determine the coordinates of points in a frame
+- Describe the purposes and methods of map projections
+- Explain the concept of satellite-based precise positioning technology
+- Explain the basic concepts of the reference and coordinate systems and coordinate transformations.
+- Identify the geodetic reference frames (datums) and map projection systems used in practice
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GMAT3100 =====
+Subject: Surveying Applications and Design (GMAT3100)
+Credit Points: 6
+Overview: This course introduces the student to a wide variety of surveying applications undertaken as part of engineering projects. Selected topics of specialist survey applications will be dealt with using lectures, guest speakers and technology demonstrations. Topics will be selected from the following: mining surveying (including azimuth transfer, north-seeking gyro theodolites, plumbing of shafts and high structures), industrial surveying, tunnel surveying, hydrographic surveying, alignments, monitoring of deformations and settlement of terrain, structures and machines, design of precise engineering networks, project surveying methodology and advanced least squares analysis.
+Learning Outcomes:
+- Design survey methods, including choice of instruments, analysis and error prevention, for: industrial (e.g. indoor) surveys, high rise construction, mining, tunnelling and deformation monitoring of buildings, bridges and dams.
+- Review professional journal and conference publications and present findings.
+- Demonstrate the characteristics of effective teamwork and professional conduct and apply organisational and interpersonal strategies
+- Use surveying instruments in a variety of applications and analyse aspects of deformation surveys, including datum and free net problems.
+- Design and execute Surveying and Geospatial measurements and data analysis for surveying projects using least squares adjustment software.
+- Interpret problems from client instructions and design solutions to surveying problems with the level of creativity and innovation appropriate to the complexity of the challenge.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GMAT3150 =====
+Subject: Surveying Field Projects (GMAT3150)
+Credit Points: 6
+Overview: An off-campus survey camp, where survey projects of substantial extent are carried out involving control survey design and implementation, detail surveys, contour surveys, the design and setting-out of a rural road, and other selected projects. The processing of the field data and the preparation of plans and reports is done during session. Students are required to attend a four-day off-campus survey camp during Term 1 equivalent to three contact hours per week, followed by three hours per week project data processing during session.
+Learning Outcomes:
+- Operate hand held and RTK-GNSS for road surveys, detail surveys, engineering surveys, and EDM calibration.
+- Function effectively as an individual and in multidisciplinary and multicultural teams, as a team leader or manager as well as an effective team member.
+- Produce high quality survey results, plans and reports
+- Design and execute surveying and geospatial measurement, data analysis, mapping and land development projects.
+Assessment Tasks:
+- In-person - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GMAT3220 =====
+Subject: Geospatial Information Systems (GMAT3220)
+Credit Points: 6
+Overview: An overview of the components of Geographic Information Systems (GIS). Database management in the context of spatial data. Data acquisition techniques including overviews of digitising, scanning, field survey and remote sensing. Data conversion process, visualisation of geospatial data, cartography, colour and 3D views. Concepts and definitions of spatial information systems, coordinate systems, mapping and spatial issues, data structures including vector, raster and surface modelling. Inputting both spatial and attribute data to the GIS. Transformation of data between coordinate systems, re-projection of map coordinates. GPS-based image registration. Editing data and creating topologically clean data. Tagging spatial data with attributes, linking spatial data to attribute databases. Use of basic analysis functions: spatial selection, attribute selection, making reports of spatial and attribute data, interfacing to the system using a high level language. Use of the World Wide Web to disseminate information.
+Learning Outcomes:
+- Build geo-databases and analyse spatial data
+- Design a Web-based GIS
+- Explain the concepts and definitions of spatial systems, coordinate systems, mapping and spatial issues with maps, data structures including vector, raster and surface modelling.
+- Develop simple data models for use in many GIS applications.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GMAT3420 =====
+Subject: Cadastral Surveying and Land Law (GMAT3420)
+Credit Points: 6
+Overview: Introduction to the legal system in Australia and NSW. The nature of land law, including land tenure, estates in land, and interests in land. Land title systems, and especially land administration in Australia and NSW. Study of appropriate statutes and regulations. Boundary surveying principles and cadastral mapping in NSW. Survey investigation for both artificial and natural boundaries; survey and title searching; field note preparation for cadastral surveying; survey marking and preparation of plans of survey; cadastral survey techniques for urban and rural properties; the status of roads in NSW; strata plan surveys; identification surveys; consents for MHWM, railways, rivers, kerbs in Sydney; and the role of coordinates in cadastral surveying.
+Learning Outcomes:
+- Understand the legal and practical principles that assist in the shaping of the cadastre, original definition and relocation of various land title boundaries in NSW, and understand the impact of such decisions on society
+- Develop an understanding of professional and ethical responsibilities, and demonstrate a commitment to uphold them
+- Have the ability to function effectively as an individual and in multidisciplinary and multicultural teams, as a team leader or manager as well as an effective team member
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GMAT3500 =====
+Subject: Remote Sensing and Photogrammetry (GMAT3500)
+Credit Points: 6
+Overview: This course prepares you to use satellite, aerial and ground-based imaging technologies to capture and analyse spatial data for real-world applications. You will learn how industry-standard remote sensing and photogrammetry techniques are used to produce maps, 3D models and terrain data for applications such as urban development, environmental monitoring, mining and infrastructure. You will work with real datasets to extract accurate measurements from images and understand how different sensors perform in practice. The course also introduces LiDAR for large-scale 3D data capture. Through hands-on labs and practical exercises, you will develop skills that are widely used across the geospatial industry, preparing you for roles in surveying, mapping, remote sensing and spatial data analysis.
+Learning Outcomes:
+- Investigate remote sensing and photogrammetric options for identified applications.
+- Apply remote sensing and photogrammetric techniques.
+- Explain the complementary nature between remote sensing, photogrammetry and surveying.
+- Analyse and interpret remote sensing, photogrammetric and LiDAR data to extract spatial information and assess the accuracy and limitations of the results.
+- Produce and communicate digital maps and spatial products from remotely sensed and photogrammetric data.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GMAT3700 =====
+Subject: Geodetic Positioning and Applications (GMAT3700)
+Credit Points: 6
+Overview: Concepts of geodetic positioning using GPS/GNSS. History of geodetic datums in Australia. Introduction to GNSS including GPS, GLONASS, BeiDou, Galileo, QZSS and IRNSS. Satellite orbit representation, analysis of GPS/GNSS carrier phase positioning, differential GNSS, integer ambiguity resolution, static baseline survey, control network design and adjustments, data formats/ protocols, height determination using GPS/GNSS, datum transformations, PPP, online satellite positioning services (govt/commercial), RTK, NRTK and CORS. Rapid Static field project logistics, design, execution, processing, network adjustment and reporting. Discussion of modern geodesy: VLBI, SLR, DORIS & GNSS; gravity field mapping & mass transport; geodetic services and applications; the IAG and the Global Geodetic Observing System. Datum modernisation in Australia plus standards and specifications for geodetic control.
+Learning Outcomes:
+- Explain the role precise GNSS positioning plays in support of geospatial data acquisition, point coordination,and modern geodesy
+- Explain the different ways in which a GNSS "survey" can be conducted, for different applications, and the planning and testing procedures necessary
+- Describe the GNSS errors and how differential techniques can be used to improve positioning accuracy
+- Explain the principles of GNSS precise positioning using carrier phase measurements, including the mathematical algorithms
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/GMAT4400 =====
+Subject: Land Management Project (GMAT4400)
+Credit Points: 6
+Overview: Design and studio project for a residential neighbourhood development, taking into account a range of issues including: (a) constraint and site analysis: preparation of maps of land use, vegetation, surface and soils, drainage and terrain, slopes, climate and aspect; composite overlay maps; (b) structure plan design: infill subdivisions, residential precincts, schools, commercial areas, industrial areas, active and passive recreation, pedestrian ways and road hierarchy; (c) plan of detailed lot layout: shadow diagrams, consideration of access, grades, drainage reserves, parks and pedestrian ways; (d) engineering design and plans: catchment details, road longitudinal and cross-sections, drainage layout, flow schedule, hydraulic grade line calculations, longitudinal sections of kerb profiles, driveway designs.
+Learning Outcomes:
+- Assess an undeveloped parcel of land to determine its suitability for urban development and design a development based on planning and environmental factors
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/MATH1131 =====
+Subject: Mathematics 1A (MATH1131)
+Credit Points: 6
+Overview: This course builds on high school calculus-based courses to provide a solid foundation for further study in mathematics for students in STEM disciplines. It is taken by undergraduate students typically in their first year and is usually followed by MATH1231 or MATH1241. The Calculus half of the course develops a deeper understanding of continuous and differentiable functions and introduces the Riemann integral. It shows how theorems such as the Maximum-Minimum Theorem, the Intermediate Value Theorem and Mean Value Theorems are used to justify properties of common functions and to solve both theoretical and applied problems. The Algebra half of the course introduces vectors and matrices and the solution of systems of linear equations by Gaussian elimination which paves the way for linear algebra in later courses. Technology is used throughout the course through use of the Maple computer algebra system and students producing a typeset assignment. Students are assumed to have a good understanding of NSW HSC Mathematics Extension 1 and 2 subjects. MATH1131 has a higher version, MATH1141, has greater depth and a greater emphasis on proof and rigorous argument than MATH1131.
+Learning Outcomes:
+- Communicate mathematical ideas in written form using correct terminology and using technology.
+- Use technology as an aid to solve appropriate problems in Algebra and Calculus.
+- Apply concepts in Algebra and Calculus to unexpected contexts.
+- Apply concepts and techniques from Algebra and Calculus to solve problems.
+- Identify and construct valid mathematical arguments.
+- Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/MATH1141 =====
+Subject: Higher Mathematics 1A (MATH1141)
+Credit Points: 6
+Overview: This course builds on high school calculus-based courses to provide a solid foundation for further study in mathematics for students in STEM disciplines. It is taken by undergraduate students typically in their first year and is usually followed by MATH1241 or MATH1231 and, as the higher version of MATH1131, has greater depth and a greater emphasis on proof and rigorous argument than MATH1131. The Calculus half of the course develops a deeper understanding of continuous and differentiable functions and introduces the Riemann integral. It shows how theorems such as the Maximum-Minimum Theorem, the Intermediate Value Theorem and Mean Value Theorems are used to rigorously justify properties of common functions and to solve both theoretical and applied problems. The Algebra half of the course introduces vectors and matrices and the solution of systems of linear equations by Gaussian elimination which paves the way for linear algebra in later courses. Technology is used throughout the course through use of the Maple computer algebra system and students producing a typeset assignment. Students are assumed to have a good understanding of NSW HSC Mathematics Extension 1 and 2 subjects.
+Learning Outcomes:
+- Communicate mathematical ideas in written and oral form using correct terminology and using technology.
+- Use technology as an aid to solve appropriate problems in Algebra and Calculus.
+- Apply concepts in Algebra and Calculus to unexpected contexts.
+- Identify and construct valid mathematical arguments and proofs of theorems.
+- Apply concepts and techniques from Algebra and Calculus to solve problems.
+- Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/MATH1231 =====
+Subject: Mathematics 1B (MATH1231)
+Credit Points: 6
+Overview: This course builds on MATH1131 or MATH1141 to provide a solid foundation for further study in mathematics for students in STEM disciplines. It is taken by undergraduate students typically in their first year. The Calculus half of the course covers partial derivatives and multivariable chain rules, further techniques of integration and applications of integration, ordinary differential equations, sequences, series and Taylor series. The Linear Algebra half of the course introduces abstract linear algebra, covering vector spaces and linear transformations and eigenvalue and eigenvectors. In addition, there is a topic on probability distributions. Technology is used throughout the course through use of the Maple computer algebra system and students producing a typeset assignment that focuses on written communication skills. MATH1231 has a higher version, MATH1241, that has greater depth and a greater emphasis on proof and rigorous argument than MATH1231.
+Learning Outcomes:
+- Apply concepts in Algebra and Calculus to unexpected contexts.
+- Apply concepts and techniques from Algebra and Calculus to solve problems.
+- Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems.
+- Communicate mathematical ideas in written and oral form using correct terminology and using technology.
+- Identify and construct valid mathematical arguments in the context of Algebra and Calculus.
+- Use technology as an aid to solve appropriate problems in Algebra and Calculus.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/MATH1241 =====
+Subject: Higher Mathematics 1B (MATH1241)
+Credit Points: 6
+Overview: This course builds on MATH1131 or MATH1141 to provide a solid foundation for further study in mathematics for students in STEM disciplines. It is taken by undergraduate students typically in their first year. MATH1241 is the higher version of MATH1231 and has greater depth and a greater emphasis on proof and rigorous argument than MATH1231. The Calculus half of the course covers partial derivatives and multivariable chain rules, further techniques of integration and applications of integration, ordinary differential equations, sequences, series and Taylor series. The Linear Algebra half of the course introduces abstract linear algebra, covering vector spaces and linear transformations and eigenvalue and eigenvectors. In addition, there is a topic on probability distributions. Technology is used throughout the course through use of the Maple computer algebra system and students producing a typeset assignment that focuses on written communication skills.
+Learning Outcomes:
+- Communicate mathematical ideas in written and oral form using correct terminology and using technology.
+- Apply concepts and techniques from Algebra and Calculus to solve problems.
+- Apply concepts in Algebra and Calculus to unexpected contexts.
+- Identify and construct valid mathematical arguments and proofs of theorems in the context of Algebra and Calculus.
+- Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems.
+- Use technology as an aid to solve appropriate problems in Algebra and Calculus.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/MATH2019 =====
+Subject: Engineering Mathematics 2E (MATH2019)
+Credit Points: 6
+Overview: This subject allows students in Engineering programs to explore a range of concepts at the core of applied mathematics. Through a series of online lectures and problem-solving classes, students are shown various methodologies for solving practical example problems from these topics in their discipline. Topics include: partial differentiation and applications, vector algebra, double integrals, ordinary differential equations, introduction to vector field theory, extrema of functions of 2 variables, matrices and their applications, Laplace transforms, Fourier series, partial differential equations and their solution for selected physical problems. Note: Available only to students for whom it is specifically required as part of their program. MATH2019 is equivalent to MATH2018.
+Learning Outcomes:
+- Relate concepts and methods from applied mathematics and describe how these may be used in real-world problems drawn from various fields of engineering.
+- Demonstrate mastery of mathematical techniques by constructing logical solutions to problems in engineering that require creative and critical thinking.
+- Analyse and categorise problems from applied mathematics and engineering, break them into their constituent steps, and apply appropriate mathematical methods in multivariate calculus; differential equations; matrix theory; Laplace Transforms; and Fourier Series.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/PHYS1121 =====
+Subject: Physics 1A (PHYS1121)
+Credit Points: 6
+Overview: This course provides an introduction to Physics. It is a calculus based course. The course is examined at two levels, with Physics 1A being the lower of the two levels. Mechanics: particle kinematics in one dimension, motion in two and three dimensions, particle dynamics, work and energy, momentum and collisions, rotation Thermal physics: temperature, kinetic theory and the ideal gas, heat and the first law of thermodynamics. Waves: oscillations, wave motion, sound waves. Assumed Knowledge : HSC Physics and Mathematics Extension 1 or equivalent. If you have not reached this level of physics and mathematics you may wish to take PHYS1111 Fundamentals of Physics before enrolling in this course.
+Learning Outcomes:
+- Apply critical thinking skills in a range of conceptual physical situations.
+- Use appropriate mathematical techniques, including calculus, to solve problems involving mechanics, thermal physics and waves.
+- Draw and interpret graphs and diagrams to describe physical phenomena.
+- Safely conduct experiments, analyse the results including reliable estimates of the uncertainties in the measurements.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/PHYS1131 =====
+Subject: Higher Physics 1A (PHYS1131)
+Credit Points: 6
+Overview: This course provides an introduction to Physics. It is a calculus based course. The course is examined at two levels, with Higher Physics 1A being the higher of the two levels. While the same content is covered as Physics 1A, Higher Physics 1A features more advanced assessment. Mechanics: particle kinematics in one dimension, motion in two and three dimensions, particle dynamics, work and energy, momentum and collisions, rotation Thermal physics: temperature, kinetic theory and the ideal gas, heat and the first law of thermodynamics. Waves: oscillations, wave motion, sound waves. Assumed Knowledge : HSC Physics and Mathematics Extension 1 or equivalent. If you have not reached this level of physics and mathematics you may wish to take PHYS1111 Fundamentals of Physics before enrolling in this course. Students planning on taking Physics 1B should take MATH1131/1141/1151 as the corequisite for PHYS1131.
+Learning Outcomes:
+- Draw and interpret graphs and diagrams to describe complex physical phenomena.
+- Model the behaviour of non-uniform objects using appropriate mathematical techniques.
+- Safely conduct experiments, analyse the results including reliable estimates of the uncertainties in the measurements.
+- Apply critical thinking skills in a range of advanced conceptual physical situations.
+- Use appropriate mathematical techniques, including calculus, to solve elaborate problems involving mechanics, thermal physics and waves.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+

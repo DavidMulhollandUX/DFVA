@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in journalism.",
+    "evidenceLines": [
+      "apply professional ethics standards for media and communications research.",
+      "design effective research questions and select appropriate research methods;",
+      "The Graduate Certificate of Journalism offers a critical foundation for understanding journalistic practice and theory."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in journalism.",
+    "evidenceLines": [
+      "analyse the role of research methods in addressing key challenges in media and communications;",
+      "critically examine the major research methods used in communication and media studies;",
+      "The course is designed primarily for emerging journalists but is also relevant to those wishing to extend their understanding of the intersections of journalism theory and practice."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within journalism.",
+    "evidenceLines": [
+      "Subject: Doing media and communications research (APG5050)",
+      "Subject: Journalism practice (APG5095)",
+      "Research proposal: 50% (Hurdle: None)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in journalism.",
+    "evidenceLines": [
+      "Annotated Bibliography: 40% (Hurdle: None)",
+      "In-class exercise: 10% (Hurdle: None)",
+      "The course builds essential skills in critical thinking, writing and presentation in multicultural settings designed to enhance learning success and career capabilities."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in journalism.",
+    "evidenceLines": [
+      "Subject: Video journalism (APG5135)",
+      "Subject: Digital journalism (APG5182)",
+      "write in a clear, concise, factual way using news and feature conventions;"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in journalism.",
+    "evidenceLines": [
+      "identify local, national and international people and events relevant to current issues and media issues.",
+      "The Graduate Certificate of Journalism offers a critical foundation for understanding journalistic practice and theory.",
+      "The course is designed primarily for emerging journalists but is also relevant to those wishing to extend their understanding of the intersections of journalism theory and practice."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in journalism.",
+    "evidenceLines": [
+      "identify key ethical,legal and operational obligations associated with reporting and critically reflect on individual experience in relation to the contemporary practice of journalism;",
+      "Subject: Photography (APG5352)",
+      "The course builds essential skills in critical thinking, writing and presentation in multicultural settings designed to enhance learning success and career capabilities."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The course comprises 24 credit points of study which provide knowledge, skills, attitudes and values required of skilled practitioners working in a range of fields addressing journalism.",
+      "The Graduate Certificate of Journalism offers a critical foundation for understanding journalistic practice and theory."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate of Journalism.",
+      "evidenceLines": [
+        "The course comprises 24 credit points of study which provide knowledge, skills, attitudes and values required of skilled practitioners working in a range of fields addressing journalism.",
+        "24 credit points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in journalism.",
+      "evidenceLines": [
+        "Subject: Doing media and communications research (APG5050)",
+        "apply professional ethics standards for media and communications research."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

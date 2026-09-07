@@ -1,0 +1,93 @@
+{
+  "code": "unsw-3959",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 7,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Cross-stream team collaboration across mathematical and computational disciplines, oral and written reporting to diverse stakeholders.",
+      "evidenceLines": [
+        "Graduates will be able to read critically and with understanding, to think logically, and to communicate clearly by written and oral means.",
+        "Graduates will be able to work successfully as part of a team.",
+        "The course will bring students in the three Data Science Majors together to share their knowledge, expertise and training in a way that is typical of industry."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Formulating and solving complex, multi-dimensional problems across qualitative, quantitative, and real-world business datasets.",
+      "evidenceLines": [
+        "Graduates will apply mathematical and computational techniques and business sensibilities to real-world problems involving complex data sets.",
+        "Graduates will demonstrate knowledge and skills in formulating problems involving both qualitative and quantitative data."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Rigorous analytical reasoning in mathematical settings, critical data interpretation, and experimental hypothesis testing.",
+      "evidenceLines": [
+        "Graduates will be able to analyse information critically in a mathematical setting.",
+        "Graduates will understand the role of speculation in the selection and solution of problems, the construction of hypotheses, and the design of experiments."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2: Designing data science experiments, exploratory hypothesis generation, and collaborative industry problem solutions.",
+      "evidenceLines": [
+        "Graduates will understand the role of speculation in the selection and solution of problems, the construction of hypotheses, and the design of experiments.",
+        "Students will attend seminars by industry representatives from Data Science industries, and students will work on group projects related to real world industry problems."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Methodological inquiry using scientific investigation standards and integrative capstone synthesis.",
+      "evidenceLines": [
+        "Graduates will have a working knowledge of scientific criteria and methods of investigation, and a concern for objectivity and precision.",
+        "This is the capstone course for the Data Science and Decisions program."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Authentic industry seminars, real-world data science project teamwork, and simulated industry practice.",
+      "evidenceLines": [
+        "Students will attend seminars by industry representatives from Data Science industries, and students will work on group projects related to real world industry problems.",
+        "The course will expose students to Data Science as it is practiced in industry."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Highest professional ethical standards, scientific objectivity, and awareness of societal and economic impacts.",
+      "evidenceLines": [
+        "Graduates will apply the highest ethical standards to their professional and personal lives.",
+        "Graduates will understand the significance of science, technology, economics and social factors in modern society, and of the contributions they can make in improving material conditions."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Advanced data processing toolkits, database architecture, machine learning, and econometrics.",
+      "evidenceLines": [
+        "Graduates will be able to prepare, process, interpret and present data using appropriate qualitative and quantitative techniques.",
+        "- **ECON3203**: Econometric Theory and Machine Learning [6 UOC]",
+        "Business analyst, data analyst, data engineer, data manager, data scientist, statistician."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Direct exposure to algorithmic automation, machine learning advancements, and predictive analytics tools.",
+        "evidenceLines": [
+          "- **ECON3203**: Econometric Theory and Machine Learning [6 UOC]"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Active collaborative industry capstone, empirical data investigations, and team-based client problem solving.",
+        "evidenceLines": [
+          "Students will attend seminars by industry representatives from Data Science industries, and students will work on group projects related to real world industry problems.",
+          "The course will expose students to Data Science as it is practiced in industry."
+        ]
+      }
+    },
+    "ambiguities": [],
+    "notScoreable": []
+  }
+}

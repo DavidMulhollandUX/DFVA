@@ -1,0 +1,102 @@
+{
+  "code": "anu-vacyb",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science.",
+      "evidenceLines": [
+        "**Institution**: The Australian National University (ANU)",
+        "**Academic Plan Code**: VACYB",
+        "- **Institution**: The Australian National University (ANU)"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science.",
+      "evidenceLines": [
+        "**Academic Year**: 2027",
+        "**Career / Study Level**: Postgraduate",
+        "- **Academic Plan Code**: VACYB"
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science.",
+      "evidenceLines": [
+        "Subject: Framing Questions about Cybernetic Systems (CYBN6001)",
+        "Subject: Cybernetic Practice (CYBN6002)",
+        "**Program Duration**: 1.5 year full-time"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science.",
+      "evidenceLines": [
+        "**Minimum Units Required**: 72 Units",
+        "**Mode of Delivery**: of delivery In Person",
+        "- **Career / Study Level**: Postgraduate"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science.",
+      "evidenceLines": [
+        "Subject: Building Cyber-Physical Systems (CYBN8001)",
+        "Subject: Projects in Applied Cybernetics (CYBN8002)",
+        "**Post Nominal**: Nominal MAppCybAdv"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science.",
+      "evidenceLines": [
+        "**CRICOS Code**: code 103369K",
+        "- **Institution**: The Australian National University (ANU)",
+        "- **Academic Plan Code**: VACYB"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science.",
+      "evidenceLines": [
+        "**Field of Education**: of Education Engineering and Related Techno",
+        "Subject: Applied Cybernetics Professional Experience (CYBN8005)",
+        "- **Career / Study Level**: Postgraduate"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "- **Program Duration**: 1.5 year full-time",
+        "- **Institution**: The Australian National University (ANU)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Applied Cybernetics.",
+        "evidenceLines": [
+          "- **Program Duration**: 1.5 year full-time",
+          "- **Minimum Units Required**: 72 Units"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in computer science.",
+        "evidenceLines": [
+          "Subject: Framing Questions about Cybernetic Systems (CYBN6001)",
+          "**Institution**: The Australian National University (ANU)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,388 @@
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/programs/2026/8518 =====
+# Physical Oceanography (8518)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 8518
+- **Academic Year**: 2026
+- **Study Level**: Postgraduate
+- **AQF Level**: Level 9
+- **Total Units / Units of Credit (UOC)**: 72
+- **Delivery Mode**: Distance (online with some face-to-face)
+- **CRICOS Code**: 106823B
+- **Academic Organisation**: School of Mathematics & Statistics
+- **Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/8518
+
+## Description
+The Masters in Physical Oceanography caters to graduates in Science, Engineering and cognate disciplines seeking advanced training in the theory and understanding of physical processes in the ocean. The Masters provides a means of tailoring students’ knowledge base to enhance their perceived employment or promotion opportunities by equipping them with a range of skills demanded by employers in Australia’s growing Blue Economy. The Masters will be a foundation for students wishing to extend their studies at PhD level and is the largest of an articulated suite of nested programs in Physical Oceanography at UNSW Sydney.
+
+The Masters offers advanced disciplinary courses designed to reflect current practices in the field of Physical Oceanography, within the framework of academic knowledge and critical thinking. Each course aims to build student capacity to investigate, analyse and synthesise complex or conflicting information in a timely fashion. Students will also undertake a major research project where they will bring together various aspects of their coursework and extend their knowledge and investigation skills.
+
+Appropriate quantitative, computational, and technical skills will be developed where required, and students will be taught to apply skills, technologies and thinking to current industry issues and to communicate these effectively.
+
+NB:  Elective: GEOS9016 Principles of Geographic Information Systems and Science - not offered in 2025 or 2026.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+4. Develop recommendations and decisions in operational settings by evaluating and synthesizing oceanographic models and observations
+2. Master a diversity of cognitive skills relevant to physical oceanography, tailored to interests in various operational or theoretical aspects of the field.
+1. Demonstrate advanced and integrated knowledge of physical oceanography; especially in the links among oceanography, climate, marine science and the blue economy.
+5. Undertake independent and cutting-edge research contributing to the rapidly evolving science of physical oceanography
+3. Command specialised technical skills, which underpin decision-making in marine industries, including the application of statistical and mathematical methods to oceanographic data.
+
+## Career Opportunities & Employment Areas
+Possible careers/occupations available to students who graduate from this program include:
+
+Meteorologist
+
+Hydrographer
+
+Environmental Scientist
+
+Environmental Research Scientist
+
+Environmental Consultant
+
+Data Scientist
+
+Catastrophe Risk Analyst
+
+Oceanographer
+
+## Program Structure & Degree Requirements
+Students must complete 72 Units of Credit (UOC) structured across the following academic components:
+
+### Prescribed Elective Courses (30 UOC)
+Students must take 30 UOC of the following courses.
+
+- **LAWS8086**: Law of the Sea [6 UOC]
+- **BEES5041**: Data Analysis: Environmental Science & Management [6 UOC]
+- **MSCI5005**: Topics in Marine Biology and Ecology [6 UOC]
+- **CLIM6001**: Climate Systems Science [6 UOC]
+- **MATH5856**: Introduction to Statistics and Statistical Computations [6 UOC]
+- **MATH5305**: Computational Mathematics for Science and Engineering [6 UOC]
+- **MSCI6681**: Topics in Australian Marine Science [6 UOC]
+- **DATA9001**: Fundamentals of Data Science [6 UOC]
+- **MATH5845**: Time Series [6 UOC]
+- **MATH5295**: Special Topics in Applied Mathematics D [6 UOC]
+- **MATH5846**: Introduction to Probability and Stochastic Processes [6 UOC]
+
+#### One of the following:
+- **GEOS9016**: Principles of Geographic Information Systems and Science [6 UOC]
+- **GEOS9017**: Advanced Geographic Information Systems and Science [6 UOC]
+
+### Research Project (18 UOC)
+Students must complete a research project worth 18 UOC in consultation with the program convenor.
+
+MATH5207 is a 6 UOC course, taken three times over three consecutive terms. The three instances of this course each form part of the one 18 UOC project.
+
+- **MATH5207**: Physical Oceanography Research Project [6 UOC]
+
+### Core Courses (24 UOC)
+Students must take 24 UOC of the following courses.
+
+- **MATH5285**: Fluids, Oceans and Climate [6 UOC]
+- **MATH5231**: Prediction and Inverse Modelling [6 UOC]
+- **MATH5271**: Environmental Data Science and Statistics [6 UOC]
+- **MSCI5004**: Oceanographic Processes [6 UOC]
+
+## Progression & Academic Rules
+The Masters forms part of an articulated suite of programs Graduate Diploma (48 UOC) through to the 72 UOC Masters.
+
+If students complete the requirements of any of the articulated courses they can exit with that award.
+
+## Admission Requirements
+**Minimum Entry Requirements**:
+The minimum entry requirement is a Bachelor (Pass) degree with a minimum weighted average mark of 70% or equivalent in a cognate discipline (oceanography, meteorology, physics, science, mathematics, statistics, engineering etc.) from a recognised tertiary institution.
+
+Students must have a minimum of 12 UOC in Level 2 mathematics (equivalent to UNSW's MATH2018/9 and MATH2089, for example) or equivalent training/experience.
+
+The following cohorts may be eligible for recognition of prior learning up to 24 UoC:
+
+1. Graduates of an Advanced Mathematics, Advanced Science or Honours degree in a cognate discipline from a recognised tertiary institution.
+
+2. Students who have completed a relevant advanced degree in a cognate discipline; for example the Australian Bureau of Meteorology's Graduate Diploma in Meteorology.
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/BEES5041 =====
+Subject: Data Analysis: Environmental Science & Management (BEES5041)
+Credit Points: 6
+Overview: Effective data analysis allows us to generate and interpret evidence and answer questions about the natural world. We live in a data rich era, where our ability to gather relevant data is greater than ever. But how do you turn numbers into knowledge? This course develops core skills in the manipulation, statistical analysis, and communication of data. Using examples from the biological, earth, and environmental sciences and using the R programming language, students will examine the role of statistics in addressing scientific questions with different goals, including determining causes, describing variation, and predicting outcomes. Concomitantly, they will gain experience applying common methods using the R programming language. In-person practicals are supported by online lectures and discussions. Skills developed during this course will provide excellent training for all scientists, in research, government, industry, or society. Assumed knowledge: MATH1041 or relevant undergraduate level of data manipulation and statistical analysis.
+Learning Outcomes:
+- Organise, manipulate, analyse and visualise data to answer scientific questions, using the R software platform.
+- Determine an appropriate analysis technique for a scientific study, based on properties of the data and the question being asked.
+- Evaluate the results of statistical tests and draw appropriate conclusions about phenomena in the natural world.
+- Understand the types of questions scientists ask about the natural world and the role of statistical analysis in answering each of these.
+- Communicate the methods and results of scientific analyses, with appropriate integration of text, figures and statistical support for results.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/CLIM6001 =====
+Subject: Climate Systems Science (CLIM6001)
+Credit Points: 6
+Overview: This course provides a thorough overview of the climate system and its scientific study. In lectures and hands-on lab sessions, the different components of the climate system – including the atmosphere, ocean, biosphere, and cryosphere – are introduced, and their complex interactions are discussed. These interactions include feedbacks between the Earth's carbon cycle, hydrological cycle, biosphere and key chemical species. The course covers the scientific study of the climate system, including observational approaches and uncertainties; statistical methods used to detect and understand environmental changes; and modelling techniques including idealised models, process models and comprehensive state-of-the-art climate and Earth system models. Students receive hands-on experience in running and interpreting results from a climate model to interrogate changes and interactions in the climate system.
+Learning Outcomes:
+- Confidently use environmental/climate data and recognise their limitations, uncertainties, and representativeness.
+- Clearly communicate climate change concepts and results of simulation experiments, tailoring the communication to suit the audience.
+- Perform calculations of indices of climate phenomena such as El Nino using scripts, with the ability to both adapt existing and create new scripts.
+- Design experiments with, run, and interpret the output of a numerical climate model to study climatic changes, and show the results in the form of a scientific article.
+- Understand and explain in detail a range of climate phenomena and their interactions.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/DATA9001 =====
+Subject: Fundamentals of Data Science (DATA9001)
+Credit Points: 6
+Overview: This course provides a broad overview of Data Science as a platform for further studies in Data Science and an understanding and appreciation of Data Science in the modern world. Students will study the fundamentals of Data Science as it is applied in Computer Science, Economics, and Mathematics and Statistics. They will be introduced to topics such as databases, data analytics, data mining, Bayesian statistics, statistical software, econometrics, machine learning and business forecasting. The content of this course will be delivered via weekly live lectures with academics from three different Schools: The School of Mathematics and Statistics, the School of Economics and the School of Computer Science and Engineering. These concepts will be further explored through a series of tutorials/workshops.
+Learning Outcomes:
+- Apply fundamental data science techniques and tools, including machine learning, Naïve Bayes classification, Decision trees, K-NN, unsupervised learning and neural networks.
+- Apply key methods of statistical inference in applied settings.
+- Use R/RStudio to perform statistical computations and simulations.
+- Use key theoretical tools to explore the properties of random variables.
+- Apply various data visualisation tools, perform regression analysis and draw causal inference from data.
+- Apply probability rules in a given setting to calculate key quantities.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person -: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/GEOS9016 =====
+Subject: Principles of Geographic Information Systems and Science (GEOS9016)
+Credit Points: 6
+Overview: Approximately 80% of all data collected have associated geographic attributes, and there is an increasing need for people with the skills and abilities to manipulate and make sense of that information. This course provides an introduction to, and understanding of, the basic principles, structures, procedures and applications of geographic information systems and science. Topics covered in the course provide a comprehensive overview and practical experience in the analytical treatment of geographical information, including: information sources; data storage, representation and visualisation; projections and coordinate systems; the analysis of spatial data to generate new information; and the dissemination of such digital information through avenues including the internet.This course will be conducted through a combination of lectures, computer laboratories and field work.
+Learning Outcomes:
+- Create and edit maps using specialised software such as ArcGIS
+- Evaluate the main spatial information sources and data storage options for mapping data
+- Discuss the advantages and disadvantages of different data models, data structures and types, and map projections
+- Understand and apply basic spatial analysis techniques, including topographic analysis
+- Create models for geographic information systems analysis using specialised software such as Arc GIS, and apply these to project applications
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/GEOS9017 =====
+Subject: Advanced Geographic Information Systems and Science (GEOS9017)
+Credit Points: 6
+Overview: Geographic information systems have improved considerably over the past decade in response to a world that has become much richer in digital geographic information. The requirement to build complex applications and simulations has become more urgent with the need to plan for a changing climate, to feed an increasing population and to provide pinpoint marketing analysis for business. This course explores a toolbox of conceptual approaches and methods to model and analyse a range of highly complex, often non-deterministic problems. It provides a true enabling technology for the natural sciences and a rich source of computational and representational challenges for the computer sciences. Topics covered include dynamic spatio-temporal modelling; geostatistics; error analysis and data accuracy; network analysis; and machine learning and artificial intelligence methods in GIS. The course includes 12 hours of lectures and 26 hours of computer labs. Assumed knowledge: prior coursework in geospatial science.
+Learning Outcomes:
+- Describe and apply the principles of spatio-temporal analysis of discrete event data
+- Describe and apply the principles of multivariate spatial analysis of both continuous-field and discrete-object data
+- Describe and apply the principles of univariate spatial analysis of both continuous-field and discrete-object data
+- Debate the advantages and limitations of the different approaches to analysing spatial data, including spatio-temporal analysis, multivariate, and univariate spatial analysis
+- Justify the use of spatial analysis approaches to address geographic problems
+- Analyse real world geospatial data and communicate these in the form of a scientific report.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/LAWS8086 =====
+Subject: Law of the Sea (LAWS8086)
+Credit Points: 6
+Overview: The law of the sea is that body of international law that regulates the activities of States in their international relations concerning maritime matters. It is one of the most dynamic and important areas of international law, and is of particular importance to Australia, which possesses one of the largest maritime areas on Earth. This course aims to examine the current legal regime governing ocean uses. The course will examine the major maritime zones recognised in international law and the rules relating to the various uses of the seas including fishing, shipping and navigation, scientific research and mining. It will examine the way in which disputes over conflicting uses of the seas arise and the manner in which they are handled and will refer to matters of importance to Australia. This course is also available to students undertaking relevant postgraduate non-law degree programs at UNSW, provided such enrolment is approved by the appropriate non-Law & Justice Faculty.
+Learning Outcomes:
+- Critically analyse key areas of the law of the sea, including current debates and reforms, from a range of perspectives (PLO 1, 2)
+- Evaluate the role and function of relevant international legal institutions associated with the law of the sea. (PLO 1, 2)
+- Debate complex legal concepts and contemporary issues clearly, respectfully, and persuasively. (PLO 1, 4)
+- Evaluate and apply complex legal concepts, doctrines, and principles in the law of the sea (PLO 1, 2)
+- Interpret and appraise texts relating to the law of the sea including treaties, UN documents, case law, and academic commentary. (PLO 1, 2)
+- Conduct advanced independent scholarly legal research that includes interdisciplinary research sources. (PLO 1, 2, 3, 4, 6)
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/MATH2018 =====
+Subject: Engineering Mathematics 2D (MATH2018)
+Credit Points: 6
+Overview: This course allows students in Engineering programs to explore a range of concepts at the core of applied mathematics. Through a series of online lectures and problem-solving classes, students are shown various methodologies to solving practical example problems from these topics in their discipline. Topics include: partial differentiation and applications, vector algebra, double integrals, ordinary differential equations, introduction to vector field theory, extrema of functions of 2 variables, matrices and their applications, Laplace transforms, Fourier series, partial differential equations and their solution for selected physical problems. Note: Available only to students for whom it is specifically required as part of their program. MATH2018 is equivalent to MATH2019.
+Learning Outcomes:
+- Relate concepts and methods from applied mathematics and describe how these may be used in real-world problems drawn from various fields of engineering.
+- Analyse and categorise problems from applied mathematics and engineering, break them into their constituent steps, and apply appropriate mathematical methods in multivariate calculus; differential equations; matrix theory; Laplace Transforms; and Fourier Series.
+- Demonstrate mastery of mathematical techniques by constructing logical solutions to problems in engineering that require creative and critical thinking.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/MATH2089 =====
+Subject: Numerical Methods and Statistics (MATH2089)
+Credit Points: 6
+Overview: This course gives an introduction to numerical methods and statistics essential in a wide range of engineering disciplines. Numerical methods: Computing with real numbers. Numerical differentiation, integration, interpolation and curve fitting (regression analysis). Solution of linear and nonlinear algebraic equations. Matrix operations and applications to solution of systems of linear equations, elimination and tri-diagonal matrix algorithms. Introduction to numerical solution of ordinary and partial differential equations. Statistics: Exploratory data analysis. Probability and distribution theory including the Binomial, Poisson and Normal distributions. Large sample theory including the Central Limit Theorem. Elements of statistical inference including estimation, confidence intervals and hypothesis testing. One-sample and two-sample t-tests. Simple linear regression and analysis of variance. In each component, applications will be drawn from a variety of engineering disciplines. MATLAB or Python will be used as a practical tool for both numerical and statistical computations and to illustrate theoretical concepts that are introduced during lectures and tutorials.
+Learning Outcomes:
+- Apply numerical techniques to practical problems in Engineering.
+- Apply various graphical and data analysis methods for summarizing and understanding data.
+- Identify risks associated with floating point computations.
+- Apply numerical techniques to find accurate and efficient solutions for models based on linear and nonlinear systems of equations, ordinary differential equations and partial differential equations.
+- Apply various statistical models and methods for drawing conclusions and making decisions under uncertainty in engineering contexts.
+- Use MATLAB or Python to apply numerical and statistical methods and for graphical analysis.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5207 =====
+Subject: Physical Oceanography Research Project (MATH5207)
+Credit Points: 6
+Overview: This course is taken three times over three consecutive terms, and forms the research project component of the Masters of Physical Oceanography 8518. The three instances of the course each form part of the one project. For the research project component, a student will undertake independent study in the appropriate area of physical oceanography. The student will be supervised by at least one member of the academic staff of the School of Mathematics and Statistics, possibly jointly with an academic external to the School, or a suitable person in a non-university research position. The student will write a report and give an oral presentation on the project to the Physical Oceanography department. The written report will be assessed on four major areas: exposition literature coverage critical analysis and insight originality The weighting of these components will depend on the type of report, as determined by discussion between the student and supervisor(s) when the topic is chosen. All theses are expected to address all four areas. Two academic staff members will assess the thesis. The supervisor(s) are expected to provide a report on the thesis but they may not be one of the two markers. The written thesis mark will account for 90% of the final grade; the oral presentation for the other 10%. The final mark awarded will be decided at specially convened meetings. Students will receive a marker's report on their written thesis, outlining how the final mark was decided and possibly listing errors that ought to be corrected.
+Learning Outcomes:
+- Plan and execute a piece of research or a professional project with some independence.
+- Reflect critically on existing knowledge, ideas and practice within the relevant branch of physical oceanography to address the research topic.
+- Communicate research ideas to a suitable audience.
+- Demonstrate an understanding of specialized knowledge within a systematic and coherent body of knowledge, including established findings and practise to the appropriate branch of physical oceanography.
+Assessment Tasks:
+- Independent research - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5231 =====
+Subject: Prediction and Inverse Modelling (MATH5231)
+Credit Points: 6
+Overview: This course is a graduate level overview of the mathematical foundations of inverse modelling and prediction and their application to real-world systems, primarily the ocean and atmosphere. The scientific emphasis is on the formal testing of models, formulated as rigorous hypotheses about the errors in all the information: dynamics, initial conditions, boundary conditions and data. Applications in meteorology, oceanography, and climate are presented in detail. Please note: Some computing experience (R, Fortran, Maple, Matlab, or Python) is strongly recommended for this course.
+Learning Outcomes:
+- Apply variational and statistical techniques in inverse modelling and data assimilation to real-world systems including numerical weather prediction and ocean state estimation
+- Communicate discipline specific information in a written form with appropriate referencing
+- Implement idealised and realistic computational models of atmosphere/ocean dynamics
+- Demonstrate in-depth knowledge of the fundamental mathematical underpinnings of forward and inverse modelling in the ocean and the atmosphere
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5271 =====
+Subject: Environmental Data Science and Statistics (MATH5271)
+Credit Points: 6
+Overview: This course is a graduate level overview of the applications of data science in an environmental context. Although applications and motivations will be drawn primarily from the ocean, atmospheric and climate sciences, the material covered will apply generally across various environmental and non-environmental science and industry areas. A key focus of this course is an emphasis on practical real-world problems. These include practical approaches to data handling and quality control, consideration of real-world examples of good and bad data science practice, the application of various statistical methods to real world data sets, the integration of statistical approaches with physically based forecast methods, and a project component involving independent exploration and exposition of cutting-edge machine learning methods.
+Learning Outcomes:
+- Apply a range of techniques for the analysis of environmental data.
+- Explain the necessary framework for approaching environmental data science problems.
+- Evaluate data efficacy and statistical methods in the environmental sciences.
+- Communicate and critically evaluate ideas in environmental data science.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5285 =====
+Subject: Fluids, Oceans and Climate (MATH5285)
+Credit Points: 6
+Overview: This postgraduate course introduces the mathematical modelling and theory of problems arising in the flow of fluids in the Earth's climate system. During lectures and tutorials, the dynamics underlying the circulation of the atmosphere and oceans are detailed using key concepts such as geostrophy, the deformation radius and the conservation of potential vorticity. The role of Rossby waves, turbulent boundary layers and stratification are also discussed. The atmosphere-ocean system as a global heat engine for climate variability is examined using models for buoyant forcing, quasi-geostrophy and baroclinic instability.
+Learning Outcomes:
+- Apply appropriately approximated dynamical equations and their solutions to real-world systems including the atmosphere and ocean.
+- Demonstrate in-depth knowledge of the dynamical processes in the ocean and atmosphere.
+- Implement idealized and realistic computational models of atmosphere/ocean dynamics.
+- Communicate discipline specific information in a written form with appropriate referencing.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5295 =====
+Subject: Special Topics in Applied Mathematics D (MATH5295)
+Credit Points: 6
+Overview: Not offered every year. Course content varies when offered, see the School of Mathematics and Statistics web site or contact the [http://www.maths.unsw.edu.au/homepage.html | School of Mathematics and Statistics ].
+Learning Outcomes:
+- display advanced competency in mathematical presentation and written skills
+- demonstrate an ability to apply advanced mathematical techniques to formulate and solve real-world problems
+- demonstrate mastery of an advanced topic in Applied Mathematics
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5305 =====
+Subject: Computational Mathematics for Science and Engineering (MATH5305)
+Credit Points: 6
+Overview: Partial differential equations (PDEs) provide a natural mathematical description for many phenomena of interest in science and engineering. Such equations are often difficult or impossible to solve using purely analytical (pencil and paper) methods, especially for realistic industrial problems. This course introduces finite difference and finite element methods for elliptic and parabolic PDEs, and discusses key concepts such as stability, convergence and computational cost. Relevant techniques in numerical linear algebra are also discussed. The course includes a substantial practical component dealing with the computer implementation of the algorithms used for solving partial differential equations. This component of the course is supported by a weekly computer lab. In addition, a weekly tutorial class provides exercises on the mathematical content covered in lectures. The course is intended for students in mathematics programs, or students in science and engineering programs who have a strong mathematical background and an interest in computer modelling. Note : Students must have some prior experience with computer programming.
+Learning Outcomes:
+- Determine the stability properties of a few simple time integration schemes for parabolic PDEs.
+- Employ Taylor expansions to estimate the local truncation error and the order of consistency of a finite difference scheme.
+- Solve a system of linear equations efficiently by exploiting sparsity and other matrix structures.
+- Derive the weak form of an elliptic boundary-value problem and hence formulate an appropriate finite element method to compute an approximate solution.
+- Formulate a finite difference approximation to a partial differential equation.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5845 =====
+Subject: Time Series (MATH5845)
+Credit Points: 6
+Overview: The course is concerned with the theory and application of appropriate statistical techniques for analysis of time series data -- data collected over time. The course will help students develop a sound understanding of stationary and non-stationary time series models and their properties in discrete time. The topics include the theory of stationary time series; methods for trend and seasonal analysis and adjustment; modelling and forecasting with autoregressive moving average processes; modelling the impact of exogenous or intervention variables on responses; models for stochastic volatility and long-term dependence; regression models for time series. Applications are primarily drawn from finance and public health and the R software environment is used to perform appropriate analyses for numerical examples.
+Learning Outcomes:
+- Apply diagnostic checking for the adequacy of the fit of a model.
+- Generate, interpret and explain R software output appropriate for time series identification, modeling and forecasting.
+- Identify appropriate models for time series.
+- Perform linear prediction for a range of time series models.
+- Understand the properties of the major types of time series observed in discrete time.
+- Estimate the time series models using different methods.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5846 =====
+Subject: Introduction to Probability and Stochastic Processes (MATH5846)
+Credit Points: 6
+Overview: This course covers probabilistic concepts which are necessary to study various complex phenomena arising in Engineering, Biology, Medicine and Economics. This course introduces basic concepts which are needed to analyse different phenomena. In particular, we discuss the concepts of random events, random variables, structures of dependence, computation of probabilities using the Central Limit Theorem, simple Markov chains, and Brownian motion.
+Learning Outcomes:
+- Use key theoretical tools to explore properties of random variables.
+- Apply principles of Markov Chains and Brownian motion to practical and theoretical problems.
+- Derive fundamental results in the theory of probability and random variables.
+- Apply the principles of probability to practical and theoretical problems.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5856 =====
+Subject: Introduction to Statistics and Statistical Computations (MATH5856)
+Credit Points: 6
+Overview: This course addresses the foundational principles of statistical reasoning. In particular it introduces the most common methods for estimating unknown parameters of key statistical models in order to draw conclusions and make decisions without complete information. Practical implementations using statistical software packages are continuously presented to students. Students explore methods for estimating parameters using Maximum Likelihood and Bayesian inference, for constructing confidence intervals and performing hypothesis testing, for fitting linear and general linear models. Each week, the course includes typically 4 hour of pre-recorded lecture video and 1 hour of face-to-face tutorial during which students will have the opportunity to reinforce their learning.
+Learning Outcomes:
+- Interpret results generated from statistical software output
+- Write and execute basic R programs to perform statistical analysis.
+- Apply theoretical concepts and appropriate theorems to solve problems.
+- Use appropriate statistical terminology and reporting conventions to effectively communicate analysis and findings to a general audience.
+- Define and explain key statistical terms, concepts, and theorems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MSCI5004 =====
+Subject: Oceanographic Processes (MSCI5004)
+Credit Points: 6
+Overview: The way water circulates around the oceans impacts climate variability and change, marine ecology and human society and economy. In this course, we will dive into the way the ocean works throughout our lectures, tutorials and lab-based classes. From the East Australian Current to the global conveyor belt, and from eddies to beach waves. We will cover the properties and dynamics of the ocean, how we measure the ocean, and methods for analyzing oceanographic information, applying our understanding to problems like El Nino, the great garbage patches and Global Warming. Assumed knowledge: Any 6 Units of Credit of Level I Mathematics.
+Learning Outcomes:
+- Critically evaluate and present scientific literature that links physical oceanography to marine biology or other marine applications.
+- Describe and critically assess the tools used to observe and measure an often hostile and remote ocean.
+- Calculate quantitative solutions to the physical equations that describe ocean motion.
+- Analyse real world oceanographic data, solve quantitative problems using tools such as MATLAB, and provide a critical interpretation of results.
+- Describe the forces that drive ocean motion and their associated mathematical equations and how this gives rise to different ocean phenomena.
+- Describe the oceans role in driving changes to the wider climate system and how the ocean is affected by Global Warming and climate variability.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MSCI5005 =====
+Subject: Topics in Marine Biology and Ecology (MSCI5005)
+Credit Points: 6
+Overview: Oceans occupy 75% of the planet’s surface and have the capacity to moderate our climate and supply our food, water and oxygen. The East Australian Current also has a substantial and unappreciated effect on our lives. The dominant players and processes in pelagic marine ecosystems include fine-scale ocean physics, to nutrients, phytoplankton, zooplankton, fish and sharks. We consider human impacts and possible solutions through engineering of pelagic ecosystems such as bottom-up ecosystem regulation through nutrient supply, or top-down regulation of ecosystems by sharks and other predators; removal of mid-level planktivores, re-stocking of fish; ocean fertilization; carbon sequestration; and artificial reefs. Students will study estuarine ecosystems, including the effects of catchments and nutrients on hydrography and estuarine habitats, using a spreadsheet version of the world-renowned software Ecopath. The systematics and ecology of fish, and to some degree sharks and rays will be a feature of the course including the impacts of fisheries in removing the dominant ecosystem predators thus inducing an ecosystem cascade. A reverse ecosystem cascade sometimes occurs in estuaries with excessive nutrients (eutrophication). Overview of course. This course component is offered to students in the M MarSciMgt program (8271). It mostly involves taking the Ocean to Estuarine Ecosystems BIOS3081 lectures, and completing the field trip to Smiths Lake. There are 3 lectures and one tutorial per week. The lectures immediately precede the tute or lab, and material is reinforced with a simple online quiz. Attendance at the BIOS3081 labs in Weeks 1-5 is not compulsory, although it is encouraged. There is a 4-day field trip during Week 6. Assumed knowledge: BIOS2031 and BEES2041 Note : The course will include an intensive 4 day field trip to Smiths Lake in Week 6. This will involve personal expense to students for transportation, food and accommodation.
+Learning Outcomes:
+- Critically review scientific literature on age and growth of fish of other marine fauna, using online databases to search peer-reviewed journals.
+- Communicate scientific information using precise language for a specialist audience in both written and oral format.
+- Evaluate the oceanographic drivers of plankton and fisheries, using an ecosystem perspective.
+- Analyse the field trip data with the Ecopath software package, to reveal why the ecosystem at Smiths Lake is not in equilibrium, and why.
+- Describe the diversity of phytoplankton, zooplankton, fish and sharks, and their taxonomic relationships.
+- Collect abundance and biomass data of an estuarine ecosystem, from producers to consumers using various field equipment. Utilise the laboratory skills to describe the species composition.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/MSCI6681 =====
+Subject: Topics in Australian Marine Science (MSCI6681)
+Credit Points: 6
+Overview: This Unit of Study will introduce students to current research undertaken in various disciplines of marine science in Australia. This unit is co-taught at the Sydney Institute of Marine Science (SIMS) with contributions from the University of Sydney. Lectures and tutorials will be taught by leading marine science researchers. Topics will cover physical and biological oceanography, climate change, molecular ecology, aquaculture, marine biology and marine geosciences. In practical classes, students will analyse and interpret temperature, salinity, plankton, remote-sensed, and acoustic telemetry data from the Integrated Marine Observing System ( IMOS ), which provides comprehensive information on the biological and physical processes of Australia’s coastal and oceanic waters. For example, visit the OceanCurrent portal for recent events Notes: Students are required to attend the course at SIMS (Chowder Bay Road, Mosman) meeting once per week throughout Term 1. This is a data intensive course. Assumed knowledge for this course is a practical, working knowledge of statistical analysis at undergraduate level using R, including t-test and ANOVA, GLM regression, residuals analysis, multivariate analysis other general data analysis and manipulation using Excel spreadsheets.
+Learning Outcomes:
+- Describe contemporary issues in Australian marine science and management.
+- Employ statistical and graphical methods to interpret processes that underpin the oceanographic environment of marine ecosystems.
+- Contextualise research findings through a review and critique of the scientific literature.
+- Reveal trends in the marine environment and draw conclusions on the consequences for ecosystem services.
+- Analyse, interpret and communicate data generated from remote marine observing instrumentation.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+

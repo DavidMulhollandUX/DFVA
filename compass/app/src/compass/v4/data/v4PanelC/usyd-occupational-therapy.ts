@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in occupational therapy.",
+    "evidenceLines": [
+      "**Institution**: The University of Sydney (USYD)",
+      "**Course / Program Identifier**: occupational-therapy",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in occupational therapy.",
+    "evidenceLines": [
+      "**Academic Year**: 2026",
+      "**Faculty**: medicine-health-pg",
+      "- **Course / Program Identifier**: occupational-therapy"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within occupational therapy.",
+    "evidenceLines": [
+      "Subject: Professional Practice Education II (OCCP5252)",
+      "Subject: Professional Practice Education III (OCCP5253)",
+      "**Handbook URL**: https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/occupational-therapy.html"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in occupational therapy.",
+    "evidenceLines": [
+      "LO1 . demonstrate professional behaviours, and professional communication skills expected for the level of an emerging practitioner appropriate to the University and placement setting;",
+      "LO2 . develop professional strategies including self-management, self-reflective practice and collaboration with other health professions to support the development of therapeutic relationships and life-long learning, including personal cultural capabilities;",
+      "- **Faculty**: medicine-health-pg"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in occupational therapy.",
+    "evidenceLines": [
+      "Subject: Professional Practice Education I (OCCP5256)",
+      "Subject: Professional Practice Education II (OCCP5252)",
+      "LO3 . implement all aspects of the occupational therapy process, with appropriate supervision;"
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in occupational therapy.",
+    "evidenceLines": [
+      "LO4 . explain the role of the occupational therapist in the placement practice setting and demonstrate developing knowledge skills and attitudes for working in a multidisciplinary/ interprofessional team; and",
+      "- **Institution**: The University of Sydney (USYD)",
+      "- **Course / Program Identifier**: occupational-therapy"
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in occupational therapy.",
+    "evidenceLines": [
+      "LO5 . integrate professional reasoning with evidence-based practice to guide the delivery of culturally safe health practices.",
+      "Subject: Professional Practice Education I (OCCP5256)",
+      "- **Faculty**: medicine-health-pg"
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "(9) Applicants for admission under the Applicants Living With Disabilities Facilitated Entry Scheme must be able to demonstrate that they have a disability, impairment or long-term medical condition which may affect their studies, as specified in the current Coursework Policy. Disability in this context does not include short-term disabling health conditions. Students must still meet the inherent requirements of the course.",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Occupational Therapy.",
+      "evidenceLines": [
+        "(9) Applicants for admission under the Applicants Living With Disabilities Facilitated Entry Scheme must be able to demonstrate that they have a disability, impairment or long-term medical condition which may affect their studies, as specified in the current Coursework Policy. Disability in this context does not include short-term disabling health conditions. Students must still meet the inherent requirements of the course.",
+        "5 Requirements for award"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in occupational therapy.",
+      "evidenceLines": [
+        "Subject: Professional Practice Education II (OCCP5252)",
+        "**Institution**: The University of Sydney (USYD)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

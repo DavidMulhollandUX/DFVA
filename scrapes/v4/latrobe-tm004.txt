@@ -1,0 +1,211 @@
+===== SOURCE: https://handbook.latrobe.edu.au/courses/2026/TM004 =====
+## Master of Quantum Information Technology - Melbourne (Bundoora)
+##### TM004
+##### 195 credit points
+You are viewing the 2026 version
+
+### Overview
+Build the scientific, technical and entrepreneurial capabilities to work in the emerging quantum information industries revolutionising our world with La Trobe’s unique and cross-disciplinary Master of Quantum Information Technology. 
+
+Maximise your background in engineering, IT or science by focusing your future career through directed learning and mastering key areas in quantum information technology. Hone your skills with 24/7 access to purpose-built, high-tech labs. Develop a quantum technology start-up concept and pitch by investigating platforms using a technology or business development lens. Tap into industry expertise through our Engineering and IT Showcase and long-standing partnerships with industry leaders in technology, from organisations as big as Microsoft to start-ups like Quantum Brilliance.
+
+By completing La Trobe's Master of Quantum Information Technology, you will:
+
+  * explore the core principles and underlying technologies of quantum computing, including programming and algorithm design
+  * study key application areas such as cybersecurity, artificial intelligence (AI), machine learning and cryptography
+  * build transferable employability skills in entrepreneurship, business development and project management
+  * engage with industry leaders from local and global start-ups and grow your professional networks.
+
+### Location(s)
+Melbourne (Bundoora)
+### CRICOS code
+113441B
+### Course duration (full time)
+2 years
+### Study level
+Postgraduate
+### AQF level
+Level 9 - Masters Degree
+### Available only as an exit award
+No
+
+### Completion requirements
+To qualify for the award of Master of Quantum Information Technology students must complete 195 credit points consisting of:
+
+195 core credit points.
+
+### Course structure
+195 credit points
+**Level two** **90 credit points**
+  **Core** **90 credit points**
+    [ _arrow_forward_ PHY5003 QUANTUM SOFTWARE ](https://handbook.latrobe.edu.au/subjects/2026/PHY5003)
+    [ _arrow_forward_ MAT5CCC COMPLEXITY, CRYPTOGRAPHY AND COMPRESSION ](https://handbook.latrobe.edu.au/subjects/2026/MAT5CCC)
+    [ _arrow_forward_ PHY5005 DIRECTED LEARNING IN QUANTUM TECHNOLOGY ](https://handbook.latrobe.edu.au/subjects/2026/PHY5005)
+    [ _arrow_forward_ CSE5003 PROFESSIONAL PRACTICES AND ENTREPRENEURSHIP IN INFORMATION TECHNOLOGY ](https://handbook.latrobe.edu.au/subjects/2026/CSE5003)
+    [ _arrow_forward_ CSE5PM PROJECT MANAGEMENT ](https://handbook.latrobe.edu.au/subjects/2026/CSE5PM)
+    [ _arrow_forward_ PHY5004 QUANTUM INFORMATION THEORY FOR COMPUTER SCIENTISTS AND ENGINEERS ](https://handbook.latrobe.edu.au/subjects/2026/PHY5004)
+**Level one** **105 credit points**
+  **Core** **105 credit points**
+    [ _arrow_forward_ CSE4002 ARTIFICIAL INTELLIGENCE FUNDAMENTALS ](https://handbook.latrobe.edu.au/subjects/2026/CSE4002)
+    [ _arrow_forward_ LTU0AIM ACADEMIC INTEGRITY MODULE ](https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM)
+    [ _arrow_forward_ CSE4IP INTRODUCTION TO PROGRAMMING ](https://handbook.latrobe.edu.au/subjects/2026/CSE4IP)
+    [ _arrow_forward_ CSE4004 CYBER SECURITY PRINCIPLES ](https://handbook.latrobe.edu.au/subjects/2026/CSE4004)
+    [ _arrow_forward_ PHY5002 QUANTUM TECHNOLOGY ](https://handbook.latrobe.edu.au/subjects/2026/PHY5002)
+    [ _arrow_forward_ CSE5ML MACHINE LEARNING ](https://handbook.latrobe.edu.au/subjects/2026/CSE5ML)
+    [ _arrow_forward_ PHY5001 ESSENTIALS OF QUANTUM INFORMATION SCIENCE ](https://handbook.latrobe.edu.au/subjects/2026/PHY5001)
+    [ _arrow_forward_ MAT4MDS MATHEMATICS FOR DATA SCIENCE ](https://handbook.latrobe.edu.au/subjects/2026/MAT4MDS)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+Effectively communicate to diverse audiences issues in quantum information technology that will disrupt modern computation, communication and cryptography.
+**2.**
+Evaluate strategies and policy for the implementation of quantum technology in industry.
+**3.**
+Critically evaluate the capacity of quantum information technologies to address complex problems.
+**4.**
+Apply advanced cross-disciplinary knowledge to create innovative quantum information, science and technology solutions to complex problems.
+
+### Course features
+### Work integrated learning opportunities
+Industry presentations, Career development learning
+### Career outcomes
+Graduate with the skills to succeed in the emerging quantum computing, communications, and sensing sectors. After graduation, you could develop policy or design application and security solutions across a wide range of commercial and public sector organisations.
+
+Possible roles include:
+
+  * quantum IT specialist
+  * quantum software engineer
+  * quantum programmer
+  * quantum technologies engineer
+  * ICT security specialist.
+
+### Internal course relationships
+
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4002 =====
+Subject: ARTIFICIAL INTELLIGENCE FUNDAMENTALS   (CSE4002)
+Credit Points: 15
+Overview: Semester 1/Term 2: subject description: The field of Artificial Intelligence (AI) engages computers for reasoning and decision-making. In this subject, you will be introduced to the fundamental concepts and different applications of AI. The main topics include searching, knowledge representation and reasoning, expert system design and development, and responsible AI principles and applications. Practice in the design and development of AI models for real world problems will be offered in laboratory classes. (Includes subject intended learning outcomes 1-4) Semester 2/Term 4: subject description: This subject gives you an introduction to AI and how AI transforms business and society. You will learn principal AI concepts, explore a variety of AI techniques for solving different types of problems, and examine ethical issues and concerns associated with AI. Upon completion of the subject, you will be equipped to recognise, select, and apply existing AI methods in both computer science and non-computer science fields that engage with AI technologies. (Includes subject intended learning outcomes 5-8)
+Learning Outcomes:
+- Semester 2/Term 4 - Assess ethical, social, and technical implications of AI systems to inform responsible decision-making.
+- Semester 1/Term 2 - Analyse and design basic machine learning algorithms to model a practical case.
+- Semester 2/Term 4 - Evaluate the suitability of different AI approaches for real-world problems and justify their selection in practical scenarios.
+- Semester 2/Term 4 - Apply AI approaches to solve business or technology challenges, considering constraints and objectives.
+- Semester 1/Term 2 - Represent knowledge using semantic networks, scripts, frames and logic-based mechanisms and write simple Prolog programs to enable automated reasoning.
+- Semester 1/Term 2 - Construct simple expert systems to solve a real-world problem.
+- Semester 1/Term 2 - Devise appropriate representations for state space search and game playing to solve practical problems.
+- Semester 2/Term 4 - Critically interpret and explain the core concepts of artificial intelligence and evaluate how common AI models are designed to operate and generate outputs in varied contexts.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4004 =====
+Subject: CYBER SECURITY PRINCIPLES (CSE4004)
+Credit Points: 15
+Overview: In the Internet era, industries and organisations need to be aware of, and be prepared to defend against threats and attacks. Stakeholders should be familiar with the basic principles and best practices of cyber security to better protect their businesses. In this subject, the principles, the state of the art, and strategies for the future of cyber security is explored thoroughly. The topics will focus on information security, ethical and legal practices, mitigating cyber vulnerabilities, and the process of incident response and analysis. The outline of the subject is targeted at ensuring the privacy, reliability, confidentiality and integrity of information systems. Cyber security is a very broad discipline, and therefore, this subject is only intended to cover the basics of the recent state of the art and leading cyber security topics.
+Learning Outcomes:
+- Analyse approaches to security networks, firewalls, intrusion detection systems and intrusion prevention systems
+- Appraise key terms and concepts in cyber security, cyber law, intellectual property and cyber crime
+- Formulate approaches for incident analysis, risk management in cyber space and incident response
+- Analyse various software design practices and principles of web security
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE5003 =====
+Subject: PROFESSIONAL PRACTICES AND ENTREPRENEURSHIP IN INFORMATION TECHNOLOGY  (CSE5003)
+Credit Points: 15
+Overview: The purpose of this subject is to outline the basic principles of Entrepreneurship. It will examine the steps required in developing an idea into a business and will explore the tools and necessary insights to make a successful venture. The subject will involve theory, case studies and guest speakers on start-up issues, pitfalls, and ingredients for success. Students will also develop professional skills related to ethical and moral decision making and evaluate the social implications of their work and the broader global context. The subject requires active participation in group discussions and activities.
+Learning Outcomes:
+- Write, express and present a business plan that will be ready for venture capitalist review by collaborating in a team
+- Examine various types of resources to develop and finance an entrepreneurial venture.
+- Create a personal ethical framework for IT practice that incorporates awareness of cultural and global issues and apply ethical theory to analyze ethical dilemmas in IT and business using a comprehensive approach.
+- Reflect on personal viewpoints related to managing relationships and individual entrepreneurial capacity, effectively developing and presenting personal and professional reflections to become career-ready.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM =====
+Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)
+Credit Points: 0
+Overview: The academic integrity module introduces academic integrity standards to inform and support students in avoiding plagiarism and academic misconduct. Students complete four parts that encompass academic misconduct and academic integrity decisions, including cheating, plagiarism, and collusion. Students learn about Turnitin (the text-matching tool) used at La Trobe University, and how to get help and support their development of referencing skills.
+Learning Outcomes:
+- Understand the importance of the acknowledgment and the referencing of sources
+- Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.
+- Recognise and understand academic integrity responsibilities.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/MAT4MDS =====
+Subject: MATHEMATICS FOR DATA SCIENCE (MAT4MDS)
+Credit Points: 15
+Overview: Important mathematical ideas which underpin the theory and techniques of data science are introduced and consolidated in this subject. Matrices are used to store and work with quantitative information, and the methods of calculus are used to find extreme values and accumulation. The Gamma and Beta functions are introduced, as are eigenvalues, eigenvectors and the rank of a matrix. Emphasis is placed on the relevance of the mathematics to data science applications (such as least squares estimators and calculation of variance in data), and on the development of clear communication in explaining technical ideas. This is a foundational subject for the Master of Data Science.
+Learning Outcomes:
+- Apply mathematical skills to analysis of data science literature.
+- Perform mathematical calculations relevant to data science fluently and accurately.
+- Creatively apply mathematical techniques to unfamiliar problems.
+- Present mathematical thinking in written form in a meaningful and succinct way using both words and mathematical notation.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/MAT5CCC =====
+Subject: COMPLEXITY, CRYPTOGRAPHY AND COMPRESSION (MAT5CCC)
+Credit Points: 15
+Overview: In this subject students will develop the mathematical basis for cryptography and compression. A variety of specific methods of encryption and data compression will be learnt, including examples of historical relevance and examples of current usage in information transfer and storage. A number of underlying mathematical concepts will be encountered, including an introduction to computational complexity and randomness.
+Learning Outcomes:
+- Appraise compression algorithms and processes and apply to digital information
+- Compare a range of cryptographic techniques and apply to encode and decode information.
+- Assess computational problems in terms of basic complexity classes, and analyse comparative complexity by way of basic reductions.
+- Write clear, well-structured written arguments to justify and prove the validity of problem reductions.
+- Implement low-level encryption and compression techniques within computer algebra package.
+- Discriminate between compression and/or encryption techniques and implement appropriately for context.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/PHY5001 =====
+Subject: ESSENTIALS OF QUANTUM INFORMATION SCIENCE (PHY5001)
+Credit Points: 15
+Overview: This subject introduces quantum information science and technology, with a focus on quantum computing, for those who need to understand how it will transform science and industry. Students will learn about underlying physical principles that make quantum computers possible and exponentially faster than digital supercomputers for certain calculations. This knowledge will be applied to consider the implications of this new frontier of computing for cybersecurity and secure communication, information processing, and numerical simulation. No prior knowledge of quantum physics is required. Abstract quantum effects, including superposition and entanglement, will be explored through practical activities that help students understand tangible applications, including encoding quantum information, quantum logic operations and quantum cryptography. Students will then learn to code simple algorithms and execute them on real quantum computers and in simulation environments. The application of key quantum algorithms to real-world problems will be investigated, along with their potential performance advantage over classical algorithms.
+Learning Outcomes:
+- Evaluate key technology requirements for quantum computers to be able to function properly.
+- Assess quantum algorithms and quantum protocols for application to information processing and communication.
+- Describe the differences between quantum and classical computation and differentiate their computational capabilities.
+- Critique the potential for quantum computing to disrupt modern computation, communication and cryptography.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/PHY5002 =====
+Subject: QUANTUM TECHNOLOGY (PHY5002)
+Credit Points: 15
+Overview: In this subject, students will be introduced to the practical implementations of quantum information technologies. Students will develop an understanding of how to implement quantum computers and other related devices. Students will explore existing and future quantum devices through workshops presented with quantum technology industry partners.
+Learning Outcomes:
+- Demonstrate a critical understanding of the opportunities and risks of quantum technology for society.
+- Critique physical realisations of qubits, including methods of initialisation, control and measurement, and sources of decoherence.
+- Articulate key concepts in quantum technologies
+- Examine the physical principles and applications of key types of quantum information technology, such as computing, communications and sensing.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/PHY5003 =====
+Subject: QUANTUM SOFTWARE (PHY5003)
+Credit Points: 15
+Overview: This subject will examine quantum programming and quantum algorithm design. Students will be introduced to quantum logic gates, programming platforms and languages. Students will use these to write quantum programs that can be executed using emulators and cloud-based quantum computers. Fundamental quantum algorithms will be studied and implemented. Application of these algorithms for quantum error correction, quantum cryptography and quantum machining learning will be investigated.
+Learning Outcomes:
+- Implement quantum programs by using quantum hardware emulators and cloud -based quantum computers.
+- Analyse quantum algorithms.
+- Design quantum algorithms that are relevant to real-world applications.
+- Compare performance across classical and quantum approaches to equivalent problems.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/PHY5004 =====
+Subject: QUANTUM INFORMATION THEORY FOR COMPUTER SCIENTISTS AND ENGINEERS (PHY5004)
+Credit Points: 15
+Overview: Recent advances in quantum technology have not only opened up a whole new world of applications, but also changed the way that we understand quantum theory. In this subject, students will learn about quantum theory as a framework for information processing, instead of the traditional approach to learning quantum theory as a theory of microscopic matter. Emphasis will be given to relevant concepts of measurement, probability, correlation and transformations, rather than waves and particles.
+Learning Outcomes:
+- Investigate how features of quantum systems are related to concepts of information theory.
+- Critically review differences between classical and quantum information
+- Critically analyse different aspects of quantum computation, communication and cryptography using the framework of quantum theory.
+- Elucidate basic problems of quantum information theory.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/PHY5005 =====
+Subject: DIRECTED LEARNING IN QUANTUM TECHNOLOGY (PHY5005)
+Credit Points: 15
+Overview: This subject provides an opportunity for students to focus on their future career in quantum information technology. Individual students will explore a particular quantum technology platform, with either a technology or business development focus. Students will reflect on the emerging nature of commercialisation in quantum technology. Examples include a detailed study of a particular quantum technology platform; an analysis of the market opportunity for a quantum technology; and the development of a quantum technology start-up concept and pitch.
+Learning Outcomes:
+- Articulate key concepts in quantum technologies.
+- Demonstrate a critical understanding of the business and social opportunities and risks of quantum technology.
+- Effectively communicate key concepts, methods, applications or commercial context associated with the selected topic using appropriate scientific or commercial language.
+- Critically assess current literature relevant to a particular quantum information technology from a scientific or commercial perspective.
+Workload: 
+

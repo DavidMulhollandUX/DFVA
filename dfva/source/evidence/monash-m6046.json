@@ -1,0 +1,102 @@
+{
+  "code": "monash-m6046",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in psychology.",
+      "evidenceLines": [
+        "Score and interpret data from cognitive and personality assessment instruments correctly.",
+        "Select cognitive, personality, and behavioural assessment tools and methods appropriate for individual referrals and administer such assessments in a standardised manner.",
+        "This course integrates advanced practitioner training with industry-based research training to prepare you for work as a Clinical Psychologist."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in psychology.",
+      "evidenceLines": [
+        "Communicate assessment findings to a range of stakeholders through report writing and other mediums.",
+        "Explain and apply the fundamental components of the psychological assessment process.",
+        "Clinical Psychologists use their knowledge of psychology and mental health for the assessment, diagnosis, formulation, treatment and prevention of psychological problems and mental illness across the lifespan."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within psychology.",
+      "evidenceLines": [
+        "Subject: Psychological assessment (PSY5102)",
+        "Subject: Ethical, legal and professional practice (PSY5103)",
+        "Generate case formulations of psychological and cognitive presentations based on available sources of information."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in psychology.",
+      "evidenceLines": [
+        "Psychological assessment report (2,000 words) (Pass/Fail): N/A% (Hurdle: Competency)",
+        "Skills Demonstration : Administration and Scoring of Cognitive Assessment (Pass/Fail): N/A% (Hurdle: Competency)",
+        "The course is founded on a commitment to excellence in clinical training and clinical research that can positively impact the brain and mental health of the community."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in psychology.",
+      "evidenceLines": [
+        "Subject: Cognitive and behavioural therapies: Processes and applications A (PSY5104)",
+        "Subject: Clinical developmental psychology (PSY5105)",
+        "Summary: Interpretation of the Personality Assessment Tool (800 word count limit) (Pass/Fail): N/A% (Hurdle: Competency)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in psychology.",
+      "evidenceLines": [
+        "Evaluate strategies for culturally sensitive practice in health care for Aboriginal and Torres Strait Islander individuals, families and communities.",
+        "This course integrates advanced practitioner training with industry-based research training to prepare you for work as a Clinical Psychologist.",
+        "Clinical Psychologists use their knowledge of psychology and mental health for the assessment, diagnosis, formulation, treatment and prevention of psychological problems and mental illness across the lifespan."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in psychology.",
+      "evidenceLines": [
+        "Evaluate the application of the relevant codes, guidelines, legislation and frameworks to professional Psychological practice.",
+        "Subject: Psychopathology A (PSY5106)",
+        "The course is founded on a commitment to excellence in clinical training and clinical research that can positively impact the brain and mental health of the community."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course is structured into two parts: Part A. Core studies, and Part B. Clinical placement.",
+        "This course integrates advanced practitioner training with industry-based research training to prepare you for work as a Clinical Psychologist."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Clinical Psychology.",
+        "evidenceLines": [
+          "The course is structured into two parts: Part A. Core studies, and Part B. Clinical placement.",
+          "Part A: Core studies"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in psychology.",
+        "evidenceLines": [
+          "Subject: Psychological assessment (PSY5102)",
+          "Score and interpret data from cognitive and personality assessment instruments correctly."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

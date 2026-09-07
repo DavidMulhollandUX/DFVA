@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-amcpd",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in architecture and urban environment.",
+      "evidenceLines": [
+        "Identify theoretical approaches and research questions appropriate to the evidence from different types of Aboriginal archaeological sites.",
+        "Interpret and apply the link between theory and data within Victorian archaeology.",
+        "The Master of Community Planning and Development will see you working with communities in urban, regional and rural areas, with community development planning agencies and in an international setting."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in architecture and urban environment.",
+      "evidenceLines": [
+        "Understand different sources of archaeological evidence of Aboriginal people in Victoria, different taphonomic and environmental issues relating to its interpretation, and its significance to contemporary Aboriginal peoples.",
+        "Understand culturally competent approaches to archaeological investigations of Aboriginal Victoria.",
+        "You will also work with non-government organisations and have exposure to a range of rural and regional development issues including: community development, healthy urban design, food security, child friendly and active environments, land-use planning and environmental and social policy at local, regional, national and international levels."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within architecture and urban environment.",
+      "evidenceLines": [
+        "Subject: ARCHAEOLOGY OF ABORIGINAL VICTORIA (ARC5AAV)",
+        "Subject: METHODS IN GIS: FROM DIGGING TO DATA/DIGGING DATA - PREDICTIVE MODELS, MAPPING AND MORE (ARC5GIM)",
+        "Design and implement appropriate analyses of spatial data"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in architecture and urban environment.",
+      "evidenceLines": [
+        "Prepare and present maps encapsulating spatial analysis to a professional standard",
+        "Interpret, explain and present the results of complex spatial analysis",
+        "The Master of Community Planning and Development will see you working with communities in urban, regional and rural areas, with community development planning agencies and in an international setting."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in architecture and urban environment.",
+      "evidenceLines": [
+        "Subject: MASTERS RESEARCH THESIS/PROJECT (HUM5RE1)",
+        "Subject: MASTERS RESEARCH THESIS/REPORT (HUM5RE2)",
+        "Understand and apply the principles of data collection for spatial analysis"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in architecture and urban environment.",
+      "evidenceLines": [
+        "Use GIS software to address a range of analytical problems in archaeology",
+        "The Master of Community Planning and Development will see you working with communities in urban, regional and rural areas, with community development planning agencies and in an international setting.",
+        "You will also work with non-government organisations and have exposure to a range of rural and regional development issues including: community development, healthy urban design, food security, child friendly and active environments, land-use planning and environmental and social policy at local, regional, national and international levels."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in architecture and urban environment.",
+      "evidenceLines": [
+        "Construct clear arguments supported by a depth and breadth of literature for professional and academic writing.",
+        "Subject: RESEARCH SKILLS (HUS5ADR)",
+        "The Master of Community Planning and Development will see you working with communities in urban, regional and rural areas, with community development planning agencies and in an international setting."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "\u2022 Successful completion of 210 credit points of disciplinary core subjects; and",
+        "The Master of Community Planning and Development will see you working with communities in urban, regional and rural areas, with community development planning agencies and in an international setting."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Community Planning and Development.",
+        "evidenceLines": [
+          "\u2022 Successful completion of 210 credit points of disciplinary core subjects; and",
+          "\u2022 Successful completion of 30 credit points of elective subjects chosen from the prescribed Elective List. Students wishing to complete PIA accredited course must select elective subjects marked with *"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in architecture and urban environment.",
+        "evidenceLines": [
+          "Subject: ARCHAEOLOGY OF ABORIGINAL VICTORIA (ARC5AAV)",
+          "Identify theoretical approaches and research questions appropriate to the evidence from different types of Aboriginal archaeological sites."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,1334 @@
+[
+  {
+    "code": "b-architecture-environments",
+    "title": "Bachelor of Architecture and Environments",
+    "faculty": "architecture",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments.html"
+  },
+  {
+    "code": "b-design-architecture",
+    "title": "Bachelor of Design in Architecture",
+    "faculty": "architecture",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture.html"
+  },
+  {
+    "code": "b-design-architecture-m-architecture",
+    "title": "Bachelor of Design in Architecture (Honours) and Master of Architecture",
+    "faculty": "architecture",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture-m-architecture.html"
+  },
+  {
+    "code": "b-interaction-design-advanced-studies",
+    "title": "Bachelor of Design; Bachelor of Design and Bachelor of Advanced Studies",
+    "faculty": "architecture",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies.html"
+  },
+  {
+    "code": "b-design-honours",
+    "title": "Bachelor of Design (Honours)",
+    "faculty": "architecture",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-honours.html"
+  },
+  {
+    "code": "m-architecture",
+    "title": "Master of Architecture",
+    "faculty": "architecture",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/postgraduate/m-architecture.html"
+  },
+  {
+    "code": "design",
+    "title": "Master of Design",
+    "faculty": "architecture",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/postgraduate/design.html"
+  },
+  {
+    "code": "heritage-conservation",
+    "title": "Master of Heritage Conservation",
+    "faculty": "architecture",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/postgraduate/heritage-conservation.html"
+  },
+  {
+    "code": "interaction-design",
+    "title": "Master of Interaction Design and Electronic Arts",
+    "faculty": "architecture",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/postgraduate/interaction-design.html"
+  },
+  {
+    "code": "urban-design",
+    "title": "Master of Urban Design",
+    "faculty": "architecture",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/postgraduate/urban-design.html"
+  },
+  {
+    "code": "urban-regional-planning",
+    "title": "Master of Urban and Regional Planning",
+    "faculty": "architecture",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/postgraduate/urban-regional-planning.html"
+  },
+  {
+    "code": "urbanism",
+    "title": "Master of Urbanism",
+    "faculty": "architecture",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/postgraduate/urbanism.html"
+  },
+  {
+    "code": "building-performance-sustainable-design",
+    "title": "Master of Building Performance and Sustainable Design",
+    "faculty": "architecture",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/postgraduate/building-performance-sustainable-design.html"
+  },
+  {
+    "code": "m-philosophy",
+    "title": "Master of Philosophy (Architecture, Design and Planning)",
+    "faculty": "architecture",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/postgraduate-research/m-philosophy.html"
+  },
+  {
+    "code": "phd",
+    "title": "Doctor of Philosophy",
+    "faculty": "architecture",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/postgraduate-research/phd.html"
+  },
+  {
+    "code": "coursework-areas",
+    "title": "Coursework areas",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas.html"
+  },
+  {
+    "code": "m-philosophy-arts",
+    "title": "Master of Philosophy",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/research/m-philosophy-arts.html"
+  },
+  {
+    "code": "research-areas",
+    "title": "here",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/research/research-areas.html"
+  },
+  {
+    "code": "art-curating",
+    "title": "Art Curating",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/art-curating.html"
+  },
+  {
+    "code": "creative-writing",
+    "title": "Creative Writing",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/creative-writing.html"
+  },
+  {
+    "code": "crosscultural-applied-linguistics",
+    "title": "Crosscultural and Applied Linguistics",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/crosscultural-applied-linguistics.html"
+  },
+  {
+    "code": "cultural-studies",
+    "title": "Cultural Studies",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/cultural-studies.html"
+  },
+  {
+    "code": "digital-communication-culture",
+    "title": "Digital Communication and Culture",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/digital-communication-culture.html"
+  },
+  {
+    "code": "economic-analysis",
+    "title": "Economic Analysis",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/economic-analysis.html"
+  },
+  {
+    "code": "economics",
+    "title": "Economics",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/economics.html"
+  },
+  {
+    "code": "education",
+    "title": "Education",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/education.html"
+  },
+  {
+    "code": "education-educational-management-leadership",
+    "title": "Education (Educational Leadership)",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/education-educational-management-leadership.html"
+  },
+  {
+    "code": "education-educational-psychology",
+    "title": "Education (Educational Psychology)",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/education-educational-psychology.html"
+  },
+  {
+    "code": "education-educational-studies-higher-education",
+    "title": "Education (Educational Studies - Higher Education)",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/education-educational-studies-higher-education.html"
+  },
+  {
+    "code": "education-leadership-aboriginal-education",
+    "title": "Education (Leadership in Aboriginal Education)",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/education-leadership-aboriginal-education.html"
+  },
+  {
+    "code": "education-special-inclusive-education",
+    "title": "Education (Special and Inclusive Education)",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/education-special-inclusive-education.html"
+  },
+  {
+    "code": "english-studies",
+    "title": "English Studies",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/english-studies.html"
+  },
+  {
+    "code": "exchange",
+    "title": "Exchange",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/exchange.html"
+  },
+  {
+    "code": "public-administration-executive-master",
+    "title": "Executive Master of Public Administration",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/public-administration-executive-master.html"
+  },
+  {
+    "code": "film-screen-arts",
+    "title": "Film and Screen Arts",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/film-screen-arts.html"
+  },
+  {
+    "code": "human-community-services",
+    "title": "Human and Community Services",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/human-community-services.html"
+  },
+  {
+    "code": "human-community-services-interpersonal-trauma",
+    "title": "Human and Community Services (Interpersonal Trauma)",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/human-community-services-interpersonal-trauma.html"
+  },
+  {
+    "code": "indigenous-languages-education",
+    "title": "Indigenous Languages Education",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/indigenous-languages-education.html"
+  },
+  {
+    "code": "international-relations",
+    "title": "International Relations",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/international-relations.html"
+  },
+  {
+    "code": "media-practice",
+    "title": "Media Practice",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/media-practice.html"
+  },
+  {
+    "code": "museum-heritage-studies",
+    "title": "Museum and Heritage Studies",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/museum-heritage-studies.html"
+  },
+  {
+    "code": "political-economy",
+    "title": "Political Economy",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/political-economy.html"
+  },
+  {
+    "code": "publishing",
+    "title": "Publishing",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/publishing.html"
+  },
+  {
+    "code": "social-justice",
+    "title": "Social Justice",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/social-justice.html"
+  },
+  {
+    "code": "social-justice-development-studies",
+    "title": "Social Justice (Development Studies)",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/social-justice-development-studies.html"
+  },
+  {
+    "code": "social-justice-human-rights",
+    "title": "Social Justice (Human Rights)",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/social-justice-human-rights.html"
+  },
+  {
+    "code": "social-justice-peace-conflict-studies",
+    "title": "Social Justice (Peace and Conflict Studies)",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/social-justice-peace-conflict-studies.html"
+  },
+  {
+    "code": "social-work-qualifying",
+    "title": "Social Work (Qualifying)",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/social-work-qualifying.html"
+  },
+  {
+    "code": "strategic-public-relations",
+    "title": "Strategic Public Relations",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/strategic-public-relations.html"
+  },
+  {
+    "code": "teaching",
+    "title": "Teaching",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/teaching.html"
+  },
+  {
+    "code": "teaching-english-to-speakers-of-other-languages",
+    "title": "Teaching English to Speakers of Other Languages",
+    "faculty": "arts-pg",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/teaching-english-to-speakers-of-other-languages.html"
+  },
+  {
+    "code": "arts-arts-advanced-studies",
+    "title": "Bachelor of Arts; Bachelor of Arts and Bachelor of Advanced Studies; Bachelor of Arts (Dual Degree: Sciences Po)",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-arts-advanced-studies.html"
+  },
+  {
+    "code": "arts-extended",
+    "title": "Bachelor of Arts (Extended)",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-extended.html"
+  },
+  {
+    "code": "arts-honours",
+    "title": "Bachelor of Arts (Honours)",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-honours.html"
+  },
+  {
+    "code": "advanced-studies-media-communications",
+    "title": "Bachelor of Advanced Studies (Media and Communications)",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/advanced-studies-media-communications.html"
+  },
+  {
+    "code": "honours-advanced-studies-media-communications",
+    "title": "Bachelor of Advanced Studies (Media and Communications) (Honours)",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/honours-advanced-studies-media-communications.html"
+  },
+  {
+    "code": "arts-laws",
+    "title": "Bachelor of Arts and Bachelor of Laws",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-laws.html"
+  },
+  {
+    "code": "arts-medicine",
+    "title": "Bachelor of Arts and Doctor of Medicine",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-medicine.html"
+  },
+  {
+    "code": "arts-nursing",
+    "title": "Bachelor of Arts and Master of Nursing",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-nursing.html"
+  },
+  {
+    "code": "arts-social-work",
+    "title": "Bachelor of Arts and Bachelor of Social Work",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-social-work.html"
+  },
+  {
+    "code": "commerce-arts",
+    "title": "Bachelor of Commerce and Bachelor of Arts",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/commerce-arts.html"
+  },
+  {
+    "code": "economics-economics-advanced-studies",
+    "title": "Bachelor of Economics; Bachelor of Economics and Bachelor of Advanced Studies; Bachelor of Economics (Dual Degree: Sciences Po)",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-economics-advanced-studies.html"
+  },
+  {
+    "code": "economics-honours",
+    "title": "Bachelor of Economics (Honours)",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-honours.html"
+  },
+  {
+    "code": "b-economics-b-arts",
+    "title": "Bachelor of Economics and Bachelor of Arts",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/b-economics-b-arts.html"
+  },
+  {
+    "code": "economics-laws",
+    "title": "Bachelor of Economics and Bachelor of Laws",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-laws.html"
+  },
+  {
+    "code": "education-early-childhood",
+    "title": "Bachelor of Education (Early Childhood)",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/education-early-childhood.html"
+  },
+  {
+    "code": "education-health-physical-education",
+    "title": "Bachelor of Education (Health and Physical Education)",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/education-health-physical-education.html"
+  },
+  {
+    "code": "education-primary",
+    "title": "Bachelor of Education (Primary)",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/education-primary.html"
+  },
+  {
+    "code": "education-secondary-advanced",
+    "title": "Bachelor of Education (Secondary), Bachelor of Education and Bachelor of Advanced Studies",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/education-secondary-advanced.html"
+  },
+  {
+    "code": "arts-engineering-honours",
+    "title": "Bachelor of Engineering Honours and Bachelor of Arts",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-engineering-honours.html"
+  },
+  {
+    "code": "b-international-studies",
+    "title": "Bachelor of International Studies",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/b-international-studies.html"
+  },
+  {
+    "code": "hons-b-international-studies",
+    "title": "Bachelor of International Studies (Honours)",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/hons-b-international-studies.html"
+  },
+  {
+    "code": "b-languages",
+    "title": "Bachelor of Languages",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/b-languages.html"
+  },
+  {
+    "code": "b-languages-hons",
+    "title": "Bachelor of Languages (Honours)",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/b-languages-hons.html"
+  },
+  {
+    "code": "b-media-communications",
+    "title": "Bachelor of Media and Communications",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/b-media-communications.html"
+  },
+  {
+    "code": "b-media-communications-hons",
+    "title": "Bachelor of Media and Communications (Honours)",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/b-media-communications-hons.html"
+  },
+  {
+    "code": "b-politics-philosophy-economics",
+    "title": "Bachelor of Politics, Philosophy, and Economics",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/b-politics-philosophy-economics.html"
+  },
+  {
+    "code": "politics-philosophy-economics-honours",
+    "title": "Bachelor of Politics, Philosophy, and Economics (Honours)",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/politics-philosophy-economics-honours.html"
+  },
+  {
+    "code": "science-arts",
+    "title": "Bachelor of Science and Bachelor of Arts",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/science-arts.html"
+  },
+  {
+    "code": "social-work",
+    "title": "Bachelor of Social Work",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/social-work.html"
+  },
+  {
+    "code": "visual-arts-visual-arts-advanced-studies",
+    "title": "Bachelor of Visual Arts; Bachelor of Visual Arts and Bachelor of Advanced Studies",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/visual-arts-visual-arts-advanced-studies.html"
+  },
+  {
+    "code": "visual-arts-honours",
+    "title": "Bachelor of Visual Arts (Honours)",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/visual-arts-honours.html"
+  },
+  {
+    "code": "diploma-arts",
+    "title": "Diploma of Arts",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/diploma-arts.html"
+  },
+  {
+    "code": "diploma-language-studies",
+    "title": "Diploma of Language Studies",
+    "faculty": "arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/diploma-language-studies.html"
+  },
+  {
+    "code": "coursework",
+    "title": "Overview",
+    "faculty": "business-school-pg",
+    "url": "https://www.sydney.edu.au/handbooks/business-school-pg/coursework/overview.html"
+  },
+  {
+    "code": "emba",
+    "title": "Executive Business Administration",
+    "faculty": "business-school-pg",
+    "url": "https://www.sydney.edu.au/handbooks/business-school-pg/coursework/emba.html"
+  },
+  {
+    "code": "mba",
+    "title": "Business Administration",
+    "faculty": "business-school-pg",
+    "url": "https://www.sydney.edu.au/handbooks/business-school-pg/coursework/mba.html"
+  },
+  {
+    "code": "mba-leadership-enterprise",
+    "title": "Business Administration (Leadership and Enterprise)",
+    "faculty": "business-school-pg",
+    "url": "https://www.sydney.edu.au/handbooks/business-school-pg/coursework/mba-leadership-enterprise.html"
+  },
+  {
+    "code": "mba-technology-digital-strategy",
+    "title": "Business Administration (Technology and Digital Strategy)",
+    "faculty": "business-school-pg",
+    "url": "https://www.sydney.edu.au/handbooks/business-school-pg/coursework/mba-technology-digital-strategy.html"
+  },
+  {
+    "code": "commerce",
+    "title": "Commerce",
+    "faculty": "business-school-pg",
+    "url": "https://www.sydney.edu.au/handbooks/business-school-pg/coursework/commerce.html"
+  },
+  {
+    "code": "commerce-extension",
+    "title": "Commerce (Extension)",
+    "faculty": "business-school-pg",
+    "url": "https://www.sydney.edu.au/handbooks/business-school-pg/coursework/commerce-extension.html"
+  },
+  {
+    "code": "hr-management-ir",
+    "title": "Human Resource Managment and Industrial Relations",
+    "faculty": "business-school-pg",
+    "url": "https://www.sydney.edu.au/handbooks/business-school-pg/coursework/hr-management-ir.html"
+  },
+  {
+    "code": "international-business",
+    "title": "International Business",
+    "faculty": "business-school-pg",
+    "url": "https://www.sydney.edu.au/handbooks/business-school-pg/coursework/international-business.html"
+  },
+  {
+    "code": "logistics-supply-chain-management",
+    "title": "Logistics and Supply Chain Management",
+    "faculty": "business-school-pg",
+    "url": "https://www.sydney.edu.au/handbooks/business-school-pg/coursework/logistics-supply-chain-management.html"
+  },
+  {
+    "code": "management",
+    "title": "Management",
+    "faculty": "business-school-pg",
+    "url": "https://www.sydney.edu.au/handbooks/business-school-pg/coursework/management.html"
+  },
+  {
+    "code": "management-cems",
+    "title": "Management (CEMS)",
+    "faculty": "business-school-pg",
+    "url": "https://www.sydney.edu.au/handbooks/business-school-pg/coursework/management-cems.html"
+  },
+  {
+    "code": "professional-accounting-business-performance",
+    "title": "Professional Accounting and Business Performance",
+    "faculty": "business-school-pg",
+    "url": "https://www.sydney.edu.au/handbooks/business-school-pg/coursework/professional-accounting-business-performance.html"
+  },
+  {
+    "code": "advanced-computing-commerce",
+    "title": "Commerce and Advanced Computing",
+    "faculty": "business-school",
+    "url": "https://www.sydney.edu.au/handbooks/business-school/coursework/advanced-computing-commerce.html"
+  },
+  {
+    "code": "engineering-commerce",
+    "title": "Commerce and Engineering Honours",
+    "faculty": "business-school",
+    "url": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce.html"
+  },
+  {
+    "code": "commerce-laws",
+    "title": "Commerce and Laws",
+    "faculty": "business-school",
+    "url": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce-laws.html"
+  },
+  {
+    "code": "commerce-science",
+    "title": "Commerce and Science",
+    "faculty": "business-school",
+    "url": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce-science.html"
+  },
+  {
+    "code": "bachelor-of-music",
+    "title": "Bachelor of Music",
+    "faculty": "conservatorium",
+    "url": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music.html"
+  },
+  {
+    "code": "bachelor-of-music-studies-honours",
+    "title": "Bachelor of Music Studies (Honours)",
+    "faculty": "conservatorium",
+    "url": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music-studies-honours.html"
+  },
+  {
+    "code": "diploma-of-music",
+    "title": "Diploma of Music",
+    "faculty": "conservatorium",
+    "url": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/diploma-of-music.html"
+  },
+  {
+    "code": "elective-tables",
+    "title": "Elective Tables",
+    "faculty": "conservatorium",
+    "url": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/elective-tables.html"
+  },
+  {
+    "code": "special-purpose-units",
+    "title": "Special Purpose Units",
+    "faculty": "conservatorium",
+    "url": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/special-purpose-units.html"
+  },
+  {
+    "code": "master-music-studies-opera-performance",
+    "title": "Master of Music Studies (Opera Performance)",
+    "faculty": "conservatorium",
+    "url": "https://www.sydney.edu.au/handbooks/conservatorium/postgraduate/master-music-studies-opera-performance.html"
+  },
+  {
+    "code": "master-music-studies-performance",
+    "title": "Master of Music Studies (Performance)",
+    "faculty": "conservatorium",
+    "url": "https://www.sydney.edu.au/handbooks/conservatorium/postgraduate/master-music-studies-performance.html"
+  },
+  {
+    "code": "graduate-diploma-music-studies-performance",
+    "title": "Graduate Diploma in Music (Performance)",
+    "faculty": "conservatorium",
+    "url": "https://www.sydney.edu.au/handbooks/conservatorium/postgraduate/graduate-diploma-music-studies-performance.html"
+  },
+  {
+    "code": "master-music-resolutions",
+    "title": "Master of Music",
+    "faculty": "conservatorium",
+    "url": "https://www.sydney.edu.au/handbooks/conservatorium/postgraduate-research/master-music-resolutions.html"
+  },
+  {
+    "code": "doctor-musical-arts",
+    "title": "Doctor of Musical Arts",
+    "faculty": "conservatorium",
+    "url": "https://www.sydney.edu.au/handbooks/conservatorium/postgraduate-research/doctor-musical-arts.html"
+  },
+  {
+    "code": "computer-science",
+    "title": "Computer Science",
+    "faculty": "engineering-pg",
+    "url": "https://www.sydney.edu.au/handbooks/engineering-pg/computer-science.html"
+  },
+  {
+    "code": "engineering",
+    "title": "Engineering",
+    "faculty": "engineering-pg",
+    "url": "https://www.sydney.edu.au/handbooks/engineering-pg/engineering.html"
+  },
+  {
+    "code": "engineering-mpe",
+    "title": "Professional Engineering",
+    "faculty": "engineering-pg",
+    "url": "https://www.sydney.edu.au/handbooks/engineering-pg/engineering-mpe.html"
+  },
+  {
+    "code": "project-management",
+    "title": "Project Management",
+    "faculty": "engineering-pg",
+    "url": "https://www.sydney.edu.au/handbooks/engineering-pg/project-management.html"
+  },
+  {
+    "code": "transport",
+    "title": "Transport",
+    "faculty": "engineering-pg",
+    "url": "https://www.sydney.edu.au/handbooks/engineering-pg/transport.html"
+  },
+  {
+    "code": "engineering-honours",
+    "title": "Bachelor of Engineering Honours",
+    "faculty": "engineering",
+    "url": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours.html"
+  },
+  {
+    "code": "advanced-computing",
+    "title": "Bachelor of Advanced Computing",
+    "faculty": "engineering",
+    "url": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing.html"
+  },
+  {
+    "code": "table-s",
+    "title": "Shared pool (Table S)",
+    "faculty": "interdisciplinary-studies",
+    "url": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s.html"
+  },
+  {
+    "code": "open-learning-environment",
+    "title": "Open Learning Environment (Table O)",
+    "faculty": "interdisciplinary-studies",
+    "url": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/open-learning-environment.html"
+  },
+  {
+    "code": "dalyell-stream",
+    "title": "Dalyell stream (Table D)",
+    "faculty": "interdisciplinary-studies",
+    "url": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/dalyell-stream.html"
+  },
+  {
+    "code": "sydney-professional-certificate",
+    "title": "Sydney Professional Certificates",
+    "faculty": "interdisciplinary-studies",
+    "url": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/sydney-professional-certificate.html"
+  },
+  {
+    "code": "b-advanced-studies-honours",
+    "title": "Bachelor of Advanced Studies (Honours)",
+    "faculty": "interdisciplinary-studies",
+    "url": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/b-advanced-studies-honours.html"
+  },
+  {
+    "code": "advanced-diploma-foundation-studies",
+    "title": "Advanced Diploma of Foundation Studies",
+    "faculty": "interdisciplinary-studies",
+    "url": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/advanced-diploma-foundation-studies.html"
+  },
+  {
+    "code": "industry-community-projects",
+    "title": "Interdisciplinary project units",
+    "faculty": "interdisciplinary-studies",
+    "url": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/industry-community-projects.html"
+  },
+  {
+    "code": "higher-degree-research",
+    "title": "Table R (HDR Coursework):",
+    "faculty": "interdisciplinary-studies",
+    "url": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/higher-degree-research.html"
+  },
+  {
+    "code": "laws",
+    "title": "Bachelor of Laws",
+    "faculty": "law",
+    "url": "https://www.sydney.edu.au/handbooks/law/undergraduate/laws.html"
+  },
+  {
+    "code": "combined-laws",
+    "title": "Combined Laws",
+    "faculty": "law",
+    "url": "https://www.sydney.edu.au/handbooks/law/undergraduate/combined-laws.html"
+  },
+  {
+    "code": "compulsory-unit-of-study-table",
+    "title": "Compulsory table",
+    "faculty": "law",
+    "url": "https://www.sydney.edu.au/handbooks/law/undergraduate/compulsory-unit-of-study-table.html"
+  },
+  {
+    "code": "electives-p1-unit-of-study-table",
+    "title": "Electives Part 1 table",
+    "faculty": "law",
+    "url": "https://www.sydney.edu.au/handbooks/law/undergraduate/electives-p1-unit-of-study-table.html"
+  },
+  {
+    "code": "electives-p2-jurisprudence-unit-of-study-table",
+    "title": "Electives Part 2 Jurisprudence table",
+    "faculty": "law",
+    "url": "https://www.sydney.edu.au/handbooks/law/undergraduate/electives-p2-jurisprudence-unit-of-study-table.html"
+  },
+  {
+    "code": "honours",
+    "title": "Honours",
+    "faculty": "law",
+    "url": "https://www.sydney.edu.au/handbooks/law/undergraduate/honours.html"
+  },
+  {
+    "code": "juris-doctor",
+    "title": "Juris Doctor",
+    "faculty": "law",
+    "url": "https://www.sydney.edu.au/handbooks/law/postgraduate/juris-doctor.html"
+  },
+  {
+    "code": "business-law",
+    "title": "Master of Business Law",
+    "faculty": "law",
+    "url": "https://www.sydney.edu.au/handbooks/law/postgraduate/business-law.html"
+  },
+  {
+    "code": "criminology",
+    "title": "Master of Criminology",
+    "faculty": "law",
+    "url": "https://www.sydney.edu.au/handbooks/law/postgraduate/criminology.html"
+  },
+  {
+    "code": "environmental-law",
+    "title": "Master of Environmental Law",
+    "faculty": "law",
+    "url": "https://www.sydney.edu.au/handbooks/law/postgraduate/environmental-law.html"
+  },
+  {
+    "code": "health-law",
+    "title": "Master of Health Law",
+    "faculty": "law",
+    "url": "https://www.sydney.edu.au/handbooks/law/postgraduate/health-law.html"
+  },
+  {
+    "code": "international-law",
+    "title": "Master of International Law",
+    "faculty": "law",
+    "url": "https://www.sydney.edu.au/handbooks/law/postgraduate/international-law.html"
+  },
+  {
+    "code": "labour-law-relations",
+    "title": "Master of Labour Law and Relations",
+    "faculty": "law",
+    "url": "https://www.sydney.edu.au/handbooks/law/postgraduate/labour-law-relations.html"
+  },
+  {
+    "code": "taxation",
+    "title": "Master of Taxation",
+    "faculty": "law",
+    "url": "https://www.sydney.edu.au/handbooks/law/postgraduate/taxation.html"
+  },
+  {
+    "code": "advanced-surgery",
+    "title": "Advanced Surgery (Breast Surgery)",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/advanced-surgery.html"
+  },
+  {
+    "code": "bioethics",
+    "title": "Bioethics",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/bioethics.html"
+  },
+  {
+    "code": "biomedical-science",
+    "title": "Biomedical Science",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/biomedical-science.html"
+  },
+  {
+    "code": "biostatistics",
+    "title": "Biostatistics",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/biostatistics.html"
+  },
+  {
+    "code": "brain-mind-sciences",
+    "title": "Brain and Mind Sciences",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/brain-mind-sciences.html"
+  },
+  {
+    "code": "child-adolescent-health",
+    "title": "Child and Adolescent Health",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/child-adolescent-health.html"
+  },
+  {
+    "code": "clinical-dentistry",
+    "title": "Clinical Dentistry",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/clinical-dentistry.html"
+  },
+  {
+    "code": "clinical-epidemiology",
+    "title": "Clinical Epidemiology",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/clinical-epidemiology.html"
+  },
+  {
+    "code": "clinical-neurophysiology",
+    "title": "Clinical Neurophysiology",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/clinical-neurophysiology.html"
+  },
+  {
+    "code": "clinical-surgery",
+    "title": "Clinical Surgery",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/clinical-surgery.html"
+  },
+  {
+    "code": "critical-care-medicine",
+    "title": "Critical Care Medicine",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/critical-care-medicine.html"
+  },
+  {
+    "code": "dental-medicine",
+    "title": "Dental Medicine",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/dental-medicine.html"
+  },
+  {
+    "code": "dental-public-health",
+    "title": "Dental Public Health",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/dental-public-health.html"
+  },
+  {
+    "code": "diagnostic-radiography",
+    "title": "Diagnostic Radiography",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/diagnostic-radiography.html"
+  },
+  {
+    "code": "digital-health-data-science",
+    "title": "Digital Health and Data Science",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/digital-health-data-science.html"
+  },
+  {
+    "code": "exercise-physiology",
+    "title": "Exercise Physiology",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/exercise-physiology.html"
+  },
+  {
+    "code": "genomics-precision-medicine",
+    "title": "Genomics and Precision Medicine",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/genomics-precision-medicine.html"
+  },
+  {
+    "code": "global-health",
+    "title": "Global Health",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/global-health.html"
+  },
+  {
+    "code": "indigenous-health-promotion",
+    "title": "Indigenous Health Promotion",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/indigenous-health-promotion.html"
+  },
+  {
+    "code": "internal-medicine",
+    "title": "Internal Medicine",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/internal-medicine.html"
+  },
+  {
+    "code": "international-ophthalmology",
+    "title": "International Ophthalmology",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/international-ophthalmology.html"
+  },
+  {
+    "code": "medical-imaging-science",
+    "title": "Medical Imaging Science",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/medical-imaging-science.html"
+  },
+  {
+    "code": "medicine-doctor",
+    "title": "Medicine (Doctor of Medicine)",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/medicine-doctor.html"
+  },
+  {
+    "code": "medicine-science-in-medicine",
+    "title": "Medicine and Science in Medicine",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/medicine-science-in-medicine.html"
+  },
+  {
+    "code": "metabolic-health",
+    "title": "Metabolic Health",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/metabolic-health.html"
+  },
+  {
+    "code": "nursing-nurse-practitioner",
+    "title": "Nursing - Nurse Practitioner",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/nursing-nurse-practitioner.html"
+  },
+  {
+    "code": "nursing-master",
+    "title": "Nursing (Pre-Registration)",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/nursing-master.html"
+  },
+  {
+    "code": "nutrition-dietetics",
+    "title": "Nutrition and Dietetics",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/nutrition-dietetics.html"
+  },
+  {
+    "code": "occupational-therapy",
+    "title": "Occupational Therapy",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/occupational-therapy.html"
+  },
+  {
+    "code": "ophthalmic-science",
+    "title": "Ophthalmic Science",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/ophthalmic-science.html"
+  },
+  {
+    "code": "pain-management",
+    "title": "Pain Management",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/pain-management.html"
+  },
+  {
+    "code": "pharmaceutical-medical-device",
+    "title": "Pharmaceutical and Medical Device Development",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/pharmaceutical-medical-device.html"
+  },
+  {
+    "code": "pharmacy",
+    "title": "Pharmacy",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/pharmacy.html"
+  },
+  {
+    "code": "pharmacy-practice",
+    "title": "Pharmacy Practice",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/pharmacy-practice.html"
+  },
+  {
+    "code": "physiotherapy",
+    "title": "Physiotherapy",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/physiotherapy.html"
+  },
+  {
+    "code": "public-health",
+    "title": "Public Health",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/public-health.html"
+  },
+  {
+    "code": "sexual-reproductive-health",
+    "title": "Sexual and Reproductive Health",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/sexual-reproductive-health.html"
+  },
+  {
+    "code": "sleep-medicine",
+    "title": "Sleep Medicine",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/sleep-medicine.html"
+  },
+  {
+    "code": "speech-pathology",
+    "title": "Speech and Language Pathology",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/speech-pathology.html"
+  },
+  {
+    "code": "surgery",
+    "title": "Surgery",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/surgery.html"
+  },
+  {
+    "code": "trauma-informed-psychotherapy",
+    "title": "Trauma-Informed Psychotherapy",
+    "faculty": "medicine-health-pg",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/trauma-informed-psychotherapy.html"
+  },
+  {
+    "code": "double-degree",
+    "title": "Double degrees",
+    "faculty": "medicine-health",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health/double-degree.html"
+  },
+  {
+    "code": "exercise-sport-science-advanced-studies",
+    "title": "Exercise & Sport Science",
+    "faculty": "medicine-health",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies.html"
+  },
+  {
+    "code": "biomedicine-and-health",
+    "title": "Bachelor of Biomedicine and Health",
+    "faculty": "medicine-health",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health.html"
+  },
+  {
+    "code": "nursing-advanced-studies",
+    "title": "Nursing (Advanced Studies) (Pre-registration)",
+    "faculty": "medicine-health",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies.html"
+  },
+  {
+    "code": "nursing-singapore",
+    "title": "Nursing Offshore - Singapore (Post-registration)",
+    "faculty": "medicine-health",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-singapore.html"
+  },
+  {
+    "code": "oral-health",
+    "title": "Oral Health",
+    "faculty": "medicine-health",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/oral-health.html"
+  },
+  {
+    "code": "pharmacy-management",
+    "title": "Pharmacy and Management (Honours) and Master of Pharmacy Practice",
+    "faculty": "medicine-health",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/pharmacy-management.html"
+  },
+  {
+    "code": "science-nursing",
+    "title": "Science and Master of Nursing (Pre-registration)",
+    "faculty": "medicine-health",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/science-nursing.html"
+  },
+  {
+    "code": "accredited",
+    "title": "Accredited coursework",
+    "faculty": "science-pg",
+    "url": "https://www.sydney.edu.au/handbooks/science-pg/accredited.html"
+  },
+  {
+    "code": "grad-dip-psychology",
+    "title": "Graduate Diploma in Psychology",
+    "faculty": "science-pg",
+    "url": "https://www.sydney.edu.au/handbooks/science-pg/coursework/grad-dip-psychology.html"
+  },
+  {
+    "code": "agriculture-environment",
+    "title": "Agriculture and Environment",
+    "faculty": "science-pg",
+    "url": "https://www.sydney.edu.au/handbooks/science-pg/coursework/agriculture-environment.html"
+  },
+  {
+    "code": "psychology-coaching",
+    "title": "Coaching Psychology",
+    "faculty": "science-pg",
+    "url": "https://www.sydney.edu.au/handbooks/science-pg/coursework/psychology-coaching.html"
+  },
+  {
+    "code": "data-analytics",
+    "title": "Data Analytics",
+    "faculty": "science-pg",
+    "url": "https://www.sydney.edu.au/handbooks/science-pg/coursework/data-analytics.html"
+  },
+  {
+    "code": "environmental-science",
+    "title": "Environmental Science",
+    "faculty": "science-pg",
+    "url": "https://www.sydney.edu.au/handbooks/science-pg/coursework/environmental-science.html"
+  },
+  {
+    "code": "environmental-science-law",
+    "title": "Environmental Science and Law",
+    "faculty": "science-pg",
+    "url": "https://www.sydney.edu.au/handbooks/science-pg/coursework/environmental-science-law.html"
+  },
+  {
+    "code": "marine-science-management",
+    "title": "Marine Science and Management",
+    "faculty": "science-pg",
+    "url": "https://www.sydney.edu.au/handbooks/science-pg/coursework/marine-science-management.html"
+  },
+  {
+    "code": "medical-physics",
+    "title": "Medical Physics",
+    "faculty": "science-pg",
+    "url": "https://www.sydney.edu.au/handbooks/science-pg/coursework/medical-physics.html"
+  },
+  {
+    "code": "sustainability",
+    "title": "Sustainability",
+    "faculty": "science-pg",
+    "url": "https://www.sydney.edu.au/handbooks/science-pg/coursework/sustainability.html"
+  },
+  {
+    "code": "veterinary-studies-clinical-studies",
+    "title": "Veterinary Studies and Veterinary Clinical Studies",
+    "faculty": "science-pg",
+    "url": "https://www.sydney.edu.au/handbooks/science-pg/coursework/veterinary-studies-clinical-studies.html"
+  },
+  {
+    "code": "table-a",
+    "title": "Table A",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/table-a.html"
+  },
+  {
+    "code": "agricultural-science",
+    "title": "Bachelor of Agricultural Science",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/agricultural-science.html"
+  },
+  {
+    "code": "agricultural-science-honours",
+    "title": "Bachelor of Agricultural Science Honours",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/agricultural-science-honours.html"
+  },
+  {
+    "code": "animal-veterinary-bioscience",
+    "title": "Bachelor of Animal and Veterinary Bioscience",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/animal-veterinary-bioscience.html"
+  },
+  {
+    "code": "honours-animal-veterinary-bioscience",
+    "title": "Bachelor of Animal and Veterinary Bioscience (Honours)",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/honours-animal-veterinary-bioscience.html"
+  },
+  {
+    "code": "liberal-arts-science",
+    "title": "Bachelor of Liberal Arts and Science",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science.html"
+  },
+  {
+    "code": "liberal-arts-science-extended",
+    "title": "Bachelor of Liberal Arts and Science (Extended)",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended.html"
+  },
+  {
+    "code": "mathematical-sciences",
+    "title": "Bachelor of Mathematical Sciences",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/mathematical-sciences.html"
+  },
+  {
+    "code": "honours-mathematical-sciences",
+    "title": "Bachelor of Mathematical Sciences (Honours)",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/honours-mathematical-sciences.html"
+  },
+  {
+    "code": "psychology",
+    "title": "Bachelor of Psychology",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/psychology.html"
+  },
+  {
+    "code": "psychology-honours",
+    "title": "Bachelor of Psychology Honours",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/psychology-honours.html"
+  },
+  {
+    "code": "science",
+    "title": "Bachelor of Science",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/science.html"
+  },
+  {
+    "code": "science-extended",
+    "title": "Bachelor of Science (Extended)",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/science-extended.html"
+  },
+  {
+    "code": "science-honours",
+    "title": "Bachelor of Science (Honours)",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/science-honours.html"
+  },
+  {
+    "code": "science-advanced-studies",
+    "title": "Bachelor of Science and Bachelor of Advanced Studies",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/science-advanced-studies.html"
+  },
+  {
+    "code": "science-laws",
+    "title": "Bachelor of Science and Bachelor of Laws",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/science-laws.html"
+  },
+  {
+    "code": "science-dental",
+    "title": "Bachelor of Science and Doctor of Dental Medicine",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/science-dental.html"
+  },
+  {
+    "code": "science-medicine",
+    "title": "Bachelor of Science and Doctor of Medicine",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/science-medicine.html"
+  },
+  {
+    "code": "science-nutrition-dietetics",
+    "title": "Bachelor of Science and Master of Nutrition and Dietetics",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/science-nutrition-dietetics.html"
+  },
+  {
+    "code": "veterinary-biology",
+    "title": "Bachelor of Veterinary Biology and Doctor of Veterinary Medicine",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/veterinary-biology.html"
+  },
+  {
+    "code": "wildlife-conservation-taronga",
+    "title": "Bachelor of Wildlife Conservation (Taronga)",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/wildlife-conservation-taronga.html"
+  },
+  {
+    "code": "hons-wildlife-conservation-taronga",
+    "title": "Bachelor of Wildlife Conservation (Taronga) (Honours)",
+    "faculty": "science",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/hons-wildlife-conservation-taronga.html"
+  }
+]

@@ -1,0 +1,798 @@
+===== SOURCE: https://www.sydney.edu.au/handbooks/science-pg/coursework/data-analytics.html =====
+# Data Analytics (data-analytics)
+
+## Program Overview
+- **Institution**: The University of Sydney (USYD)
+- **Course / Program Identifier**: data-analytics
+- **Academic Year**: 2026
+- **Faculty**: science-pg
+- **Handbook URL**: https://www.sydney.edu.au/handbooks/science-pg/coursework/data-analytics.html
+
+## Overview
+2026 Handbooks
+Science Postgraduate
+Postgraduate coursework
+Data Analytics
+Overview
+Course resolutions
+Unit of study table
+Learning outcomes - Graduate Certificate in Data Analytics
+Learning outcomes - Graduate Diploma in Data Analytics
+Learning outcomes - Master of Data Analytics
+
+Overview
+Course resolutions
+Unit of study table
+Learning outcomes - Graduate Certificate in Data Analytics
+Learning outcomes - Graduate Diploma in Data Analytics
+Learning outcomes - Master of Data Analytics
+
+The Master of Data Analytics (online) teaches leading concepts and approaches in the field of data analytics. Build a sharp skill set for collecting and visualising data, communicating data insights and developing creative solutions for organisations. It can also be completed as a Graduate Certificate or Graduate Diploma.
+
+## Unit of Study Table & Curriculum Structure
+Data Analytics - Unit of study table - The University of Sydney
+Handbooks
+Science Postgraduate
+/
+Postgraduate coursework
+/
+Data Analytics
+/
+Unit of study table
+2026 Handbooks
+Science Postgraduate
+Postgraduate coursework
+Data Analytics
+Overview
+Course resolutions
+Unit of study table
+Learning outcomes - Graduate Certificate in Data Analytics
+Learning outcomes - Graduate Diploma in Data Analytics
+Learning outcomes - Master of Data Analytics
+Data Analytics
+This page was first published on 13 November 2025 and was last amended on 17 December 2025.
+View details of the changes below
+.
+Unit of study table
+Master of Data Analytics
+To qualify for the award of the Master of Data Analytics, a candidate must complete 72 credit points, comprising:
+(i) 42 credit points of core units
+(ii) 24 credit points of selective units
+(iii) 6 credit points of capstone units
+Graduate Diploma in Data Analytics
+To qualify for the award of the Graduate Diploma in Data Analytics, a candidate must complete 48 credit points, comprising:
+(i) a minimum of 36 credit points of core units
+(ii) a maximum of 12 credit points of selective units
+Graduate Certificate in Data Analytics
+To qualify for the award of the Graduate Certificate in Data Analytics, a candidate must complete 24 credit points, comprising:
+(i) 24 credit points of core units
+Unit of study
+Credit points
+A: Assumed knowledge P: Prerequisites
+C: Corequisites N: Prohibition
+Master of Data Analytics
+Core
+ODAT5011
+Data Analytics Foundations
+6
+A
+Year 10 mathematics or equivalent
+ODAT5012
+Data Visualisation and Communication
+6
+ODAT5013
+Data Wrangling and Databases
+6
+A
+Basic computer literacy
+ODAT5014
+Data Governance and Ethics
+6
+ODAT5021
+Study Design and Analysis
+6
+A
+Fundamentals of statistics and coding in R, e.g.
+ODAT5011
+: Data Analytics Foundations
+ODAT5022
+Applied Time Series Analysis
+6
+A
+Fundamentals of statistics and coding in R, e.g.
+ODAT5011
+: Data Analysis Foundations. It would be an advantage to also take
+ODAT5021
+to further build your statistical and computational skills before attempting
+ODAT5022
+.
+OSTA5003
+Computational Statistical Methods
+6
+A
+A good understanding of statistics, including hypothesis testing and regression modelling, and substantial statistical computing experience. For example, both
+ODAT5011
+and
+ODAT5021
+or a unit like
+STAT5002
+.
+Selective Units
+ODAT5031
+Modelling Complex Data Structures
+6
+A
+Strong statistical knowledge and coding experience. E.g.
+ODAT5011
+,
+ODAT5021
+, and
+OSTA5003
+.
+ODAT5032
+Data to Decisions
+6
+A
+Familiarity with coding, e.g. in R or Python
+OCMP5048
+Visual Analytics
+6
+A
+Experience with data structures and algorithms as covered in
+COMP9123
+or
+COMP9103
+or
+COMP9003
+or
+COMP2123
+or
+COMP2823
+or
+INFO1105
+or
+INFO1905
+(or equivalent UoS from different institutions)
+N
+COMP5048
+or
+COMP4448
+OECO5017
+Causal Effects in Practice
+6
+A
+Strong statistical knowledge and coding experience (e.g., successful completion of
+ODAT5011
+,
+ODAT5021
+and
+ODAT5022
+)
+P
+ODAT5021
+OCMP5318
+Machine Learning and Data Mining
+6
+A
+Experience with programming and data structures as covered in
+COMP2123
+or
+COMP2823
+or
+COMP9123
+(or equivalent unit of study from different institutions). Discrete mathematics and probability (e.g.
+MATH1064
+or equivalent); linear algebra and calculus (e.g.
+MATH1061
+or equivalent)
+N
+COMP5318
+or
+COMP4318
+OCMP5338
+Advanced Data Models
+6
+A
+This unit of study assumes foundational knowledge of relational database systems as taught in
+COMP5138
+/
+COMP9120
+(Database Management Systems) or
+INFO2120
+/
+INFO2820
+/
+ISYS2120
+(Database Systems 1)
+N
+COMP5338
+or
+COMP4338
+OCMP5328
+Advanced Machine Learning
+6
+C
+OCMP5318
+or
+COMP5318
+or
+COMP4318
+or
+COMP3308
+or
+COMP3608
+N
+COMP5328
+or
+COMP4328
+OCMP5329
+Deep Learning
+6
+A
+OCMP5318
+or
+COMP5318
+or
+COMP4318
+N
+COMP5329
+or
+COMP4329
+Capstone
+ODAT5888
+Data Sleuthing
+6
+A
+Content from the core units for the Master of Data Analytics
+P
+30 credit points of 5000-level units
+Graduate Diploma of Data Analytics
+Core
+ODAT5011
+Data Analytics Foundations
+6
+A
+Year 10 mathematics or equivalent
+ODAT5012
+Data Visualisation and Communication
+6
+ODAT5013
+Data Wrangling and Databases
+6
+A
+Basic computer literacy
+ODAT5014
+Data Governance and Ethics
+6
+ODAT5021
+Study Design and Analysis
+6
+A
+Fundamentals of statistics and coding in R, e.g.
+ODAT5011
+: Data Analytics Foundations
+ODAT5022
+Applied Time Series Analysis
+6
+A
+Fundamentals of statistics and coding in R, e.g.
+ODAT5011
+: Data Analysis Foundations. It would be an advantage to also take
+ODAT5021
+to further build your statistical and computational skills before attempting
+ODAT5022
+.
+Selective
+OSTA5003
+Computational Statistical Methods
+6
+A
+A good understanding of statistics, including hypothesis testing and regression modelling, and substantial statistical computing experience. For example, both
+ODAT5011
+and
+ODAT5021
+or a unit like
+STAT5002
+.
+ODAT5031
+Modelling Complex Data Structures
+6
+A
+Strong statistical knowledge and coding experience. E.g.
+ODAT5011
+,
+ODAT5021
+, and
+OSTA5003
+.
+ODAT5032
+Data to Decisions
+6
+A
+Familiarity with coding, e.g. in R or Python
+ODAT5888
+Data Sleuthing
+6
+A
+Content from the core units for the Master of Data Analytics
+P
+30 credit points of 5000-level units
+OCMP5048
+Visual Analytics
+6
+A
+Experience with data structures and algorithms as covered in
+COMP9123
+or
+COMP9103
+or
+COMP9003
+or
+COMP2123
+or
+COMP2823
+or
+INFO1105
+or
+INFO1905
+(or equivalent UoS from different institutions)
+N
+COMP5048
+or
+COMP4448
+OECO5017
+Causal Effects in Practice
+6
+A
+Strong statistical knowledge and coding experience (e.g., successful completion of
+ODAT5011
+,
+ODAT5021
+and
+ODAT5022
+)
+P
+ODAT5021
+OCMP5318
+Machine Learning and Data Mining
+6
+A
+Experience with programming and data structures as covered in
+COMP2123
+or
+COMP2823
+or
+COMP9123
+(or equivalent unit of study from different institutions). Discrete mathematics and probability (e.g.
+MATH1064
+or equivalent); linear algebra and calculus (e.g.
+MATH1061
+or equivalent)
+N
+COMP5318
+or
+COMP4318
+OCMP5338
+Advanced Data Models
+6
+A
+This unit of study assumes foundational knowledge of relational database systems as taught in
+COMP5138
+/
+COMP9120
+(Database Management Systems) or
+INFO2120
+/
+INFO2820
+/
+ISYS2120
+(Database Systems 1)
+N
+COMP5338
+or
+COMP4338
+OCMP5328
+Advanced Machine Learning
+6
+C
+OCMP5318
+or
+COMP5318
+or
+COMP4318
+or
+COMP3308
+or
+COMP3608
+N
+COMP5328
+or
+COMP4328
+OCMP5329
+Deep Learning
+6
+A
+OCMP5318
+or
+COMP5318
+or
+COMP4318
+N
+COMP5329
+or
+COMP4329
+Graduate Certificate of Data Analytics
+Core Units
+ODAT5011
+Data Analytics Foundations
+6
+A
+Year 10 mathematics or equivalent
+ODAT5012
+Data Visualisation and Communication
+6
+ODAT5013
+Data Wrangling and Databases
+6
+A
+Basic computer literacy
+ODAT5014
+Data Governance and Ethics
+6
+Post-publication amendments
+Date
+Original publication
+Post-publication amendment
+12/12/2025
+Assumed Knowledge (
+A
+) for ODAT5888 published as:
+"A Content from the core units for the Master of Data Analytics"
+Assumed Knowledge (
+A
+) for ODAT5888 amended to:
+"A Content from the core units for the Master ofData Analytics"
+17/12/2025
+Assumed Knowledge (
+A
+) for ODAT5888 published as:
+"A Content from the core units for the Master ofData Analytics"
+Assumed Knowledge (
+A
+) for ODAT5888 amended to:
+"A Content from the core units for the Master of Data Analytics"
+
+## Course Resolutions & Academic Rules
+Data Analytics - Course Resolutions - The University of Sydney
+Handbooks
+Science Postgraduate
+/
+Postgraduate coursework
+/
+Data Analytics
+/
+Course resolutions
+2026 Handbooks
+Science Postgraduate
+Postgraduate coursework
+Data Analytics
+Overview
+Course resolutions
+Unit of study table
+Learning outcomes - Graduate Certificate in Data Analytics
+Learning outcomes - Graduate Diploma in Data Analytics
+Learning outcomes - Master of Data Analytics
+Data Analytics
+Course resolutions
+The course resolutions detailed in this page apply to all courses included in the table below under section 1 (course codes).
+These resolutions must be read in conjunction with applicable University By-laws, Rules and policies including (but not limited to) the University of Sydney (Coursework) Rule 2014 (the 'Coursework Rule'), the Coursework Policy 2021 (the 'Coursework Policy'), the Learning and Teaching Policy 2024, the Resolutions of the Faculty, University of Sydney (Student Academic Appeals) Rule 2021, the Academic Integrity Policy 2022 and the Academic Integrity Procedures 2022. Current versions of all policies are available from the Policy Register:
+http://www.sydney.edu.au/policies
+1 Course codes
+Code
+Course title
+MADTANOP-01
+Master of Data Analytics (Online)
+GNDTANOP-01
+Graduate Diploma in Data Analytics (Online)
+GCDTANOP-01
+Graduate Certificate in Data Analytics (Online)
+2 Attendance pattern
+The attendance pattern for this course is part time only. All units of study are only available online.
+3 Master's type
+This master’s degree is a professional master’s course, as defined by the Coursework Rule 2014 and the Coursework Policy 2021.
+4 Embedded courses in this sequence
+(1) The embedded courses in this sequence are:
+(a) the Graduate Certificate in Data Analytics
+(b) the Graduate Diploma in Data Analytics
+(c) the Master of Data Analytics
+(2) Providing candidates satisfy the admission requirements for each stage, a candidate may progress to the award of any of the courses in this sequence and receive full credit for work completed in the prior award. Only the highest award completed will be conferred.
+5 Admission to candidature
+(1) Available places will be offered to qualified applicants based on merit, according to the following admissions criteria. In exceptional circumstances the Dean may admit applicants without these qualifications but whose evidence of experience and achievement is deemed by the Dean to be equivalent.
+(2) Admission to candidature for the Graduate Certificate in Data Analytics requires:
+(a) A bachelor’s degree from the University of Sydney or an equivalent qualification.
+(3) Admission to candidature for the Graduate Diploma in Data Analytics requires:
+(a) A bachelor’s degree from the University of Sydney with a major in a quantitative discipline or an equivalent qualification; or
+(b) Completion of the requirements for the embedded Graduate Certificate, or an equivalent qualification.
+(4) Admission to candidature for the Master of Data Analytics requires:
+(a) A bachelor’s degree from the University of Sydney with a major in a quantitative discipline and with a credit average or an equivalent qualification; or
+(b) Completion of the requirements for the embedded Graduate Diploma, or an equivalent qualification.
+6 Requirements for award
+(1) The units of study that may be taken for the courses are set out in Table A.
+(2) To qualify for the award of the Graduate Certificate in Data Analytics a candidate must complete 24 credit points, including:
+(a) 24 credit points of core units of study.
+(3) To qualify for the award of the Graduate Diploma in Data Analytics a candidate must complete 48 credit points, including:
+(a) A minimum of 36 credit points of core units of study; and
+(b) A maximum of 12 credit points of selective units of study.
+(4) To qualify for the award of the Master of Data Analytics a candidate must complete 72 credit points, including:
+(a) 42 credit points of core units of study;
+(b) 24 credit points of selective units of study; and
+(c) 6 credit points of capstone units of study.
+7 Recognition of prior learning
+(1) Waivers and credit may be granted or the volume of learning may be reduced in recognition of prior learning in accordance with the Coursework Policy 2021 (Note: a waiver on its own waives a requirement but does not reduce the volume of learning for the degree as a whole).
+(2) Candidates for the Master of Data Analytics may be eligible for a reduction in the volume of learning of up to 24 credit points for an AQF Level 8 qualification in a cognate discipline.
+(3) Notwithstanding any reduction in the volume of learning granted on the basis of work completed or prior learning, in order to qualify for an award a student must complete at least 50 per cent of the requirements prescribed for the award course at the University of Sydney.
+8 Cross-institutional study
+Cross-institutional study is not available in these courses.
+9 International exchange
+International exchange and study abroad programs are not available to candidates enrolled in the Online versions of the Graduate Certificate in Data Analytics, Graduate Diploma in Data Analytics, or Master of Data Analytics.
+10 Award of the master's degree, graduate diploma and graduate certificate
+(1) The master’s degree, graduate diploma and graduate certificate will be awarded in the pass grade.
+11 Course transfer
+(1) A candidate for the master’s degree or graduate diploma may elect to discontinue study and graduate with a shorter award from this embedded sequence, with the approval of the Dean, and provided the requirements of the shorter award have been met.
+12 Commencement of these resolutions
+These resolutions apply to students who commenced their candidature after 1 January 2024.
+
+## Degree structure and requirements
+The Data Analytics requirements are detailed in the
+course resolutions
+.
+
+Website:
+School of Mathematics and Statistics
+
+Email:
+daadmissions@postgradonline.sydney.edu.au
+
+Phone:
+1800-418-592
+
+A/Prof. Garth Tarr
+
+===== SOURCE: https://www.sydney.edu.au/units/OCMP5318 =====
+Subject: Machine Learning and Data Mining (OCMP5318)
+Credit Points: 6
+Overview: Machine learning is the process of automatically building mathematical models that explain and generalise datasets. It integrates elements of statistics and algorithm development into the same discipline. Data mining is a discipline within knowledge discovery that seeks to facilitate the exploration and analysis of large quantities for data, by automatic and semiautomatic means. This subject provides a practical and technical introduction to machine learning and data mining. Topics to be covered include problems of discovering patterns in the data, classification, regression, feature extraction and data visualisation. Also covered are analysis, comparison and usage of various types of machine learning techniques and statistical techniques.
+Learning Outcomes:
+- LO1 . Students will be able to describe the basic principles, strengths, weaknesses and applicability of machine learning algorithms for solving classification, regression, clustering and reinforcement learning tasks.
+- LO2 . Students will be able to design machine learning algorithms through practical experience in designing, implementing and evaluation machine learning algorithms.
+- LO3 . Students will be able to design machine learning algorithms for solving classification, regression, clustering, and reinforcement learning tasks using machine learning software and libraries.
+- LO4 . Students will be able to present and interpret data and information in verbal and written form.
+Assessment Tasks:
+- Mid-Term Quiz Mid-Term Quiz: 10%: Week 04% (Hurdle: False)
+- Assignment 1 Assignment 1: 10%: Week 04 Due date : 22 Mar 2026 at 23:59% (Hurdle: False)
+- Assignment 2 Assignment 2: 20%: Week 06 Due date : 02 Apr 2026 at 23:59% (Hurdle: False)
+- Final Exam Final Exam (Proctored Exam in Canvas): 60%: Week 08 Due date : 15 Apr 2026 at 18:30% (Hurdle: False)
+- Weekly Knowledge Check Quiz Weekly Knowledge Check Quiz: 0%: Weekly% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/OCMP5329 =====
+Subject: Deep Learning (OCMP5329)
+Credit Points: 6
+Overview: This course provides an introduction to deep machine learning, which is rapidly emerging as one of the most successful and widely applicable set of techniques across a range of applications. Students taking this course will be exposed to cutting-edge research in machine learning, starting from theories, models, and algorithms, to implementation and recent progress of deep learning. Specific topics include: classical architectures of deep neural network, optimization techniques for training deep neural networks, theoretical understanding of deep learning, and diverse applications of deep learning in computer vision.
+Learning Outcomes:
+- LO1 . Students will be able to demonstrate and build deep neural networks using fundamental layers and modules
+- LO2 . Students will be able to explain the principles and insights behind optimization and regularization techniques of deep neural networks
+- LO3 . Students will be able to compare different deep learning architectures, including MLP, CNN, RNN, Transformer, and GNN, as well as their characteristics
+- LO4 . Students will be able to implement and train various deep learning models with codes
+- LO5 . Student will get familiar with application scenarios and recent research of deep learning
+Assessment Tasks:
+- Final Project (Project Abstract) Final Project (Project Abstract): 6%: Week 03 Due date : 15 Mar 2026 at 23:59% (Hurdle: False)
+- Coding Assignment Coding Assignment: 40%: Week 04 Due date : 22 Mar 2026 at 23:59% (Hurdle: False)
+- Final Project (Progress Check) Final Project (Progress Check): 6%: Week 06 Due date : 02 Apr 2026 at 23:59% (Hurdle: False)
+- Final Project (Final Report and Codes) Final Project (Final Report and Codes): 48%: Week 08 Due date : 19 Apr 2026 at 23:59% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/ODAT5011 =====
+Subject: Data Analytics Foundations (ODAT5011)
+Credit Points: 6
+Overview: Are you ready to unlock the power of data analytics? In today's world, data is essential for making informed decisions, and learning how to use it effectively is critical. This unit will show you how to harness the power of data from a range of sources to drive decision making in multiple domains. Using the R programming language, you will learn to manipulate data, perform statistical analyses, create visualisations and produce reproducible reports. With a focus on identifying and justifying appropriate data analytics techniques, by the end of this unit you'll be equipped to investigate social, scientific, and organizational problems, and then evaluate and communicate your results to diverse audiences, developing skills that are in high demand across many industries.
+Learning Outcomes:
+- LO1 . Clearly explain how a diverse range of data sources and analytical methods can be effectively employed to inform decision-making across multiple domains.
+- LO2 . Utilise the R programming language to manipulate data, perform statistical analyses, generate data visualisations, and create reproducible reports.
+- LO3 . Identify, justify and implement appropriate data analytics techniques to investigate social, policy, scientific and organisational problems.
+- LO4 . Evaluate and communicate the outcomes and implications of a range of statistical analyses to diverse audiences.
+Assessment Tasks:
+- Project 1 report A data project based on given data.: 20%: Week 04 Due date : 22 Mar 2026 at 23:59 Closing date : 03 Apr 2026% (Hurdle: False)
+- Project 1 presentation A data project based on given data.: 10%: Week 05 Due date : 23 Mar 2026 at 18:30% (Hurdle: False)
+- Project 2 report A data project based on given data, or own data.: 30%: Week 07 Due date : 12 Apr 2026 at 23:59 Closing date : 24 Apr 2026% (Hurdle: False)
+- Project 2 presentation A data project based on given data, or own data.: 10%: Week 08 Due date : 13 Apr 2026 at 18:30% (Hurdle: False)
+- Concept quizzes Short online quizzes.: 5%: Weekly% (Hurdle: False)
+- Code challenges Short R coding problems.: 15%: Weekly% (Hurdle: False)
+- Lab participation Active engagement in the workshop, with staff and peers.: 10%: Weekly% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/ODAT5012 =====
+Subject: Data Visualisation and Communication (ODAT5012)
+Credit Points: 6
+Overview: Data can be used to support decision-making, provide insights on a range of topics, and affect change at a personal, business or community level. The visual representation, and communication to an intended audience, plays an important role. The visualisation can make making data useful to a broad audience or target a specific group. This class will cover core principles of data visualisation, to support the creation and evaluation of data visualisations, for audiences ranging from domain experts to novice users. Students will develop an understanding of what makes existing data visualisations work well, create visualisations using industry standard platforms, and evaluate their efficacy.
+Learning Outcomes:
+- LO1 . Demonstrate an understanding of the principles of data visualisation for a range of audiences
+- LO2 . Critically assess the effectiveness of existing data visualisations against best practice principles
+- LO3 . Apply user-centered design methods to measure effectiveness of a data visualisation’s design
+- LO4 . Use written and interactive visual media to communicate effectively to a range of audiences
+Assessment Tasks:
+- Visualisation Review Individual, submitted assessment.: 30%: Week 06 Due date : 20 May 2026 at 23:59 Closing date : 03 Jun 2026% (Hurdle: False)
+- Visualisation and Evaluation Group activity, creating a data visualisation and user-centred evaluation.: 50%: Week 08 Due date : 03 Jun 2026 at 23:59 Closing date : 17 Jun 2026% (Hurdle: False)
+- Reflective Summary Individual reflection on group activity: 20%: Week 08 Due date : 07 Jun 2026 at 23:59 Closing date : 21 Jun 2026% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/ODAT5013 =====
+Subject: Data Wrangling and Databases (ODAT5013)
+Credit Points: 6
+Overview: This unit provides conceptual and practical introduction covering data wrangling and database management. Students will gain a broad understanding of the capabilities for data wrangling and database management, on which effective data analysis depends. It will provide understanding of the implications for their analysis work, of the data management capabilities, and the language and ideas to communicate with the data engineers. The unit covers topics such as 1) data storage architectures 2) relational and other data models 3) data integrity 4) data privacy and security 5) data cleaning and pre-processing, and 6) data consolidation/integration.
+Learning Outcomes:
+- LO1 . Explain the primary concerns and capabilities of data management and compare various architectures for data storage and processing.
+- LO2 . Apply conceptual database modelling techniques to design domain-specific relational databases and understand the connection between relational and data frame models.
+- LO3 . Use SQL to manipulate relational data, including performing data aggregation, filtering, joining tables, and grouping.
+- LO4 . Implement efficient query processing and optimisation techniques using a formal query language, i.e., relational algebra.
+- LO5 . Analyse non-tabular data types such as document, graph, spatial, and timeseries and understand their unique characteristics and use cases.
+- LO6 . Explain the importance of data integrity, understand the challenges involved, and apply mechanisms to define and enforce constraints to maintain data integrity.
+- LO7 . Evaluate and apply access control, anonymisation, and encryption mechanisms to secure data and ensure privacy.
+- LO8 . Consolidate data from different sources and apply data cleaning and pre-processing techniques to create a unified and coherent dataset in preparation for analysis.
+Assessment Tasks:
+- Data Quality Management and Databases Improving and maintaining the quality of data maintained in an organisation: 10%: Week 02 Due date : 12 Aug 2026 at 23:59% (Hurdle: False)
+- Data Handling and Integration Focusing on data matching and linking processes: 10%: Week 03 Due date : 23 Aug 2026 at 23:59% (Hurdle: False)
+- Survey – Data Handling and Integration Survey on data handling and integration for selected industry: 18%: Week 06 Due date : 13 Sep 2026 at 23:59% (Hurdle: False)
+- Final Exam Proctored exam on Canvas: 50%: Week 08 Due date : 23 Sep 2026 at 18:30% (Hurdle: False)
+- Weekly Worksheet Submissions Report Submission. No late submissions.: 12%: Weekly% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/ODAT5014 =====
+Subject: Data Governance and Ethics (ODAT5014)
+Credit Points: 6
+Overview: As the amount of data generated continues to grow, managing data presents a set of challenges for which organizations must be uniquely prepared. This unit provides students an overview of modern organizational approaches for generating, collecting, processing, storing, managing, analysing, and interpreting data. The unit provides an understanding of the importance of data strategies, data governance and data quality, challenges associated with data protection, privacy and security, and modern practices to streamline data operations. Students learn the importance of mitigating data risks and emergent issues around data ethics.
+Learning Outcomes:
+- LO1 . Analyse, identify and define organisational data management challenges based on theory and practice.
+- LO2 . Evaluate data-related systems, processes, components, and outcomes by applying theoretical concepts and knowledge of best practices.
+- LO3 . Propose and justify data management strategies for real-world organisational scenarios.
+- LO4 . Explain principles of data protection, privacy, security and data ethics.
+- LO5 . Function effectively in a team to accomplish a common goal.
+- LO6 . Communicate and engage orally and verbally in a professional manner.
+Assessment Tasks:
+- In-class Assessment In-class Assessment: 30%: Ongoing% (Hurdle: False)
+- Case Study Case Study: 30%: Ongoing% (Hurdle: False)
+- Skill-based Assessment Skill-based Assessment: 10%: Week 08 Due date : 25 Nov 2025 at 23:59% (Hurdle: False)
+- Group Project Group Project: 30%: Week 08 Due date : 18 Nov 2025 at 17:00% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/ODAT5021 =====
+Subject: Study Design and Analysis (ODAT5021)
+Credit Points: 6
+Overview: A successful data analyst, scientist or data manager must have the ability to collect, analyse and interpret data in robust and meaningful ways. Central to this skillset is the ability to create hypotheses and test these using rigorous processes. This unit introduces the key concepts of study design and analysis. You will learn to formulate experimental aims, collect, interpret and analyse data to test specific hypotheses, and draw evidence-based conclusions. You will develop the skills and understanding of concepts such as controls, replicates, sample size, dependent and independent variables, and good research practice such as blinding and randomisation. You will emerge with a comprehensive understanding of how to optimise a product or web design and determining the effectiveness of new programs or solutions to understand if the observed changes in your data are systematic or if they may have happened by chance.
+Learning Outcomes:
+- LO1 . Describe and identify the basic features of an experimental design.
+- LO2 . Analyse data using appropriate linear and generalised linear models in R.
+- LO3 . Describe and visualise the features and interpretations of linear and generalised linear models.
+- LO4 . Critique experimental designs and modelling choices in a range of scenarios.
+- LO5 . Explain and justify statistical design considerations, modelling processes and conclusions effectively to a variety of audiences.
+- LO6 . Plan, execute and analyse a study using real-world data.
+Assessment Tasks:
+- Weekly Review Questions Short weekly quizzes: 15%: Multiple weeks% (Hurdle: False)
+- Weekly Homework Problems Short R programming problems: 25%: Multiple weeks% (Hurdle: False)
+- Assignment 1 Experimental design report: 30%: Week 05 Due date : 27 Mar 2026 at 23:59 Closing date : 10 Apr 2026% (Hurdle: False)
+- Assignment 2 Statistical analysis: 30%: Week 08 Due date : 13 Apr 2026 at 23:59 Closing date : 24 Apr 2026% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/ODAT5022 =====
+Subject: Applied Time Series Analysis (ODAT5022)
+Credit Points: 6
+Overview: Predict the future by mastering the art of time series analysis. Understanding and modelling time series data is important in a wide range of domains, for example, energy demand, retail sales, healthcare, web traffic, weather, finance, and economics. This unit will equip you with the knowledge and tools to confidently tackle the complexities of time series data and apply modern forecasting techniques using real-world data. Each week brings a new set of challenges, guiding you through methods like exponential smoothing, ARIMA, and dynamic regression models. You will learn how to effectively visualise and communicate data collected over time, fit a variety of models and assess their performance, choose between completing models, and quantify the uncertainty around your forecasts. Through practical assignments and projects, you will hone your ability to learn from the past and make reliable, evidence-based predictions about the future.
+Learning Outcomes:
+- LO1 . explain and compare different forecasting methods in terms of their assumptions and applicability across various types of time series data
+- LO2 . discuss the challenges of implementing forecasting techniques in practice
+- LO3 . apply appropriate statistical techniques to conduct time series forecasting, utilising software tools to visualise, model, predict, and interpret given data
+- LO4 . evaluate and communicate the accuracy and effectiveness of forecast models
+- LO5 . design and implement a time series forecasting project using real-world data
+Assessment Tasks:
+- Assignment 1 Directed questions on given data: 20%: Week 04 Due date : 15 May 2026 at 23:59 Closing date : 29 May 2026% (Hurdle: False)
+- Assignment 2 Directed questions on given data: 20%: Week 05 Due date : 24 May 2026 at 23:59 Closing date : 07 Jun 2026% (Hurdle: False)
+- Project: presentation Oral presentation: 20%: Week 07 Due date : 04 Jun 2026 at 18:00 Closing date : 18 Jun 2026% (Hurdle: False)
+- Project: report Written report: 20%: Week 08 Due date : 11 Jun 2026 at 23:59 Closing date : 25 Jun 2026% (Hurdle: False)
+- Online quizzes Weekly online quizzes: 10%: Weekly% (Hurdle: False)
+- Workshop participation Participation in workshops and submission of work: 10%: Weekly% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/ODAT5032 =====
+Subject: Data to Decisions (ODAT5032)
+Credit Points: 6
+Overview: Ever wondered how to turn data into dashboards that drive real decisions? This unit combines statistical thinking and visual storytelling to design dashboards that go beyond aesthetics - they deliver meaningful insights to real stakeholders. In this hands-on unit, you will work in a team to tackle a problem of your choice. You will source data, apply analytics, and build interactive dashboards. Your dashboard will bring key metrics, forecasts, and models to life - designed with your audience in mind. Throughout the unit, you will develop the skills to translate complex data into clear, actionable visuals that support decision-making across business, government, and not-for-profit settings. By the end of the unit, you will be able to create dashboards that are insightful, audience-focused, and grounded in statistical reasoning - ready for the kinds of conversations that happen in boardrooms and strategy sessions.
+Learning Outcomes:
+- LO1 . Design and create interactive dashboards using industry-standards tools
+- LO2 . Integrate both statistical thinking and computational skills to facilitate data-driven decision-making
+- LO3 . Apply the principles of designing and creating effective interactive data visualisations
+- LO4 . Analyse and select appropriate visualisations and narratives for diverse audiences
+- LO5 . Evaluate the effectiveness of dashboards in real-world decison-making environments
+Assessment Tasks:
+- Dashboard Critique & Redesign Assignment 1: Evaluation report: 10%: Week 04 Due date : 15 May 2026 at 23:59 Closing date : 25 May 2026% (Hurdle: False)
+- Dashboard Implementation Assignment 2: Dashboard implementation report: 20%: Week 04 Due date : 17 May 2026 at 23:59 Closing date : 27 May 2026% (Hurdle: False)
+- Group Project: Dashboard for Decision-Making Group presentation: 45%: Week 07 Due date : 02 Jun 2026 at 23:59 Closing date : 12 Jun 2026% (Hurdle: False)
+- Group Project: Dashboard for Decision-Making Group project report: 20%: Week 08 Due date : 14 Jun 2026 at 23:59 Closing date : 24 Jun 2026% (Hurdle: False)
+- Reflective Statement Self-reflection on the group project: 5%: Week 08 Due date : 14 Jun 2026 at 23:59 Closing date : 24 Jun 2026% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/ODAT5888 =====
+Subject: Data Sleuthing (ODAT5888)
+Credit Points: 6
+Overview: Impactful data analysis requires more than just technical skills - it demands critical thinking, the ability to navigate complex, real-world problems, and strong communication skills. In this unit you will develop these capabilities by engaging in a range of data-driven problems. You will learn to assess the scope of a project, reformulate it into an analytical framework, and identify and apply appropriate statistical methods in different contexts. The unit emphasises collaboration, with students working in teams to develop solutions to authentic data problems. Clear and effective communication is also a key focus, ensuring that insights are conveyed effectively to diverse audiences. By the end of the unit, you will be equipped to investigate and solve data problems with confidence across multiple contexts.
+Learning Outcomes:
+- LO1 . Assess the requirements and scope of a data project
+- LO2 . Identify and apply appropriate statistical methods across various domains
+- LO3 . Analyse and visualise data using modern statistical software
+- LO4 . Develop solutions for authentic data problems by collaborating with diverse groups
+- LO5 . Evaluate and communicate outcomes effectively to a range of stakeholders
+Assessment Tasks:
+- Workshop Contribution Weekly workshop contributions including analysis plans and peer reviews: 10%: Multiple weeks% (Hurdle: False)
+- P1 EDA Presentation P1 EDA Presentation: 5%: Week 02 Due date : 06 Oct 2026 at 18:00% (Hurdle: False)
+- Project 1 Report Project 1 Report: 10%: Week 03 Due date : 18 Oct 2026 at 23:59 Closing date : 28 Oct 2026% (Hurdle: False)
+- P1 Final Presentation P1 Final Presentation: 10%: Week 03 Due date : 13 Oct 2026 at 18:00% (Hurdle: False)
+- P2 EDA Presentation P2 EDA Presentation: 5%: Week 04 Due date : 20 Oct 2026 at 18:00% (Hurdle: False)
+- Project 2 Report Project 2 Report: 10%: Week 05 Due date : 01 Nov 2026 at 23:59 Closing date : 11 Nov 2026% (Hurdle: False)
+- P2 Final Presentation P2 Final Presentation: 10%: Week 05 Due date : 27 Oct 2026 at 18:00% (Hurdle: False)
+- P3 EDA Presentation P3 EDA Presentation: 5%: Week 06 Due date : 03 Nov 2026 at 18:00% (Hurdle: False)
+- Project 3 Report Project 3 Report: 10%: Week 07 Due date : 15 Nov 2026 at 23:59 Closing date : 25 Nov 2026% (Hurdle: False)
+- Reflection Reflection on the skills and experiences you have gained throughout your Master of Data Analytics.: 5%: Week 07 Due date : 15 Nov 2026 at 23:59 Closing date : 25 Nov 2026% (Hurdle: False)
+- Final Discussion Discussion about submitted P3 Report and Reflection.: 20%: Week 08% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/OSTA5003 =====
+Subject: Computational Statistical Methods (OSTA5003)
+Credit Points: 6
+Overview: The objectives of this unit of study are to develop an understanding of modern computationally intensive methods for statistical learning, inference, exploratory data analysis and data mining. Advanced computational methods for statistical learning will be introduced, including clustering, density estimation, smoothing, predictive models, model selection, combinatorial optimisation methods, sampling methods, the Bootstrap and Monte Carlo approach. In addition, the unit will demonstrate how to apply the above techniques effectively for use on large data sets in practice.
+Learning Outcomes:
+- LO1 . Formulate domain/context specific questions and identify appropriate statistical analysis.
+- LO2 . Formulate, evaluate and interpret appropriate statistical models to describe the relationships between multiple factors.
+- LO3 . Perform statistical machine learning using a given classifier and create a cross-validation scheme to calculate the prediction accuracy.
+- LO4 . Understand, perform and interpret various unsupervised machine learning methods
+- LO5 . Construct and implement resampling techniques to understand the behaviour of statistical models.
+- LO6 . Create a reproducible report to communicate outcomes using a programming language.
+Assessment Tasks:
+- Final exam Final written exam: 40%: Formal exam period% (Hurdle: False)
+- Participation Viewing course content, tutorial participation & interacting in discussions: 5%: Multiple weeks% (Hurdle: False)
+- Project: plan and EDA Project plan & Initial Data Analysis (EDA): 5%: Week 04 Due date : 17 May 2026 at 23:59 Closing date : 27 May 2026% (Hurdle: False)
+- Project: presentation Presentation of data and key findings from the project.: 10%: Week 06 Due date : 26 May 2026 at 19:00% (Hurdle: False)
+- Project: report Project final report: 10%: Week 07 Due date : 07 Jun 2026 at 23:59 Closing date : 17 Jun 2026% (Hurdle: False)
+- Weekly homework Weekly homework submission: 30%: Weekly% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/STAT5002 =====
+Subject: Introduction to Statistics (STAT5002)
+Credit Points: 6
+Overview: The aim of the unit is to introduce students to basic statistical concepts and methods for further studies. Particular attention will be paid to the development of methodologies related to statistical data analysis and Data Mining. A number of useful statistical models will be discussed and computer oriented estimation procedures will be developed. Smoothing and nonparametric concepts for the analysis of large data sets will also be discussed. Students will be exposed to the R computing language to handle all relevant computational aspects in the course.
+Learning Outcomes:
+- LO1 . use the R statistical computing environment to obtain numerical and graphical summaries of data, and for performing various statistical calculations
+- LO2 . explain univariate and bivariate data by means of the five number summary, mean, variance and standard deviation, correlation coefficient, boxplot, histogram and scatterplot
+- LO3 . use methods derived from the three axioms of probability to calculate the probabilities of simple events
+- LO4 . understand the concept of a random variable and the meaning of the expected value and variance
+- LO5 . apply the Binomial distribution as a model for discrete data
+- LO6 . use the Normal distribution as a model for continuous data
+- LO7 . understand the central limit theorem
+- LO8 . understand the concept of hypotheses tests and p-values for finding evidence for or against simple null hypotheses, in particular using the binomial test for testing proportions, one- or two-sided z-, t- or sign-test for making inference about the population mean
+- LO9 . use the Chi-squared test for simple goodness of fit problems
+- LO10 . understand the concept of a confidence interval
+- LO11 . understand the fundamental difference between frequentist based inference and bayesian inference
+- LO12 . find the least squares regression line as a way of describing a linear relationship in bivariate data
+- LO13 . use R to analyse multivariate data
+- LO14 . use of the general F-test as the main tool to choose between two nested regression models
+- LO15 . assess model assumptions and outlier detection in regression models through standard diagnostic plots (box plot, scatterplot, Q-Q-plot, Cook’s distance plot, leverage vs residual plot), through influence measures (leverage values, Cook’s distance)
+- LO16 . apply multiple linear regression and in the understanding of R2 and the adjusted R2
+- LO17 . calculate and interpret confidence intervals for all parameters in linear regression
+- LO18 . use model selection through using the F-test, t-test, AIC or BIC through full searches or by using step-wise procedures (backward, forward, stepwise)
+- LO19 . apply polynomial regression models
+- LO20 . apply logistic and non-parametric regression.
+Assessment Tasks:
+- Final Exam Multiple choice questions (MCQ) and extended answer questions (EAQ): 60%: Formal exam period% (Hurdle: False)
+- Mid-semester quiz Multiple choice questions (MCQs): 20%: Week 08 Due date : 20 Apr 2026 at 20:00 Closing date : 24 Apr 2026% (Hurdle: False)
+- Assignment Individual: 10%: Week 12 Due date : 24 May 2026 at 23:59 Closing date : 03 Jun 2026% (Hurdle: False)
+- Online revision quizzes 1-10 Weekly revision quizzes. Except Weeks 1, 8, and 13: 10%: Weekly% (Hurdle: False)
+Workload: 
+

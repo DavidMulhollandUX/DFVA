@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-bc006sy",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+      "evidenceLines": [
+        "Construct, interpret, analyse and communicate information contained in a firms financial statements using appropriate digital and information tools.",
+        "Examine and apply financial mathematics tools and techniques to determine cash flows, cost of capital, capital investments.",
+        "The Graduate Certificate in Business is a foundational postgraduate program designed for individuals seeking to develop essential business knowledge and skills."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+      "evidenceLines": [
+        "Prepare budgets, manage working capital, and make appropriate pricing and production decisions.",
+        "Examine the importance of basic accounting and finance principles, and differentiate the appropriate sources of finance for a firm.",
+        "It is ideal for professionals aiming to broaden their understanding of core business disciplines or those considering a pathway into further postgraduate study, such as a Graduate Diploma in Business or Global Master of Business Administration."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+      "evidenceLines": [
+        "Subject: ACCOUNTING AND FINANCE FOR MANAGERS (BUA4002)",
+        "Subject: ECONOMICS FOR GLOBAL LEADERS (BUA4003)",
+        "Apply economic frameworks to business and social problems for policy and decision-making."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+      "evidenceLines": [
+        "Construct and present logical and persuasive economic arguments and communicate concepts professionally.",
+        "Research and apply economic concepts to predict how changes in economic conditions may impact individuals, businesses and industries within market structures.",
+        "This flexible and practical program introduces key areas including management, economics, accounting and finance, and artificial intelligence for business."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+      "evidenceLines": [
+        "Subject: ARTIFICIAL INTELLIGENCE FOR BUSINESS (BUS4005)",
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "Critically analyse economic data to explain relationships between economic variables and their impacts on policy, business and individuals."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+      "evidenceLines": [
+        "Apply and critically evaluate prompting techniques and AI tools in diverse business contexts",
+        "The Graduate Certificate in Business is a foundational postgraduate program designed for individuals seeking to develop essential business knowledge and skills.",
+        "It is ideal for professionals aiming to broaden their understanding of core business disciplines or those considering a pathway into further postgraduate study, such as a Graduate Diploma in Business or Global Master of Business Administration."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+      "evidenceLines": [
+        "Analyse and critically evaluate AI strategies and policies to support responsible adoption in varied business environments",
+        "Subject: ORGANISATIONAL BEHAVIOUR AND MANAGEMENT PRACTICE (MGT4006)",
+        "This flexible and practical program introduces key areas including management, economics, accounting and finance, and artificial intelligence for business."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The Graduate Certificate in Business is a foundational postgraduate program designed for individuals seeking to develop essential business knowledge and skills. It is ideal for professionals aiming to broaden their understanding of core business disciplines or those considering a pathway into further postgraduate study, such as a Graduate Diploma in Business or Global Master of Business Administration.",
+        "The Graduate Certificate in Business is a foundational postgraduate program designed for individuals seeking to develop essential business knowledge and skills."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate in Business.",
+        "evidenceLines": [
+          "The Graduate Certificate in Business is a foundational postgraduate program designed for individuals seeking to develop essential business knowledge and skills. It is ideal for professionals aiming to broaden their understanding of core business disciplines or those considering a pathway into further postgraduate study, such as a Graduate Diploma in Business or Global Master of Business Administration.",
+          "To qualify for the award of Graduate Certificate in Business, students must complete 60 credit points consisting of:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in business and management.",
+        "evidenceLines": [
+          "Subject: ACCOUNTING AND FINANCE FOR MANAGERS (BUA4002)",
+          "Construct, interpret, analyse and communicate information contained in a firms financial statements using appropriate digital and information tools."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-bm007",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science, n.e.c..",
+      "evidenceLines": [
+        "Ability to present work in a professional manner and to communicate effectively to a professional audience",
+        "Use statistical principles and research skills in a collaborative team environment to solve practical problems and communicate the findings to people with various viewpoints",
+        "If you\u2019re keen to invest in your career, La Trobe\u2019s accredited Master of Business Analytics will keep you ahead of the trends."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science, n.e.c..",
+      "evidenceLines": [
+        "Apply probability theory in business and financial decision making",
+        "Apply and interpret concepts of descriptive statistics to real life data and interpretation of results",
+        "Gain advanced skills in business, programming and data engineering, and update your knowledge as you grow in this fast-moving industry."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science, n.e.c..",
+      "evidenceLines": [
+        "Subject: STATISTICS FOR BUSINESS AND FINANCE (BUA4004)",
+        "Subject: CLOUD PLATFORMS AND ANALYTICS (BUS5001)",
+        "Conduct estimating linear regression models and testing hypothesis to aid decision-making"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science, n.e.c..",
+      "evidenceLines": [
+        "Assess and apply cloud adoption frameworks to justify, plan, implement, and govern cloud platforms, in alignment with organisational culture, business objectives, sustainability, and ethical practice.",
+        "Critically evaluate and apply cloud-based products and services to meet organisational needs for data, networking, and computing, while ensuring cybersecurity, privacy, and ethical compliance.",
+        "In this practical course, you\u2019ll take your career to the next level as you learn the latest tools from industry experts."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science, n.e.c..",
+      "evidenceLines": [
+        "Subject: DESIGNING BUSINESS ANALYTICS SOLUTIONS (BUS5002)",
+        "Subject: OPERATIONALISING BUSINESS ANALYTICS (BUS5003)",
+        "Design and synthesise end-to-end cloud-based platforms that deliver secure and ethical data, analytics, and AI capabilities aligned with organisational objectives and industry standards."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science, n.e.c..",
+      "evidenceLines": [
+        "Configure and critically explain the components, capabilities, deployment, and cybersecurity features of modern cloud computing platforms.",
+        "If you\u2019re keen to invest in your career, La Trobe\u2019s accredited Master of Business Analytics will keep you ahead of the trends.",
+        "Gain advanced skills in business, programming and data engineering, and update your knowledge as you grow in this fast-moving industry."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science, n.e.c..",
+      "evidenceLines": [
+        "Create, evaluate and explicate the ethics, IT security and governance considerations of this design",
+        "Subject: BUSINESS WORK PLACEMENT (BUS5010)",
+        "In this practical course, you\u2019ll take your career to the next level as you learn the latest tools from industry experts."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "To qualify for the award of Master of Business Analytics, students must complete 240 credit points\u00a0(16 subjects) consisting of:",
+        "If you\u2019re keen to invest in your career, La Trobe\u2019s accredited Master of Business Analytics will keep you ahead of the trends."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Business Analytics.",
+        "evidenceLines": [
+          "To qualify for the award of Master of Business Analytics, students must complete 240 credit points\u00a0(16 subjects) consisting of:",
+          "135 core credit points (9 subjects)"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in computer science, n.e.c..",
+        "evidenceLines": [
+          "Subject: STATISTICS FOR BUSINESS AND FINANCE (BUA4004)",
+          "Ability to present work in a professional manner and to communicate effectively to a professional audience"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

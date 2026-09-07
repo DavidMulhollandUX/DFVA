@@ -1,0 +1,307 @@
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/programs/2026/8646 =====
+# Data Science (8646)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 8646
+- **Academic Year**: 2026
+- **Study Level**: Postgraduate
+- **AQF Level**: Level 9
+- **Total Units / Units of Credit (UOC)**: 72
+- **Delivery Mode**: Fully online
+- **CRICOS Code**: Not specified
+- **Academic Organisation**: Faculty of Science
+- **Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/8646
+
+## Description
+The Master of Data Science degree explores more ways to organise, identify, analyse and ultimately use data to inform strategies, redefine ambiguous questions and find answers that make a genuine impact. Students will develop advanced technical and mathematical skills to unpick complexities and make sense of the numbers. Study for this degree is fully online and can be completed in two years.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+5. Communicate effectively in written and oral formats to engage specialist and non-specialist audiences.
+3. Research and apply enquiry-based learning, including, analysis and critical thinking, reflection, and problem solving, to become a lifelong learner and an innovative and self directed professional.
+1. Prepare, analyse, interpret and present data to provide useful insights for business decision making.
+4. Collaborate and lead interdisciplinary teams
+6. Synthesise, evaluate and integrate a complex body of knowledge underpinning data science practice including statistics, computer science, applied mathematics and business strategies.
+2. Demonstrate cultural, professional and ethical competence to become a responsible Data Scientist and a global citizen.
+
+## Career Opportunities & Employment Areas
+Database and Systems Administrators, ICT Security Specialists, Statisticians, Data Scientists.
+
+## Program Structure & Degree Requirements
+Students must complete 72 Units of Credit (UOC) structured across the following academic components:
+
+### Prescribed Electives (36 UOC)
+Students must take 36 UOC of the following courses.
+
+Non-domain Elective: With the permission of the Program Authority, students may substitute up to 6 UOC electives with another UNSW Online course offered by any Faculty (studyonline.unsw.edu.au).
+
+- **ZZEN9311**: Database Systems [6 UOC]
+- **ZZBU5611**: Strategic Decision Making [6 UOC]
+- **ZZCA6510**: Decision Making in Analytics [6 UOC]
+- **ZZBU6507**: Data Visualisation and Communication [6 UOC]
+- **ZZSC5855**: Multivariate Analysis for Data Scientists [6 UOC]
+- **ZZEN9444**: Neural Networks, Deep Learning [6 UOC]
+- **ZZBU6505**: Data and Ethics [6 UOC]
+- **ZZSC5960**: Bayesian Inference and Computation for Data Scientists [6 UOC]
+- **ZZEN9313**: Big Data Management [6 UOC]
+
+### Research Project (6 UOC)
+Students must take 6 UOC of the following courses.
+
+- **ZZSC9020**: Data Science Project [6 UOC]
+
+### Core Courses (30 UOC)
+Students must take 30 UOC of the following courses.
+
+#### Core Courses
+- **ZZSC5806**: Regression Analysis for Data Scientists [6 UOC]
+- **ZZEN9021**: Principles of Programming [6 UOC]
+- **ZZSC5905**: Statistical Inference for Data Scientists [6 UOC]
+- **ZZSC5836**: Data Mining and Machine Learning [6 UOC]
+- **ZZSC9001**: Foundations of Data Science [6 UOC]
+
+## Progression & Academic Rules
+A credit average is generally required to articulate to the next level in the sequence.
+
+## Admission Requirements
+**Minimum Entry Requirements**:
+In order to gain entry into the program, applicants must have:
+
+1.  Completed the Graduate Diploma in Data Science with a WAM of 65 or higher
+
+OR
+
+2. Completed an undergraduate degree in Data Science or cognate discipline (e.g., Computer Science, Economics, Mathematics, Statistics) and have sufficient Data Science background as indicated by an average of 70 or above across a minimum of three Level III courses in Mathematics and/or Statistics and/or Computer Science and/or Econometrics.
+
+**Limitations on Recognition of Prior Learning**:
+Core Courses
+
+·       Can be granted from undergraduate or postgraduate study
+
+·       Maximum of 4 core courses (24 UoC) can be granted, where total RPL does not exceed 50% of program
+
+·       7 year time limit as per Science Faculty rules https://www.science.unsw.edu.au/study-us/student-resources/faculty-science-rules
+
+Prescribed Electives
+
+·       Can only be granted based on postgraduate study
+
+·       Maximum of 2 elective courses (12 UoC) can be granted, where total RPL does not exceed 50% of program
+
+·       7 year time limit as per Science Faculty rules https://www.science.unsw.edu.au/study-us/student-resources/faculty-science-rules
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZBU5611 =====
+Subject: Strategic Decision Making (ZZBU5611)
+Credit Points: 6
+Overview: This course covers the fundamentals of Game Theory and its applications. Game Theory is a revolutionary way of analysing strategic interactive situations. It is basic to the understanding of market competition among large firms, the designing of incentive contracts, bidding at auctions, bargaining, and other similar problems central to economics and business. This course covers simultaneous and sequential games and their solution concepts, games of imperfect information, repeated games, and a selection of applications and case studies.
+Learning Outcomes:
+- be able to explain insights into real-world phenomena derived from game theory to a non-technical audience
+- apply game theoretic tools to real-world strategic situations, analyse incentives faced by players, and derive conclusions about behaviour
+- demonstrate an understanding of game theoretical tools and solution concepts
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZBU6505 =====
+Subject: Data and Ethics (ZZBU6505)
+Credit Points: 6
+Overview: This course provides the conceptual foundations for ethical data analytics practice. You will learn to consider data analytics in the context of the broader social, economic and value systems within which data analytics takes place. You will identify ethical concerns and apply ethical thinking tools and frameworks to resolve actual ethical dilemmas. This course also provides you with an understanding of key regulatory frameworks and legal principles related to data generation, manipulation and use.
+Learning Outcomes:
+- Critically reflect on your own values, practices and role as a potential agent of positive change.
+- Identify the principles of data stewardship, governance and integrity.
+- Situate data analytics within broad and complex contexts.
+- Apply ethical frameworks and principles to data analytics scenarios.
+- Evaluate the consequences and impacts of data decisions.
+- Identify the legal, regulatory and privacy considerations relating to data in key jurisdictions.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZBU6507 =====
+Subject: Data Visualisation and Communication (ZZBU6507)
+Credit Points: 6
+Overview: Data visualisation and communication are increasingly important as complements to the study of analytics. The ability to present visual access to the huge amounts of data that business creates is an essential skill for any analyst. Easily digestible visuals and graphics are often the simplest and most powerful tools to enable communication of business insights gained from data. In this course, students will learn what makes an effective data visualisation and how to create interactive data visualisations. Visualisation in Tableau and other tools including cutting-edge graphical, immersive techniques will be explored. There will also be a strong focus on developing the skill of data storytelling. Students will learn how to combine data, create effective and engaging data visualisations and construct powerful stories to drive change.
+Learning Outcomes:
+- Communicate data insights effectively to a variety of audiences.
+- Critically evaluate and interpret data graphics.
+- Produce appropriate high-quality data visualisations using a variety of techniques.
+- Apply data storytelling techniques to a range of business problems.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZCA6510 =====
+Subject: Decision Making in Analytics (ZZCA6510)
+Credit Points: 6
+Overview: Businesses deal with an ever-increasing array of data, in terms of volume and sources. This presents businesses with opportunities to harness insights from this data to support decision making. This course will introduce students to a range of decision-making techniques in data analytics. Students will be shown how to design and implement application systems to support decision making in organisational contexts. The course will also cover a number of modelling approaches (optimisation, predictive, descriptive) and their integration in the context of enabling improved data-driven decision making. Students will be expected to be able to calculate and manipulate data as well as interpret the results in order to derive and evaluate alternative solutions to typical organisational problems.
+Learning Outcomes:
+- Identify and describe complex analytical problems in a variety of contexts.
+- Develop skills in spreadsheet modelling to enhance decision making processes in real-life contexts.
+- Apply critical thinking to complex information, problems, concepts and theories of analytical tools.
+- Apply analytical tools and established theories in the decision-making process.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZEN9021 =====
+Subject: Principles of Programming (ZZEN9021)
+Credit Points: 6
+Overview: This is a first programming course. It provides an introduction to programming in Python and covers the following essentials: Program design and implementation in a high level language, with procedural and object oriented constructs and some functional features. Fundamental programming techniques, data structures and algorithms. Debugging and testing. Simulation. Applications in different areas, including those involving graphical user interfaces and animations.
+Learning Outcomes:
+- Design and implement algorithmic solutions to problems that require writing small to medium-sized programs.
+- Write code for a variety of programming tasks for a broad range of applications, in particular in analysing data, plotting data, and running simulations.
+- Apply programming techniques that borrow from the procedural, functional and object-oriented paradigms.
+- Apply a disciplined, rigorous, and methodical approach for program design and development, with special attention given to effective debugging and testing.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZEN9311 =====
+Subject: Database Systems (ZZEN9311)
+Credit Points: 6
+Overview: A first course on database systems. Data modelling; principles of database design; data manipulation languages; database application teachniques; introduction to DBMS internals. Prac work: design and implementation of a database application using SQL and stored procedures.
+Learning Outcomes:
+- Develop accurate, non-redundant data models.
+- Implement stored procedures and triggers.
+- Analyse and improve redundancy in relational models.
+- Realise data models as relational database schemas.
+- Describe, at a high level, the internals and database management systems
+- Formulate queries via the full range of SQL constructs.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZEN9313 =====
+Subject: Big Data Management (ZZEN9313)
+Credit Points: 6
+Overview: This course introduces the core concepts and technologies involved in managing Big Data. Topics include: characteristics of Big Data and Big Data analysis, storage systems (e.g. HDFS), techniques for manipulating Big Data (e.g. MapReduce, Spark), query languages (e.g. HiveQL and Spark SQL), and typical applications (e.g. recommender systems, text analysis).
+Learning Outcomes:
+- Develop efficient solutions for analytical problems involving Big Data.
+- Utilise the map/reduce paradigm to manipulate Big Data.
+- Explain the important characteristics of Big Data.
+- Develop an appropriate storage structure for a Big Data repository.
+- Use a high-level query language to manipulate Big Data.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZEN9444 =====
+Subject: Neural Networks, Deep Learning (ZZEN9444)
+Credit Points: 6
+Overview: Neural networks and deep learning play a critical role in pushing the boundaries of what AI can achieve, making them indispensable for various industries and applications. Their ability to learn and adapt from data has revolutionised many fields and opened up new opportunities for solving complex problems. This course provides an introduction to and deep exploration of neural networks and deep learning principles and practice. Topics chosen from: perceptrons, feedforward neural networks, backpropagation, Hopfield and Kohonen networks, restricted Boltzmann machine and autoencoders, deep convolutional networks for image processing; geometric and complexity analysis of trained neural networks; recurrent networks, language processing, semantic analysis, long short term memory; designing successful applications of neural networks; recent developments in neural networks and deep learning.
+Learning Outcomes:
+- Students will be able to analyse a solution to a neural network problem in terms of the relevant NN and DL techniques.
+- Students will demonstrate an understanding of a variety of NN and DL techniques.
+- Students will be able to program neural network and deep learning applications.
+- Students will have an awareness of the computational theory underlying the various NN methods.
+- Students will demonstrate an understanding of aspects of the social, intellectual, and neuro-biological context of neural networks and deep learning.
+- Students will demonstrate a working knowledge of one or more neural network simulation packages, and be able to use them to perform a range of computational tasks.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZSC5806 =====
+Subject: Regression Analysis for Data Scientists (ZZSC5806)
+Credit Points: 6
+Overview: Regression is a set of statistical techniques widely used to analyse relationships between several variables. In this course, students will explore the applications of a range of regression techniques, including: linear regression; generalised linear models; logistic and Poisson models; penalised regression methods; variable selection and cross-validation; local and spline regression, including penalised, smoothing, regression, and thin plate splines; and generalised additive models. The lectures will be complemented with worked examples using the R data analysis and statistical programming software. This online course covers the same topics as in MATH5806 and is only available to students enrolled in the online Diploma of Data Science and the online Master of Data Science.
+Learning Outcomes:
+- Compare and utilise various regression models and techniques along with their applications, intuitions, strengths and weaknesses.
+- Apply the appropriate regression technique to analyse a given data set.
+- Use output of statistical software along with the theoretical formulas to provide a logical model for a given data set.
+- Choose the appropriate R packages/functions to apply an appropriate regression technique in the analysis of a given data set.
+- Interpret the output of statistical software to describe the results of the regression analysis.
+- Present the results of regression analysis in an appropriate format for a range of intended audiences.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZSC5836 =====
+Subject: Data Mining and Machine Learning (ZZSC5836)
+Credit Points: 6
+Overview: Recent technological advances have given organisations access to enormous data sets that raise challenges for data analysis. Hence, a wide range of data mining methods and tools have been developed to extract information, discover patterns, and enable predictive decision making. Machine learning is the algorithmic approach to learning from data. This course covers the key techniques in data mining and machine learning together with theoretical background and applications. The following topics will be covered in this course: regression and classification problems, data mining performance evaluation, gradient descent learning and backpropagation neural networks, tree-based learning and ensemble methods, clustering and dimensionality reduction, and practical aspects of machine learning applications.
+Learning Outcomes:
+- Select and define an appropriate representation for data to be used as input to and output from a machine learning algorithm.
+- Compare different algorithms according to the properties of their inputs and outputs and in terms of similarities and differences in their mathematical and computational aspects.
+- Develop machine learning algorithms using computational and mathematical techniques to solve learning problems.
+- Understand the limitations of machine learning and data mining concepts.
+- Use Machine Learning algorithms on real-world data sets and collect results to enable evaluation and comparison of their performance.
+- Apply key concepts from the foundations of computational and statistical learning theory and demonstrate their applicability in Machine Learning.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZSC5855 =====
+Subject: Multivariate Analysis for Data Scientists (ZZSC5855)
+Credit Points: 6
+Overview: This fully-online course gives students a methodological background in Multivariate Analysis as a backbone of Applied Statistics. It introduces some of the most commonly applied multivariate techniques, such as: mean vector and covariance matrix estimation and testing, estimation and testing of correlations, principal component analysis, canonical correlation analysis, cluster analysis, factor analysis, discriminant analysis, Support Vector Machines and structural equations. Students will study the properties and the importance of the multivariate normality assumption in the context of each of these methods. Computing and data analysis feature prominently in this course. Note: This course is only available to students enrolled in the Graduate Diploma (5646) or Master of Data Science (8646) Programs.
+Learning Outcomes:
+- Analyse datasets using multivariate techniques, interpret results, and draw conclusions on the real-world problem at hand.
+- Use multivariate terminology, notation, concepts and methods to successfully analyse multivariate data.
+- Apply the properties of multivariate normal distribution to justify optimality properties of Statistical Inference procedures based on multivariate normality.
+- Code a simple multivariate analysis using R language.
+- Formulate and solve inference problems that use multivariate statistical procedures involving covariance or correlation matrices.
+- Perform a range of multivariate inference procedures using the R software.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZSC5905 =====
+Subject: Statistical Inference for Data Scientists (ZZSC5905)
+Credit Points: 6
+Overview: This intensive course provides an introduction to probability and distribution theory and introductory Statistical Inference. Students will learn the fundamental principles of inference: sufficiency, likelihoods, maximum likelihood and Bayesian methods. Estimation, confidence set construction and hypothesis testing, and computationally intensive methods such as the bootstrap method are also discussed. This course will take the flipped classroom approach and is delivered completely online. Students are assigned the “homework” of watching video lectures and reading materials relevant to the online lecture session. During the session, a recap and overview of the content will be given and students will practice what they’ve learned through examples and tutorial problems. This course is only available to students enrolled in the postgraduate Data Science programs 7446, 5646, 8646.
+Learning Outcomes:
+- Calculate key population parameters of interest to test hypotheses and to construct confidence regions.
+- Use computer packages to generate output for the most common inference procedures and for computer-intensive calculations such as bootstrapping.
+- Apply key methods of statistical inference from first principles of probability theory.
+- Apply fundamental principles of statistical inference to solve appropriate problems.
+- Apply various likelihood-based and Bayesian inference methods to analyse data and solve problems.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZSC5960 =====
+Subject: Bayesian Inference and Computation for Data Scientists (ZZSC5960)
+Credit Points: 6
+Overview: After describing the fundamentals of Bayesian inference, this course will examine several detailed aspects including: the specification of prior and posterior distributions, Bayesian decision theoretic concepts, the ideas behind Bayesian hypothesis tests, model choice and model averaging, and various model types such as hierarchical and mixture models. An important part of Bayesian inference is the requirement to numerically evaluate complex integrals on a routine basis. Accordingly this course will also introduce the ideas behind Monte Carlo integration, importance sampling, rejection sampling, Markov chain Monte Carlo samplers such as the Gibbs sampler and the Metropolis-Hastings algorithm. This course is only available to students enrolled in the Online Masters or Graduate Diploma of Data Science. Material is delivered 100% online through a series of self-guided lessons which include challenges, practice questions and videos. Questions can be asked on the discussion forum. Webinars will be held to guide students through the material and to help answer further questions that cannot be raised in the discussion forum.
+Learning Outcomes:
+- Extend statistical knowledge beyond classical statistical techniques to demonstrate when the Bayesian approach can be beneficial.
+- Explain the philosophy and background concepts underlying Bayesian inference.
+- Identify and explain the importance of computational techniques that are critical for Bayesian inference.
+- Perform Bayesian analysis on real-world data.
+- Construct Bayesian models for practical examples and discuss their advantages and disadvantages.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZSC9001 =====
+Subject: Foundations of Data Science (ZZSC9001)
+Credit Points: 6
+Overview: This is an intensive course that covers the fundamentals of Data Science as it is applied in Computer Science, Economics, Mathematics and Statistics. The course will introduce topics such as databases, data analytics, data mining, Bayesian statistics, statistical software, econometrics, machine learning, and business forecasting. The course also introduces the Data Science and Decisions program, indicating the relevance of the courses that follow in the program (including electives) and their place in data science and its applications. This course includes lectures, tutorials, and workshops and is delivered completely online. The course will take the flipped classroom approach. Students are assigned the “homework” of watching video lectures and reading materials relevant to the online lecture session. During each session, a recap and overview of the content will be given and students will practice what they’ve learned through examples and tutorial problems.
+Learning Outcomes:
+- Apply probability rules in a given setting to calculate key quantities.
+- Use R/RStudio to perform statistical computations and simulations.
+- Use key theoretical tools to explore the properties of random variables.
+- Apply various data visualisation tools, perform regression analysis and draw casual inference from data.
+- Apply key methods of statistical inference in applied settings.
+- Apply fundamental data science techniques and tools, including machine learning, Naïve Bayes classification, Decision trees, K-Nearest Neighbour, unsupervised learning and neural networks.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZSC9020 =====
+Subject: Data Science Project (ZZSC9020)
+Credit Points: 6
+Overview: This course exposes students to research methods in applying data science techniques to a research project. The course serves as a capstone in the Master of Data Science program. Students will be required to apply and demonstrate their learning from the courses in the program. It also requires students to present their work in visual and verbal forms including a presentation.
+Learning Outcomes:
+- Students will be able to apply robust research methods to design, build, or evaluate a project as it relates to data science.
+- Students will be able to communicate technical information clearly, both verbally and in writing
+- Students will be able to work effectively in a project team, and lead when required
+- Students will be able to critically reflect on a specialist body of knowledge related to data science.
+- Students will be able to manage their time effectively, and make reasoned trade-offs over competing demands
+- Students will be able to work from a set of requirements, elaborate them, and produce a specification
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+

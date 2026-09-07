@@ -1,0 +1,102 @@
+{
+  "code": "adelaide-gdlp_gdlegalpr",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in law.",
+      "evidenceLines": [
+        "**Institution**: The University of Adelaide",
+        "**Program Identifier / Slug**: gdlp_gdlegalpr",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in law.",
+      "evidenceLines": [
+        "**Academic Calendar Year**: 2025/2026",
+        "**Faculty**: Faculty of Arts, Business, Law and Economics (ABLE)",
+        "- **Program Identifier / Slug**: gdlp_gdlegalpr"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within law.",
+      "evidenceLines": [
+        "Subject: Civil Litigation Practice (LAWS5079)",
+        "Subject: OL Civil Litigation Practice (LAWS5092)",
+        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/gdlp_gdlegalpr"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in law.",
+      "evidenceLines": [
+        "Identify purpose, audience and structure and construct concise and cohesive written documents for a/legal/professional/general/audience within the context of civil litigation.",
+        "Prepare, and analyse client instructions, and provide advice, having regard to the circumstances, good practice and the requirements of the law.",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in law.",
+      "evidenceLines": [
+        "Subject: Commercial and Corporate Practice (LAWS5080)",
+        "Subject: OL Commercial and Corporate Practice (LAWS5093)",
+        "Structure and sustain concise and cohesive written legal arguments."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in law.",
+      "evidenceLines": [
+        "Demonstrate effective communication skills individually and as part of a group.",
+        "- **Institution**: The University of Adelaide",
+        "- **Program Identifier / Slug**: gdlp_gdlegalpr"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in law.",
+      "evidenceLines": [
+        "Collaborate and debate the issues in the course.",
+        "Subject: Property Law Practice (LAWS5088)",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The Graduate Diploma in Legal Practice is an AQF Level 8 qualification with a standard full-time duration of 1 year.",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Diploma in Legal Practice.",
+        "evidenceLines": [
+          "The Graduate Diploma in Legal Practice is an AQF Level 8 qualification with a standard full-time duration of 1 year.",
+          "Program Maximum Duration"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in law.",
+        "evidenceLines": [
+          "Subject: Civil Litigation Practice (LAWS5079)",
+          "**Institution**: The University of Adelaide"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

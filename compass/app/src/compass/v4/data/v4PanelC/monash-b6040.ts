@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+    "evidenceLines": [
+      "develop a practical understanding and appreciation of current and emerging accounting aspects for the chosen sectors",
+      "evaluate academic and professional papers in relation to the emerging accounting topics in the chosen sectors",
+      "The Master of Global Business is a multi-disciplinary program that advances your knowledge of business and the global environment in which it operates."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+    "evidenceLines": [
+      "compare and contrast accounting for specific chosen sectors from both a management and financial accounting perspective",
+      "apply critical thinking, problem solving and presentation skills in individual and/or group activities.",
+      "This Master’s program provides you not only with a comprehensive understanding of the dynamic economic, political and social forces that affect and impact upon global business, but also with the skill set required to function and operate in a global environment."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+    "evidenceLines": [
+      "Subject: Accounting study tour (ACX5951)",
+      "Subject: Industry placement (BEX5001)",
+      "2 - Presentation: 35% (Hurdle: None)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+    "evidenceLines": [
+      "1 - Written: 65% (Hurdle: None)",
+      "First semester, Term 1 and Winter semester: reflect on how the university has prepared you for the business environment. Second semester and Summer semester A: reflect on the development of teamwork skills for application to the workplace, using appropriate technologies",
+      "The Master of Global Business is designed to build upon your work experience and your undergraduate credentials by further developing and strengthening your business skills and acumen."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+    "evidenceLines": [
+      "Subject: Consulting project (BEX5006)",
+      "Subject: Industry placement (BEX5012)",
+      "First semester, Term 1 and Winter semester: use the experience to reflect upon future professional opportunities Second semester and Summer semester A: use the experience to reflect upon current and future professional abilities"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+    "evidenceLines": [
+      "apply theory to practice in a supervised environment",
+      "The Master of Global Business is a multi-disciplinary program that advances your knowledge of business and the global environment in which it operates.",
+      "This Master’s program provides you not only with a comprehensive understanding of the dynamic economic, political and social forces that affect and impact upon global business, but also with the skill set required to function and operate in a global environment."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+    "evidenceLines": [
+      "First semester, Term 1 and Winter semester: evaluate personal and professional development Second semester and Summer semester A: evaluate personal and professional development gained from experience in a business environment",
+      "Subject: Consulting project (BEX5112)",
+      "The Master of Global Business is designed to build upon your work experience and your undergraduate credentials by further developing and strengthening your business skills and acumen."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The Master of Global Business is structured in three parts. Part A. Core studies, Part B. Capstone studies and Part C. Elective studies",
+      "The Master of Global Business is a multi-disciplinary program that advances your knowledge of business and the global environment in which it operates."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Global Business.",
+      "evidenceLines": [
+        "The Master of Global Business is structured in three parts. Part A. Core studies, Part B. Capstone studies and Part C. Elective studies",
+        "Part A. Core studies"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in business and management.",
+      "evidenceLines": [
+        "Subject: Accounting study tour (ACX5951)",
+        "develop a practical understanding and appreciation of current and emerging accounting aspects for the chosen sectors"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

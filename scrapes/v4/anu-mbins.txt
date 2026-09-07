@@ -1,0 +1,296 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/MBINS =====
+# Master of Business Information Systems (MBINS)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: MBINS
+- **Academic Year**: 2027
+- **Career / Study Level**: Postgraduate
+- **Program Duration**: 2 year full-time
+- **Minimum Units Required**: 96 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal MBusInfSys
+- **CRICOS Code**: code 050796M
+- **UAC Code**: N/A
+- **Field of Education**: of Education Management and Commerce
+- **Academic Contact**: contact Dr Amir Riaz
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/MBINS
+
+## Program Description
+A single two year graduate award offered by theANU College of Business and Economics
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Evaluate and synthesize evidence to inform decision making;
+2. Create opportunities and novel solutions to organisational challenges;
+3. Work effectively with others to resolve challenges;
+4. Adapt to complex and uncertain situations;
+5. Engage, inform and influence stakeholders;
+6. Incorporate the influence of a changing global environment;
+7. Model ethical behaviour and make principled decisions; and
+8. Apply specialised knowledge and skills in the area of business information systems.
+
+## Program Requirements & Study Options
+### Program Requirements
+The Master of Business Information Systems requires the completion of 96 units, which must consist of:
+
+### Study Options
+Year 1
+48 units
+MGMT7250
+Evidence-Based Management
+6 units
+MGMT7020
+Technology and Project Management
+6 units
+MGMT7170
+Tools and Techniques for Business Project Management
+6 units
+Subject Area Elective or Additional Specialisation or
+COMP6240
+INFS7040
+Digital Transformation
+6 units
+INFS7004
+Accounting Information Systems
+6 units
+COMP6240
+Relational Databases
+6 units
+COMP6710
+or
+COMP6730
+from 2nd List
+Year 2
+48 units
+INFS8004
+Enterprise Systems and Strategy
+6 units
+INFS8205
+Digital Strategy, Executive and Operations
+6 units
+INFS8210
+Business Analytics for Managers
+6 units
+Subject Area Elective or Additional Specialisation
+A 6u COMP course from 3rd List
+INFS8008
+Intelligent Business Analysis: Models, Processes and Techniques
+6 units
+Subject Area Elective or Additional Specialisation
+Subject Area Elective or Additional Specialisation
+
+### Admission Requirements
+Applicants must present one of the following:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6240 =====
+Subject: Relational Databases (COMP6240)
+Credit Points: 6 units
+Overview: This course is an introduction to relational databases and the general skills for designing and using them. The topics include the relational data model, SQL, entity-relationship model,functional dependencies,(de-)normalisation, relational algebra, query processing and optimisation, database transactions and security. To deepen the understanding of relational databases, the current industry development of database systems such as NoSQL databases will be introduced at the end of this course.
+Learning Outcomes:
+- Describe the basic concepts of the relational model and understand its mathematical foundation;
+- Connect database design with social and economic impacts including security, ethics, and Australian Privacy Principles.
+- Use SQL to define, query and manipulate a relational database, and describe principles of SQL query processing and optimisation.
+- Use data modelling concepts and practices to create, evaluate and communicate relational database designs, collaboratively and individually.
+- Compare the relational data model with alternative models.
+Assessment Tasks:
+- In-class activities and quizzes: 10% (Hurdle: False)
+- Assignments: 30% (Hurdle: False)
+- Final Exam: 60% (Hurdle: False)
+Workload: Lectures and laboratory sessions plus self study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6710 =====
+Subject: Structured Programming (COMP6710)
+Credit Points: 6 units
+Overview: This is an introductory programming course that teaches basic concepts in imperative and object-oriented programming and corresponding data structures for students with some previous programming experience.
+
+Students will learn to use an industrial-strength object-oriented programming language and form basic mental models of how computer programs execute and interact with their environment. The course focuses on key aspects of solving programming problems: reasoning about a problem description to design appropriate data representations and function/method descriptions, to find examples, to write, test, debug, and otherwise evaluate the relevant code, and to present and defend their approach.
+
+Students will learn to effectively use a large standard library and key standard data structures, including lists, trees, hash tables, and graphs. The course also introduces the basics of reasoning about the time and space complexity of algorithms, in particular as related to the above data structures.
+Learning Outcomes:
+- Internalize computational thinking
+- Apply fundamental programming concepts, using an object-oriented programming language, to solve practical programming problems
+- Implement, debug, and evaluate algorithms for solving substantial problems; implement an abstract data type
+- Apply basic algorithmic analysis to simple algorithms; use appropriate algorithmic approaches to solve problems
+- Design, implement, and test data structures and code
+- Present, explain, evaluate, and defend choices in design and implementations of programs and algorithms
+- Independently write programs that address given programming problems
+- Understand their ethical responsibilities as a programmer with respect to Academic integrity, the use of Artificial Intelligence and authorship of code
+Assessment Tasks:
+- Assignments and in-Person Activities: 20% (Hurdle: False)
+- Final Exam and in-term test: 80% (Hurdle: False)
+Workload: Lectures, tutorials/laboratory sessions, presentations, assessments and self-study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6730 =====
+Subject: Programming for Scientists (COMP6730)
+Credit Points: 6 units
+Overview: This course teaches introductory programming, fundamental programming language and computer science concepts, and computational problem solving illustrated with applications common in science and engineering, such as data analysis, visualisation, and image processing. We will take a different approach, including prompting and working with GenAI, with emphasis on testing, debugging and problem decomposition, and using GenAI to help understand code.
+
+These skills will empower students to write software with the aid of GenAI. Assessment will include exam(s) without the aid of GenAI. Students will also create larger software projects with the aid of GenAI. The course does not require any prior knowledge of programming or computer science. It is designed to be a stand-alone computing unit.
+
+Students who wish to study computing courses at a higher level should check course prerequisites as they may need to completeCOMP6710orCOMP7710in addition toCOMP6730.
+Learning Outcomes:
+- Apply advanced programming constructs and structured programming methodologies to develop reliable software systems.
+- Explain key concepts in AI-assisted programming, including Large Language Models (LLMs), prompting, problem decomposition, and top-down design.
+- Apply AI-assisted programming workflows and advanced prompt-engineering techniques to guide, refine, and improve code generated by AI assistants.
+- Analyse the computational complexity of programs, and apply debugging and testing techniques, including black-box and white-box testing.
+- Evaluate and improve code quality using critical judgement.
+- Design and implement complete programs that solve practical problems using structured programming methodologies and AI-assisted prompting.
+- Critically evaluate the role, benefits, limitations, and risks of generative AI in software development projects
+Assessment Tasks:
+- Homework, Assignments and Lab Tests: 20% (Hurdle: False)
+- Programming Project: 20% (Hurdle: False)
+- Final Exam and Mid-semester Test: 60% (Hurdle: False)
+Workload: Lectures, tutorials, assignments, self-study & exam prep for a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/INFS7004 =====
+Subject: Accounting Information Systems (INFS7004)
+Credit Points: 6 units
+Overview: Accounting Information Systems (AIS) form an integral part of modern organisations as they support managers to plan and control business operations, improve decision-making, and support financial accounting and reporting. The role of the AIS is changing.  The Enterprise Resource Planning (ERP) system builds on the AIS and offers the benefits of sharing information across all business functional areas leading to improved business processes.  Many internal controls are addressed by the ERP system.  Students will be introduced to this cross functional integration and improved internal control with ‘hands on’ SAP experience.  Skills will be developed in systems documentation techniques to enable an appreciation of key business processes and associated controls. ERP knowledge and skills are valued by employers, with graduates having higher employability.
+Learning Outcomes:
+- Develop systems documentation, individually and as part of a team, to identify and resolve issues and opportunities in accounting information system workflows.
+- Apply the form and function of ERP systems to demonstrate the recording and management of financial transactions within the ERP dataflow framework.
+- Analyse technological innovations in accounting and enterprise systems to address challenges from legacy systems and process-based practices within various business strategies.
+- Assess the adequacy of internal controls using governance frameworks in audit contexts to demonstrate the role of corporate and IT governance in managing organisational, ethical and cybersecurity risks in accounting systems.
+- Evaluate the integration of contemporary technologies within accounting information systems as a driver of digital transformation in business, aimed at enhancing decision-making, transparency, and operational efficiency.
+Assessment Tasks:
+- Typical assessments may include, but is not restricted to: in-class exercises, written and oral assignments, quizzes, examinations, group project tasks, oral presentation, and other assessment deemed appropriate to show attainment of the learning outcomes set for the course. Further details will be made available via the Class Summary.: 100% (Hurdle: False)
+- Group assessment task. Further details, including % value, will be made available via the Class Summary.: 0% (Hurdle: False)
+- An assessment task on cybersecurity. Further details, including % value, will be made available via the Class Summary).: 0% (Hurdle: False)
+Workload: Students taking this course are expected to commit 130 hours to completing the work. For semester length offerings this will typically include 3 hours per week in class and at least 7 hours a week on average (excluding non-teaching weeks) on course reading, research, writing and assignment work.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/INFS7040 =====
+Subject: Digital Transformation (INFS7040)
+Credit Points: 6 units
+Overview: This course covers issues relating to the management of information and communication technology (ICT), important ICT infrastructure and systems, ICT strategic planning and the governance of ICT. Students will critically analyse and present ICT management issues in class.
+Learning Outcomes:
+- Identify how Digital Transformation impacts corporate strategies (Remember & Ask)
+- Classify different forms of Digital Disruption (Understand & Ask)
+- Choose appropriate concepts and theories for developing business models (Apply & Acquire)
+- Gauge the role information technology and the World Wide Web play in transforming business models and recognise its social and ethical implications, as well as associated cybersecurity threats (Analyse & Appraise)
+- Compare all types of relevant evidence towards finding an appropriate business model on the Web for a disrupted organisation (Evaluate & Aggregate)
+- Design an appropriate business model for an organisation that addresses the disrupted environment and design the change process required to arrive at the new business model (Create & Assess).
+Assessment Tasks:
+- Typical assessments may include, but are not restricted to: in-class exercises, written and oral assignments, quizzes, examinations, group project tasks, oral presentations, and other assessments deemed appropriate to show the attainment of the learning outcomes set for the course. Further details will be made available via the Class Summary.: 100% (Hurdle: False)
+- An assessment task on cybersecurity. Further details, including % value, will be made available via the Class Summary).: 0% (Hurdle: False)
+Workload: Students taking this course are expected to commit 130 hours to completing the work. For semester length offerings this will typically include 3 hours per week in class and at least 7 hours a week on average (excluding non-teaching weeks) on course reading, research, writing and assignment work.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/INFS8004 =====
+Subject: Enterprise Systems and Strategy (INFS8004)
+Credit Points: 6 units
+Overview: This course builds on the material introduced in introductory Business Information Systems courses by covering the strategic architecting, development and use of Business IT systems and processes in organisations and business enterprises. Topical issues such as the organizational enterprise architecture and business process management implications raised by e-commerce/e-business/e-government, trust in the enterprise environment, supply chain and customer relationship management systems, legacy information systems integration, data and content management, business analysis, requirements engineering and systems realisation and managerial implementation (including executive judgement) are also covered in the course. An in-depth course project is required as part of the assessment.
+Learning Outcomes:
+- Appraise concepts, theories, and processes principles in enterprise systems;
+- Demonstrate a critical understanding of enterprise systems and processes theories and current quality research associated with the specific topics covered in this course;
+- Apply evidence in formulating best practice enterprise systems and processes analysis;
+- Contrast internal and external dimensions of enterprise systems by using appropriate theories, models examples, and personalisations;
+- Advocate effectively in oral and written forms about enterprise systems and processes principles, concepts and theories, and their application using appropriate comparisons, logic, arguments, and reflections;
+- Apply principled investigation and ethical judgement in best practice enterprise systems and processes analysis, consistent with the ACS Code of Ethics;
+- Assemble an applied enterprise systems and processes team research project that formulates and constructs systems-process designs and solutions;
+- Demonstrate a critical understanding of information privacy principles in general and, in particular, an understanding of the European Union General Data Protection Regulation and its implications for the enterprise systems and strategies of organisations within and outside the European Union.
+Assessment Tasks:
+- Typical assessment may include, but is not restricted to: exams, assignments, quizzes, presentations and other assessment as appropriate. Further details will be made available via the Class Summary.: 50% (Hurdle: False)
+- A research-based project, a capstone experience and/or a piece of scholarship. Further details will be made available via the Class Summary.: 50% (Hurdle: False)
+- An assessment task on ethical issues, such as GDPR and privacy principles. Further details, including % value, will be made available via the Class Summary).: 0% (Hurdle: False)
+Workload: Students taking this course are expected to commit 130 hours to completing the work. For semester length offerings this will typically include 3 hours per week in class and at least 7 hours a week on average (excluding non-teaching weeks) on course reading, research, writing and assignment work.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/INFS8008 =====
+Subject: Intelligent Business Analysis: Models, Processes and Techniques (INFS8008)
+Credit Points: 6 units
+Overview: This course aims to provide students with the knowledge and skills necessary to successfully undertake information systems analysis. The course provides coverage of the concepts, skills, methodologies, techniques, tools and perspectives considered essential for systems analysts working with modern information systems and their development.
+Learning Outcomes:
+- Explain the organizational context in which information systems development is undertaken;
+- Explain basic systems theory and the role of the systems analyst;
+- Model the systems analysis and development process;
+- Elicit information system requirements;
+- Construct process, logic, and data models using traditional modelling techniques;
+- Communicate an understanding of basic object-oriented modelling using UML;
+- Evaluate the appropriateness of Agile versus traditional systems analysis approaches for specific project contexts, identifying trade-offs and risks in methodology selection;
+- Communicate an understanding of “soft systems” aspects and techniques in systems analysis;
+- Identify and analyse ethical issues in information systems analysis by employing established ethical theories;
+- Apply principled investigation and ethical judgment in systems analysis, consistent with the ACS Code of Ethics.
+Assessment Tasks:
+- Typical assessments may include, but is not restricted to: in-class exercises, written and oral assignments, quizzes, examinations, group project tasks, oral presentation, and other assessment deemed appropriate to show attainment of the learning outcomes set for the course. Further details will be made available via the Class Summary.: 100% (Hurdle: False)
+Workload: Students taking this course are expected to commit 130 hours to completing the work. For semester length offerings this will typically include 3 hours per week in class and at least 7 hours a week on average (excluding non-teaching weeks) on course reading, research, writing and assignment work.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/INFS8205 =====
+Subject: Digital Strategy, Executive and Operations (INFS8205)
+Credit Points: 6 units
+Overview: This course approaches information systems from the executive and operational management perspective. It assumes a familiarity with the fundamentals of business and information systems from a technological point of view, as would be covered in a foundation course in this area. The emphasis of the course will be on understanding concepts, characteristics and factors, particularly from technological and non-technological perspectives, that are likely to impact the effectiveness and success of information systems in business environments. The aim of the course is therefore to provide students with a balanced view and deeper understanding of developing information systems strategy and managing information systems from organisational and technical perspectives so that they have a theoretically sound, but nevertheless practically oriented foundation, from which to successfully tackle information systems projects, initiatives and implementations.
+Learning Outcomes:
+- Appraise BIS strategic planning and management principles, concepts, and theories;
+- Demonstrate a critical understanding of BIS strategic planning and management theories and current quality research associated with the specific topics covered in this course;
+- Apply evidence in formulating best practice BIS strategic planning and management analysis, including cybersecurity management;
+- Contrast internal and external dimensions of BIS strategic planning and management by applying appropriate theories, models, examples, and personalisation;
+- Advocate effectively in oral and written forms about BIS strategic planning and management principles, concepts and theories, and their application using appropriate comparisons, logic, arguments, and reflections;
+- Apply principled investigation and ethical judgment in best practice BIS strategic planning and management analysis, consistent with the ACS Code of Ethics, such as GDPR and privacy principles;
+- Assemble an applied BIS strategic planning and management team research project that formulates longer term BIS strategy and constructs medium-tactical term plans and technical solutions.
+Assessment Tasks:
+- Typical assessment may include, but is not restricted to: exams, assignments, quizzes, presentations and other assessment as appropriate. Further details will be made available via the Class Summary.: 50% (Hurdle: False)
+- A research-based project, a capstone experience and/or a piece of scholarship. Further details will be made available via the Class Summary.: 50% (Hurdle: False)
+- Oral assessment task. Further details, including % value, will be made available via the Class Summary.: 0% (Hurdle: False)
+- An assessment task on ethical issues, such as GDPR and privacy principles. Further details, including % value, will be made available via the Class Summary).: 0% (Hurdle: False)
+- An assessment task on cybersecurity management. Further details, including % value, will be made available via the Class Summary).: 0% (Hurdle: False)
+Workload: Students taking this course are expected to commit 130 hours to completing the work. For semester length offerings this will typically include 3 hours per week in class and at least 7 hours a week on average (excluding non-teaching weeks) on course reading, research, writing and assignment work.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/INFS8210 =====
+Subject: Business Analytics for Managers (INFS8210)
+Credit Points: 6 units
+Overview: This course builds on the material introduced in introductory Business Information Systems courses by covering how business analytics and business intelligence can be used for improved business decision-making. Contemporary forms of analytics such as visual, text, sentiment, web, and social are covered in the course, as well as established technologies like decision support, knowledge management, collaborative and expert systems.
+Learning Outcomes:
+- Identify the business problems that require decision-making support from business analytics;
+- Establish the best search strategy to acquire evidence relevant to the business problem;
+- Establish the business analytics method relevant to the business process and the reliability and validity of evidence;
+- Summarise the relevant evidence in view of finding analytics solutions to business questions;
+- Recognise social and ethical implications of analytics solutions to the business problem, consistent with the ACS Code of Ethics, such as GDPR and privacy principles;
+- Identify and evaluate cybersecurity risks associated with data acquisition, storage, processing, and analytics workflows;
+- Design optimal analytics processes to increase the likelihood of favourable business decision-making outcomes;
+- Reflect on feedback to adjust solutions.
+Assessment Tasks:
+- Typical assessments may include, but are not restricted to: in-class exercises, written and oral assignments, quizzes, examinations, group project tasks, oral presentations, and other assessments deemed appropriate to show the attainment of the learning outcomes set for the course. Further details will be made available via the Class Summary.: 100% (Hurdle: False)
+- An assessment task on ethical issues, such as GDPR and privacy principles. Further details, including % value, will be made available via the Class Summary).: 0% (Hurdle: False)
+- An assessment task on cybersecurity management. Further details, including % value, will be made available via the Class Summary).: 0% (Hurdle: False)
+Workload: Students taking this course are expected to commit 130 hours to completing the work. For semester length offerings this will typically include 3 hours per week in class and at least 7 hours a week on average (excluding non-teaching weeks) on course reading, research, writing and assignment work.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MGMT7020 =====
+Subject: Technology and Project Management (MGMT7020)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MGMT7170 =====
+Subject: Tools and Techniques for Business Project Management (MGMT7170)
+Credit Points: 6 units
+Overview: The objective of this course is to provide an introduction to practical project management techniques applicable to business projects in the private and public sectors. Concepts and techniques covered may include project specification, work breakdown structures, scheduling, network analysis, resource management and budgeting, cost analysis, reporting tools such as Gantt and PERT network charts, contractual issues, and project termination.
+Learning Outcomes:
+- explain and illustrate the organisational context and environment within which project management operates;
+- define, explain and illustrate the project management framework and common tools, including the Agile methodology;
+- explain and illustrate the linkages and interrelationships of strategic deployment and project management from a strategic perspective;
+- examine, reflect and comment upon contemporary issues in project management both nationally and internationally;
+- communicate effectively in oral and written forms about business project management using appropriate concepts, logic and rhetorical conventions.
+Assessment Tasks:
+- Typical assessment may include but is not restricted to: exams, assignments, quizzes, presentations and other assessments as appropriate. Further details will be made available via the Class Summary.: 100% (Hurdle: False)
+- An assessment task on Agile Project Management. Further details, including % value, will be made available via the Class Summary: 0% (Hurdle: False)
+- An oral assessment task. Further details, including % value, will be made available via the Class Summary.: 0% (Hurdle: False)
+Workload: Students taking this course are expected to commit 130 hours to complete the work. For semester length offerings this will typically include 3 hours per week in class and at least 7 hours a week on average (excluding non-teaching weeks) on course reading, research, writing and assessment work.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MGMT7250 =====
+Subject: Evidence-Based Management (MGMT7250)
+Credit Points: 6 units
+Overview: The Evidence-based Management (EBMa) course provides students enrolled in programs at RSM with competencies centered around evidence that they are expected to develop and maintain throughout their studies and ultimately translate into their working life. EBMa involves the conscientious, explicit and judicious use of the best available evidence about and within business organisations for decision-making. This course equips students with fundamental knowledge about EBMa and evidence, and how it strengthens decision-making and practice in business and organisations. Students will explore evidence in organisational settings and the integration of evidence with particular decisions and actions in practice. Students will be able to translate principles of best available evidence to management practice and ethical decision-making, and as well to reflect on how to use evidence and their position to improve on their learning experience.
+Learning Outcomes:
+- describe Evidence-based practice (EBP) in management and its basic principles and its core and functional capabilities
+- formulate problems that require decision-making based on evidence-based principles and capabilities ( ASK )
+- create search strategies to acquire the best available evidence relevant to a problem ( ACQUIRE )
+- ascertain the methodological appropriateness, quality, and trustworthiness of evidence ( APPRAISE )
+- integrate different types of relevant evidence to answer questions ( AGGREGATE )
+- design and implement evidence-based interventions and solutions to a problem that take into account their social and ethical implications ( APPLY )
+- evaluate feedback obtained about interventions to determine needs for further action ( ASSESS )
+- generate insights and decision-making awareness through self-reflection ( ASSESS ).
+Assessment Tasks:
+- Typical assessments may include, but are not restricted to: in-class exercises, written and oral assignments, quizzes, examinations, group project tasks, oral presentations, and other assessments deemed appropriate to show the attainment of the learning outcomes set for the course. Further details will be made available via the Class Summary.: 100% (Hurdle: False)
+Workload: Students taking this course are expected to commit 130 hours to completing the work. For semester length offerings this will typically include 3 hours per week in class and at least 7 hours a week on average (excluding non-teaching weeks) on course reading, research, writing and assessment work.
+

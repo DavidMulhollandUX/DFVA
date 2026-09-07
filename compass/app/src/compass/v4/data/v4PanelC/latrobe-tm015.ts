@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 15,
+  "workplace": 6,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science.",
+    "evidenceLines": [
+      "Semester 2/Term 4 - Assess ethical, social, and technical implications of AI systems to inform responsible decision-making.",
+      "Semester 1/Term 2 - Analyse and design basic machine learning algorithms to model a practical case.",
+      "The Accelerated Master of Information Technology, accredited by the Australian Computer Society (ACS), develops your expertise in information technology systems, including artificial intelligence, cybersecurity and software systems for modern digital environments."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science.",
+    "evidenceLines": [
+      "Semester 2/Term 4 - Evaluate the suitability of different AI approaches for real-world problems and justify their selection in practical scenarios.",
+      "Semester 2/Term 4 - Apply AI approaches to solve business or technology challenges, considering constraints and objectives.",
+      "This accelerated course is designed for students who have completed a cognate degree in artificial intelligence, data science or information technology."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science.",
+    "evidenceLines": [
+      "Subject: ARTIFICIAL INTELLIGENCE FUNDAMENTALS   (CSE4002)",
+      "Subject: CYBER SECURITY PRINCIPLES (CSE4004)",
+      "Semester 1/Term 2 - Represent knowledge using semantic networks, scripts, frames and logic-based mechanisms and write simple Prolog programs to enable automated reasoning."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science.",
+    "evidenceLines": [
+      "Semester 1/Term 2 - Construct simple expert systems to solve a real-world problem.",
+      "Semester 1/Term 2 - Devise appropriate representations for state space search and game playing to solve practical problems.",
+      "Eligible students receive advanced standing for selected subjects, enabling you to complete the degree in 1.5 years."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science.",
+    "evidenceLines": [
+      "Subject: PROFESSIONAL PRACTICES AND ENTREPRENEURSHIP IN INFORMATION TECHNOLOGY  (CSE5003)",
+      "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+      "Semester 2/Term 4 - Critically interpret and explain the core concepts of artificial intelligence and evaluate how common AI models are designed to operate and generate outputs in varied contexts."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science.",
+    "evidenceLines": [
+      "Analyse approaches to security networks, firewalls, intrusion detection systems and intrusion prevention systems",
+      "The Accelerated Master of Information Technology, accredited by the Australian Computer Society (ACS), develops your expertise in information technology systems, including artificial intelligence, cybersecurity and software systems for modern digital environments.",
+      "This accelerated course is designed for students who have completed a cognate degree in artificial intelligence, data science or information technology."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science.",
+    "evidenceLines": [
+      "Appraise key terms and concepts in cyber security, cyber law, intellectual property and cyber crime",
+      "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+      "Eligible students receive advanced standing for selected subjects, enabling you to complete the degree in 1.5 years."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "Throughout the course, you will build core knowledge in cybersecurity, artificial intelligence and software systems while developing capabilities in project management and entrepreneurship within the IT industry.",
+      "The Accelerated Master of Information Technology, accredited by the Australian Computer Society (ACS), develops your expertise in information technology systems, including artificial intelligence, cybersecurity and software systems for modern digital environments."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Information Technology.",
+      "evidenceLines": [
+        "Throughout the course, you will build core knowledge in cybersecurity, artificial intelligence and software systems while developing capabilities in project management and entrepreneurship within the IT industry.",
+        "To qualify for the award of Master of Information Technology, students must complete 180 credit points consisting of:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in computer science.",
+      "evidenceLines": [
+        "Subject: ARTIFICIAL INTELLIGENCE FUNDAMENTALS   (CSE4002)",
+        "Semester 2/Term 4 - Assess ethical, social, and technical implications of AI systems to inform responsible decision-making."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

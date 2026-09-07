@@ -1,0 +1,102 @@
+{
+  "code": "adelaide-bintr_bintlrel",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in political science and policy studies.",
+      "evidenceLines": [
+        "**Institution**: The University of Adelaide",
+        "**Program Identifier / Slug**: bintr_bintlrel",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in political science and policy studies.",
+      "evidenceLines": [
+        "**Academic Calendar Year**: 2025/2026",
+        "**Faculty**: Faculty of Arts, Business, Law and Economics (ABLE)",
+        "- **Program Identifier / Slug**: bintr_bintlrel"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within political science and policy studies.",
+      "evidenceLines": [
+        "Subject: Life, Death and Culture (ANTH2008)",
+        "Subject: Data Analytics (ECON1012)",
+        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/bintr_bintlrel"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in political science and policy studies.",
+      "evidenceLines": [
+        "Introduce students to the anthropological literature on life and death.",
+        "Broaden students\u2019 knowledge of historical and cultural variation in how connections are forged or severed between the living and the dead.",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in political science and policy studies.",
+      "evidenceLines": [
+        "Subject: United States History and Cultural Identities (HIST3015)",
+        "Subject: Introduction to Health Ethics (HLTH1001)",
+        "Introduce or deepen students' knowledge of life and death in Aboriginal and Torres Strait Islander societies."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in political science and policy studies.",
+      "evidenceLines": [
+        "Engage students in contemporary debates that relate to life and death.",
+        "- **Institution**: The University of Adelaide",
+        "- **Program Identifier / Slug**: bintr_bintlrel"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in political science and policy studies.",
+      "evidenceLines": [
+        "Develop students\u2019 awareness of, and ability to critically reflect on the politics of life and death in their own cultural background.",
+        "Subject: Social Media Audiences and Algorithmic Cultures (MDIA1017)",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The program allows students to develop diverse analytical and practical skills to navigate complex international relations and the domestic-global nexus. It provides students with the necessary conceptual tools and empirical knowledge to acquire intercultural competency and build the capacity to critically explore key issues central to global politics and interstate relations from competing perspectives, including great power rivalry, international security, global justice and citizenship. By facilitating students\u2019 understanding of the international challenges affecting Australia\u2019s interests in the Indo-Pacific and beyond, the program prepares them for employment opportunities in the Australian federal and state government departments, non-governmental organizations and businesses, and international organizations. In addition to core courses and closed electives in International Relations, students have the opportunity to complete a minor in History, International Development, International Business, Geography, or a foreign language. The program incorporates a foreign language component and a range of international experiences, including international study tours and an international relations internship. Outstanding students can also join the South Australian Parliamentary Internship.",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of International Relations.",
+        "evidenceLines": [
+          "The program allows students to develop diverse analytical and practical skills to navigate complex international relations and the domestic-global nexus. It provides students with the necessary conceptual tools and empirical knowledge to acquire intercultural competency and build the capacity to critically explore key issues central to global politics and interstate relations from competing perspectives, including great power rivalry, international security, global justice and citizenship. By facilitating students\u2019 understanding of the international challenges affecting Australia\u2019s interests in the Indo-Pacific and beyond, the program prepares them for employment opportunities in the Australian federal and state government departments, non-governmental organizations and businesses, and international organizations. In addition to core courses and closed electives in International Relations, students have the opportunity to complete a minor in History, International Development, International Business, Geography, or a foreign language. The program incorporates a foreign language component and a range of international experiences, including international study tours and an international relations internship. Outstanding students can also join the South Australian Parliamentary Internship.",
+          "The Bachelor of International Relations is an AQF Level 7 qualification with a standard full-time duration of 3 years."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in political science and policy studies.",
+        "evidenceLines": [
+          "Subject: Life, Death and Culture (ANTH2008)",
+          "**Institution**: The University of Adelaide"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,114 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/VSCQB =====
+# Master of Science (Advanced) in Quantitative Biology and Bioinformatics (VSCQB)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: VSCQB
+- **Academic Year**: 2027
+- **Career / Study Level**: Postgraduate
+- **Program Duration**: 2 year full-time
+- **Minimum Units Required**: 96 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal MScAdvQnvBio
+- **CRICOS Code**: code 096440D
+- **UAC Code**: N/A
+- **Field of Education**: of Education Mathematical Sciences NEC
+- **Academic Contact**: contact Marcin Adamski
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/VSCQB
+
+## Program Description
+A single two year graduate award offered by theANU College of Science and Medicine
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Demonstrate high level knowledge and an understanding of the mathematical, statistical and computational foundations of biological data analysis;
+2. Formulate, apply and interpret appropriate quantitative methods to analyse biological data;
+3. Interpret, synthesise and critically analyse published literature of relevance to quantitative biology and bioinformatics;
+4. Advise, and provide assistance to others, on the appropriate use and interpretation of techniques for the analysis of biological data;
+5. Develop and execute an independent research project that builds on, and extends, knowledge of quantitative biological data analysis;
+6. Demonstrate a critical understanding of science in society;
+7. Clearly communicate theory and results in both written and oral formats.
+
+## Program Requirements & Study Options
+### Program Requirements
+The Master of Science (Advanced) in Quantitative Biology and Bioinformatics requires the completion of 96 units, of which:
+
+### Study Options
+Year 1
+48 units
+BIOL6200
+Introduction to Quantitative Biology
+6 units
+COMP6730
+Programming for Scientists
+6 units
+Quantitative Biology and Bioinformatics Elective Course List
+Science and Society Course List
+STAT6038
+Quantitative Biology and Bioinformatics Elective Course List
+Quantitative Biology and Bioinformatics Elective Course List
+Science and Society Course List
+Year 2
+BIOL8701
+Research Project for Advanced Masters
+6 to 24 units
+BIOL8701
+Research Project for Advanced Masters
+6 to 24 units
+
+### Admission Requirements
+Applicants must present a Bachelor degree or international equivalent
+
+### Inherent Requirements
+Information on inherent requirements is currently not available for this program.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/BIOL6200 =====
+Subject: Introduction to Quantitative Biology (BIOL6200)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/BIOL8701 =====
+Subject: Research Project for Advanced Masters (BIOL8701)
+Credit Points: 6 to 24 units
+Overview: The principal component of second year of the Biology Advanced Master programs is a research project conducted under supervision. In addition, students present seminars on their research work and prepare a thesis for examination. The research project runs from early February to early November or mid-July to mid-May. In addition to meeting the entry requirements for admission to the Research year of their Advanced Master program, students must have the agreement of a member of the academic staff to supervise their project, and the agreement of the convener. Academic staff from the Research School of Biology, John Curtin School of Medical Research, CSIRO and Canberra Hospital may be supervisors or co-supervisors. Students should discuss their intention to undertake a research project with potential supervisors and the Master by Coursework coordinator several months before the proposed starting date.
+Learning Outcomes:
+- Plan and engage in an independent and sustained investigation of a chosen research topic supervised by academic staff.
+- Systematically identify relevant theory and concepts in the chosen field, relate these to appropriate methodologies and evidence, and draw appropriate conclusions.
+- Carry out a specific set of experiments in biology to address a particular research question, at a standard consistent with current published research in the field.
+- Accurately document and analyse laboratory work or fieldwork and research findings
+- Present research findings, both orally and written to a high standard
+Assessment Tasks:
+- A written thesis on the research project and results: 100% (Hurdle: False)
+- Workshops: N/A% (Hurdle: False)
+- Initial Seminar: N/A% (Hurdle: False)
+- Grant Proposal: N/A% (Hurdle: False)
+- Mid-term report: N/A% (Hurdle: False)
+- Final Seminar: N/A% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours per 6 units of enrolment. Enrolment is typically full-time (24 units per semester) or as determined by individual research project.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6730 =====
+Subject: Programming for Scientists (COMP6730)
+Credit Points: 6 units
+Overview: This course teaches introductory programming, fundamental programming language and computer science concepts, and computational problem solving illustrated with applications common in science and engineering, such as data analysis, visualisation, and image processing. We will take a different approach, including prompting and working with GenAI, with emphasis on testing, debugging and problem decomposition, and using GenAI to help understand code.
+
+These skills will empower students to write software with the aid of GenAI. Assessment will include exam(s) without the aid of GenAI. Students will also create larger software projects with the aid of GenAI. The course does not require any prior knowledge of programming or computer science. It is designed to be a stand-alone computing unit.
+
+Students who wish to study computing courses at a higher level should check course prerequisites as they may need to completeCOMP6710orCOMP7710in addition toCOMP6730.
+Learning Outcomes:
+- Apply advanced programming constructs and structured programming methodologies to develop reliable software systems.
+- Explain key concepts in AI-assisted programming, including Large Language Models (LLMs), prompting, problem decomposition, and top-down design.
+- Apply AI-assisted programming workflows and advanced prompt-engineering techniques to guide, refine, and improve code generated by AI assistants.
+- Analyse the computational complexity of programs, and apply debugging and testing techniques, including black-box and white-box testing.
+- Evaluate and improve code quality using critical judgement.
+- Design and implement complete programs that solve practical problems using structured programming methodologies and AI-assisted prompting.
+- Critically evaluate the role, benefits, limitations, and risks of generative AI in software development projects
+Assessment Tasks:
+- Homework, Assignments and Lab Tests: 20% (Hurdle: False)
+- Programming Project: 20% (Hurdle: False)
+- Final Exam and Mid-semester Test: 60% (Hurdle: False)
+Workload: Lectures, tutorials, assignments, self-study & exam prep for a total of 130 hours.
+

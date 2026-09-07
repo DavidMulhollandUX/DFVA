@@ -1,0 +1,102 @@
+{
+  "code": "uwa-cb014",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Professional engineering reporting, technical design documentation, multi-disciplinary stakeholder communication, and research thesis defense.",
+      "evidenceLines": [
+        "These rules are the Bachelor of Engineering (Honours)/ Bachelor of Philosophy (Honours) Degree Combined Course Rules.",
+        "The",
+        "Enrolment Guidance for Majors and Minors:"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical appraisal of engineering designs, failure modes, safety regulations, ethical dilemmas, and philosophical inquiry.",
+      "evidenceLines": [
+        "The",
+        "To be eligible for consideration for admission to this course an applicant must satisfy the University's English language competence requirement as set out in the",
+        "Enrolment Guidance for Majors and Minors:"
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Advanced mathematical modeling, differential equations, computational simulations, finite element analysis, and engineering computing.",
+      "evidenceLines": [
+        "To be eligible for consideration for admission to this course an applicant must satisfy the University's English language competence requirement as set out in the",
+        "Subject: Introductory Chemistry (CHEM1003)",
+        "Subject: Global Challenges, Research and Leadership (GCRL1000)"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Comprehensive synthesis of professional engineering discipline, technological design, and elite philosophical research methodologies.",
+      "evidenceLines": [
+        "These rules are the Bachelor of Engineering (Honours)/ Bachelor of Philosophy (Honours) Degree Combined Course Rules.",
+        "To be eligible for consideration for admission to this course an applicant must satisfy the University's English language competence requirement as set out in the",
+        "Enrolment Guidance for Majors and Minors:"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Engineering design prototyping, experimental testing, materials characterization, and major honours research project.",
+      "evidenceLines": [
+        "At least a final scaled ATAR score of 50 or a WACE school grade of C or better in an ATAR subject in the following\u2014ATAR Math Methods, and two of: ATAR Math Specialist, ATAR Physics and ATAR Chemistry",
+        "Subject: BPhil Research Placement (GCRL2000)",
+        "Subject: Professional Engineering Portfolio (GENG5010)"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Engineers Australia accredited curriculum providing professional chartered engineer pathway.",
+      "evidenceLines": [
+        "The",
+        "Enrolment Guidance for Majors and Minors:",
+        "Bachelor of Engineering (Honours)"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic engineering design briefs, industry-aligned capstone project, and professional problem solving.",
+      "evidenceLines": [
+        "These rules are the Bachelor of Engineering (Honours)/ Bachelor of Philosophy (Honours) Degree Combined Course Rules.",
+        "The",
+        "Enrolment Guidance for Majors and Minors:"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Mandatory 12-week (450 hours) professional engineering work practicum alongside research honours.",
+      "evidenceLines": [
+        "All units have a value of six points unless otherwise stated.",
+        "Enrolment Guidance for Majors and Minors:"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A comprehensive dual honours degree delivering professional engineering and advanced research education.",
+        "evidenceLines": [
+          "All units have a value of six points unless otherwise stated.",
+          "Enrolment Guidance for Majors and Minors:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Engineers Australia accredited program structured through core engineering and philosophy.",
+        "evidenceLines": [
+          "Enrolment Guidance for Majors and Minors:",
+          "Subject: Introductory Chemistry (CHEM1003)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced computational engineering mathematics.",
+      "W3: Scored at Level 3 due to mandatory 450 hours engineering practicum."
+    ],
+    "notScoreable": []
+  }
+}

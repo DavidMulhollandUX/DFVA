@@ -1,0 +1,182 @@
+===== SOURCE: https://handbook.latrobe.edu.au/courses/2026/HGSA =====
+## Graduate Diploma in Sport Analytics - Melbourne (Bundoora)
+##### HGSA
+##### 120 credit points
+You are viewing the 2026 version
+
+### Overview
+La Trobe's Graduate Diploma in Sport Analytics is a formal qualification with hands-on experience with real sport datasets, and in-demand technical training in programming, databases, machine learning, and statistical analysis— all delivered flexibly with a mix of online and on-campus study suited to working professionals.
+
+Learn how to use data to boost athlete performance and wellbeing. You'll get hands-on experience with industry-standard technologies and cutting-edge sport analytics technology like Catapult GPS and LPS, Hudl SportsCode and IMeasureU (Inertial measurement units).
+
+The course aims to prepare you for roles in the field of sport analytics or for currently employed sport and exercise professionals looking to advance into higher roles through a formal education and qualification in sports analytics. You'll graduate with a direct pathway into the Master of Sport Analytics or ready to use your new data analytics skills in the sport industry you're passionate about.
+
+By studying La Trobe's Graduate Diploma in Sport Analytics, you'll learn:
+
+  * Sport analytics in practice
+  *   * Learn about contemporary technology applications, and apply theoretical understanding of analytics processes and methodologies to authentic sport-related data sets.
+
+  * Advanced analytics
+  *   * Develop enhanced skills in data warehousing, and analytical skills including coding (R and Python), machine learning and statistical modelling.
+
+  * Analytical methods in sport
+  *   * Learn how to perform various data handling techniques, statistical tests and explore data visualisation techniques within a sport and exercise science context.
+
+  * Database management
+  *   * Gain an overview of the architecture and management of database systems and explore programming foundations to design and create software solution.
+
+### Location(s)
+Melbourne (Bundoora)
+### CRICOS code
+094173A
+### Course duration (full time)
+1 year
+### Study level
+Postgraduate
+### AQF level
+Level 8 - Graduate Diploma
+### Available only as an exit award
+No
+
+### Completion requirements
+To qualify for the award of Graduate Diploma in Sport Analytics, students must complete 120 credit points consisting of:
+
+120 core credit points
+
+### Course structure
+120 credit points
+**Level one** **120 credit points**
+  **Core** **120 credit points**
+    [ _arrow_forward_ SPE5SDC SPORT DATA CAPTURE ](https://handbook.latrobe.edu.au/subjects/2026/SPE5SDC)
+    [ _arrow_forward_ BUS5PA PREDICTIVE ANALYTICS ](https://handbook.latrobe.edu.au/subjects/2026/BUS5PA)
+    [ _arrow_forward_ SPE5ASA ADVANCED SPORT ANALYTICS ](https://handbook.latrobe.edu.au/subjects/2026/SPE5ASA)
+    [ _arrow_forward_ CSE4DBF DATABASE FUNDAMENTALS ](https://handbook.latrobe.edu.au/subjects/2026/CSE4DBF)
+    [ _arrow_forward_ SPE5PSA PRINCIPLES OF SPORT ANALYTICS ](https://handbook.latrobe.edu.au/subjects/2026/SPE5PSA)
+    [ _arrow_forward_ CSE4IP INTRODUCTION TO PROGRAMMING ](https://handbook.latrobe.edu.au/subjects/2026/CSE4IP)
+    [ _arrow_forward_ LTU0AIM ACADEMIC INTEGRITY MODULE ](https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM)
+    [ _arrow_forward_ SPE5SAP SPORT ANALYTICS IN PRACTICE ](https://handbook.latrobe.edu.au/subjects/2026/SPE5SAP)
+    [ _arrow_forward_ SPE5AMS ANALYTICAL METHODS IN SPORT ](https://handbook.latrobe.edu.au/subjects/2026/SPE5AMS)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+Communicate knowledge and ideas to diverse stakeholders using a range of communication strategies and visual analytic tools.
+**2.**
+Review, analyse, consolidate and synthesise knowledge and apply skills autonomously or in a team to a range of sport analytics problems and performance analysis settings.
+**3.**
+Evaluate own knowledge and analysis skills to plan and implement appropriate continuing development activities.
+**4.**
+Critically appraise data collection technology to make informed decisions and evaluate complex ideas.
+
+### Course features
+### Career outcomes
+The rise of innovative technologies and the growing need for insights and performance evaluation have created significant opportunities for sport analysts and data scientists. Numerous sectors, including sports technology companies, gaming enterprises, and sports organisations, are on the lookout for professionals with expertise in sport analysis and data science.
+
+Possible roles include:
+
+  * Sport Analyst
+  * 
+  * Provide insights and advice about various sports data to inform decision making
+
+  * Game Analyst
+  * 
+  * Analyse data from games including playing patterns and problems and present information to inform improvements
+
+  * Data Analyst
+  * 
+  * Collect, process, clean and analyse data from various sources to produce reports and insights
+
+  * Data Scientist
+  * 
+  * Use statistical tools and methods, machine learning, and programming skills to extract and interpret data
+
+This course also serves as a direct pathway into the Master of Sport Analytics, offering a structured route for further professional and academic advancement
+
+### Internal course relationships
+
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4DBF =====
+Subject: DATABASE FUNDAMENTALS (CSE4DBF)
+Credit Points: 15
+Overview: This subject starts with an overview of the architecture and management of database systems, and a discussion of different existing database models. The main focus includes relational database analysis, design, and implementation. The students learn: relational algebra as the formal foundation of relational databases; relational conceptual design using an entity-relationship diagram; relational logical database design; security and integrity; and SQL implementation of relational database queries. Students will also learn advanced normalization theory and the techniques to remove data anomalies and redundancies. In this subject, students are required to design a database application that meets the needs of a system requirement specification, and to implement the system using a commercial standard database system such as ORACLE.
+Learning Outcomes:
+- Evaluate database design in terms of data anomalies and redundancies by applying the appropriate normalization techniques.
+- Design a relational database using an ER or EER diagram, and use a transformation process to change the ER or EER diagram to a relational database design
+- Evaluate the possible risks and ethical and social considerations relevant to designed systems.
+- Explain the underlying model of relational database operations using relational algebra.
+- Implement database systems using SQL and advanced PL/SQL including stored procedures and triggers.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM =====
+Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)
+Credit Points: 0
+Overview: The academic integrity module introduces academic integrity standards to inform and support students in avoiding plagiarism and academic misconduct. Students complete four parts that encompass academic misconduct and academic integrity decisions, including cheating, plagiarism, and collusion. Students learn about Turnitin (the text-matching tool) used at La Trobe University, and how to get help and support their development of referencing skills.
+Learning Outcomes:
+- Understand the importance of the acknowledgment and the referencing of sources
+- Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.
+- Recognise and understand academic integrity responsibilities.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/SPE5AMS =====
+Subject: ANALYTICAL METHODS IN SPORT (SPE5AMS)
+Credit Points: 15
+Overview: In this subject, you will develop expertise concerning research methodology, statistical analysis and data science techniques within a sport and exercise science context. There is an emphasis on the practical interpretation and communication of results to different audiences (e.g. for academic writing versus client consultation). You will learn how to perform various data handling techniques, statistical tests and explore data visualisation techniques to effectively demonstrate outcomes in a professional setting. This subject includes professional learning, practical experiences or portfolio activities which contribute to the completion of the Career Ready AdvantageTM award.
+Learning Outcomes:
+- Apply data handling techniques to correctly treat and process data to provide a range of descriptive statistical outcomes.
+- Critically appraise statistical designs, research methodologies and modern analytical techniques relevant to sports and exercise science
+- Apply data visualisation techniques that provide practical interpretations and communicate research results to different audiences
+- Apply high-level understanding of the theories and methodologies underlying modern statistics and data science techniques.
+- Apply appropriate statistical tests and data science tools to evaluate evidence and to analyse research data
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/SPE5ASA =====
+Subject: ADVANCED SPORT ANALYTICS (SPE5ASA)
+Credit Points: 15
+Overview: In this subject you will learn about advanced and contemporary topics in sport analytics and tools for understanding tactics and strategies in team sport by quantifying the value of individual and team actions using spatiotemporal and notation data. You will learn how to quantify skill and randomness in sport performance by understanding the statistical properties of sport performance metrics, and you will learn how to analyse wearable sensor and sport video data with machine learning techniques. This subject includes professional learning, practical experiences or portfolio activities which contribute to the completion of the Career Ready AdvantageTM award.
+Learning Outcomes:
+- Apply spatiotemporal and notational data to value sport actions
+- Analyse and interpret the statistical properties of sport performance metrics
+- Apply image and video analysis methods to sport video
+- Critically appraise and implement contemporary methods in sport analytics
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/SPE5PSA =====
+Subject: PRINCIPLES OF SPORT ANALYTICS (SPE5PSA)
+Credit Points: 15
+Overview: In this subject, you will explore the principles of analytics within the context of sporting environments. You will learn to apply the mathematical and statistical architecture and rationale that underpins a range of sport analytics methods. Practices in handling, cleaning and processing data generated from sport will be examined. You will learn to apply basic programming and coding skills to analyse sport-related data and answer complex questions. This subject includes professional learning, practical experiences or portfolio activities which contribute to the completion of the Career Ready AdvantageTM award.
+Learning Outcomes:
+- Analyse mathematical and statistical architecture to synthesize analytical approaches to complex sport-related problems
+- Apply analytical knowledge, principles and skills with initiative to new situations in sport and sport-related practice environments
+- Analyse data using basic programming skills to answer complex questions related to sport
+- Apply theoretical principles to common practices in handling, cleaning and processing data related to sport
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/SPE5SAP =====
+Subject: SPORT ANALYTICS IN PRACTICE (SPE5SAP)
+Credit Points: 15
+Overview: In this subject, you will apply theoretical understanding of analytics processes and methodologies to authentic sport-related data sets, such as seasonal AFL data to model and predict ladder positions and match outcomes. You will develop an analysis plan and implement this plan to formulate specific outcomes arising from the data analysis. You will use appropriate visual analytics tools to present your data to communicate formulated outcomes and findings.
+Learning Outcomes:
+- Analyse existing sport-related data sets that have been generated in response to an identified need or sport-related question, with creativity and initiative.
+- Coherently communicate the outcomes of the analysis of sport-related data to a range of audiences, using visual analytics tools.
+- Apply analytical knowledge and skills with a high level of personal autonomy and accountability to the analysis and evaluation of sport-related data in response to an identified need or sport- related question.
+- Critically analyse sport-related data sets and synthesise a range of relevant outcomes.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/SPE5SDC =====
+Subject: SPORT DATA CAPTURE (SPE5SDC)
+Credit Points: 15
+Overview: In this subject, you will learn about contemporary technology applications that generate data from sport. You will systematically appraise data capture technology to identify their limitations using accepted criteria and will explore those factors that influence effective and accurate data capture in sport and its handling and treatment. Using your understanding of these factors and available technology applications, you will identify appropriate applications and processes for a range of analysis scenarios.
+Learning Outcomes:
+- Apply theoretical knowledge and technical skills to implement and evaluate data capture in sport.
+- Apply research and technical skills to justify selection and use of an appropriate range of technology applications in order to collect measurable data from sport.
+- Critically appraise new and existing technology applications that can be employed to generate data from sport.
+- Critically reflect on the limitations of technology used within sport analytics and their effect on the quality of data generated and collected from sport.
+Assessment Tasks:
+Workload: 
+

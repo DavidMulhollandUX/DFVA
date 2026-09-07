@@ -1,0 +1,102 @@
+{
+  "code": "monash-b2007",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+      "evidenceLines": [
+        "international experiences, and",
+        "internships (or industry placements).",
+        "Every industry needs people with strong business skills to manage and improve the day-to-day operations of organisations."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+      "evidenceLines": [
+        "If you choose a 12 or 24 credit point unit it will reduce the amount of points available for electives in Part D which may impact on your ability to complete a major using electives.",
+        "If you are completing a major in Accountancy and seeking professional accounting accreditation you need to complete ACX3900. You can undertake more than one unit from the following lists, which will count towards your electives.",
+        "To keep up with growing industry needs, companies are looking for graduates with strong business administration skills."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+      "evidenceLines": [
+        "Subject: Accounting in business (ACB1020)",
+        "Subject: Financial accounting 1 (ACB1120)",
+        "ECX3550 is a recommended elective unit offered at Peninsula."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+      "evidenceLines": [
+        "You can enrich your degree to hone your academic and professional skills with a range of Flagship Rich Educational Experiences (FREE), including the Research, Experimentation and Discovery, Monash Innovation Guarantee and Global Immersion Guarantee. These flagship rich educational experience units may be credited utilising your free electives if approved by the faculty. There are both 6 and 12 credit point unit options available.",
+        "You must complete only one accounting unit, either ACB1020 or ACB1120. Students intending to complete a major in Accountancy must take ACB1120.",
+        "Business Administration is the coordination of business functions and activities."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+      "evidenceLines": [
+        "Subject: Accounting study tour (ACX3500)",
+        "Subject: Global issues in accounting (ACX3900)",
+        "You must complete BFB1001 or BFB2140. If you intend to complete a major in Accountancy and seeking professional accounting accreditation you must complete BFB2140 Business finance."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+      "evidenceLines": [
+        "No more than 12 credit points can be credited towards two majors, or a major and a minor, within a course. The same credit points cannot be credited towards more than one minor.",
+        "Every industry needs people with strong business skills to manage and improve the day-to-day operations of organisations.",
+        "To keep up with growing industry needs, companies are looking for graduates with strong business administration skills."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+      "evidenceLines": [
+        "Depending on the major you choose, you may have already studied one of the required units as part of your business specified study. If so, you must complete an additional business unit offered at the Peninsula campus.",
+        "Subject: Industry placement (BEX3006)",
+        "Business Administration is the coordination of business functions and activities."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "Every industry needs people with strong business skills to manage and improve the day-to-day operations of organisations. To keep up with growing industry needs, companies are looking for graduates with strong business administration skills. Business Administration is the coordination of business functions and activities. In the Bachelor of Business Administration, you will build a sound conceptual and theoretical foundation from which you can build essential skills for a career in business. You will learn about core business functions and how they are coordinated to achieve business goals whilst having the opportunity to specialise in more than one business discipline. The BBA provides a unique environment with a close connection to teaching staff and other students and opportunities to develop ethical and socially responsible communication, decision-making, and problem-solving skills to succeed in a competitive and diverse world. Many subjects provide practical experience, real-world case-based projects, collaborative learning, interaction with experts from industry, and job-ready skills. This degree will equip you for careers in public-sector and private enterprises.",
+        "Every industry needs people with strong business skills to manage and improve the day-to-day operations of organisations."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Business Administration.",
+        "evidenceLines": [
+          "Every industry needs people with strong business skills to manage and improve the day-to-day operations of organisations. To keep up with growing industry needs, companies are looking for graduates with strong business administration skills. Business Administration is the coordination of business functions and activities. In the Bachelor of Business Administration, you will build a sound conceptual and theoretical foundation from which you can build essential skills for a career in business. You will learn about core business functions and how they are coordinated to achieve business goals whilst having the opportunity to specialise in more than one business discipline. The BBA provides a unique environment with a close connection to teaching staff and other students and opportunities to develop ethical and socially responsible communication, decision-making, and problem-solving skills to succeed in a competitive and diverse world. Many subjects provide practical experience, real-world case-based projects, collaborative learning, interaction with experts from industry, and job-ready skills. This degree will equip you for careers in public-sector and private enterprises.",
+          "Part A. Core studies"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in business and management.",
+        "evidenceLines": [
+          "Subject: Accounting in business (ACB1020)",
+          "international experiences, and"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "code": "adelaide-gdpuh_gdpubhlth",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in public health.",
+      "evidenceLines": [
+        "**Institution**: The University of Adelaide",
+        "**Program Identifier / Slug**: gdpuh_gdpubhlth",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in public health.",
+      "evidenceLines": [
+        "**Academic Calendar Year**: 2025/2026",
+        "**Faculty**: Faculty of Health and Medical Sciences",
+        "- **Program Identifier / Slug**: gdpuh_gdpubhlth"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within public health.",
+      "evidenceLines": [
+        "Subject: Introduction to Biostatistics (PUBH5011)",
+        "Subject: Introduction to Epidemiology (PUBH5012)",
+        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/gdpuh_gdpubhlth"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in public health.",
+      "evidenceLines": [
+        "Apply basic statistical concepts commonly used in Health and Medical Sciences",
+        "Use basic analytical techniques to generate results",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in public health.",
+      "evidenceLines": [
+        "Subject: Global Public Health (PUBH5014)",
+        "Subject: Public Health Evaluation and Economics (PUBH5015)",
+        "Interpret results of commonly used statistical analyses in written summaries"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in public health.",
+      "evidenceLines": [
+        "Demonstrate statistical reasoning skills correctly and contextually",
+        "- **Institution**: The University of Adelaide",
+        "- **Program Identifier / Slug**: gdpuh_gdpubhlth"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in public health.",
+      "evidenceLines": [
+        "Assignment: 10%% (Hurdle: False)",
+        "Subject: Health Systems, Systems Thinking and Advocacy for Change (PUBH5016)",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "The Graduate Diploma in Public Health consists of core and elective coursework in the areas of epidemiology, biostatistics, health promotion, social science research methods for public health, public health policy and evaluation, health systems and advocacy, occupational, environmental and global health and infectious disease epidemiology and control.",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Diploma in Public Health.",
+        "evidenceLines": [
+          "The Graduate Diploma in Public Health consists of core and elective coursework in the areas of epidemiology, biostatistics, health promotion, social science research methods for public health, public health policy and evaluation, health systems and advocacy, occupational, environmental and global health and infectious disease epidemiology and control.",
+          "The Graduate Diploma in Public Health is an AQF Level 8 qualification with a standard full-time duration of 1 year."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in public health.",
+        "evidenceLines": [
+          "Subject: Introduction to Biostatistics (PUBH5011)",
+          "**Institution**: The University of Adelaide"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

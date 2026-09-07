@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education.",
+    "evidenceLines": [
+      "formulate research questions that are congruent with a chosen research approach",
+      "use research processes with due regard to ethical procedures",
+      "Designed to advance your educational knowledge and expertise to enable local and global educational change, the Master of Education provides you with the opportunity to engage with critical disciplinary issues and contemporary debates to develop the capacity to have impact."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education.",
+    "evidenceLines": [
+      "justify proposed research through scholarly and critical discussion.",
+      "design ways to generate and analyse qualitative and quantitative data that are congruent with specific research questions",
+      "Selecting from a choice of specialisations and unique pathways that will suit educators from a range of sectors including early childhood, schools, higher education, workplaces and the community, you will have the opportunity to tailor your learning experience to best facilitate your learning objectives and needs."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education.",
+    "evidenceLines": [
+      "Subject: Research approaches in education (EDF5613)",
+      "Subject: Research project in education (EDF5614)",
+      "locate a research interest within broader research perspectives and methodologies in the field of education and social sciences"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education.",
+    "evidenceLines": [
+      "Research task 1 (4000 words or equivalent): 50% (Hurdle: None)",
+      "Research task 2 (4000 words or equivalent): 50% (Hurdle: None)",
+      "Intended to cultivate critical thinking, analytical and creative problem-solving capabilities, you will learn in a supportive environment where you will work with your peers and leading experts in education."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education.",
+    "evidenceLines": [
+      "Subject: Research approaches in education (EDF5613)",
+      "Subject: Research project in education (EDF5614)",
+      "conduct a small-scale research project in a selected research methodology"
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education.",
+    "evidenceLines": [
+      "review the research literature in a particular field",
+      "Designed to advance your educational knowledge and expertise to enable local and global educational change, the Master of Education provides you with the opportunity to engage with critical disciplinary issues and contemporary debates to develop the capacity to have impact.",
+      "Selecting from a choice of specialisations and unique pathways that will suit educators from a range of sectors including early childhood, schools, higher education, workplaces and the community, you will have the opportunity to tailor your learning experience to best facilitate your learning objectives and needs."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education.",
+    "evidenceLines": [
+      "design an appropriately scoped research project, based on sound methodological choices",
+      "Subject: Research project in education (EDF5614)",
+      "Intended to cultivate critical thinking, analytical and creative problem-solving capabilities, you will learn in a supportive environment where you will work with your peers and leading experts in education."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "* If you are admitted at entry level 1 you will complete 96 credit points, comprising Part A, Part B and Part C",
+      "Designed to advance your educational knowledge and expertise to enable local and global educational change, the Master of Education provides you with the opportunity to engage with critical disciplinary issues and contemporary debates to develop the capacity to have impact."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Education.",
+      "evidenceLines": [
+        "* If you are admitted at entry level 1 you will complete 96 credit points, comprising Part A, Part B and Part C",
+        "* If you are admitted at entry level 2 you will complete 72 credit points, comprising Part B and Part C"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in teacher education.",
+      "evidenceLines": [
+        "Subject: Research approaches in education (EDF5613)",
+        "formulate research questions that are congruent with a chosen research approach"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

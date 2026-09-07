@@ -1,0 +1,295 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/C2001 =====
+Bachelor of Computer Science (C2001)
+Faculty: Faculty of Information Technology
+Level: Level 7 - Bachelor Degree
+
+Course Learning Outcomes:
+- demonstrate understanding of ethical and legal issues in the chosen specialisation and its historical, contemporary and likely future scientific, industrial and social context
+- communicate and coordinate proficiently by: listening, speaking, reading and writing English and utilising diagrams, graphics and interactive visualisations for professional practice; working as an effective member or leader of teams; and using basic tools and practices of formal project management
+- manage time and processes effectively by prioritising competing demands to achieve personal and team goals, with regular review of personal performance as a primary means of managing continuing professional development; behave in an ethical and professional manner; and be able to adapt readily to changing technologies.
+- demonstrate knowledge of the role of computer science and computational methods, and recognise the importance of theoretical underpinning for practical work
+- apply problem solving strategies to develop efficient solutions in their area of specialisation; in particular:
+
+algorithms and software students will be able to design and implement substantial pieces of software using a range of programming paradigms, advanced data structures and algorithms.
+artificial intelligence students will be able to apply the theory and practice of machine learning, neural networks, computer vision, natural language processing, generative methods, etc. in automating software systems that emulate human intelligence, solving complex problems across various industries.
+cybersecurity students will be able to design, analyse, implement, and evaluate security and privacy mechanisms.
+data science students will be able to design, implement and apply methods for capturing, managing and analysing data.
+- analyse problems, design algorithms to solve them, and program efficient software solutions
+
+Structure & Requirements:
+The course develops through the themes of computer science foundation studies, professional practice studies, specialist studies and applied studies  Part A. Foundation studiesThis study will develop your understanding of the role and theoretical basis of computer science and computational methods.  Part B. Professional practice studiesThis study develops professional skills by providing an understanding and appreciation of the ethical and professional guidelines applicable to computer science, developing the ability to work as an effective team member, developing the ability to communicate proficiently and appropriately for professional practice, and developing formal project management skills.  Part C. Specialist studiesThis study will develop your in-depth knowledge of the specific computer science methods of your specialised field within computer science. You will also develop your ability to apply appropriate methodologies in computer science and develop efficient computational solutions, strong problem-solving skills and the ability to apply analytical thinking.  Part D. Applied studiesThe above knowledge and skills are integrated and consolidated in applied practice as demonstrated in a computer or data science project, and in some cases in an industry-based learning placement.  Part E. Free elective studiesThese elective units will enable you to broaden and deepen your knowledge of computer science, or to select units from across the University in which you are eligible to enrol. If you are in a double degree courses, some units required for the partner degree are credited as electives towards the computer science degree.
+Course progression map
+The course progression map (Clayton) (Malaysia) provides guidance on unit enrolment for each semester of study.
+This course comprises 144 points, of which 96 points must be from computer science study and 48 points are used to provide additional depth or breadth through elective study. The course develops through theme studies in: Part A. Foundation studies (42 points), Part B. Professional practice studies (6 points), Part C. Specialist studies (36 points), Part D. Applied studies (12 points), and Part E. Free elective studies (48 points). Elective units may be at any level, however, no more than ten units (60 points) can be credited to the computer science course at level 1 and a minimum of 36 points must be completed in computer science at level 3. Note: Students at the Malaysia campus are required to have completed an industry placement in order to graduate. This can either be the Industry-based learning unit (Part E) or a zero credit point unit FIT3199 Industry work experience. This unit will provide a framework for all undergraduate information technology students at the Malaysia Campus to complete the compulsory industry experience as required by the Malaysian Qualifications Agency.
+Units are 6 points unless otherwise stated. Part A. Foundation studies (42 points)You must complete:
+
+FIT1045 Introduction to programming
+FIT1047 Introduction to computer systems, networks and security
+FIT1008 Fundamentals of algorithms
+FIT1058 Foundations of computing
+FIT2004 Algorithms and data structures
+FIT2014 Theory of computation
+FIT2094 Databases*
+
+*If you are in the double degree course with the Bachelor of Engineering (Honours) completing the software engineering specialisation you must replace FIT2094 with a FIT-coded level 2 elective.
+Part B. Professional practice studies (6 points)
+You must complete:
+
+FIT1049 IT professional practice or FIT1055 IT professional practice and ethics
+
+Part C. Specialist studies (36 points)You must complete one of the following specialisations.Algorithms and software
+You must complete:
+a. The following five units (30 points):
+
+FIT2099 Object-oriented design and implementation^
+FIT2102 Programming paradigms
+FIT2109 Computer science workshop
+FIT3143 Parallel computing
+FIT3155 Advanced data structures and algorithms
+
+b. One of the following level 3 elective units (6 points)*: 
+
+FIT3080 Artificial intelligence
+FIT3139 Computational modelling and simulation
+FIT3146 Maker lab
+FIT3159 Computer architecture
+FIT3182 Big data management and processing
+FIT3196 Computer architecture and networks
+MTH3170 Network mathematics
+MTH3175 Network mathematics (Advanced)
+
+^If you are in the double degree course with the Bachelor of Engineering (Honours) completing the software engineering specialisation you must replace FIT2099 with a Level 2 or above FIT-coded elective.
+*If you are selected to participate in the IBL placement program you will replace this level 3 elective unit with 6 points of the 18 point IBL unit (FIT3045).
+Artificial intelligence
+You must complete:
+a. The following five units (30 points):
+
+FIT1061 Introduction to artificial intelligence
+FIT2111 Symbolic artificial intelligence and machine learning
+FIT2112 Deep learning
+FIT3191 Generative artificial intelligence
+FIT3203 Intelligent agents
+
+b. One of the following elective units (6 points)*:
+
+FIT3192 Emerging and advanced topics in artificial intelligence
+FIT3183 Malicious AI and dark side security
+
+*If you are selected to participate in the IBL placement program you will replace this level 3 elective unit with 6 points of the 18 point IBL unit (FIT3045).
+Cybersecurity
+You must complete:
+a. The following five units (30 points):
+
+FIT1057 Introduction to cybersecurity
+FIT1093 Cybersecurity tools and techniques
+FIT2173 Software security
+FIT3185 Privacy enhancing technologies
+FIT3186 Vulnerability analysis, response and mitigation
+
+b. One of the following level 3 elective units (6 points)*:
+
+FIT3031 Network security
+FIT3168 IT forensics
+
+*If you are selected to participate in the IBL placement program you will replace this level 3 elective unit with 6 points of the 18 point IBL unit (FIT3045).
+Data science
+You must complete:
+a. The following four units (24 points):
+
+FIT1043 Introduction to data science
+FIT2086 Modelling for data analysis
+FIT2179 Data visualisation
+FIT3152 Data analytics
+
+b. Two of the following level 3 elective units (12 points)*:
+
+FIT3003 Business intelligence and data warehousing
+FIT3154 Advanced data analysis
+FIT3181 Deep learning
+FIT3182 Big data management and processing
+FIT3183 Malicious AI and dark side security
+
+*If you are selected to participate in the IBL placement program you will replace one level 3 elective unit with 6 points of the 18 point IBL unit (FIT3045).
+Part D. Applied studies (12 points)
+You must complete one of the following options.
+Clayton students - you must complete a full-year project (12 points) relevant to your specialisation, or the industry-based learning placement unit (18 points).
+Malaysia students - you must complete a full-year project (12 points) relevant to your specialisation and the industry-based learning placement unit (18 points) or the industry work experience unit (0 points):
+Algorithms and software
+
+FIT3161 Computer science project 1
+FIT3162 Computer science project 2
+
+Artificial intelligence
+
+FIT3193 Artificial intelligence project 1
+FIT3194 Artificial intelligence project 2
+
+Cybersecurity
+
+FIT3188 Cybersecurity project 1
+FIT3189 Cybersecurity project 2
+
+Data science
+
+FIT3163 Data science project 1
+FIT3164 Data science project 2
+
+OR
+Industry-based learning placement (18 points):
+FIT3045 is available only if you are selected to participate in the IBL placement program. 
+For Clayton students - If you are selected to participate in the IBL placement program you will complete FIT3045 Industry-based learning (18 credit points) and FIT2108 Industry-based learning (0 credit points); or FIT3045, FIT2108 and one of FIT3201 Industry-based learning onboarding (8 weeks) (0 credit points) or FIT3202 Industry-based learning onboarding (4 weeks) (0 credit points) (depending on the duration of your placement). This will replace the Applied studies project units and the Level 3 elective unit in your specialisation.
+For Malaysia students - Students at the Malaysia campus are required to have completed an industry placement in order to graduate as required by the Malaysian Qualifications Agency. This can either be FIT3045 Industry based learning (if you are selected to participate) or FIT3199 Industry work experience. Note: You must complete FIT3199 over the Summer vacation period between second and third year.
+If you are selected to participate in the IBL placement program you will complete FIT3045 Industry-based learning (18 credit points) which will replace the Level 3 elective unit (6 credit points) in your specialisation and two free electives (12 credit points). 
+All students in the IBL program must complete a unit over summer semester or overload in one semester by one unit in order to complete the degree within three years (this is because you only complete 18 credit points of credit during the IBL placement semester). You must have completed at least three semesters of your course before starting your IBL placement.
+
+FIT3045 Industry-based learning (18 points)
+FIT2108 Industry based learning seminar (0 points)
+FIT3201 Industry-based learning onboarding (8 weeks) (0 points)
+FIT3202 Industry-based learning onboarding (4 weeks) (0 points)
+FIT3199 Industry work experience** (0 points)
+
+Part E. Free elective studies (48 points)Your elective units may be chosen from the faculty or across the University as long as you have completed the prerequisites and there are no restrictions on enrolment in the units, including choosing to complete a major or minor from other courses. The units may be at any level, however, no more than 10 units (60 points) at level 1 may be credited to the Bachelor of Computer Science and a minimum 36 points must be at level 3.
+If you are in a double degree course, some units required for the partner degree are credited as electives towards the computer science degree.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT1045 =====
+Subject: Introduction to programming (FIT1045)
+Credit Points: 6
+Overview: This unit introduces programming fundamentals. It will present fundamental programming control structures, built-in and complex datatypes, mechanisms for modularity, and the use of basic libraries. You will also be introduced to good programming practices and processes for software development.
+Learning Outcomes:
+- Design, construct and test programs that include user-defined functions and data structures;
+- Implement good programming practices, including unit testing, basic documentation and readability.
+- Effectively use variables, conditionals and loops in computer programs;
+- Write programs efficiently by discovering and leveraging libraries;
+Assessments:
+- Learning Project Portfolio: 100% (Hurdle: Competency)
+- In class tests: 0% (Hurdle: Competency)
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT1008 =====
+Subject: Fundamentals of algorithms (FIT1008)
+Credit Points: 6
+Overview: From Semester 2, 2026: Data structures and algorithms are the tools that allow programs to solve problems efficiently, reliably and at scale. This unit develops the core algorithmic thinking and implementation skills needed to move from a problem statement to a well-structured computational solution. You will learn to represent problems using appropriate data structures, design algorithms that use those structures effectively, and reason about how choices affect correctness, performance and maintainability. The unit covers recursion, introductory complexity analysis, and structures such as stacks, queues, trees, heaps and hash tables. You will evaluate algorithm behaviour both theoretically and experimentally, building a practical understanding of time, space and trade-offs. Through structured programming activities, you will strengthen your ability to design, implement, test and explain algorithmic solutions. The unit builds disciplined habits of precise reasoning, careful coding, performance awareness and reflection, preparing you for later study in advanced algorithms, software design, artificial intelligence, systems and computational problem solving. Semester 1, 2026: This unit introduces you to core problem-solving, analytical skills, and methodologies useful for developing flexible, robust, and maintainable software. In doing this, it covers a range of conceptual levels, from fundamental algorithms and data structures, down to their efficient implementation as well as complexity. Topics include data types, data structures, algorithms, algorithmic complexity, recursion, and their practical applications.
+Learning Outcomes:
+- Semester 2: Analyse computational problems to identify suitable algorithmic strategies, data representations and performance considerations. Semester 1: Translate problem statements into algorithms and implement them in a high level programming language;
+- Semester 2: Plan, monitor, and reflect on the development of your algorithmic thinking and implementation practice through focused problem solving, feedback and iterative improvement.
+- Semester 2: Design modular algorithmic solutions using appropriate abstract data types, including lists, stacks, queues, trees, heaps and hash tables. Semester 1: Theoretically and experimentally evaluate different implementations of basic abstract data types;
+- Semester 2: Demonstrate understanding of data structures and algorithms by implementing, using, and testing them in ways that support correctness, readability and maintainability. Semester 1: Determine appropriate basic abstract data types, including; stacks, queues, lists, binary trees, priority queues, heaps and hash tables; for specific contexts;
+- Semester 2: Demonstrate awareness and working knowledge of relevant tools and technologies, and use them effectively to increase productivity and improve quality, such as IDEs, AI, and Version Control Systems. Semester 1: Analyse the efficiency of algorithms by determining their best-case and worst-case big-O time complexity;
+- Semester 2: Communicate algorithmic reasoning and correctness, implementation choices, performance trade-offs and testing evidence using appropriate technical terminology and representations.
+Assessments:
+- Coding Project 1: 30% (Hurdle: None)
+- Theory Test 1: 0% (Hurdle: Competency)
+- Learning Portfolio: 100% (Hurdle: Competency)
+- Theory test: 0% (Hurdle: Competency)
+- Weekly Quiz: 30% (Hurdle: None)
+- Theory Test 2: 0% (Hurdle: Competency)
+- Coding Project 2: 40% (Hurdle: None)
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT1047 =====
+Subject: Introduction to computer systems, networks and security (FIT1047)
+Credit Points: 6
+Overview: The unit introduces you to fundamentals of computer systems, networks and security. It provides basic knowledge of computer organisation and architecture, operating systems, networking architecture, technology and operation. It introduces the concepts of security goals for protecting common modern computer systems and communication networks from adversaries and the deployment of suitable countermeasures to achieve these goals.
+Learning Outcomes:
+- Explain the three major functions of an operating system (OS), namely, process management, memory management, and file management;
+- Apply number representations and boolean algebra to analyse simple logic circuits;
+- Discuss the fundamental concepts of cybersecurity, including common threats and countermeasures.
+- Describe basic concepts of computer hardware and software architectures;
+- Program simple algorithms in assembly code;
+- Analyse networks using the underlying fundamental theories, models and protocols for data transmission;
+- Describe the functions and architectures of local area networks, wide area networks and the Internet.
+Assessments:
+- Assignment 1: 15% (Hurdle: None)
+- Assignment 2: 30% (Hurdle: None)
+- Assignment 3: 30% (Hurdle: None)
+- Assignment 4: 25% (Hurdle: None)
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2004 =====
+Subject: Algorithms and data structures (FIT2004)
+Credit Points: 6
+Overview: This unit introduces you to problem solving concepts and techniques fundamental to the science of programming. In doing this it covers problem specification, algorithmic design, analysis and implementation. Detailed topics include analysis of best, average and worst-case time and space complexity; introduction to numerical algorithms; recursion; advanced data structures such as heaps and B-trees; hashing; sorting algorithms; searching algorithms; graph algorithms; and numerical computing.
+Learning Outcomes:
+- Compare and contrast various abstract data types and use them appropriately;
+- Prove correctness of programs, analyse their space and time complexities;
+- Analyse general problem solving strategies and algorithmic paradigms, and apply them to solving new problems;
+- Develop and implement algorithms to solve computational problems.
+Assessments:
+- Learning Project Portfolio: 100% (Hurdle: None)
+- In class tests: 0% (Hurdle: Competency)
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2014 =====
+Subject: Theory of computation (FIT2014)
+Credit Points: 6
+Overview: This unit introduces formal languages, models of computation, and computational complexity. It looks at what computers can and cannot compute. Topics include finite state automata, regular expressions, grammars, pushdown automata, computable functions, Turing machines, polynomial-time reductions, complexity classes P and NP, and NP-completeness. Skills at writing formal proofs will be developed.
+Learning Outcomes:
+- Use Turing Machines to describe languages and represent computable functions;
+- Demonstrate the limitations of the models of computation considered;
+- Use propositional logic, predicates and quantifiers to represent and analyse problems in the theory of computation;
+- Construct Finite Automata, Nondeterministic Finite Automata and Context-Free Grammars to describe languages;
+- Find a parse tree, leftmost derivation and rightmost derivation for a word in a Context Free Language;
+- Find a Regular Grammar for a Regular Language;
+- Show that a language is in P, or in NP, or NP-complete;
+- Convert Regular Expressions into Finite Automata and vice versa;
+- Show a language is not regular, or not context-free, or not decidable;
+- Write rigorous formal proofs, including proofs by construction, cases, contradiction and induction.
+Assessments:
+- Scheduled final assessment (3 hours and 10 minutes): 50% (Hurdle: Threshold)
+- Practical Preparation: 5% (Hurdle: Threshold)
+- Mid-semester Test: 15% (Hurdle: Threshold)
+- Assignment 1: Regular Expressions and Finite Automata: 10% (Hurdle: Threshold)
+- Assignment 2: Lexical Analysis, Parsing, Computability: 20% (Hurdle: Threshold)
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3155 =====
+Subject: Advanced data structures and algorithms (FIT3155)
+Credit Points: 6
+Overview: This unit builds on the concepts learnt in introductory algorithms and data structures study. It covers advanced algorithmic paradigms and problem-solving techniques required to address real-world programming challenges. It explores, in depth, the design and analysis of space-efficient data structures and time-efficient problem solving strategies to be used with them. Topics include amortized analysis, advanced sorting and searching algorithms, new tree/string/graph data structures and algorithms, and number-theoretic algorithms amongst others.
+Learning Outcomes:
+- Design and implement efficient algorithms and data structures for use on large data sets;
+- Prove the correctness of programs and reason about their space and time complexities.
+- Apply advanced algorithms and data structures to tackle complex computational problems;
+- Analyse efficient data structures and effective algorithmic paradigms;
+Assessments:
+- Assignment 1: 20% (Hurdle: Threshold)
+- Assignment 2: 20% (Hurdle: Threshold)
+- Scheduled final assessment (2 hours and 10 minutes): 60% (Hurdle: Threshold)
+Prerequisites: FIT2004: Algorithms and data structures
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3161 =====
+Subject: Computer science project 1 (FIT3161)
+Credit Points: 6
+Overview: This unit provides practical experience in researching, designing, developing and testing a substantial computer science project. Projects are generally software-based, although sometimes they may involve hardware development or investigation of theory. Projects cover the whole process of software (or hardware) development, from analysis through design to implementation and testing. Comprehensive written documentation on the project is required. You are assigned in groups to a project supervisor. You will be expected to meet weekly with your project supervisor during formal lab sessions, and attend 2-hour project management seminars during the first six weeks. Other workshops relevant to research and development of the project will be held in the latter six weeks. The unit is the first part of a 12-credit point project sequence; the second part and exit point for the project is FIT3162.
+Learning Outcomes:
+- Evaluate research methods and techniques of data collection and analysis to select those appropriate for a particular project
+- Recognise the factors essential for professional management of software projects, including ethical conduct, teamwork and interpersonal communication
+- Identify and analyse relevant research literature as part of the process of developing solutions to problems
+- Construct a project proposal
+- Communicate the deliverables of a project in written and oral form to an appropriate audience
+- Develop effective collaboration skills to operate effectively as a member of a development and research team
+Assessments:
+- Individual Critique of Other Final Presentations: 5% (Hurdle: None)
+- Group Mid-Semester Project Pitch: 25% (Hurdle: None)
+- Group Final Proposal Presentation: 30% (Hurdle: None)
+- Individual Vlog Reflections: 10% (Hurdle: None)
+- Project Proposal Report: 10% (Hurdle: None)
+- Group Project Meeting Minutes & Videos: 15% (Hurdle: None)
+- Individual Critique of Other Group Pitches: 5% (Hurdle: None)
+Prerequisites: FIT2004: Algorithms and data structures, FIT2099: Object oriented design and implementation
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3162 =====
+Subject: Computer science project 2 (FIT3162)
+Credit Points: 6
+Overview: This unit provides practical experience in researching, designing, developing and testing a non-trivial computer science project. Projects are generally software-based, although sometimes they may involve hardware development or investigation of theory. Projects cover the whole process of software (or hardware) development, from analysis through design to implementation and testing. Comprehensive written documentation on the project is required. Students are assigned in groups to a project supervisor. There are no lectures in this unit, although you will be expected to attend regular meetings with your project supervisor. The unit is the second part of a 12-credit point project sequence; the first part and entry point for the project is FIT3161.
+Learning Outcomes:
+- Work effectively in collaborative teams;
+- Explain and reflect upon the purpose, operation, success and value of the developed project in writing and orally;
+- Write a report explaining methodology, outlining their contributions and the contributions of others, and documenting the developed project from appropriate perspectives, for instance that of a user, researcher or developer.
+- Evaluate and select research methods and techniques of data collection and analysis appropriate to a particular project;
+- Search, access, and analyse research literature as part of the process of developing solutions to problems;
+- Develop and test a substantial piece of software or hardware;
+Assessments:
+- Final Written Report: 10% (Hurdle: None)
+- Software Demonstration and Final Presentation: 30% (Hurdle: None)
+- Group Mid-Semester Project Pitch: 25% (Hurdle: None)
+- Group Project Meeting Minutes & Videos: 15% (Hurdle: None)
+- Individual Critique of Other Group Pitches: 5% (Hurdle: None)
+- Individual Vlog Reflections: 10% (Hurdle: None)
+- Individual Critique of Other Final Presentations: 5% (Hurdle: None)
+Prerequisites: FIT3161: Computer science project 1

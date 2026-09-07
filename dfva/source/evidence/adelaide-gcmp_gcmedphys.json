@@ -1,0 +1,102 @@
+{
+  "code": "adelaide-gcmp_gcmedphys",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in medical studies.",
+      "evidenceLines": [
+        "**Institution**: The University of Adelaide",
+        "**Program Identifier / Slug**: gcmp_gcmedphys",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in medical studies.",
+      "evidenceLines": [
+        "**Academic Calendar Year**: 2025/2026",
+        "**Faculty**: Faculty of Sciences, Engineering and Technology (SET)",
+        "- **Program Identifier / Slug**: gcmp_gcmedphys"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within medical studies.",
+      "evidenceLines": [
+        "Subject: Human Biology for Medical Physics (BIOL5019)",
+        "Subject: Physics of Medical Imaging (PHYS5003)",
+        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/gcmp_gcmedphys"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in medical studies.",
+      "evidenceLines": [
+        "Define and apply key anatomical and physiological terms to describe the structure, function and interconnectedness of the body systems in both health and disease.",
+        "Describe basic cellular biology in a healthy organism",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in medical studies.",
+      "evidenceLines": [
+        "Subject: Radiotherapy Physics (RADI5001)",
+        "Subject: Human Biology for Medical Physics (BIOL5019)",
+        "Describe basic human genetics and apply its concepts in simple situations"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in medical studies.",
+      "evidenceLines": [
+        "Describe the cell biology and genetics of carcinogenesis and cancer cells.",
+        "- **Institution**: The University of Adelaide",
+        "- **Program Identifier / Slug**: gcmp_gcmedphys"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in medical studies.",
+      "evidenceLines": [
+        "Identify anatomical landmarks in diagnostic images",
+        "Subject: Radiotherapy Physics (RADI5001)",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "This program provides students with the opportunity to complete the coursework required by the Australasian College of Physical Scientists and Engineers in Medicine (ACPSEM) for accreditation as a medical physicist. All students should be aware that this program has non-standard admission requirements and they should contact the School of Physical Sciences for further information.",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate in Medical Physics.",
+        "evidenceLines": [
+          "This program provides students with the opportunity to complete the coursework required by the Australasian College of Physical Scientists and Engineers in Medicine (ACPSEM) for accreditation as a medical physicist. All students should be aware that this program has non-standard admission requirements and they should contact the School of Physical Sciences for further information.",
+          "The Graduate Certificate in Medical Physics is an AQF Level 8 program with a standard full-time duration of 0.5 years and is only offered part-time over 2 years."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in medical studies.",
+        "evidenceLines": [
+          "Subject: Human Biology for Medical Physics (BIOL5019)",
+          "**Institution**: The University of Adelaide"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "code": "monash-a6033",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in political science and policy studies.",
+      "evidenceLines": [
+        "demonstrate the application of judgement, problem solving, critical thinking and analytical skills.",
+        "apply management accounting techniques relating to full and relevant costing, cost volume profit analysis, budgeting, capital management and accounting for sustainability",
+        "This comprehensive degree builds practical knowledge and essential skills for international careers in policy making and management across the spectrum of public sector activities."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in political science and policy studies.",
+      "evidenceLines": [
+        "describe the merits, and regulatory and financial reporting implications of various forms of business structures",
+        "understand the accounting process and the presentation of financial statements and critically use financial accounting information to make decisions about financial and other aspects of business performance",
+        "The multi-disciplinary program develops understanding of the processes of policy formation, the delivery of policy programs, and the political and structural realities that can impact on decision-making."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within political science and policy studies.",
+      "evidenceLines": [
+        "Subject: Resource allocation and business model performance (ACI5903)",
+        "Subject: Human rights in global politics (APG5156)",
+        "1 - Presentation: 15% (Hurdle: None)"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in political science and policy studies.",
+      "evidenceLines": [
+        "3 - Written: 75% (Hurdle: None)",
+        "2 - Exercise: 10% (Hurdle: None)",
+        "The course combines a focus on foundation knowledge and understanding of critical issues in public policy, governance, policy analysis and public sector reform."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in political science and policy studies.",
+      "evidenceLines": [
+        "Subject: Global health  (APG5164)",
+        "Subject: Social entrepreneurship challenge in the Indo-Pacific (APG5170)",
+        "critically engage in key debates framing human rights in global politics;"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in political science and policy studies.",
+      "evidenceLines": [
+        "explain the major developments in human rights practice since World War II;",
+        "This comprehensive degree builds practical knowledge and essential skills for international careers in policy making and management across the spectrum of public sector activities.",
+        "The multi-disciplinary program develops understanding of the processes of policy formation, the delivery of policy programs, and the political and structural realities that can impact on decision-making."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in political science and policy studies.",
+      "evidenceLines": [
+        "communicate research findings both orally and in writing.",
+        "Subject: Prosperity, poverty and sustainability in a globalised world (APG5229)",
+        "The course combines a focus on foundation knowledge and understanding of critical issues in public policy, governance, policy analysis and public sector reform."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course comprises 72 credit points structured into three parts: Part A. Core studies, Part B. Applied studies and Part C. Specified elective studies.",
+        "This comprehensive degree builds practical knowledge and essential skills for international careers in policy making and management across the spectrum of public sector activities."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Public Policy and Management.",
+        "evidenceLines": [
+          "The course comprises 72 credit points structured into three parts: Part A. Core studies, Part B. Applied studies and Part C. Specified elective studies.",
+          "Part A. Core studies"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in political science and policy studies.",
+        "evidenceLines": [
+          "Subject: Resource allocation and business model performance (ACI5903)",
+          "demonstrate the application of judgement, problem solving, critical thinking and analytical skills."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

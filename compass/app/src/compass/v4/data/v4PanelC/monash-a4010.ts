@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in communication and media studies.",
+    "evidenceLines": [
+      "Analyse how individual and collective agency is exercised to advocate for and organise for change in various ways;",
+      "identify, assess, and apply gender analysis methods, tools and frameworks commonly used in development practice;",
+      "The Graduate Certificate of Strategic Communications Management provides you with foundation skills, knowledge and capabilities relevant to career pathways in a wide range of strategic communication related fields."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in communication and media studies.",
+    "evidenceLines": [
+      "Develop and apply reflexive thinking that can be applied to a wide variety of professional environments.",
+      "Develop an understanding of strategies to work with policymakers when pursuing policy or legislative change pertaining to gender equality;",
+      "This industry focused degree develops core competencies in critical areas of advocacy and persuasion, public relations and crisis communications which can be applied to the government, corporate, not-for-profit and community sectors."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within communication and media studies.",
+    "evidenceLines": [
+      "Subject: Gender and development (APG5045)",
+      "Subject: Conflict, security and development (APG5073)",
+      "identify and explain theories and concepts on gender and gender relations as they pertain to development practice;"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in communication and media studies.",
+    "evidenceLines": [
+      "Learning portfolio: 60% (Hurdle: None)",
+      "Research project: 40% (Hurdle: None)",
+      "Drawing on best practices locally and globally, you will gain skills in building effective and ethical communication strategies across local and international cultures and be responsive to a digitally integrated world."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in communication and media studies.",
+    "evidenceLines": [
+      "Subject: Public health ethics (APG5081)",
+      "Subject: Creative entrepreneurship in cultural industries (APG5082)",
+      "effectively communicate complex ideas about conflict, security and development."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in communication and media studies.",
+    "evidenceLines": [
+      "analyse some of the causes of armed conflict and assess ways in which conflict can be prevented, managed and resolved;",
+      "The Graduate Certificate of Strategic Communications Management provides you with foundation skills, knowledge and capabilities relevant to career pathways in a wide range of strategic communication related fields.",
+      "This industry focused degree develops core competencies in critical areas of advocacy and persuasion, public relations and crisis communications which can be applied to the government, corporate, not-for-profit and community sectors."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in communication and media studies.",
+    "evidenceLines": [
+      "identify and explain the security and development challenges facing conflict-affected environments, and how they can be addressed;",
+      "Subject: Governing migration: Refugees, borders and development (APG5086)",
+      "Drawing on best practices locally and globally, you will gain skills in building effective and ethical communication strategies across local and international cultures and be responsive to a digitally integrated world."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The Graduate Certificate of Strategic Communications Management provides you with foundation skills, knowledge and capabilities relevant to career pathways in a wide range of strategic communication related fields. This industry focused degree develops core competencies in critical areas of advocacy and persuasion, public relations and crisis communications which can be applied to the government, corporate, not-for-profit and community sectors. Drawing on best practices locally and globally, you will gain skills in building effective and ethical communication strategies across local and international cultures and be responsive to a digitally integrated world.",
+      "The Graduate Certificate of Strategic Communications Management provides you with foundation skills, knowledge and capabilities relevant to career pathways in a wide range of strategic communication related fields."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate of Strategic Communications Management.",
+      "evidenceLines": [
+        "The Graduate Certificate of Strategic Communications Management provides you with foundation skills, knowledge and capabilities relevant to career pathways in a wide range of strategic communication related fields. This industry focused degree develops core competencies in critical areas of advocacy and persuasion, public relations and crisis communications which can be applied to the government, corporate, not-for-profit and community sectors. Drawing on best practices locally and globally, you will gain skills in building effective and ethical communication strategies across local and international cultures and be responsive to a digitally integrated world.",
+        "The course comprises 24 credit points of study which provide knowledge, skills, attitudes and values required of skilled practitioners working in a range of fields addressing strategic communication."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in communication and media studies.",
+      "evidenceLines": [
+        "Subject: Gender and development (APG5045)",
+        "Analyse how individual and collective agency is exercised to advocate for and organise for change in various ways;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

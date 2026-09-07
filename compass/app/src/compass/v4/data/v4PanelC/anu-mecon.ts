@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 15,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Rigorous theoretical economic discourse, formal model proofs, econometric research papers, and policy presentations.",
+    "evidenceLines": [
+      "Undertake formal analysis based on economic theory and empirically test solutions to economic problems.",
+      "Demonstrate technical skills in Economics by accessing current literature and applying it to tackle contemporary challenges.",
+      "Undertake independent research in economics at the graduate level and provide economic intuition to interpret the results."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Deep critique of microeconomic and macroeconomic theories, market failure mechanics, and econometric identification assumptions.",
+    "evidenceLines": [
+      "Demonstrate technical skills in Economics by accessing current literature and applying it to tackle contemporary challenges.",
+      "Integrate the key findings of recent advancements in both theoretical and applied economics to address new challenges.",
+      "Undertake formal analysis based on economic theory and empirically test solutions to economic problems."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Advanced mathematical economics: dynamic macroeconomic equilibrium, game theoretic microeconomics, and advanced econometric techniques.",
+    "evidenceLines": [
+      "Undertake formal analysis based on economic theory and empirically test solutions to economic problems.",
+      "Subject: Microeconomic Theory (ECON8011)",
+      "Subject: Macroeconomic Theory (Master) (ECON8022)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Comprehensive synthesis uniting advanced microeconomic theory, macroeconomic dynamics, and empirical econometric estimation.",
+    "evidenceLines": [
+      "Integrate the key findings of recent advancements in both theoretical and applied economics to address new challenges.",
+      "Undertake independent research in economics at the graduate level and provide economic intuition to interpret the results.",
+      "Undertake formal analysis based on economic theory and empirically test solutions to economic problems."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Original empirical econometric investigation, time-series forecasting, policy counterfactual testing, and econometric modeling.",
+    "evidenceLines": [
+      "Undertake formal analysis based on economic theory and empirically test solutions to economic problems.",
+      "Subject: Microeconomic Analysis (ECON7073)",
+      "Subject: Macroeconomic Analysis (ECON7074)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Strict alignment with conventions of central banking, international monetary agencies, and treasury economic analysis.",
+    "evidenceLines": [
+      "Integrate the key findings of recent advancements in both theoretical and applied economics to address new challenges.",
+      "Demonstrate technical skills in Economics by accessing current literature and applying it to tackle contemporary challenges.",
+      "A single two year graduate award offered by theANU College of Business and Economics"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic macroeconomic forecasting, empirical policy evaluations, and applied market simulations.",
+    "evidenceLines": [
+      "Undertake formal analysis based on economic theory and empirically test solutions to economic problems.",
+      "Demonstrate technical skills in Economics by accessing current literature and applying it to tackle contemporary challenges.",
+      "Undertake independent research in economics at the graduate level and provide economic intuition to interpret the results."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Intensive academic coursework master degree without compulsory industry workplace placement.",
+    "evidenceLines": [
+      "- **Minimum Units Required**: 96 Units",
+      "The Master of Economics requires the completion of 96 units, which must consist of:"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "A 96-unit master degree delivering advanced education in macroeconomic analysis, microeconomic analysis, and econometrics.",
+      "evidenceLines": [
+        "- **Minimum Units Required**: 96 Units",
+        "The Master of Economics requires the completion of 96 units, which must consist of:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist economics program structured through advanced theoretical and quantitative cores.",
+      "evidenceLines": [
+        "- **Field of Education**: of Education Economics and Econometrics",
+        "A single two year graduate award offered by theANU College of Business and Economics"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to rigorous mathematical economics and advanced econometric theory.",
+    "W3: Scored at Level 1 as the master degree is focused on theoretical and econometric training without mandatory external placement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

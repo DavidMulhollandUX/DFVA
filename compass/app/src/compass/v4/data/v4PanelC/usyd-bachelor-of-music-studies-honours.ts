@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in performing arts.",
+    "evidenceLines": [
+      "**Institution**: The University of Sydney (USYD)",
+      "**Course / Program Identifier**: bachelor-of-music-studies-honours",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in performing arts.",
+    "evidenceLines": [
+      "**Academic Year**: 2026",
+      "**Faculty**: conservatorium",
+      "- **Course / Program Identifier**: bachelor-of-music-studies-honours"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within performing arts.",
+    "evidenceLines": [
+      "Subject: Honours Project 1 (PERF4601)",
+      "Subject: Honours Project 3 (PERF4603)",
+      "**Handbook URL**: https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music-studies-honours.html"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in performing arts.",
+    "evidenceLines": [
+      "LO1 . write a substantial research thesis demonstrating advanced critical thinking and writing skills",
+      "LO2 . produce a portfolio of creative works OR perform two recitals of a scope, duration and quality appropriate to Honours level",
+      "- **Handbook URL**: https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music-studies-honours.html"
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in performing arts.",
+    "evidenceLines": [
+      "Subject: Honours Project 1 (PERF4601)",
+      "Subject: Honours Project 3 (PERF4603)",
+      "LO3 . develop advanced musical skills"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in performing arts.",
+    "evidenceLines": [
+      "Participation Honours thesis progression and engagement in all activities and tasks. See CMPN4610 or PERF4610 or Honours Hub site for Musicology.: 100%: Ongoing% (Hurdle: False)",
+      "- **Institution**: The University of Sydney (USYD)",
+      "- **Course / Program Identifier**: bachelor-of-music-studies-honours"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in performing arts.",
+    "evidenceLines": [
+      "Research integrity quiz 1 Research integrity quiz 1: 0%: Week 03 Due date : 13 Mar 2026 at 23:59% (Hurdle: False)",
+      "Subject: Honours Project 3 (PERF4603)",
+      "- **Handbook URL**: https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music-studies-honours.html"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "In addition to the above requirements, prospective candidates will need to submit a minimum 500-word proposal outlining the aims of their research, including the relevance of the research question, references to supporting literature and possible ethical considerations. These proposals will be assessed by a committee for the written quality of the work and viability of the research questions.",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Music Studies.",
+      "evidenceLines": [
+        "In addition to the above requirements, prospective candidates will need to submit a minimum 500-word proposal outlining the aims of their research, including the relevance of the research question, references to supporting literature and possible ethical considerations. These proposals will be assessed by a committee for the written quality of the work and viability of the research questions.",
+        "C: Corequisites N: Prohibition"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in performing arts.",
+      "evidenceLines": [
+        "Subject: Honours Project 1 (PERF4601)",
+        "**Institution**: The University of Sydney (USYD)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

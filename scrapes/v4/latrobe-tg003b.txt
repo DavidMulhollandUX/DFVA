@@ -1,0 +1,192 @@
+===== SOURCE: https://handbook.latrobe.edu.au/courses/2026/TG003B =====
+## Graduate Diploma in Information Technology - Bendigo
+##### TG003B
+##### 120 credit points
+You are viewing the 2026 version
+
+### Overview
+The Graduate Diploma in Information Technology aims to provide you with a general professional qualification in information technology (IT). Broaden or deepen your knowledge of using computers. The core subjects provide you with a foundation in information systems, software development and computer networking. 
+
+You’ll learn:
+
+  * Technology assessment   * Evaluate the capacity and capability of different technologies to select the most appropriate technology solution for each situation.  
+
+  * Software testing  * Use research and technical skills to test your IT solutions and learn how to prevent bugs, reduce development costs and improve performance.
+
+  * Communication and ethics   * Learn how to communicate professionally within the IT sector to ensure you operate aligned to the ethical and cultural values of the IT profession.  
+
+  * Critical thinking   * Understand and critique proposed IT solutions with technical and theoretical knowledge to plan and implement IT solutions effectively.
+
+### Location(s)
+Bendigo
+### CRICOS code
+049582B
+### Course duration (full time)
+1 year
+### Study level
+Postgraduate
+### AQF level
+Level 8 - Graduate Diploma
+### Available only as an exit award
+Yes
+
+### Completion requirements
+To qualify for the award of Graduate Diploma in Information Technology, students must complete 120 credit points consisting of:
+
+90 core credit points
+
+30 prescribed elective credit points
+
+### Course structure
+120 credit points
+**Level one** **120 credit points**
+  **Core choice** **30 credit points**
+  Students to select subjects to the value of 30 credit points from the list below. Students wishing to proceed to a Master of Information Technology must consider a subject set that aligns with their preferred specialisation.
+    **Artificial intelligence** **30 credit points**
+      **Core** **30 credit points**
+        [ _arrow_forward_ CSE5DL DEEP LEARNING ](https://handbook.latrobe.edu.au/subjects/2026/CSE5DL)
+        [ _arrow_forward_ CSE5ML MACHINE LEARNING ](https://handbook.latrobe.edu.au/subjects/2026/CSE5ML)
+    **Internet of things** **30 credit points**
+      **Core** **30 credit points**
+        [ _arrow_forward_ CSE5IOT IOT TECHNOLOGY AND APPLICATIONS ](https://handbook.latrobe.edu.au/subjects/2026/CSE5IOT)
+        [ _arrow_forward_ CSE5PRP IOT PROTOCOLS AND PLATFORMS ](https://handbook.latrobe.edu.au/subjects/2026/CSE5PRP)
+  **Core** **90 credit points**
+    [ _arrow_forward_ CSE4DBF DATABASE FUNDAMENTALS ](https://handbook.latrobe.edu.au/subjects/2026/CSE4DBF)
+    [ _arrow_forward_ CSE4004 CYBER SECURITY PRINCIPLES ](https://handbook.latrobe.edu.au/subjects/2026/CSE4004)
+    [ _arrow_forward_ LTU0AIM ACADEMIC INTEGRITY MODULE ](https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM)
+    [ _arrow_forward_ CSE4001 NETWORK ENGINEERING FUNDAMENTALS ](https://handbook.latrobe.edu.au/subjects/2026/CSE4001)
+    [ _arrow_forward_ CSE4002 ARTIFICIAL INTELLIGENCE FUNDAMENTALS ](https://handbook.latrobe.edu.au/subjects/2026/CSE4002)
+    [ _arrow_forward_ CSE4IP INTRODUCTION TO PROGRAMMING ](https://handbook.latrobe.edu.au/subjects/2026/CSE4IP)
+    [ _arrow_forward_ CSE4IFU INFORMATION TECHNOLOGY FUNDAMENTALS ](https://handbook.latrobe.edu.au/subjects/2026/CSE4IFU)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+Critically evaluate the capacity of technologies to solve complex problems.
+**2.**
+Apply comprehensive and coherent knowledge of information technology to develop robust solutions.
+**3.**
+Apply awareness of professional ethical and cultural values to communicate advanced technical and professional issues in information technology.
+**4.**
+Critique theories in the field of information technology using advanced technical and theoretical knowledge and skill.
+**5.**
+Apply research and technical skills to test information technology theories.
+
+### Course features
+### Career outcomes
+After you graduate, you could work across almost any sector – including technology, communications, education, finance, government, healthcare and energy. Possible roles include: 
+
+  * Technology assessment 
+  * Evaluate the capacity and capability of different technologies to select the most appropriate technology solution for each situation.  
+
+  * Software testing
+  * Use research and technical skills to test your IT solutions and learn how to prevent bugs, reduce development costs and improve performance.
+
+  * Communication and ethics 
+  * Learn how to communicate professionally within the IT sector to ensure you operate aligned to the ethical and cultural values of the IT profession.  
+
+  * Critical thinking 
+  * Understand and critique proposed IT solutions with technical and theoretical knowledge to plan and implement IT solutions effectively.
+
+### Internal course relationships
+
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4001 =====
+Subject: NETWORK ENGINEERING FUNDAMENTALS (CSE4001)
+Credit Points: 15
+Overview: This subject offers an in-depth study of modern computer networking, emphasising analytical understanding and application in complex environments. It extends foundational knowledge by critically examining the OSI reference model and major protocol families, highlighting their role in enabling scalable and interoperable communication. Students will examine how data moves across different network environments, exploring core IPv4 (Internet Protocol) addressing, basic subnetting, and routing concepts. Hands -on activities include configuring, testing, and troubleshooting network devices, as well as applying static routing to support simple network layouts.
+Learning Outcomes:
+- Employ professional skills to debug and troubleshoot errors in different LAN sizes using different methodologies.
+- Generate a documentation for different computer networks by the application of well-developed knowledge and skill
+- Analyse and compare the operation and performance of various network protocols
+- Design appropriate addressing schemes to solve problems across different network sizes using different approaches
+- Construct, design and implement different Local Area Networks (LAN) sizes
+- Configure and test state-of-the-art industry networking devices that meet network requirements and achieve optimal performance
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4002 =====
+Subject: ARTIFICIAL INTELLIGENCE FUNDAMENTALS   (CSE4002)
+Credit Points: 15
+Overview: Semester 1/Term 2: subject description: The field of Artificial Intelligence (AI) engages computers for reasoning and decision-making. In this subject, you will be introduced to the fundamental concepts and different applications of AI. The main topics include searching, knowledge representation and reasoning, expert system design and development, and responsible AI principles and applications. Practice in the design and development of AI models for real world problems will be offered in laboratory classes. (Includes subject intended learning outcomes 1-4) Semester 2/Term 4: subject description: This subject gives you an introduction to AI and how AI transforms business and society. You will learn principal AI concepts, explore a variety of AI techniques for solving different types of problems, and examine ethical issues and concerns associated with AI. Upon completion of the subject, you will be equipped to recognise, select, and apply existing AI methods in both computer science and non-computer science fields that engage with AI technologies. (Includes subject intended learning outcomes 5-8)
+Learning Outcomes:
+- Semester 2/Term 4 - Assess ethical, social, and technical implications of AI systems to inform responsible decision-making.
+- Semester 1/Term 2 - Analyse and design basic machine learning algorithms to model a practical case.
+- Semester 2/Term 4 - Evaluate the suitability of different AI approaches for real-world problems and justify their selection in practical scenarios.
+- Semester 2/Term 4 - Apply AI approaches to solve business or technology challenges, considering constraints and objectives.
+- Semester 1/Term 2 - Represent knowledge using semantic networks, scripts, frames and logic-based mechanisms and write simple Prolog programs to enable automated reasoning.
+- Semester 1/Term 2 - Construct simple expert systems to solve a real-world problem.
+- Semester 1/Term 2 - Devise appropriate representations for state space search and game playing to solve practical problems.
+- Semester 2/Term 4 - Critically interpret and explain the core concepts of artificial intelligence and evaluate how common AI models are designed to operate and generate outputs in varied contexts.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4004 =====
+Subject: CYBER SECURITY PRINCIPLES (CSE4004)
+Credit Points: 15
+Overview: In the Internet era, industries and organisations need to be aware of, and be prepared to defend against threats and attacks. Stakeholders should be familiar with the basic principles and best practices of cyber security to better protect their businesses. In this subject, the principles, the state of the art, and strategies for the future of cyber security is explored thoroughly. The topics will focus on information security, ethical and legal practices, mitigating cyber vulnerabilities, and the process of incident response and analysis. The outline of the subject is targeted at ensuring the privacy, reliability, confidentiality and integrity of information systems. Cyber security is a very broad discipline, and therefore, this subject is only intended to cover the basics of the recent state of the art and leading cyber security topics.
+Learning Outcomes:
+- Analyse approaches to security networks, firewalls, intrusion detection systems and intrusion prevention systems
+- Appraise key terms and concepts in cyber security, cyber law, intellectual property and cyber crime
+- Formulate approaches for incident analysis, risk management in cyber space and incident response
+- Analyse various software design practices and principles of web security
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4DBF =====
+Subject: DATABASE FUNDAMENTALS (CSE4DBF)
+Credit Points: 15
+Overview: This subject starts with an overview of the architecture and management of database systems, and a discussion of different existing database models. The main focus includes relational database analysis, design, and implementation. The students learn: relational algebra as the formal foundation of relational databases; relational conceptual design using an entity-relationship diagram; relational logical database design; security and integrity; and SQL implementation of relational database queries. Students will also learn advanced normalization theory and the techniques to remove data anomalies and redundancies. In this subject, students are required to design a database application that meets the needs of a system requirement specification, and to implement the system using a commercial standard database system such as ORACLE.
+Learning Outcomes:
+- Evaluate database design in terms of data anomalies and redundancies by applying the appropriate normalization techniques.
+- Design a relational database using an ER or EER diagram, and use a transformation process to change the ER or EER diagram to a relational database design
+- Evaluate the possible risks and ethical and social considerations relevant to designed systems.
+- Explain the underlying model of relational database operations using relational algebra.
+- Implement database systems using SQL and advanced PL/SQL including stored procedures and triggers.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4IFU =====
+Subject: INFORMATION TECHNOLOGY FUNDAMENTALS (CSE4IFU)
+Credit Points: 15
+Overview: In this subject, you will learn computer system organization and its associated topics. It covers the hardware components of the computer, data storage and retrieval, and introduces system software, computer networks, data communications, the Internet, operating systems, file management systems and security. You will also be introduced to information systems and application software packages.
+Learning Outcomes:
+- Design and construct basic web pages using HTML and style sheets based on specific requirements.
+- Critically examine simple problems and develop spreadsheets to model these problems.
+- Differentiate between main types of computer networks and explain the purpose of major network components including any advantages and disadvantages of different data communication media.
+- Identify and critically evaluate functions of the main hardware components of computers.
+- Analyse and evaluate the requirements and functionality of different types of software.
+- Develop and interpret simple database tables, queries and reports based on specific requirements.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE5IOT =====
+Subject: IOT TECHNOLOGY AND APPLICATIONS (CSE5IOT)
+Credit Points: 15
+Overview: The explosive growth of the Internet of Things (IoT) is changing our world. The term itself, IoT, is used to mean a variety of ideas, depending on the motivation and background of the speaker. The goal of this subject is to provide you with a solid understanding of the latest IoT technology and its applications. This subject will cover the topics: 1) IoT and relevant concepts; 2) IoT devices, including popular IoT hardware and operating systems; 3) IoT architecture, including IoT networks structures and protocols; 4) IoT cloud platforms; 5) IoT security and privacy issues; 6) IoT applications, including Industry 4.0, smart cities, smart agriculture, smart vehicles, IoT healthcare, etc. 7) Research methodology in the area of IoT.
+Learning Outcomes:
+- Critically evaluate and reflect upon the ethical issues and ethical challenges of the Internet of Things synthesising arguments for and against these issues and challenges.
+- Demonstrate an advanced understanding of key terms and concepts in Internet of Things (IoT by the critical analysis of the current state-of-the-art IoT technologies.
+- Critically evaluate current Internet of Things technologies or solutions to propose the most suitable for use in a particular given application scenarios, such as smart factories, smart cities, smart homes, smart agriculture, smart vehicles and smart health-care.
+- Analyse the current state of the art of the Internet of Things with the understanding of the current technologies and application areas, as well as the research methodology
+- Critically reflect upon the benefits, practical requirements, risks and future trends of Internet of Things
+- Work efficiently and effectively as a member of a team to communicate and interpret technical information, theories and well-informed critical analyses in the field of Internet of Things to expert and lay audiences
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE5PRP =====
+Subject: IOT PROTOCOLS AND PLATFORMS (CSE5PRP)
+Credit Points: 15
+Overview: Standards, technologies and platforms targeting Internet of Things (IoT) ecosystem are being developed at a very fast pace for many different types of applications including healthcare, home and industry automation. This subject provides students with a solid understanding of the latest IoT protocols, including communication protocols, infrastructure protocols and data protocols. Moreover, this subject will also cover state of the art IoT platforms, including both commercial and open source IoT platforms. You will obtain detailed knowledge for analysing and evaluating the right protocol/platform/architecture for various IoT applications.
+Learning Outcomes:
+- Evaluate security aspects and characteristics of IoT protocols and platforms.
+- Critically review the current commercial and open source IoT platforms/ecosystems through the synthesis of IoT systems.
+- Critically evaluate IoT protocols and platforms for IoT applications in smart cities, smart homes, smart agriculture, smart vehicles and smart health-care.
+- Analyse, communicate, and interpret IoT related technical information for lay audiences.
+- Critically evaluate the state-of-the-art Internet of Things (IoT) protocols and standards to propose the most suitable combinations to implement IoT applications.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM =====
+Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)
+Credit Points: 0
+Overview: The academic integrity module introduces academic integrity standards to inform and support students in avoiding plagiarism and academic misconduct. Students complete four parts that encompass academic misconduct and academic integrity decisions, including cheating, plagiarism, and collusion. Students learn about Turnitin (the text-matching tool) used at La Trobe University, and how to get help and support their development of referencing skills.
+Learning Outcomes:
+- Understand the importance of the acknowledgment and the referencing of sources
+- Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.
+- Recognise and understand academic integrity responsibilities.
+Workload: 
+

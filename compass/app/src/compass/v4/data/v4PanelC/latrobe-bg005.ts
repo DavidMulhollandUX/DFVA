@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in banking and finance.",
+    "evidenceLines": [
+      "Analyse and record business transactions, and prepare financial statements using double-entry accounting principles.",
+      "Evaluate the accounting purpose, processes and systems within the Australian or an international regulatory environment",
+      "The Graduate Diploma in Financial Analysis is a one-year full-time program (or its part-time equivalent), studied in English, requiring the successful completion of 120 credit points of study."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in banking and finance.",
+    "evidenceLines": [
+      "Critically evaluate financial performance of firms to inform decision making using relevant information.",
+      "Exercise professional judgement to solve accounting problems from ethical, social, and regulatory perspectives, and effectively communicate relevant information to a range of stakeholders",
+      "The program comprises eight subjects and covers a foundation in accounting, economics, finance and statistics, which is extended by a more detailed study of financial analysis and security valuation."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within banking and finance.",
+    "evidenceLines": [
+      "Subject: ACCOUNTING PRINCIPLES AND PRACTICES (ACC4001)",
+      "Subject: ECONOMICS FOR GLOBAL LEADERS (BUA4003)",
+      "Apply economic frameworks to business and social problems for policy and decision-making."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in banking and finance.",
+    "evidenceLines": [
+      "Construct and present logical and persuasive economic arguments and communicate concepts professionally.",
+      "Research and apply economic concepts to predict how changes in economic conditions may impact individuals, businesses and industries within market structures.",
+      "The Graduate Diploma in Financial Analysis is classified as a Level 8 qualification under the Australian Qualifications Framework."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in banking and finance.",
+    "evidenceLines": [
+      "Subject: STATISTICS FOR BUSINESS AND FINANCE (BUA4004)",
+      "Subject: PRINCIPLES OF FINANCE (BUA4005)",
+      "Critically analyse economic data to explain relationships between economic variables and their impacts on policy, business and individuals."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in banking and finance.",
+    "evidenceLines": [
+      "Ability to present work in a professional manner and to communicate effectively to a professional audience",
+      "The Graduate Diploma in Financial Analysis is a one-year full-time program (or its part-time equivalent), studied in English, requiring the successful completion of 120 credit points of study.",
+      "The program comprises eight subjects and covers a foundation in accounting, economics, finance and statistics, which is extended by a more detailed study of financial analysis and security valuation."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in banking and finance.",
+    "evidenceLines": [
+      "Use statistical principles and research skills in a collaborative team environment to solve practical problems and communicate the findings to people with various viewpoints",
+      "Subject: DEBT SECURITIES (FIN5DBS)",
+      "The Graduate Diploma in Financial Analysis is classified as a Level 8 qualification under the Australian Qualifications Framework."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The Graduate Diploma in Financial Analysis is a one-year full-time program (or its part-time equivalent), studied in English, requiring the successful completion of 120 credit points of study. The program comprises eight subjects and covers a foundation in accounting, economics, finance and statistics, which is extended by a more detailed study of financial analysis and security valuation. The Graduate Diploma in Financial Analysis is classified as a Level 8 qualification under the Australian Qualifications Framework.",
+      "The Graduate Diploma in Financial Analysis is a one-year full-time program (or its part-time equivalent), studied in English, requiring the successful completion of 120 credit points of study."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Diploma in Financial Analysis.",
+      "evidenceLines": [
+        "The Graduate Diploma in Financial Analysis is a one-year full-time program (or its part-time equivalent), studied in English, requiring the successful completion of 120 credit points of study. The program comprises eight subjects and covers a foundation in accounting, economics, finance and statistics, which is extended by a more detailed study of financial analysis and security valuation. The Graduate Diploma in Financial Analysis is classified as a Level 8 qualification under the Australian Qualifications Framework.",
+        "To qualify for the award of Graduate Diploma in Financial Analysis, students must complete 120 credit points as follows:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in banking and finance.",
+      "evidenceLines": [
+        "Subject: ACCOUNTING PRINCIPLES AND PRACTICES (ACC4001)",
+        "Analyse and record business transactions, and prepare financial statements using double-entry accounting principles."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

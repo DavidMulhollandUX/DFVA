@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education: early childhood.",
+    "evidenceLines": [
+      "examine and research the global history, philosophies and theories of early childhood education and the impact they have on current early childhood education practices",
+      "demonstrate understanding of historical perspectives in relation to children, childhood and early childhood education pedagogy and discuss how this has influenced early childhood education in contemporary Singapore society.",
+      "This course will advance your career as a skilled, critical and effective educator in the early childhood sector."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education: early childhood.",
+    "evidenceLines": [
+      "describe how early childhood education is governed and demonstrate familiarity with key policies, curriculum, and targeted programs and directions",
+      "knowledgeably discuss the roles and responsibilities of early childhood teachers in early childhood education settings and demonstrate an understanding of the professional, legal and ethical requirements",
+      "You will expand your understanding for working with young children with varied needs to develop their creative, intellectual, physical, personal and social capabilities and how to foster their learning in diverse ways."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education: early childhood.",
+    "evidenceLines": [
+      "Subject: Foundational overview to early childhood education (EDF2009)",
+      "Subject: Learning with children, families, communities and society (EDF2010)",
+      "Design early childhood service policy: Philosophy informs policy (2000 words equivalent): 50% (Hurdle: None)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education: early childhood.",
+    "evidenceLines": [
+      "Group Presentation (2000 words or equivalent): 50% (Hurdle: None)",
+      "exhibit knowledge of teaching and learning strategies that are responsive to the learning strengths and needs of diverse family structures and backgrounds.",
+      "Professional experience opportunities offered throughout the course will build your knowledge of early childhood teaching and learning for leading and working in partnerships with children, families and the community."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education: early childhood.",
+    "evidenceLines": [
+      "Subject: Contemporary child development theories and practices (EDF2011)",
+      "Subject: Health and physical wellbeing in the young child (EDF2035)",
+      "initiate, lead and implement ethical direction for spontaneous and planned communications to establish collaborative partnerships"
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education: early childhood.",
+    "evidenceLines": [
+      "demonstrate equitable understanding, respect, and sensitivity for improving educational practice through partnerships with children, family and community",
+      "This course will advance your career as a skilled, critical and effective educator in the early childhood sector.",
+      "You will expand your understanding for working with young children with varied needs to develop their creative, intellectual, physical, personal and social capabilities and how to foster their learning in diverse ways."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education: early childhood.",
+    "evidenceLines": [
+      "demonstrate the ability to design innovative learning in partnership with children, their families and communities from a range of linguistic, cultural, religious and socioeconomic backgrounds",
+      "Subject: Early childhood professional experience (EDF2036)",
+      "Professional experience opportunities offered throughout the course will build your knowledge of early childhood teaching and learning for leading and working in partnerships with children, families and the community."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "This course comprises 144 credit points and develops through the themes of i) Education studies, ii) Integrated curriculum and discipline studies and iii) Professional studies.",
+      "This course will advance your career as a skilled, critical and effective educator in the early childhood sector."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Education in Early Childhood.",
+      "evidenceLines": [
+        "This course comprises 144 credit points and develops through the themes of i) Education studies, ii) Integrated curriculum and discipline studies and iii) Professional studies.",
+        "144 credit points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in teacher education: early childhood.",
+      "evidenceLines": [
+        "Subject: Foundational overview to early childhood education (EDF2009)",
+        "examine and research the global history, philosophies and theories of early childhood education and the impact they have on current early childhood education practices"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

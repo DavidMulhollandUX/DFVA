@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-hbses",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in natural and physical sciences.",
+      "evidenceLines": [
+        "Reflect critically on your own cultural attitudes, values and beliefs",
+        "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+        "Help people reach peak performance with La Trobe's Bachelor of Sport and Exercise Science."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in natural and physical sciences.",
+      "evidenceLines": [
+        "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+        "Understand the need for and value of appropriate and effective intercultural communication",
+        "You'll gain a detailed understanding of the science behind training, explore the strengths and limitations of the human body, and build strong foundations in physiology, anatomy and biomechanics."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within natural and physical sciences.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Subject: INTRODUCTION TO HUMAN ANATOMY (ANA1001)",
+        "Evaluate how the nervous system integrates sensory and motor control, and the effects of its dysfunction/impairment."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in natural and physical sciences.",
+      "evidenceLines": [
+        "Describe the anatomical structure and function of major body systems using the appropriate anatomical terminology.",
+        "Analyse the role of the musculoskeletal system in facilitating movement and assess the impacts following injury.",
+        "You'll use data and scientific principles and techniques to help people build strength, regain movement, prevent injuries and perform at their peak."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in natural and physical sciences.",
+      "evidenceLines": [
+        "Subject: APPLIED HUMAN ANATOMY (ANA2001)",
+        "Subject: HUMAN BIOSCIENCES A (HBS1HBA)",
+        "Identify musculoskeletal structures through surface anatomy."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in natural and physical sciences.",
+      "evidenceLines": [
+        "Describe normal structure and function of the central nervous system including neural pathways for sensation and motor control.",
+        "Help people reach peak performance with La Trobe's Bachelor of Sport and Exercise Science.",
+        "You'll gain a detailed understanding of the science behind training, explore the strengths and limitations of the human body, and build strong foundations in physiology, anatomy and biomechanics."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in natural and physical sciences.",
+      "evidenceLines": [
+        "Describe normal structure and function of the musculoskeletal and nervous systems within the upper limb, lower limb, and trunk (vertebral column, and the thorax in relation to mechanisms of respiration).",
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "You'll use data and scientific principles and techniques to help people build strength, regain movement, prevent injuries and perform at their peak."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "To qualify for the award of Bachelor of Sport and Exercise Science, students must complete 360 credit points consisting of:",
+        "Help people reach peak performance with La Trobe's Bachelor of Sport and Exercise Science."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Sport and Exercise Science.",
+        "evidenceLines": [
+          "To qualify for the award of Bachelor of Sport and Exercise Science, students must complete 360 credit points consisting of:",
+          "240 core credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in natural and physical sciences.",
+        "evidenceLines": [
+          "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+          "Reflect critically on your own cultural attitudes, values and beliefs"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

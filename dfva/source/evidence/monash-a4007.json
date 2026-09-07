@@ -1,0 +1,102 @@
+{
+  "code": "monash-a4007",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 14,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in communication and media studies.",
+      "evidenceLines": [
+        "apply professional ethics standards for media and communications research.",
+        "design effective research questions and select appropriate research methods;",
+        "There has never been a more important or exciting time to study the mediated world."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in communication and media studies.",
+      "evidenceLines": [
+        "analyse the role of research methods in addressing key challenges in media and communications;",
+        "critically examine the major research methods used in communication and media studies;",
+        "This course builds your understanding of the changing contexts of media and communication practices."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within communication and media studies.",
+      "evidenceLines": [
+        "Subject: Doing media and communications research (APG5050)",
+        "Subject: Principles of global media and communications (APG5365)",
+        "Research proposal: 50% (Hurdle: None)"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in communication and media studies.",
+      "evidenceLines": [
+        "Annotated Bibliography: 40% (Hurdle: None)",
+        "In-class exercise: 10% (Hurdle: None)",
+        "You will gain insight into the key issues affecting the communications and media industries and you will examine these developments from cultural, political and theoretical perspectives."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in communication and media studies.",
+      "evidenceLines": [
+        "Subject: Media and social change (APG5397)",
+        "Subject: Global media industries (APG5401)",
+        "read and critically analyse scholarly publications in media and communications;"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in communication and media studies.",
+      "evidenceLines": [
+        "critically appraise the relationship between theory and practice in the field of media and communications;",
+        "There has never been a more important or exciting time to study the mediated world.",
+        "This course builds your understanding of the changing contexts of media and communication practices."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in communication and media studies.",
+      "evidenceLines": [
+        "Discuss and critically evaluate the role of media and communications in contemporary global societies and its relationship with a range of different sectors from local to global levels.",
+        "Subject: Understanding media audiences (APG5456)",
+        "You will gain insight into the key issues affecting the communications and media industries and you will examine these developments from cultural, political and theoretical perspectives."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course comprises 24 credit points of study which provide knowledge, skills, attitudes and values required of skilled practitioners working in a range of fields addressing communications and media studies.",
+        "There has never been a more important or exciting time to study the mediated world."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate of Communications and Media Studies.",
+        "evidenceLines": [
+          "The course comprises 24 credit points of study which provide knowledge, skills, attitudes and values required of skilled practitioners working in a range of fields addressing communications and media studies.",
+          "24 credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in communication and media studies.",
+        "evidenceLines": [
+          "Subject: Doing media and communications research (APG5050)",
+          "apply professional ethics standards for media and communications research."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

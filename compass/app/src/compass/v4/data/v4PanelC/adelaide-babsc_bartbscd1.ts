@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in natural and physical sciences.",
+    "evidenceLines": [
+      "**Institution**: The University of Adelaide",
+      "**Program Identifier / Slug**: babsc_bartbscd1",
+      "- **Institution**: The University of Adelaide"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in natural and physical sciences.",
+    "evidenceLines": [
+      "**Academic Calendar Year**: 2025/2026",
+      "**Faculty**: Faculty of Arts, Business, Law and Economics (ABLE)",
+      "- **Program Identifier / Slug**: babsc_bartbscd1"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within natural and physical sciences.",
+    "evidenceLines": [
+      "Subject: Data Analytics (ECON1012)",
+      "Subject: Introduction to Health Ethics (HLTH1001)",
+      "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/babsc_bartbscd1"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in natural and physical sciences.",
+    "evidenceLines": [
+      "Execute correctly a variety of statistical techniques, both descriptive and inferential, with economic and business data.",
+      "Use statistical software to input data, generate descriptive statistics, conduct inferential statistical procedures, and produce graphical representations of data.",
+      "- **Academic Calendar Year**: 2025/2026"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in natural and physical sciences.",
+    "evidenceLines": [
+      "Subject: Social Media Audiences and Algorithmic Cultures (MDIA1017)",
+      "Subject: Data Analytics (ECON1012)",
+      "Interpret the output from statistical analyses appropriately and explain the practical significance of the results in economic and business contexts."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in natural and physical sciences.",
+    "evidenceLines": [
+      "Analyse economic and business questions as statistical problems by identifying key variables and assumptions and solve them using appropriate statistical methods, demonstrating logical reasoning and accuracy.",
+      "- **Institution**: The University of Adelaide",
+      "- **Program Identifier / Slug**: babsc_bartbscd1"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in natural and physical sciences.",
+    "evidenceLines": [
+      "Discuss the implications of statistical decisions, recognising potential biases, errors, and the consequences of using inappropriate methods.",
+      "Subject: Social Media Audiences and Algorithmic Cultures (MDIA1017)",
+      "- **Academic Calendar Year**: 2025/2026"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "This double degree enables students to expand their interests in both Science and Arts. It aims to produce graduates who are skilled in scientific method for experimentation and research, and who are also socially and critically engaged, innovative and creative thinkers and communicators. The program has been developed in recognition of the importance of science being studied in its social context as part of a broader liberal education. The links between the two areas can be explored through a range of pathways. In the first two years the program is divided between the two areas, satisfying the requirements for the first two years of both degrees concurrently. In the following two years, students complete the equivalent of a full year of study each for Science and Arts. Full-time students are encouraged to take advantage of the study abroad and student exchange program available to students. Students will complete at least one major, and possibly two, in both Arts and Science, making it possible to apply for entry to Honours in a number of fields.",
+      "- **Institution**: The University of Adelaide"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Arts with Bachelor of Science.",
+      "evidenceLines": [
+        "This double degree enables students to expand their interests in both Science and Arts. It aims to produce graduates who are skilled in scientific method for experimentation and research, and who are also socially and critically engaged, innovative and creative thinkers and communicators. The program has been developed in recognition of the importance of science being studied in its social context as part of a broader liberal education. The links between the two areas can be explored through a range of pathways. In the first two years the program is divided between the two areas, satisfying the requirements for the first two years of both degrees concurrently. In the following two years, students complete the equivalent of a full year of study each for Science and Arts. Full-time students are encouraged to take advantage of the study abroad and student exchange program available to students. Students will complete at least one major, and possibly two, in both Arts and Science, making it possible to apply for entry to Honours in a number of fields.",
+        "The Bachelor of Arts with Bachelor of Science is an AQF Level 7 program with a standard full-time duration of 4 years."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in natural and physical sciences.",
+      "evidenceLines": [
+        "Subject: Data Analytics (ECON1012)",
+        "**Institution**: The University of Adelaide"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

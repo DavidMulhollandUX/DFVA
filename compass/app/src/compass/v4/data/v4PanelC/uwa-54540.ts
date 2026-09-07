@@ -1,0 +1,107 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 15,
+  "workplace": 8,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Advanced scientific, clinical, and public health communication, laboratory diagnostic reporting, and interdisciplinary collaboration with health authorities.",
+    "evidenceLines": [
+      "communicate effectively in written and spoken form, both independently and in a team.",
+      "The Master of Infectious Diseases course provides graduates with advanced skills and knowledge in infectious diseases, from laboratory diagnosis through to treatment and prevention.",
+      "Guest lecturers from the Departments of Health and Water present a contemporary view of public health infectious disease in Western Australia."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Rigorous critical appraisal of antimicrobial resistance pathways, clinical trial design, ethical dilemmas in biomedical intervention, and diagnostic test interpretation.",
+    "evidenceLines": [
+      "discuss drug development for infectious diseases, clinical trials and ethical implications, and the role of partnerships in drug development",
+      "critically evaluate techniques for antimicrobial susceptibility testing in the laboratory, and explain how the interpretation of laboratory data may guide therapy.",
+      "evaluate mechanisms of resistance to antimicrobial agents and explain how these arise"
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Advanced computational bioinformatics workflows, genomic phylogenetic analysis, clinical metadata management in R, and statistical modeling of complex metagenomics datasets.",
+    "evidenceLines": [
+      "Students will be taught basic bioinformatics tools and how to apply these to case studies examining the molecular epidemiology of various pathogens.",
+      "design workflows for the analysis of genomic data required for phylogenetic approaches to microbial epidemiology",
+      "Statistical approaches to complex datasets including 16S rDNA and metagenomics datasets from microbiome studies will be explored."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Multi-scale biological and epidemiological synthesis: pathogen transmission dynamics, molecular pathogenesis, recombinant vaccinology, and public health surveillance.",
+    "evidenceLines": [
+      "Students gain comprehensive knowledge in diverse topics such as the transmission and pathogenesis of infectious agents, molecular microbiology, bioinformatics, immunology, vaccine design and therapeutics, emerging diseases and zoonoses, and disease surveillance and public health.",
+      "explain the theoretical basis of molecular techniques such as polymerase chain reaction (PCR), DNA cloning, sequencing and the expression and purification of recombinant proteins",
+      "explain how such techniques are applied to the investigation of pathogenesis, diagnostics, epidemiology and vaccinology"
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Empirical laboratory diagnostic investigations across over 150 hours of practical classes, isolating bacterial, viral, fungal, and parasitic pathogens from clinical specimens.",
+    "evidenceLines": [
+      "Comprehensive practical skills are gained from over 150 hours of hands-on laboratory classes in the first year of study.",
+      "apply the techniques used in the laboratory to diagnose bacterial and viral infections in human clinical samples.",
+      "evaluate techniques commonly used in diagnostic laboratories and obtain competency in several basic laboratory skills."
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Direct integration with PathWest clinical reference laboratories, antimicrobial stewardship protocols, and statutory notifiable disease reporting frameworks.",
+    "evidenceLines": [
+      "A unique feature of the unit is the involvement of PathWest, which has a strong reputation in public and environmental health microbiology.",
+      "The unit describes how molecular strategies are used to dissect mechanisms of pathogenesis and immune responses to the pathogen, and how an understanding of such processes is applied to the development of new vaccines and antimicrobials.",
+      "compare approaches to countering antimicrobial resistance, including antimicrobial stewardship, the development of new drugs and use of novel therapeutics"
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic clinical microbiological problem-solving, patient specimen analysis, outbreak investigation datasets, and applied therapeutic strategy formulation.",
+    "evidenceLines": [
+      "This unit introduces the work of the clinical microbiology laboratory, placing particular emphasis on the contribution of medical microbiology to critical decisions. Current and emerging methods in bacteriology, virology, mycology and parasitology are covered. There is a strong emphasis on laboratory-based clinical problem solving. A substantial part of the unit is computer based. Laboratory classes focus on the application of clinical laboratory methods.",
+      "Experimental design, including the collection and handling of metadata for clinical specimens, and the management of this data using R will be covered.",
+      "Graduates are equipped with the tools for tackling infectious disease threats, and for contributing to improved health outcomes worldwide."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Level 2: Over 150 hours of intensive diagnostic laboratory classes embedded within the active research environment of the Marshall Centre for Infectious Diseases.",
+    "evidenceLines": [
+      "The course is run within the active research environment of the Discipline of Microbiology and Immunology and the Marshall Centre for Infectious Diseases.",
+      "In the second year, students have the option of undertaking a research project, coursework, or a combination of both.",
+      "Comprehensive practical skills are gained from over 150 hours of hands-on laboratory classes in the first year of study."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "A comprehensive 96-point postgraduate master degree covering infectious disease biology, diagnostics, epidemiology, and public health.",
+      "evidenceLines": [
+        "The course consists of units to a total value of 96 points.",
+        "Take all core units (48 points)."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist advanced degree structured through core diagnostics, infection and immunity, and molecular epidemiology.",
+      "evidenceLines": [
+        "The Master of Infectious Diseases course provides graduates with advanced skills and knowledge in infectious diseases, from laboratory diagnosis through to treatment and prevention.",
+        "54540\nMaster of Infectious Diseases (96 points)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to explicit bioinformatics pipelines and metagenomics analysis in R.",
+    "W3: Scored at Level 2 as research projects and clinical diagnostic labs are internal rather than mandatory external clinical placements."
+  ],
+  "notScoreable": []
+};
+
+export default record;

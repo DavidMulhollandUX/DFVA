@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-lbbcs",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+      "evidenceLines": [
+        "Reflect critically on your own cultural attitudes, values and beliefs",
+        "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+        "Carefully co-designed with leading industry experts, our Bachelor of Business (Accounting) will teach you core skills across every aspect of business accounting, as well as communications, research, problem-solving and teamwork skills to boost your business credentials."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+      "evidenceLines": [
+        "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+        "Understand the need for and value of appropriate and effective intercultural communication",
+        "Learn how to meet business needs and take on social challenges."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Subject: ACCOUNTING INFORMATION SYSTEMS (ACC1AIS)",
+        "Work effectively in a team to produce high quality work"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+      "evidenceLines": [
+        "Effectively and appropriately communicate findings about and from AIS and their implications to relevant stakeholders.",
+        "Employ accounting software, information technologies and business intelligence tools to develop, manage and control accounting information systems within organisations.",
+        "You can also explore your interests through electives in a range of speciality areas, including digital business, finance and management."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+      "evidenceLines": [
+        "Subject: FUNDAMENTALS OF ACCOUNTING (ACC1AMD)",
+        "Subject: COST INFORMATION FOR DECISION MAKING (ACC2CAD)",
+        "Critically evaluate current ICT processes and controls within an organisation and develop solutions to make them more effective."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+      "evidenceLines": [
+        "Explain the role of accounting in the business environment",
+        "Carefully co-designed with leading industry experts, our Bachelor of Business (Accounting) will teach you core skills across every aspect of business accounting, as well as communications, research, problem-solving and teamwork skills to boost your business credentials.",
+        "Learn how to meet business needs and take on social challenges."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+      "evidenceLines": [
+        "Use information communications technology (ICT) in the process of reporting, recording and analysing accounting information",
+        "Subject: FINANCIAL ACCOUNTING AND REPORTING (ACC2CRE)",
+        "You can also explore your interests through electives in a range of speciality areas, including digital business, finance and management."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "Carefully co-designed with leading industry experts, our Bachelor of Business (Accounting) will teach you core skills across every aspect of business accounting, as well as communications, research, problem-solving and teamwork skills to boost your business credentials.",
+        "Carefully co-designed with leading industry experts, our Bachelor of Business (Accounting) will teach you core skills across every aspect of business accounting, as well as communications, research, problem-solving and teamwork skills to boost your business credentials."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Business.",
+        "evidenceLines": [
+          "Carefully co-designed with leading industry experts, our Bachelor of Business (Accounting) will teach you core skills across every aspect of business accounting, as well as communications, research, problem-solving and teamwork skills to boost your business credentials.",
+          "* Company and commercial law  * Explore the core principles of contract and consumer protection law, the law of negligence and property law. Understand how to work with different business structures."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in business and management.",
+        "evidenceLines": [
+          "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+          "Reflect critically on your own cultural attitudes, values and beliefs"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

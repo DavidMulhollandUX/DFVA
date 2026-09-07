@@ -1,0 +1,571 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/C6009 =====
+## Master of Data Science
+##### C6009
+##### 96 credit points
+You are viewing the 2026 version
+
+### Overview
+The Master of Data Science, taught at the Indonesia campus, prepares you for a career in data science giving you the skills needed to deal effectively within the areas of data analysis, data engineering and big data processing. The course covers topics in both theoretical and practical perspectives, which include statistical machine learning, exploratory analysis, data formats and types, processing of structured and semi-structured data sets, and their role and impact in an organisation and society.
+
+You will be able to apply your learning, knowledge and skills as part of the assessment process and have the opportunity to complete either a research project or an industry experience studio project in a team.
+
+### AQF level
+Level 9 - Master's Degree (Coursework)
+### Post-nominals
+MDataSci
+### Course duration (full time)
+
+
+### Structure
+The course comprises 96 credit points structured into three parts: Part A. Foundation studies, Part B. Core studies and Part C. Applied studies. 
+
+Part A. Foundation studies
+
+These studies will provide an orientation to the field of data science at graduate level. They are intended for students whose previous qualification is not in a cognate field.
+
+Part B. Core studies
+
+These studies draw on best practices within the broad realm of data science practice and research. You will gain a critical understanding of theoretical and practical issues relating to data science.
+
+Part C. Applied studies
+
+The focus of these studies is professional or scholarly work that can contribute to a portfolio of professional development. You have two options:
+
+  * a program of coursework involving advanced study and an industry experience studio project.
+  * a research pathway including a thesis. If you wish to use this master's course as a pathway to a higher degree by research you should take this first option.
+
+Master's entry points
+
+Depending on prior qualifications you may receive entry level credit (a form of block credit) which determines your point of entry to the course:
+
+  * If you are admitted at entry level 1 you complete 96 credit points, comprising Part A, Part B and Part C.
+  * If you are admitted at entry level 2 you complete 72 credit points, comprising Part B and Part C.
+
+Note: If you are eligible for credit for prior studies you may elect not to receive the credit and complete one of the higher credit-point options.
+
+Course progression map
+
+The course progression map provides guidance on unit enrolment for each semester of study.
+
+### Requirements
+The course comprises 96 points structured into three parts: Part A. Foundation studies (24 points), Part B. Core studies (48 points) and Part C. Applied studies (24 points). 
+
+Units are 6 points unless otherwise stated.
+
+Part A. Foundation studies (24 points)
+
+You must complete:
+
+  * ITI9132 Introduction to databases
+
+  * ITI9136 Introduction to Python programming
+
+  * ITI9137 Introduction to computer architecture and networks
+
+  * ITI9004 Mathematical foundations for data science and AI
+
+Part B. Core studies (48 points)
+
+You must complete the following units (42 credit points):
+
+  * ITI5057 Project management
+
+  * ITI5125 IT research methods
+
+  * ITI5145 Introduction to data science
+
+  * ITI5147 Data exploration and visualisation
+
+  * ITI5196 Data wrangling
+
+  * ITI5197 Statistical data modelling
+
+  * ITI5202 Data processing for big data
+
+Specified elective studies
+
+You must complete one of the following units (6 credit points):
+
+  * ITI5149 Applied data analysis
+
+  * ITI5201 Machine learning
+
+  * ITI5212 Data analysis for semi-structured data
+
+Part C. Applied studies (24 points)
+
+You must complete either the Industry experience pathway or Research pathway:
+
+a. Industry experience pathway
+
+  * ITI5120 Industry experience studio project 1
+
+  * ITI5121 Industry experience studio project 2
+
+  * ITI5122 Professional practice
+
+  * one level 5 elective unit (6 points). 
+
+b. Research pathway
+
+  * ITI5126 Masters thesis part 1
+
+  * ITI5127 Masters thesis part 2
+
+  * ITI5128 Masters thesis final
+
+  * ITI5122 Professional practice
+
+Enrolment in the research units is dependent on available supervisors and projects. Eligible students will be ranked based on their entire academic record and assessed for suitability to undertake the research component of this program.
+
+Note 2: To be eligible for the research option, you must have successfully completed at least 24 credit points of level 5 FIT-coded units; and have an overall average of at least 80% across all Level 5 units; and must have have achieved at least a distinction (75%) in FIT5125 IT research methods; and achieved an overall course WAM of 70%. 
+
+If you have a WAM between 75-79% across all Level 5 units you must have successfully completed at least 24 credit points of level 5 FIT-coded units; and demonstrated research capability with written support from a prospective supervisor; and must have achieved at least a distinction (75%) in FIT5125 IT research methods; and achieved an overall course WAM of 70%.
+
+### Course structure
+96 credit points
+**Part C. Applied studies** **24 credit points**
+You must complete either the Industry experience pathway or Research pathway.
+  **Research pathway** **24 credit points**
+  You must complete the following units.
+
+Note 1: Enrolment in the research units is dependent on available supervisors and projects. Eligible students will be ranked based on their entire academic record and assessed for suitability to undertake the research component of this program. 
+
+Note 2: To be eligible for the research option, you must have successfully completed at least 24 credit points of level 5 FIT-coded units; and have an overall average of at least 80% across all Level 5 units; and must have have achieved at least a distinction (75%) in FIT5125 IT research methods; and achieved an overall course WAM of 70%. 
+
+If you have a WAM between 75-79% across all Level 5 units you must have successfully completed at least 24 credit points of level 5 FIT-coded units; and demonstrated research capability with written support from a prospective supervisor; and must have achieved at least a distinction (75%) in FIT5125 IT research methods; and achieved an overall course WAM of 70%.
+    [ _arrow_forward_ ITI5126 Masters thesis part 1 ](https://handbook.monash.edu/2026/units/ITI5126)
+    [ _arrow_forward_ ITI5122 Professional practice ](https://handbook.monash.edu/2026/units/ITI5122)
+    [ _arrow_forward_ ITI5128 Masters thesis final ](https://handbook.monash.edu/2026/units/ITI5128)
+    [ _arrow_forward_ ITI5127 Masters thesis part 2 ](https://handbook.monash.edu/2026/units/ITI5127)
+  **Industry experience pathway** **24 credit points**
+  You must complete the following units (18 credit points) plus one Level 5 unit (6 credit points). You must have the required prerequisites for the unit you choose.
+    [ _arrow_forward_ ITI5120 Industry experience studio project 1 ](https://handbook.monash.edu/2026/units/ITI5120)
+    [ _arrow_forward_ ITI5122 Professional practice ](https://handbook.monash.edu/2026/units/ITI5122)
+    [ _arrow_forward_ ITI5121 Industry experience studio project 2 ](https://handbook.monash.edu/2026/units/ITI5121)
+**Part B. Core studies** **48 credit points**
+You must complete 48 credit points, comprising
+-  the following seven units (42 credit points); and
+- one unit (6 credit points) of Specified elective studies.
+  [ _arrow_forward_ ITI5197 Statistical data modelling ](https://handbook.monash.edu/2026/units/ITI5197)
+  [ _arrow_forward_ ITI5147 Data exploration and visualisation ](https://handbook.monash.edu/2026/units/ITI5147)
+  [ _arrow_forward_ ITI5057 Project management ](https://handbook.monash.edu/2026/units/ITI5057)
+  [ _arrow_forward_ ITI5125 IT research methods ](https://handbook.monash.edu/2026/units/ITI5125)
+  [ _arrow_forward_ ITI5196 Data wrangling ](https://handbook.monash.edu/2026/units/ITI5196)
+  [ _arrow_forward_ ITI5145 Introduction to data science ](https://handbook.monash.edu/2026/units/ITI5145)
+  [ _arrow_forward_ FIT5202 Data processing for big data ](https://handbook.monash.edu/2026/units/FIT5202)
+  **Specified elective studies** **6 credit points**
+  You must complete one of the following units (6 credit points)
+    [ _arrow_forward_ ITI5149 Applied data analysis ](https://handbook.monash.edu/2026/units/ITI5149)
+    [ _arrow_forward_ ITI5201 Machine learning ](https://handbook.monash.edu/2026/units/ITI5201)
+    [ _arrow_forward_ ITI5212 Data analysis for semi-structured data ](https://handbook.monash.edu/2026/units/ITI5212)
+**Part A. Foundation studies** **24 credit points**
+You must complete the following units
+  [ _arrow_forward_ ITI9136 Introduction to Python programming ](https://handbook.monash.edu/2026/units/ITI9136)
+  [ _arrow_forward_ ITI9137 Introduction to computer architecture and networks ](https://handbook.monash.edu/2026/units/ITI9137)
+  [ _arrow_forward_ ITI9132 Introduction to databases ](https://handbook.monash.edu/2026/units/ITI9132)
+  [ _arrow_forward_ ITI9004 Mathematical foundations for data science and AI ](https://handbook.monash.edu/2026/units/ITI9004)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+review, synthesise, apply and evaluate contemporary data science theories through independent research and a research thesis, or by utilising research methods for scholarly or professional purposes.
+**2.**
+analyse the lifecycle of data through an organisation.
+**3.**
+document and communicate ethical and legal issues and norms in privacy and security, and other areas of community impact with regards to the practice of data science.
+**4.**
+investigate, analyse, document and communicate the core issues and requirements in developing data analysis capability in a global organisation.
+**5.**
+plan, manage and execute a data science project individually and collaboratively on a new application area using knowledge of the data lifecycle and analysis process.
+**6.**
+apply the major theories in the field of data analysis and data exploration to some characteristic problems.
+**7.**
+demonstrate an understanding of data science to a level of depth and sophistication consistent with senior professional practice.
+
+### Progression to further studies
+Successful completion of this course may provide a pathway to a graduate research degree.
+
+Progression to a graduate research degree will be conditional on you completing the minor thesis research pathway (as described in Part C, Research pathway) and achieving the minimum entry requirements for either the Master of Philosophy or the Doctor of Philosophy.
+
+### AHEGS
+The Master of Data Science is a postgraduate award. The course is taught in English and normally takes two years of full-time study or part-time equivalent. The course provides an orientation to the analysis, processing, and management of data, an evaluation of data science projects, and understanding of key standards, software and theories in data science. The course recognises the multifaceted role of practice and so allows a focus on analytic, engineering and management skills. Graduates will have completed either a research pathway or industry-based learning component. The Master of Data Science is a Level 9 Australian Qualifications Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations.
+
+### Degrees awarded
+Master of Data Science
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5125 =====
+Subject: IT research and innovation methods (FIT5125)
+Credit Points: 6
+Overview: The aim of this unit is to prepare you to conduct research and innovation in the IT industry. It provides broad coverage of the issues, concepts, methods, and techniques associated with the contemporary IT professional as you conduct research, and design and evaluate new products and services. It introduces you to major research and innovation paradigms, the principles of research and innovation design, responsible research and innovation, and research and innovation methods and techniques within IT industry. It also covers how to effectively communicate the results research and innovation through the established method of short-form video. Skills developed and knowledge acquired from this unit will prepare you to plan, conduct and communicate research and innovation within an IT organisation, as well as to be knowledgeable and critical interpreters of research and innovation more generally.
+Learning Outcomes:
+- Identify and describe intellectual property issues related to IT research and innovation, including prior art and new knowledge;
+- Evaluate, select and justify research and innovation methods, including data collection and analysis using qualitative and quantitative methods;
+- Review and critique the current state of art from a wide range of sources to inform a research question and appropriate methods;
+- Communicate the outcomes of research and innovation activities, demonstrating an understanding of diverse audiences and stakeholders.
+- Demonstrate the ability to frame and design all aspects of the research and innovation pipeline;
+- Explain the ethical and professional issues that may arise when conducting IT research and innovation and demonstrate practical ways to address them;
+Assessment Tasks:
+- Assignment 2: 45% (Hurdle: None)
+- Assignment 1: 45% (Hurdle: None)
+- Weekly quizzes: 10% (Hurdle: None)
+- Assignment 1: 40% (Hurdle: None)
+- Quizzes: 20% (Hurdle: None)
+- Assignment 2: 40% (Hurdle: None)
+Workload: In addition to the scheduled activities, you will be required to undertake 2 hours of preparation before each studio class and a minimum of 6 hours of independent study completing post-studio activities and assessments per week. Note: studios are On-Campus. Lectures are online.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5202 =====
+Subject: Data processing for big data (FIT5202)
+Credit Points: 6
+Overview: This unit focuses on big data processing, including volume, complexity, and velocity using the latest big data technologies. In big data volume, it covers large volume data processing using parallel technologies. In large dimensionality (or complexity), it covers various data analytics methods for parallel processing. For the velocity, it covers data streaming processing.
+Learning Outcomes:
+- write and interpret parallel database processing algorithms and methods;
+- use big data streaming technologies.
+- use and evaluate streaming methods in big data processing;
+- apply common data analytics and machine learning algorithms in a big data environment in a secure and ethical manner;
+- identify and explain big data concepts and technologies;
+Assessment Tasks:
+- Assignment 2: 30% (Hurdle: None)
+- Scheduled Final assessment: 45% (Hurdle: None)
+- Lab tasks: 5% (Hurdle: None)
+- Quiz: 5% (Hurdle: None)
+- Assignment 1: 15% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5057 =====
+Subject: Project management (ITI5057)
+Credit Points: 6
+Overview: This unit focuses on a holistic approach to project management. It provides you with a high level of understanding of the processes of project management, as well as sound skills in the use of project tools. Proficiency in using key tools and concepts could give you a significant competitive advantage in the market place. The content deals with: concepts and definitions; organising and staffing the project office and team; planning, scheduling techniques; cost control; risk management; contracts and procurement; etc. Case studies, articles of interest that may appear in current media, and your own work experiences with project management, will be discussed to optimise the learning opportunity in the unit.
+Learning Outcomes:
+- Collaborative strategies to support effective teamwork in modern IT projects.
+- Create IT project governance & compliance frameworks needed to manage modern IT projects;
+- Apply the 10 Project Management Body of Knowledge (PMBOK) areas to modern IT projects;
+- Create a collaborative ICT project plan using the PMBOK areas for a given case-study;
+- Recommend project management and critical thinking strategies and techniques for modern IT projects;
+Assessment Tasks:
+- Adaptive Project Management: 40% (Hurdle: None)
+- Predictive Project Management and foundations: 40% (Hurdle: None)
+- Weekly quizzes: 20% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average three/four hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5120 =====
+Subject: Industry experience studio project 1 (ITI5120)
+Credit Points: 6
+Overview: This industry experience studio project capstone unit gives you the opportunity to work in teams to research contemporary approaches to developing a defined project, develop new skills and apply the knowledge and skills they have already gained in a practical setting. Teams will research and create a meaningful and beneficial problem space or design question and then carry out research or design in a systematic manner to develop and deliver a solution to industry standards, for use by organisations and/or community groups. Teams will be self managed and may be a mix of students drawn from all Masters courses in the faculty, depending on the specialist field. Throughout this process you will need to communicate findings, knowledge and ideas effectively and professionally to a range of stakeholders, with a range of IT knowledge, in relevant and innovative ways. The stakeholders will include academics, peers, project-based stakeholders and senior industry experts. You will attend unit seminars, carry out research individually and contribute in a professional, committed and collegial manner to the work of your team and studio peers.
+Learning Outcomes:
+- Differentiate and synthesise the interrelated roles and responsibilities of all stakeholders of a project and assess and analyse why these roles are important for a successful project.
+- Apply, in an industry standard setting, new concepts as well as aspects of theoretical approaches already learned, selecting the most appropriate fit for a specific situation and the rationale for that selection applying investigative research, while ensuring the end result has a responsible impact on society.
+- Contrast and apply the most suitable professional practice skills on issues relevant to the chosen area of practice and operate effectively as a member of that practice team; including understanding the ethical and social responsibilities of IT professionals and teams.
+- Evaluate, assess and communicate both personal and team progress and learning, thus engaging in meaningful reflective practice of one's self and the outcomes and process of the project.
+- Critically analyse complex information relevant to an advanced specialist domain and identify information requirements interpreting how they may be of benefit to an organisation or a community, including addressing security needs and ethical concerns.
+- Analyse how specialist domain projects are developed and evaluate the underlying principles and reasons underpinning each aspect of the development process, proposing the need for and then using a context driven methodological approach to deliver, ensuring security considerations in order that the final product is not only effective but also resilient against potential threats and vulnerabilities.
+- Demonstrate discernment and judgment in effective two-way communication to all stakeholders/audiences, both specialist and generalist, by using innovative, relevant and meaningful mechanisms to disseminate knowledge and ideas
+Assessment Tasks:
+- Content knowledge: 10% (Hurdle: None)
+- Reflection: 15% (Hurdle: None)
+- Project deliverables (team-based): 75% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include completing project work individually and with team members, industry mentor meetings and review work. The unit requires on average four/six hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning, online engagement and industry seminars.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5121 =====
+Subject: Industry experience studio project 2 (ITI5121)
+Credit Points: 6
+Overview: This industry experience studio project capstone unit gives you the opportunity to work in teams to research contemporary approaches to developing a defined project, develop new skills and apply the knowledge and skills they have already gained in a practical setting. Teams will research and create a meaningful and beneficial problem space or design question and then carry out research or design in a systematic manner to develop and deliver a solution to industry standards, for use by organisations and/or community groups. Teams will be self managed and may be a mix of students drawn from all Masters courses in the faculty, depending on the specialist field. Throughout this process you will need to communicate findings, knowledge and ideas effectively and professionally to a range of stakeholders, with a range of IT knowledge, in relevant and innovative ways. The stakeholders will include academics, peers, project-based stakeholders and senior industry experts. You will attend unit seminars, carry out research individually and contribute in a professional, committed and collegial manner to the work of your team and studio peers.
+Learning Outcomes:
+- Demonstrate discernment and judgment in effective two-way communication to all stakeholders/audiences, both specialist and generalist, by using innovative, relevant and meaningful mechanisms to disseminate knowledge and ideas
+- Compare and apply professional practices relevant to the chosen area of practice, understanding ethical and social responsibilities of IT professionals and teams.
+- Evaluate, assess and communicate both personal and team progress and learning, thus engaging in meaningful reflective practice of one's self and the outcomes and process of the project.
+- Critically analyse complex information, identify relevant requirements, and consider security and ethical implications to develop effective and resilient specialist domain projects
+- Apply relevant theoretical concepts and practical skills to real-world scenarios, justifying choices ensuring the end result has a responsible impact on society.
+- Differentiate and synthesise the interrelated roles and responsibilities of all stakeholders of a project and assess and analyse why these roles are important for a successful project.
+Assessment Tasks:
+- Reflection: 15% (Hurdle: None)
+- Project deliverables: 75% (Hurdle: None)
+- Content knowledge: 10% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5122 =====
+Subject: Professional practice (ITI5122)
+Credit Points: 6
+Overview: This unit provides a practical and theoretical understanding to what it means to be an IT professional today. You will encounter a range of issues relevant to professional practice in the workplace, including ethical and legal challenges caused by technology use. You will research established theories and concepts and critically evaluate their practical use (taking into account many international aspects) in organisations today, as well as reviewing and understanding the wider responsibilities that IT professionals are called upon to uphold in society. Topics addressed include - organisational and professional communication; teamwork; the nature of the IT professions; the role of professional associations; problem solving and information use; cross-cultural awareness; personal and professional ethics and codes of practice.
+Learning Outcomes:
+- Identify and analyse the ethical dimensions associated with IT-related decisions, use and quality and their possible impacts on organisations and society;
+- Evaluate, assess and communicate both personal and team progress and learning, thus engaging in meaningful reflective practice.
+- Compare and contrast IT professional roles, assessing the necessity and rationale for constant review and change;
+- Reflect on and analyse the need for IT professional associations and the need for codes of ethics (including the ACS) in IT development and use;
+- Appraise and justify various teamwork skills for various situations, demonstrating the ability to apply them by working cooperatively and managing conflict within their team;
+- Research, select and apply strategies, protocols and innovative methods for effective and efficient communications across all stakeholders, evaluating their appropriateness for intercultural communications;
+- Develop and apply appropriate information gathering, critical evaluation (information and its sources) and problem solving skills;
+Assessment Tasks:
+- Assignment 3 (Project): 30% (Hurdle: None)
+- Assignment 2 (Exercise Group Task): 20% (Hurdle: None)
+- Assignment 1 (Portfolio Quizzes): 50% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average three/four hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5125 =====
+Subject: IT research methods (ITI5125)
+Credit Points: 6
+Overview: The aim of the unit is to prepare Masters students to conduct research across the range of IT sub-disciplines. It provides broad coverage of the issues, concepts, methods, and techniques associated with Computer Science, Software Engineering, Information Systems and Information Management research. It introduces you to major research paradigms, the principles of research design, research ethics, and research methods and techniques of data collection and analysis appropriate to IT research generally and to their sub-discipline specifically. It covers oral, written, online and video research communication skills. Skills developed and knowledge acquired from this unit will prepare you to conduct and communicate your own research, as well as to be knowledgeable and critical interpreters of research more generally.
+Learning Outcomes:
+- Communicate research findings orally and in writing, online and using video, in research and industry settings;
+- Identify and explain major research philosophies and paradigms;
+- Design and carry out a rigorous and ethical research project and produce a report explaining the project, its design and interpretation of the results;
+- Analyse and describe the technical, professional and socio-economic contexts that motivate research, and the implications of research outcomes;
+- Apply research skills to operate effectively as a member of a research project team.
+- Evaluate, select and justify research methods and techniques of data collection and analysis appropriate to particular research designs and projects in sub-disciplines of IT;
+- Review and critique research literature (from a wide range of sources), research designs and research findings in a sub-discipline of IT;
+- Explain the ethical and professional issues that may arise in IT research and demonstrate them in practice;
+Assessment Tasks:
+- Assignment 3: 20% (Hurdle: None)
+- Weekly quizzes: 5% (Hurdle: None)
+- Weekly communication assessments: 5% (Hurdle: None)
+- Assignment 1: 20% (Hurdle: None)
+- Assignment 4: 30% (Hurdle: None)
+- Assignment 2: 20% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per teaching period typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average three/four hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5126 =====
+Subject: Masters thesis part 1 (ITI5126)
+Credit Points: 6
+Overview: This unit is a research unit common to FIT Masters degrees. Due to the nature of IT, a wide range of Masters project types can be offered to students. Some project components are of a practical nature and may involve software development and/or experimentation, while other components are of a more theoretical nature.
+Learning Outcomes:
+- Evaluate and select research methods and techniques of data collection and analysis appropriate to particular research designs, projects and disciplines;
+- Design a rigorous Masters level research project and develop project proposal;
+- Communicate research findings in written and oral form in research and industry settings.
+- Critically review research literature, research design and reported findings;
+- Conduct ethical research;
+Assessment Tasks:
+- Final presentation: 5% (Hurdle: None)
+- Thesis: 80% (Hurdle: None)
+- Literature review and interim presentation: 15% (Hurdle: None)
+Workload: Minimum total expected workload equals 12 hours per week. You will be expected to hold regular meetings with supervisor(s) over the course of the semester.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5127 =====
+Subject: Masters thesis part 2 (ITI5127)
+Credit Points: 6
+Overview: This unit is a research unit common to FIT Masters degrees. Due to the nature of IT, a wide range of Masters project types can be offered to you. Some project components are of a practical nature and may involve software development and/or experimentation, while other components are of a more theoretical nature.
+Learning Outcomes:
+- Communicate research findings in written and oral form in research and industry settings.
+- Critically review research literature, research design and reported findings;
+- Evaluate and select research methods and techniques of data collection and analysis appropriate to particular research designs, projects and disciplines;
+- Design a rigorous Masters level research project and develop project proposal;
+- Conduct ethical research;
+Assessment Tasks:
+- Literature review and interim presentation: 15% (Hurdle: None)
+- Thesis: 80% (Hurdle: None)
+- Final presentation: 5% (Hurdle: None)
+Workload: Minimum total expected workload equals 12 hours per week. You will be expected to hold regular meetings with supervisor(s) over the course of the semester.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5128 =====
+Subject: Masters thesis final (ITI5128)
+Credit Points: 6
+Overview: This unit is a research unit common to FIT Masters degrees. Due to the nature of IT, a wide range of Masters project types can be offered to you. Some project components are of a practical nature and may involve software development and/or experimentation, while other components are of a more theoretical nature.
+Learning Outcomes:
+- Critically review research literature, research design and reported findings;
+- Communicate research findings in written and oral form in research and industry settings.
+- Conduct ethical research;
+- Evaluate and select research methods and techniques of data collection and analysis appropriate to particular research designs, projects and disciplines;
+- Design a rigorous Masters level research project and develop project proposal;
+Assessment Tasks:
+- Literature review and interim presentation: 15% (Hurdle: None)
+- Thesis: 80% (Hurdle: None)
+- Final Presentation: 5% (Hurdle: None)
+Workload: Minimum total expected workload equals 12 hours per week. You will be expected to hold regular meetings with supervisor(s) over the course of the semester.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5145 =====
+Subject: Introduction to data science (ITI5145)
+Credit Points: 6
+Overview: This unit looks at processes, case studies and simple tools to understand the many facets of working with data, and the significant effort in Data Science over and above the core task of Data Analysis. Working with data as part of a business model and the lifecycle in an organisation is considered, as well as business processes and case studies. Data and its handling is also introduced: characteristic kinds of data and its collection, data storage and basic kinds of data preparation, data cleaning and data stream processing. Styles of data analysis and outcomes of successful data exploration and analysis are reviewed. Standards, tools and resources are also reviewed. Basic curation and management are reviewed: archival and architectural practice, policy, legal and ethical issues.
+Learning Outcomes:
+- Identify data resources and recognised standards of data science.
+- Analyse the role of data in organisations, including curation and management issues;
+- Apply basic tools for performing exploratory data analysis and visualisation;
+- Determine data storage and processing requirements for a data science project;
+- Apply basic predictive modeling and data analysis methods;
+- Apply basic tools for managing and processing big data;
+Assessment Tasks:
+- Data Analysis with Tools and Scripting (Coding task II): 40% (Hurdle: None)
+- Business and data case study: Report and presentation: 30% (Hurdle: None)
+- Data Analysis with R (Coding task I): 15% (Hurdle: None)
+- Propose a Data Science Project: 15% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per teaching period typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average three/four hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5147 =====
+Subject: Data exploration and visualisation (ITI5147)
+Credit Points: 6
+Overview: This unit introduces statistical and visualisation techniques for the exploratory analysis of data. It will cover the role of data visualisation in data science and its limitations. Visualisation of qualitative, quantitative, temporal and spatial data will be presented. What makes an effective data visualisation, interactive data visualisation, and creating data visualisations with R and other tools will also be presented.
+Learning Outcomes:
+- implement static and interactive data visualisations using R and other tools.
+- perform exploratory data analysis using a range of visualisation tools;
+- critically evaluate and interpret a data visualisation;
+- choose an appropriate and effective data visualisation;
+- distinguish standard visualisations for qualitative, quantitative, temporal and spatial data;
+- describe the role of data visualisation in data science and its limitations;
+Assessment Tasks:
+- Assessment 1A: Data Exploration Proposal: 5% (Hurdle: None)
+- Assessment 1B: Data Exploration Project: 30% (Hurdle: None)
+- Quizzes: 20% (Hurdle: None)
+- Assessment 2B: Data Visualisation Project: 40% (Hurdle: None)
+- Assessment 2A: Data Visualisation Design: 5% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per teaching period typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average three/four hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5149 =====
+Subject: Applied data analysis (ITI5149)
+Credit Points: 6
+Overview: This unit aims to provide you with the necessary analytical and data modeling skills for the roles of a data scientist or business analyst. You will be introduced to established and contemporary Machine Learning techniques for data analysis and presentation using widely available analysis software. You will look at a number of characteristic problems/data sets and analyse them with appropriate machine learning and statistical algorithms. Those algorithms include regression, classification, clustering and so on. The unit focuses on understanding the analytical problems, machine learning models, and the basic modeling theory. You will need to interpret the results and the suitability of the algorithms.
+Learning Outcomes:
+- Communicate the results of an analysis for both specific and broad audiences.
+- Assess the results of an analysis;
+- Analyse data sets with a range of statistical, graphical and machine-learning tools;
+- Design solutions to real world problems with data analytics techniques;
+- Evaluate the limitations, appropriateness and benefits of data analytics methods for given tasks;
+Assessment Tasks:
+- Assignment 2: Data Analysis with Structured Outputs: 25% (Hurdle: Threshold)
+- Assignment 1: Data Analysis Challenge: 25% (Hurdle: Threshold)
+- Scheduled final assessment (2 hours and 10 minutes): 40% (Hurdle: Threshold)
+- In-Class Quiz: 10% (Hurdle: Threshold)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per teaching period typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average three/four hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5196 =====
+Subject: Data wrangling (ITI5196)
+Credit Points: 6
+Overview: This unit introduces tools and techniques for data wrangling. It will cover the problems that prevent raw data from being effectively used in analysis and the data cleansing and pre-processing tasks that prepare it for analytics. These include, for example, the handling of bad and missing data, data integration and initial feature selection. It will also introduce text mining and web analytics. Python and the Pandas environment will be used for implementation.
+Learning Outcomes:
+- Write program scripts for data wrangling processes.
+- Resolve data quality issues ready for the data analysis process;
+- Assess the quality of data for problem identification;
+- Integrate data sources for data enrichment;
+- Document the wrangling process for professional reporting;
+- Parse data in the required format;
+Assessment Tasks:
+- Assessment 1: 40% (Hurdle: None)
+- Assessment 2: 60% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per teaching period typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average three/four hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5197 =====
+Subject: Statistical data modelling (ITI5197)
+Credit Points: 6
+Overview: This unit explores the statistical modelling foundations that underlie the analytic aspects of Data Science. Motivated by case studies and working through examples, this unit covers the mathematical and statistical basis with an emphasis on using the techniques in practice. It introduces data collection, sampling and quality. It considers analytic tasks such as statistical hypothesis testing and exploratory versus confirmatory analysis. It presents basic probability distributions, random number generation and simulation as well as estimation methods and effects such as maximum likelihood estimators, Monte Carlo estimators, Bayes theorem, bias versus variance and cross validation. Basic information theory and dependence models such as regression and log-linear models are also presented, as well as the role of general modelling such as inference and decision making, and predictive models.
+Learning Outcomes:
+- Interpret results for a variety of models.
+- Construct models for inferential statistical analysis;
+- Perform fundamental random sampling, simulation and hypothesis testing for required scenarios;
+- Produce models for predictive statistical analysis;
+- Perform exploratory data analysis with descriptive statistics on given datasets;
+- Implement a model for data analysis through programming and scripting;
+Assessment Tasks:
+- Scheduled final assessment (2 hours and 10 minutes): 50% (Hurdle: None)
+- Assignment 1 (Individual task): 20% (Hurdle: None)
+- Assignment 2 (Group Project): 30% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per teaching period typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average three/four hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5201 =====
+Subject: Machine learning (ITI5201)
+Credit Points: 6
+Overview: This unit introduces machine learning and the major kinds of statistical learning models and algorithms used in data analysis. Learning and the different kinds of learning will be covered and their usage will be discussed. The unit presents foundational concepts in machine learning and statistical learning theory, e.g. bias-variance, model selection, and how model complexity interplays with model's performance on unobserved data. A series of different models and algorithms will be presented and interpreted based on the foundational concepts: linear models for regression and classification (e.g. linear basis function models, logistic regression, Bayesian classifiers, generalised linear models), discriminative and generative models, k-means and latent variable models (e.g. Gaussian mixture model), expectation-maximisation, neural networks and deep learning, and principles in scaling typical supervised and unsupervised learning algorithms to big data using distributed computing.
+Learning Outcomes:
+- Assess a typical machine learning model and algorithm;
+- Scale typical statistical learning algorithms to learn from big data.
+- Describe what statistical machine learning and its theoretical concepts are;
+- Develop, and apply major models and algorithms for statistical learning;
+Assessment Tasks:
+- Quizzes: 9% (Hurdle: Threshold)
+- Assignment 1: 25% (Hurdle: Threshold)
+- Assignment 2: 16% (Hurdle: Threshold)
+- Scheduled final assessment (2 hours and 10 minutes): 50% (Hurdle: Threshold)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per teaching period typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average three/four hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5202 =====
+Subject: Data processing for big data (ITI5202)
+Credit Points: 6
+Overview: This unit focuses on big data processing, including volume, complexity, and velocity using the latest big data technologies. In big data volume, it covers large volume data processing using parallel technologies. In large dimensionality (or complexity), it covers various data analytics methods for parallel processing. For the velocity, it covers data streaming processing.
+Learning Outcomes:
+- write and interpret parallel database processing algorithms and methods;
+- use big data streaming technologies.
+- apply common data analytics and machine learning algorithms in a big data environment;
+- identify and explain big data concepts and technologies;
+- use and evaluate streaming methods in big data processing;
+Assessment Tasks:
+- Assessment 2: Group project: 50% (Hurdle: None)
+- Assessment 1: Weekly tasks: 10% (Hurdle: None)
+- Assessment 3: End-of-term Quiz: 40% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per teaching period typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average three/four hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI5212 =====
+Subject: Data analysis for semi-structured data (ITI5212)
+Credit Points: 6
+Overview: Semi-structured data is one of the fastest growing kinds of data in both the public and private sector, for instance in health. Email collections with sender-recipient graphs, metadata and text content is one example. This unit will explore basic forms of semi-structured data: text, time-sequence data, graphs and multiple relations in a database. Basic machine learning algorithms for these kinds of data will be analysed and applied. Some characteristic industry problems for the application of semi-structured data will also be investigated such as cohort analysis and market-basket analysis.
+Learning Outcomes:
+- Appraise what kinds of semi-structured data exist and the problems they present for analysis;
+- Analyse different kinds of algorithms for different kinds of semi-structured data;
+- Examine some characteristic industry problems involving semi-structured data, and analyse the suitability of different algorithms.
+- Develop and modify some standard algorithms for semi-structured data;
+Assessment Tasks:
+- Assignment 1: 25% (Hurdle: Threshold)
+- Scheduled final assessment (2 hours and 10 minutes): 50% (Hurdle: Threshold)
+- Assignment 2: 25% (Hurdle: Threshold)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per teaching period typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average three/four hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI9004 =====
+Subject: Mathematical foundations for data science and AI (ITI9004)
+Credit Points: 6
+Overview: Mathematical topics fundamental to computing and statistics including trees and other graphs, counting in combinatorics, principles of elementary probability theory, linear algebra, and fundamental concepts of calculus in one and several variables.
+Learning Outcomes:
+- Explain fundamental concepts in calculus including basic differentiation and integration, and composite, inverse and parametric functions;
+- Use trees and graphs to solve problems in computer science;
+- Describe the principles of elementary probability theory, evaluate conditional probabilities and use Bayes' Theorem;
+- Apply counting principles in combinatorics;
+- Demonstrate basic knowledge and skills of linear algebra, including the manipulation of matrices, solution of linear systems, and evaluate and apply determinants;
+- Perform key skills in the calculus of functions of several variables including the calculation of partial derivatives, find tangent planes and identify stationary points, root findings and convexity for optimisation.
+Assessment Tasks:
+- Assignment 2: 30% (Hurdle: None)
+- Assignment 1: 30% (Hurdle: None)
+- Scheduled final assessment (2 hours and 40 minutes):: 40% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per teaching period typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average three/four hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI9132 =====
+Subject: Introduction to databases (ITI9132)
+Credit Points: 6
+Overview: This unit will introduce the concept of data management in an organisation through relational database technology. Theoretical foundation of relational model, analysis and design, implementation of relational database using SQL will be covered.
+Learning Outcomes:
+- Implement a relational database based on a sound database design;
+- Apply the theories of the relational database model;
+- Develop a sound relational database design;
+- Manage data that meets user requirements, including queries and transactions;
+- Contrast the differences between non-relational database models and the relational database model.
+Assessment Tasks:
+- Assignment 1: 50% (Hurdle: None)
+- Assignment 2: 50% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per teaching period typically comprising a mixture of scheduled online, live streamed and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average four hours of scheduled activities per week and 20 hours of self-study time including a two hour optional help desk session per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI9136 =====
+Subject: Introduction to Python programming (ITI9136)
+Credit Points: 6
+Overview: This unit introduces the Python programming and the basics of data structure and algorithms including their design, analysis and implementation in Python. You will experience working with Python implementation of data structures and algorithms widely used in modern programming language to solve simple problems. Topics covered in this unit are the programming basics including IOs, control structures, and concepts of object-oriented programming; data structures and algorithms including lists, stacks, queues, trees, recursion and searching/sorting algorithms.
+Learning Outcomes:
+- Restructure a computational program into manageable units of modules and classes using the object-oriented methodology
+- Investigate useful Python packages for scientific computing and data analysis
+- Apply best practice Python programming constructs for solving computational problems
+- Demonstrate Input/Output strategies in a Python application and apply appropriate testing and exception handling techniques
+Assessment Tasks:
+- Individual Programming Project: 30% (Hurdle: None)
+- Quiz: 20% (Hurdle: None)
+- Group Programming Project: 50% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per teaching period typically comprising a mixture of scheduled online, live streamed and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average six hours of scheduled activities per week and 18 hours of self-study time including a two optional help desk session per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITI9137 =====
+Subject: Introduction to computer architecture and networks (ITI9137)
+Credit Points: 6
+Overview: This unit will introduce you to fundamentals of computer systems, with a focus on modern operating systems and networking technology. It covers: CPU, memory, storage and peripherals; Operating System basics; TCP/IP layered protocols; WAN and LAN networking fundamentals; internetworking and transport protocols; and basic concepts of computer and network security.
+Learning Outcomes:
+- Explain the three major functions of an operating system (OS), namely, process management, memory management, and file management;
+- Analyse and formulate the functions and architectures of (wireless) local area networks, wide area networks and the Internet;
+- Examine networks using the underlying fundamental theories, models and protocols for data transmission;
+- Describe basic concepts of computer hardware and software architectures;
+- Identify security and privacy threats in the Internet,
+- Apply and implement cybersecurity enabling techniques and countermeasures such as virtual private networks (VPN).
+Assessment Tasks:
+- Moodle quiz: 35% (Hurdle: None)
+- Assignment 1: 20% (Hurdle: None)
+- Assignment 2: 45% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per teaching period typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. The unit requires on average three/four hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning and online engagement.
+

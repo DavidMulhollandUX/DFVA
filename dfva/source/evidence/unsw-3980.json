@@ -1,0 +1,102 @@
+{
+  "code": "unsw-3980",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+      "evidenceLines": [
+        "**Institution**: University of New South Wales (UNSW Sydney)",
+        "**Course Code**: 3980",
+        "- **Institution**: University of New South Wales (UNSW Sydney)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Study Level**: Undergraduate",
+        "- **Study Level**: Undergraduate"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+      "evidenceLines": [
+        "Subject: Aeronautical Knowledge (AVIA1111)",
+        "Subject: Airworthiness Management (AVIA1301)",
+        "**AQF Level**: Level 7"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+      "evidenceLines": [
+        "**Total Units / Units of Credit (UOC)**: 144",
+        "**Delivery Mode**: Face-to-face (includes blended)",
+        "- **Total Units / Units of Credit (UOC)**: 144"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+      "evidenceLines": [
+        "Subject: Introduction to Human Factors: The Safety Science of Human Performance (AVIA1401)",
+        "Subject: Aviation Transport Economics (AVIA1901)",
+        "**CRICOS Code**: 017227G"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+      "evidenceLines": [
+        "**Academic Organisation**: School of Aviation",
+        "- **Institution**: University of New South Wales (UNSW Sydney)",
+        "- **Study Level**: Undergraduate"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+      "evidenceLines": [
+        "**Handbook URL**: https://handbook.unsw.edu.au/undergraduate/programs/2026/3980",
+        "Subject: Commercial Navigation (AVIA2111)",
+        "- **Total Units / Units of Credit (UOC)**: 144"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "- **Total Units / Units of Credit (UOC)**: 144",
+        "- **Institution**: University of New South Wales (UNSW Sydney)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Aviation.",
+        "evidenceLines": [
+          "- **Total Units / Units of Credit (UOC)**: 144",
+          "The 3980 Bachelor of Aviation (Flying) program is a 144 UOC undergraduate program offered by UNSW Aviation through the Faculty of Science and resides within a suite of undergraduate aviation programs under UNSW Aviation, including the Bachelor of Aviation (Management) and the Bachelor of Aviation (Remotely Piloted Aircraft Systems)."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+        "evidenceLines": [
+          "Subject: Aeronautical Knowledge (AVIA1111)",
+          "**Institution**: University of New South Wales (UNSW Sydney)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

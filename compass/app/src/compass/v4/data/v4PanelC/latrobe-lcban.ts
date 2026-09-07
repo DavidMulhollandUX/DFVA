@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 15,
+  "workplace": 6,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science, n.e.c..",
+    "evidenceLines": [
+      "Design and implement database models that meet business requirements using advanced data modelling and querying techniques to enable analytics initiatives.",
+      "Analyse data by developing SQL queries and data wrangling scripts using programming tools with responsible use of generative AI to support data transformation and insight generation for data-driven business decisions.",
+      "If you’re keen to give your business career a boost, La Trobe’s Graduate Certificate in Business Analytics is the perfect place to learn how to build smarter, more resilient business solutions with data."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science, n.e.c..",
+    "evidenceLines": [
+      "Evaluate and compare data sources, formats, and structures to prepare and transform data for analysis, considering ethical, legal, and cybersecurity risks in business analytics.",
+      "Formulate data and data-wrangling requirements that address the technical challenges of analytics tasks, incorporating data governance, ethical principles, and cybersecurity constraints.",
+      "Designed in consultation with industry leaders, this course equips you with practical, future-ready skills to thrive in the rapidly evolving digital economy."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science, n.e.c..",
+    "evidenceLines": [
+      "Subject: DATA WRANGLING (BUS5DWR)",
+      "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+      "Understand the importance of the acknowledgment and the referencing of sources"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science, n.e.c..",
+    "evidenceLines": [
+      "Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.",
+      "Recognise and understand academic integrity responsibilities.",
+      "Explore how artificial intelligence is transforming business decisionmaking."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science, n.e.c..",
+    "evidenceLines": [
+      "Subject: DATA WRANGLING (BUS5DWR)",
+      "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+      "Design and implement database models that meet business requirements using advanced data modelling and querying techniques to enable analytics initiatives."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science, n.e.c..",
+    "evidenceLines": [
+      "Analyse data by developing SQL queries and data wrangling scripts using programming tools with responsible use of generative AI to support data transformation and insight generation for data-driven business decisions.",
+      "If you’re keen to give your business career a boost, La Trobe’s Graduate Certificate in Business Analytics is the perfect place to learn how to build smarter, more resilient business solutions with data.",
+      "Designed in consultation with industry leaders, this course equips you with practical, future-ready skills to thrive in the rapidly evolving digital economy."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science, n.e.c..",
+    "evidenceLines": [
+      "Evaluate and compare data sources, formats, and structures to prepare and transform data for analysis, considering ethical, legal, and cybersecurity risks in business analytics.",
+      "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+      "Explore how artificial intelligence is transforming business decisionmaking."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "To qualify for the award of Graduate Certificate in Business Analytics, students must complete 60 credit points as follows:",
+      "If you’re keen to give your business career a boost, La Trobe’s Graduate Certificate in Business Analytics is the perfect place to learn how to build smarter, more resilient business solutions with data."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate in Business Analytics.",
+      "evidenceLines": [
+        "To qualify for the award of Graduate Certificate in Business Analytics, students must complete 60 credit points as follows:",
+        "60 core credit points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in computer science, n.e.c..",
+      "evidenceLines": [
+        "Subject: DATA WRANGLING (BUS5DWR)",
+        "Design and implement database models that meet business requirements using advanced data modelling and querying techniques to enable analytics initiatives."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

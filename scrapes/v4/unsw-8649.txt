@@ -1,0 +1,107 @@
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/programs/2026/8649 =====
+# Cyber Security (8649)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 8649
+- **Academic Year**: 2026
+- **Study Level**: Postgraduate
+- **AQF Level**: Level 9
+- **Total Units / Units of Credit (UOC)**: 72
+- **Delivery Mode**: Fully online
+- **CRICOS Code**: Not specified
+- **Academic Organisation**: Faculty of Engineering
+- **Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/8649
+
+## Description
+This Masters program is a qualification for professionals who work in cyber security related fields, or those with a technical background who want to transfer into the field of cyber security.
+
+It provides a foundation in cyber security literacy and background technical knowledge plus applied cyber security courses relevant to their specialisation.
+
+This program is designed to be delivered fully online, in intensive terms, to provide a fast-paced pathway.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+1. Graduates will have a global contemporary perspective of the discipline of cyber security, and current issues, an awareness of the history of the discipline and ability to anticipate future trends.
+3. Graduates will have demonstrated the ethical and professional application of knowledge and skills in Cyber Security with high level personal autonomy and accountability.
+4. Graduates will have demonstrated the application of knowledge and skills to plan and execute a substantial research-based project or piece of scholarship in Cyber Security.
+2. Graduates will be able to communicate effectively to a range of audiences to effect change, foster culture and manage and lead up and down in large organisations, be capable of independent and collaborative inquiry, working effectively with others.
+
+## Career Opportunities & Employment Areas
+Security Consultant, Engineering, ICT and Science Technicians, Engineering Manager
+
+## Program Structure & Degree Requirements
+Students must complete 72 Units of Credit (UOC) structured across the following academic components:
+
+### Specialisations
+Students must complete at least one of the specialisations below.
+
+- **ZZENDS**: Security Management and Leadership [54 UOC]
+- **ZZENES**: Security Engineering [54 UOC]
+
+### Core Courses (18 UOC)
+Students must take 18 UOC of the following courses
+
+- **ZZCA9204**: Cybersecurity Ethics [6 UOC]
+- **ZZCA9202**: Data Security and Privacy [6 UOC]
+- **ZZEN9203**: Principles of Security Engineering [6 UOC]
+
+## Progression & Academic Rules
+UNSW's standard rules for academic progression apply.
+
+## Admission Requirements
+**Minimum Entry Requirements**:
+1. Have completed the Graduate Certificate in Cyber Security (or equivalent) with a minimum WAM of 65; OR
+2. Have completed the Graduate Diploma in Cyber Security (or equivalent); OR
+3. Have completed a Bachelor degree or higher level qualification in a cognate discipline to the selected specialisation* with a minimum WAM of 65
+
+*ZZENDS Security Management & Leadership cognate disciplines may include Science, Engineering, Business, Leadership, and Policy
+*ZZENES Security Engineering cognate disciplines may include Science, Engineering, and other degrees with substantial computing, mathematics, and/or statistics courses
+
+**Limitations on Recognition of Prior Learning**:
+- Maximum of 6 core courses (36 UOC) can be granted, where total RPL does not exceed 50% of program
+
+- Can only be granted based on postgraduate study
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZCA9202 =====
+Subject: Data Security and Privacy (ZZCA9202)
+Credit Points: 6
+Overview: Security and privacy are related but distinct concepts; they are also some of the defining terms of the 21st century. This course equips student for handling data in secure ways, understanding the nature and principles of privacy, and how to securely identify manage and respond to privacy risks across large datasets and apply current best practice in a changing global environment.
+Learning Outcomes:
+- Apply data security and privacy principles in security engineering design of software, systems, and policies.
+- Apply national and international legislation, ethical standards, and professional best practice to organisational practice and personal professional practice.
+- Demonstrate a critical understanding the nature and principles of privacy, and of the potential costs, benefits, and risks under societal, commercial, individual and governmental perspectives.
+- Explain historic data security and privacy failures and their causes and consequences.
+- Analyse the privacy implications of systems and processes.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZCA9204 =====
+Subject: Cybersecurity Ethics (ZZCA9204)
+Credit Points: 6
+Overview: Ethics underpins everything we do in our professional life. The cyber industry presents unique ethical challenges, due to the rapid rate of change and the often-unknown future of innovations. This course provides students with an understanding of three framework concepts of ethics applied to the cyber profession. Students analyse real world challenges in cyber through an ethical lens. The course equips students with the tools to unpack and respond to future ethical challenges as they arise.
+Learning Outcomes:
+- Explain cyber ethics and its relevance in the cyber industry.
+- Apply ethical principles to decision-making in the cyber industry.
+- Analyse three framework concepts of ethics as they pertain to cyber.
+- Evaluate real world ethical challenges in the cyber industry.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZEN9203 =====
+Subject: Principles of Security Engineering (ZZEN9203)
+Credit Points: 6
+Overview: This course introduces the principles of the emerging field of Security Engineering, applying engineering principles and practices to the design, operation, and assurance of secure systems. Students will engage in a systematic, analytic and reflective approach to designing and assuring reliable secure systems from unreliable insecure components, as well as understanding how systems can fail and the nature of the cryptographic components from which modern digital systems are constructed.
+Learning Outcomes:
+- Demonstrate an understanding of the nature of characteristic cybersecurity attacks, including the nature and characteristics of the vulnerabilities they exploit, and analyse the range of mitigation measures possible.
+- Demonstrate an understanding and make appropriate judgements about when to apply the major principles of secure design operation and assurance, their characteristics strengths and weaknesses.
+- Analyse real world design, operation and assurance scenarios and then apply a security engineering approach to make appropriate decisions.
+- Apply fundamental cryptographic primitives (including confidentiality, integrity, and authentication) and protocols to achieve them and explain their weaknesses and appropriate use. Be able to apply information theoretic concepts such as information and work measures, zero knowledge, randomness, and privacy to design appropriate solutions for real world cryptographic and security problems, or recognise when no effective solutions are likely to be feasible.
+- Analyse their prior approach to security in everyday life, and reflect on how a security mindset changes this.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: False)
+Workload: 
+

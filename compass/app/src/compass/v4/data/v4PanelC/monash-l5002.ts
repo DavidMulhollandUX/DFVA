@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in law.",
+    "evidenceLines": [
+      "Critically reflect on your own strengths, weaknesses and development needs as a legal professional.",
+      "Recognise and reflect upon ethical issues arising in criminal law practice and the professional responsibilities of lawyers in promoting justice and service to the community;",
+      "This course enables graduates with a law qualification from non-Australian jurisdictions to convert their qualifications to meet the academic requirements for admission to practice in Victoria."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in law.",
+    "evidenceLines": [
+      "Critically evaluate the purpose and scope of criminal laws with reference to theories of criminal justice, inter-disciplinary and policy perspectives;",
+      "Demonstrate cognitive and creative skills to generate appropriate responses to legal issues;",
+      "The course comprises three components."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within law.",
+    "evidenceLines": [
+      "Subject: Principles of criminal law and procedure (LAW5001)",
+      "Subject: Principles of contract law A (LAW5002)",
+      "Demonstrate skills of oral and or/written communication to address legal problems in a collaborative project; and"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in law.",
+    "evidenceLines": [
+      "Identify and articulate complex legal issues, engage in critical analysis of professional conclusions and make reasoned choices among alternatives;",
+      "Demonstrate legal research and reasoning skills and professional judgment to generate appropriate responses to complex legal problems",
+      "The first is an introduction to the Australian legal system, the second is core law units required for admission to practice in Australia and the third is law elective units."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in law.",
+    "evidenceLines": [
+      "Subject: Principles of torts (LAW5003)",
+      "Subject: Principles of public law and statutory interpretation (LAW5004)",
+      "Legal problem solving assignment: 30% (Hurdle: None)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in law.",
+    "evidenceLines": [
+      "Oral presentation: 10% (Hurdle: None)",
+      "This course enables graduates with a law qualification from non-Australian jurisdictions to convert their qualifications to meet the academic requirements for admission to practice in Victoria.",
+      "The course comprises three components."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in law.",
+    "evidenceLines": [
+      "Final exam: 50% (Hurdle: None)",
+      "Subject: Principles of contract law B (LAW5005)",
+      "The first is an introduction to the Australian legal system, the second is core law units required for admission to practice in Australia and the third is law elective units."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "This course enables graduates with a law qualification from non-Australian jurisdictions to convert their qualifications to meet the academic requirements for admission to practice in Victoria. The course comprises three components. The first is an introduction to the Australian legal system, the second is core law units required for admission to practice in Australia and the third is law elective units. The number of credit points and selection of core units to be completed will depend on the jurisdiction in which the student earned their existing law qualification. This will be determined upon application to the Victorian Legal Admissions Board (VLAB) under the Uniform Principles for Assessing Qualifications of Overseas Applicants for Admission to the Australian Legal Profession.",
+      "This course enables graduates with a law qualification from non-Australian jurisdictions to convert their qualifications to meet the academic requirements for admission to practice in Victoria."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Diploma of Australian Law.",
+      "evidenceLines": [
+        "This course enables graduates with a law qualification from non-Australian jurisdictions to convert their qualifications to meet the academic requirements for admission to practice in Victoria. The course comprises three components. The first is an introduction to the Australian legal system, the second is core law units required for admission to practice in Australia and the third is law elective units. The number of credit points and selection of core units to be completed will depend on the jurisdiction in which the student earned their existing law qualification. This will be determined upon application to the Victorian Legal Admissions Board (VLAB) under the Uniform Principles for Assessing Qualifications of Overseas Applicants for Admission to the Australian Legal Profession.",
+        "The course comprises 8 units structured into three parts which provide knowledge, skills and the academic requirements for admission to practice in Victoria. Part A. Introduction to Australian Law, Part B. Law Core Units, Part C. Law Elective Units"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in law.",
+      "evidenceLines": [
+        "Subject: Principles of criminal law and procedure (LAW5001)",
+        "Critically reflect on your own strengths, weaknesses and development needs as a legal professional."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

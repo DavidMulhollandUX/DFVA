@@ -1,0 +1,121 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/C2003 =====
+## Bachelor of Information Technology and Bachelor of Science
+##### C2003
+##### 192 credit points
+You are viewing the 2026 version
+
+### Overview
+In an age of increasing technological advancements the synergy between science and information technology will only become stronger. IT underpins virtually all areas of science and the world needs graduates who can straddle both. 
+
+In this double degree course you will acquire creative and analytical skills to use IT to advance science. This could be anything from designing a stunning visualisation of scientific data, to building an app for fieldwork data collection to setting up the business IT processes to deliver a scientific product via the internet. 
+
+Depending on the IT major you choose, you could:
+
+  * use your technical skills from software development to create simulations and visualisations for anything from weather forecasting to threatened species population modelling
+
+  * apply your creative skills and design flair from interactive media or games development to create an app or game that gets kids excited about science
+
+  * use your practical understanding of business information systems to launch a science-enabled online business
+
+  * put your networks and security skills to work setting up the scientific instrumentation for tsunami warning or monitoring ice melts in Antarctica.
+
+### AQF level
+Level 7 - Bachelor Degree / Level 7 - Bachelor Degree
+### CRICOS code
+085536J
+### Post-nominals
+Refer to each partner course for the post nominals for the degree awarded
+### Course duration (full time)
+
+
+### Structure
+Double degree courses include the features of the component degree courses, except that electives may be reduced. 
+
+Information Technology
+
+C2000 Bachelor of Information Technology is a comprehensive course, structured in three equal parts. In the double degree course you complete:
+
+ Part A. Specified studies
+
+This will provide you with foundation skills and knowledge for your IT education and ensure a breadth of understanding of IT and its applications in organisations and society. 
+
+ Part B. Major studies
+
+This will provide you with a focused program of study that will develop your expertise in one area of information technology. You will develop the practical and theoretical skills and knowledge in your chosen major needed to successfully plan, develop, implement and evaluate information products and systems. 
+
+Science 
+
+S2000 Bachelor of Science is a comprehensive course, structured in three equal parts. In the double degree course you complete:
+
+ Part A. Science specified study
+
+This will provide you with the mathematical or statistical foundation for your study of science and address the nature of science and its communication. It will also expose you to several science disciplines contributing breadth to your understanding of science and giving you the opportunity to learn about several disciplines before finalising your choice of major. 
+
+ Part B. Science listed major
+
+This will provide you with a focused program of study that will develop your expertise in one discipline area. You will learn to develop, apply and communicate an advanced level of understanding of the concepts and theoretical frameworks that constitute the knowledge base of the discipline.
+
+Course progression map
+
+The course progression map provides guidance on unit enrolment for each semester of study.
+
+### Requirements
+You must complete 192 points, of which 96 points are from the Bachelor of Information Technology (including all the requirements in Part A and B for the single degree) and 96 points from the Bachelor of Science (including all the requirements in Part A and B for the single degree).
+
+### Course structure
+192 credit points
+**Information Technology  component** **96 credit points**
+You must complete 96 credit points, including all of the requirements in Part A and Part B, for the Bachelor of Information Technology. No more than 36 credit points can be completed at Level 1.
+  [ _arrow_forward_ C2000 Bachelor of Information Technology ](https://handbook.monash.edu/2026/units/C2000)
+**Science component** **96 credit points**
+In choosing the 96 credit points of Bachelor of Science listed study over Part A and Part B, you must ensure that you complete six science listed units (36 credit points) at Level 1, and ten science listed units (60 credit points) at Levels 2 and 3 with a minimum of four (24 credit points) at Level 3.
+
+You must complete the mathematics and statistics unit requirement within the first 72 credit points of this double degree. SCI1022 is not available for the Mathematics and Statistics requirement in the Bachelor of Science component of this double degree, as FIT1045 is a compulsory equivalent unit in the Bachelor of Computer Science component.
+
+The psychology extended major is not available in this double degree.
+  [ _arrow_forward_ S2000 Bachelor of Science ](https://handbook.monash.edu/2026/units/S2000)
+
+### Course intended learning outcomes
+
+### Entry requirements
+Refer to the Course description for each partner course
+
+### AHEGS
+Refer to the AHEGS for each partner course.
+
+### Degrees awarded
+Bachelor of Information Technology
+Bachelor of Science
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT1045 =====
+Subject: Introduction to programming (FIT1045)
+Credit Points: 6
+Overview: This unit introduces programming fundamentals. It will present fundamental programming control structures, built-in and complex datatypes, mechanisms for modularity, and the use of basic libraries. You will also be introduced to good programming practices and processes for software development.
+Learning Outcomes:
+- Design, construct and test programs that include user-defined functions and data structures;
+- Implement good programming practices, including unit testing, basic documentation and readability.
+- Effectively use variables, conditionals and loops in computer programs;
+- Write programs efficiently by discovering and leveraging libraries;
+Assessment Tasks:
+- Learning Project Portfolio: 100% (Hurdle: Competency)
+- In class tests: 0% (Hurdle: Competency)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/SCI1022 =====
+Subject: Introduction to scientific coding (SCI1022)
+Credit Points: 6
+Overview: This unit will teach the fundamental principles of the writing and development of scientific computing code through the completion of practical modules. You will initially complete a compulsory introductory module in which you will learn coding skills using Python. You will then complete a module in other languages such as R, MATLAB, Mathematica or Julia. All the modules will be taught in applied sessions using practical examples from various disciplines. All modules will cover fundamental control structures, common file systems, input and output of data, two- and three-dimensional data plotting and the interpretation of these plots.
+Learning Outcomes:
+- Use a variety of plotting routines to manipulate and critically assess scientific data for mathematical, physical, environmental, chemical and biological applications;
+- Demonstrate how basic control and data structures function in a range of programming languages;
+- Communicate practical findings on data analysis and scientific modelling across a range of application's to different audiences.
+- Identify and describe common online and local computer file systems and file types for interacting with external systems;
+- Discuss the importance of data and simulations in science;
+- Construct basic computer codes for data analysis and scientific modelling;
+- Access and navigate online repositories, download source and data files from repositories;
+Assessment Tasks:
+- Homework assignment (Group and individual assignments): 50% (Hurdle: None)
+- In-class assignment (Weekly computer laboratory work): 40% (Hurdle: None)
+- Pre-class test: 10% (Hurdle: None)
+Workload: Four hours of seminars over one week; Two 2-hour applied sessions per week (in weeks 2-12) and Six hours of independent study
+

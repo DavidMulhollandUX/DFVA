@@ -1,0 +1,102 @@
+{
+  "code": "adelaide-gdepm_gdenvpm",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in political science and policy studies.",
+      "evidenceLines": [
+        "**Institution**: The University of Adelaide",
+        "**Program Identifier / Slug**: gdepm_gdenvpm",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in political science and policy studies.",
+      "evidenceLines": [
+        "**Academic Calendar Year**: 2025/2026",
+        "**Faculty**: Faculty of Arts, Business, Law and Economics (ABLE)",
+        "- **Program Identifier / Slug**: gdepm_gdenvpm"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within political science and policy studies.",
+      "evidenceLines": [
+        "Subject: Environmental Planning and Governance (UoA) (ENVI5015)",
+        "Subject: Environmental Planning and Governance (BIOL5018)",
+        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/gdepm_gdenvpm"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in political science and policy studies.",
+      "evidenceLines": [
+        "Explain the major tenets of environmental planning in South Australia",
+        "Understand the roles of the different jurisdictional organisations within environmental governance structures",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in political science and policy studies.",
+      "evidenceLines": [
+        "Subject: Global Food and Agricultural Policy Analysis (ECON5018)",
+        "Subject: Global Food & Agricultural Policy Analysis (AGRI5002)",
+        "Critically analyse the environmental planning structure"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in political science and policy studies.",
+      "evidenceLines": [
+        "Explain key aspects of international environmental governance",
+        "- **Institution**: The University of Adelaide",
+        "- **Program Identifier / Slug**: gdepm_gdenvpm"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in political science and policy studies.",
+      "evidenceLines": [
+        "Discuss the implications of current governance practices in relation to sustainable development goals both in Australia and internationally",
+        "Subject: Environmental and Resource Economics and Applications (ECON6004)",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The Graduate Diploma in Environmental Policy and Management is an AQF Level 8 qualification with a standard full-time duration of 1 year.",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Diploma in Environmental Policy and Management.",
+        "evidenceLines": [
+          "The Graduate Diploma in Environmental Policy and Management is an AQF Level 8 qualification with a standard full-time duration of 1 year.",
+          "Program Maximum Duration"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in political science and policy studies.",
+        "evidenceLines": [
+          "Subject: Environmental Planning and Governance (UoA) (ENVI5015)",
+          "**Institution**: The University of Adelaide"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,282 @@
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/programs/2026/8628 =====
+# Cyber Security (8628)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 8628
+- **Academic Year**: 2026
+- **Study Level**: Postgraduate
+- **AQF Level**: Level 9
+- **Total Units / Units of Credit (UOC)**: 48
+- **Delivery Mode**: Distance (online with some face-to-face)
+- **CRICOS Code**: Not specified
+- **Academic Organisation**: School of Systems and Computing
+- **Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/8628
+
+## Description
+The Master of Cyber Security is a postgraduate award offered by the School of Systems and Computing. It is designed for postgraduate scholars and professional managers with appropriate undergraduate qualifications in IT, computer science, electrical computer or systems engineering or a related discipline and/or extensive relevant professional experience who wish to gain a more detailed understanding of the technical skills and expertise relevant to the technical implementation and leadership of the cyber security function.
+
+This coursework masters degree is designed to meet the demand for technical experts who can implement and lead the technical cyber security function in government, industry, law enforcement and Defence. It provides principles gathered from information systems, systems engineering, computer science, network security, and defence to enhance a career as a cyber security specialist.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+4. Graduates will have demonstrated the application of knowledge and skills in Cyber Security with high level personal
+autonomy and accountability
+5. Graduates will have demonstrated the application of knowledge and skills to plan and execute asubstantial research-based project or piece of scholarship in Cyber Security
+3. Graduates will have an awareness of international issues within  Cyber Security
+7. Graduates will have demonstrated the application of knowledge and skills with creativity and initiative innew situations in professional practice or for further learning in Cyber Security.
+1. Graduates will be able to communicate effectively to a range of audiences and be capable of independentand collaborative inquiry, working effectively with others.
+2. Graduates will have acquired advanced disciplinary knowledge and skills in Cyber Security, and an ability to apply these inarange of contexts.
+6. Graduates will have developed advanced critical thinking and problem solving skills and applied them to Cyber Security.
+
+## Program Structure & Degree Requirements
+Students must complete 48 Units of Credit (UOC) structured across the following academic components:
+
+### Prescribed Electives
+Students must take at least 12 UOC, up to a maximum of 24 UOC of the following courses.
+
+- **ZEIT8025**: Reverse Engineering [6 UOC]
+- **ZEIT8027**: Critical Infrastructure and Control System Security [6 UOC]
+- **ZEIT8042**: Introduction to Exploit Development [6 UOC]
+- **ZEIT8601**: Applied Machine Learning [6 UOC]
+- **ZEIT8030**: Big Data and Decision Analytics for Security [6 UOC]
+- **ZEIT8024**: Software Security Lifecycle [6 UOC]
+- **ZEIT8028**: Digital Forensics [6 UOC]
+- **ZEIT8029**: Mobile Network and Memory Forensics [6 UOC]
+
+### Research Project
+Students can take up to a maximum of 12 UOC of the following courses subject to obtaining a high distinction average in four courses and approval of the Postgraduate Coordinator. The project is recommended for those with a strong interest in pursuing original research in a particular area or intending to undertake a higher research qualification.  Students undertaking the project are unable to enrol in courses from other coursework programs.
+
+- **ZEIT8261**: Project Report - Cyber Security (Full Time) [12 UOC]
+- **ZEIT8260**: Project Report - Cyber Security (Part Time) [6 UOC]
+
+### Core Courses (24 UOC)
+Students must take 24 UOC of the following courses.
+
+- **ZEIT8026**: Cyber Defence: Network Security Operations [6 UOC]
+- **ZEIT8021**: Information Assurance and Security [6 UOC]
+- **ZEIT8020**: Cyber Offence: Threats and Opportunities [6 UOC]
+- **ZEIT8023**: Wireless, Mobile and Internet of Things Security [6 UOC]
+
+### Specialisation Options
+Completion of a specialisation is optional. Students may choose a maximum of one specialisations below.
+
+- **ZEITDS**: Digital Forensics [48 UOC]
+- **ZEITIS**: Advanced Tradecraft [48 UOC]
+
+## Progression & Academic Rules
+Students who do not complete the full Master program requirements may exit the program with a Graduate Certificate in Cyber Security (Code 7328) qualification (24 UOC). Of the four courses, students must have completed a minimum of two core courses and two other courses from the 8628 program. For any advanced standing granted on entry into the Masters program, a maximum of 12 UOC advanced standing can be applied to the Graduate Certificate. It is still a requirement that the student complete at least one core course at UNSW.
+
+## Admission Requirements
+**Minimum Entry Requirements**:
+To gain entry into a Master of Cyber Security (8628), an applicant must meet one of the following entry requirements:
+
+1.    Completion of a Bachelor degree with honours in the same or a related discipline* from a recognised institution; or
+
+2.    Completion of a Graduate Diploma or Graduate Certificate in the same or a related discipline* from a recognised institution; or
+
+3.    Completion of a Bachelor degree in the same or a related discipline* from a recognised institution; and completion of at least three years relevant full-time professional experience; or
+
+4.    Completion of a Bachelor degree in a non-related discipline; and completion of at least four years relevant full-time professional experience; or
+
+5.    Evidence of other qualifications and professional experience to be assessed as acceptable grounds for admission into the program by the relevant Program Authority. In certain circumstances, students may be required to undertake and successfully complete a relevant non-award course as a condition for admission into the program. This non-award course may also be credited towards the program upon admission.
+
+*Related Discipline/s: Information Technology, Information Systems, Science, Computer Science or Engineering.
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8020 =====
+Subject: Cyber Offence: Threats and Opportunities (ZEIT8020)
+Credit Points: 6
+Overview: This course provides a comprehensive theoretical foundation and practical training in offensive cyber operations. Students will develop expertise in the tools, techniques, and procedures used in cyber offense, while addressing strategic, operational, and tactical challenges. By the end of the course, participants will be equipped to conduct cyber offensive operations, evaluate advanced cyber offense concepts, and design active strategies to detect vulnerabilities in systems and networks.
+Learning Outcomes:
+- On successful completion of this course, students will be able to: Improve an organisation's security by identifying opportunities in defeating cyber threat actor tradecraft and acting upon them.
+- On successful completion of this course, students will be able to: evaluate complex cyber offense concepts, capabilities, and doctrines, and provide advice to non-expert executives and policy makers.
+- On successful completion of this course, students will be able to: design executive active defence strategies against cyber threat actors.
+- On successful completion of this course, students will be able to: Conduct simple cyber offensive operations by applying the cyber kill chain to a variety of use cases.
+Assessment Tasks:
+- In-person - Intensive: N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8021 =====
+Subject: Information Assurance and Security (ZEIT8021)
+Credit Points: 6
+Overview: The ZEIT 8021 Information Assurance and Security course is one of the core courses for the Masters in Cybersecurity. It is a standard postgraduate course, available only through distance delivery mode, worth six Units of Credit (6 UOC) and requires approximately 160 hrs of student study time. No prerequisites are required . This course aims to lay a firm foundation for cybersecurity knowledge, providing the ability for students from many related fields to gain perspective of modern cybersecurity threats and corresponding defensive controls and explore effective computer security and risk management strategies with particular emphasis on Information Assurance (IA) practices and techniques. Within the course, IA practices and techniques refer to the steps involved in protecting information systems as part of the enterprise. Three common terms are associated with the definition of information assurance: confidentiality , integrity , and availability . While IA is a field in and of itself, it can be thought of as logically occupying a position between Information Technology (IT), Software and Systems Engineering, and Security. Information Assurance can be thought of as ensuring that systems maintain these three qualities of the system. IA involves keeping information confidential . This means that only those authorised to view information can access it. For example, information is classified or categorised within the military so that only people with certain clearance levels are allowed access to confidential information. Civilian organisations also categorise data, respecting the impact of loss or misuse. Integrity involves ensuring that data and information systems may be changed by authorised people for authorised purposes. IA may be used to take steps to maintain integrity, such as having anti-malware software in place so that data will not be altered or destroyed and having policies in place so that users know how to properly utilise their systems to minimise the effect of (internal) user error, or (external) malicious code. In the context of IA, availability is the ability of a system to be available for use by those who are allowed to access it. Protecting the availability can involve protecting against malicious code, hackers and any other threat that could block access to the information system or an explicit denial of service attack. This master level 6.0 unit course is designed with the tools to integrate and apply IA knowledge to the system phases of System Development, System Acquisition, System Operation and Service Delivery. Along the way, we will review the process of considering Information Assurance from requirements elicitation through system delivery and operation to system disposal. This course is theoretical and covers not only the very broad content of the ISC2 CISSP® certification but also draws on the CMMI for Development and for Services frameworks to provide a holistic application of Information Assurance considerations. It draws on ISC2 material as well as other scholarly sources.
+Learning Outcomes:
+- Be able to use risk-based and compliance-based strategies to identify security requirements
+- Demonstrate an understanding of integrated risk-based best practices within systems that must deliver a level of information assurance
+- Demonstrate an understanding of security in steady state operations and management of secure systems
+- Show an understanding of different types of engineering and compliance testing required for information assurance related functionality
+- Be aware of technologies that can be used to translate security requirements into system design and implementation elements
+- Make a realistic assessment of information assurance issues through system lifecycle phases
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8023 =====
+Subject: Wireless, Mobile and Internet of Things Security (ZEIT8023)
+Credit Points: 6
+Overview: Wireless technologies are ubiquitous in modern systems yet pose unique challenges. This course combines a theoretical knowledge of wireless defence with a practical approach. This course covers current wireless network protocols and the systems typically deployed in network environments, their weaknesses, practical attack methodologies and mechanisms for their defence.
+Learning Outcomes:
+- At the successful conclusion of this course, students will, at a minimum, be able to: evaluate the security implications of wireless technologies and environments.
+- At the successful conclusion of this course, students will, at a minimum, be able to: undertake defensive and offensive activities as they apply to wireless technologies.
+- At the successful conclusion of this course, students will, at a minimum, be able to: analyse current issues in wireless technologies and communicate risks and mitigations to technical and non-technical audiences.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8024 =====
+Subject: Software Security Lifecycle (ZEIT8024)
+Credit Points: 6
+Overview: The world is more digitally connected than it has ever been before with the digitisation of money and content, supporting e-commerce and access from anywhere via fixed or mobile networks. The integrity of such critical digital assets then depends on the reliability and security of the software that enables and controls those assets. According to the latest reports, software application vulnerabilities are ranked the No.1 threat to information security professionals and will continue to be among the top cyber security concerns. While attackers and researchers continue to expose new application vulnerabilities, the many common application flaws are very often previous, rediscovered threats. In many cases software applications operate as part of a larger systems thus face a number of different security risks. For example, security issues associated with implementing COTS software within existing systems. Most importantly, developing web applications in this current environment requires an understanding of: all security issues associated with software components and their interfaces within the larger system; and applicability of a holistic approach to build security in starting from a user requirements, software design and implementation to testing and deployment. This Masterscourse is designed to provide students with a deep understanding, and the skills to implement, manage and incorporate security practices throughout the whole Software Development Lifecycle (SDLC), from identifying customer needs, writing secure requirements, designing, implementing, testing and deployment. This course meets an essential requirement for software developers to stay current on the latest advances in software development and the new security threats they create. This course is theoretical and covers not only the content of the ISC2 CSSLP® certification, but also provides a holistic view on a role of software applications within complex systems. It draws on ISC2 material as well as other scholarly sources. Topics include: Secure Software Concepts Secure Software Requirements Secure Software Design Secure Software Implementation / Coding Secure Software Testing Software Acceptance Software Deployment Operations, Maintenance and Disposal
+Learning Outcomes:
+- On completion of this course, students should be able to: investigate the need and strategies for identifying and evaluating security requirements and the practical implementation of embedding these as part the development lifecycle.
+- On completion of this course, students should be able to: demonstrate an understanding of security best practices within software application development lifecycles.
+- On completion of this course, students should be able to: understand the relationship between software development and secure software development approaches, practices and frameworks, the relevance and need for ensuring software is secure and the implications of this throughout all the phases of a development lifecycle.
+- On completion of this course, students should be able to: explain different types of testing for security functionality and resiliency to cyber-attacks.
+- On completion of this course, students should be able to: investigate, understand and demonstrate current practices and modern and evolving approaches to secure software.
+Assessment Tasks:
+- In-person - Intensive: N/A% (Hurdle: None)
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8025 =====
+Subject: Reverse Engineering (ZEIT8025)
+Credit Points: 6
+Overview: This course provides an introduction to reverse engineering. Topics covered include an introduction to the intel machine code and assembler language, OllyDbg and Virtualisation, the MalDB malware repository, the Malware Analysis Lexicon and the family of ICS/SCADA malware. The basics of static and dynamic reverse engineering will be taught. Students will do exercises to gain familiarity with the tools and techniques necessary to reverse engineer software.
+Learning Outcomes:
+- Understand the range of tools, techniques and technologies associated with reverse engineering.
+- Understand body of knowledge
+- Produce scholarly output
+- Work independently and collaboartively
+Assessment Tasks:
+- In-person - Intensive: N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8026 =====
+Subject: Cyber Defence: Network Security Operations (ZEIT8026)
+Credit Points: 6
+Overview: The threat landscape facing global organisations has fundamentally shifted. Attackers operate across cloud infrastructure, exploit identity and access misconfiguration, and move through enterprise environments leaving traces that span dozens of disconnected log sources. Defending against these threats requires the ability to build a security program, reason about risk, detect adversary behaviour across complex environments, and respond effectively when prevention fails. This course develops the knowledge and practical capabilities required to perform these functions. Students will examine how mature security functions are structured and operated, how frameworks and legal obligations shape security decision-making in organisations, and how to design the visibility architecture that makes detection and response possible.
+Learning Outcomes:
+- Analyse indicators of compromise, vulnerabilities, and adversary behaviour using threat modelling methodologies to develop actionable threat intelligence and support cyber defence decision-making
+- Evaluate cyber defence programs including team structures, governance frameworks, and national legal and regulatory requirements, and recommend security strategies aligned to an organisation’s context and risk profile.
+- Develop logging and telemetry architectures, and detection logic to identify adversary activity across enterprise environments
+- Justify security findings, risks, and recommendations through effective communication with technical and non-technical audiences using executive briefings, incident reports, and risk mitigation plans.
+Assessment Tasks:
+- In-person - Intensive: N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8027 =====
+Subject: Critical Infrastructure and Control System Security (ZEIT8027)
+Credit Points: 6
+Overview: Master level 6.0 course offers technical, architectural and managerial solutions to the problem of protecting national Critical Infrastructure for security engineers, network operators, application developers and technology managers. This course covers and provides practical experience with the complexity of modern information technology equipment and the components in control systems and legacy systems, the threat environment and attackers’ capabilities as well as techniques for securing these systems.A significant portion of the course consists of cloud-based VM labs which allow the students to interface with and program simulated industrial control system equipment and processes using Siemens digital twin technology simulations which is based on Siemens PLCSIM Advanced and SIMIT platform which is their industrial PLC virtual controller and simulation platform used by a wide range of their industrial clients to simulate their own systems, processes and equipment.
+Learning Outcomes:
+- Develop and implement comprehensive mitigation strategies as well as effective administrative and technical risk management plans to protect and secure process control systems.
+- Investigate and evaluation the vulnerabilities of Critical Infrastructure.
+- Link the principles behind the industrial hardware and software of control systems that are used in the operation of Critical Infrastructure.
+- Examine technical specifics about the vulnerabilities of critical infrastructure service delivery with an emphasis of those services dependant on control systems reliability and recoverability.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8028 =====
+Subject: Digital Forensics (ZEIT8028)
+Credit Points: 6
+Overview: This course will introduce participants to digital forensic analysis and investigation first principles. Students will be introduced to theoretical concepts including the digital forensic method, intent and its application. The course will also cover introductory Microsoft Windows centric technical topics such as file system, memory and operating system artefact analysis using contemporary open source tools, techniques and procedures. Students will be expected to demonstrate both their theoretical and technical understanding through the completion of practical exercises in a contemporary simulated operational environment. This is an introductory course covering: Forensic analysis theory Disk forensic theory and practical exercises targeting common Windows centric filesystems Configuration forensic theory and practical exercises targeting the Microsoft Windows Registry Network forensic theory and practical exercises Memory forensic theory and practical exercises targeting the Microsoft Windows operating platform Digital Forensics comprises five separate modules of intensive theory and practical sessions delivered remotely in conjunction with the UNSW ADFA campus. Theory, taught during lectures, is reinforced with practical hands-on laboratories. The intended audience for this course are students that have no previous experience or exposure to the field of digital forensics. As a result, students should expect the course material to be introductory and all inclusive, with no digital forensic pre-reading required. However, students are expected to be comfortable working in a Linux command line environment and must have some experience with the Python programming language.
+Learning Outcomes:
+- Understand how to professionally approach and conduct a digital forensic investigation, regardless of its size and complexity.
+- Demonstrate how to utilise contemporary open source tools, techniques and procedures to conduct forensic analysis.
+- Demonstrate their ability to derive and exploit the forensic value of atomic operating system artefacts using first principles.
+- Perform a cyber centric forensic investigation producing an intelligence product that is succinct, accurate, and actionable.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8029 =====
+Subject: Mobile Network and Memory Forensics (ZEIT8029)
+Credit Points: 6
+Overview: This course focuses on the forensic investigation of illicit activity using mobile networks and artefacts attached to mobile networks (devices and memory). Students will reinforce concepts such as the digital forensic method, intent, and its application. The course will then cover technical topics such as network, memory, disk, and mobile device artefact analysis using contemporary open-source tools, techniques, and procedures. Students will be expected to demonstrate both their theoretical and technical understanding by completing practical exercises in a simulated operational environment. The intended audience for this course are students who have some experience or had some exposure to the field of digital forensics in general. Otherwise, students should expect some digital forensics pre-reading to be required. Students are also expected to be relatively comfortable working in a Linux command line environment. On successful completion of this course a student will be able to Explain mobile network and memory forensic principles, methodologies, and processes, and compare and contrast related forensics tools and their output Explain the process of mobile network and memory forensics and the legal requirements relating to concepts such as chain of custody and evidence handling Conduct and defend a forensic examination in the areas of mobile network and memory forensics Formulate a forensic case report and establish the capability of presenting evidence to non-technical audiences
+Learning Outcomes:
+- Conduct and defend a forensic examination in the area of mobile networks and memory
+- Explain the process of mobile network and memory forensics and the legal requirements relating to concepts such as chain of custody and evidence handling
+- Explain mobile network and memory forensic principles and methodologies, and compare and contrast related forensics tools and their output
+- Formulate a forensic case report and establish capability of presenting evidence to non-technical audiences
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8030 =====
+Subject: Big Data and Decision Analytics for Security (ZEIT8030)
+Credit Points: 6
+Overview: This course introduces students to Big Data, decision analytics, and the use of Big Data for decision making with an emphasis on security. The course includes an overview of Big Data, data collection, data storage, data security, and regularity and compliance issues. The basic analytics will cover data analysis, prediction, classification, data anomaly, knowledge and pattern discovery, and simulation and decision making. The course will also study a number of real-world scenarios related big data use in security intelligence. Big Data represents information from big and often dynamic data sets in variety of forms collected from multiple autonomous or connected sources. Current best practices, compliance and regulatory requirements have dramatically increased the production and retention of data. Methods used for working with Big Data are very different from traditional analysis. Big Data caries a lot of noise that needs to be filtered out, it is dynamic, and can be untrustworthy. Traditional tools and approaches are either not efficient or not capable to respond to the need of smart security intelligence and immediate incident management and response. We will define what structured, semi structured and unstructured data is and discuss different approaches to extract useful and context aware security intelligence. Different Technologies for analysing Big Data will be evaluated during the course. We will look at some of the tools used over the course of the semester.
+Learning Outcomes:
+- On successful completion of this course, students will be able to: Apply the principles of data quality, data dynamics, data ethics and data compliance.
+- On successful completion of this course, students will be able to: Understand how different techniques for data profiling, anomaly detection, user behaviour analytics and predictive analytics work.
+- On successful completion of this course, students will be able to: Describe the different sources of data, data structures and the attached meta data, and the difference between data at rest and data in motion.
+- On successful completion of this course, students will be able to: Develop analytics operational plans for different scenarios, and conduct collection, processing and analysis of data sets on a basic level.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8042 =====
+Subject: Introduction to Exploit Development (ZEIT8042)
+Credit Points: 6
+Overview: This course is designed to provide technically competent IT professionals with an accelerated introduction to exploit development in the modern environment. Starting with a theoretical overview of CPU technology and exploit development core concepts, the course quickly moves into practical exercises to reinforce the key learning outcomes. By the end of the course, students will be able to formulate advanced exploitation strategies and begin to understand the core theory concepts which underpin the art and science of modern exploit development. This theoretical understanding will be reinforced with additional consolidation practical exercises and assessment.
+Learning Outcomes:
+- Analyse vulnerabilities and exploits through the proficient use of industry standard tools, and report on impact, mitigation effectiveness and root cause.
+- Understand the inter-related nature of exploit mitigation controls in a modern endpoint and be able to identify weak points in the overall system of mitigations.
+- Understand modern vulnerabilities at a technical level.
+- Develop and implement exploitation strategies for use on endpoints.
+- Bypass modern exploit mitigation controls.
+- Identify vulnerable coding structures by examining source and compiled code;
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8260 =====
+Subject: Project Report - Cyber Security (Part Time) (ZEIT8260)
+Credit Points: 6
+Overview: This course allows students to undertake a research project worth 12UOC total (enrollment in 6UOC per semester over two semesters). Students are required to select a research problem, conduct literature review, define the problem with necessary assumptions for formulation and representation of the problem, select and/or develop appropriate solution approaches, collect data and prepare them for model/problem solving, conduct experiments, analyse results and write a report.
+Learning Outcomes:
+- Appropriately evaluate solutions and communicate recommendations and other relevant information.
+- Demonstrate critical analysis of the state of the domain, drawing on current literature in Cyber Security.
+- Apply Cyber Security methodologies to solve specific practical problems.
+- Demonstrate engagement with the relevant disciplinary knowledge in its interdisciplinary context.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8261 =====
+Subject: Project Report - Cyber Security (Full Time) (ZEIT8261)
+Credit Points: 12
+Overview: This course allows students to undertake a research project worth 12UOC total. Students are required to select a research problem, conduct literature review, define the problem with necessary assumptions for formulation and representation of the problem, select and/or develop appropriate solution approaches, collect data and prepare them for model/problem solving, conduct experiments, analyse results and write a report.
+Learning Outcomes:
+- Demonstrate engagement with the relevant disciplinary knowledge in its interdisciplinary context.
+- Demonstrate critical analysis of the state of the domain, drawing on current literature in Cyber Security.
+- Appropriately evaluate solutions and communicate recommendations and other relevant information.
+- Apply Cyber Security methodologies to solve specific practical problems.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8601 =====
+Subject: Applied Machine Learning (ZEIT8601)
+Credit Points: 6
+Overview: This course will expose cyber security, decision analytics, space, project management, and systems engineering students to the experience of when and how to apply machine learning to solve different real-life problems. The students will master concepts such as learning from data, feature selection, regression, classification, clustering, and modes of learning such as supervised vs. unsupervised learning and biases in machine learning. They will also be exposed to the similarities and differences when applying machine learning to different modalities, such as time series data, image processing, and text analytics. This course will be a hands-on course with a low to moderate technical level that suits students who are interested in applying machine learning. The students will be able to design AI solutions that utilise existing machine learning algorithms to solve real-life problems, and then evaluate the performance of these systems and analyse the potential of recommending these systems to the decision makers.
+Learning Outcomes:
+- Recognise the different classes of machine learning and be able to select and apply the appropriate algorithm by using existing tools
+- Understand how data defines a problem and the choice of the algorithm used to solve the problem
+- Be able to assemble findings from the evaluation of machine learning in a form appropriate to communicate to stakeholders
+- Apply statistical techniques to evaluate or compare the performance of an algorithm for solving a problem
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+

@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in language and literature.",
+    "evidenceLines": [
+      "**Institution**: The University of Sydney (USYD)",
+      "**Course / Program Identifier**: b-languages-hons",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in language and literature.",
+    "evidenceLines": [
+      "**Academic Year**: 2026",
+      "**Handbook URL**: https://www.sydney.edu.au/handbooks/arts/coursework/b-languages-hons.html",
+      "- **Course / Program Identifier**: b-languages-hons"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within language and literature.",
+    "evidenceLines": [
+      "Subject: Languages Honours Thesis 2 (SLCS4112)",
+      "Subject: Area Studies and Social Theory (SLCS4501)",
+      "LO1 . Familiarize yourself with disciplinary conventions and standards."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in language and literature.",
+    "evidenceLines": [
+      "LO2 . Engage with relevant literature, theories and methodologies.",
+      "LO3 . Submit drafts at agreed times.",
+      "- **Handbook URL**: https://www.sydney.edu.au/handbooks/arts/coursework/b-languages-hons.html"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in language and literature.",
+    "evidenceLines": [
+      "Subject: Languages Honours Thesis 2 (SLCS4112)",
+      "Subject: Area Studies and Social Theory (SLCS4501)",
+      "LO4 . Finish researching and writing the thesis."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in language and literature.",
+    "evidenceLines": [
+      "Honours thesis Honours thesis: 100%: Ongoing% (Hurdle: False)",
+      "- **Institution**: The University of Sydney (USYD)",
+      "- **Course / Program Identifier**: b-languages-hons"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in language and literature.",
+    "evidenceLines": [
+      "LO1 . Analyse theoretical arguments and demonstrate their application across different disciplines, languages and cultures",
+      "Subject: Area Studies and Social Theory (SLCS4501)",
+      "- **Handbook URL**: https://www.sydney.edu.au/handbooks/arts/coursework/b-languages-hons.html"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "Candidates must complete 48 credit points of units of study comprising:",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Languages.",
+      "evidenceLines": [
+        "Candidates must complete 48 credit points of units of study comprising:",
+        "(i) 12 credit points in seminar units"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in language and literature.",
+      "evidenceLines": [
+        "Subject: Languages Honours Thesis 2 (SLCS4112)",
+        "**Institution**: The University of Sydney (USYD)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

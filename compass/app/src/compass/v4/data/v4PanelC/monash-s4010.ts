@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 15,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in mathematics.",
+    "evidenceLines": [
+      "Critically analyse and synthesise the concept of well-posedness for diverse boundary value problems and initial value problems;",
+      "Conduct a comprehensive critical evaluation of the characteristics of multi-dimensional partial differential equations, including the implementation and justification of initial and boundary conditions",
+      "Mathematics underpins our way of life and our prosperity."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in mathematics.",
+    "evidenceLines": [
+      "Utilise and integrate cutting-edge methodologies to solve a diverse range of linear and nonlinear partial differential equations;",
+      "Demonstrate and apply the indispensability of functional analysis for the advanced analysis of partial differential equations by exploring and solving elliptic equations;",
+      "Its importance ranges from fundamental developments enabling new technologies, to theories backing up scientific research, to analyses of our physical and societal environments."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within mathematics.",
+    "evidenceLines": [
+      "Subject: Partial differential equations (MTH4015)",
+      "Subject:  Complex analysis and integral transforms (MTH4020)",
+      "Exhibit a deep understanding of the mathematical properties of inhomogeneous partial differential equations and formulate exact solutions under complex specified conditions"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in mathematics.",
+    "evidenceLines": [
+      "Continuous assessment: 50% (Hurdle: None)",
+      "Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)",
+      "The program is designed for graduates with a bachelor degree and a strong foundation in mathematics."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in mathematics.",
+    "evidenceLines": [
+      "Subject: Advanced ordinary differential equations (MTH4060)",
+      "Subject: Differential geometry (MTH4110)",
+      "Demonstrate a deep understanding of complex numbers and functions"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in mathematics.",
+    "evidenceLines": [
+      "Recognise the significance of complex analysis and its applications in physics and engineering and illustrate with real-world examples.",
+      "Mathematics underpins our way of life and our prosperity.",
+      "Its importance ranges from fundamental developments enabling new technologies, to theories backing up scientific research, to analyses of our physical and societal environments."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in mathematics.",
+    "evidenceLines": [
+      "Develop and manipulate Laurent and Taylor series for complex functions",
+      "Subject: Topology: The mathematics of shape (MTH4130)",
+      "The program is designed for graduates with a bachelor degree and a strong foundation in mathematics."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The program is designed for graduates with a bachelor degree and a strong foundation in mathematics. You will acquire advanced knowledge and skills in mathematics, and the capacity to use them to tackle complex problems in a variety of situations. The flexible coursework offering ensures that you can compose a program to suit your interests, from pure mathematics that develops the core theory, to statistics and applied and computational mathematics that extend this theory to bring practical solutions to real-world problems. All these fields contribute to a far-reaching and comprehensive master's program. The combination of coursework and project equips graduates of the program with advanced knowledge and skills that make them employable in industry, or prepare them for doctoral studies.",
+      "Mathematics underpins our way of life and our prosperity."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate of Mathematics.",
+      "evidenceLines": [
+        "The program is designed for graduates with a bachelor degree and a strong foundation in mathematics. You will acquire advanced knowledge and skills in mathematics, and the capacity to use them to tackle complex problems in a variety of situations. The flexible coursework offering ensures that you can compose a program to suit your interests, from pure mathematics that develops the core theory, to statistics and applied and computational mathematics that extend this theory to bring practical solutions to real-world problems. All these fields contribute to a far-reaching and comprehensive master's program. The combination of coursework and project equips graduates of the program with advanced knowledge and skills that make them employable in industry, or prepare them for doctoral studies.",
+        "You must complete 24 credit points from the available disciplines of mathematics, including pure mathematics, statistics and applied and computational mathematics:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in mathematics.",
+      "evidenceLines": [
+        "Subject: Partial differential equations (MTH4015)",
+        "Critically analyse and synthesise the concept of well-posedness for diverse boundary value problems and initial value problems;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

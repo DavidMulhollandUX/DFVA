@@ -1,0 +1,205 @@
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/programs/2026/7372 =====
+# Health Data Science (7372)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 7372
+- **Academic Year**: 2026
+- **Study Level**: Postgraduate
+- **AQF Level**: Level 8
+- **Total Units / Units of Credit (UOC)**: 24
+- **Delivery Mode**: Face-to-face (includes blended), Fully online
+- **CRICOS Code**: 096227J
+- **Academic Organisation**: School of Biomedical Sciences
+- **Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/7372
+
+## Description
+Health Data Science (HDS) is the science and art of generating data-driven solutions through comprehension of complex real-world health problems, employing critical thinking and analytics to derive knowledge from (big) data. HDS is an emergent discipline, arising at the intersection of (bio)statistics, computer science, and health. The Graduate Certificate Health Data Science covers the first part of the HDS pipeline concerned with comprehension of health context, statistical foundations, principles of programming, and data wrangling and management.
+
+Graduate Certificate in Health Data Science graduates will be well suited to an identified area of workforce demand, in both public and private health sectors. High-achieving graduates will have potential for consideration of further study in Graduate Diploma in Health Data Science (5372) or MSc in Health Data Science (9372). The program is designed to appeal to both those new to Health Data Science and those already working in the field looking to upskill. The Graduate Certificate is appropriate for both an Australian and international audience. Potential students from any undergraduate background and/ or who possess relevant work experience will be considered for admission.
+
+The program can be completed in 6 months full-time or part-time over 18 months. The 24 unit of credit coursework program is fully articulated, with options for further study at Graduate Diploma (48 UoC) and MSc level (72 UoC).
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+1. Enquiry-based learning - Graduates will be able to apply enquiry-based learning and ways of thinking to Health Data Science contexts.
+4. Advanced disciplinary knowledge and practice - Graduates will be able to apply foundation Health Data Science principles to novel contexts.
+3. Global outlook - Graduates will be able to demonstrate an awareness of a global perspective for the potential of Health Data Science to positively impact health at both individual and community levels.
+2. Communication, adaptive and interactional skills - Graduates will be able to communicate foundational Health Data Science principles to a range of audiences, in a variety of formats.
+5. Cognitive skills and critical thinking - Graduates will be able to apply Statistical Thinking to synthesise and critically evaluate foundation Health Data Science concepts.
+
+## Career Opportunities & Employment Areas
+The Graduate Certificate in Health Data Science aims to graduate professionals with a sound grounding in the foundations of Health Data Science, appealing to an identified area of workforce need.  Thus graduates will be well positioned for a range of roles in both the public and private healthcare sectors.  High-achieving students will also be well suited to further academic study, particularly at MSc level.
+
+## Program Structure & Degree Requirements
+Students must complete 24 Units of Credit (UOC) structured across the following academic components:
+
+### Core Courses (24 UOC)
+Students must take 24 UOC of the following courses.
+
+#### Core Courses
+- **HDAT9200**: Statistical Foundations for Health Data Science [6 UOC]
+- **HDAT9100**: Context of Health Data Science [6 UOC]
+- **HDAT9400**: Management and Curation of Health Data [6 UOC]
+
+#### One of the following:
+- **HDAT9300**: Computing for Health Data Science [6 UOC]
+- **COMP9021**: Principles of Programming [6 UOC]
+
+## Progression & Academic Rules
+Students with at least a "Pass" in the core courses can be considered for entry into the Graduate Diploma in Health Data Science 5372 program.
+
+## Admission Requirements
+**Minimum Entry Requirements**:
+The entry criteria are:
+
+- an undergraduate degree in a cognate discipline
+
+- a degree in a cognate or non-cognate discipline at honours level (or higher)
+
+- an undergraduate degree in a non-cognate discipline and minimum 1 year full-time equivalent of relevant work experience
+
+or
+
+- minimum 3 year full-time equivalent of relevant work experience
+
+Cognate discipline is defined as a degree in one of the following disciplines:
+
+- a science allied with medicine, including
+
+medicine
+
+nursing
+
+dentistry
+
+physiotherapy
+
+optometry
+
+biomedical/ biological science
+
+pharmacy
+
+public health
+
+veterinary science
+
+biology
+
+biochemistry
+
+statistics
+
+mathematical sciences
+
+computer science
+
+psychology
+
+(health) economics
+
+data science
+
+other (case-by-case basis)
+
+Relevant experience is defined as:
+
+- any (professional) position involving data acquisition, management or handling (e.g. database manager)
+
+or
+
+- any (professional) position involving analytics (e.g. data analyst)
+
+and
+
+- tertiary-level training, demonstrating capability in a cognate discipline
+
+Evidence requirements will be a CV in relation to professional experience.
+
+Recognition of prior learning (RPL) is awarded in accordance with UNSW 'Recognition of Prior Learning (Coursework Programs) Policy' and 'Recognition of Prior Learning Procedure' for both program admission and credit.
+
+**Limitations on Recognition of Prior Learning**:
+Recognition of prior learning (RPL) is awarded in accordance with UNSW 'Recognition of Prior Learning (Coursework Programs) Policy' and 'Recognition of Prior Learning Procedure', for both program admission and credit.
+
+In the case of HDAT9200 and HDAT9300, combinations of both formal and non-formal learning, and RPL accepted for program entry will be considered towards credit.  For all other courses in the program, non-conferred formal learning beyond that acknowledged for program entry will be considered towards credit.  Recognition of formal learning is assessed for equivalence to an entire (HDAT) course on a case-by-case basis.  Recognition of non-formal learning will result from successful completion of an equivalent course from our suite of Continual Professional Development.
+
+Credit granted will yield specified credit for the equivalent 6 UoC course.  Reduction in the total volume of learning due to advance standing is limited to a maximum of 50% of the total UoC for the program.
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/COMP9021 =====
+Subject: Principles of Programming (COMP9021)
+Credit Points: 6
+Overview: This course provides students with solid conceptual knowledge and practical skills of both generic programming techniques and Python programming, to be used effectively in the many specialised courses that expect students to have acquired strong enough programming skills and well mastered the Python language. The features of the language are covered to a significant depth, and there is a strong emphasis on problem solving, from a broad base of application domains, with quite a few that involve mathematical notions. Like all foundation courses for postgraduate students, there is a lot of contents to study in limited time and the learning curve is not gentle. Still the course does not assume any prior knowledge of programming in general, or of Python programming in particular, as its content is self-contained for students with the expected mathematical background.
+Learning Outcomes:
+- Apply appropriate tools, in particular for editing, testing and debugging.
+- Apply Python language, including advanced syntax and programming techniques.
+- Design, implement and test programs written in a language with procedural, object-oriented, and functional constructs.
+- Create clear, reliable, well-structured, well-tested, well-documented programs.
+- Analyse what happens behind the scene when operating on Python data types, with an understanding of efficiency and memory use.
+- Use fundamental data structures and algorithms.
+- Design programs to solve small to medium scale problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/HDAT9100 =====
+Subject: Context of Health Data Science (HDAT9100)
+Credit Points: 6
+Overview: Today, health data is measured in trillions of gigabytes and is collected by health systems (such as GPs, pharmacies, hospitals, and allied health care) as well as wearable devices. But this data is often collected for different purposes and has specific uses. What data exist in the Australian health system, and how are they used currently? This course introduces how data are generated and used in the Australian Health System. We look at how health outcomes can be measured and reported in various forms of health data, and how these health data can reveal inequalities in health. The course describes the major sources of health data, including those relating to primary care, hospital admissions and prescription medicines. We will look at how this and other information can be used by the health data scientist to create evidence for policy and research.
+Learning Outcomes:
+- Describe major data sources which are generated and used in the Australian Health System
+- Demonstrate the use of major health data sources to conduct enquiries to inform research and policy questions
+- Apply the knowledge of the health delivery system and data sources to novel health problems.
+- Analyse the structure and operation of Australian health delivery systems in a global and community context.
+- Analyse the role of social determinants of health from the perspective of the Australian health system
+- Demonstrate the ability to communicate findings to a variety of stakeholders.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+- Multimodal -: N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/HDAT9200 =====
+Subject: Statistical Foundations for Health Data Science (HDAT9200)
+Credit Points: 6
+Overview: Health data is often complex and noisy. Obtaining actionable insights (or revealing the hidden signals) from such data requires the utilisation of probabilistic concepts. Thus a solid understanding of the principles of statistics is intrinsic to Health Data Science. The aim of this course to introduce the foundations required to understand such phenomena.
+Learning Outcomes:
+- Evaluate the role of Causation, Bias, and Confounding in Epidemiology.
+- Investigate epidemiological risks and rates.
+- Appraise probability distributions and their summaries.
+- Critique the Frequentist and Bayesian frameworks of probability.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/HDAT9300 =====
+Subject: Computing for Health Data Science (HDAT9300)
+Credit Points: 6
+Overview: Computing now pervades nearly every aspect of modern life, including health care delivery and health services management. The objective of this course is to develop 'computational thinking' in health data science students, by providing a thorough and principled introduction to computer programming, algorithms, data structures and software engineering best practices. The ability to write clear, efficient and correct computer code is at the core of most data science practice and is a foundation skill set. In this course, you will learn to program in the Python language through tackling health-related problems. Topics include data types, functions, data processing, simulation, software development and program testing and debugging. Theoretical principles are reinforced with extensive ‘hands-on’ coding in Python, including the NumPy and Pandas packages. Core material will be delivered through short lectures and readings supported by interactive coding activities.
+Learning Outcomes:
+- Conduct extensive testing and debugging of Python programs.
+- Appraise good (Pythonic) coding practice, including code documentation.
+- Implement algorithms using the Python programming language.
+- Design algorithms to solve computation problems.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/HDAT9400 =====
+Subject: Management and Curation of Health Data (HDAT9400)
+Credit Points: 6
+Overview: This course is designed to equip you with the skills required to collect or obtain data, design data management strategies aligned with best practice, and appreciate the day to day practicalities of data curation for sound data management. You will develop data wrangling skills required to assemble data suitable for analysis and research purposes, including data from linkage projects. Data wrangling skills will focus on the key areas of data security, data exploration, documentation of data (for example data dictionaries) and data management, with the ultimate aim of creating analysis-ready datasets and ensuring reproducible results.
+Learning Outcomes:
+- Discuss data linkage strategies and the process of applying for linked data.
+- Design (and document) data management plans involving data dictionaries and generation of metadata.
+- Apply the concepts of confidentiality, privacy and security in managing health data.
+- Generate syntax (code) required to produce analysis ready datasets.
+- Evaluate data quality.
+- Develop and implement data merging and cleaning rules involving linked data.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+

@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-ab001",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+      "evidenceLines": [
+        "Reflect critically on your own cultural attitudes, values and beliefs",
+        "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+        "La Trobe\u2019s Bachelor of Global Studies gives you a strong grounding in the issues facing key regions and countries around the world."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+      "evidenceLines": [
+        "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+        "Understand the need for and value of appropriate and effective intercultural communication",
+        "We\u2019ve designed this degree to introduce you to global problems and their policy responses, so you\u2019ll develop the tools to tackle the challenges of the future."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "Understand the importance of the acknowledgment and the referencing of sources"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+      "evidenceLines": [
+        "Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.",
+        "Recognise and understand academic integrity responsibilities.",
+        "Study core subjects examining the history of international relations and geopolitics, contemporary security issues \u2013 such as American power, the rise of China, contemporary armed conflict and terrorism \u2013 and the emerging challenges of human and environmental security."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+      "evidenceLines": [
+        "Subject: INTRODUCTION TO GLOBAL STUDIES (POL1ISP)",
+        "Subject: STATES, SECURITY AND INTERNATIONAL RELATIONS (POL1SNS)",
+        "Critically engage with media representations of global events, position them in relation to scholarly works on the same issues, and begin to develop independent analyses of those issues."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+      "evidenceLines": [
+        "Develop connections and working relationships with other students enrolled in the degree, and the ability to work and discuss in teams.",
+        "La Trobe\u2019s Bachelor of Global Studies gives you a strong grounding in the issues facing key regions and countries around the world.",
+        "We\u2019ve designed this degree to introduce you to global problems and their policy responses, so you\u2019ll develop the tools to tackle the challenges of the future."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+      "evidenceLines": [
+        "Demonstrate an understanding of key themes and issues in Global Politics and the ability to critically analyse them",
+        "Subject: INTERNATIONAL LAW AND ORGANISATIONS (POL2IOL)",
+        "Study core subjects examining the history of international relations and geopolitics, contemporary security issues \u2013 such as American power, the rise of China, contemporary armed conflict and terrorism \u2013 and the emerging challenges of human and environmental security."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "Study core subjects examining the history of international relations and geopolitics, contemporary security issues \u2013 such as American power, the rise of China, contemporary armed conflict and terrorism \u2013 and the emerging challenges of human and environmental security.",
+        "La Trobe\u2019s Bachelor of Global Studies gives you a strong grounding in the issues facing key regions and countries around the world."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Global Studies.",
+        "evidenceLines": [
+          "Study core subjects examining the history of international relations and geopolitics, contemporary security issues \u2013 such as American power, the rise of China, contemporary armed conflict and terrorism \u2013 and the emerging challenges of human and environmental security.",
+          "To qualify for the award of Bachelor of Global Studies, students must complete 360 credit points consisting of:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+        "evidenceLines": [
+          "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+          "Reflect critically on your own cultural attitudes, values and beliefs"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

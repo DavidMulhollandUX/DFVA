@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 6,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Apply mathematical techniques to solve engineering problems.",
+      "Identify, select and derive fundamental mathematical techniques from linear algebra, multi-variable calculus and ordinary differential equations that are essential to engineering applications.",
+      "Engineering involves the application of science."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Discuss best practices in the presentation of written mathematical arguments.",
+      "Engage in team discussion on the application of mathematics.",
+      "Many engineers are fascinated by scientific investigation and eager to enhance their understanding of the pure sciences."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Subject: Engineering mathematics (ENG1005)",
+      "Subject: Foundation mathematics (ENG1090)",
+      "Pre-workshop quizzes: 5% (Hurdle: Competency)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Workshop problem sets: 12.5% (Hurdle: None)",
+      "Mid-semester test 2: 15% (Hurdle: None)",
+      "Likewise, many scientists wish to see their theories applied towards new technologies."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Subject: Foundation physics (PHS1001)",
+      "Subject: Engineering mathematics (ENG1005)",
+      "Applied class quizzes: 2.5% (Hurdle: None)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Mid-semester test 1: 15% (Hurdle: None)",
+      "Engineering involves the application of science.",
+      "Many engineers are fascinated by scientific investigation and eager to enhance their understanding of the pure sciences."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Final assessment: 50% (Hurdle: None)",
+      "Subject: Foundation physics (PHS1001)",
+      "Likewise, many scientists wish to see their theories applied towards new technologies."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Level 2: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "Refer to each partner course for the post nominals for the degree awarded",
+      "Engineering involves the application of science."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Engineering.",
+      "evidenceLines": [
+        "Refer to each partner course for the post nominals for the degree awarded",
+        "These units will develop your understanding of natural and physical sciences, mathematics, numerical analysis, statistics, and computer and information sciences that underpin all engineering disciplines.  If you have not completed the Australian VCE (Units 3 & 4) or equivalent Specialist mathematics and/or Physics with the required study score you will need to enrol in the foundation units ENG1090 and/or PHS1001."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: Engineering mathematics (ENG1005)",
+        "Apply mathematical techniques to solve engineering problems."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

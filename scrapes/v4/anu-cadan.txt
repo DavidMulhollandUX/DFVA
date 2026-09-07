@@ -1,0 +1,136 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/CADAN =====
+# Graduate Certificate of Applied Data Analytics (CADAN)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: CADAN
+- **Academic Year**: 2027
+- **Career / Study Level**: Postgraduate
+- **Program Duration**: 0.5 years
+- **Minimum Units Required**: 24 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal GCertAppDatAn
+- **CRICOS Code**: code NO CRICOS
+- **UAC Code**: N/A
+- **Field of Education**: of Education Information Technology
+- **Academic Contact**: contact Robert Clark
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/CADAN
+
+## Program Description
+A single graduate award offered by theANU College of Arts and Social Sciences and ANU College of Business and Economics
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Apply basic technical expertise in computer programming, databases, and statistical data analysis to solve data analytics problems;
+2. Contribute as an effective member to the performance of a data analytics workplace;
+3. Be able to work to specification and according to a deadline, document tasks undertaken, and report outcomes to a third party.
+
+## Program Requirements & Study Options
+### Program Requirements
+The Graduate Certificate of Applied Data Analytics requires the completion of 24 units, which must consist of:
+
+### Admission Requirements
+This program is only open to Domestic students.
+
+### Inherent Requirements
+Information on inherent requirements for this program is currently not available.
+
+## Faculty Governance & Academic Quality
+Programs at The Australian National University (ANU) are governed under the Australian National University Act 1991, the Higher Education Standards Framework (Threshold Standards) 2021, and the Australian Qualifications Framework (AQF). Academic oversight is maintained by the Academic Board and responsible ANU Academic Colleges to ensure rigorous curriculum alignment, constructive alignment of learning outcomes, and assessment integrity.
+
+### Research-Led Education & Disciplinary Training
+As Australia's national university and a core member of the Group of Eight (Go8), ANU programs integrate active research methodologies into core undergraduate and postgraduate curricula. Students engage directly with primary source scholarship, quantitative and qualitative inquiry, ethical deliberation, and advanced capstone investigations prepared for industry transition or higher degree research.
+
+Official program specifications verified against the ANU Programs and Courses handbook register for the 2027 academic year.
+
+### Program Structure & Prescribed Units of Study
+The following 6 units of study are prescribed for this academic program:
+  * [ COMP6240 Relational Databases ](https://programsandcourses.anu.edu.au/course/COMP6240)
+  * [ COMP6730 Programming for Scientists ](https://programsandcourses.anu.edu.au/course/COMP6730)
+  * [ SOCR8201 Asking the Right Questions: Designing Effective Data Collection ](https://programsandcourses.anu.edu.au/course/SOCR8201)
+  * [ SOCR8202 Using Data for Monitoring and Evaluation ](https://programsandcourses.anu.edu.au/course/SOCR8202)
+  * [ STAT7038 Regression Modelling ](https://programsandcourses.anu.edu.au/course/STAT7038)
+  * [ STAT7055 Introductory Statistics for Business and Finance ](https://programsandcourses.anu.edu.au/course/STAT7055)
+
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6240 =====
+Subject: Relational Databases (COMP6240)
+Credit Points: 6 units
+Overview: This course is an introduction to relational databases and the general skills for designing and using them. The topics include the relational data model, SQL, entity-relationship model,functional dependencies,(de-)normalisation, relational algebra, query processing and optimisation, database transactions and security. To deepen the understanding of relational databases, the current industry development of database systems such as NoSQL databases will be introduced at the end of this course.
+Learning Outcomes:
+- Describe the basic concepts of the relational model and understand its mathematical foundation;
+- Connect database design with social and economic impacts including security, ethics, and Australian Privacy Principles.
+- Use SQL to define, query and manipulate a relational database, and describe principles of SQL query processing and optimisation.
+- Use data modelling concepts and practices to create, evaluate and communicate relational database designs, collaboratively and individually.
+- Compare the relational data model with alternative models.
+Assessment Tasks:
+- In-class activities and quizzes: 10% (Hurdle: False)
+- Assignments: 30% (Hurdle: False)
+- Final Exam: 60% (Hurdle: False)
+Workload: Lectures and laboratory sessions plus self study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6730 =====
+Subject: Programming for Scientists (COMP6730)
+Credit Points: 6 units
+Overview: This course teaches introductory programming, fundamental programming language and computer science concepts, and computational problem solving illustrated with applications common in science and engineering, such as data analysis, visualisation, and image processing. We will take a different approach, including prompting and working with GenAI, with emphasis on testing, debugging and problem decomposition, and using GenAI to help understand code.
+
+These skills will empower students to write software with the aid of GenAI. Assessment will include exam(s) without the aid of GenAI. Students will also create larger software projects with the aid of GenAI. The course does not require any prior knowledge of programming or computer science. It is designed to be a stand-alone computing unit.
+
+Students who wish to study computing courses at a higher level should check course prerequisites as they may need to completeCOMP6710orCOMP7710in addition toCOMP6730.
+Learning Outcomes:
+- Apply advanced programming constructs and structured programming methodologies to develop reliable software systems.
+- Explain key concepts in AI-assisted programming, including Large Language Models (LLMs), prompting, problem decomposition, and top-down design.
+- Apply AI-assisted programming workflows and advanced prompt-engineering techniques to guide, refine, and improve code generated by AI assistants.
+- Analyse the computational complexity of programs, and apply debugging and testing techniques, including black-box and white-box testing.
+- Evaluate and improve code quality using critical judgement.
+- Design and implement complete programs that solve practical problems using structured programming methodologies and AI-assisted prompting.
+- Critically evaluate the role, benefits, limitations, and risks of generative AI in software development projects
+Assessment Tasks:
+- Homework, Assignments and Lab Tests: 20% (Hurdle: False)
+- Programming Project: 20% (Hurdle: False)
+- Final Exam and Mid-semester Test: 60% (Hurdle: False)
+Workload: Lectures, tutorials, assignments, self-study & exam prep for a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/SOCR8201 =====
+Subject: Asking the Right Questions: Designing Effective Data Collection (SOCR8201)
+Credit Points: 6 units
+Overview: This course provides an introduction to the main empirical social science methods, types of data, and techniques for collecting social science data. The course will provide students with the skills to apply social science methods to the generation and analysis of data to inform policy, business and service delivery decisions.Content will cover: overview of main social and behavioural theories (rational choice; nudge and behavioural insights; complexity theory), introduction to research design (observational designs; intervention and experimental designs and action research), techniques for collecting data (quantitative surveys; qualitative interviews; behavioural and experience methods), measurement issues, participatory approaches to research, vulnerable populations, and ethics and privacy considerations.
+Learning Outcomes:
+- discuss in broad terms the main social and behavioural theories and their evidence base;
+- specify a research question that is answerable using empirical methods;
+- propose a clear research design that can provide the information required to inform policy, business and service delivery decisions;
+- understand the assumptions, strengths and limitations of the main techniques for collecting data; and
+- comprehend the particular issues related to researching vulnerable populations.
+Assessment Tasks:
+- Class participation: 5% (Hurdle: False)
+- Assignment 1 - Critique of selected empirical research paper: 15% (Hurdle: False)
+- Assignment 2 - Research proposal: 35% (Hurdle: False)
+- Oral presentation - Empirical strategy and ethics considerations: 20% (Hurdle: False)
+- Class test: 25% (Hurdle: False)
+Workload: 130 hours of total student learning time made up from:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/SOCR8202 =====
+Subject: Using Data for Monitoring and Evaluation (SOCR8202)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT7038 =====
+Subject: Regression Modelling (STAT7038)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT7055 =====
+Subject: Introductory Statistics for Business and Finance (STAT7055)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+

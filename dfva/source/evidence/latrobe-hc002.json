@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-hc002",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in general nursing.",
+      "evidenceLines": [
+        "Understand the importance of the acknowledgment and the referencing of sources",
+        "Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.",
+        "Advance your career with La Trobe\u2019s Graduate Certificate in Nursing and develop specialist knowledge and skills to conduct a comprehensive patient assessment, recognise and respond to the deteriorating patient, and explore best practice evidence for quality improvement in healthcare."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in general nursing.",
+      "evidenceLines": [
+        "Recognise and understand academic integrity responsibilities.",
+        "Accurately interpret health assessment findings and related diagnostic procedures",
+        "Enjoy a flexible, blended learning approach that combines face-to-face workshops with online study that you can fit around your work commitments and access from anywhere."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within general nursing.",
+      "evidenceLines": [
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "Subject: ADVANCED HEALTH ASSESSMENT (NSM4001)",
+        "Determine and justify appropriate advanced health assessment requirements relative to the patient care situation"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in general nursing.",
+      "evidenceLines": [
+        "Demonstrate an ability to accurately perform advanced and targeted objective and subjective nursing assessment techniques",
+        "Accurately interpret scenario-based data to identify clinical and non-clinical priorities for patients.",
+        "Advance your career with La Trobe\u2019s Graduate Certificate in Nursing and develop specialist knowledge and skills to conduct a comprehensive patient assessment, recognise and respond to the deteriorating patient, and explore best practice evidence for quality improvement in healthcare."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in general nursing.",
+      "evidenceLines": [
+        "Subject: CRITICAL NURSING ESSENTIALS (NSM4CNE)",
+        "Subject: CLINICAL QUALITY IMPROVEMENT (NSM5CQI)",
+        "Determine and justify appropriate professional practice requirements relative to patient care scenarios."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in general nursing.",
+      "evidenceLines": [
+        "Critically assess ethical requirements related to specific clinical and professional scenarios.",
+        "Advance your career with La Trobe\u2019s Graduate Certificate in Nursing and develop specialist knowledge and skills to conduct a comprehensive patient assessment, recognise and respond to the deteriorating patient, and explore best practice evidence for quality improvement in healthcare.",
+        "Enjoy a flexible, blended learning approach that combines face-to-face workshops with online study that you can fit around your work commitments and access from anywhere."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in general nursing.",
+      "evidenceLines": [
+        "Accurately relate theoretical knowledge to practice in relation to caring for patients who are at risk and/or deteriorating.",
+        "Subject: CLINICAL QUALITY IMPROVEMENT (NSM5CQI)",
+        "Advance your career with La Trobe\u2019s Graduate Certificate in Nursing and develop specialist knowledge and skills to conduct a comprehensive patient assessment, recognise and respond to the deteriorating patient, and explore best practice evidence for quality improvement in healthcare."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "To qualify for the award of Graduate Certificate in Nursing, students must complete 60 credit points as follows:",
+        "Advance your career with La Trobe\u2019s Graduate Certificate in Nursing and develop specialist knowledge and skills to conduct a comprehensive patient assessment, recognise and respond to the deteriorating patient, and explore best practice evidence for quality improvement in healthcare."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate in Nursing.",
+        "evidenceLines": [
+          "To qualify for the award of Graduate Certificate in Nursing, students must complete 60 credit points as follows:",
+          "60 core credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in general nursing.",
+        "evidenceLines": [
+          "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+          "Understand the importance of the acknowledgment and the referencing of sources"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-lbbmk",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+      "evidenceLines": [
+        "Reflect critically on your own cultural attitudes, values and beliefs",
+        "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+        "Be a business leader tomorrow."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+      "evidenceLines": [
+        "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+        "Understand the need for and value of appropriate and effective intercultural communication",
+        "In today's digital landscape, marketing is a high-demand skill across a range of industries."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Subject: MARKETS, POLICY AND THE ECONOMY (BUS1BUE)",
+        "Evaluate the relationships between macroeconomic variables and their impacts on businesses, individuals, and society."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+      "evidenceLines": [
+        "Use models to predict and analyse the impacts of changing market conditions and/or public policy responses and their impacts on society",
+        "Research and analyse current issues and/or events in the economy by integrating data and other information sources",
+        "Health, education, finance, retail, arts and government bodies all have digital presences that needs to develop, implemented and managed."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+      "evidenceLines": [
+        "Subject: SUSTAINABILITY (BUS1SBY)",
+        "Subject: DIGITAL BUSINESS (BUS3DIG)",
+        "Explain fundamental economic concepts with written communication incorporating diagrams, equations, and other media"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+      "evidenceLines": [
+        "Evaluate innovative, systems-based solutions through the application of disciplinary knowledge and skills to researching, analysing and resolving sustainability challenges.",
+        "Be a business leader tomorrow.",
+        "In today's digital landscape, marketing is a high-demand skill across a range of industries."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+      "evidenceLines": [
+        "Apply the theory and frameworks developed in the subject to analyse and appraise a range of stakeholder and sustainability-related issues.",
+        "Subject: ENTREPRENEURSHIP (BUS3ENT)",
+        "Health, education, finance, retail, arts and government bodies all have digital presences that needs to develop, implemented and managed."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "La Trobe's Bachelor of Business (Marketing) has been designed with direct input from industry to ensure you have the specialised knowledge and solid business foundations employers want. Explore emerging areas such as digital and social marketing, as well as core subjects like digital marketing, consumer behaviour, branding, research and strategic marketing.",
+        "Be a business leader tomorrow."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Business.",
+        "evidenceLines": [
+          "La Trobe's Bachelor of Business (Marketing) has been designed with direct input from industry to ensure you have the specialised knowledge and solid business foundations employers want. Explore emerging areas such as digital and social marketing, as well as core subjects like digital marketing, consumer behaviour, branding, research and strategic marketing.",
+          "To attain the Bachelor of Business (Marketing), students will be required to complete 360 credit points in total consisting of:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in business and management.",
+        "evidenceLines": [
+          "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+          "Reflect critically on your own cultural attitudes, values and beliefs"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

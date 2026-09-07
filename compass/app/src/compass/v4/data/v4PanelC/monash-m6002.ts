@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+    "evidenceLines": [
+      "Assess the role, benefits and limitations of diet, activity and lifestyle in aetiology, prevention and management of chronic diseases.",
+      "Communicate nutrition messages and evidence relating to chronic disease prevention and management using contemporary approaches.",
+      "This postgraduate course aims to prepare you with the professional and personal qualities required for future dietetic practice in a variety of workplace settings."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+    "evidenceLines": [
+      "Evaluate the efficacy of population-based interventions to manage chronic diseases.",
+      "Apply epidemiology, medical and nutritional principles in the nutritional assessment and management of chronic lifestyle related diseases conditions.",
+      "The course integrates academic teaching and learning with relevant industry-based work experiences."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+    "evidenceLines": [
+      "Subject: Nutrition, activity and health in chronic diseases (NUT3002)",
+      "Subject: Public health nutrition (NUT3082)",
+      "Appraise the functional role of nutraceuticals in disease management and prevention."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+    "evidenceLines": [
+      "Discuss emerging trends in diet related disease risk and treatment approaches.",
+      "Final examination (2 hours and 10 minutes): 40% (Hurdle: None)",
+      "The course is designed around four study themes:"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+    "evidenceLines": [
+      "Subject: Foundations of dietetic practice (NUT4001)",
+      "Subject: Introduction to nutrition and dietetics practice (NUT5001)",
+      "Multimedia communication: 30% (Hurdle: None)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+    "evidenceLines": [
+      "Critical review (Written report: 2000-2500 words OR Recorded presentation with notes): 30% (Hurdle: None)",
+      "This postgraduate course aims to prepare you with the professional and personal qualities required for future dietetic practice in a variety of workplace settings.",
+      "The course integrates academic teaching and learning with relevant industry-based work experiences."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+    "evidenceLines": [
+      "Apply a socio-ecological, systems based approach to understanding and managing population nutrition issues.",
+      "Subject: Professional practice: Community and public health nutrition and food systems (NUT5002)",
+      "The course is designed around four study themes:"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "Applied and practical learning experiences will traverse all themes to support the integrated approach to the teaching and learning of this course. The development of skills and knowledge in research relevant and/or applied to nutrition and dietetic practice will underpin each of the four core themes of the program.",
+      "This postgraduate course aims to prepare you with the professional and personal qualities required for future dietetic practice in a variety of workplace settings."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Nutrition and Dietetics.",
+      "evidenceLines": [
+        "Applied and practical learning experiences will traverse all themes to support the integrated approach to the teaching and learning of this course. The development of skills and knowledge in research relevant and/or applied to nutrition and dietetic practice will underpin each of the four core themes of the program.",
+        "These studies will provide you with the core knowledge and professional skills relevant to innovative and evidence-based nutrition and dietetic practice. You will learn about a range of nutrition-related conditions and diseases and develop skills in nutrition and dietetics education and person-centred case management as well as ways to influence health and nutrition at a system level. This will include an understanding of issues relating to healthcare systems, services, management, ethics and quality improvement."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+      "evidenceLines": [
+        "Subject: Nutrition, activity and health in chronic diseases (NUT3002)",
+        "Assess the role, benefits and limitations of diet, activity and lifestyle in aetiology, prevention and management of chronic diseases."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

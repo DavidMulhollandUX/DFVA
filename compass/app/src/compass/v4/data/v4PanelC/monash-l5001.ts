@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in law.",
+    "evidenceLines": [
+      "Use cognitive, technical and creative skills to generate and evaluate at an abstract level complex ideas and concepts relevant to case law, statutes, and advanced legal research.",
+      "Investigate, analyse and synthesise complex legal information, problems, concepts and theories in relation to the operation of the Australian legal systems;",
+      "The Graduate Diploma of Laws is designed to let you advance your skills and knowledge of developments in the principles, practice, and scholarship of one or more areas of law."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in law.",
+    "evidenceLines": [
+      "Conduct research into the common law systems more generally, including the structure and content of cases based on knowledge of appropriate research principles and methods; and",
+      "Apply knowledge and understanding of recent developments in relation to the rules of precedent and application of statutes to new situations in professional practice and/or for further learning with creativity and initiative;",
+      "You can focus on a specialised area or select from a broad range of electives for professional practice."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within law.",
+    "evidenceLines": [
+      "Subject: Australian legal process and research (LAW5081)",
+      "Subject: Australian legal process and research (LAW5081)",
+      "Discussion board participation: 10% (Hurdle: None)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in law.",
+    "evidenceLines": [
+      "Research assignment: 45% (Hurdle: None)",
+      "In class exercise: 45% (Hurdle: None)",
+      "You will investigate contemporary issues in law, practice and scholarship, and evaluate complex legal issues from theoretical, global and interdisciplinary perspectives."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in law.",
+    "evidenceLines": [
+      "Subject: Australian legal process and research (LAW5081)",
+      "Subject: Australian legal process and research (LAW5081)",
+      "Use cognitive, technical and creative skills to generate and evaluate at an abstract level complex ideas and concepts relevant to case law, statutes, and advanced legal research."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in law.",
+    "evidenceLines": [
+      "Investigate, analyse and synthesise complex legal information, problems, concepts and theories in relation to the operation of the Australian legal systems;",
+      "The Graduate Diploma of Laws is designed to let you advance your skills and knowledge of developments in the principles, practice, and scholarship of one or more areas of law.",
+      "You can focus on a specialised area or select from a broad range of electives for professional practice."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in law.",
+    "evidenceLines": [
+      "Conduct research into the common law systems more generally, including the structure and content of cases based on knowledge of appropriate research principles and methods; and",
+      "Subject: Australian legal process and research (LAW5081)",
+      "You will investigate contemporary issues in law, practice and scholarship, and evaluate complex legal issues from theoretical, global and interdisciplinary perspectives."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "48 credit points",
+      "The Graduate Diploma of Laws is designed to let you advance your skills and knowledge of developments in the principles, practice, and scholarship of one or more areas of law."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Diploma of Laws.",
+      "evidenceLines": [
+        "48 credit points",
+        "**Law studies** **48 credit points**"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in law.",
+      "evidenceLines": [
+        "Subject: Australian legal process and research (LAW5081)",
+        "Use cognitive, technical and creative skills to generate and evaluate at an abstract level complex ideas and concepts relevant to case law, statutes, and advanced legal research."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

@@ -1,0 +1,466 @@
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/programs/2026/7480 =====
+# Actuarial Analytics  (7480)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 7480
+- **Academic Year**: 2026
+- **Study Level**: Postgraduate
+- **AQF Level**: Level 8
+- **Total Units / Units of Credit (UOC)**: 24
+- **Delivery Mode**: Face-to-face (includes blended)
+- **CRICOS Code**: 121321K
+- **Academic Organisation**: School of Risk and Actuarial Studies
+- **Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/7480
+
+## Description
+The Graduate Certificate in Actuarial Analytics provides specialised training in data analytics, financial mathematics, and risk management, equipping students with the quantitative and analytical skills essential for actuarial and financial careers. The program develops expertise in actuarial models, probability, machine learning, and artificial intelligence, preparing graduates for high-demand roles in financial services, insurance, superannuation, and risk management.
+
+All actuarial courses are accredited by the Actuaries Institute, ensuring they meet professional standards and support your career progression in actuarial science, finance, and business.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+1. Business knowledge: Students will make informed and effective selection and application of knowledge in a discipline or profession, in the contexts of local and global business.
+2. Problem solving: Students will define and address business problems, and propose effective evidence-based solutions, through the application of rigorous analysis and critical thinking.
+3. Business communication: Students will harness, manage and communicate business information effectively using multiple forms of communication across different channels.
+5. Responsible business practice: Students will develop and be committed to responsible business thinking and approaches, which are underpinned by ethical professional practice and sustainability considerations.
+4. Teamwork: Students will interact and collaborate effectively with others to achieve a common business purpose or fulfil a common business project, and reflect critically on the process and the outcomes.
+7. Leadership development: Students will develop the capacity to take initiative, encourage forward thinking and bring about innovation, while effectively influencing others to achieve desired results.
+6. Global and cultural competence: Students will be aware of business systems in the wider world and actively committed to recognise and respect the cultural norms, beliefs and values of others, and will apply this knowledge to interact, communicate and work effectively in diverse environments.
+
+## Career Opportunities & Employment Areas
+The Certificate of Actuarial Analytics allows you to obtain and develop the required competencies to enter an actuarial career and provides data analytics and quantitative risk management training for entry into the financial services industry. The program covers the professional actuarial subjects and includes options in actuarial studies, data analytics, quantitative risk management, and other related disciplines.
+
+## Professional Recognition & Accreditation
+Graduates are eligible to apply for membership of various professional organisations according to the area of specialisation completed. At UNSW School of Risk and Actuarial Studies, our degrees have been accredited by the Actuaries Institute (Australia) and received professional recognition by the Society of Actuaries (US) and Casualty Actuarial Society (CAS) for Validation by Educational Experience (VEE). We are recognised as a Centre of Actuarial Excellence (CAE) and have earned University-Earned Credit (UEC) Program status for the FM exam and SRM exam (beginning January 1, 2023) by the Society of Actuaries. In 2021, we received the CAS University Award. Please refer to https://www.unsw.edu.au/business/our-schools/risk-actuarial/student-life/professional-recognition for further details.
+
+## Program Structure & Degree Requirements
+Students must complete 24 Units of Credit (UOC) structured across the following academic components:
+
+### Core Courses
+All students must complete the following two courses unless they have an Actuarial background. Students with an actuarial background can take a total of 24 UOC from the Prescribed Elective list.
+
+- **ACTL5101**: Probability and Statistics for Actuaries [6 UOC]
+- **ACTL5102**: Financial Mathematics [6 UOC]
+
+### Prescribed Elective Courses (12 UOC)
+Students must take 12 UOC of the following courses.
+
+- **ACTL5100**: Actuarial Theory and Practice  A [6 UOC]
+- **ACTL5103**: Stochastic Modelling for Actuaries [6 UOC]
+- **ACTL5104**: Survival Analysis and Prediction of Life and Health Related Risks [6 UOC]
+- **ACTL5105**: Life Insurance and Superannuation [6 UOC]
+- **ACTL5106**: Insurance Risk Models [6 UOC]
+- **ACTL5108**: Finance and Financial Reporting for Actuaries [6 UOC]
+- **ACTL5109**: Financial Economics for Insurance and Superannuation [6 UOC]
+- **ACTL5110**: Statistical Machine Learning for Risk and Actuarial Applications [6 UOC]
+- **ACTL5111**: Artificial Intelligence and Deep Learning Models for Risk and Insurance [6 UOC]
+- **ACTL5200**: Actuarial Theory and Practice B [6 UOC]
+- **ACTL5305**: Actuarial Data Science Applications [6 UOC]
+- **COMM5501**: Data Visualisation and Communication [6 UOC]
+- **RISK5001**: Fundamentals of Risk and Risk Management [6 UOC]
+- **RISK5002**: Risk Analytics [6 UOC]
+- **RISK5003**: Risk Decision Analytics [6 UOC]
+- **RISK5005**: Climate Change and Business Risk Management [6 UOC]
+- **RISK5009**: Risk Management Strategies [6 UOC]
+- **RISK5110**: Generative AI for Risk Management [6 UOC]
+- **ACTL5301**: Quantitative Risk Management Techniques [6 UOC]
+
+## Progression & Academic Rules
+The Graduate Certificate in Actuarial Analytics is associated with the Master of Actuarial Studies and Master of Actuarial Studies (Extension) as similar programs, both of which have a higher entry requirement of a WAM of 65 or above.
+
+Students who complete the Graduate Certificate in Actuarial Analytics with a WAM of 65 or above are eligible to transfer into either the Master of Actuarial Studies or the Master of Actuarial Studies (Extension).
+
+This program provides a pathway for students who narrowly missed the initial WAM requirement of 65, offering them an opportunity to progress into the Master of Actuarial Studies (MAct) upon successful completion.
+
+## Admission Requirements
+**Minimum Entry Requirements**:
+To be eligible for the program, you must have:
+
+- A recognised bachelor degree (or equivalent qualification) in mathematics, statistics, econometrics, actuarial studies, financial engineering, data science, data engineering, physics, engineering, or other related quantitative field with a minimum WAM of 60.
+
+Assumed knowledge: mathematical background in calculus and linear algebra at first-year university undergraduate level
+
+Notes:
+
+Students without an Actuarial background are advised to begin their studies in Term 1, as core courses are only offered in Term 1 each year.
+
+**Limitations on Recognition of Prior Learning**:
+Students with an Actuarial background may be granted exemptions for core courses based on their previous Actuarial studies (bachelor's degree or higher). Students who receive exemptions must complete additional electives to meet the program’s UOC requirements.
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ACTL5100 =====
+Subject: Actuarial Theory and Practice  A (ACTL5100)
+Credit Points: 6
+Overview: This course, along with ACTL5200, aligns with the Actuarial Control Cycle in the Actuary Program of the Actuaries Institute. It develops the theory and practice behind the actuarial management of risk-based and other products offered by financial institutions. Using examples from actuarial practice, the course covers implications for life insurance, general insurance, superannuation, asset-liability management, and other areas where actuaries are involved in product design, pricing, reserving, investment, and surplus management. The course emphasizes recent advancements in actuarial theory and practice.
+Learning Outcomes:
+- Examine the Need for and Impact of Regulation and Government Policy on Medium and Long Term Commercial Decisions
+- Relate the Main Features within the General Environment to Medium and Long Term Commercial Decisions
+- Demonstrate an Understanding of Enterprise Risk Management and its Role in Organisational Management
+- Record and reflect on your contribution to teamwork
+- Discuss and Apply an Actuarial Control Cycle in a Variety of Practical Commercial Situations
+- Analyse the Main Features and Risks of Financial Products and Contracts, from the Point of View of Consumers and Providers
+- Apply Appropriate Techniques to the Pricing of Products and Contracts
+- Apply a Risk Assessment Framework to Identify and Assess the Risks in a Range of Commercial Situations
+- Identify how you can contribute to the financial sector meeting its social purpose
+- Concisely put forward your considered views on a topic in writing and in writing
+- Discuss and Apply the Process of Product Design
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ACTL5101 =====
+Subject: Probability and Statistics for Actuaries (ACTL5101)
+Credit Points: 6
+Overview: This course examines the probability and statistics essential for actuarial studies. It explores a range of topics, including univariate and multivariate random variables, moments, probability generating functions, and moment generating functions. Additionally, the curriculum addresses marginal and conditional distributions, sampling distributions, estimation techniques and hypothesis testing. Practical examples from actuarial studies, finance, and insurance are incorporated to demonstrate the real-world applications of the concepts discussed.
+Learning Outcomes:
+- Communicate ideas succinctly and clearly, ensuring that complex statistical concepts are accessible and understandable.
+- Work collaboratively to complete tasks, emphasizing teamwork and collective problem-solving in actuarial projects.
+- Employ standard models of probability and statistics to interpret and analyze real-world problems in actuarial and risk modeling.
+- Construct written work that is logically organized and professionally presented, reflecting the standards expected in the field of actuarial science.
+- Identify and apply concepts of probability and statistical theory, establishing a foundational knowledge crucial for actuarial studies.
+- Use probability knowledge and statistical skills to present data effectively and apply these tools to solve problems specific to actuarial studies.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ACTL5102 =====
+Subject: Financial Mathematics (ACTL5102)
+Credit Points: 6
+Overview: This course covers the financial mathematics necessary for analyzing financial and insurance transactions. Key topics include the mathematics of compound interest, the analysis and valuation of annuities, bonds, loans, and derivative securities; yield curves and immunization strategies; and an introduction to stochastic interest rate models and their actuarial applications.
+Learning Outcomes:
+- Calculate expectation and variance of accumulated value under some basic models of stochastic interest.
+- Identify and clarify the concept of time value of money, emphasizing its critical role in financial decision-making.
+- Critically assess financial calculations for their reasonableness and question the validity of their assumptions to ensure robust financial analysis.
+- Explain and compare different types of interest such as simple versus compound interest, nominal versus effective interest rates, and the implications of stochastic interest models on financial calculations.
+- Integrate core financial valuation concepts into practical situations, such as in investment project appraisals or financial market analyses, demonstrating applied competency.
+- Describe, compare, and determine the value of various financial securities such as bonds, shares, loans, forwards and futures contracts, options and annuities, utilising appropriate valuation techniques.
+- Articulate the dynamics between present value, cash flow streams, and interest rate risks, including duration and immunisation strategies, and apply these concepts confidently in practical situations.
+- Explain the adjustments required in valuation problems to account for tax implications and transaction costs, enhancing the accuracy of financial evaluations.
+- Effectively explain complex financial and actuarial concepts in simple terms, enhancing understanding through clear communication.
+- Describe the basic market conventions in the securities and money markets, focusing on the instruments introduced during the course to provide a real-world context.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ACTL5103 =====
+Subject: Stochastic Modelling for Actuaries (ACTL5103)
+Credit Points: 6
+Overview: This course discusses actuarial models for stochastic modelling of liabilities and assets, demonstrating their use in actuarial practice. The course will cover topics such as Markov chains in both discrete-time and continuous-time settings, focusing on their application to experience rating; Markov process models and their applications in areas such as insurance, financial risk, survival, sickness, and marriage models; Monte Carlo methods for simulating stochastic processes; and the estimation of Markov chains. Students are expected to implement these models using R software in a numerical computing environment.
+Learning Outcomes:
+- Develop communication skills to effectively present complex actuarial models and their implications.
+- Interpret and discuss actuarial models, expressing a clear understanding of their implications.
+- Define fundamental concepts and principles of actuarial modelling, emphasizing their applicability in real-world scenarios.
+- Apply Markov Chains to develop models for frequency-based experience rating and No Claim Discount (NCD) schemes, using actual data to illustrate their effectiveness.
+- Discuss the concepts of Monte Carlo simulation of stochastic processes and implement simple simulations to address actuarial problems.
+- Identify the critical features and properties of Markov Chains and their significance in actuarial studies.
+- Classify and explain different types of stochastic processes, incorporating the main terminologies and their practical implications.
+- Employ Monte Carlo simulation techniques to solve introductory actuarial problems, highlighting the process and outcomes using pseudo-random numbers.
+- Evaluate the application of Markov processes in insurance, survival, sickness, and financial modelling, discussing their benefits and limitations.
+- Describe the primary features of Markov Processes and demonstrate their use in analyzing models related to insurance and finance.
+- Construct logically structured and professionally presented written reports detailing actuarial modelling and applications.
+- Apply maximum likelihood method to estimate transition probability and matrix of discrete-time and continuous-time Markov chains.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ACTL5104 =====
+Subject: Survival Analysis and Prediction of Life and Health Related Risks (ACTL5104)
+Credit Points: 6
+Overview: This course covers the actuarial profession syllabus for survival models, focusing on understanding and predicting mortality, morbidity, and longevity risks. It applies these techniques to life, health, and disability insurance, superannuation, finance, and epidemiology. These models help forecast risks related to events such as mortality, health changes, and credit defaults, leading to better risk quantification, pricing, and management. Key topics include: survival models and actuarial notation; Estimation of lifetime distributions; Maximum likelihood estimation of transition intensities in multi-state models, considering age and duration; graduation of crude estimates and tests for fidelity and smoothness; and models for projecting mortality trends. The course emphasizes implementing these concepts using numerical computer packages. Additionally, it will address ethical considerations and issues related to discrimination and heterogeneity in mortality and health risks.
+Learning Outcomes:
+- Devise exact and census approximation methods to estimate transition intensities dependent on age,
+- Apply estimation procedures for lifetime distributions.
+- Explain and critically appraise the ethical dimensions and implications of the modelling introduced in the course.
+- Explain the concepts of survival models.
+- Explain the Binomial and Poisson models of mortality and contrast these models with multiple state models.
+- Apply and contrast alternative graduation methods and graduation tests.
+- Apply and contrast the main methods of projecting/forecasting mortality rates.
+- Derive maximum likelihood estimators for the transition intensities of a multiple state model.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ACTL5105 =====
+Subject: Life Insurance and Superannuation (ACTL5105)
+Credit Points: 6
+Overview: This course covers the actuarial mathematics, models and techniques for valuing long-term contingent cashflows. In-depth understanding of valuation of claims is a key aspect of actuarial work, specifically in the areas of life insurance, health, disability insurance, superannuation and pensions, as well as broader financial institutions. This course combines the present value principle with various stochastic tools in pricing, reserving, cashflow projection and profit testing tasks for various products in life insurance, health and disability, and pension and superannuation space. The fundamental techniques covered in the course help insurers to adequately price and manage the risks of various contracts in life insurance and pension systems, hence allowing the creation of products to help individuals manage risks. They are also increasingly applied in broader areas including social protection and government policy.
+Learning Outcomes:
+- Apply contingent valuation concepts to practical scenarios.
+- Evaluate critically the risks associated with cash flows from contingent events.
+- Explain and apply fundamental techniques for valuing cash flows involving contingent events such as death and survival.
+- Explain the basic valuation and funding principles of superannuation benefits.
+- Evaluate critically the reasonableness of premium and policy value calculations for financial contingent products.
+- Describe and contrast the different life insurance and life annuity products available in the market.
+- Interpret and communicate life insurance and superannuation issues clearly and effectively.
+- Present orally and explain Life insurance and superannuation problems in simple terms.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ACTL5106 =====
+Subject: Insurance Risk Models (ACTL5106)
+Credit Points: 6
+Overview: This course focuses on the principles and mathematical models that describe the random quantities and processes in general insurance practice. It invovles constructing mathematical models and utilising historical data to predict futgure insurance costs and risks. Key areas of study include data analysis, loss models, reinsurance treaties, premium calculation, claims reserving, ruin theory, Bayesian inference, and credibility theory.
+Learning Outcomes:
+- Implement Generalized Linear Models (GLM) in straightforward situations.
+- Describe the classical risk model that contrasts aggregate premiums with aggregate losses.
+- Compute Bayesian premiums for losses based on historical data using model-based approaches.
+- Determine the value of reinsurance contracts using actuarial calculations.
+- Forecast the expected present value of liabilities from already incurred claims.
+- Critique and evaluate the fit of statistical models through a variety of metrics.
+- Analyze data to compute key statistics and identify suitable distributions for modeling.
+- Determine the likelihood of future losses exceeding premiums in simple scenarios.
+- Estimate distribution parameters using data, whether complete, censored, or truncated.
+- Calculate or approximate the distribution of sum losses for both fixed and random quantities.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ACTL5108 =====
+Subject: Finance and Financial Reporting for Actuaries (ACTL5108)
+Credit Points: 6
+Overview: The aim of the course is to provide the future actuary with a basic understanding of corporate finance and financial reporting. The course will cover the instruments used by companies to raise finance and manage financial risk and will develop an understanding of how to interpret the accounts and financial statements of companies and financial institutions.
+Learning Outcomes:
+- Demonstrate a knowledge and understanding of the characteristics of the principal forms of financial instrument issued or used by companies and the ways in which they may be issued
+- Interpret the accounts of a company or a group of companies and discuss the limitations of such interpretation
+- Describe the structure of a joint stock company and the different methods by which it may be financed
+- Work collaboratively to complete a task
+- Describe the basic principles of personal and corporate taxation
+- Identify and assess ethical, environmental and sustainability considerations in an actuarial context
+- Discuss the factors to be considered by a company when deciding on its capital structure and dividend policy
+- Describe the major types of financial institution operating in the financial markets
+- Demonstrate a knowledge and understanding of the principal terms in use in investment and asset management
+- Show how financial techniques can be used in the assessment of capital investment projects
+- Demonstrate an awareness of the key principles of finance
+- Present written work logically and professionally
+- Describe the basic construction of accounts of different types and the role and principal features of the accounts of a company
+- Define what is meant by a company’s cost of capital and discuss how its cost of capital interacts with the nature of the investment projects it undertakes
+- Communicate ideas in a succinct and clear manner
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ACTL5109 =====
+Subject: Financial Economics for Insurance and Superannuation (ACTL5109)
+Credit Points: 6
+Overview: The aim of this course is to introduce the mathematical and economic models of financial economics used by actuaries and to overview their application to asset-liability management. The topics are illustrated with applications to the valuation, actuarial and risk management of insurance and superannuation contracts especially those with embedded options and financial guarantees.
+Learning Outcomes:
+- Explain and apply principal asset-pricing models, including statistical, arbitrage, and equilibrium theories, tailoring their application to actuarial tasks.
+- Describe and implement quantitative risk assessment methods, integrating financial economics and actuarial science to enhance decision-making under uncertainty.
+- Employ contingent-claim pricing techniques to value and manage the risks inherent in embedded options and guarantees within financial products.
+- Outline and apply stochastic models specific to actuarial investment challenges, focusing on their strategic use in asset-liability management.
+- Develop and enhance communication to effectively articulate complex financial concepts in discussions and detailed written reports.
+- Apply the mean-variance framework to determine optimal asset allocations for insurers and pension funds, aiming for long-term investment stability.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ACTL5110 =====
+Subject: Statistical Machine Learning for Risk and Actuarial Applications (ACTL5110)
+Credit Points: 6
+Overview: This course covers the actuarial professional syllabus for data analysis and statistics for risk modelling, focusing on techniques for analysing mortality, health, and insurance data used in actuarial decision-making. The course includes exploratory data analysis, data checking and cleaning, and data visualization. Students will learn classification and prediction techniques using regression and generalized linear models, as well as descriptive, inferential, and predictive analysis models. The course will also delve into statistical and machine learning, covering both supervised and unsupervised learning methods. The course also addresses ethical, regulatory, and professional issues, along with risks and risk management associated with data analysis. Special emphasis is placed on effectively communicating technical results for business applications.
+Learning Outcomes:
+- Interpret and communicate the results and implications of statistical learning models through presentations, discussions, and written reports.
+- Assess the ethical and regulatory considerations in the use of data and analytic techniques.
+- Evaluate and contrast the performance of predictive analytics and data analytics models, identifying their benefits and limitations.
+- Apply various statistical learning models to practical scenarios.
+- Explain the key aspects of the theory and practice of predictive analytics and data analytics for insurance and financial applications.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ACTL5111 =====
+Subject: Artificial Intelligence and Deep Learning Models for Risk and Insurance (ACTL5111)
+Credit Points: 6
+Overview: This course will introduce students to Artificial Intelligence techniques, with particular focus on deep learning and applications to risk and insurance. Particular importance will be on various deep learning algorithms and how they can be combined with other actuarial techniques in order to solve business problems in insurance and risk management including in pricing, reserving, capital management, and insurance business processes improvements. Ethical considerations of AI models will also be discussed. Students will be expected to understand the deep learning algorithms considered, their relationship with other actuarial techniques, as well as be able to fit and evaluate various deep learning models for actuarial applications using appropriate software.
+Learning Outcomes:
+- Implement deep neural networks using deep learning software and real-world datasets.
+- Communicate and appraise critically results from deep learning algorithms and AI systems through effective discussions, presentations, and written reports.
+- Explain the key features of various deep neural networks, highlighting their applications, differences, and limitations in actuarial studies and insurance tasks.
+- Identify and analyse the ethical considerations in data collection, design, and implementation of AI and deep learning models for actuarial and insurance applications.
+- Develop models that combine deep neural networks with other actuarial techniques to solve problems in insurance business, including pricing, reserving, and capital management.
+- Explain the core aspects of artificial intelligence techniques and their applications in insurance business processes.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ACTL5200 =====
+Subject: Actuarial Theory and Practice B (ACTL5200)
+Credit Points: 6
+Overview: This course, along with ACTL5100, aligns with the Actuarial Control Cycle in the Actuary Program of the Actuaries Institute. It explores the theory and practice fundamental to the actuarial management of risk-based and other financial institution products. The course utilizes examples from actuarial practice and addresses implications for life insurance, general insurance, superannuation, asset-liability management, and other areas where actuaries engage in product design, pricing, reserving, investment, and surplus management. Emphasis is placed on recent developments in actuarial theory and practice.
+Learning Outcomes:
+- Monitor, assess, and interpret experience studies to inform actuarial assumptions and business decisions
+- Record and reflect on your contribution to teamwork
+- Apply a risk assessment framework to identify and assess the risks in a range of commercial situations
+- Recognise the importance of capital
+- Evaluate and apply appropriate models to address real-world client problems
+- Measure and report emerging profits and/or costs
+- Discuss and apply the actuarial control cycle in a variety of practical commercial situations
+- Apply relevant approaches and techniques to the valuation of liabilities
+- Measure, report and manage solvency
+- Articulate well-reasoned viewpoints concisely in oral and written communication
+- Identify ways in which you can contribute to the financial sector’s social purpose
+- Identify the key components of enterprise risk management and explain its role in organisational management
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ACTL5301 =====
+Subject: Quantitative Risk Management Techniques (ACTL5301)
+Credit Points: 6
+Overview: Recent occurrences of significant losses in the financial and insurance markets associated with catastrophic events such as heatwaves, floods, cyclones, bushfires, and earthquakes have intensified the need for a systematic approach to modelling, measuring, and managing catastrophe risks. Culprits behind catastrophe risks include frequency, severity, and dependence. This course introduces students to advanced statistical and actuarial models for a variety of risks in financial institutions such as banks, insurance/reinsurance companies, and superannuation funds. Traditional and newly emerging risks encountered therein will be studied, with a special focus on extreme losses, extreme dependence, and loss aggregation over time. Topics covered include: risk measures; multivariate models; copulas and dependence; financial time series; extreme value theory; market credit and operational risk. Students will be implementing the models using computer software.
+Learning Outcomes:
+- Develop and refine skills in presenting, discussing, and writing about risk-modeling concepts, ensuring clarity and effectiveness in communicating quantitative risk management.
+- Systematically search, identify, and review recent research on quantitative risk modeling to stay updated with cutting-edge advances.
+- Estimate using diverse models and implement these models in real-world applications, demonstrating their practical use.
+- Critically assess various models used in risk management, identifying their benefits and limitations to enhance their practical applications.
+- Conduct a comprehensive review of advanced risk models to enhance understanding of complex modeling techniques.
+- Identify both theoretical and practical aspects of quantitative risk modeling as applied to insurance and financial risks.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ACTL5305 =====
+Subject: Actuarial Data Science Applications (ACTL5305)
+Credit Points: 6
+Overview: This course covers the actuarial professional associateship syllabus for the actuarial data science principles. It combines data analytics and modelling concepts with the practical applications of modern analytical tools and techniques, as well as their actuarial applications. This course covers the key iterative steps involved in building a model - business understanding, data understanding and preparation, modelling, evaluation, communication and deployment. Particular focus will be on the selection of appropriate predictive modelling techniques for a stated situation and how to evaluate the suitability of a model, taking into account business context and objectives, as well as on the communication of modelling results to a range of business decision making audiences.
+Learning Outcomes:
+- Evaluate critically the appropriateness of predictive analytics models in practice, emphasising business understanding.
+- Discuss and identify the ethical considerations in data science and algorithm development.
+- Communicate effectively and appraise critically the modelling results through presentations, discussions, and written reports.
+- Explain the features and recognise the limitations of predictive analytics techniques and apply each technique in practice.
+- Explain the key iterative steps involved in building a model, including business understanding, data understanding and preparation, modelling, evaluation, communication, and deployment.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/COMM5501 =====
+Subject: Data Visualisation and Communication (COMM5501)
+Credit Points: 6
+Overview: How can data help you tell a story? How can you use data storytelling to then tackle some of the big challenges we are facing around the world? Data visualisation and communication are critical skills in many professions. The creation of targeted, easily digestible visuals allows us to make sense of complex information in an accessible and easily understandable way. The ability to employ visuals will enhance almost any presentation to better engage our audience, make our messages more memorable, and facilitate more effective decision-making. In this course, we will give you the tools to create your own data story addressing a pressing and current global challenge as identified by the UN SDGs. You will learn how to design your story for your chosen audience, how to criticise misrepresentations of data (especially the intentional ones), and drive action to address your chosen challenge. So, how will you leave the world a better place?
+Learning Outcomes:
+- Produce appropriate high quality data visualisations using a variety of software packages and techniques
+- Communicate data insights effectively to a variety of audiences
+- Apply data storytelling techniques to a range of business and societal problems
+- Critically evaluate and interpret data graphics
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/RISK5001 =====
+Subject: Fundamentals of Risk and Risk Management (RISK5001)
+Credit Points: 6
+Overview: This course aims to introduce students to the complex and diverse range of risks that indivduals and organizations must manage in today's fast-changing global environment, as well as the fundamental principles, frameworks and practices of risk management. The course discusses the complex nature of the words 'uncertainty' and 'risk', and how their many definitions and interpretations impact risk management. The course covers aspects of risk management including why individuals and organizations must manage risks; the identification, classification and measurement of risks; the fundamental principles and frameworks for risk management; the tools and techniques used in the risk management process; the important role of risk culture and communication in managing enterprise risks; and current issues in risk management.
+Learning Outcomes:
+- Describe and analyse the risks facing individuals and institutions.
+- Use and critically assess the standard approaches to enterprise risk management.
+- Explain and evaluate how these risks affect individuals and institutions, and the main approaches to measure and manage these risks.
+- Explain and assess the basic principles and frameworks of risk management and the role of the insurance industry.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/RISK5002 =====
+Subject: Risk Analytics (RISK5002)
+Credit Points: 6
+Overview: This course covers risk analytics tools and techniques that individuals and organisations can use to manage a wide range of risks, including strategic, operational, environmental, health and safety, engineering reliability and cyber risks. Based on the ISO 31000 and IEC/ISO 31010 international standards for risk management, this course introduces analytics tools and techniques to measure, quantify and analyse risks. The course focuses on the application of these tools to risk assessment, which is a key component of the risk management process. Emphasis is placed on the practical applications of these approaches using qualitative, semi-quantitative and quantitative tools and techniques, including Scenario Methods, Risk Maps, Cybersecurity Risk Assessment, Human Reliability Analysis, Environmental Risk Assessment, and approaches to dealing with extremes.
+Learning Outcomes:
+- Understand the main types of risks faced by financial institutions and banks, and realise that many of the ideas and approaches are equally applicable to non-financial corporations
+- Develop an understanding of the need for quantification and practical issues in quantifying risks relevant for the operating environment of the corporation
+- Locate and evaluate the research literature on current developments in risk management strategies, for example stress testing and liquidity risks are receiving more attention
+- Present and discuss simulation based approaches to analyse risks in complex systems
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/RISK5003 =====
+Subject: Risk Decision Analytics (RISK5003)
+Credit Points: 6
+Overview: Risk Decisions provide a systematic, quantitative, and visual approach to addressing and evaluating important choices confronted by decision makers. They enable individuals and organisations to make better decisions by using a variety of Decision Analysis tools. This course introduces Decision Analysis procedures, techniques, and tools which enable individuals and organisations to make better decisions by assessing all relevant information and evaluating decision outcomes to aid in the decision-making process. It focuses on the application of these structured approaches to develop solutions to decision problems involving uncertainty and multiple objectives. The course covers Decision Analysis tools used to model decisions, uncertainty, and preferences, including Decision Trees, Influence Diagrams, Sensitivity Analysis, Bayesian Networks, and Monte Carlo Simulation. It also covers the Decision Analysis approaches to incorporating risk attitudes in decision making and using Multi-criteria Decision Analysis.
+Learning Outcomes:
+- Identify, research and analyse complex issues and problems in business and/or management, and propose appropriate and well-justified solutions.
+- Produce oral presentations that communicate complex ideas and information in a succinct and clear manner
+- Identify and apply current knowledge of disciplinary of interdisciplinary theory and profession practice to business in local and global environments.
+- Produce written documents that communicate complex ideas and information effectively for the intended audience and purpose.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/RISK5005 =====
+Subject: Climate Change and Business Risk Management (RISK5005)
+Credit Points: 6
+Overview: This course introduces techniques and methods for analysing climate change risk affecting various organisations. The course touches on a variety of risks likely to emerge due to climate change, such as physical, legal, transitional, and financial risks. Scenarios for transitioning towards a net zero economy as well as getting a better understanding of existing international guidelines and frameworks to strengthen resilience against the downfalls of climate change will also be introduced.
+Learning Outcomes:
+- Describe different types of risks associated with climate change.
+- Apply adequate techniques and methods for analysing climate change and climate risks affecting various organisations.
+- Collaborate effectively in teams, reflect on team dynamics, and evaluate the team's ability to deliver insights and achieve project outcomes."
+- Outline effective strategies for transitioning towards a net zero economy.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/RISK5009 =====
+Subject: Risk Management Strategies (RISK5009)
+Credit Points: 6
+Overview: Navigating the volatile world of financial markets demands a precise and efficient risk assessment framework. This course empowers the participants with various risk measurement techniques which are commonly employed by financial industry professionals. Topics include the foundational concepts for risk analysis, such as probability distributions, statistical inference, linear regression, time series analysis, and risk modelling techniques. Furthermore, key measurement methodologies, such as VaR, expected shortfall, parametric and non-parametric estimation, default likelihood, credit VaR, expected and unexpected loss for various risks will be introduced.
+Learning Outcomes:
+- Apply a range of quantitative methods to measure various risks
+- Explain the advantages and disadvantage of the measurement approaches
+- Understand the foundational statistical concepts for risk analysis
+- Connect theoretical concepts with real-world risk modelling applications
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/research/courses/2026/RISK5110 =====
+Subject: Generative AI for Risk Management (RISK5110)
+Credit Points: 6
+Overview: This course positions generative artificial intelligence (GenAI) as a transformative tool for identifying, assessing and mitigating risks across financial services and related sectors. Through research-infused seminars, hands-on labs and real-world case studies, students will learn to: integrate GenAI into enterprise risk management frameworks; apply stochastic and simulation techniques to quantify uncertainty in model outputs; generate synthetic risk scenarios for stress-testing and capital planning; and design responsible prompt-engineering workflows. Ethical, governance and regulatory considerations—including transparency, bias mitigation and auditability—are embedded throughout. Graduates will be equipped to lead the responsible adoption of GenAI in high-stakes risk management environments.
+Learning Outcomes:
+- Develop responsible prompt-engineering pipelines tailored to risk-management use cases, balancing model performance with compliance requirements.
+- Critically assess emerging research and tools in generative AI for risk applications, synthesising findings to inform best practices.
+- Evaluate and mitigate ethical, governance, and regulatory risks in GenAI workflows, ensuring transparency, bias control, and auditability.
+- Design and execute stochastic simulations and synthetic scenario generators to quantify tail risks and stress-test exposures.
+- Integrate generative AI techniques into end-to-end enterprise risk-management frameworks, from risk identification to monitoring
+- Communicate complex GenAI-driven risk analyses effectively in professional reports and executive presentations for both technical and non-technical audiences.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+

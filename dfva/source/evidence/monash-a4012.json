@@ -1,0 +1,102 @@
+{
+  "code": "monash-a4012",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+      "evidenceLines": [
+        "Analyse how individual and collective agency is exercised to advocate for and organise for change in various ways;",
+        "identify, assess, and apply gender analysis methods, tools and frameworks commonly used in development practice;",
+        "Complex political, economic, cultural and ecological challenges contribute to extreme poverty, reduced health, environmental vulnerability and fragile governance affecting the well-being of millions of people worldwide."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+      "evidenceLines": [
+        "Develop and apply reflexive thinking that can be applied to a wide variety of professional environments.",
+        "Develop an understanding of strategies to work with policymakers when pursuing policy or legislative change pertaining to gender equality;",
+        "The Graduate Certificate of International Development Practice is a multi-disciplinary degree designed for emerging professionals and those wishing to enhance their careers through a foundation understanding of the theory and practice of sustainable development."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+      "evidenceLines": [
+        "Subject: Gender and development (APG5045)",
+        "Subject: Conflict, security and development (APG5073)",
+        "identify and explain theories and concepts on gender and gender relations as they pertain to development practice;"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+      "evidenceLines": [
+        "Learning portfolio: 60% (Hurdle: None)",
+        "Research project: 40% (Hurdle: None)",
+        "The degree builds essential skills in critical thinking, writing and presentation in multicultural settings designed to enhance learning success and career capabilities."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+      "evidenceLines": [
+        "Subject: Policy analysis (APG5103)",
+        "Subject: Evaluation (APG5129)",
+        "effectively communicate complex ideas about conflict, security and development."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+      "evidenceLines": [
+        "analyse some of the causes of armed conflict and assess ways in which conflict can be prevented, managed and resolved;",
+        "Complex political, economic, cultural and ecological challenges contribute to extreme poverty, reduced health, environmental vulnerability and fragile governance affecting the well-being of millions of people worldwide.",
+        "The Graduate Certificate of International Development Practice is a multi-disciplinary degree designed for emerging professionals and those wishing to enhance their careers through a foundation understanding of the theory and practice of sustainable development."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+      "evidenceLines": [
+        "identify and explain the security and development challenges facing conflict-affected environments, and how they can be addressed;",
+        "Subject: Principles and practices for disaster management,  humanitarian action and climate change adaptation (APG5140)",
+        "The degree builds essential skills in critical thinking, writing and presentation in multicultural settings designed to enhance learning success and career capabilities."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "You must complete APG5628 and a further 18 credit points (three units) from the remaining units:",
+        "Complex political, economic, cultural and ecological challenges contribute to extreme poverty, reduced health, environmental vulnerability and fragile governance affecting the well-being of millions of people worldwide."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate of International Development Practice.",
+        "evidenceLines": [
+          "You must complete APG5628 and a further 18 credit points (three units) from the remaining units:",
+          "24 credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+        "evidenceLines": [
+          "Subject: Gender and development (APG5045)",
+          "Analyse how individual and collective agency is exercised to advocate for and organise for change in various ways;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

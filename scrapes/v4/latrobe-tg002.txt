@@ -1,0 +1,216 @@
+===== SOURCE: https://handbook.latrobe.edu.au/courses/2026/TG002 =====
+## Graduate Diploma in Cybersecurity  - Melbourne (Bundoora)
+##### TG002
+##### 120 credit points
+You are viewing the 2026 version
+
+### Overview
+The Graduate Diploma in Cybersecurity allows you to study from anywhere and have the flexibility to accommodate your work and life commitments.
+
+Some of the specialised subjects chosen for this course include ‘Inside the Mind of a Hacker’, where you’ll learn the psychology behind cybercrime so you can prepare defensively, ‘Programming Skills’, where you’ll learn to program securely for the future, and ‘Database Skills’ where you’ll learn future cyber analytics.
+
+You may be eligible to continue into the Master of Cybersecurity upon completion of this Graduate Diploma. The Master of Cybersecurity provides industry-based learning, so you’ll get the skills employers need.
+
+You'll learn:
+
+  * Cybersecurity fundamentals  * Explore the aims, methods, and outcomes of cybersecurity practice.
+
+  * Cyber risk management  * Cyber risk management based on business strategy and risk appetite.
+
+  * The mindset and motivation of hackers  * Cybersecurity is about people as much as technology. Understanding what drives cybercriminals helps you create strategies to defend against them.
+
+  * Cyber analytics  * Analyse and design cybersecurity algorithms using a visual modelling language such as Python.
+
+### Location(s)
+Melbourne (Bundoora)
+### CRICOS code
+116915D
+### Course duration (full time)
+1 year
+### Study level
+Postgraduate
+### AQF level
+Level 8 - Graduate Diploma
+### Available only as an exit award
+Yes
+
+### Completion requirements
+To qualify for the award of Graduate Diploma in Cybersecurity, students must complete 120 credit points consisting of:
+
+90 core credit points
+
+30 prescribed elective credit points
+
+### Course structure
+120 credit points
+**Level one** **120 credit points**
+  **Prescribed electives** **30 credit points**
+  Students to select subjects to the value of 30 credit points from the prescribed elective list below.
+    [ _arrow_forward_ CSE5CSG CYBERSECURITY GOVERNANCE ](https://handbook.latrobe.edu.au/subjects/2026/CSE5CSG)
+    [ _arrow_forward_ CSE5CRM CYBER RISK MANAGEMENT AND COMPLIANCE ](https://handbook.latrobe.edu.au/subjects/2026/CSE5CRM)
+    [ _arrow_forward_ CSE5CFN COMPUTER FORENSICS ](https://handbook.latrobe.edu.au/subjects/2026/CSE5CFN)
+    [ _arrow_forward_ CSE5PEN PENETRATION TESTING PRINCIPLES ](https://handbook.latrobe.edu.au/subjects/2026/CSE5PEN)
+  **Core** **90 credit points**
+    [ _arrow_forward_ LTU0AIM ACADEMIC INTEGRITY MODULE ](https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM)
+    [ _arrow_forward_ CSE5010 INSIDE THE MIND OF A HACKER ](https://handbook.latrobe.edu.au/subjects/2026/CSE5010)
+    [ _arrow_forward_ CSE4004 CYBER SECURITY PRINCIPLES ](https://handbook.latrobe.edu.au/subjects/2026/CSE4004)
+    [ _arrow_forward_ CSE4001 NETWORK ENGINEERING FUNDAMENTALS ](https://handbook.latrobe.edu.au/subjects/2026/CSE4001)
+    [ _arrow_forward_ CSE4DBF DATABASE FUNDAMENTALS ](https://handbook.latrobe.edu.au/subjects/2026/CSE4DBF)
+    [ _arrow_forward_ CSE4IP INTRODUCTION TO PROGRAMMING ](https://handbook.latrobe.edu.au/subjects/2026/CSE4IP)
+    [ _arrow_forward_ CSE4IFU INFORMATION TECHNOLOGY FUNDAMENTALS ](https://handbook.latrobe.edu.au/subjects/2026/CSE4IFU)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+Apply IT principles and technical concepts to identify and resolve cybersecurity problems.
+**2.**
+Evaluate solutions to cybersecurity problems.
+**3.**
+Apply awareness of contemporary social and ethical issues to professional decision-making in cybersecurity.
+**4.**
+Demonstrate comprehensive understanding of the fundamental issues and techniques in information technology.
+**5.**
+Test and adapt theories in cybersecurity using research that involves the mindsets and motivations of cyber-criminals.
+
+### Course features
+### Career outcomes
+Each year, cybersecurity becomes more important in all industries, such as healthcare, finance, public administration, and telecommunications. Graduates can use their cybersecurity skills to help keep online spheres secure. Graduates may also be qualified for cybersecurity positions including:
+
+  * Database and systems administrators & ICT security 
+  * Support databases with preventative maintenance and ongoing site surveyance.  
+
+  * ICT security specialist
+  * Implement disaster recovery planning and maintain software security.
+
+  * Compliance assurance administration
+  * Support cybersecurity and privacy assurance.
+
+  * Cybersecurity consultant
+  * Play both the attacker and the defender to optimise computer systems, networks and software programs.
+
+  * Cyber risk helpdesk
+  * Provide desk service support and incident management.
+
+  * Cyber risk manager
+  * Manage risk across operating systems, network infrastructure, software applications, web servers and databases. Provide actionable recommendations to mitigate risk.
+
+  * Cyber intelligence operations
+  * Provide support to IT cyber operations in the areas of software, databases and networking.
+
+### Internal course relationships
+
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4001 =====
+Subject: NETWORK ENGINEERING FUNDAMENTALS (CSE4001)
+Credit Points: 15
+Overview: This subject offers an in-depth study of modern computer networking, emphasising analytical understanding and application in complex environments. It extends foundational knowledge by critically examining the OSI reference model and major protocol families, highlighting their role in enabling scalable and interoperable communication. Students will examine how data moves across different network environments, exploring core IPv4 (Internet Protocol) addressing, basic subnetting, and routing concepts. Hands -on activities include configuring, testing, and troubleshooting network devices, as well as applying static routing to support simple network layouts.
+Learning Outcomes:
+- Employ professional skills to debug and troubleshoot errors in different LAN sizes using different methodologies.
+- Generate a documentation for different computer networks by the application of well-developed knowledge and skill
+- Analyse and compare the operation and performance of various network protocols
+- Design appropriate addressing schemes to solve problems across different network sizes using different approaches
+- Construct, design and implement different Local Area Networks (LAN) sizes
+- Configure and test state-of-the-art industry networking devices that meet network requirements and achieve optimal performance
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4004 =====
+Subject: CYBER SECURITY PRINCIPLES (CSE4004)
+Credit Points: 15
+Overview: In the Internet era, industries and organisations need to be aware of, and be prepared to defend against threats and attacks. Stakeholders should be familiar with the basic principles and best practices of cyber security to better protect their businesses. In this subject, the principles, the state of the art, and strategies for the future of cyber security is explored thoroughly. The topics will focus on information security, ethical and legal practices, mitigating cyber vulnerabilities, and the process of incident response and analysis. The outline of the subject is targeted at ensuring the privacy, reliability, confidentiality and integrity of information systems. Cyber security is a very broad discipline, and therefore, this subject is only intended to cover the basics of the recent state of the art and leading cyber security topics.
+Learning Outcomes:
+- Analyse approaches to security networks, firewalls, intrusion detection systems and intrusion prevention systems
+- Appraise key terms and concepts in cyber security, cyber law, intellectual property and cyber crime
+- Formulate approaches for incident analysis, risk management in cyber space and incident response
+- Analyse various software design practices and principles of web security
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4DBF =====
+Subject: DATABASE FUNDAMENTALS (CSE4DBF)
+Credit Points: 15
+Overview: This subject starts with an overview of the architecture and management of database systems, and a discussion of different existing database models. The main focus includes relational database analysis, design, and implementation. The students learn: relational algebra as the formal foundation of relational databases; relational conceptual design using an entity-relationship diagram; relational logical database design; security and integrity; and SQL implementation of relational database queries. Students will also learn advanced normalization theory and the techniques to remove data anomalies and redundancies. In this subject, students are required to design a database application that meets the needs of a system requirement specification, and to implement the system using a commercial standard database system such as ORACLE.
+Learning Outcomes:
+- Evaluate database design in terms of data anomalies and redundancies by applying the appropriate normalization techniques.
+- Design a relational database using an ER or EER diagram, and use a transformation process to change the ER or EER diagram to a relational database design
+- Evaluate the possible risks and ethical and social considerations relevant to designed systems.
+- Explain the underlying model of relational database operations using relational algebra.
+- Implement database systems using SQL and advanced PL/SQL including stored procedures and triggers.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4IFU =====
+Subject: INFORMATION TECHNOLOGY FUNDAMENTALS (CSE4IFU)
+Credit Points: 15
+Overview: In this subject, you will learn computer system organization and its associated topics. It covers the hardware components of the computer, data storage and retrieval, and introduces system software, computer networks, data communications, the Internet, operating systems, file management systems and security. You will also be introduced to information systems and application software packages.
+Learning Outcomes:
+- Design and construct basic web pages using HTML and style sheets based on specific requirements.
+- Critically examine simple problems and develop spreadsheets to model these problems.
+- Differentiate between main types of computer networks and explain the purpose of major network components including any advantages and disadvantages of different data communication media.
+- Identify and critically evaluate functions of the main hardware components of computers.
+- Analyse and evaluate the requirements and functionality of different types of software.
+- Develop and interpret simple database tables, queries and reports based on specific requirements.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE5010 =====
+Subject: INSIDE THE MIND OF A HACKER (CSE5010)
+Credit Points: 15
+Overview: This subject explores the motivations, mindset and techniques used by hackers. Although their activities are illicit and illegal, hackers have a finely attuned understanding of computer networks and systems and how users/customers behave in online environments. If nothing else, they have developed new - albeit illegal and unethical business models that exploit vulnerabilities in computer networks and systems. By looking at systems and practices through the eyes of a hacker, you can better identify weaknesses, emerging threats and develop more effective defences.
+Learning Outcomes:
+- Recommend processes and practices to reduce the likelihood of data breaches
+- Deconstruct and critically analyze the profit models, value chain, and standard business security practices from the viewpoint of a hacker.
+- Critically analyse the various tactics that hackers use in breaching communication networks.
+- Critically analyse typologies of hackers, their mindsets and the motivations behind hacking.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE5CFN =====
+Subject: COMPUTER FORENSICS (CSE5CFN)
+Credit Points: 15
+Overview: This subject introduces students to the procedures related to computer forensics and digital investigations including formal case management and evidential best practices. The subject will start with an overview of operating system architectures, data structures and file systems. Students will explore the key principles associated with digital forensic processes, data hiding, evidence collection and validation required to perform forensic analysis. The subject will also cover how to conduct technical forensic processes that comply with legal requirements and documentation for forensic evidence, and the use of practical forensic tools.
+Learning Outcomes:
+- Demonstrate an understanding of the different forensics tools and techniques used on varying types of hardware, when gathering and analysing digital evidence
+- Describe and orally present computer architectures and key concepts associated with data structures, evidence collection and validation.
+- Create investigative procedures to perform forensic Investigations of different types of digital systems
+- Apply legally-compliant processes and procedures for forensically gathering and analysing digital evidence, and presentation of findings.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE5CRM =====
+Subject: CYBER RISK MANAGEMENT AND COMPLIANCE (CSE5CRM)
+Credit Points: 15
+Overview: This subject introduces students to a range of cybersecurity incidents and data/privacy breaches and examines how organisations manage them in relation to the risks they pose. It invites students to investigate real-world incidents and apply various techniques for identifying, assessing, and mitigating risks. The subject develops practical skills by following ISO and NIST frameworks in creating incident response plans and playbooks, business continuity and crisis communication plans, and conducting post-incident reviews.
+Learning Outcomes:
+- Apply cost-effective methods and other controls for managing cyber risks.
+- Design and develop playbooks tailored to specific types of cyber incidents.
+- Construct a business continuity plan to enhance organisational resilience during and after cyber incidents.
+- Analyse different risk management strategies and incident response approaches across various cybersecurity incidents and breaches, with consideration of teamwork and collaborative problem-solving.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE5CSG =====
+Subject: CYBERSECURITY GOVERNANCE (CSE5CSG)
+Credit Points: 15
+Overview: This subject introduces students to common cyber technologies, methods for assessing cybersecurity maturity, and organisational technical and legal requirements. It guides students in developing cybersecurity policies aligned with international standards and frameworks (e.g., COBIT, NIST- CSF, ISO/IEC) to manage and govern cybersecurity programs, along with implementing organisation-specific compliance strategies. The subject builds practical skills in designing and evaluating cybersecurity programs and governance frameworks aligned with business objectives, using metrics and assessment tools.
+Learning Outcomes:
+- Design organisation-specific governance and management frameworks to enhance cybersecurity maturity and posture.
+- Evaluate the effectiveness of cybersecurity controls, governance, and management frameworks using metrics and KPIs.
+- Apply governance and management frameworks to develop and communicate cybersecurity policies aligned with organisational objectives.
+- Analyse technical, legal, and business requirements for organisations to inform the development of a cybersecurity programs and governance frameworks for organisation.
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE5PEN =====
+Subject: PENETRATION TESTING PRINCIPLES (CSE5PEN)
+Credit Points: 15
+Overview: Penetration testing involves assessment of organisational vulnerabilities through the design and execution of technical system tests. This subject introduces students to the principles and processes involved in system penetration testing. It examines common software tools used in a penetration testing exercise. Students will learn various types of penetration testing and their phases, and the interpretation of results from commonly used penetration testing tools. Students will learn of the value of penetration testing for businesses and organisations, and how to use testing results to report on, and to improve, an organisation's security resilience.
+Learning Outcomes:
+- Synthesise a range of penetration testing methodologies to identify vulnerabilities and reduce risk.
+- Apply simple penetration test methods and produce client reports, explaining key findings to diverse audiences.
+- Evaluate the results of penetration testing in phases in a range of contexts and systems to make recommendations
+- Analyse appropriate tools, techniques, and legal and ethical obligations used in penetration testing
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM =====
+Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)
+Credit Points: 0
+Overview: The academic integrity module introduces academic integrity standards to inform and support students in avoiding plagiarism and academic misconduct. Students complete four parts that encompass academic misconduct and academic integrity decisions, including cheating, plagiarism, and collusion. Students learn about Turnitin (the text-matching tool) used at La Trobe University, and how to get help and support their development of referencing skills.
+Learning Outcomes:
+- Understand the importance of the acknowledgment and the referencing of sources
+- Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.
+- Recognise and understand academic integrity responsibilities.
+Workload: 
+

@@ -1,0 +1,151 @@
+===== SOURCE: https://handbook.latrobe.edu.au/courses/2026/SGDS =====
+## Graduate Diploma in Data Science - Melbourne (Bundoora)
+##### SGDS
+##### 120 credit points
+You are viewing the 2026 version
+
+### Overview
+We've carefully designed our Graduate Diploma of Data Science to give you a solid foundation in computer science, statistics and applied data analysis. You’ll learn using real data sets from our industry partners, so you can be sure you’re learning up-to-date skills. 
+ 
+You'll get practical experience with open-source software and platforms, including Python, R, and Hadoop.  
+ 
+You’ll learn:   * Database fundamentals  * Delve into how databases function across both hardware and software systems. Learn how data storage and retrieval, communications, networking, security and information systems are critical to our everyday lives. 
+
+  * Programming languages  * Learn how to design and implement software solutions using a range of popular programming languages such as Java and Python, and cloud-based services offered by Amazon, Google, IBM and Microsoft. 
+
+  * Mathematics and statistics to solve data science problems  * Complex data analysis develop your evaluation and numeracy skills through interactive learning that covers data gathering, turning data into information, probability, and how to use data to drive critical business decisions.
+
+  * Complex data analysis   * Develop your ability to interpret and analyse data through interactive learning that covers data gathering, turning data into information, and how to use data to drive critical business decisions.
+
+### Location(s)
+Melbourne (Bundoora)
+### CRICOS code
+092397A
+### Course duration (full time)
+1 year
+### Study level
+Postgraduate
+### AQF level
+Level 8 - Graduate Diploma
+### Available only as an exit award
+Yes
+
+### Completion requirements
+To qualify for the award of Graduate Diploma in Data Science, students must complete 120 credit points as follows:
+
+75 core credit points
+
+45 elective credit points
+
+### Course structure
+120 credit points
+**Level one** **120 credit points**
+  **Electives** **15 credit points**
+  **Electives** **30 credit points**
+  **Core** **75 credit points**
+    [ _arrow_forward_ CSE4DBF DATABASE FUNDAMENTALS ](https://handbook.latrobe.edu.au/subjects/2026/CSE4DBF)
+    [ _arrow_forward_ CSE5DEV DATA EXPLORATION AND ANALYSIS ](https://handbook.latrobe.edu.au/subjects/2026/CSE5DEV)
+    [ _arrow_forward_ MAT4MDS MATHEMATICS FOR DATA SCIENCE ](https://handbook.latrobe.edu.au/subjects/2026/MAT4MDS)
+    [ _arrow_forward_ STM4PSD PROBABILITY AND STATISTICS FOR DATA SCIENCE ](https://handbook.latrobe.edu.au/subjects/2026/STM4PSD)
+    [ _arrow_forward_ CSE4IP INTRODUCTION TO PROGRAMMING ](https://handbook.latrobe.edu.au/subjects/2026/CSE4IP)
+    [ _arrow_forward_ LTU0AIM ACADEMIC INTEGRITY MODULE ](https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+Critically analyse and solve complex problems in data science by using expert judgement, advanced knowledge and multi-disciplinary approaches
+**2.**
+Use advanced computing techniques and mathematical and statistical approaches to solve complex scientific problems in the field of data science
+**3.**
+Use a broad range of established and emerging data collection and analysis technologies and methodologies related to specialisations
+**4.**
+Evaluate, communicate and interpret information and results of advanced analysis in the field of data science to expert and lay audiences
+
+### Course features
+### Career outcomes
+With organisations seeking to understand the massive amounts of data now at their disposal, the need for data professionals is at an all-time high. As a graduate, you can expect to find work as a:
+
+  * Data scientist
+  * Understand complex data and leverage it to the advantage of businesses and organisations.
+
+  * Business analyst
+  * Understand how businesses run and use data to solve problems and improve processes.
+
+  * Health analyst
+  * Gather, analyse and verify healthcare information.
+
+  * Bioinformatician
+  * Develop methods of research and analysis for understanding and leveraging biological and genomic data.
+
+  * Machine learning engineer
+  * Use your detailed understanding of machine learning, big data, cloud technology and mathematics to create effective machine learning solutions.
+
+  * Business intelligence analyst
+  * Design, script and build business intelligence solutions to inform how businesses operate.
+
+### Internal course relationships
+
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4DBF =====
+Subject: DATABASE FUNDAMENTALS (CSE4DBF)
+Credit Points: 15
+Overview: This subject starts with an overview of the architecture and management of database systems, and a discussion of different existing database models. The main focus includes relational database analysis, design, and implementation. The students learn: relational algebra as the formal foundation of relational databases; relational conceptual design using an entity-relationship diagram; relational logical database design; security and integrity; and SQL implementation of relational database queries. Students will also learn advanced normalization theory and the techniques to remove data anomalies and redundancies. In this subject, students are required to design a database application that meets the needs of a system requirement specification, and to implement the system using a commercial standard database system such as ORACLE.
+Learning Outcomes:
+- Evaluate database design in terms of data anomalies and redundancies by applying the appropriate normalization techniques.
+- Design a relational database using an ER or EER diagram, and use a transformation process to change the ER or EER diagram to a relational database design
+- Evaluate the possible risks and ethical and social considerations relevant to designed systems.
+- Explain the underlying model of relational database operations using relational algebra.
+- Implement database systems using SQL and advanced PL/SQL including stored procedures and triggers.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE5DEV =====
+Subject: DATA EXPLORATION AND ANALYSIS (CSE5DEV)
+Credit Points: 15
+Overview: In this subject you will be provided with specialist knowledge and tools required to formulate solutions to complex data problems encountered by data scientists. You will learn various data exploration techniques and analysis tools. Selected topics include data cleaning, data normalisation, data visualisation and data exploration. One or more applications associated with each problem will also be discussed. You will learn the fundamentals of exploratory data analysis techniques, statistical learning, and correlation analysis to solve these problems. You will also learn to implement data exploration methods and analysis tools using the R programming language.
+Learning Outcomes:
+- Critically evaluate the performance of data exploration and data analysis techniques.
+- Develop comprehensive data reduction and data cleaning techniques for application to dimensionality problems.
+- Formulate comprehensive solutions to data science problems
+- Effectively construct data analytics tools for application to complex data sets.
+- Investigate and critically analyse common problems encountered by data scientists in practice.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM =====
+Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)
+Credit Points: 0
+Overview: The academic integrity module introduces academic integrity standards to inform and support students in avoiding plagiarism and academic misconduct. Students complete four parts that encompass academic misconduct and academic integrity decisions, including cheating, plagiarism, and collusion. Students learn about Turnitin (the text-matching tool) used at La Trobe University, and how to get help and support their development of referencing skills.
+Learning Outcomes:
+- Understand the importance of the acknowledgment and the referencing of sources
+- Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.
+- Recognise and understand academic integrity responsibilities.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/MAT4MDS =====
+Subject: MATHEMATICS FOR DATA SCIENCE (MAT4MDS)
+Credit Points: 15
+Overview: Important mathematical ideas which underpin the theory and techniques of data science are introduced and consolidated in this subject. Matrices are used to store and work with quantitative information, and the methods of calculus are used to find extreme values and accumulation. The Gamma and Beta functions are introduced, as are eigenvalues, eigenvectors and the rank of a matrix. Emphasis is placed on the relevance of the mathematics to data science applications (such as least squares estimators and calculation of variance in data), and on the development of clear communication in explaining technical ideas. This is a foundational subject for the Master of Data Science.
+Learning Outcomes:
+- Apply mathematical skills to analysis of data science literature.
+- Perform mathematical calculations relevant to data science fluently and accurately.
+- Creatively apply mathematical techniques to unfamiliar problems.
+- Present mathematical thinking in written form in a meaningful and succinct way using both words and mathematical notation.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/STM4PSD =====
+Subject: PROBABILITY AND STATISTICS FOR DATA SCIENCE (STM4PSD)
+Credit Points: 15
+Overview: This subject develops an understanding of probability and statistics applied to Data Science. Probability topics include joint and conditional probability, Bayes' Theorem and distributions such as the uniform, binomial, Poisson and normal distributions as well as properties of random variables and the Central Limit Theorem. Statistical inference and data analysis is also considered covering, among other topics, significance testing and confidence intervals with an introduction to methods such as ANOVA, linear and nonlinear regression and model verification. Applications to data science are considered and students will be exposed to the R statistical package as well as the mathematical type-setting package LaTeX.
+Learning Outcomes:
+- Demonstrate an ability to solve a variety of Data Science problems using applications of probability models.
+- Define a statistical hypothesis with applications to Data Science that may be tested using data.
+- Identify probabilistic traits of data science problems and choose methods which can be employed to determine valid and informative solutions.
+- Present clear, well-structured summaries of findings, both probabilistic and data-based, using appropriate mathematical and statistical vocabulary.
+- Identify and apply statistical methods for hypothesis testing and estimation with applications in Data Science.
+- Defend or question the validity of probability models applied to data science problems
+Assessment Tasks:
+Workload: 
+

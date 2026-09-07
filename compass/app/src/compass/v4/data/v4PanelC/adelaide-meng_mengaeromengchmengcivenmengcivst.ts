@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 6,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "**Institution**: The University of Adelaide",
+      "**Program Identifier / Slug**: meng_mengaeromengchmengcivenmengcivst",
+      "- **Institution**: The University of Adelaide"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "**Academic Calendar Year**: 2025/2026",
+      "**Faculty**: Faculty of Sciences, Engineering and Technology (SET)",
+      "- **Program Identifier / Slug**: meng_mengaeromengchmengcivenmengcivst"
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Subject: Business Management Systems PG (ENGI5029)",
+      "Subject: Research Methods and Statistics (PSYC4009)",
+      "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/meng_mengaeromengchmengcivenmengcivst"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Recognise ethical considerations in engineering business management, using Engineers Australia code of ethics for professional engineers as a foundation",
+      "Articulate the role of governance, standards and processes and their interplay in Business Management Systems (BMS)",
+      "- **Academic Calendar Year**: 2025/2026"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Subject: Project Management for IT Professionals (PROJ5001)",
+      "Subject: Project Management Fundamentals (PROJX500)",
+      "Prepare professional standard documentation using templates, elements from a business management system"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Demonstrate professional skills including participation in and running meetings; effective team membership and leadership",
+      "- **Institution**: The University of Adelaide",
+      "- **Program Identifier / Slug**: meng_mengaeromengchmengcivenmengcivst"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Use statistical packages required for quantitative analysis (e.g., R, SPSS and Excel).",
+      "Subject: Using Machine Learning Tools PG (ARTI5005)",
+      "- **Academic Calendar Year**: 2025/2026"
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Level 2: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "An exit path will be available for students completing only the foundation year, after they satisfy a set requirement within the relevant discipline. In this case a Graduate Diploma will be awarded.",
+      "- **Institution**: The University of Adelaide"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Engineering.",
+      "evidenceLines": [
+        "An exit path will be available for students completing only the foundation year, after they satisfy a set requirement within the relevant discipline. In this case a Graduate Diploma will be awarded.",
+        "Students who have been granted less than 24 units of credit are required to maintain a Grade Point Average of 5.0 for core and elective courses listed in the Academic Program Rules, to the value of 24 units. Students who have not achieved this standard will not be permitted to continue study towards the degree."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: Business Management Systems PG (ENGI5029)",
+        "**Institution**: The University of Adelaide"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

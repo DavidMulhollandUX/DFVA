@@ -1,0 +1,493 @@
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/programs/2026/3777 =====
+# Cyber Security (Sydney) (3777)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 3777
+- **Academic Year**: 2026
+- **Study Level**: Undergraduate
+- **AQF Level**: Level 7
+- **Total Units / Units of Credit (UOC)**: 144
+- **Delivery Mode**: Face-to-face (includes blended)
+- **CRICOS Code**: 119744E
+- **Academic Organisation**: School of Computer Science and Engineering
+- **Handbook URL**: https://handbook.unsw.edu.au/undergraduate/programs/2026/3777
+
+## Description
+The Bachelor of Cyber Security addresses the cyber skills gap by giving the industry access to students and graduates while equipping them with essential cyber security skills, knowledge, and attributes. These skills are developed through well-designed and purposeful learning outcomes aligned with the core values of UNSW’s graduate capabilities. The program offers a strong Computer Science technical background and emphasise machine and software understanding at the core, as well as a focus on human factors and vulnerabilities. It includes both applied and theoretical elements, teaching students from both an attack and defense perspective with an Engineering mindset and approach to security. This ensures a well-rounded and qualified pipeline of cyber professionals necessary to build sovereign capability in the domain.
+
+The program draws on Universal Design for Learning (UDL) principles to ensure students are provided with multiple means of engagement, action and expression, as well as representation. The learning design draws on a hybrid flexible (HyFlex) model with appropriate integration of online, in-person, laboratory, and industry-based experiences.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+8. Demonstrate professional communication skills, involving listening, oral, and written communication, including formal and informal modes, with a range of audiences, to effectively convey complex ideas and decisions, to support changes in behaviours and habits, and based on an understanding of the mindset and context of the parties involved.
+9. Demonstrate a global contemporary and historical perspective of the discipline of cyber security.
+4. Design and implement secure systems, networks, and data platforms using industry-standard security technologies and best practices.
+2. Apply critical and analytical thinking and problem-solving skills to identify and mitigate cyber security threats and vulnerabilities individually and collaboratively.
+5. Articulate and apply ethical and legal considerations in cyber security, including privacy and data protection laws, trustworthy learning rules and policies, professionalism, and professional codes of conduct, as well as ethical principles.
+3. Demonstrate professional skills, involving working effectively with others in a team, contemporary project management, social engagement, initiative, judgement, decision making in the presence of uncertainty, negotiation, and stakeholder management.
+6. Evaluate, design and communicate innovative cyber security solutions, risk management strategies, incident response plans and practices, and strategic business plans, as well as apply principles of cyber security to real-world scenarios.
+1. Apply cyber security and information technology theories, and synthesize emerging cyber security practices, regulations, models, standards, and frameworks to industry and government.
+7. Apply an understanding of human behaviour and cognitive vulnerabilities in the design and operation of end-to-end secure systems and processes, and in the analysis of system and security failure.
+
+## Career Opportunities & Employment Areas
+Cyber Security Analyst, Penetration Tester, Security Consultant, Software Engineer, App Developer, Security Engineer
+
+## Program Structure & Degree Requirements
+Students must complete 144 Units of Credit (UOC) structured across the following academic components:
+
+### Disciplinary Component (96 UOC)
+Students must complete 96 UOC of the following.
+
+#### Core Courses  (66 UOC)
+Students must complete 66 UOC of the following courses.
+
+##### Core Courses (60 UOC)
+- **COMP2218**: Human Centric Security [6 UOC]
+- **COMP2521**: Data Structures and Algorithms [6 UOC]
+- **COMP1511**: Programming Fundamentals [6 UOC]
+- **COMP1337**: Foundations of Cyber Security [6 UOC]
+- **COMP1939**: Cyber Security Workshop 1 - Penetration Testing [6 UOC]
+- **MATH1081**: Discrete Mathematics [6 UOC]
+- **COMP1521**: Computer Systems Fundamentals [6 UOC]
+- **COMP3959**: Cyber Security Workshop 3 - Capstone [6 UOC]
+- **COMP4920**: Professional Issues and Ethics in Information Technology [6 UOC]
+- **COMP2949**: Cyber Security Workshop 2 - Defence [6 UOC]
+
+##### One of the following  (6 UOC)
+- **COMP3443**: Web Application Security and Testing [6 UOC]
+- **COMP3445**: Digital Forensics [6 UOC]
+- **COMP6843**: Extended Web Application Security and Testing [6 UOC]
+- **COMP6845**: Extended Digital Forensics and Incident Response [6 UOC]
+- **PSYC1011**: Psychology 1B [6 UOC]
+- **COMP3121**: Algorithm Design and Analysis [6 UOC]
+- **PSYC1001**: Psychology 1A [6 UOC]
+- **COMP3821**: Extended Algorithm Design and Analysis [6 UOC]
+
+#### Cyber Electives (30 UOC)
+Students must complete 30 UOC of the following courses.
+
+##### Cyber Electives  (0 UOC)
+- **COMP6448**: Security Engineering Masterclass [6 UOC]
+- **COMP3453**: Applied Cryptography [6 UOC]
+- **COMP3446**: Cloud Security [6 UOC]
+- **COMP9302**: Cyber Security Project B [12 UOC]
+- **MATH3411**: Information, Codes and Ciphers [6 UOC]
+- **COMP3444**: Privacy Engineering [6 UOC]
+- **COMP6447**: System and Software Security Assessment [6 UOC]
+- **PSYC1011**: Psychology 1B [6 UOC]
+- **COMP9301**: Cyber Security Project [6 UOC]
+- **PSYC1001**: Psychology 1A [6 UOC]
+- **COMP6131**: Software Security Analysis [6 UOC]
+
+##### One of the following  (0 UOC)
+- **COMP3121**: Algorithm Design and Analysis [6 UOC]
+- **COMP3821**: Extended Algorithm Design and Analysis [6 UOC]
+
+##### One of the following (0 UOC)
+- **COMP6845**: Extended Digital Forensics and Incident Response [6 UOC]
+- **COMP3445**: Digital Forensics [6 UOC]
+
+##### One of the following (0 UOC)
+- **COMP3443**: Web Application Security and Testing [6 UOC]
+- **COMP6843**: Extended Web Application Security and Testing [6 UOC]
+
+### Free Electives (36 UOC)
+Students must take 36 UOC Free Electives. These can include COMP courses and/or non-COMP courses.
+
+Students may take additional Cyber Electives to count towards the Free Electives requirement.
+
+### General Education (12 UOC)
+Students must complete 12 UOC of General Education Courses.
+
+Note: MATH and DATA courses do not meet the requirements of General Education for this program.
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP1337 =====
+Subject: Foundations of Cyber Security (COMP1337)
+Credit Points: 6
+Overview: This course provides students with an introduction to the rapidly growing field of cyber security. It is suitable for anyone who wishes to understand more about this fascinating and rapidly emerging global challenge. The course provides an overview of the main aspects of contemporary cyber security, including cyber crime, cyber criminals, cyber war, scams, exploitation, human errors and mistakes, vulnerabilities, responding to emergencies, sensible risk assessment and risk management. We consider the question: We can build a bridge that doesn't fall down; why can't we yet build a system that can't be hacked? We consider what we can learn from established disciplines, including engineering, safety science, investment, and military intelligence, that can help us establish the new discipline of cyber security. This course introduces an engineering-style approach to how we can design, manage, and improve secure systems. However students do not have to be engineers to take this course, indeed the interactive parts of the course work best when we have a multi-disciplinary, diverse range of students. As well as learning core cyber security terminology and concepts (such as introductory cryptography, the main classes of computer vulnerabilities that hackers exploit, and how to analyse risk), students also work in diverse teams to analyse and respond to a range of case studies drawn from historical security and security related scenarios (such as incident response to emergencies, system design, root cause failure analysis).
+Learning Outcomes:
+- Apply an engineering approach to the design and operation of solutions to security problems and in the analysis and control of security risks.
+- Design, analyse and critique cryptographic solutions to security problems using cryptographic elements and concepts of attacker work.
+- Analyse real world scenarios to identify key security elements and develop mitigation strategies to address these.
+- Explain the fundamental concepts, trends and historical events in cyber security.
+- Identify and describe human factor related vulnerabilities in the design and operation of systems and in the operation of scams and social engineering attacks.
+- Describe and exhibit professional and ethical behaviours including working effectively in teams to solve problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP1511 =====
+Subject: Programming Fundamentals (COMP1511)
+Credit Points: 6
+Overview: From recent innovations in AI like self-driving cars to humanoid robotics navigating complex environments, leapfrogs in battery technology to sequencing the human genome - the world is benefiting and evolving thanks to computer systems. At the core of all these systems are computers executing instructions to solve exciting problems. In this course, you will learn the fundamentals of how we instruct computers to solve problems. You will explore the architecture and mechanics of how computers operate and how you can translate real-world problems to computer programs that solve these problems. The concepts you learn will provide a foundation for your future endeavours in computing and, we hope, will begin to change the way you think about real-world problems. This course is an introductory course to the basics of computer programming and Computer Science. It is intended as an introduction to studying further in Computer Science or related fields. Topics include: Fundamental programming concepts Introduction to Computer Science The C programming language and use of a C compiler Programming style Program design and organisation concepts Program testing and debugging
+Learning Outcomes:
+- Read and understand coding solutions.
+- Apply basic data structures, such as arrays and linked lists, to solve complex problems.
+- Apply C programming language to solve simple decision, looping, array, and linked list problems programmatically.
+- Review the produced code against specification criteria by applying testing techniques.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP1521 =====
+Subject: Computer Systems Fundamentals (COMP1521)
+Credit Points: 6
+Overview: This course introduces students to how computer systems are structured in terms of basic electronic components, how they are used to implement procedural programs, and how they are structured as a collection of software layers. It introduces students to low-level software layers such as operating systems, and introduces concurrency concepts. The goal is to give students a solid understanding of what happens when high-level programs are executed, as a basis for further study in important areas of computing such as computer architecture, operating systems.
+Learning Outcomes:
+- Design, implement, and analyse small programs at the assembly/machine level.
+- Describe the components comprising, and the services offered by, an operating system.
+- Explain how the major components of a CPU work together, including how data and instructions are represented in a computer.
+- Implement simple programs involving communication and concurrency.
+- Describe the relationship between a high-level procedural language (C) and assembly (machine language) which implements it, including how a compiled program is executed in a classical von Neumann machine.
+- Describe the architectural layers (fundamental parts) of a modern computer system from hardware device (chip) levels upwards.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP1939 =====
+Subject: Cyber Security Workshop 1 - Penetration Testing (COMP1939)
+Credit Points: 6
+Overview: This workshop course provides students with a series of practical challenges and applied exercises to apply and integrate the cyber security and computing knowledge and skills they have mastered in their first year of cyber security study. In this hands-on course, students will learn about and apply practice penetration testing, including negotiating terms of engagement, recon, reporting, controls, OSInt, exploitation, privilege escalation, lateral movement, and data leakage. Students will work in teams - led by experienced mentors and carry out a series of penetration testing wargames throughout the term.
+Learning Outcomes:
+- Apply cyber security reconnaissance and exploitation techniques to carry out security assessment and penetration testing of online systems.
+- Communicate findings and recommendations to stakeholders to support change.
+- Critically reflect upon their professional practice approaches to learning, study and time management.
+- Apply security engineering techniques to web based systems including compromise of integrity, authentication, authorisation, confidentiality, including exploiting relevant human factors in an ethical professional and legal manner.
+- Communicate with clients and other stakeholders to achieve project outcomes.
+- Describe and exhibit professional, ethical, and legal behaviours in conducting penetration testing and security evaluations including working effectively in teams to solve problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP2218 =====
+Subject: Human Centric Security (COMP2218)
+Credit Points: 6
+Overview: This course explores the intersection of cyber security and human behaviour, emphasising the importance of designing practical systems that are not only secure and robust technically but also in operation in an environment involving humans. It delves deeper than traditional cyber security, exploring the crucial role human behaviour plays in strengthening and weakening the security of systems. The course is rooted in core security principles and helps students assess the security of systems at an individual, societal, and national level. Students will study how different categories of people (e.g. users, designers, and developers) interact with computing systems and understand the challenges in creating and evaluating human centric security systems. The course takes an interdisciplinary approach and integrates academic research from computer science and information security with other disciplines, such as psychology, to provide a well-rounded perspective into designing practical solutions to complex cybersecurity problems.
+Learning Outcomes:
+- Synthesise interdisciplinary research related to human aspects of cyber security.
+- Explain the principles of usable security for systems.
+- Discuss the trade-offs between usability and technical system security.
+- Critique the relationship between people and security from the perspective of users, designers, developers, and policymakers.
+- Design and evaluate human-centric security systems and protocols.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP2521 =====
+Subject: Data Structures and Algorithms (COMP2521)
+Credit Points: 6
+Overview: The aim of this course is to get you to think like a computer scientist . This certainly sounds like a noble goal... but what does it really mean? How does a scientist , let alone a computer scientist, actually think? What many types of scientists try to do is understand natural systems and processes: a geologist, for example, tries to understand the structure of the earth; a biologist tries to understand living organisms; a chemist tries to understand materials and reactions, and so on. Computer scientists don't, as the name might suggest, simply try to understand the structure and behaviour of computers, but are more concerned with understanding software systems (and the interaction between the software and the hardware on which it runs). Also, unlike other scientists, computer scientists frequently build the objects that they study. The goal of this course is to deepen your understanding of data structures and algorithms and how these can be employed effectively in the design of software systems. It is an important course in covering a range of core data structures and algorithms that will be used in context in later courses. You explore these ideas in lectures, tutorials, lab exercises, quizzes and assignments. Assessment involves lab exercises, quizzes, assignments and a final exam involving both practice and theory. At the end of the course, we want you to be a solid programmer, with knowledge of a range of useful data structures and programming techniques, and ready to continue with further specialised studies in computing. Topics This course provides an introduction to the structure, analysis and usage of a range of fundamental data types and the core algorithms that operate on them. Key topics are: Recursion Analysis of algorithms Abstract data types Binary search trees Balanced search trees Graphs Sorting algorithms Heaps Hashing Tries
+Learning Outcomes:
+- Choose/develop an appropriate data structure for a given problem
+- Measure the performance behaviour of programs
+- Package a set of data structures and algorithms as an abstract data type
+- Analyse the performance characteristics of algorithms
+- Describe and analyse fundamental data structures and algorithms
+- Choose/develop appropriate algorithms to manipulate chosen data structures
+- Reason about the effectiveness of data structures and algorithms for solving a given problem
+- Develop and maintain software systems in C that contain thousands of lines of code
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP2949 =====
+Subject: Cyber Security Workshop 2 - Defence (COMP2949)
+Credit Points: 6
+Overview: This workshop course provides students with a series of practical challenges and applied exercises to apply and integrate knowledge and skills they have mastered in the second year of their cyber security degree. In this hands-on course you will learn about and apply the defensive skills of a professional cyber team including establishing policies, conducting audits, and designing and operating a Security Operations Center, and then detecting and responding to cyber incidents. Students will work in teams - led by experienced defensive mentors, and carry out a series of security operations centre wargames throughout the term.
+Learning Outcomes:
+- Develop incident playbooks and procedures which are clear effective and support business goals and priorities.
+- Design, monitor, and critically evaluate security operations systems and practices.
+- Describe and exhibit professional, ethical, and legal behaviours in conducting Security Operations activities including working effectively in teams to solve problems under pressure.
+- Apply cyber security analysis and planning techniques to monitor, and respond to security incidents.
+- Work and communicate effectively with internal clients and other stakeholders to make timely decisions, including with only partial information, to achieve desired outcomes.
+- Reflect upon your approach to learning and study and time management in your study so far and identify behaviours you would like to change and concrete actions for doing so.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP3121 =====
+Subject: Algorithm Design and Analysis (COMP3121)
+Credit Points: 6
+Overview: How would you convince a colleague that your program is correct, and that theirs is flawed? How do you estimate how long a program will run for, and design test cases to find bugs? Can all problems be solved efficiently, or are some problems "too hard"? In this course, you will learn the building blocks to develop problem-solving software in fields as diverse as finance, logistics, policy and entertainment. You will apply techniques including divide-and-conquer, greedy selection and dynamic programming in order to develop accurate and fast algorithms in contexts such as graphs and strings. You will also develop the ability to think critically and communicate about algorithms in terms of correctness and efficiency. Join us to find out how you can become a better programmer without writing any code.
+Learning Outcomes:
+- Evaluate the efficiency of algorithms and justify their correctness.
+- Explain how standard design techniques are used to develop algorithms.
+- Apply the LaTeX typesetting system to produce high-quality technical documents.
+- Communicate algorithmic ideas at different levels of abstraction.
+- Solve problems by creatively applying algorithm design techniques.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP3443 =====
+Subject: Web Application Security and Testing (COMP3443)
+Credit Points: 6
+Overview: Web applications are currently the predominant source of software vulnerabilities exploited in in online attacks. There is a growing need and growing demand for web programmers to be security aware. This course covers the main types of web application vulnerabilities and current best practice professional coding and testing practices to be able to successfully develop secure web applications. The course covers OWASP vulnerabilities cross site scripting browser security model and weaknesses Injection attacks DNS Man in the middle Data leakage Spoofing UI and Social vulnerabilities Assurance and Testing Standards. Course coverage will be constantly updated over time to reflect emerging vulnerabilities and practices. A programming background is not required but it will be helpful in some of the more applied topics. Students need a keen devious and analytical mind. To get the most from this course students will need to engage in independent study and research and be able to act as independent self directed learners.
+Learning Outcomes:
+- Describe the process of exploitation and develop exploits to compromise web applications using public resources and original payloads.
+- Identify and describe common vulnerabilities in web applications and underlying infrastructure with reference to modern frameworks and common misconfigurations and exploits.
+- Describe common defensive techniques for web applications and apply these techniques appropriately to trust boundaries in specific instances.
+- Demonstrate professional and ethical behaviours appropriate for security testing, including evaluation of scope and responsible disclosure.
+- Communicate findings and recommendations to stakeholders effectively to support change.
+- Collaborate with developers and security professionals in a manner that will lead to effective security improvement.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP3444 =====
+Subject: Privacy Engineering (COMP3444)
+Credit Points: 6
+Overview: Privacy is a significant concern in modern society. Individuals share personal information with many different organizations - healthcare, financial and educational institutions, the census bureau, web services providers and online social networks - often in electronic form. Privacy violations occur when such personal information is inappropriately collected, shared, or used. Privacy Engineering is the discipline concerned with applying an engineering approach to the analysis of privacy problems and the design of solutions in a systematic and sometimes formal manner. It is concerned with data privacy and overall system privacy, including legal and ethical privacy goals. The course provides a comprehensive overview of the field of “Privacy Engineering” and in-depth knowledge on information theoretic concepts and mechanisms for achieving privacy goals, including legal and ethical privacy goals. The course is designed to provide understanding of state-of-the-art privacy-preserving mechanisms including formal and human centric approaches, and the design and assessment of systems with privacy requirements and how to attack them. Students will learn concepts and methods for identifying privacy leakages and creating technologies with provable guarantees of privacy protection. Covered topics include: privacy leakages & attacks (e.g., identifiability of data, record linkage, data profiling, data anonymity, de-identification), privacy-by-design, state-of-the-art privacy enhancing technologies (e.g., differential privacy, k-anonymity), and emerging privacy concepts (e.g. user behavioural privacy, usable privacy, privacy & AI, privacy regulation, and ethics).
+Learning Outcomes:
+- Reproduce and explain core concepts and principles of privacy engineering.
+- Evaluate privacy implications of various technologies including online tracking and other privacy vulnerabilities.
+- Design and develop state-of-the-art privacy preserving mechanisms to achieve different privacy goals in complex information systems.
+- Evaluate and critically examine existing privacy research and solutions and design effective approaches to privacy challenges.
+- Explain relevant privacy laws and assess how they integrate with ethical and technical aspects of privacy.
+- Identify privacy weaknesses by analyzing and performing privacy attacks on various platforms and datasets.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP3445 =====
+Subject: Digital Forensics (COMP3445)
+Credit Points: 6
+Overview: The subject of Digital Forensics is a blend of technical expertise, legal procedures for expert witnesses, persuasive report writing, and performance in the theatre of court. This course covers both forensic theory / professional practice and looks at the underlying engineering of hiding, finding, interpreting, and responding to traces. Students will use standard forensic tools to extract, carve, and analyze data and learn the low-level technical skills and knowledge that underlie these tools. Students will also be introduced to advanced topics, including Cloud Forensics and the latest anti-forensics techniques. COMP3445/COMP6445 and COMP6845 run in an overlapping mode. All share a set of common activities and assessments; however, COMP6845 students have additional extension activities and assessments. These activities offer a more advanced and in-depth study of the topic. This is achieved through an additional weekly workshop/lecture during the term. By the end of the course, students should be able to write and analyze simple forensic tools as well as use them. The course covers Memory Forensics, Disk Forensics, Network Forensics, Device Forensics, Stealth Techniques, Anti-forensics, Professional Forensic Practice (chain of custody, records, etc), Logging, and Mobile Forensics. Students in this course will apply forensic methods in controlled environments and gain an understanding of the technical process for uncovering hidden data and metadata that may reveal user behavior. Students will also develop skills in reporting their findings and evaluating their ethical implications. Digital Forensics students are invited to participate in a mock courtroom experience involving testimony and cross-examination of digital forensics expert witnesses. We plan to run a mock civil trial of a company vs. a rogue employee, with a presiding Judge, lecturers acting as advocates, and students as expert witnesses.
+Learning Outcomes:
+- Explain issues and key principles of professional digital forensic practice (including chain of custody and best practice procedures).
+- Illustrate an understanding of digital forensics to design, conduct, and report on effective forensic investigations.
+- Apply forensic analysis on common systems.
+- Extract and infer digital traces of activity.
+- Apply working knowledge of the principle elements of digital forensic literacy (such as Windows, Linux and OSX disk structures, machine memory structure, operating system structure caches logging and redundancy, device design authentication operation and weakness, boot and initialisation sequences, storage encryption, network logging, stealth techniques and anti forensic strategies).
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP3446 =====
+Subject: Cloud Security (COMP3446)
+Credit Points: 6
+Overview: This course covers how to securely design and operate cloud infrastructure and how to monitor for compromise and response patterns for security incidents. This is a rapidly changing field and is one of the main areas of attack on enterprise systems. In this course, students learn the fundamentals of the key domains of cloud security: identity and access management, data protection, securing infrastructure, monitoring and response, as well as skills and best practices in designing and securing cloud infrastructure. The course focuses on professional skills and working effectively in teams to manage the security of complex systems.
+Learning Outcomes:
+- Explain the fundamental principles involved in secure design and operation of cloud infrastructure.
+- Demonstrate professional behaviours including communicating effectively with stakeholders and working effectively in teams.
+- Recognise the main sources of insecurity in systems involving cloud, and evaluate their potential mitigations with reference to the particular context of the system.
+- Design and build secure systems involving cloud infrastructure.
+- Monitor cloud systems and design and implement tools and procedures to effectively detect and respond to security incidents.
+- Identify and assess risks in cloud designs and make and justify sensible trade-offs subject to constraints.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP3453 =====
+Subject: Applied Cryptography (COMP3453)
+Credit Points: 6
+Overview: Cryptography is an indispensable tool for protecting information in computer systems. This course is designed to provide an understanding of Cryptographic algorithms and Cryptanalysis with an aim of using them to protect computer systems, networks, and data protection. The course will emphasise on the foundational aspects of encryption and authentication techniques with an aim to use them correctly and effectively in applications. The technical ideas to be understood include classical algorithms, symmetric key encryption algorithms, public key encryption algorithms, cryptanalysis of ciphers, hash functions, digital signatures, zero-knowledge proofs. Applications like credential management, computing on encrypted data in cloud (homomorphic encryption, secure multiparty computation), secure network protocols, blockchains will be explored. Post quantum Cryptography will also be studied.
+Learning Outcomes:
+- Formally analyse security of protocols based on an understanding of security considerations.
+- Explain the implications of quantum computing on Cryptography and learn about existing quantum safe solutions.
+- Perform Cryptanalysis on ciphers based on an understanding of the techniques of Cryptanalysis.
+- Design secure cryptographic protocols for a broad range of applications like blockchains, e-commerce and computer networks.
+- Explain the foundations of cryptography, primitives, and protocols, including encryption and authentication.
+- Implement cryptographic algorithms including practical encryption and authentication protocols.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP3821 =====
+Subject: Extended Algorithm Design and Analysis (COMP3821)
+Credit Points: 6
+Overview: How can a practitioner of algorithms help small-scale producers interested in sustainable farming? How can you solve strategy games by efficiently using computation time and memory? What do the relationships between difficult problems imply about the existence of feasible solutions to them, from both theoretical and practical standpoints? In this course, you will learn the building blocks to develop problem-solving software in fields as diverse as finance, logistics, policy and entertainment. You will apply techniques including divide-and-conquer, greedy selection and dynamic programming in order to develop fast and accurate algorithms in contexts such as graphs and strings, and study reductions involving linear programming and NP-hard problems. You will also develop the ability to think critically and communicate about algorithms in terms of correctness and efficiency. Join us to become a more effective, persistent and creative problem solver.
+Learning Outcomes:
+- Solve problems by creatively applying algorithm design techniques.
+- Determine limitations of algorithms by proving complexity lower bounds.
+- Apply the LaTeX typesetting system to produce high-quality technical documents.
+- Explain how standard design techniques are used to develop algorithms.
+- Communicate algorithmic ideas at different abstraction levels.
+- Formulate real-life scenarios as algorithmic problems.
+- Evaluate the efficiency of algorithms and justify their correctness.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP3959 =====
+Subject: Cyber Security Workshop 3 - Capstone (COMP3959)
+Credit Points: 6
+Overview: This workshop course provides students with a series of practical challenges and applied exercises to apply and integrate knowledge and skills they have mastered in the program. In this hands-on course, students will carry out training exercises in Red Teams to attack internal systems, compromise security objectives and design security challenges for others. The climax of the course is an extended red team Capture The Flag wargame.
+Learning Outcomes:
+- Integrate and apply knowledge and skills acquired in the cyber courses taken throughout the degree in a visible and demonstrable way by red teaming.
+- Apply and showcase program and graduate capabilities in teamwork and communication.
+- Apply and showcase professional and program capabilities in mentoring, leadership, self-directed learning, and fostering supportive learning community.
+- Solve challenging real-world cybersecurity problems using technical analysis, attack skills, and technical and human-centric techniques.
+- Reflect on learning achievements from the entire degree and demonstrate cyber competency in scepticism, curiosity, rigour, engineering approach, attacker mindset, and implications of human factors.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP4920 =====
+Subject: Professional Issues and Ethics in Information Technology (COMP4920)
+Credit Points: 6
+Overview: In this course we will explore ethical issues for computer science, widely conceived. We will examine in detail the nature of ethical claims/moral judgements themselves, and how it is that our beliefs about their nature can affect our understanding of the ethical issues relating to computer science that we have examined so far. We will learn about ethical arguments, and how to construct and evaluate them. We will cover normative ethics, and run test cases past real-world computer science cases. We will learn to engage critically with research ethics, as well as the relationship between ethical responsibility and AI frameworks and innovation. There will be considerable discussion of "ethics washing" - the pretence of ethical reasoning by those in positions of power for the purpose of avoiding regulation, as well as explore the related issues of trust, accountability, and privacy in our current online, informationalised world. We will explore equity, bias and fairness in algorithmic and dataset design, as well as the ethics of AI more broadly. We will also explore the ethical ramifications of transparency and explainability - along with their attendant relationships with power, as they relate to computer science in general.
+Learning Outcomes:
+- Articulate the major normative and meta-ethical theories that underpin real, research-level moral debates in both academic and professional contexts.
+- Recognise ethical issues and pitfalls in the professional practice of developing novel technologies, including AI (e.g. fairness, transparency, accountability), and learn about existing efforts to mitigate these issues.
+- Discuss ethical dilemmas around specific technological case studies.
+- Build, articulate, and justify their own moral arguments - as well as how to analyse moral judgements and moral arguments in general.
+- Define and employ ethical values, principles, and practices for responsible research and innovation of technological and computing advances.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/COMP6131 =====
+Subject: Software Security Analysis (COMP6131)
+Credit Points: 6
+Overview: This course is designed to provide a systematic exploration of automated source code analysis and verification techniques, with the aim of gaining hands-on experience in implementing code analysis tools to identify common yet important software vulnerabilities in software systems. By taking this course, students can put static analysis and verification theories and advanced techniques into practice. They will be able to build source code analysis tools (e.g., written in C++ and Python) based on modern compilers and popular open-source frameworks to scan, comprehend and detect programming mistakes and vulnerabilities with the purpose of enhancing code quality and security.
+Learning Outcomes:
+- Explain basic compiler intermediate representation and its importance for precise software vulnerability detection
+- Explain source code vulnerabilities in system software and motivations for software analysis and verification
+- Develop source code verification techniques including constraint solving and assertion-based verification using automated theorem provers.
+- Implement source code analysis techniques including control- and data-flow analysis
+- Design and implement well-considered, high performance, static analysis algorithm to solve problems
+- Create effective and minimum unit tests and documentation to validate the correctness of the code analysis tools
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP6447 =====
+Subject: System and Software Security Assessment (COMP6447)
+Credit Points: 6
+Overview: This course looks at cyber attack and defence. Students learn how to assess and identify vulnerabilities and how vulnerabilities are exploited. Students learn the principles and theory of exploitation, the common security models, and how approaches to exploitation and defence have evolved over time. Students from this course will engage in wargames, analyse real world case studies of vulnerabilities in complex software used on widespread systems, and gain an understanding of the technical process of finding and fixing low-level software vulnerabilities and also of the economics and causal factors involved with their real world use. The course covers techniques and skills including vulnerability classes, source code auditing,fuzzing, security bugs, software security assurance, taint analysis, memory corruption, overflows and return oriented programming. The course coverage will be constantly updated over time to reflect emerging attack and defence methods. There are numerous formative assessments and activities throughout the course to provide feedback and learning opportunities. Students need a keen, devious and analytical mind. To get the most from this course you will need to engage in independent study and act as a self-directed learner. Attending lectures alone will not be sufficient to pass the course. You will need to devote considerable practice to all the techniques we cover and read further on topics which interest you or which you do not fully understand. For a credit level result we expect you will spend 15 hours per week in total on this course. Seek feedback from your friendly lecturers, tutors and class peers constantly over the term and closely monitor yourself to make sure you are not falling behind. Experience has shown that students who do not work hard at the course do not do well, and often express disappointment later on at the missed opportunity.
+Learning Outcomes:
+- Analyse a system from an attacker perspective to identify vulnerabilities and design and implement reliable exploits
+- Describe how these elements can be exploited by attackers, analyze their strengths and weaknesses and identify appropriate countermeasures
+- Describe the key legal, ethical, and professional issues of of system and software security assessment.
+- Analyse a system from a defender perspective to identify vulnerabilities and design and implement reliable countermeasures
+- Describe the principle elements of offensive cyber security (such as vulnerability classes, source code auditing, security bugs, memory corruption, numeric overflows, heap exploitation and return oriented programming)
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP6448 =====
+Subject: Security Engineering Masterclass (COMP6448)
+Credit Points: 6
+Overview: This is an occasional course that will involve a visiting expert in the security area giving a series of lectures and workshops on an advanced topic in cyber security. The course may run in intensive mode or in standard in-person weekly or fortnightly mode. The precise timing and topics depend on the visitor.
+Learning Outcomes:
+- Demonstrate awareness, planning, reflection and development in professional security engineering capabilities such as professional ethical behavior, teamwork, attacker mindset, awareness of human vulnerabilities, life-long learning, professional community, and rigor.
+- Integrate knowledge of the principle elements of advanced security engineering concepts and how these elements can be used by attackers and defenders, their strengths and weakness.
+- Solve real world security engineering problems using non-trivial and creative methods.
+- Describe advanced and emerging security topics in a clear and professional manner.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/COMP6843 =====
+Subject: Extended Web Application Security and Testing (COMP6843)
+Credit Points: 6
+Overview: Web applications are currently the predominant source of software vulnerabilities exploited in in online attacks. There is a growing need and growing demand for web programmers to be security aware. This course covers the main types of web application vulnerabilities and current best practice professional coding and testing practices to be able to successfully develop secure web applications. The course covers OWASP vulnerabilities cross site scripting browser security model and weaknesses Injection attacks DNS Man in the middle Data leakage Spoofing UI and Social vulnerabilities Assurance and Testing Standards. Course coverage will be constantly updated over time to reflect emerging vulnerabilities and practices. There are numerous formative assessments and activities throughout the course to provide feedback and learning opportunities. These do not directly contribute to your final grade but are expected to be used to provide evidence of your capabilities in your portfolio. A programming background is required. Students also need a keen devious and analytical mind. To get the most from this course students will need to engage in independent study and research and be able to act as independent self directed learners. This is the extended version of COMP6443. This course includes the material of COMP6443, a deeper coverage of vulnerability classifications, and more sophisticated exploitation techniques. Students will work in teams to conduct application tests and report on them to real and simulated clients.
+Learning Outcomes:
+- Describe defensive techniques for web applications and apply these techniques appropriately to trust boundaries in specific instances.
+- Describe the process of exploitation and develop exploits to compromise web applications using public resources and original payloads.
+- Communicate findings and recommendations to stakeholders effectively to support change.
+- Demonstrate professional and ethical behaviours appropriate for security testing, including evaluation of scope and responsible disclosure.
+- Collaborate with developers and security professionals in a manner that will lead to effective security improvement.
+- Identify and describe vulnerabilities in web applications and underlying infrastructure with reference to modern frameworks and common misconfigurations and exploits.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/COMP6845 =====
+Subject: Extended Digital Forensics and Incident Response (COMP6845)
+Credit Points: 6
+Overview: The subject of Digital Forensics is a blend of technical expertise, legal procedures for expert witnesses, persuasive report writing, and performance in the theatre of court. This course covers both forensic theory / professional practice and looks at the underlying engineering of hiding, finding, interpreting, and responding to traces. Students will use standard forensic tools to extract, carve, and analyze data and learn the low-level technical skills and knowledge that underlie these tools. Students will also be introduced to advanced topics, including Cloud Forensics and the latest anti-forensics techniques. COMP3445/COMP6445 and COMP6845 run in an overlapping mode. All share a set of common activities and assessments; however, COMP6845 students have additional extension activities and assessments. These activities offer a more advanced and in-depth study of the topic. This is achieved through an additional weekly workshop/lecture during the term. By the end of the course, students should be able to write and analyze simple forensic tools as well as use them. The course covers Memory Forensics, Disk Forensics, Network Forensics, Device Forensics, Stealth Techniques, Anti-forensics, Professional Forensic Practice (chain of custody, records, etc), Logging, and Mobile Forensics. Students in this course will apply forensic methods in controlled environments and gain an understanding of the technical process for uncovering hidden data and metadata that may reveal user behavior. Students will also develop skills in reporting their findings and evaluating their ethical implications. Digital Forensics students are invited to participate in a mock courtroom experience involving testimony and cross-examination of digital forensics expert witnesses. We plan to run a mock civil trial of a company vs. a rogue employee, with a presiding Judge, lecturers acting as advocates, and students as expert witnesses.
+Learning Outcomes:
+- Explain issues and key principles of professional digital forensic practice (including chain of custody and best practice procedures).
+- Illustrate an understanding of digital forensics to design, conduct, and report on effective forensic investigations.
+- Apply forensic analysis on common systems.
+- Extract and infer digital traces of activity.
+- Have an applied working knowledge of the principle elements of digital forensic literacy (such as Windows, Linux and OSX disk structures, machine memory structure, operating system structure caches logging and redundancy, device design authentication operation and weakness, boot and initialisation sequences, storage encryption, network logging, stealth techniques and anti forensic strategies).
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/COMP9301 =====
+Subject: Cyber Security Project (COMP9301)
+Credit Points: 6
+Overview: Ever wondered what it's like to do cyber security research? Have a burning desire to solve an interesting security problem of your own? This course aims to give self motivated students an opportunity to complete a small research project or a substantial development project under the supervision of an academic member of the school and co-supervision of an industry expert as appropriate. Interested students are advised to contact and submit an expression of interest to potential supervisors and seek their approval to enrol well in advance of the start of term.
+Learning Outcomes:
+- Communicate cyber security problems in both written and oral form suitable for a specified audience.
+- Critique advanced theory-based knowledge and techniques of cyber security research
+- Define, investigate, and analyse security engineering problems to develop effective and creative solutions to these problems.
+- Demonstrate enquiry-based research and project management skills in the context of a complex cybersecurity research project.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP9302 =====
+Subject: Cyber Security Project B (COMP9302)
+Credit Points: 12
+Overview: Ever wondered what it's like to do cyber security research? Have a burning desire to solve an interesting security problem of your own? This course aims to give self motivated students an opportunity to complete a substantial research project or a large development project under the supervision of an academic member of the school and co-supervision of an industry expert as appropriate. Interested students are advised to contact and submit an expression of interest to potential supervisors and seek their approval to enrol well in advance of the start of term.
+Learning Outcomes:
+- Communicate cyber security problems in both written and oral form suitable for a specified audience and in a clear and professional manner.
+- Critique advanced theory-based knowledge and techniques of cyber security research.
+- Demonstrate enquiry-based research and project management skills in the context of a substantial and complex cybersecurity research project.
+- Define, investigate, and analyse substantial security engineering challenges to develop effective and creative solutions to these problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/MATH1081 =====
+Subject: Discrete Mathematics (MATH1081)
+Credit Points: 6
+Overview: This course will enhance students' research, inquiry, and analytical thinking abilities and provide them with the mathematical language and mathematical techniques to unravel many seemingly unrelated problems. The course content addresses five major pillars of discrete mathematics: set theory, number theory, proofs and logic, combinatorics, and graph theory. The theory covered will provide a good foundation for understanding many problems that arise in all science disciplines, particularly higher mathematics and computer science. The mathematical problem-solving skills that students will develop are based on logical arguments and mathematical language that can be applied in multidisciplinary work. The course will also engage students in independent and reflective learning through independent mastery of a wide range of tutorial problems. The course also develops students' communication skills through active participation in tutorials, critical analysis of the work of their peers, and presenting clear, logical arguments when solving problems. The course is delivered through 5 hours of lectures and 2 hours of tutorials per week, along with weekly self-paced online lessons. All topics are taught from first principles, but due to the relatively fast pace of delivery, it is recommended for students with a solid background in HSC Mathematics Advanced. The course provides a strong foundation for students intending to study higher-level mathematics or computer science.
+Learning Outcomes:
+- Use technology as an aid to communicate mathematical ideas by properly typesetting mathematical proofs.
+- Apply the concepts and proof techniques taught to solve problems requiring rigorous logical and mathematical arguments.
+- Communicate mathematical ideas effectively in written and oral form using correct terminology.
+- State the definitions and theorems of the Discrete Mathematics topics taught and recognise how they can be applied to standard numeric problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/MATH3411 =====
+Subject: Information, Codes and Ciphers (MATH3411)
+Credit Points: 6
+Overview: This course provides an introduction to information theory, including error-correcting codes, data compression and cryptography. Each of these subtopics are enhanced by the application of entropy functions, and more sophisticated error-correcting codes are provided by way of brief introduction to number theory and finite fields. The lectures are held face-to-face with simultaneous interactive online streaming. There is a weekly tutorial with multiple time slots to choose from, including online tutorials and face-to-face tutorials. The course emphases understanding, not just skill learning, and on helping each other to learn, understand and enjoy the content and the course.
+Learning Outcomes:
+- Demonstrate an understanding of information theory and be able to apply various methods to solve simple and complex problems in information theory.
+- Demonstrate an understanding of cryptographic concepts and be able to apply various methods to solve simple and complex problems in cryptography.
+- Demonstrate an understanding of various coding theories and be able to apply various methods to solve simple and complex problems in coding theory.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/PSYC1001 =====
+Subject: Psychology 1A (PSYC1001)
+Credit Points: 6
+Overview: This course introduces some of the key concepts, theories and methods which underpin psychology as a science. It begins by reviewing historical and scientific foundations for the study of human behaviour. Lectures and tutorials then cover a series of key research topics in psychology, including development, social, emotional, and cultural influences on behaviour, theories of personality and application of psychology to health and wellbeing. Through interactive tutorials, research participation and written assessments, the course aims to train students in psychological research including communicating research findings, developing research questions, and critically evaluating research. There is no assumed knowledge, and the course is suitable for any UNSW undergraduates with an interest in contemporary psychology, behavioral science research methods and the important role of psychological science in modern society.
+Learning Outcomes:
+- Recognise diverse but complementary theoretical and experimental approaches to major topics in psychology.
+- Apply psychological research, theories, and principles to everyday life.
+- Evaluate psychological research in terms of the scientific method and research ethics;
+- Formulate psychological research questions and propose ways to scientifically and ethically test these questions.
+- Carry out effective targeted information searches;
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/PSYC1011 =====
+Subject: Psychology 1B (PSYC1011)
+Credit Points: 6
+Overview: This course introduces psychology as a biological science. The emphasis is on understanding the links between the neurobiology of the brain, sensory organs and nervous system and human behaviour. The lecturers on this course will provide students with diverse perspectives on psychology from various experimental traditions and levels of analysis – behavioural, cognitive and neurophysiological. Topics covered in lectures and tutorials on this course include cognitive psychology, animal learning, psychobiology, perception, and abnormal psychology. Through interactive tutorials, group presentations, research participation and a written essay, the aim of the course is to develop fundamental skills in finding, evaluating, generating, and integrating psychological research evidence. There is no assumed knowledge, and the course is suitable for any UNSW undergraduate with an interest in experimental psychology, cognitive science, clinical psychology and neuroscience.
+Learning Outcomes:
+- Work in groups and individually to effectively communicate concepts and ideas related to psychology.
+- Link psychological research, theories and principles to concrete examples of their application in everyday life.
+- Recognise diverse but complementary theoretical and experimental approaches to major psychological issues.
+- Locate reliable and relevant information using online research database searches to support scholarly activities.
+- Evaluate psychological research in terms of the scientific method and research ethics.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+

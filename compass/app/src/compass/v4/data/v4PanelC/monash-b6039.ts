@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in banking and finance.",
+    "evidenceLines": [
+      "Both BFF5370 and BFF5510; and",
+      "Either BEX5200 or BFF5555",
+      "This course offers advanced expertise in quantitative and qualitative finance across a broad range of industry relevant and specific areas of finance."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in banking and finance.",
+    "evidenceLines": [
+      "Either BFF5340 or BFF5541; and",
+      "Two from BFX5260, BFF5555 or ECC5901",
+      "Designed for recent finance graduates and professionals within the finance industry, this qualification will enable you to develop applied competence in the mastering, interpretation, reflecting on and the application of principles in the broader field of finance."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within banking and finance.",
+    "evidenceLines": [
+      "Subject: Financial statement analysis and business valuation (ACF5130)",
+      "Subject: Climate change and carbon management strategies (BEX5200)",
+      "Both BFF5340 and BFF5541; and"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in banking and finance.",
+    "evidenceLines": [
+      "One from BFX5260, BFF5555 or ECC5901",
+      "Either BFF5580 or BFF5250; and",
+      "This course offers advanced expertise in quantitative and qualitative finance across a broad range of industry relevant and specific areas of finance."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in banking and finance.",
+    "evidenceLines": [
+      "Subject: Global financial markets (BFF5230)",
+      "Subject: Applied corporate finance (BFF5250)",
+      "Two units from BFF5333, BFF5340 or ECC5901"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in banking and finance.",
+    "evidenceLines": [
+      "Both BFF5580 and BFF5250; and",
+      "This course offers advanced expertise in quantitative and qualitative finance across a broad range of industry relevant and specific areas of finance.",
+      "Designed for recent finance graduates and professionals within the finance industry, this qualification will enable you to develop applied competence in the mastering, interpretation, reflecting on and the application of principles in the broader field of finance."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in banking and finance.",
+    "evidenceLines": [
+      "One additional unit from BFF5333, BFF5340 or ECC5901",
+      "Subject: Funds management (BFF5270)",
+      "This course offers advanced expertise in quantitative and qualitative finance across a broad range of industry relevant and specific areas of finance."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The Master of Advanced Finance is structured in three parts: Part A. Core studies, Part B. Discipline studies and Part C. Elective studies",
+      "This course offers advanced expertise in quantitative and qualitative finance across a broad range of industry relevant and specific areas of finance."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Advanced Finance.",
+      "evidenceLines": [
+        "The Master of Advanced Finance is structured in three parts: Part A. Core studies, Part B. Discipline studies and Part C. Elective studies",
+        "Part A. Core studies"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in banking and finance.",
+      "evidenceLines": [
+        "Subject: Financial statement analysis and business valuation (ACF5130)",
+        "Both BFF5370 and BFF5510; and"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

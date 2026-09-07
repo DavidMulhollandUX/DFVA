@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in psychology.",
+    "evidenceLines": [
+      "You must complete 48 credit points as described in Part A and Part B",
+      "Part B includes 300 hours of supervised professional experience activities",
+      "This course prepares selected psychology graduates for general registration as a psychologist in a range of settings in Australia."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in psychology.",
+    "evidenceLines": [
+      "engage in self-reflection to understand the impact of your own values and beliefs when working with clients.",
+      "understand how to conduct professional intake interviews",
+      "On completion of the course, you will have acquired the necessary psychotherapeutic and assessment skills and professional knowledge to undertake a final year of supervised practice in the field and obtain general registration under the '5 + 1 internship model' for registration."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within psychology.",
+    "evidenceLines": [
+      "Subject: Clinical case formulation (EDF5561)",
+      "Subject: Ethics for professional practice (EDF5562)",
+      "determine the most appropriate evidence based interventions for various presenting issues, diverse population groups and across the lifespan"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in psychology.",
+    "evidenceLines": [
+      "synthesise information from multiple sources to develop an integrative case formulation",
+      "Evidence-based intervention plan demonstration (1600 words or equivalent): 40% (Hurdle: None)",
+      "The course will develop you as an independent professional with a commitment to applying the theoretical, research, assessment and therapeutic skills involved in psychology."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in psychology.",
+    "evidenceLines": [
+      "Subject: Cognitive assessment (EDF5563)",
+      "Subject: Research applications for practitioners (EDF5564)",
+      "Case formulation (2400 words or equivalent): 60% (Hurdle: None)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in psychology.",
+    "evidenceLines": [
+      "apply the professional code of ethics/conduct across a variety of contexts and professional roles",
+      "This course prepares selected psychology graduates for general registration as a psychologist in a range of settings in Australia.",
+      "On completion of the course, you will have acquired the necessary psychotherapeutic and assessment skills and professional knowledge to undertake a final year of supervised practice in the field and obtain general registration under the '5 + 1 internship model' for registration."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in psychology.",
+    "evidenceLines": [
+      "draw from a range of empirically supported client and practitioner values and behaviours to ensure ethical behaviour in all aspects of the science and practice of psychology",
+      "Subject: Psychopathology and personality (EDF5565)",
+      "The course will develop you as an independent professional with a commitment to applying the theoretical, research, assessment and therapeutic skills involved in psychology."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "48 credit points",
+      "This course prepares selected psychology graduates for general registration as a psychologist in a range of settings in Australia."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Professional Psychology.",
+      "evidenceLines": [
+        "48 credit points",
+        "**Part B. Professional experience** **12 credit points**"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in psychology.",
+      "evidenceLines": [
+        "Subject: Clinical case formulation (EDF5561)",
+        "You must complete 48 credit points as described in Part A and Part B"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in general nursing.",
+    "evidenceLines": [
+      "**Institution**: The University of Adelaide",
+      "**Program Identifier / Slug**: bnurs_bnursing",
+      "- **Institution**: The University of Adelaide"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in general nursing.",
+    "evidenceLines": [
+      "**Academic Calendar Year**: 2025/2026",
+      "**Faculty**: Faculty of Health and Medical Sciences",
+      "- **Program Identifier / Slug**: bnurs_bnursing"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within general nursing.",
+    "evidenceLines": [
+      "Subject: Mental Health Nursing (NURS2004)",
+      "Subject: Mental Health Nursing (NURS2004)",
+      "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/bnurs_bnursing"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in general nursing.",
+    "evidenceLines": [
+      "Describe the bio-psycho-social, cultural and historical factors that shape the conceptualisation of mental health, mental illness and mental health care",
+      "Identify the statutory regulations that apply to people experiencing serious mental illness including legal and ethical aspects of mental health care",
+      "- **Academic Calendar Year**: 2025/2026"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in general nursing.",
+    "evidenceLines": [
+      "Subject: Mental Health Nursing (NURS2004)",
+      "Subject: Mental Health Nursing (NURS2004)",
+      "Explain how recovery values and attitudes and strengths-based approaches comprising of the principles of quality, safety and risk management to inform contemporary person-centred mental health nursing care, including self-care for clinicians"
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in general nursing.",
+    "evidenceLines": [
+      "Demonstrate the techniques of mental state assessment and risk assessment when conducting a mental health assessment in a simulated environment",
+      "- **Institution**: The University of Adelaide",
+      "- **Program Identifier / Slug**: bnurs_bnursing"
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in general nursing.",
+    "evidenceLines": [
+      "Apply pathophysiological knowledge of mental health conditions to differentiate between the clinical presentations to inform nursing care and clinical decision making in responding to the mental health needs of a person",
+      "Subject: Mental Health Nursing (NURS2004)",
+      "- **Academic Calendar Year**: 2025/2026"
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "The Bachelor of Nursing is an AQF Level 7 qualification with a standard full-time duration of 3 years.",
+      "- **Institution**: The University of Adelaide"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Nursing.",
+      "evidenceLines": [
+        "The Bachelor of Nursing is an AQF Level 7 qualification with a standard full-time duration of 3 years.",
+        "Inherent requirements:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in general nursing.",
+      "evidenceLines": [
+        "Subject: Mental Health Nursing (NURS2004)",
+        "**Institution**: The University of Adelaide"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

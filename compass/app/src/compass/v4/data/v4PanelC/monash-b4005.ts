@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+    "evidenceLines": [
+      "critically reflect on the strengths and limitations of a project pitch or business case to inform future project initiation and development decisions.",
+      "apply research skills to design project initiation and development strategies using emerging technologies for complex organisational contexts;",
+      "With completion possible in less than a year, the Graduate Certificate of Project Management may be the catalyst you need to upskill and deepen your knowledge and practice skills to launch or advance your career in this dynamic field."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+    "evidenceLines": [
+      "analyse internal and external organisational environments influencing project development in complex and uncertain contexts;",
+      "1 - Presentation: 40% (Hurdle: None)",
+      "You’ll complete four units, where you will develop an understanding of best practice principles and techniques of delivering projects using different methods, processes and knowledge frameworks."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+    "evidenceLines": [
+      "Subject: Project initiation and development (OPO5900)",
+      "Subject: Project delivery, teams and leadership (OPO5901)",
+      "2 - Written: 60% (Hurdle: None)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+    "evidenceLines": [
+      "Teaching period 1: identify and analyse the professional standards and ethical principles associated with project management decisions Teaching period 5: evaluate professional standards and ethical principles to inform responsible project management decision-making in complex organisational contexts",
+      "Teaching period 1: demonstrate an understanding of the complex context of project delivery and the unique dynamics that arise within project teams Teaching period 5: analyse complex organisational and interpersonal dynamics influencing project delivery in team and leadership contexts",
+      "You will also explore techniques to manage diverse and complex projects, including people, stakeholders, communications, culture and politics."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+    "evidenceLines": [
+      "Subject: The planning approach to project management (OPO5902)",
+      "Subject: The learning approach to project management (OPO5903)",
+      "Teaching period 1: engage in reflective learning to develop lessons learnt, creating opportunities for improved performance in a project team. Teaching period 5: critically reflect on project delivery, teams and leadership approaches for improved project outcomes in complex organisational contexts"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+    "evidenceLines": [
+      "2 - Artefact: 40% (Hurdle: None)",
+      "With completion possible in less than a year, the Graduate Certificate of Project Management may be the catalyst you need to upskill and deepen your knowledge and practice skills to launch or advance your career in this dynamic field.",
+      "You’ll complete four units, where you will develop an understanding of best practice principles and techniques of delivering projects using different methods, processes and knowledge frameworks."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+    "evidenceLines": [
+      "1 - Written: 30% (Hurdle: None)",
+      "Subject: The learning approach to project management (OPO5903)",
+      "You will also explore techniques to manage diverse and complex projects, including people, stakeholders, communications, culture and politics."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The course comprises 24 credit points.",
+      "With completion possible in less than a year, the Graduate Certificate of Project Management may be the catalyst you need to upskill and deepen your knowledge and practice skills to launch or advance your career in this dynamic field."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate of Project Management.",
+      "evidenceLines": [
+        "The course comprises 24 credit points.",
+        "You must complete the following four units (24 credit points):"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in business and management.",
+      "evidenceLines": [
+        "Subject: Project initiation and development (OPO5900)",
+        "critically reflect on the strengths and limitations of a project pitch or business case to inform future project initiation and development decisions."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

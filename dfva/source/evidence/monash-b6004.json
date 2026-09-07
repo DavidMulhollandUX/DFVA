@@ -1,0 +1,102 @@
+{
+  "code": "monash-b6004",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 14,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in banking and finance.",
+      "evidenceLines": [
+        "apply economic, industry and business analysis in the valuation process",
+        "compare and contrast approaches to business valuation",
+        "This comprehensive master's degree will provide you with a thorough understanding of the banking and finance industry."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in banking and finance.",
+      "evidenceLines": [
+        "evaluate an entity's accounting information and perform fundamental and financial analysis using a contemporary approach",
+        "develop capabilities to work effectively in a group; and/or demonstrate effective individual research skills to produce a professional quality business document to solve a valuation problem; and/or deliver a professional quality presentation; and/or develop oral communication skills and demonstrate independent thinking through contributions to class discussions; and demonstrate in individual summative assessment tasks the acquisition of an comprehensive understanding of the topics covered by this unit.",
+        "Designed for people who have limited prior knowledge in finance and are looking to enter the industry, the course is ideal if you want to build strong skills in banking and finance, develop your knowledge of financial institutional issues and gain practical experience in applying your acquired knowledge."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within banking and finance.",
+      "evidenceLines": [
+        "Subject: Financial statement analysis and business valuation (ACF5130)",
+        "Subject: Introduction to financial accounting (ACF5950)",
+        "apply prospective analysis including forecasting and valuation to a merger and acquisition case"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in banking and finance.",
+      "evidenceLines": [
+        "3 - Written: 80% (Hurdle: None)",
+        "2 - Presentation: 15% (Hurdle: None)",
+        "This comprehensive master's degree will provide you with a thorough understanding of the banking and finance industry."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in banking and finance.",
+      "evidenceLines": [
+        "Subject: Management accounting (ACF5955)",
+        "Subject: Accounting for business (ACX5903)",
+        "1 - Quiz / Test: 5% (Hurdle: None)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in banking and finance.",
+      "evidenceLines": [
+        "apply the principles of double-entry accounting and appraise the relative merits of accrual and cash accounting",
+        "This comprehensive master's degree will provide you with a thorough understanding of the banking and finance industry.",
+        "Designed for people who have limited prior knowledge in finance and are looking to enter the industry, the course is ideal if you want to build strong skills in banking and finance, develop your knowledge of financial institutional issues and gain practical experience in applying your acquired knowledge."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in banking and finance.",
+      "evidenceLines": [
+        "describe and apply the definition and recognition criteria for assets, liabilities, income and expenses as specified in the conceptual framework",
+        "Subject: Climate change and carbon management strategies (BEX5200)",
+        "This comprehensive master's degree will provide you with a thorough understanding of the banking and finance industry."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course is structured in three parts. Part A. Advanced preparatory studies, Part B. Core studies and Part C. Elective studies.",
+        "This comprehensive master's degree will provide you with a thorough understanding of the banking and finance industry."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Banking and Finance.",
+        "evidenceLines": [
+          "The course is structured in three parts. Part A. Advanced preparatory studies, Part B. Core studies and Part C. Elective studies.",
+          "These studies will introduce you to core commerce disciplines and the impact they have within organisations. The units cover various disciplines and further your understanding of complex business environments."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in banking and finance.",
+        "evidenceLines": [
+          "Subject: Financial statement analysis and business valuation (ACF5130)",
+          "apply economic, industry and business analysis in the valuation process"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

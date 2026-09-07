@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-ec003o",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education.",
+      "evidenceLines": [
+        "Apply knowledge of structural and figurative aspects of oral language to the promotion of spoken language development across the primary and secondary years",
+        "Apply knowledge of the linguistic structure of the English writing system to the design and delivery of explicit classroom instruction and support in reading, writing, and spelling.",
+        "Get the language and literacy skills you need to advance your career through La Trobe's Graduate Certificate in Education (Language and Literacy)."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education.",
+      "evidenceLines": [
+        "Demonstrate an understanding of the distinction between oral language and written language, from both developmental and educational perspectives",
+        "Understand and apply evidence-based models of reading and writing instruction for novice and established learners across year levels.",
+        "Delivered fully online, this program is designed to empower educators, speech pathologists and psychologists to improve literacy outcomes for students and clients through evidence-based practices."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education.",
+      "evidenceLines": [
+        "Subject: LANGUAGE AND LINGUISTICS FOR READING INSTRUCTION (EDU5006)",
+        "Subject: COGNITIVE SCIENCE MODELS OF READING AND WRITING (EDU5007)",
+        "Apply knowledge of information processing to the teaching of reading and writing."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education.",
+      "evidenceLines": [
+        "Critique selected theoretical models of reading and writing and examine multi-tiered levels of instruction.",
+        "Describe the theoretical foundations and empirical support for contemporary instructional design models and pedagogical practices.",
+        "Acting as a pathway from our renowned SOLAR short courses, you'll develop advanced and explicit knowledge about language and literacy skills, as you draw upon the extensive experience, research and leadership of academic staff in the School of Education."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education.",
+      "evidenceLines": [
+        "Subject: INSTRUCTIONAL DESIGN FOR LANGUAGE AND LITERACY TEACHING (EDU5008)",
+        "Subject: MULTI-TIERED SYSTEMS OF SUPPORT ACROSS YEAR LEVELS (EDU5009)",
+        "Employ cognitive psychology frameworks to make informed pedagogical decisions regarding language and literacy (reading, writing and spelling) instruction for all learners."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education.",
+      "evidenceLines": [
+        "Examine the role of the low-variance curriculum as a whole-of-school approach to instructional design and implementation",
+        "Get the language and literacy skills you need to advance your career through La Trobe's Graduate Certificate in Education (Language and Literacy).",
+        "Delivered fully online, this program is designed to empower educators, speech pathologists and psychologists to improve literacy outcomes for students and clients through evidence-based practices."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education.",
+      "evidenceLines": [
+        "Implement and evaluate pedagogical practices across instructional tiers of intervention informed by reliable and valid diagnostic assessment data.",
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "Acting as a pathway from our renowned SOLAR short courses, you'll develop advanced and explicit knowledge about language and literacy skills, as you draw upon the extensive experience, research and leadership of academic staff in the School of Education."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "To qualify for the award of Graduate Certificate in Education (Language and Literacy), students must complete 60 credit points as follows:",
+        "Get the language and literacy skills you need to advance your career through La Trobe's Graduate Certificate in Education (Language and Literacy)."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate in Education.",
+        "evidenceLines": [
+          "To qualify for the award of Graduate Certificate in Education (Language and Literacy), students must complete 60 credit points as follows:",
+          "60 core credit-points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in teacher education.",
+        "evidenceLines": [
+          "Subject: LANGUAGE AND LINGUISTICS FOR READING INSTRUCTION (EDU5006)",
+          "Apply knowledge of structural and figurative aspects of oral language to the promotion of spoken language development across the primary and secondary years"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

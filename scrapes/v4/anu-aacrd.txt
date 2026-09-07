@@ -1,0 +1,479 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/AACRD =====
+# Bachelor of Advanced Computing (Research and Development) (Honours) (AACRD)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: AACRD
+- **Academic Year**: 2027
+- **Career / Study Level**: Undergraduate
+- **Program Duration**: 4 year full-time
+- **Minimum Units Required**: 192 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal BAdvComp(R&D)(H)
+- **CRICOS Code**: code 085359K
+- **UAC Code**: code 135700 (B Advanced Computing (R&D))
+- **Field of Education**: of Education Information Technology
+- **Academic Contact**: contact Michael Norrish
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/AACRD
+
+## Program Description
+A single four year undergraduate award offered by theANU College of Systems and Society
+
+Applicants with an ANU selection rank of98or above are guaranteed admission (subject to meeting any prerequisites).
+
+We consider the unique circumstances and experiences of all applicants. You may be eligible for adjustment factors that recognise educational disadvantages, personal challenges or other barriers that may have impacted your studies.
+
+Learn more about adjustments >
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Define and analyse complex problems, and design, implement and evaluate solutions that demonstrate an understanding of the systems context in which software is developed and operated including economic, social, historical, sustainability and ethical aspects
+2. Demonstrate an operational and theoretical understanding of the foundations of computer science including programming, algorithms, logic, architectures and data structures
+3. Illustrate an understanding of deep knowledge in at least one area of computer science
+4. Demonstrate a deep understanding of the fundamentals of research methodologies, including defining research problems, evaluating background readings, developing literature reviews, designing experiments, and effectively communicating results to a transdisciplinary audience.
+5. Proficiently apply research methods to the solution of contemporary research problems in computer science.
+
+## Program Requirements & Study Options
+### Program Requirements
+The Bachelor of Advanced Computing (Research and Development) (Honours) requires completion of 192 units, of which:
+
+### Elective Study
+Once you have met the program requirements of your degree, you may have enough electives to complete an additional elective
+major
+,
+minor
+or
+specialisation
+.
+
+### Study Options
+Year 1
+48 units
+COMP1130
+Programming as Problem Solving (Advanced)
+6 units
+MATH1005
+Discrete Mathematical Models
+6 units
+MATH1013
+Mathematics and Applications 1
+6 units
+Elective Course
+6 units
+COMP1140
+Structured Programming (Advanced)
+6 units
+COMP1600
+Foundations of Computing
+6 units
+MATH1014
+Mathematics and Applications 2
+6 units
+Elective Course
+6 units
+Year 2
+48 units
+COMP2100
+Software Construction
+6 units
+COMP2300
+Computer Architecture
+6 units
+COMP2420
+COMP2550
+Computing R&D Methods
+6 units
+COMP2120
+Software Engineering
+6 units
+COMP2310
+Systems, Networks, and Concurrency
+6 units
+COMP2560
+COMP3600
+Algorithms
+6 units
+Year 3
+48 units
+Computing Research Specialisation
+6 units
+COMP3770
+Computing Research Project (R&D)
+6 units
+Elective Course
+6 units
+Elective Course
+6 units
+Computing Research Specialisation
+6 units
+COMP3770
+Computing Research Project (R&D)
+6 units
+Elective Course
+6 units
+Elective Course
+6 units
+Year 4
+48 units
+Computing Research Specialisation
+6 units
+COMP4550
+Computing Research Project
+12 units
+COMP4550
+Computing Research Project
+12 units
+Elective Course
+6 units
+Computing Research Specialisation
+6 units
+COMP4550
+Computing Research Project
+12 units
+COMP4550
+Computing Research Project
+12 units
+Elective Course
+6 units
+
+### Admission Requirements
+At a minimum, all applicants must meet program-specific academic/non-academic requirements, and English language requirements. Admission to most ANU programs is on a competitive basis. Therefore, meeting all admission requirements does not guarantee entry into the program.
+
+### Prerequisites
+ACT: Mathematical Methods (Major)/Further Mathematics (Major)/Specialist Mathematics/Specialist Methods (Major)
+
+### Inherent Requirements
+Information on inherent requirements is currently not available for this program.
+
+### Study Options
+Bachelor of Advanced Computing (Research & Development) (Honours)
+
+### Study Options
+Year 1
+48 units
+COMP1130
+Programming as Problem Solving (Advanced)
+6 units
+MATH1005
+Discrete Mathematical Models
+6 units
+MATH1115
+Advanced Mathematics and Applications 1
+6 units
+OR
+MATH1013
+;
+University Elective
+COMP1140
+Structured Programming (Advanced)
+6 units
+COMP1600
+Foundations of Computing
+6 units
+MATH1116
+Advanced Mathematics and Applications  2
+6 units
+OR
+MATH1014
+;
+University Elective
+
+### Study Options
+Year 1
+48 units
+COMP1130
+Programming as Problem Solving (Advanced)
+6 units
+MATH1005
+Discrete Mathematical Models
+6 units
+MATH1115
+Advanced Mathematics and Applications 1
+6 units
+OR
+MATH1013
+;
+Other Degree course
+COMP1140
+Structured Programming (Advanced)
+6 units
+COMP1600
+Foundations of Computing
+6 units
+MATH1116
+Advanced Mathematics and Applications  2
+6 units
+OR
+MATH1014
+;
+Other Degree course
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1130 =====
+Subject: Programming as Problem Solving (Advanced) (COMP1130)
+Credit Points: 6 units
+Overview: This course is a variation on Programming for Problem Solving (COMP1100). It covers the same topics in more depth, requiring additional contact hours to allow students to deepen their understanding and experience. They will understand the foundations of program semantics, program proof, and implementation of the programming language features that they have learned in the course. As the advanced version of the course the first six Learning Outcomes are the same as forCOMP1100.
+
+Students can start inCOMP1130and then drop back toCOMP1100during the semester.  You cannot change intoCOMP1130after week 2.
+
+This course is an Advanced Studies Extension Course (ASE), with the additional work required for an ASE built into theCOMP1130assessment.
+Learning Outcomes:
+- Apply fundamental programming concepts, using a functional programming language, to solve problems.
+- Understand basic types and the benefits of static typing.
+- Describe, understand and evolve programs, via documentation, testing, and debugging.
+- Discuss, use, and apply the fundamentals of data structures, algorithms, and design; create, implement, and debug algorithms for solving problems, including recursively, using divide-and-conquer, and via decomposition.
+- Discuss basic algorithmic analysis for simple algorithms; determine appropriate algorithmic approaches to a problem (for example bruteforce, greedy, divide-and-conquer, recursive backtracking, heuristic, dynamic programming).
+- Understand and apply the concepts of parametric and ad-hoc polymorphism.
+- Reflect on the fundamental mathematical concepts underlying functional programming.
+- Use formal proof and structural induction to reason about the correctness of functional programs.
+- Assessing the significance of different evaluation strategies, including laziness, for the computational behaviour of functional programs.
+Assessment Tasks:
+- Assignments: 30% (Hurdle: False)
+- Lab Assessment: 5% (Hurdle: False)
+- Mid-Term Exam: 10% (Hurdle: False)
+- Final Exam: 55% (Hurdle: False)
+Workload: Lectures, tutorial/laboratory sessions and self-study to work through the material, and prepare for assessments and labs.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1140 =====
+Subject: Structured Programming (Advanced) (COMP1140)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1600 =====
+Subject: Foundations of Computing (COMP1600)
+Credit Points: 6 units
+Overview: This course presents some formal notations that are commonly used for the description of computation and of computing systems, for the specification of software and for mathematically rigorous arguments about program properties. The following areas of study constitute the backbone of the course: predicate calculus and natural deduction, inductive definitions of data types as a basis for recursive functions and structural induction, specification languages and their use in program verification.
+Learning Outcomes:
+- Apply the concepts of mathematical logic to formulate, analyse and evaluate formal assertions about programs
+- Construct proofs or refutations in a variety of formalisms, particularly in a semi-automated, machine-assisted setting.
+- Prove simple properties of recursive functions on inductively defined data structures using structural induction.
+- Prove simple programs correct using Hoare Logic.
+Assessment Tasks:
+- Assignments: 40% (Hurdle: False)
+- Quizzes: 10% (Hurdle: False)
+- Final Exam: 50% (Hurdle: False)
+Workload: Lectures, tutorials and self-directed study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP2100 =====
+Subject: Software Construction (COMP2100)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP2120 =====
+Subject: Software Engineering (COMP2120)
+Credit Points: 6 units
+Overview: Real-world software development is a complex and dynamic activity involving people, technology and processes interacting within a complex environment of clients, users and other stakeholders while being observant of technological, physical, social, legal, and ethical constraints.This course will empower students with the ability and confidence necessary to exercise critical thinking and professional judgment to select and apply appropriate knowledge, practices and tools to the development of non-trivial software systems. This will be achieved by introducing students to important design methodologies. We will build on previous programming courses to deepen and broaden students' knowledge and understanding of the practices and tools used to build large software systems within complex environments. We will use real-world examples such as distributed, high-integrity, web-based systems where rigorous software engineering can demonstrably enhance business value.Students will learn how practices and tools can be adapted to suit specific project needs and contexts. Knowledge, practices and tools considered in this course will include process models, requirements engineering, design, modelling and user experience.
+Learning Outcomes:
+- Describe the breadth and nature of the software engineering process, including project management activities, and distinguish various phases of the process;
+- Evaluate other people's code contributions using modern formal code inspection approaches.
+- Apply correct techniques for ensuring and assessing the quality of software.
+- Assess the issues in constructing large software systems from their components, including considerations of cyber security and user-centred design, and evaluate the nature and design of these components.
+- Employ group working skills in solving software development problems;
+- Analyse and evaluate IT-related scenarios with reference to the software engineering code of ethics and professional practice.
+Assessment Tasks:
+- Individual Assignment: 5% (Hurdle: False)
+- Group Assignments & Presentation: 50% (Hurdle: False)
+- Final Exam: 45% (Hurdle: False)
+Workload: 130 hours including lectures, video lectures, tutorials and self-study.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP2300 =====
+Subject: Computer Architecture (COMP2300)
+Credit Points: 6 units
+Overview: This course is a rigorous introduction to the design of digital circuits and computer architecture. It provides technical foundations for how a computer system is built from the bottom up and how the high-level programming languages you learn in other courses are translated into simple instructions the computer executes. The course introduces the different abstraction layers necessary to make a computer system work, and a key focus is the connection between hardware and software.
+
+The course introduces the predominant stored-program computer paradigm and principles of digital design and computer architecture. Students build a fully functional general-purpose computer from simple logic circuits in a digital simulator. The course also demystifies assembly code, the machine language the processor speaks, and the mapping of assembly programs to higher levels of programming abstraction. The focus is on fundamental techniques employed in the design of modern microprocessors and their hardware/software interface.
+
+This course will challenge your understanding of how computers work and what happens in them when we run a program. At the end of this course, you will be able to navigate between layers of abstraction in a computer system, from individual digital circuits to high-level software, and understand how low-level structures enable and enhance the abilities of a computer system.
+
+This course covers topics such as combinational and sequential logic design, digital building blocks such as arithmetic/logic unit and random access memory, instruction set architectures and assembly programming, input/output systems, interrupt handling, single-cycle and pipelined processor design, out-of-order execution, and hardware speculation.
+Learning Outcomes:
+- Understand the basics of digital circuits and principles of digital design.
+- Learn how a modern computer works underneath from the bottom up.
+- Design and implement a simple processor in a digital simulator following a principled approach.
+- Evaluate tradeoffs of different designs and ideas.
+- Debug complex systems systematically at different abstraction layers.
+- Evaluate computer systems at abstraction levels from software to individual digital circuits and account for the implications of machine-level choices.
+- Write programs in assembly language and explain the relationship between high-level and assembly languages, including function calls and basic control structures.
+Assessment Tasks:
+- Labs and Quizzes: 10% (Hurdle: False)
+- Practical Assignments: 40% (Hurdle: False)
+- Final Exam: 50% (Hurdle: False)
+Workload: Lectures and laboratory sessions plus self study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP2310 =====
+Subject: Systems, Networks, and Concurrency (COMP2310)
+Credit Points: 6 units
+Overview: This course is based on the foundations set by the previous course on computer organisation. It expands particularly into all forms of concurrent programming including aspects of massively parallel programming. It introduces all basic mechanisms to analyse, design, and manage concurrent, single computer-node (multicore) as well as distributed applications (e.g. as performance or dependability enhancements).
+
+Following on from the previous course, the fields of operating systems and networking will also be expanded on. On the operating system side aspects of security, scheduling algorithms and memory management are discussed. More specific networking aspects follow on from message passing as a core concurrency construct. These include the basics of routing and dependable protocols.
+Learning Outcomes:
+- Model, design and program concurrent systems.
+- Select appropriate modeling techniques, tools and mechanisms to solve a range of problems in concurrent and distributed systems. This includes the appropriate programming language and runtime environment for the task at hand.
+- Analyse and debug concurrent programs.
+- Understand the aspects of an operating system concerning scheduling, protection and memory management.
+- Employ message passing locally and over networks to construct distributed systems
+- Distinguish as well as connect conceptual concurrency with physical parallelism at all levels of a distributed system.
+- Identify core aspects of operating systems and networks irrespective of the specific system at hand.
+Assessment Tasks:
+- Assignments: 30% (Hurdle: False)
+- Lab Exam: 5% (Hurdle: False)
+- Mid-Semester Test: 15% (Hurdle: False)
+- Final Exam: 50% (Hurdle: False)
+Workload: The total workload for the course will be 130 hours including lectures and tutorial/lab sessions. Additional effort will be required in preparing and deepening the material of those sessions. Two major assignments require multiple days of attention each.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP2550 =====
+Subject: Computing R&D Methods (COMP2550)
+Credit Points: 6 units
+Overview: This Advanced Studies Course introduces students to some fundamentals of research methodology. The course comprises a series of lectures which cover the following topics: Philosophy of Science, Quantitative Research Methods, Qualitative Research Methods, Basic Machine Learning Methods, Theoretical Research Methods, How to find a Research Topic, Literature Analysis, Reading and Reviewing Papers, Research Ethics and Commercialising Research. The lectures will be complemented by a series of workshops, labs and assignments that require students to do some small research-focused tasks that help them get a hands-on experience of research, both individually and in teams of students. This includes different tasks such as topic modelling, statistical analysis, applying different machine learning techniques to solve a problem in a team, proving theorems, complexity analysis, designing a research project, reviewing papers and presenting papers. Workshops cover topics such as research integrity, time management and project management, teamwork, reading strategies, report writing, and presenting research. At the end of the course, students will be confident to start working on their own research projects.
+Learning Outcomes:
+- Demonstrate an ability to communicate in relation to a computing project in oral, written and graphical forms, with an an appreciation of the need to pitch any communication item appropriately for the audience. This includes demonstrated skills in the writing of abstracts and research papers.
+- Understand the ethical considerations involved in the process of identifying and formulating research problems.
+- Ability to carry out literature searches and some ability to critically evaluate literature.
+- Design and conduct experiments, devise appropriate measurements, analyze and interpret data and form reliable conclusions.
+- Understanding of academic integrity and the importance of building upon and correctly attributing the work of others.
+Assessment Tasks:
+- Research Proposal: 20% (Hurdle: False)
+- Literature Review: 60% (Hurdle: False)
+- Presentation: 20% (Hurdle: False)
+Workload: 130 hours from a combination of lectures, workshops/tutorials, assessments and individual study.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP3600 =====
+Subject: Algorithms (COMP3600)
+Credit Points: 6 units
+Overview: Algorithms are the foundation of Computer Science. They enable advances in Artificial Intelligence, Machine Learning, Cybersecurity, Distributed, Mobile, and Cloud Computing, Computer Graphics and Animation, and many more. These advances have made Computer Science an indispensable part of our everyday life.
+
+The main goal of this course is to familiarize students with basic concepts in the design and analysis of algorithms and data structures. It focuses on fundamental computing problems such as sorting and searching. The students will learn how to use different algorithm design methods and data structures to solve such problems efficiently, as well as basic performance measures and analysis techniques.
+Learning Outcomes:
+- Display a solid understanding of classical algorithms for fundamental computing problems such as sorting and searching and their analysis.
+- Demonstrate knowledge of various data structures, such as binary search trees and heaps, and their applications.
+- Design efficient algorithms using techniques such as greedy approaches and dynamic programming.
+- Analyse the time and space complexity of algorithms.
+Assessment Tasks:
+- Assignments: 5% (Hurdle: False)
+- Midterm assessments: 40% (Hurdle: False)
+- Final Exam: 55% (Hurdle: False)
+Workload: Students are expected to recap and conduct independent studies for as many hours as they need to gain an understanding of the materials. To help this learning process, we provide lectures and tutorial/laboratory sessions. The total workload is expected to be 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP3770 =====
+Subject: Computing Research Project (R&D) (COMP3770)
+Credit Points: 6 units
+Overview: COMP3770is an Annual course (6+6) that must be completed twice, in consecutive semesters.
+
+This is an Individual Research Project (IRP) within the Bachelor of Advanced Computing (Research and Development) (Honours) degree, specifically designed to provide a strong research focus customised to each student. These give students valuable research experience along with the opportunity to explore different research areas prior to their final Honour's project.
+Learning Outcomes:
+- plan and engage in an independent and sustained critical investigation and evaluation of a chosen computer science research topic,
+- engage in systematic discovery and critical review of appropriate and relevant information sources,
+- propose, develop and evaluate different approaches for solving a research problem, and
+- communicate research concepts and contexts clearly and effectively, in writing and orally and in the production of a research-related artifact.
+Assessment Tasks:
+- Thesis: 90% (Hurdle: False)
+- Presentation: 10% (Hurdle: False)
+Workload: Annual Course. Student enrol in Semester 1 and Semester 2 in consecutive semesters.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP4550 =====
+Subject: Computing Research Project (COMP4550)
+Credit Points: 12 units
+Overview: COMP4550(12+12) is an Annual course that must be completed twice, in consecutive semesters.
+
+Students will conduct an individual research project under the close supervision of one or more academic staff. Projects will, at least in part, require the application of theoretical or experimental research techniques. In particular, students will be expected to conduct and present a survey of the literature relevant to the research topic.
+
+Students will prepare a thesis reporting on the research project and its outcomes. They will also be expected to present a poster or a short seminar describing their work.
+Learning Outcomes:
+- Identify a question/problem in a particular field of computing and devise a plan for a research project to investigate the topic.
+- Apply effective literature search and critical evaluation skills to complete a literature survey in the project topic area.
+- Select and apply appropriate research methods, tools, techniques to develop research findings and insights.
+- Effectively communicate research questions, methods and outcomes in oral, written and graphical forms to a broad audience using appropriate tools.
+- Produce a structured written thesis demonstrating an understanding of the chosen research area.
+Assessment Tasks:
+- Thesis: 90% (Hurdle: False)
+- Presentation: 10% (Hurdle: False)
+Workload: Annual Course. Students enrol in Semester 1 and Semester 2 in consecutive semesters.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1005 =====
+Subject: Discrete Mathematical Models (MATH1005)
+Credit Points: 6 units
+Overview: Introduction to discrete mathematics and its use in mathematical modelling. Emphasis will be placed on developing facility, technique and use in applications. Modelling of processes and phenomena which occur in the physical, environmental and life sciences, especially computer science, will be used as a vehicle throughout. Topics to be covered include: logic and set theory, mathematical reasoning, combinatorics and counting, probability, mathematical induction and recurrence relations, graph theory and networks, matrix arithmetic and Markov chains.
+Learning Outcomes:
+- Recall, invent, interpret examples of motivation for mathematical constructs used in discrete mathematics as models of processes in the world.
+- Recognise, define, explain and use terminology and notation from discrete mathematics.
+- Identify the logical structure of a statement, and then identify the logical structure of an argument that may be used to prove or disprove the statement.
+- Perform mathematical calculations in discrete mathematics using methods presented in the course.
+- Write simple proofs/construct explicit counterexamples for statements relating to discrete mathematics topics covered in the course.
+Assessment Tasks:
+- Workshop quizzes: 10% (Hurdle: False)
+- Workshop contributions: 10% (Hurdle: False)
+- Written assignments: 20% (Hurdle: False)
+- Final ExaminationRegardless of performance on other assessment items, a minimum scaled score of 40% on the final exam is required to pass the course.: 60% (Hurdle: True)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1013 =====
+Subject: Mathematics and Applications 1 (MATH1013)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1014 =====
+Subject: Mathematics and Applications 2 (MATH1014)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1115 =====
+Subject: Advanced Mathematics and Applications 1 (MATH1115)
+Credit Points: 6 units
+Overview: This course begins an in-depth study of the fundamental concepts of calculus and linear algebra, with a particular emphasis on the underlying foundations of mathematics. The use and understanding of proof and abstract ideas will allow students to develop analytical skills which will form a base for further study in fundamental mathematics, as well as providing a foundation for a wide range of quantitative areas such as actuarial studies, computer science, economics, engineering, physics and statistics.
+
+Topics to be covered include:
+
+Calculus/Analysis - suprema and infima of sets of real numbers, completeness, Riemann-Darboux definition of integration, introductory formal logic, axioms for the real numbers, convergence, limits, continuity, existence of extrema, differentiation, applications of derivatives, proof of the fundamental theorem of calculus, Taylor polynomials, l'Hospital's rules, inverse functions;
+
+Linear Algebra - solving linear equations, matrix equations, linear independence, matrix transformations, matrix operations, matrix inverses, abstract vector spaces, subspaces, dimension and rank, determinants, Cramer's rule, complex numbers, eigenvectors and eigenvalues.
+
+Note: This is an Honours Pathway Course (HPC).
+
+It involves extra material and emphasises the use and understanding of proof and abstract ideas to a deeper conceptual level thanMATH1013.
+Learning Outcomes:
+- Explain the fundamental concepts of calculus and linear algebra and their role in modern mathematics and applied contexts.
+- Demonstrate accurate and efficient use of calculus and linear algebra techniques.
+- Demonstrate capacity for mathematical reasoning through analysing, proving and explaining concepts and theorems from calculus and linear algebra.
+- Apply problem-solving using calculus and linear algebra techniques applied to diverse situations in physics, engineering and other mathematical contexts.
+Assessment Tasks:
+- Weekly assignments and online quizzes: 30% (Hurdle: False)
+- In-class tests during the semester: 25% (Hurdle: False)
+- Final examination: 45% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1116 =====
+Subject: Advanced Mathematics and Applications  2 (MATH1116)
+Credit Points: 6 units
+Overview: This course continues on fromMATH1115, providing an in-depth development of fundamental concepts of calculus and linear algebra, with a particular emphasis on the underlying foundations of mathematics. The use and understanding of proof and abstract ideas will allow students to develop analytical skills which will form a base for further study in fundamental mathematics, as well as providing a foundation for a wide range of quantitative areas such as actuarial studies, computer science, economics, engineering, physics and statistics.
+
+Topics to be covered include:
+
+Calculus/Analysis – sequences and series, convergence tests, power series, Taylor series, a short introduction to metric spaces in the context of the calculus of functions of several variables, generalisation of the real analysis theory studied inMATH1115to multivariable functions including limits and continuity, double integrals, Fubini's theorem, integrability of continuous functions, partial derivatives, gradients and directional derivatives, differentiation of multivariable functions, extreme values, vector-valued functions.
+
+Linear Algebra – subspaces, span, linear independence, bases and dimension, linear maps, duality, eigenvalues and eigenvectors, inner product spaces, Gram-Schmidt orthogonalisation, operators on inner product spaces, the spectral theorem in finite dimensions, singular value decomposition.
+
+Note: This is an Honours Pathway Course. It involves extra material and emphasises the use and understanding of proof and abstract ideas to a deeper conceptual level thanMATH1014.
+Learning Outcomes:
+- Explain the fundamental concepts of analysis and linear algebra and their role in modern mathematics and applied contexts.
+- Demonstrate accurate and efficient use of analysis and linear algebra techniques.
+- Demonstrate capacity for mathematical reasoning through analysing, proving and explaining concepts and theorems from analysis and linear algebra.
+- Apply problem-solving using analysis and linear algebra techniques applied to diverse situations in physics, engineering and other mathematical contexts.
+Assessment Tasks:
+- In-workshop assessment: 0% (Hurdle: False)
+- Assignments and online quizzes: 30% (Hurdle: False)
+- Tests during the semester: 30% (Hurdle: False)
+- Final examination: 40% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+

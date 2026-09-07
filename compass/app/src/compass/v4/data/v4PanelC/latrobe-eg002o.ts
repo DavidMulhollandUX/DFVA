@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education: early childhood.",
+    "evidenceLines": [
+      "Synthesise research-informed theories to design learning environments, engagement and feedback strategies that support inquiry-based science and technology learning.",
+      "Critically evaluate inquiry-based planning, pedagogy, and assessment practices that support inclusive and high-quality science and technology learning.",
+      "Synthesise research-informed theories to design learning environments, engagement and feedback strategies that support inquiry-based science and technology learning."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education: early childhood.",
+    "evidenceLines": [
+      "Design and evaluate learning and teaching experiences in connection with authentic assessment tools with informed understanding of the concepts, skills, and capabilities important to science and technology curriculum streams.",
+      "Evaluate curriculum and pedagogical decisions in relation to Aboriginal and Torres Strait Islander knowledges, including Country, community, and history.",
+      "Critically evaluate inquiry-based planning, pedagogy, and assessment practices that support inclusive and high-quality science and technology learning."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education: early childhood.",
+    "evidenceLines": [
+      "Subject: SCIENCE, TECHNOLOGY AND PLAY (EDU4034)",
+      "Subject: SAFE AND ETHICAL EARLY CHILDHOOD SETTINGS (EDU4035)",
+      "Outline and apply knowledge of key science and technology concepts, and evidence-based pedagogical approaches to play-based learning in early childhood contexts."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education: early childhood.",
+    "evidenceLines": [
+      "Analyse how early childhood curriculum promotes cultural safety, children’s learning and agency in accordance with National Quality Standards and Early Years Learning Framework.",
+      "Document and analyse learning information to inform inclusive teaching practices and build meaningful, safe relationships with children, families, and colleagues.",
+      "Design and evaluate learning and teaching experiences in connection with authentic assessment tools with informed understanding of the concepts, skills, and capabilities important to science and technology curriculum streams."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education: early childhood.",
+    "evidenceLines": [
+      "Subject: LANGUAGE, LITERACIES AND PLAY (EDU4036)",
+      "Subject: EARLY CHILDHOOD ASSESSMENT AND REPORTING (EDU5036)",
+      "Evaluate and apply relevant theories from the learning sciences and child development to analyse early learning and development in diverse contexts ."
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education: early childhood.",
+    "evidenceLines": [
+      "Critically examine growth, safety, development, learning, and play in children from birth to five, and apply this to ethical early childhood teaching practice.",
+      "Synthesise research-informed theories to design learning environments, engagement and feedback strategies that support inquiry-based science and technology learning.",
+      "Critically evaluate inquiry-based planning, pedagogy, and assessment practices that support inclusive and high-quality science and technology learning."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education: early childhood.",
+    "evidenceLines": [
+      "Analyse and apply research-informed language and literacy learning processes for children from birth to 5 years.",
+      "Subject: EARLY CHILDHOOD LEADERSHIP (EDU5037)",
+      "Design and evaluate learning and teaching experiences in connection with authentic assessment tools with informed understanding of the concepts, skills, and capabilities important to science and technology curriculum streams."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "* Core participation requirements",
+      "Synthesise research-informed theories to design learning environments, engagement and feedback strategies that support inquiry-based science and technology learning."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Diploma in Early Childhood Education - On.",
+      "evidenceLines": [
+        "* Core participation requirements",
+        "Learn from highly experienced teachers with an industry-connected curriculum designed in consultation with industry partners and delivered by La Trobe's award-winning School of Education*. You'll gain the skills and knowledge to support the next generation of pre-school children develop foundational skills across social, emotional, physical and academic areas. Explore key… For more content click the Read more button below."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in teacher education: early childhood.",
+      "evidenceLines": [
+        "Subject: SCIENCE, TECHNOLOGY AND PLAY (EDU4034)",
+        "Synthesise research-informed theories to design learning environments, engagement and feedback strategies that support inquiry-based science and technology learning."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

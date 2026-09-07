@@ -1,0 +1,102 @@
+{
+  "code": "adelaide-hocth_hboccther",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in occupational therapy.",
+      "evidenceLines": [
+        "**Institution**: The University of Adelaide",
+        "**Program Identifier / Slug**: hocth_hboccther",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in occupational therapy.",
+      "evidenceLines": [
+        "**Academic Calendar Year**: 2025/2026",
+        "**Faculty**: Faculty of Health and Medical Sciences",
+        "- **Program Identifier / Slug**: hocth_hboccther"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within occupational therapy.",
+      "evidenceLines": [
+        "Subject: Biosciences for Human Health A (HLTH1018)",
+        "Subject: Communication in Professional Practice (HLTH1019)",
+        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/hocth_hboccther"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in occupational therapy.",
+      "evidenceLines": [
+        "Describe the anatomical organisation of the human body and relate it to whole body function using appropriate anatomical and physiological terminologies",
+        "Explain how cellular activity contributes to the function of organs and the body as a whole.",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in occupational therapy.",
+      "evidenceLines": [
+        "Subject: Foundations of Health and Wellbeing (HLTH1020)",
+        "Subject: Biosciences for Human Health B (HLTH1021)",
+        "Describe how body systems contribute to homeostasis under normal conditions."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in occupational therapy.",
+      "evidenceLines": [
+        "Present scientific information appropriately in tables, graphs and figures.",
+        "- **Institution**: The University of Adelaide",
+        "- **Program Identifier / Slug**: hocth_hboccther"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in occupational therapy.",
+      "evidenceLines": [
+        "Analyse, interpret and communicate scientific information using appropriate anatomical and physiological terminologies.",
+        "Subject: Evidence Based Practice in Allied Health 1 (HLTH1022)",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "The Bachelor of Occupational Therapy (Honours) is an AQF Level 8 qualification with a standard duration of 4 years full-time or part-time equivalent.",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Occupational Therapy.",
+        "evidenceLines": [
+          "The Bachelor of Occupational Therapy (Honours) is an AQF Level 8 qualification with a standard duration of 4 years full-time or part-time equivalent.",
+          ".\u00a0 It is completed on enrolment into the program and does not require action by the student. Students will be advised when they have been registered. Students will also have additional requirements for each hospital site that must be met and maintained throughout their study."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in occupational therapy.",
+        "evidenceLines": [
+          "Subject: Biosciences for Human Health A (HLTH1018)",
+          "**Institution**: The University of Adelaide"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

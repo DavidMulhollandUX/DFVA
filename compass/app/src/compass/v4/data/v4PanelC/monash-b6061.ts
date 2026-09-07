@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+    "evidenceLines": [
+      "assess the distinct ethical considerations that apply to strategic communications practice;",
+      "apply advanced communication, research and analytical skills.",
+      "The Master of Global Business is a multi-disciplinary program that advances your knowledge of business and the global environment in which it operates."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+    "evidenceLines": [
+      "apply critical thinking skills to practical cases in the field of strategic communications;",
+      "identify and critically analyse the core concepts and theories of strategic communication across public, private and non-government sectors;",
+      "This Master’s program provides you not only with a comprehensive understanding of the dynamic economic, political and social forces that affect and impact upon global business, but also with the skill set required to function and operate in a global environment."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+    "evidenceLines": [
+      "Subject: Strategic communications in a digital era (ATI5366)",
+      "Subject:  Data analytics in communications (ATI5374)",
+      "identify and critically evaluate local and global practices of strategic communications in the digital era in terms of their goals and effectiveness;"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+    "evidenceLines": [
+      "Presentation: 30% (Hurdle: None)",
+      "Case Study: 50% (Hurdle: None)",
+      "The Master of Global Business is designed to build upon your work experience and your undergraduate credentials by further developing and strengthening your business skills and acumen."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+    "evidenceLines": [
+      "Subject: Crisis communications and issues management (ATI5381)",
+      "Subject: Microbiome science (BTH3260)",
+      "Exercises: 20% (Hurdle: None)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+    "evidenceLines": [
+      "assess the distinct ethical, legal and public interest implications raised by the use of big data;",
+      "The Master of Global Business is a multi-disciplinary program that advances your knowledge of business and the global environment in which it operates.",
+      "This Master’s program provides you not only with a comprehensive understanding of the dynamic economic, political and social forces that affect and impact upon global business, but also with the skill set required to function and operate in a global environment."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+    "evidenceLines": [
+      "gather, analyse and visualise digital data in the context of communication flows;",
+      "Subject: Global trade governance (BTI5905)",
+      "The Master of Global Business is designed to build upon your work experience and your undergraduate credentials by further developing and strengthening your business skills and acumen."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The Master of Global Business is structured in three parts. Part A. Core studies, Part B. Capstone studies and Part C. Elective studies",
+      "The Master of Global Business is a multi-disciplinary program that advances your knowledge of business and the global environment in which it operates."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Global Business.",
+      "evidenceLines": [
+        "The Master of Global Business is structured in three parts. Part A. Core studies, Part B. Capstone studies and Part C. Elective studies",
+        "Part A. Core studies"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in business and management.",
+      "evidenceLines": [
+        "Subject: Strategic communications in a digital era (ATI5366)",
+        "assess the distinct ethical considerations that apply to strategic communications practice;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

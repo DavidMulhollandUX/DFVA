@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in natural and physical sciences.",
+    "evidenceLines": [
+      "**Institution**: The University of Sydney (USYD)",
+      "**Course / Program Identifier**: brain-mind-sciences",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in natural and physical sciences.",
+    "evidenceLines": [
+      "**Academic Year**: 2026",
+      "**Faculty**: medicine-health-pg",
+      "- **Course / Program Identifier**: brain-mind-sciences"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within natural and physical sciences.",
+    "evidenceLines": [
+      "Subject: Psychodynamic Principles and Frameworks (PSTY5201)",
+      "Subject: Epidemiology Methods and Uses (PUBH5010)",
+      "**Handbook URL**: https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/brain-mind-sciences.html"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in natural and physical sciences.",
+    "evidenceLines": [
+      "LO1 . outline the process and important elements of a psychotherapy assessment and apply these as appropriate in clinical practice",
+      "LO2 . understand and be able to develop a clinical formulation emphasizing psychodynamic/developmental principles within a biopsychosocial framework",
+      "- **Faculty**: medicine-health-pg"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in natural and physical sciences.",
+    "evidenceLines": [
+      "Subject: Introductory Biostatistics (PUBH5018)",
+      "Subject: Aboriginal/Torres Strait Islander Health (PUBH5120)",
+      "LO3 . understand and be able to recognise indications for different types of psychotherapy on a supportive-expressive continuum"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in natural and physical sciences.",
+    "evidenceLines": [
+      "LO4 . identify patients for whom expressive, psychodynamic psychotherapy is unlikely to be helpful including recognition of, within the clinical domain of Mental Disorders, acute and chronic psychotic disorders; acute depression with severe psychomotor retardation and suicidal risk; severe substance abuse disorders; patients who have significant language/expressive limitations; patients where the level of behavioural disturbance is likely to impede therapeutic efforts",
+      "- **Institution**: The University of Sydney (USYD)",
+      "- **Course / Program Identifier**: brain-mind-sciences"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in natural and physical sciences.",
+    "evidenceLines": [
+      "LO5 . describe the common aetiological and protective factors which influence mental development including biological and psychosocial factors, including complex trauma, and apply this knowledge in understanding the presentation of individual patients",
+      "Subject: Qualitative Research in Health (PUBH5505)",
+      "- **Faculty**: medicine-health-pg"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "Students must complete 48 credit points, including:",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Brain and Mind Sciences.",
+      "evidenceLines": [
+        "Students must complete 48 credit points, including:",
+        "(a) 18 credit points of core units of study; and"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in natural and physical sciences.",
+      "evidenceLines": [
+        "Subject: Psychodynamic Principles and Frameworks (PSTY5201)",
+        "**Institution**: The University of Sydney (USYD)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

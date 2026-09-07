@@ -1,0 +1,102 @@
+{
+  "code": "monash-a4009",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+      "evidenceLines": [
+        "Work collaboratively in teams to identify problems and design appropriate responses to cultural and events management challenges across different national contexts;",
+        "Apply critical thinking approaches to current challenges in sustainable management of cultural and events products, and design appropriate solutions;",
+        "The challenges and opportunities presented by the fast growing industry of sustainable tourism requires qualified\u00a0professionals with an international mindset."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+      "evidenceLines": [
+        "Critically analyse and evaluate case studies of cultural and events product using relevant theories, models and frameworks;",
+        "Communicate ideas in a range of academic and professional formats",
+        "The Graduate Certificate of\u00a0International Sustainable Tourism Management is designed for both emerging professionals and those wishing to enhance their understanding without a background in the industry."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+      "evidenceLines": [
+        "Subject: Cultural tourism and events management (APG5128)",
+        "Subject: International tourism marketing research project (APG5183)",
+        "Case Study: 40% (Hurdle: None)"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+      "evidenceLines": [
+        "Oral Presentation: 20% (Hurdle: None)",
+        "Case Study: 40% (Hurdle: None)",
+        "In the degree you will explore and analyse the global tourism industry, and build essential skills in critical thinking, writing and\u00a0presentation in multicultural settings to enhance your learning success and career capabilities."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+      "evidenceLines": [
+        "Subject: Strategic communications in a digital era (APG5366)",
+        "Subject: Tourism industry and marketing (APG5389)",
+        "Collaborate constructively with fellow students in designing and undertaking a substantial research project in an international professional context;"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+      "evidenceLines": [
+        "Critically assess the opportunities and challenges facing international tourism marketing and product development, particularly in the context of developing tourism economies;",
+        "The challenges and opportunities presented by the fast growing industry of sustainable tourism requires qualified\u00a0professionals with an international mindset.",
+        "The Graduate Certificate of\u00a0International Sustainable Tourism Management is designed for both emerging professionals and those wishing to enhance their understanding without a background in the industry."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+      "evidenceLines": [
+        "Develop confidence in approaching and working with individuals and organisations in a professional international setting.",
+        "Subject: Contemporary tourism and development in emerging economies (APG5390)",
+        "In the degree you will explore and analyse the global tourism industry, and build essential skills in critical thinking, writing and\u00a0presentation in multicultural settings to enhance your learning success and career capabilities."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "You complete two core units which provide knowledge, skills, attitudes and values required of\u00a0skilled practitioners working in a range of fields addressing tourism.",
+        "The challenges and opportunities presented by the fast growing industry of sustainable tourism requires qualified\u00a0professionals with an international mindset."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate of International Sustainable Tourism Management.",
+        "evidenceLines": [
+          "You complete two core units which provide knowledge, skills, attitudes and values required of\u00a0skilled practitioners working in a range of fields addressing tourism.",
+          "24 credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in business and management.",
+        "evidenceLines": [
+          "Subject: Cultural tourism and events management (APG5128)",
+          "Work collaboratively in teams to identify problems and design appropriate responses to cultural and events management challenges across different national contexts;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

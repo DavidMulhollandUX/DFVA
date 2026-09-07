@@ -1,0 +1,102 @@
+{
+  "code": "monash-e3004",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Identify foundational mathematical theory that is essential to engineering applications.",
+        "Discuss mathematical theory as part of a team of peers.",
+        "This double degree course in engineering and biomedical science can lead to a rewarding career designing medical technology to improve human lives."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Describe mathematical techniques and arguments clearly in written and spoken format.",
+        "Applied class quizzes: 10% (Hurdle: None)",
+        "Advances in biological sciences and demand for technological solutions are creating new opportunities for engineers."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: Foundation mathematics (ENG1090)",
+        "Subject: Foundation physics (PHS1001)",
+        "Semester 1 - Seminar quizzes: 10% (Hurdle: Competency)"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Mid-term test: 20% (Hurdle: None)",
+        "Assignments: 10% (Hurdle: None)",
+        "In the next 25 years, engineering will be transformed as it fuses with developments in biomedical science."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: Foundation mathematics (ENG1090)",
+        "Subject: Foundation physics (PHS1001)",
+        "Final assessment: 50% (Hurdle: None)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Semester 2, Oct - Competency hurdle quizzes: 10% (Hurdle: Competency)",
+        "This double degree course in engineering and biomedical science can lead to a rewarding career designing medical technology to improve human lives.",
+        "Advances in biological sciences and demand for technological solutions are creating new opportunities for engineers."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Communicate explanations of problems and results of experimentations in written and verbal form.",
+        "Subject: Foundation physics (PHS1001)",
+        "In the next 25 years, engineering will be transformed as it fuses with developments in biomedical science."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "Refer to each partner course for the post nominals for the degree awarded",
+        "This double degree course in engineering and biomedical science can lead to a rewarding career designing medical technology to improve human lives."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Engineering.",
+        "evidenceLines": [
+          "Refer to each partner course for the post nominals for the degree awarded",
+          "These units will develop your understanding of natural and physical sciences, mathematics, numerical analysis, statistics, and computer and information sciences that underpin all engineering disciplines.\u00a0\u00a0If you have not completed the Australian VCE (Units 3 & 4) or equivalent Specialist mathematics and/or Physics with\u00a0the required study score\u00a0you will need to enrol in the\u00a0foundation units ENG1090 and/or PHS1001."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in engineering and related technologies, n.e.c..",
+        "evidenceLines": [
+          "Subject: Foundation mathematics (ENG1090)",
+          "Identify foundational mathematical theory that is essential to engineering applications."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

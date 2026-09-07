@@ -1,0 +1,122 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/C4012 =====
+## Graduate Certificate of Applied Data Science
+##### C4012
+##### 24 credit points
+You are viewing the 2026 version
+
+### Overview
+The Graduate Certificate of Applied Data Science prepares you for an entry level career in data science, providing you with the fundamental skills needed to deal effectively within the areas of data analysis, data management or big data processing. The course gives you an introduction to data science and topics in statistical and exploratory analysis.
+
+### AQF level
+Level 8 - Graduate Certificate
+### Post-nominals
+GradCertAppDataSci
+
+### Structure
+The course comprises 24 credit points of data science studies.
+
+### Requirements
+You must complete the following units
+
+  * ITO4132 Introduction to databases
+
+  * ITO4133 Introduction to Python
+
+  * MAT9004 Mathematical foundations for data science
+
+  * ITO5145 Introduction to data science
+
+### Course structure
+24 credit points
+**Core studies** **24 credit points**
+You must complete the following units
+  [ _arrow_forward_ MAT9004 Mathematical foundations for data science and AI ](https://handbook.monash.edu/2026/units/MAT9004)
+  [ _arrow_forward_ ITO4133 Introduction to Python ](https://handbook.monash.edu/2026/units/ITO4133)
+  [ _arrow_forward_ ITO4132 Introduction to databases ](https://handbook.monash.edu/2026/units/ITO4132)
+  [ _arrow_forward_ ITO5145 Introduction to data science ](https://handbook.monash.edu/2026/units/ITO5145)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+communicate data science-related tasks to various stakeholders perceptively and effectively.
+**2.**
+apply contemporary data exploration, data mining, and machine learning tools and methods to real-world data science problems;
+**3.**
+document ethical and legal issues, norms in privacy, and other areas of community impact regarding the practice of data science;
+**4.**
+investigate and analyse the core issues and requirements critically in developing data analysis capability in a global organisation;
+
+### Progression to further studies
+If you successfully complete the Graduate Certificate of Applied Data Science (C4012) you may be eligible for admission at entry point 2 into either the Graduate Diploma of Applied Data Science (C5003) or the Master of Applied Data Science (C6011).
+
+### AHEGS
+The Graduate Certificate of Applied Data Science is a postgraduate award. The course is taught in English and normally takes the equivalent of six months of full-time study to complete. Graduates have fundamental knowledge and understanding of the analysis and management of data, and of key standards, software and theories in data science. The Graduate Certificate of Applied Data Science is a Level 8 Australian Qualifications Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations.
+
+### Degrees awarded
+Graduate Certificate of Applied Data Science
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO4132 =====
+Subject: Introduction to databases (ITO4132)
+Credit Points: 6
+Overview: This unit will introduce the concept of data management in an organisation through relational database technology. Theoretical foundation of relational model, analysis and design, implementation of relational database using SQL will be covered.
+Learning Outcomes:
+- Apply the theories of the relational database model;
+- Implement a relational database based on a sound database design;
+- Manage data that meets user requirements, including queries and transactions;
+- Contrast the differences between non-relational database models and the relational database model.
+- Develop a sound relational database design;
+Assessment Tasks:
+- Assessment 2: Relational and Non Relational Database Manipulation: 50% (Hurdle: None)
+- Assessment 1: Database Design: 50% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO4133 =====
+Subject: Introduction to Python (ITO4133)
+Credit Points: 6
+Overview: This unit introduces programming fundamentals and the Python language to students. The unit provides a foundational understanding of program design and implementation of algorithms to solve computational problems. Fundamental programming control structures, built in and complex data types and mechanisms for modularity will be presented in Python. Topics covered will include basic input and output, program control structures, basic data structures and modular program structures, problem solving strategies and techniques for algorithm development, iteration and recursion.
+Learning Outcomes:
+- Write programs efficiently by discovering and leveraging libraries;
+- Implement good programming practices in a team, including unit testing, basic documentation and readability.
+- Design, construct and test simple programs that include user-defined functions and data structures;
+- Effectively use variables, conditionals and loops in computer programs;
+Assessment Tasks:
+- Assessment 1: 30% (Hurdle: None)
+- Assessment 3: 20% (Hurdle: None)
+- Assessment 2: 50% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO5145 =====
+Subject: Introduction to data science (ITO5145)
+Credit Points: 6
+Overview: This unit looks at processes, case studies and simple tools to understand the many facets of working with data, and the significant effort in Data Science over and above the core task of Data Analysis. Working with data as part of a business model and the lifecycle in an organisation is considered, as well as business processes and case studies. Data and its handling is also introduced: characteristic kinds of data and its collection, data storage and basic kinds of data preparation, data cleaning and data stream processing. Styles of data analysis and outcomes of successful data exploration and analysis are reviewed. Standards, tools and resources are also reviewed. Basic curation and management are reviewed: archival and architectural practice, policy, legal and ethical issues.
+Learning Outcomes:
+- Apply basic predictive modeling and data analysis methods;
+- Analyse the role of data in organisations, including curation and management issues;
+- Apply basic tools for performing exploratory data analysis and visualisation;
+- Apply basic tools for managing and processing big data;
+- Identify data resources and standards.
+- Determine data storage and processing requirements for a data science project;
+Assessment Tasks:
+- Data science project: 60% (Hurdle: None)
+- Business and data case study: 40% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MAT9004 =====
+Subject: Mathematical foundations for data science and AI (MAT9004)
+Credit Points: 6
+Overview: Mathematical topics fundamental to computing and statistics including trees and other graphs, counting in combinatorics, principles of elementary probability theory, linear algebra, and fundamental concepts of calculus in one and several variables.
+Learning Outcomes:
+- Explain fundamental concepts in calculus including basic differentiation and integration, and composite, inverse and parametric functions;
+- Use trees and graphs to solve problems in computer science;
+- Demonstrate basic knowledge and skills of linear algebra, including the manipulation of matrices, solution of linear systems, and evaluate and apply determinants;
+- Describe the principles of elementary probability theory, evaluate conditional probabilities and use Bayes' Theorem;
+- Apply counting principles in combinatorics;
+- Perform key skills in the calculus of functions of several variables including the calculation of partial derivatives, find tangent planes and identify stationary points, root findings and convexity for optimisation.
+Assessment Tasks:
+- Continuous assessment: 40% (Hurdle: None)
+- Assignment 1: 30% (Hurdle: None)
+- Mathematical challenge: 40% (Hurdle: None)
+- Assignment 2: 30% (Hurdle: None)
+- Scheduled final assessment (3 hours and 10 minutes): 60% (Hurdle: Threshold)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. Scheduled activities may include a combination of teacher directed learning and online engagement.
+

@@ -1,0 +1,102 @@
+{
+  "code": "uwa-62370",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "**Institution**: The University of Western Australia (UWA)",
+        "**Course Code**: 62370",
+        "- **Institution**: The University of Western Australia (UWA)"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Study Level**: Postgraduate",
+        "- **Study Level**: Postgraduate"
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: Computational Thinking with Python (CITS1401)",
+        "Subject: Computer Analysis and Visualisation (CITS2401)",
+        "**Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=62370"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "**Institution**: The University of Western Australia (UWA)",
+        "**Course Code**: 62370",
+        "- **Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=62370"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: Computational Thinking with Python (CITX1401)",
+        "Subject: Design of Offshore Energy Facilities (CIVL5505)",
+        "**Academic Year**: 2026"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "**Study Level**: Postgraduate",
+        "- **Institution**: The University of Western Australia (UWA)",
+        "- **Study Level**: Postgraduate"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "**Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=62370",
+        "Subject: Fluid Mechanics (ENSC3003)",
+        "- **Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=62370"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "website for details on admission requirements, intake periods, fees, availability to international students, careers information etc.",
+        "- **Institution**: The University of Western Australia (UWA)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Diploma in Ocean Technology and Engineering.",
+        "evidenceLines": [
+          "website for details on admission requirements, intake periods, fees, availability to international students, careers information etc.",
+          "All units have a value of six points unless otherwise stated."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in engineering and related technologies, n.e.c..",
+        "evidenceLines": [
+          "Subject: Computational Thinking with Python (CITS1401)",
+          "**Institution**: The University of Western Australia (UWA)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

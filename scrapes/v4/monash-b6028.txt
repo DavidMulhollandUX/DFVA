@@ -1,0 +1,242 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/B6028 =====
+## Master of Analytics
+##### B6028
+##### 72 credit points
+You are viewing the 2026 version
+
+### Overview
+In this online Master’s degree you will extend your expertise in analytics and gain critical knowledge and skills required to make informed business decisions using complex data.
+
+You will gain foundational knowledge in python programming and data modelling, while also completing specialist units in accounting analytics, data visualisation and data science. As part of your degree, you will also have the opportunity to undertake online elective units to broaden your professional development or specialise further across a range of areas.
+
+This course is ideal if you are wanting to gain specialised knowledge in analytics or formalise your work experience with a degree from a leading global university. As a graduate, you will have the knowledge and skills to work across multiple sectors and industries and this degree will ensure that you’re ready to work in a rapidly changing business environment.
+
+### AQF level
+Level 9 - Master's Degree (Coursework)
+### Post-nominals
+MAt
+
+### Structure
+The course comprises 72 credit points structured into three parts: Part A. Core studies, Part B. Discipline studies and Part C. Elective studies.
+
+Part A. Core studies
+
+The focus of these studies is to develop your expertise in analytics and provide the knowledge and skills needed for the capacity to work and communicate this knowledge across the borders of context or discipline.
+
+Part B. Discipline studies
+
+The focus of these studies is to leverage your expertise in analytics and extend your skills in the use of sophisticated analytical techniques and tools for deriving insights and business solutions.
+
+Part C. Elective studies
+
+The focus of these studies is to build upon your expertise in analytics with electives that meet your unique professional interest.  You can choose electives that 1) extend your technical expertise in analysis and programming, 2) apply your analytics expertise to a particular sector, or 3) pair your analytics expertise with study in a complementary discipline.  
+
+Master's entry points 
+
+Depending on prior qualifications you may receive entry level credit (a form of block credit) which determines your point of entry to the course:
+
+  * If you are admitted at entry level 1 you complete 72 credit points, comprising Part A, Part B and Part C.
+  * If you are admitted at entry level 2 you complete 48 credit points, comprising Part B and Part C.
+
+Course progression map
+
+The course progression map provides guidance on unit enrolment for each semester of study.
+
+### Requirements
+This course is structured in three parts Part A: Core studies (24 credit points), Part B: Discipline studies (24 credit points) and Part C: Elective studies (24 credit points). 
+
+Units are 6 points unless otherwise stated.
+
+Part A. Core studies (24 credit points)
+
+You must complete the following four units (24 credit points)
+
+  * LEO5310 Data exploration, visualisation, and information design
+
+  * LEO5311 Quantitative analysis and data modelling
+
+  * LEO5312 Data reporting, presentation, and dashboards
+
+  * LEO5104 Enterprise analytics
+
+Part B. Discipline studies (24 credit points)
+
+You must complete the following four units (24 credit points)
+
+  * ETO5513 Collaborative and reproducible practices
+
+  * ITO4133 Introduction to Python
+
+  * LEO5314 Machine learning and data analytics
+
+  * ACO5170 Predictive analytics in business
+
+Part C. Elective studies (24 credit points)
+
+You must complete four units (24 credit points) from Monash Online programs at Level 4 or 5*.
+
+Note : at least one Part C Application studies unit must be at level 5.
+
+### Course structure
+72 credit points
+**Part B.  Discipline studies** **24 credit points**
+You must complete the following units
+  [ _arrow_forward_ ETO5513 Collaborative and reproducible practices ](https://handbook.monash.edu/2026/units/ETO5513)
+  [ _arrow_forward_ ITO4133 Introduction to Python ](https://handbook.monash.edu/2026/units/ITO4133)
+  [ _arrow_forward_ ACO5170 Predictive analytics in business ](https://handbook.monash.edu/2026/units/ACO5170)
+  [ _arrow_forward_ LEO5314 Machine learning and data analytics ](https://handbook.monash.edu/2026/units/LEO5314)
+**Part A. Core studies** **24 credit points**
+You must complete the following units
+  [ _arrow_forward_ LEO5104 Enterprise analytics ](https://handbook.monash.edu/2026/units/LEO5104)
+  [ _arrow_forward_ LEO5311 Quantitative analysis and data modelling ](https://handbook.monash.edu/2026/units/LEO5311)
+  [ _arrow_forward_ LEO5310 Data exploration, visualisation, and information design ](https://handbook.monash.edu/2026/units/LEO5310)
+  [ _arrow_forward_ LEO5312 Data reporting, presentation, and dashboards ](https://handbook.monash.edu/2026/units/LEO5312)
+**Part C. Elective studies** **24 credit points**
+You must complete four units (24 credit points) from Monash Online programs at Level 4 or 5.
+
+Note: At least one Part C Application studies unit must be at Level 5.
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+apply the core principles and approaches to data analytics in a business context
+**2.**
+be critical and creative scholars who: 
+
+  * produce innovation solutions to problems
+
+  * apply research skills to business challenges
+
+  * communicate effectively and perceptively
+**3.**
+be responsible and effective global citizens who:
+
+  * engage in an internationalised world
+
+  * exhibit cross-cultural competence
+
+  * demonstrate ethical values
+**4.**
+understand the breadth of tools an analyst will draw on, and demonstrate deep insight into the work of an analyst in a particular area of application.
+
+### Entry requirements
+B4008 Graduate Certificate of Analytics
+
+### AHEGS
+The Master of Analytics is a postgraduate award. The course is taught in English. Graduates develop broad knowledge of modern data analysis tools in the context of business and economics. They appreciate the emerging role of analytics in the business environment, understand the types of mathematical, statistical and computing skills required to design and manage an analytics project, including sourcing data, defining the business context, visualising solutions and identifying the relevant tools for analysis. The course takes 1.5 years of full-time equivalent study to complete. The Master of Analytics is a level 9 Australian Qualifications Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations.
+
+### Degrees awarded
+Master of Analytics
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ACO5170 =====
+Subject: Predictive analytics in business (ACO5170)
+Credit Points: 6
+Overview: This unit introduces you to Big Data and predictive analytics using financial information. Specifically, you will learn and develop hands-on skills to manage large-scale financial databases and build predictive models that support strategic and investment decision making. Further, the unit introduces you to analytics coding and develops your skills in the use of statistics software necessary to process and analyse large datasets. It covers three applications of predictive analytics using financial data, namely: (1) forecasting future earnings; (2) predicting accounting fraud; and (3) predicting bankruptcy. The unit will be delivered online and you will learn to code and work on real financial data.
+Learning Outcomes:
+- synthesise relevant information from academic research and industry practices to conceptualise predictive models
+- apply relevant software to manage and analyse large data sets to obtain insights from accounting Big Data
+- understand the basic characteristics and applications of Big Data in business decision making
+- employ accounting Big Data to produce predictions for corporate earnings, accounting fraud, and bankruptcy
+- critically assess and test different models and select the optimal predictive models.
+Assessment Tasks:
+- 2 - Written: 50% (Hurdle: None)
+- 1 - Written: 50% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ETO5513 =====
+Subject: Collaborative and reproducible practices (ETO5513)
+Credit Points: 6
+Overview: This unit develops teamwork skills, through instruction on reproducibility, and version control to conduct collaborative data analysis. These skills are practised in a team setting with a data analysis project.
+Learning Outcomes:
+- effectively work with a group to construct a collaborative data story.
+- understand the operation of a version control system
+- utilise version control to integrate data analysis efforts of team members
+- develop skills to create reproducible data analyses
+Assessment Tasks:
+- 1 - Project: 40% (Hurdle: None)
+- 2 - Project: 60% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO4133 =====
+Subject: Introduction to Python (ITO4133)
+Credit Points: 6
+Overview: This unit introduces programming fundamentals and the Python language to students. The unit provides a foundational understanding of program design and implementation of algorithms to solve computational problems. Fundamental programming control structures, built in and complex data types and mechanisms for modularity will be presented in Python. Topics covered will include basic input and output, program control structures, basic data structures and modular program structures, problem solving strategies and techniques for algorithm development, iteration and recursion.
+Learning Outcomes:
+- Write programs efficiently by discovering and leveraging libraries;
+- Implement good programming practices in a team, including unit testing, basic documentation and readability.
+- Design, construct and test simple programs that include user-defined functions and data structures;
+- Effectively use variables, conditionals and loops in computer programs;
+Assessment Tasks:
+- Assessment 1: 30% (Hurdle: None)
+- Assessment 3: 20% (Hurdle: None)
+- Assessment 2: 50% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/LEO5104 =====
+Subject: Enterprise analytics (LEO5104)
+Credit Points: 6
+Overview: The modern organisation generates a significant amount of data which is used to enhance decision making and improve ESG (environmental, social, governance) performance. Implementing analytics across an enterprise should establish a data-driven environment using the right tools and platforms to convert data into meaningful information for the right end users. This unit explores how contemporary business intelligence, data analytics and reporting capabilities (e.g., Excel, Power BI, Tableau) can be used effectively to communicate actionable insights to stakeholders. You will consider the strategic and technical considerations of designing, delivering and utilising a successful enterprise analytics solution for today’s global challenges.
+Learning Outcomes:
+- identify and critically evaluate the frameworks, tools and applications that can be used in an enterprise setting to deliver actionable reporting and insights.
+- develop and understand data storytelling skills combined with analytical resources to foster a data-driven enterprise
+- demonstrate an understanding of the strategies and challenges of implementing an enterprise analytics solution
+- recognise the types of data analytics in an organisation and how these can inform decision making and address business problems
+Assessment Tasks:
+- 2 - Written: 50% (Hurdle: None)
+- 1 - Written: 50% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/LEO5310 =====
+Subject: Data exploration, visualisation, and information design (LEO5310)
+Credit Points: 6
+Overview: Contemporary analytics requires skills in data identification, exploration, and presentation. This unit develops basic skills in the use of SQL and R to clean and explore data. It then focusses on the use of R, as a programming language, for further manipulation and visualisation of complex data. It also provides instruction on the use of Generative AI to draft R code. Through the strategic application of these tools, commonly used throughout the data analytics cycle, the unit emphasises principles of information design in the exploration and visualisation of complex data, thereby improving the usability of analytical findings to support decision making and address dynamic challenges. Examples will be included as a foundation for you to develop your own application of data exploration and visualisation.
+Learning Outcomes:
+- understand the principles of information design to apply appropriate types of visual representation to produce useful insights
+- identify the pattern/trends from the visualisation and perform analysis to further understand the relationship(s) between variables using information design
+- identify, collect, and manipulate appropriate data in preparation for data visualisation by using R programming
+- interpret and analyse the results for decision making and develop oral and written communication skills in data reporting.
+Assessment Tasks:
+- 1 - Project: 60% (Hurdle: None)
+- 2 - Written: 40% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/LEO5311 =====
+Subject: Quantitative analysis and data modelling (LEO5311)
+Credit Points: 6
+Overview: Quantitative data analysis lies at the centre of the data analytics cycle - the critical stage when data is transformed into findings and insights. This unit introduces the use of Microsoft Excel for statistical analysis and basic modelling methods. While covering a broad range of quantitative methods, it provides specific instruction on the use of confidence intervals, linear regression, and causality analysis to generate findings that can inform decisions across a wide range of applications. Examples from marketing, economics, accounting and related disciplines are included as a foundation for students to design and execute their own application of quantitative data analysis.
+Learning Outcomes:
+- perform descriptive and inferential statistical analysis of business data and draw useful insights
+- demonstrate advanced understanding in the identification of which statistical analyses and tools are most appropriate to support specific decisions.
+- construct linear models for predictive analysis and conduct causality analysis to support data-driven decision making
+Assessment Tasks:
+- 2 - Written: 50% (Hurdle: None)
+- 1 - Written: 50% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/LEO5312 =====
+Subject: Data reporting, presentation, and dashboards (LEO5312)
+Credit Points: 6
+Overview: Data reporting and presentation plays a vital role in the data analytics cycle. This unit develops advanced skills in the use of Power BI for the exploration, analysis, and presentation of data for decision making. Specifically, it focusses on transformation of raw data into a worked form for initial visualisation and descriptive analysis. It then moves through the data analytics cycle to provide instruction for intensive use of Power BI to generate reports and dashboards in alignment with stakeholder needs. Examples of analysis, visualisation and reporting using Power BI will be included as a foundation for you to design and execute your own application of reporting and presentation.
+Learning Outcomes:
+- demonstrate the use of alternative means for data reporting for management, such as reports, data models, and dashboards
+- demonstrate ability to use Power BI in the manipulation, visualisation, analysis, and reporting for stakeholders and management to derive actionable insights and assist effective decision making.
+- understand a range of drivers for decision makers to engage with data analytics, such as routine operational decision making, performance monitoring, and insight development
+Assessment Tasks:
+- 2 - Project: 60% (Hurdle: None)
+- 1 - Written: 40% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/LEO5314 =====
+Subject: Machine learning and data analytics (LEO5314)
+Credit Points: 6
+Overview: Machine learning enables organisations to unlock insights and make informed predictions by leveraging predictive, diagnostic and prescriptive analysis. This unit covers the fundamentals of machine learning algorithms to analyse complex data with a specific focus on the use of R programming. The unit equips you with practical skills in supervised and unsupervised learning, including regression models, kNN, decision trees, random forests and clustering analysis. Examples of contemporary approaches to machine learning will be included through case across business disciplines.
+Learning Outcomes:
+- understand the principles of machine learning methods for diverse datasets
+- apply supervised learning for predictive analysis to support decision making
+- apply unsupervised learning for diagnostic analysis and prescriptive analysis to identify patterns and trends to derive actionable insights.
+- demonstrate ability in the use of machine learning algorithms for a range of business purposes
+Assessment Tasks:
+- 1 - Written: 50% (Hurdle: None)
+- 2 - Written: 50% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+

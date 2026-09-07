@@ -1,0 +1,238 @@
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/programs/2026/7649 =====
+# Cyber Security (7649)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 7649
+- **Academic Year**: 2026
+- **Study Level**: Postgraduate
+- **AQF Level**: Level 8
+- **Total Units / Units of Credit (UOC)**: 24
+- **Delivery Mode**: Fully online
+- **CRICOS Code**: Not specified
+- **Academic Organisation**: Faculty of Engineering
+- **Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/7649
+
+## Description
+This Graduate Certificate is a qualification for professionals seeking to transition fields, retain and expand knowledge, and refresh skills.
+
+It provides a foundation in cyber security literacy and background technical knowledge plus applied cyber security unit, and provides a security mindset and understanding of the current state of the field.
+
+This program is designed to be delivered fully online, in intensive terms, to provide a fast-paced pathway.
+
+It is also an early exit option for those enrolled in the linked Master of Cyber Security or Graduate Diploma of Cyber Security, and a pathway to continue studying in the same.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+3. Graduates will be able to communicate effectively to a range of audiences related to cyber-security.
+2. Graduates will have a global contemporary perspective of the discipline of cyber security, and current issues, and an awareness of the history of the discipline.
+5. Graduates will have developed a foundation of critical thinking and problem-solving skills and applied them to Cyber Security.
+1. Graduates will have acquired foundational skills and theoretical knowledge in relation to both the current state of, and future directions of cyber security.
+4. Graduates will have demonstrated the ethical and professional application of knowledge and skills in Cyber Security with high level personal autonomy and accountability.
+
+## Career Opportunities & Employment Areas
+Security Consultant, Engineering, ICT and Science Technicians, Engineering Manager, Management Consultant, Managers
+
+## Program Structure & Degree Requirements
+Students must complete 24 Units of Credit (UOC) structured across the following academic components:
+
+### Core Courses (18 UOC)
+Students must take 18 UOC of the following courses.
+
+- **ZZCA9202**: Data Security and Privacy [6 UOC]
+- **ZZCA9204**: Cybersecurity Ethics [6 UOC]
+- **ZZEN9203**: Principles of Security Engineering [6 UOC]
+
+### Cyber Elective courses (6 UOC)
+Students must take 6 UOC of the following courses.
+
+- **ZZCA9206**: Cyber Risk and Resilience [6 UOC]
+- **ZZCA9205**: Cyber Operations [6 UOC]
+- **ZZCA9222**: Cyber Threats and Crime [6 UOC]
+- **ZZEN9213**: Penetration Testing​ [6 UOC]
+- **ZZCA9221**: Cyber Management and Governance [6 UOC]
+- **ZZCA9211**: Digital Forensics [6 UOC]
+- **ZZEN9216**: Fundamentals of Coding: C and Assembler [6 UOC]
+- **ZZLJ9223**: Cyber and the Law [6 UOC]
+- **ZZEN9214**: Cloud Security [6 UOC]
+
+## Progression & Academic Rules
+UNSW's standard rules for academic progression apply.
+
+## Admission Requirements
+**Limitations on Recognition of Prior Learning**:
+Students enrolled in a program that consists of 24 UOC or less are not eligible for RPL
+
+**Minimum Entry Requirements**:
+1. Have completed a Bachelor degree or higher level qualification (or equivalent); OR
+2. Applicants who have not completed a Bachelor degree or higher level qualification are required to have a minimum of 2 years relevant or professional experience* in cyber security or other cyber-related positions.
+
+*Relevant experience includes being responsible for tasks within cyber-related role that may include technical or governance roles. It can include experience of managing a small team, being a team leader, managing a relevant project.
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZCA9202 =====
+Subject: Data Security and Privacy (ZZCA9202)
+Credit Points: 6
+Overview: Security and privacy are related but distinct concepts; they are also some of the defining terms of the 21st century. This course equips student for handling data in secure ways, understanding the nature and principles of privacy, and how to securely identify manage and respond to privacy risks across large datasets and apply current best practice in a changing global environment.
+Learning Outcomes:
+- Apply data security and privacy principles in security engineering design of software, systems, and policies.
+- Apply national and international legislation, ethical standards, and professional best practice to organisational practice and personal professional practice.
+- Demonstrate a critical understanding the nature and principles of privacy, and of the potential costs, benefits, and risks under societal, commercial, individual and governmental perspectives.
+- Explain historic data security and privacy failures and their causes and consequences.
+- Analyse the privacy implications of systems and processes.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZCA9204 =====
+Subject: Cybersecurity Ethics (ZZCA9204)
+Credit Points: 6
+Overview: Ethics underpins everything we do in our professional life. The cyber industry presents unique ethical challenges, due to the rapid rate of change and the often-unknown future of innovations. This course provides students with an understanding of three framework concepts of ethics applied to the cyber profession. Students analyse real world challenges in cyber through an ethical lens. The course equips students with the tools to unpack and respond to future ethical challenges as they arise.
+Learning Outcomes:
+- Explain cyber ethics and its relevance in the cyber industry.
+- Apply ethical principles to decision-making in the cyber industry.
+- Analyse three framework concepts of ethics as they pertain to cyber.
+- Evaluate real world ethical challenges in the cyber industry.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZCA9205 =====
+Subject: Cyber Operations (ZZCA9205)
+Credit Points: 6
+Overview: This course provides students with the theoretical knowledge and practical skills for designing, implementing, and defending modern enterprise computer networks. The course introduces students to security architecture for secure system design, security engineering for implementation and configuration, and security operations for managing, monitoring, and defending systems. The course has a focus on defensive technology, practical skills, and the activities that organisations undertake to assure their information systems.
+Learning Outcomes:
+- Select and evaluate security controls for an enterprise network.
+- Analyse cyber security information, logs, and events.
+- Describe the objectives of cyber security operations.
+- Implement and configure security controls.
+- Design a cyber security architecture for an enterprise network.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZCA9206 =====
+Subject: Cyber Risk and Resilience (ZZCA9206)
+Credit Points: 6
+Overview: Cyber resilience is the organisational ability to deliver business or operational outcomes despite cyber attack. True resilience is a measure of both business and cyber understanding. This course provides students with the skills necessary to manage contemporary risks through gaining a systematic understanding of the principles and policies for developing the resilience of communities, businesses, and critical systems.
+Learning Outcomes:
+- Communicate the results of risk assessments effectively to key stakeholders.
+- Explain different forms of risk, strengths and limitations of a range of risk assessment approaches, and when it is appropriate to use them.
+- Integrate cyber resilience frameworks into business needs.
+- Develop appropriate risk assessments and recommendations.
+- Analyse and develop a cyber risk profile for an organisation or project.
+- Apply current risk assessment best-practice and standards, and effectively apply them to new situations.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZCA9211 =====
+Subject: Digital Forensics (ZZCA9211)
+Credit Points: 6
+Overview: Digital forensics is an under-represented area of cyber security. It encompasses the processes and technical understanding surrounding both the investigation of computer crimes and crimes where evidence remains on computing devices. This course provides a strong foundation for both those wanting to specialise in this area of cyber security, and those seeking to understand the processes for improved incident response. Students will be able to forensically analyse digital devices and understand the ethical, legal and self care issues associated with cybercrime investigations.
+Learning Outcomes:
+- Explain and apply a digital forensic mindset.
+- Communicate results effectively in professional reports and as an expert witness.
+- Synthesise and apply current forensic procedures and techniques regarding the identification, collection, preservation and custody, and analysis of digital evidence.
+- Perform analysis of acquired digital devices.
+- Explain the current theoretical principles that underpin the science of digital forensics.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZCA9221 =====
+Subject: Cyber Management and Governance (ZZCA9221)
+Credit Points: 6
+Overview: Cyber Management and Governance equips you with the skills for weighing competing challenges for the management of cyber and related governance activities in an organisational context. You will learn how to develop cyber strategies, policies and to apply a critical eye to the cyber challenges facing organisations today. Building an understanding of how these governance tools impact people and the efficacy of cyber security controls and practices.
+Learning Outcomes:
+- Integrate emerging directions in cyber management with existing norms to shape policy and strategic organisational aims.
+- Evaluate competing risks and benefits against organisational culture.
+- Produce executive level documentation that demonstrates ability to articulate complex concepts to non-technical audiences.
+- Make decisions and recommendations aligned with organisational objectives.
+- Demonstrate a critical understanding of impact of cyber policy and strategy.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZCA9222 =====
+Subject: Cyber Threats and Crime (ZZCA9222)
+Credit Points: 6
+Overview: The Internet drives economic growth and enables new ways to connect and co-operate. As with most change, increasing our reliance on cyberspace brings new opportunities but also new threats. While the internet fosters open markets and open societies, this can also make users more vulnerable to criminals, activists, and foreign intelligence services who want to harm us by compromising or damaging our critical data and systems. Cybercriminal attacks against Australian organisations are not a matter of “if” but of “when”. In this new era of unavoidable attacks and breaches, cybersecurity professionals have to duty to ensure their organisations are resilient, and to be adequately prepared when an incident unfolds. This course outlines, from a holistic perspective, the current and emerging trends in cybercrime and how they are being countered from an Australian perspective. It also introduces students to contemporary trends in cyber security strategy and demonstrates how they can be used to increase an organisation’s resilience and preparedness.
+Learning Outcomes:
+- Critically analyse the data and effect of online crime and the impact it has on government, businesses and individuals.
+- Synthesise current trends to predict future trends in cyber crime and terror, and effectively communicate appropriate actions and controls.
+- Critically evaluate the current legislation that impact on computer crimes and law enforcement and corporate responses to this legislation.
+- Identify and describe the different categories of both historical and contemporary computer crime.
+- Explain the strengths and weaknesses of current controls to minimise the impact of cyber crime and terror.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZEN9203 =====
+Subject: Principles of Security Engineering (ZZEN9203)
+Credit Points: 6
+Overview: This course introduces the principles of the emerging field of Security Engineering, applying engineering principles and practices to the design, operation, and assurance of secure systems. Students will engage in a systematic, analytic and reflective approach to designing and assuring reliable secure systems from unreliable insecure components, as well as understanding how systems can fail and the nature of the cryptographic components from which modern digital systems are constructed.
+Learning Outcomes:
+- Demonstrate an understanding of the nature of characteristic cybersecurity attacks, including the nature and characteristics of the vulnerabilities they exploit, and analyse the range of mitigation measures possible.
+- Demonstrate an understanding and make appropriate judgements about when to apply the major principles of secure design operation and assurance, their characteristics strengths and weaknesses.
+- Analyse real world design, operation and assurance scenarios and then apply a security engineering approach to make appropriate decisions.
+- Apply fundamental cryptographic primitives (including confidentiality, integrity, and authentication) and protocols to achieve them and explain their weaknesses and appropriate use. Be able to apply information theoretic concepts such as information and work measures, zero knowledge, randomness, and privacy to design appropriate solutions for real world cryptographic and security problems, or recognise when no effective solutions are likely to be feasible.
+- Analyse their prior approach to security in everyday life, and reflect on how a security mindset changes this.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZEN9213 =====
+Subject: Penetration Testing​ (ZZEN9213)
+Credit Points: 6
+Overview: This course provides a theoretical background to the science and art of penetration testing along with an introduction to hands-on skills used in the process of carrying out a tool based penetration test. The course also provides an understanding of the legal requirements, professional ethical and self care issues, technical processes, limitations, and reporting requirements and communication skills for non-technical audiences.
+Learning Outcomes:
+- Exploit common vectors of web application testing and network perimeter attacks and understand their respective aims, limitations, and when to appropriately employ them in offensively security testing.
+- Apply the legal, ethical, business, and technical constraints of offensive penetration testing to real-world environments and case studies.
+- Synthesise technical findings to provide effective information to both technical and non-technical decision makers on the current security state of the network, and make effective holistic recommendations for addressing weaknesses and improving security.
+- Use tools to professionally carry out and document a simple penetration test in accordance with current best practiceframeworks including attacking web applications.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZEN9214 =====
+Subject: Cloud Security (ZZEN9214)
+Credit Points: 6
+Overview: This course provides an overview of the rapidly growing field of cloud security. Aside from its significant commercial benefit, cloud infrastructure brings its own unique challenges to security. The course addresses the ways in which cloud paradigms change the strengths and vulnerabilities of infrastructure compared with traditional computing environments. The course covers paradigms for securing and assuring cloud based infrastructure at scale.
+Learning Outcomes:
+- Contrast the different cloud paradigms and use-cases of their implementation, and their respective use-cases, advantages and limitations.
+- Effectively communicate security results to key stakeholders.
+- Explain the technical and non-technical aspects of cloud-specific vulnerabilities and potential attacks.
+- Synthesize and apply security mitigation to cloud environments.
+- Apply both current penetration testing techniques and apply cloud-specific techniques to understand the security concerns of cloud implementations.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZEN9216 =====
+Subject: Fundamentals of Coding: C and Assembler (ZZEN9216)
+Credit Points: 6
+Overview: Learn how to program to C and low level assembly language. This course provides an introduction to programming in C and a low level understanding of the underlying operation of modern computers. C is introduced slowly and at each step we see how C programs are compiled into corresponding machine code and the details of how the computer actually then executes the program. This course is suitable for those who have never programmed before, or those who have programmed but are not familiar with C or assembly, or who would like a refresher from the point of view of cyber security.
+Learning Outcomes:
+- Develop an understanding of the principles of secure coding and given a C program be able to identify common security vulnerabilities in it.
+- Design, write and debug programs in C
+- Be able to write programs in a simple assembly language.
+- Effectively collaborate with others in accordance with modern software design practices including pair programming and team review.
+- Explain how C programs are compiled, linked, and executed including memory allocation, stack frames, system calls, the role of static and dynamically linked libraries and how to inspect this using a debugger.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZZLJ9223 =====
+Subject: Cyber and the Law (ZZLJ9223)
+Credit Points: 6
+Overview: The goal of the course is to provide a legal orientation for cyber security professionals. Students are not assumed to have a legal background. The course offers an introduction to legal and policy issues in cyber security. It introduces students to relevant core legal concepts, including understanding the role of legislation and case law as well as other forms of regulation, including technical standards. It will guide students in understanding the ‘map’ of law and regulation relevant to cyber security and the role of these in Australia’s cyber security policy. The course helps cyber security professionals become familiar with legal issues they are likely to encounter and how to manage them in different circumstances - during normal operations, in responding to an incident, and in the aftermath of an incident. After completing the course, students will be aware of and be able to manage core compliance obligations as well as be in a good position to interact meaningfully with legal advisers in more complex scenarios. The focus is on Australian law, but comparative and international material is included where relevant, particularly where it impacts Australian industry.
+Learning Outcomes:
+- Identify key legal requirements and how these and other forms of regulation impact on cyber security professional practice.
+- Discuss the limits of law, both generally and in specific instances, and be able to argue for reform in particular areas.
+- Explain the role of key players in regulation for cyber security and be aware of the circumstances in which engagement with regulators is required or advisable.
+- Analyse and respond to legal issues arising in the contexts of cyber security operations, incident response and incident fall-out.
+Assessment Tasks:
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+

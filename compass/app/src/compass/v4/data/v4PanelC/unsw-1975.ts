@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education.",
+    "evidenceLines": [
+      "**Institution**: University of New South Wales (UNSW Sydney)",
+      "**Course Code**: 1975",
+      "- **Institution**: University of New South Wales (UNSW Sydney)"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education.",
+    "evidenceLines": [
+      "**Academic Year**: 2026",
+      "**Study Level**: Research",
+      "- **Total Units / Units of Credit (UOC)**: 144"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education.",
+    "evidenceLines": [
+      "Subject: Research Methods 1 (EDST5031)",
+      "Subject: Research Methods 2 (EDST5033)",
+      "**AQF Level**: Level 10"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education.",
+    "evidenceLines": [
+      "**Total Units / Units of Credit (UOC)**: 144",
+      "**Delivery Mode**: Distance (online with some face-to-face), Research",
+      "- **Delivery Mode**: Distance (online with some face-to-face), Research"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education.",
+    "evidenceLines": [
+      "Subject: Current Issues in Education 2 (EDST5034)",
+      "Subject: Current Issues in Education 1 (EDST5035)",
+      "**CRICOS Code**: Not specified"
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education.",
+    "evidenceLines": [
+      "**Academic Organisation**: School of Education",
+      "- **Institution**: University of New South Wales (UNSW Sydney)",
+      "- **Total Units / Units of Credit (UOC)**: 144"
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education.",
+    "evidenceLines": [
+      "**Handbook URL**: https://handbook.unsw.edu.au/research/programs/2026/1975",
+      "Subject: Education Project 1 (EDST5036)",
+      "- **Delivery Mode**: Distance (online with some face-to-face), Research"
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "- **Total Units / Units of Credit (UOC)**: 144",
+      "- **Institution**: University of New South Wales (UNSW Sydney)"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Education.",
+      "evidenceLines": [
+        "- **Total Units / Units of Credit (UOC)**: 144",
+        "Students must complete 144 Units of Credit (UOC) structured across the following academic components:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in teacher education.",
+      "evidenceLines": [
+        "Subject: Research Methods 1 (EDST5031)",
+        "**Institution**: University of New South Wales (UNSW Sydney)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

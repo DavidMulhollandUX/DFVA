@@ -1,0 +1,102 @@
+{
+  "code": "uq-2298",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education.",
+      "evidenceLines": [
+        "**Institution**: The University of Queensland (UQ)",
+        "**Program Code**: 2298",
+        "- **Institution**: The University of Queensland (UQ)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Program Level**: Undergraduate",
+        "- **Program Level**: Undergraduate"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education.",
+      "evidenceLines": [
+        "Subject: Accounting for Decision Making (ACCT1101)",
+        "Subject: Transforming Business with Information Systems (BISM1201)",
+        "**AQF Level**: Refer to your component degrees for AQF level."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education.",
+      "evidenceLines": [
+        "**Duration**: Not specified",
+        "**Faculty**: of Business, Economics and Law",
+        "- **AQF Level**: Refer to your component degrees for AQF level."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education.",
+      "evidenceLines": [
+        "Subject: Economics for Business (ECON1011)",
+        "Subject: Learning and Development for Educators (EDUC1650)",
+        "**Teaching Location**: St Lucia"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education.",
+      "evidenceLines": [
+        "**Attendance Mode**: Internal",
+        "- **Institution**: The University of Queensland (UQ)",
+        "- **Program Level**: Undergraduate"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education.",
+      "evidenceLines": [
+        "**Handbook URL**: https://my.uq.edu.au/programs-courses/program.html?acad_prog=2298",
+        "Subject: A Sociological Orientation to Education (EDUC1710)",
+        "- **AQF Level**: Refer to your component degrees for AQF level."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "- **Duration**: Not specified",
+        "- **Institution**: The University of Queensland (UQ)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelors of Business Management / Education.",
+        "evidenceLines": [
+          "- **Duration**: Not specified",
+          "To graduate with a Bachelors of Business Management / Education (Secondary) a student must have successfully completed all requirements of the program as"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in teacher education.",
+        "evidenceLines": [
+          "Subject: Accounting for Decision Making (ACCT1101)",
+          "**Institution**: The University of Queensland (UQ)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

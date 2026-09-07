@@ -1,0 +1,357 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/BSTAT =====
+# Bachelor of Statistics (BSTAT)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: BSTAT
+- **Academic Year**: 2027
+- **Career / Study Level**: Undergraduate
+- **Program Duration**: 3 year full-time
+- **Minimum Units Required**: 144 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal BStat
+- **CRICOS Code**: code 061240A
+- **UAC Code**: code 134200 (B Statistics)
+- **Field of Education**: of Education Statistics
+- **Academic Contact**: contact Dr Tao Zou
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/BSTAT
+
+## Program Description
+A single three year undergraduate award offered by theANU College of Business and Economics
+
+Applicants with an ANU selection rank of80or above are guaranteed admission (subject to meeting any prerequisites).
+
+We consider the unique circumstances and experiences of all applicants. You may be eligible for adjustment factors that recognise educational disadvantages, personal challenges or other barriers that may have impacted your studies.
+
+Learn more about adjustments >
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Review and synthesise a broad range of statistical knowledge from their chosen major.
+2. Use the R statistical computing language to carry out a wide variety of statistical tasks.
+3. Carry out model selection in a multiple linear regression modelling context in various discipline backgrounds.
+4. Describe the concepts of stochastic processes in discrete and continuous time.
+5. Describe and interpret probability theory, continuous random variables, and sampling distributions and the central limit theorem.
+6. Using a diverse range of discipline backgrounds and varied data, analyse programming problems to suggest, design and implement appropriate modular program structures, based on a data-directed approach.
+
+## Program Requirements & Study Options
+### Program Requirements
+The Bachelor of Statistics requires completion of 144 units, of which:
+
+### Elective Study
+Once you have met the program requirements of your degree, you may have enough electives to complete an additional elective
+major
+,
+minor
+or
+specialisation
+.
+
+### Study Options
+Year 1
+48 units
+STAT1003
+Statistical Techniques
+6 units
+OR
+STAT1008
+;
+MATH1115
+Advanced Mathematics and Applications 1
+6 units
+OR
+MATH1013
+;
+Elective course - recommend
+COMP1100
+for Statistical Data Analysis Major
+Elective Course
+6 units
+MATH1116
+Advanced Mathematics and Applications  2
+6 units
+OR
+MATH1014
+;
+Statistical Major Course
+6 units
+Elective Course
+6 units
+Elective Course
+6 units
+Year 2
+48 units
+STAT2001
+Introductory Mathematical Statistics
+6 units
+OR
+STAT2013
+;
+STAT2008
+Regression Modelling
+6 units
+OR
+STAT2014
+;
+Statistical Major Course
+6 units
+Elective Course
+6 units
+STAT2005
+Introduction to Stochastic Processes
+6 units
+Statistical Major Course
+6 units
+Statistical Major Course
+6 units
+Elective Course
+6 units
+Year 3
+48 units
+Statistical Major Course
+6 units
+Statistical Major Course
+6 units
+Elective Course
+6 units
+Elective Course
+6 units
+Statistical Major Course
+6 units
+Statistical Major Course
+6 units
+Elective Course
+6 units
+Elective Course
+6 units
+
+### Admission Requirements
+At a minimum, all applicants must meet program-specific academic/non-academic requirements, and English language requirements. Admission to most ANU programs is on a competitive basis. Therefore, meeting all admission requirements does not guarantee entry into the program.
+
+### Inherent Requirements
+Information on inherent requirements is currently not available for this program.
+
+### Electives
+You can use your electives to enrol in any courses that you like, provided you meet prerequisite requirements.
+Remember that you can choose up to 10 ANU wide elective courses if you are undertaking the single Bachelor of Statistics degree. If you are in a double degree, you can choose 2 ANU wide elective courses.
+
+### Study Options
+Bachelor of Statistics
+
+### Study Options
+Year 1
+48 units
+STAT1003
+Statistical Techniques
+6 units
+OR
+STAT1008
+;
+MATH1115
+Advanced Mathematics and Applications 1
+6 units
+OR
+MATH1013
+;
+Elective Course - recommend
+COMP1100
+for Statistical Data Analysis Major
+Elective course
+6 units
+MATH1116
+Advanced Mathematics and Applications  2
+6 units
+OR
+MATH1014
+;
+Statistic Major Course
+6 units
+Elective course
+6 units
+Elective course
+6 units
+
+### Study Options
+Year 1
+48 units
+STAT1003
+Statistical Techniques
+6 units
+OR
+STAT1008
+;
+MATH1115
+Advanced Mathematics and Applications 1
+6 units
+OR
+MATH1013
+;
+Degree B course
+6 units
+Degree B course
+6 units
+Elective - recommend
+COMP1100
+MATH1116
+Advanced Mathematics and Applications  2
+6 units
+OR
+MATH1014
+;
+Degree B course
+6 units
+Degree B course
+6 units
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1100 =====
+Subject: Programming as Problem Solving (COMP1100)
+Credit Points: 6 units
+Overview: This course is the first of three core computer science courses on programming. It introduces students to the field of computer science as a discipline for solving problems through computation and provides the foundation for more advanced courses on programming and software development. Data structures and algorithms, the key concepts at the core of computer science, receive their first treatment in this course.
+
+The course covers functional programming in depth, developing the core idea of functions operating on data structures. Students learn the organization of programming languages using types, how programs are evaluated (reduction), functional composition, recursive functions, algebraic data types, pattern matching, parametric polymorphism, higher-order functions. Students also gain exposure to asymptotic analysis of basic data structures, abstract data types, modules, laziness, and streams. The functional paradigm demonstrates elegant solutions to many programming problems.
+
+The course also introduces students to standard productivity tools for software development that will be used throughout the course and remainder of the computer science degree. These include distributed software revision control systems.
+
+The Advanced version of this course covers these topics in more depth, allowing students to deepen their understanding and experience.
+Learning Outcomes:
+- Apply fundamental programming concepts, using a functional programming language, to solve problems.
+- Understand basic types and the benefits of static typing.
+- Describe, understand and evolve programs, via documentation, testing, and debugging.
+- Discuss, use, and apply the fundamentals of data structures, algorithms, and design; create, implement, and debug algorithms for solving problems, including recursively, using divide-and-conquer, and via decomposition.
+- Discuss basic algorithmic analysis for simple algorithms; determine appropriate algorithmic approaches to a problem (for example bruteforce, greedy, divide-and-conquer, recursive backtracking, heuristic, dynamic programming).
+- Understand and apply the concepts of parametric and ad-hoc polymorphism
+Assessment Tasks:
+- Assignments: 30% (Hurdle: False)
+- Lab Assessment: 5% (Hurdle: False)
+- Mid-term quiz: 10% (Hurdle: True)
+- Final Exam: 55% (Hurdle: True)
+Workload: Lectures, tutorial/laboratory sessions and self study to work through the material, prepare for labs, and complete assignments to reach a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1013 =====
+Subject: Mathematics and Applications 1 (MATH1013)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1014 =====
+Subject: Mathematics and Applications 2 (MATH1014)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1115 =====
+Subject: Advanced Mathematics and Applications 1 (MATH1115)
+Credit Points: 6 units
+Overview: This course begins an in-depth study of the fundamental concepts of calculus and linear algebra, with a particular emphasis on the underlying foundations of mathematics. The use and understanding of proof and abstract ideas will allow students to develop analytical skills which will form a base for further study in fundamental mathematics, as well as providing a foundation for a wide range of quantitative areas such as actuarial studies, computer science, economics, engineering, physics and statistics.
+
+Topics to be covered include:
+
+Calculus/Analysis - suprema and infima of sets of real numbers, completeness, Riemann-Darboux definition of integration, introductory formal logic, axioms for the real numbers, convergence, limits, continuity, existence of extrema, differentiation, applications of derivatives, proof of the fundamental theorem of calculus, Taylor polynomials, l'Hospital's rules, inverse functions;
+
+Linear Algebra - solving linear equations, matrix equations, linear independence, matrix transformations, matrix operations, matrix inverses, abstract vector spaces, subspaces, dimension and rank, determinants, Cramer's rule, complex numbers, eigenvectors and eigenvalues.
+
+Note: This is an Honours Pathway Course (HPC).
+
+It involves extra material and emphasises the use and understanding of proof and abstract ideas to a deeper conceptual level thanMATH1013.
+Learning Outcomes:
+- Explain the fundamental concepts of calculus and linear algebra and their role in modern mathematics and applied contexts.
+- Demonstrate accurate and efficient use of calculus and linear algebra techniques.
+- Demonstrate capacity for mathematical reasoning through analysing, proving and explaining concepts and theorems from calculus and linear algebra.
+- Apply problem-solving using calculus and linear algebra techniques applied to diverse situations in physics, engineering and other mathematical contexts.
+Assessment Tasks:
+- Weekly assignments and online quizzes: 30% (Hurdle: False)
+- In-class tests during the semester: 25% (Hurdle: False)
+- Final examination: 45% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1116 =====
+Subject: Advanced Mathematics and Applications  2 (MATH1116)
+Credit Points: 6 units
+Overview: This course continues on fromMATH1115, providing an in-depth development of fundamental concepts of calculus and linear algebra, with a particular emphasis on the underlying foundations of mathematics. The use and understanding of proof and abstract ideas will allow students to develop analytical skills which will form a base for further study in fundamental mathematics, as well as providing a foundation for a wide range of quantitative areas such as actuarial studies, computer science, economics, engineering, physics and statistics.
+
+Topics to be covered include:
+
+Calculus/Analysis – sequences and series, convergence tests, power series, Taylor series, a short introduction to metric spaces in the context of the calculus of functions of several variables, generalisation of the real analysis theory studied inMATH1115to multivariable functions including limits and continuity, double integrals, Fubini's theorem, integrability of continuous functions, partial derivatives, gradients and directional derivatives, differentiation of multivariable functions, extreme values, vector-valued functions.
+
+Linear Algebra – subspaces, span, linear independence, bases and dimension, linear maps, duality, eigenvalues and eigenvectors, inner product spaces, Gram-Schmidt orthogonalisation, operators on inner product spaces, the spectral theorem in finite dimensions, singular value decomposition.
+
+Note: This is an Honours Pathway Course. It involves extra material and emphasises the use and understanding of proof and abstract ideas to a deeper conceptual level thanMATH1014.
+Learning Outcomes:
+- Explain the fundamental concepts of analysis and linear algebra and their role in modern mathematics and applied contexts.
+- Demonstrate accurate and efficient use of analysis and linear algebra techniques.
+- Demonstrate capacity for mathematical reasoning through analysing, proving and explaining concepts and theorems from analysis and linear algebra.
+- Apply problem-solving using analysis and linear algebra techniques applied to diverse situations in physics, engineering and other mathematical contexts.
+Assessment Tasks:
+- In-workshop assessment: 0% (Hurdle: False)
+- Assignments and online quizzes: 30% (Hurdle: False)
+- Tests during the semester: 30% (Hurdle: False)
+- Final examination: 40% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT1003 =====
+Subject: Statistical Techniques (STAT1003)
+Credit Points: 6 units
+Overview: This course introduces students to the philosophy and methods of modern statistical data analysis and inference, with a particular focus on applications to the life sciences. The course has a strong emphasis on computing and graphical methods, and uses a variety of real-world problems to motivate the theory and methods required for carrying out statistical data analysis. This course makes extensive use of R statistical analysis package interfaced through R Studio.
+Learning Outcomes:
+- Summarise and graph data appropriately;
+- Work with random variables and probability distributions and describe the rationale behind them;
+- Describe and use the normal distribution appropriately;
+- Identify when and how to carry out basic statistical inference including confidence intervals, hypothesis testing, regression and analysis of variance; and,
+- Identify contexts in which particular statistical methods may be inappropriate.
+Assessment Tasks:
+- Typical assessment may include, but is not restricted to: exams, assignments, quizzes, presentations and other assessment as appropriate: 100% (Hurdle: False)
+Workload: Students are expected to commit 130 hours of work in completing this course. This includes time spent in scheduled classes and self-directed study time
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT1008 =====
+Subject: Quantitative Research Methods (STAT1008)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT2001 =====
+Subject: Introductory Mathematical Statistics (STAT2001)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT2005 =====
+Subject: Introduction to Stochastic Processes (STAT2005)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT2008 =====
+Subject: Regression Modelling (STAT2008)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT2013 =====
+Subject: Introductory Mathematical Statistics for Actuarial Studies (STAT2013)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT2014 =====
+Subject: Regression Modelling for Actuarial Studies (STAT2014)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+

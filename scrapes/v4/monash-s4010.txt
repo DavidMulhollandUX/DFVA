@@ -1,0 +1,362 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/S4010 =====
+## Graduate Certificate of Mathematics
+##### S4010
+##### 24 credit points
+You are viewing the 2026 version
+
+### Overview
+Mathematics underpins our way of life and our prosperity. Its importance ranges from fundamental developments enabling new technologies, to theories backing up scientific research, to analyses of our physical and societal environments.
+
+The program is designed for graduates with a bachelor degree and a strong foundation in mathematics. You will acquire advanced knowledge and skills in mathematics, and the capacity to use them to tackle complex problems in a variety of situations. The flexible coursework offering ensures that you can compose a program to suit your interests, from pure mathematics that develops the core theory, to statistics and applied and computational mathematics that extend this theory to bring practical solutions to real-world problems. All these fields contribute to a far-reaching and comprehensive master's program. The combination of coursework and project equips graduates of the program with advanced knowledge and skills that make them employable in industry, or prepare them for doctoral studies.
+
+### AQF level
+Level 8 - Graduate Certificate
+### Post-nominals
+GradCertMath
+### Course duration (full time)
+
+
+### Structure
+The course comprises 24 points of Mathematics studies.
+
+Course progression map
+
+The course progression map provides guidance on unit enrolment for each semester of study.
+
+### Requirements
+You must complete 24 credit points from the available disciplines of mathematics, including pure mathematics, statistics and applied and computational mathematics:
+
+You will choose from:
+
+Pure mathematics
+
+  * MTH4020 Complex analysis and integral transforms 
+
+  * MTH4060 Advanced ordinary differential equations 
+
+  * MTH4110 Differential geometry 
+
+  * MTH4130 Topology: The mathematics of shape
+
+  * MTH4150 Algebra 2: Rings and fields 
+
+  * MTH4160 Metric spaces, Banach spaces, Hilbert spaces
+
+  * MTH4170 Network mathematics 
+
+Applied and computational mathematics
+
+  * MTH4015 Partial differential equations 
+
+  * MTH4320 Computational linear algebra 
+
+  * MTH4330 Optimisation and operations research 
+
+  * MTH4340 Numerical methods for partial differential equations 
+
+  * MTH4360 Fluid dynamics 
+
+Statistics
+
+  * MTH4230 Time series and random processes in linear systems
+
+  * MTH4241 Random processes in the sciences and engineering 
+
+  * MTH4251 Financial mathematics Archived
+
+  * MTH4260 Statistics of stochastic processes
+
+### Course structure
+24 credit points
+**Discipline studies** **24 credit points**
+You must complete 24 credit points from any of the following disciplines in mathematics
+  **Pure mathematics** **24 credit points**
+    [ _arrow_forward_ MTH4020 Complex analysis and integral transforms ](https://handbook.monash.edu/2026/units/MTH4020)
+    [ _arrow_forward_ MTH4060 Advanced ordinary differential equations ](https://handbook.monash.edu/2026/units/MTH4060)
+    [ _arrow_forward_ MTH4150 Algebra 2: Rings and fields ](https://handbook.monash.edu/2026/units/MTH4150)
+    [ _arrow_forward_ MTH4160 Metric spaces, Banach spaces, Hilbert spaces ](https://handbook.monash.edu/2026/units/MTH4160)
+    [ _arrow_forward_ MTH4170 Network mathematics ](https://handbook.monash.edu/2026/units/MTH4170)
+    [ _arrow_forward_ MTH4110 Differential geometry ](https://handbook.monash.edu/2026/units/MTH4110)
+    [ _arrow_forward_ MTH4130 Topology: The mathematics of shape ](https://handbook.monash.edu/2026/units/MTH4130)
+  **Statistics** **24 credit points**
+    [ _arrow_forward_ MTH4251 Financial mathematics ](https://handbook.monash.edu/2026/units/MTH4251)
+    [ _arrow_forward_ MTH4241 Random processes in the sciences and engineering ](https://handbook.monash.edu/2026/units/MTH4241)
+    [ _arrow_forward_ MTH4230 Time series and random processes in linear systems ](https://handbook.monash.edu/2026/units/MTH4230)
+    [ _arrow_forward_ MTH4260 Statistics of stochastic processes ](https://handbook.monash.edu/2026/units/MTH4260)
+  **Applied and computational mathematics** **24 credit points**
+    [ _arrow_forward_ MTH4360 Fluid dynamics ](https://handbook.monash.edu/2026/units/MTH4360)
+    [ _arrow_forward_ MTH4320 Computational linear algebra ](https://handbook.monash.edu/2026/units/MTH4320)
+    [ _arrow_forward_ MTH4340 Numerical methods for partial differential equations ](https://handbook.monash.edu/2026/units/MTH4340)
+    [ _arrow_forward_ MTH4330 Optimisation and operations research ](https://handbook.monash.edu/2026/units/MTH4330)
+    [ _arrow_forward_ MTH4015 Partial differential equations ](https://handbook.monash.edu/2026/units/MTH4015)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+Demonstrate a solid understanding of important topics in modern mathematics, including pure mathematics, applied mathematics and statistics.
+**2.**
+Apply critical thinking and mathematical techniques in quantitative and complex problem-solving contexts.
+**3.**
+Effectively communicate ideas and results in a variety of professional formats.
+**4.**
+Work competently, independently and collaborate effectively in an academic and/or professional context.
+
+### Progression to further studies
+Successful completion of the Graduate Certificate of Mathematics with an average of 65% will provide a pathway to the Master of Mathematics
+
+### AHEGS
+The Graduate Certificate of Mathematics is a postgraduate degree. The course is taught in English and normally takes one semester of full-time study or one year of part-time study. This coursework  degree course develops expert skills in one or more mathematical fields of study including Pure mathematics, Applied and Computation mathematics and Statistics.  The Graduate Certificate of Mathematics is a Level 8 Australian Qualifications Framework (AQF) qualification.  The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations.
+
+### Degrees awarded
+Graduate Certificate of Mathematics
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4015 =====
+Subject: Partial differential equations (MTH4015)
+Credit Points: 6
+Overview: This unit covers various analytic methods for partial differential equations. Explicit solution methods include separation of variables, Fourier series and transforms, fundamental solutions, and more. These methods will be explored for linear and nonlinear equations of elliptic, parabolic, or hyperbolic types. Abstract analysis techniques will also be covered for some of these partial differential equations, with an emphasis on establishing well-posedness for both stationary and time-dependent partial differential equations, and introducing basic concepts in functional analysis.
+Learning Outcomes:
+- Critically analyse and synthesise the concept of well-posedness for diverse boundary value problems and initial value problems;
+- Conduct a comprehensive critical evaluation of the characteristics of multi-dimensional partial differential equations, including the implementation and justification of initial and boundary conditions
+- Utilise and integrate cutting-edge methodologies to solve a diverse range of linear and nonlinear partial differential equations;
+- Demonstrate and apply the indispensability of functional analysis for the advanced analysis of partial differential equations by exploring and solving elliptic equations;
+- Exhibit a deep understanding of the mathematical properties of inhomogeneous partial differential equations and formulate exact solutions under complex specified conditions
+Assessment Tasks:
+- Continuous assessment: 50% (Hurdle: None)
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4020 =====
+Subject:  Complex analysis and integral transforms (MTH4020)
+Credit Points: 6
+Overview: Complex numbers and functions; domains and curves in the complex plane; differentiation; integration; Cauchy's integral theorem and its consequences; Taylor and Laurent series; Laplace and Fourier transforms; complex inversion formula; branch points and branch cuts; applications to initial value problems.
+Learning Outcomes:
+- Demonstrate a deep understanding of complex numbers and functions
+- Recognise the significance of complex analysis and its applications in physics and engineering and illustrate with real-world examples.
+- Develop and manipulate Laurent and Taylor series for complex functions
+- Utilise computer algebra systems to facilitate and enhance the application of complex analysis techniques.
+- Master the method of Laplace transforms and proficiently evaluate inverse transforms.
+- Compute and interpret line integrals in the complex plane using advanced techniques
+- Apply Cauchy’s integral theorem and its implications in various contexts
+Assessment Tasks:
+- Continuous assessment: 50% (Hurdle: None)
+- Final Assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4060 =====
+Subject: Advanced ordinary differential equations (MTH4060)
+Credit Points: 6
+Overview: This unit examines two particular classes of ordinary differential equations: dynamical systems and boundary-value problems. The investigation of boundary-value problems considers series methods, Green’s functions, Sturm-Liouville eigenvalues problems and orthogonal polynomials. The second topic of dynamical systems considers analytical and numerical methods for planar autonomous systems, classification of critical points using eigenvalues and eigenvectors and perturbation methods for periodic and nearly periodic motion. Programming skills are developed in the context of the analytic and numerical investigation of advanced ordinary differential equations using MATLAB.
+Learning Outcomes:
+- Communicate reasoning and results in differential equations effectively, both orally and in writing, and collaborate in small groups to solve problems;
+- Analyse the qualitative behaviour of dynamical systems by classifying critical points, studying stability, and applying perturbation methods for periodic and near-periodic motion;
+- Develop a deeper understanding of advanced ordinary differential equations through rigorous synthesis, independent analysis, and application to complex or novel systems.
+- Demonstrate how differential equations model real-world phenomena, integrating theory, computation, and interpretation in applied contexts;
+- Apply analytical and numerical methods to solve advanced ordinary differential equations, including Sturm–Liouville problems, series solutions, and Green’s functions;
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4110 =====
+Subject: Differential geometry (MTH4110)
+Credit Points: 6
+Overview: This unit will explore the metric structure of curves and surfaces, primarily in 3-dimensional Euclidean space. The major focus is on the various concepts of curvature and related notions, and the relationships between them. Curvature and torsion of a curve. First and second fundamental forms of a surface. Geodesic and normal curvatures of a curve on a surface. Gaussian, mean and principal curvatures of a surface. Important theorems relating these concepts. Links will be drawn with many other areas of mathematics, including real and complex analysis, linear algebra, differential equations, and general relativity
+Learning Outcomes:
+- Perform calculations to determine curvature and related quantities for curves and surfaces in 3-dimensional space.
+- Evaluate and explore the intricate connections between differential geometry and other advanced areas of mathematics and physics, such as real and complex analysis, abstract linear algebra, differential equations, and general relativity.
+- Articulate complex mathematical ideas and findings related to differential geometry with clarity, precision, and rigour, suitable for academic and professional audiences
+- Synthesise and apply advanced concepts and theorems regarding the geometry of curves and surfaces in 3-dimensional space, demonstrating a deep understanding.
+- Formulate and prove theorems, and solve complex problems about curves and surfaces in 3-dimensional space using differential geometry techniques.
+- Critically analyse the significance and implications of intrinsic measures of curvature, for curves and surfaces in 3-dimensional space
+Assessment Tasks:
+- Continuous Assessment: 50% (Hurdle: None)
+- Final assessment - Examination (3 hours 10 minutes): 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4130 =====
+Subject: Topology: The mathematics of shape (MTH4130)
+Credit Points: 6
+Overview: From point-set topology to manifolds: sets, topological spaces, basis of topology, and properties of spaces such as compact, connected, and Hausdorff. Maps between spaces and their properties, including continuity, homeomorphism, and homotopy. Constructing spaces via subspace, product, identification, and delta complexes. Manifolds. Additional topics from algebraic and low-dimensional topology may include fundamental group and Seifert-van Kampen theorem, classification of surfaces, and topics in knot theory. Throughout, examples of spaces will include Euclidean spaces, surfaces (real projective plane, Klein bottle, Mobius strip), complexes, function spaces, and others.
+Learning Outcomes:
+- Explore and assess the extensive applications of topology across advanced areas of mathematics and the natural sciences, identifying potential interdisciplinary connections and contributions.
+- Communicate sophisticated mathematical arguments and concepts related to topology with clarity and precision, both in written and oral forms, suitable for academic and professional contexts.
+- Apply some of the most famous theorems of topology, such as the classification of surfaces and the Seifert-van Kampen theorem, to solve complex problems.
+- Critically evaluate and synthesise definitions, concepts, examples, theorems, and proofs of topology.
+- Design and construct topological spaces in various guises, recognising their underlying structures and properties
+- Exhibit mastery in advanced problem-solving and theorem-proving techniques, demonstrating creativity and rigour in the approach to complex topological problems
+- Collaborate effectively with staff and fellow students in the synthesis of advanced mathematical knowledge and the application of topological methods to complex problem-solving scenarios, demonstrating leadership and initiative in group settings
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4150 =====
+Subject: Algebra 2: Rings and fields (MTH4150)
+Credit Points: 6
+Overview: Rings, fields, ideals, number fields and algebraic extension fields. Coding theory applications of finite fields. Gaussian integers, Hamilton's quaternions. Euclidean Algorithm in rings.
+Learning Outcomes:
+- Exhibit an in-depth understanding of different types of rings, such as integral domains, principal ideal domains, unique factorisation domains, Euclidean domains, fields, and skew-fields, amongst these are the Gaussian integers and quaternions, the most well-known skew-fields.
+- Generalise and apply known concepts over the integers to other domains, for example, use the Euclidean algorithm and factorisation algorithms in the algebra of polynomials.
+- Demonstrate understanding of the classification of finite fields.
+- Master the manipulation and application of the most common rings and fields: integers, integers modulo n, matrix rings, rationals, real and complex numbers, as well as more general structures such as number fields, algebraic extension fields, splitting fields, algebraic integers, and finite fields.
+- Construct larger fields from smaller fields (field extensions and splitting fields), demonstrating a deep understanding of these processes.
+- Apply a wide range of proof techniques to prove complex mathematical results.
+- Formulate and critically analyse abstract concepts in algebra.
+- Apply field theory to coding theory and demonstrate understanding of the classification of cyclic codes.
+Assessment Tasks:
+- Continuous assessment: 50% (Hurdle: None)
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4160 =====
+Subject: Metric spaces, Banach spaces, Hilbert spaces (MTH4160)
+Credit Points: 6
+Overview: In this unit, we develop the theory of metric spaces, Banach spaces and Hilbert spaces. These are the foundations that support the models of modern physics, including general relativity, quantum mechanics, and optimisation; and are also essential for understanding stochastic phenomena, signal processing and data compression, Fourier analysis, differential equations, and numerical analysis. Topics covered include a basic introduction to metric spaces, topology in metric and Banach spaces, dual spaces, continuous linear mappings between Banach spaces, weak convergence and weak compactness in separable Banach spaces, Hilbert spaces and the Riesz representation theorem. Applications of these theories may include the contraction mapping theorem and its usage to prove the Cauchy-Lipschitz theorem (existence and uniqueness of solution to ordinary differential equations).
+Learning Outcomes:
+- Identify the conditions for the existence and uniqueness of solutions to initial value problems for systems of ordinary differential equations, employing advanced analytical techniques.
+- Critically analyse and synthesise topological properties of metric spaces, demonstrating their applications to complex problems in various areas of mathematics
+- Apply some important theorems in analysis, such as the contraction mapping theorem and the Riesz representation theorem, to tackle advanced mathematical problems.
+- Communicate sophisticated mathematical ideas effectively, both individually and collaboratively, demonstrating leadership and advanced teamwork skills appropriate for the discipline of mathematic
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4170 =====
+Subject: Network mathematics (MTH4170)
+Credit Points: 6
+Overview: This unit provides an introduction to graph theory, which is the mathematics of networks. Topics covered include trees, Eulerian tours, Hamiltonian cycles, shortest path problem, bipartite graphs, matchings, graph colouring, max-flow problem, graph connectivity, independent sets, planarity, random graphs. Applications to a variety of the sciences will be presented. You will learn how to write proofs and analyse algorithms.
+Learning Outcomes:
+- Evaluate and illustrate the extensive applications and significance of graph theory across diverse fields, particularly in mathematics and computer science
+- Construct mathematical proofs of theorems about graphs, demonstrating creativity and depth of understanding
+- Design, implement, and critically evaluate algorithms for solving various graph optimisation problems.
+- Communicate complex mathematical arguments and concepts related to graph theory with clarity and precision, both in written and oral forms, suitable for academic and professional contexts
+- Exhibit mastery in advanced problem-solving techniques, working both independently and collaboratively with staff and fellow students.
+- Apply some of the most famous theorems in graph theory, such as the max-flow-min-cut theorem, the marriage theorem, and the 4-colour theorem, to solve complex problems.
+- Critically analyse and synthesise concepts in graph theory.
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4230 =====
+Subject: Time series and random processes in linear systems (MTH4230)
+Credit Points: 6
+Overview: Multivariate distributions. Estimation: maximum of likelihood and method of moments. Confidence intervals. Analysis in the time domain: stationary models, autocorrelation, partial autocorrelation. ARMA and ARIMA models. Analysis in the frequency domain (Spectral analysis): spectrum, periodigram, linear and digital filters, cross-correlations and cross-spectrum, spectral estimators, confidence interval for the spectral density. State-space models. Kalman filter. Empirical Orthogonal Functions and other Eigen Methods. Use of ITSM.
+Learning Outcomes:
+- Extend and deepen understanding of time series methods through advanced model synthesis, rigorous analysis, and independent application to complex or novel datasets.
+- Perform time and frequency domain analysis of time series data, applying techniques such as the Kalman filter and using ITSM to interpret and evaluate results;
+- Conduct analysis of time series data using the ITSM package, showcasing the ability to handle complex datasets and derive meaningful insights
+- Apply the Kalman filter to random systems, demonstrating proficiency in both theoretical understanding and practical implementation.
+- Integrate theoretical understanding with practical implementation by applying stochastic models and computational tools to real data problems;
+- Analyse and evaluate stationary time series models, including autoregressive and moving average processes, and apply projection methods for forecasting;
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4241 =====
+Subject: Random processes in the sciences and engineering (MTH4241)
+Credit Points: 6
+Overview: This unit introduces the methods of stochastic processes and statistics used in the analysis of biological data, physics, economics and engineering. At the completion of the unit you will understand the application of classical techniques, such as Poisson processes, Markov chains, hidden Markov chains, random walks, martingale theory, birth and death processes, and branching processes in the analysis of DNA sequences, population genetics, dynamics of populations, telecommunications and economic analysis.
+Learning Outcomes:
+- Apply probability processes to complex and practical situations, including queues, epidemics, servicing machines, networks, financial markets, and insurance risk, showcasing the ability to solve real-world problems with advanced probabilistic methods
+- Critically analyse and synthesise the concept of random variables varying with time
+- Demonstrate an in-depth understanding of key processes in probability, including the Poisson process, birth process, birth and death process, branching processes, random walks, and martingales
+- Perform analysis of Markov chains in both discrete and continuous time.
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4251 =====
+Subject: Financial mathematics (MTH4251)
+Credit Points: 6
+Overview: You will use the concept of random variables and their uses as models of uncertain future payoffs. An important concept for analysis is the conditional expectation. Special attention is given to normal distribution and multivariate normal distribution, in which explicit calculations are possible. Systems evolving in time encorporating uncertainty are modelled as stochastic (random) processes. Examples of such in discrete time are Random Walk and Martingales. As an application we look at the Risk model in insurance and obtain the bound on Ruin probability. Models in continuous time are based on Brownian motion. Stochastic analysis uses the novel concepts of Ito integral and Ito's formula. Applications in finance include the Black-Scholes model and the Ornstein-Uhlenbeck process. Simple stochastic differential equations are introduced. Another application to interest rates is Vasicek's stochastic differential equation. A new mathematical technique Change of probability measure is introduced. Girsanov theorem gives the change of measure for Brownian motion and related processes. To manage financial risks the Fundamental theorems of Asset pricing are stated and applied to various models, such as the . Binomial and Black-Scholes models. Important concepts of arbitrage, replicating portfolios are used for pricing and hedging options and other financial contracts.
+Learning Outcomes:
+- Communicate mathematical reasoning and results effectively through clear oral and written explanations, and collaborate in small groups to solve problems in financial mathematics;
+- Analyse discrete-time models in finance by applying random walks, martingales, conditional expectation, and stopping times, and using these to study applications such as insurance and ruin probabilities;
+- Extend and deepen understanding of financial mathematics through advanced model synthesis, rigorous analysis, and independent application to complex or novel problems, demonstrating higher levels of rigour and autonomy.
+- Interpret and model continuous-time processes including Brownian motion and diffusions, and use stochastic calculus tools such as Ito’s formula and stochastic differential equations to solve problems in financial mathematics;
+- Apply measure-change and asset-pricing frameworks by using the Equivalent Martingale Measure, implementing the Binomial, multi-period models, and the Black–Scholes models, and applying the fundamental theorems of asset pricing to problems of pricing and hedging;
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4260 =====
+Subject: Statistics of stochastic processes (MTH4260)
+Credit Points: 6
+Overview: Many practical experiments involve repeated measurements made over a period of time, where the individuals or systems being observed are evolving during the study period. Examples of this kind of data arise in signal processing, financial modelling and mathematical biology. For experiments of this kind, standard statistical methods that assume data points are independent and identically distributed (iid) are of limited value, due to dependencies among measurements. This unit will introduce statistical methods for such processes. Topics: Review of fundamental statistics: their distributions, properties and limitations; Stochastic processes: Markov, ARMA, Stationary and diffusion processes; Likelihood models, Graphical models, Bayesian models; Decision theory, Likelihood ratio tests, Bayesian model comparison; Sufficient statistics, Maximum likelihood estimation, Bayesian estimation; Exponential families; Convergence of random variables and measures; Properties of estimators: bias, consistency, efficiency; Laws of large numbers and ergodic theorems, Central limit theorems; Statistics for stationary processes; Statistics for ARMA processes; Statistics for diffusion processes
+Learning Outcomes:
+- Interpret and apply statistical results from stochastic process models to real-world problems in areas such as signal processing, finance, and mathematical biology;
+- Analyse and evaluate the properties of estimators, including bias, consistency, efficiency, and asymptotic behaviour, with applications to stationary, ARMA, and diffusion processes;
+- Extend and deepen understanding of statistical methods for stochastic processes through advanced model synthesis, rigorous analysis, and independent application to complex or novel datasets.
+- Apply likelihood-based methods to construct, estimate, and compare models for stochastic processes, including maximum likelihood and Bayesian approaches;
+- Communicate statistical reasoning and results effectively, both orally and in writing, and collaborate in small groups to solve problems in the statistics of stochastic processes;
+Assessment Tasks:
+- Continuous assessment: 50% (Hurdle: None)
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+Workload: Three 1-hour seminars One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4320 =====
+Subject: Computational linear algebra (MTH4320)
+Credit Points: 6
+Overview: The overall aim of this unit is to study the numerical methods for matrix computations that lie at the core of a wide variety of large-scale computations and innovations in the sciences, engineering, technology and data science. You will receive an introduction to the mathematical theory of numerical methods for linear algebra (with derivations of the methods and some proofs). This will broadly include methods for solving linear systems of equations, least-squares problems, eigenvalue problems, and other matrix decompositions. Special attention will be paid to conditioning and stability, dense versus sparse problems, and direct versus iterative solution techniques. You will learn to implement the computational methods efficiently, and will learn how to thoroughly test their implementations for accuracy and performance. You will work on realistic matrix models for applications in a variety of fields. Applications may include, for example: computation of electrostatic potentials and heat conduction problems; eigenvalue problems for electronic structure calculation; ranking algorithms for webpages; algorithms for movie recommendation, classification of handwritten digits, and document clustering; and principal component analysis in data science.
+Learning Outcomes:
+- Design, implement, and critically evaluate advanced computational linear algebra methods, demonstrating the correctness and efficiency of the implementations through systematic and rigorous computational tests.
+- Critically evaluate and synthesise the mathematical theory behind a selection of important numerical methods for linear algebra, including the derivation of the methods and the analysis of their properties.
+- Analyse and apply advanced concepts of conditioning, stability, accuracy, convergence, convergence speed, and computational cost, demonstrating a thorough understanding of these notions in complex scenarios.
+- Communicate complex theoretical and applied computational linear algebra problems with clarity and precision, both in written and oral forms, suitable for academic and professional audiences
+- Exhibit mastery in the most important linear algebra algorithms for solving linear systems, least-squares problems, eigenvalue decompositions, and other matrix decompositions, applying these methods to complex problems in science, engineering, technology, and big data analytics.
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4330 =====
+Subject: Optimisation and operations research (MTH4330)
+Credit Points: 6
+Overview: This unit introduces some of the fundamental concepts and algorithms of mathematical optimisation. Optimisation underpins many parts of both data analytics (machine learning) and business analytics (management science/operations research). The concepts and approaches taught in this unit will be illustrated using examples from both types of analytics, such as training ML models and planning models arising in supply chain optimisation. The unit provides an introduction to the mathematics of continuous optimisation with focus on iterative gradient descent methods, linear programming and network optimisation. It covers both the underpinning theory, such as convergence analysis and duality, and the practical implementation of optimisation algorithms
+Learning Outcomes:
+- Implement and evaluate linear programming and related optimisation algorithms, proving optimality where appropriate and applying them to real-world data and applications;
+- Formulate and analyse optimisation problems arising in machine learning, operations research, and network optimisation, selecting and justifying appropriate algorithms;
+- Communicate optimisation reasoning and results effectively, both orally and in writing, and collaborate in small groups to solve problems;
+- Explain and apply the mathematical theory of optimisation, including optimality conditions, iterative algorithms for nonlinear problems, and the principles of duality and non-smooth optimisation;
+- Extend and deepen understanding of time series methods through advanced model synthesis, rigorous analysis, and independent application to complex or novel datasets.
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Two 1.5-hour workshops; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4340 =====
+Subject: Numerical methods for partial differential equations (MTH4340)
+Credit Points: 6
+Overview: Partial differential equations are ubiquitous in many domains of sciences and industry, as they model phenomena with spatial and temporal variations. Most of these models are too complex to be exactly solved, and numerical methods are the only way to gather quantitative behaviour on the solutions. This unit covers the design, analysis and implementation of numerical methods for partial differential equations. Topics covered can include finite difference methods, finite element methods, finite volume methods, error analysis, elliptic equations, parabolic equations, implementation in dynamic languages (such as Python or Julia). The focus will be on the design of the methods, their mathematical analysis, and their implementation and numerical testing.
+Learning Outcomes:
+- Implement advanced numerical methods in high-level programming languages such as Python or Julia, and critically interpret and analyse the resulting numerical outputs, demonstrating proficiency in computational skills;
+- Communicate complex theoretical and practical numerical problems involving partial differential equations with clarity and precision, both in written and oral forms, suitable for academic and professional audiences.
+- Critically evaluate and articulate the necessity of numerical methods for obtaining quantitative information on the solutions to partial differential equations;
+- Select and justify the use of advanced discretisation techniques based on their specific characteristics and the features of the considered mathematical model, showcasing expertise in tailoring methods to complex problems;
+- Design, analyse, and rigorously assess the convergence and stability of numerical methods for a wide range of partial differential equations, demonstrating a deep understanding of the underlying mathematical principles;
+Assessment Tasks:
+- Continuous assessment: 40% (Hurdle: None)
+- Final assessment - Exam (3 hours and 10 minutes): 60% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH4360 =====
+Subject: Fluid dynamics (MTH4360)
+Credit Points: 6
+Overview: The continuum hypothesis; notion of a fluid particle; pathlines and streamlines. Eulerian and Lagrangian frameworks; the material derivative. Conservation of mass; incompressibility; streamfunctions. Forces acting on a fluid; the stress tensor; conservation of momentum; the constitutive relation; the incompressible Navier-Stokes equations. Boundary conditions. Exact solutions of Navier-Stokes equations. Non-dimensionalization and dimensional analysis; Reynolds number. Low Reynolds number flows. Vorticity; circulation; Helmholtz' vorticity equation; properties of vorticity; Kelvin's circulation theorem. Lubrication theory. Inviscid flows; potential flows. Boundary layer equations and flows.
+Learning Outcomes:
+- Solve the governing and reduced equations in simple situations and demonstrate and in-depth understanding of the physical implications of the solutions and their limitations
+- Summarise and critically evaluate the derivation of the equations governing incompressible fluid motion, demonstrating a deep understanding of the underlying principles.
+- Articulate and analyse the mathematical description of fluid motion, showcasing proficiency in formulating and interpreting fluid dynamics equations
+- Apply the process of scaling to simplify the governing equations for both viscous and inertia dominated flows.
+- Critically evaluate and synthesise the extensive scope and applications of fluid dynamics within the physical sciences, demonstrating an advanced understanding of its interdisciplinary relevance
+- Apply the process of scaling to lubrication and boundary layer flows.
+Assessment Tasks:
+- Final assessment - Examination (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: 2 hours of pre-recorded lectures; One 3-hour applied class and 7 hours of independent study per week.
+

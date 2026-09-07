@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in society and culture.",
+    "evidenceLines": [
+      "critically analyse key concepts and processes in practice-based research;",
+      "initiate and design an original practice-based research project or component of a research project.",
+      "Enrolment in a master's by research degree involves the independent investigation of a research problem that has been formulated by you as the student."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in society and culture.",
+    "evidenceLines": [
+      "apply ethical principles in practice-based research projects;",
+      "critically evaluate and select from a range of practice-based research methods and modes for communicating research findings;",
+      "It is expected that the research you undertake will make a contribution to the discipline in which you are enrolled by applying, critiquing, analysing or interpreting that knowledge in ways that facilitate pathways for further learning."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within society and culture.",
+    "evidenceLines": [
+      "Subject: Practice-based Research: Design, methods and modes of representation   (APG5126)",
+      "Subject: Advanced methodologies in the humanities and social sciences (APG5127)",
+      "Presentation: 30% (Hurdle: None)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in society and culture.",
+    "evidenceLines": [
+      "Research task: 30% (Hurdle: None)",
+      "Portfolio: 40% (Hurdle: None)",
+      "You will be supported in your research by a supervisory team."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in society and culture.",
+    "evidenceLines": [
+      "Subject: Designing research in the humanities and social sciences (APG5155)",
+      "Subject: Practice-based research: Design, methods and modes of representation (APR5126)",
+      "identify and evaluate the appropriateness of different methodologies for research in the humanities and social sciences;"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in society and culture.",
+    "evidenceLines": [
+      "apply sophisticated communication and research skills essential for success in a Master’s of Research Training degree.",
+      "Enrolment in a master's by research degree involves the independent investigation of a research problem that has been formulated by you as the student.",
+      "It is expected that the research you undertake will make a contribution to the discipline in which you are enrolled by applying, critiquing, analysing or interpreting that knowledge in ways that facilitate pathways for further learning."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in society and culture.",
+    "evidenceLines": [
+      "apply critical thinking to theoretical and practical problems for research in the humanities and social sciences, and clearly synthesise and analyse key elements of those problems in writing;",
+      "Subject: Advanced methodologies in the humanities and social sciences (APR5127)",
+      "You will be supported in your research by a supervisory team."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "This course is structured in two parts. Part 1: completion of mandatory coursework units (totalling 24 credit points) in semester one of enrolment. Part 2: an original research and thesis (or equivalent) of 20,000-25,000 words.",
+      "Enrolment in a master's by research degree involves the independent investigation of a research problem that has been formulated by you as the student."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Arts Research Training.",
+      "evidenceLines": [
+        "This course is structured in two parts. Part 1: completion of mandatory coursework units (totalling 24 credit points) in semester one of enrolment. Part 2: an original research and thesis (or equivalent) of 20,000-25,000 words.",
+        "Course requirements"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in society and culture.",
+      "evidenceLines": [
+        "Subject: Practice-based Research: Design, methods and modes of representation   (APG5126)",
+        "critically analyse key concepts and processes in practice-based research;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

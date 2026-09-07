@@ -1,0 +1,153 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/7706XMCOMP =====
+# Master of Computing (7706XMCOMP)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: 7706XMCOMP
+- **Academic Year**: 2027
+- **Career / Study Level**: Postgraduate
+- **Program Duration**: 2 year full-time
+- **Minimum Units Required**: 96 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal MComp
+- **CRICOS Code**: code 078940M
+- **UAC Code**: N/A
+- **Field of Education**: of Education Computer Science
+- **Academic Contact**: contact Ranald Clouston
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/7706XMCOMP
+
+## Program Description
+A single two year graduate award offered by theANU College of Systems and Society
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Professionally apply systematic computing approaches to address complex, multi-disciplinary real-world computing problems in a variety of domains.
+2. Synthesise and proficiently apply advanced, integrated technical knowledge from their specialisation and other elective areas of study and the underpinning sciences and computational methods.
+3. Identify and critically evaluate current developments and emerging trends within their specialisation and other elective areas of study.
+4. Understand the contextual factors that influence professional computing practice, and identify the potential societal, ethical, and environmental impact of computing activities.
+5. Communicate effectively with colleagues, other computing professionals and the broader community employing a range of communication media and tools.
+6. Engage in independent investigation, critical reflection and lifelong learning to continue to practice at the forefront of the discipline.
+7. Work effectively and proactively within cross-cultural, multi-disciplinary teams, demonstrating autonomy, ethical conduct, expert judgement, adaptability and responsibility to achieve computing outcomes at a high standard.
+
+## Program Requirements & Study Options
+### Program Requirements
+The Master of Computing requires the completion of 96 units, of which:
+
+### Study Options
+Year 1
+COMP7710
+Programming Fundamentals
+12 units
+MATH6005
+(Discrete Mathematical Models) OR
+COMP6260
+(Foundations of Computing)
+University Elective
+6 units
+COMP6442
+Software Construction
+6 units
+COMP8280
+Responsible Practice, Innovation and Leadership
+6 units
+Computing Elective
+6 units
+Specialisation Course
+6 units
+Year 2
+48 units
+COMP 8715 / 8830
+6 units
+Computing Elective
+6 units
+Specialisation Course
+6 units
+Specialisation Course
+6 units
+COMP 8715 / 8830
+6 units
+Computing Elective
+6 units
+University Elective
+6 units
+Specialisation Course
+6 units
+
+### Admission Requirements
+Applicants must present one of the following:
+
+### Inherent Requirements
+Information on inherent requirement is currently not available for this program.
+
+### Electives
+Electives
+must be at postgraduate level (6000 or
+higher) and
+can
+be
+found by searching postgraduate courses on
+Programs and Courses
+.
+You should read the Study
+tab to see how many electives you may choose and where they fit in your
+program. When choosing elective courses, check the course listing on
+Programs and Courses
+to ensure that
+you have the required and assumed knowledge before enrolling. If you
+don't, consider changing your planned enrolment to make sure you take the
+pre-requisite course.
+
+### Study Options
+Please refer to the enrolment pattern in the Study tab
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6260 =====
+Subject: Foundations of Computing (COMP6260)
+Credit Points: 6 units
+Overview: This course presents some formal notations that are commonly used for the description of computation and of computing systems, for the specification of software and for mathematically rigorous arguments about program properties.  The following areas of study constitute the backbone of the course. Predicate calculus and natural deduction, inductive definitions of data types as a basis for recursive functions and structural induction, formal language theory (particularly regular expressions, finite state machines and context free grammars), and specification languages.
+Learning Outcomes:
+- Apply the concepts of standard mathematical logic to produce proofs or refutations of well-formed propositions or arguments phrased in English or in a variety of formal notations (first order logic, discrete mathematics or Hoare logic). Express problems, presented in English, in these formal notations and demonstrate an awareness of the differences between them.
+- Relate structural induction to other forms of mathematical induction, and write a recursive definition of a given simple operation on data of a given type presented via an inductive definition of the data structure.
+- Explain the concept of program correctness and prove simple programs correct using Hoare Logic.
+Assessment Tasks:
+- Assignments: 40% (Hurdle: False)
+- Quizzes: 10% (Hurdle: False)
+- Final Exam: 50% (Hurdle: False)
+Workload: Lectures, tutorials and self-directed study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP7710 =====
+Subject: Programming Fundamentals (COMP7710)
+Credit Points: 12.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP8280 =====
+Subject: Responsible Practice, Innovation and Leadership (COMP8280)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH6005 =====
+Subject: Discrete Mathematical Models (MATH6005)
+Credit Points: 6 units
+Overview: Introduction to discrete mathematics and its use in mathematical modelling. Emphasis will be placed on developing facility, technique and use in applications. Modelling of processes and phenomena which occur in the physical, environmental and life sciences, especially computer science, will be used as a vehicle throughout. Topics to be covered include: logic and set theory, combinatorics and counting, probability, induction and recurrence relations, graph theory and networks, matrix arithmetic and Markov chains.
+
+Note:This course is co-taught with undergraduate students but assessed separately.
+Learning Outcomes:
+- Recall, invent or interpret examples of motivation for mathematical constructs used in discrete mathematics as models of processes in the world.
+- Recognise, define, explain and use terminology and notation from discrete mathematics.
+- Identify the logical structure of a statement, and then identify the logical structure of an argument that may be used to prove or disprove the statement.
+- Competently perform mathematical calculations in discrete mathematics using methods presented in the course.
+- Write simple proofs/construct explicit counterexamples for statements relating to discrete mathematics topics covered in the course.
+- Use their deep knowledge and understanding of the material presented in the course to formulate responses to complex concrete and abstract problems.
+- Communicate their understanding and skills in discrete mathematics with colleagues and non-experts and apply their knowledge in an occupational situation.
+Assessment Tasks:
+- Workshop quizzes: 10% (Hurdle: False)
+- Graduate Written Assignments: 30% (Hurdle: False)
+- Final Examination Regardless of performance on other assessment items, a minimum score of 40% on the final exam is required to pass the course.: 60% (Hurdle: True)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+

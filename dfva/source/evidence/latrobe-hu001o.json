@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-hu001o",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in health, n.e.c..",
+      "evidenceLines": [
+        "Reflect critically on your own cultural attitudes, values and beliefs",
+        "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+        "If you're passionate about making a difference to the wellbeing of others, La Trobe's Undergraduate Certificate provides you with the foundational knowledge to upskill or\u00a0pursue a new career in health sciences."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in health, n.e.c..",
+      "evidenceLines": [
+        "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+        "Understand the need for and value of appropriate and effective intercultural communication",
+        "Our health sciences curriculum is uniquely aligned with industry trends, focusing on real-world and data-driven health solutions to equip students with the in-demand skills in today\u2019s evolving health sector."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within health, n.e.c..",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "Understand the importance of the acknowledgment and the referencing of sources"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in health, n.e.c..",
+      "evidenceLines": [
+        "Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.",
+        "Recognise and understand academic integrity responsibilities.",
+        "You'll develop the foundational knowledge in the health sciences and the interdisciplinary skills to prepare you for future studies and employment in the field of health sciences."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in health, n.e.c..",
+      "evidenceLines": [
+        "Subject: HUMAN STRUCTURE AND FUNCTION (PAM1HSF)",
+        "Subject: UNDERSTANDING HEALTH AND WELLBEING (PHE1UHW)",
+        "Describe your desired career path, as well as the skills and attributes that employers are seeking in graduates, and reflect on your career planning"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in health, n.e.c..",
+      "evidenceLines": [
+        "Relate the anatomical organisation of selected systems of the body to their physiological function",
+        "If you're passionate about making a difference to the wellbeing of others, La Trobe's Undergraduate Certificate provides you with the foundational knowledge to upskill or\u00a0pursue a new career in health sciences.",
+        "Our health sciences curriculum is uniquely aligned with industry trends, focusing on real-world and data-driven health solutions to equip students with the in-demand skills in today\u2019s evolving health sector."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in health, n.e.c..",
+      "evidenceLines": [
+        "Work collaboratively to communicate basic physiological and anatomical principles to your peers",
+        "Subject: MAKING SENSE OF DATA (STM1001)",
+        "You'll develop the foundational knowledge in the health sciences and the interdisciplinary skills to prepare you for future studies and employment in the field of health sciences."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "To qualify for the Undergraduate Certificate in Health Sciences, students must complete 60 credit points consisting of:",
+        "If you're passionate about making a difference to the wellbeing of others, La Trobe's Undergraduate Certificate provides you with the foundational knowledge to upskill or\u00a0pursue a new career in health sciences."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Undergraduate Certificate in Health Sciences.",
+        "evidenceLines": [
+          "To qualify for the Undergraduate Certificate in Health Sciences, students must complete 60 credit points consisting of:",
+          "45 core credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in health, n.e.c..",
+        "evidenceLines": [
+          "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+          "Reflect critically on your own cultural attitudes, values and beliefs"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "code": "monash-b2033",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 11,
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The Bachelor of Actuarial Science comprises 144 credit points structured into foundational commerce, discipline studies in actuarial modeling and econometrics, specialist actuarial studies/analytics, and electives, satisfying Actuaries Institute professional exemption standards.",
+        "evidenceLines": [
+          "You must complete units as specified in Parts A, B, C and D (144 credit points): including 96 points of study in Parts A, B, C and 48 points of elective studies in Part D.",
+          "ETC1000 Business and economic statistics",
+          "ETC2410 Introductory econometrics",
+          "ETC2430 Actuarial cash flow modelling",
+          "ETC2520 Probability and statistical inference for economics and business",
+          "ETC2560 Statistical modelling for actuarial studies",
+          "ETC3550 Applied forecasting"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core actuarial curriculum requires complex decision-making under stochastic uncertainty, life table mortality risk, and probabilistic modeling.",
+        "evidenceLines": [
+          "develop extensions using life tables for the valuation of basic life insurance policies with stochastic cash-flows.",
+          "apply Bayesian models and credibility theory to insurance problems.",
+          "apply probability concepts to model uncertainty and assess risk in business and economic contexts"
+        ]
+      }
+    },
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 is met: team collaboration and group problem-solving are assessed in accounting tasks (ACC1100), statistical presentations (ETC1000), and actuarial project presentations (ETC2430: 3 - Presentation: 10%). Not level 3: human/AI collaboration division of labour is not explicitly assessed.",
+      "evidenceLines": [
+        "collaborate effectively in team-based accounting tasks to contribute disciplinary knowledge and support collective problem solving",
+        "collaborating in teams to present evidence-based insights for business audiences",
+        "3 - Presentation: 10%"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 is met: quantitative project validation, statistical diagnostic testing, and model appraisal are assessed in ETC2430 (1 - Project: 20%) and ETC2560. Not level 3: criterion-referenced justification of AI or automated tool reliance is not documented in the core.",
+      "evidenceLines": [
+        "1 - Project: 20%",
+        "3 - Presentation: 10%"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2 is met across the core: ETC3550 teaches computational forecasting with R, ETC2560 teaches Bayesian and generalised linear modeling, and ETC2410 teaches econometrics software. Not level 3: critique, ethics, and governance of AI systems are not mandated in the common degree core.",
+      "evidenceLines": [
+        "You will enhance your computational skills with exercises using R.",
+        "ETC2560 Statistical modelling for actuarial studies"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 is sustained: core units in probability and inference (ETC2520), cash flow modeling (ETC2430), statistical modeling (ETC2560), and applied forecasting (ETC3550) demand advanced mathematical deduction, stochastic calculus, Bayesian inference, and complex computational modeling.",
+      "evidenceLines": [
+        "develop extensions using life tables for the valuation of basic life insurance policies with stochastic cash-flows.",
+        "apply Bayesian models and credibility theory to insurance problems.",
+        "apply probability concepts to model uncertainty and assess risk in business and economic contexts"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 is met: rigorous multi-stage professional progression, actuarial institute syllabus testing, and adaptive problem-solving across deterministic and stochastic financial contexts.",
+      "evidenceLines": [
+        "ETC2430 Actuarial cash flow modelling"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 is met: communicating statistical and actuarial findings to business audiences and professional stakeholders is explicitly taught and assessed in ETC1000 and ETC2430.",
+      "evidenceLines": [
+        "collaborating in teams to present evidence-based insights for business audiences",
+        "3 - Presentation: 10%"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 is met: authentic financial and insurance cash flow project modeling in ETC2430 (1 - Project: 20%) applying industry life tables and annuity valuation.",
+      "evidenceLines": [
+        "1 - Project: 20%",
+        "develop extensions using life tables for the valuation of basic life insurance policies with stochastic cash-flows."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 is met: while the handbook notes opportunities for industry-based experience as part of the specialisations, external workplace immersion is an elective/selective stream rather than compulsory for the degree as a whole.",
+      "evidenceLines": [
+        "You must complete units as specified in Parts A, B, C and D (144 credit points): including 96 points of study in Parts A, B, C and 48 points of elective studies in Part D."
+      ]
+    },
+    "ambiguities": [
+      "C1: Actuarial presentation and team tasks assess group presentation skills, but do not assess human/AI division of labour, resolving to level 2.",
+      "C3: Advanced machine learning techniques are available in the Actuarial Analytics stream, but the degree core is scored across common units (R computing in ETC3550), resolving to level 2.",
+      "W3: Industry-based experience is offered in specialist streams, but formal external placement is non-compulsory in the degree core, resolving to level 1."
+    ]
+  }
+}

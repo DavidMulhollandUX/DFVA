@@ -1,0 +1,102 @@
+{
+  "code": "monash-b2025",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science.",
+      "evidenceLines": [
+        "FIRST SEMESTER: understand the 'economic way of thinking' about a broad range of individual, business and government choices and decisions SECOND SEMESTER: apply economic concepts to analyse how individuals, firms and governments make economic decisions in competitive and non-competitive market contexts",
+        "FIRST SEMESTER: apply economic principles to explain and analyse economic institutions, economic decisions and performance SECOND SEMESTER: use graphical and quantitative tools to evaluate how markets allocate resources and how prices adjust in response to economic shocks and policy interventions",
+        "Commerce and information technology are inseparable in the modern world, and the need for more sophisticated technology is intense."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science.",
+      "evidenceLines": [
+        "FIRST SEMESTER: recognise regulatory and political environments and how they impact on business. SECOND SEMESTER: communicate economic insights clearly and professionally, using appropriate economic concepts and evidence in diverse real-world contexts",
+        "SECOND SEMESTER: evaluate the equity, efficiency, ethical and societal implications of economic decisions in real-world contexts",
+        "People with the commercial skills to understand and implement technology are in high demand, and with these two degrees you will have these skills."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science.",
+      "evidenceLines": [
+        "Subject: Principles of microeconomics (ECC1000)",
+        "Subject: Principles of macroeconomics (ECC1100)",
+        "SECOND SEMESTER: contribute problem-solving ideas in a team setting."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science.",
+      "evidenceLines": [
+        "1 - Exercise: 20% (Hurdle: None)",
+        "2 - Quiz / Test: 30% (Hurdle: None)",
+        "Commerce and information technology are inseparable in the modern world, and the need for more sophisticated technology is intense."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science.",
+      "evidenceLines": [
+        "Subject: Economics (ECX2953)",
+        "Subject: Business and economic statistics (ETC1000)",
+        "3 - Examination: 50% (Hurdle: None)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science.",
+      "evidenceLines": [
+        "understand the importance of distinguishing between the short-run and long-run impacts of macroeconomic policy",
+        "Commerce and information technology are inseparable in the modern world, and the need for more sophisticated technology is intense.",
+        "People with the commercial skills to understand and implement technology are in high demand, and with these two degrees you will have these skills."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science.",
+      "evidenceLines": [
+        "interpret recent movements in key economic indicators of the Australian and other economies and appreciate some of the definition and measurement problems associated with the available data",
+        "Subject: Business statistics (ETF1100)",
+        "Commerce and information technology are inseparable in the modern world, and the need for more sophisticated technology is intense."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "Refer to each partner course for the post nominals for the degree awarded",
+        "Commerce and information technology are inseparable in the modern world, and the need for more sophisticated technology is intense."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Commerce and Bachelor of Information Technology.",
+        "evidenceLines": [
+          "Refer to each partner course for the post nominals for the degree awarded",
+          "Part A. Core studies"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in computer science.",
+        "evidenceLines": [
+          "Subject: Principles of microeconomics (ECC1000)",
+          "FIRST SEMESTER: understand the 'economic way of thinking' about a broad range of individual, business and government choices and decisions SECOND SEMESTER: apply economic concepts to analyse how individuals, firms and governments make economic decisions in competitive and non-competitive market contexts"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

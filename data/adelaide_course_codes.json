@@ -1,0 +1,1754 @@
+[
+  {
+    "code": "barts_bart",
+    "title": "Bachelor of Arts",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/barts_bart"
+  },
+  {
+    "code": "barta_bartadv",
+    "title": "Bachelor of Arts (Advanced)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/barta_bartadv"
+  },
+  {
+    "code": "baabl_baadvbl",
+    "title": "Bachelor of Arts (Advanced) with Bachelor of Laws",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/baabl_baadvbl"
+  },
+  {
+    "code": "haala_hbaadvblaw",
+    "title": "Bachelor of Arts (Advanced) with Bachelor of Laws (Honours)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/haala_hbaadvblaw"
+  },
+  {
+    "code": "harts_hbart",
+    "title": "Bachelor of Arts (Honours)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/harts_hbart"
+  },
+  {
+    "code": "babec_bartbec",
+    "title": "Bachelor of Arts with Bachelor of Economics",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/babec_bartbec"
+  },
+  {
+    "code": "babmu_bartbmusd1",
+    "title": "Bachelor of Arts with Bachelor of Music",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/babmu_bartbmusd1"
+  },
+  {
+    "code": "babsc_bartbscd1",
+    "title": "Bachelor of Arts with Bachelor of Science",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/babsc_bartbscd1"
+  },
+  {
+    "code": "bbus_bbusiness",
+    "title": "Bachelor of Business",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bbus_bbusiness"
+  },
+  {
+    "code": "bcom_bcombcomacctbcomacctosbcomcorfin",
+    "title": "Bachelor of Commerce",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bcom_bcombcomacctbcomacctosbcomcorfin"
+  },
+  {
+    "code": "hcom_hbcom",
+    "title": "Bachelor of Commerce (Honours)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hcom_hbcom"
+  },
+  {
+    "code": "bcrim_bcrim",
+    "title": "Bachelor of Criminology",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bcrim_bcrim"
+  },
+  {
+    "code": "hcrim_hbcrim",
+    "title": "Bachelor of Criminology (Honours)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hcrim_hbcrim"
+  },
+  {
+    "code": "bcbl_bcrimblaw",
+    "title": "Bachelor of Criminology with Bachelor of Laws",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bcbl_bcrimblaw"
+  },
+  {
+    "code": "hcrla_hbcrimblaw",
+    "title": "Bachelor of Criminology with Bachelor of Laws (Honours)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hcrla_hbcrimblaw"
+  },
+  {
+    "code": "bec_becon",
+    "title": "Bachelor of Economics",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bec_becon"
+  },
+  {
+    "code": "beca_beconadv",
+    "title": "Bachelor of Economics (Advanced)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/beca_beconadv"
+  },
+  {
+    "code": "hec_hbec",
+    "title": "Bachelor of Economics (Honours)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hec_hbec"
+  },
+  {
+    "code": "bebfb_beconbfbd1",
+    "title": "Bachelor of Economics with Bachelor of Finance and Banking",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bebfb_beconbfbd1"
+  },
+  {
+    "code": "benvs_benvs",
+    "title": "Bachelor of Environmental Policy and Management",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/benvs_benvs"
+  },
+  {
+    "code": "henst_hbenvst",
+    "title": "Bachelor of Environmental Policy and Management (Honours)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/henst_hbenvst"
+  },
+  {
+    "code": "hfin_hbfin",
+    "title": "Bachelor of Finance (Honours)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hfin_hbfin"
+  },
+  {
+    "code": "bfb_bfinbank",
+    "title": "Bachelor of Finance and Banking",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bfb_bfinbank"
+  },
+  {
+    "code": "bfbbm_bfbbmd1",
+    "title": "Bachelor of Finance and Banking  with Bachelor of Mathematical and Computer Sciences",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bfbbm_bfbbmd1"
+  },
+  {
+    "code": "bib_bintbusoua",
+    "title": "Bachelor of International Business [online]",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bib_bintbusoua"
+  },
+  {
+    "code": "bdvst_bdevstud",
+    "title": "Bachelor of International Development",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bdvst_bdevstud"
+  },
+  {
+    "code": "hdvst_hbdevstud",
+    "title": "Bachelor of International Development (Honours)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hdvst_hbdevstud"
+  },
+  {
+    "code": "bintr_bintlrel",
+    "title": "Bachelor of International Relations",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bintr_bintlrel"
+  },
+  {
+    "code": "hbinr_hbintlrel",
+    "title": "Bachelor of International Relations (Honours)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hbinr_hbintlrel"
+  },
+  {
+    "code": "birba_bintrebart",
+    "title": "Bachelor of International Relations with Bachelor of Arts",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/birba_bintrebart"
+  },
+  {
+    "code": "birbe_bintrebec",
+    "title": "Bachelor of International Relations with Bachelor of Economics",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/birbe_bintrebec"
+  },
+  {
+    "code": "birbm_bintrebmed",
+    "title": "Bachelor of International Relations with Bachelor of Media",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/birbm_bintrebmed"
+  },
+  {
+    "code": "blang_blang",
+    "title": "Bachelor of Languages",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/blang_blang"
+  },
+  {
+    "code": "hlang_hblang",
+    "title": "Bachelor of Languages (Honours)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hlang_hblang"
+  },
+  {
+    "code": "blaws_llb",
+    "title": "Bachelor of Laws",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/blaws_llb"
+  },
+  {
+    "code": "hllb_hlaw",
+    "title": "Bachelor of Laws (Honours)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hllb_hlaw"
+  },
+  {
+    "code": "bmedi_bmedia",
+    "title": "Bachelor of Media",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bmedi_bmedia"
+  },
+  {
+    "code": "hmedi_hbmedia",
+    "title": "Bachelor of Media (Honours)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hmedi_hbmedia"
+  },
+  {
+    "code": "bmeba_bmediabart",
+    "title": "Bachelor of Media with Bachelor of Arts",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bmeba_bmediabart"
+  },
+  {
+    "code": "bmbcs_bmediabcsc",
+    "title": "Bachelor of Media with Bachelor of Computer Sciences",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bmbcs_bmediabcsc"
+  },
+  {
+    "code": "bmbc_bmediabcri",
+    "title": "Bachelor of Media with Bachelor of Criminology",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bmbc_bmediabcri"
+  },
+  {
+    "code": "bmbs_bmediabsoc",
+    "title": "Bachelor of Media with Bachelor of Sociology",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bmbs_bmediabsoc"
+  },
+  {
+    "code": "bmus_bmuscpbmusjpbmuscrpbmusme",
+    "title": "Bachelor of Music",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bmus_bmuscpbmusjpbmuscrpbmusme"
+  },
+  {
+    "code": "bmadv_bmusacpbmusajpbmusamebmusacrp",
+    "title": "Bachelor of Music (Advanced)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bmadv_bmusacpbmusajpbmusamebmusacrp"
+  },
+  {
+    "code": "hmus_hbmuscphbmusjphbmusicolhbmuscrp",
+    "title": "Bachelor of Music (Honours)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hmus_hbmuscphbmusjphbmusicolhbmuscrp"
+  },
+  {
+    "code": "bmuth_bmusthtre",
+    "title": "Bachelor of Music Theatre",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bmuth_bmusthtre"
+  },
+  {
+    "code": "bppe_bphilpolec",
+    "title": "Bachelor of Philosophy, Politics and Economics",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bppe_bphilpolec"
+  },
+  {
+    "code": "bpm_bprojmgt",
+    "title": "Bachelor of Project Management",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bpm_bprojmgt"
+  },
+  {
+    "code": "bsoc_bsociol",
+    "title": "Bachelor of Sociology",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bsoc_bsociol"
+  },
+  {
+    "code": "hsoc_hbsocio",
+    "title": "Bachelor of Sociology (Honours)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hsoc_hbsocio"
+  },
+  {
+    "code": "btsba_btchsecba",
+    "title": "Bachelor of Teaching (Secondary) with Bachelor of Arts",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/btsba_btchsecba"
+  },
+  {
+    "code": "btsm_btchsecbm",
+    "title": "Bachelor of Teaching (Secondary) with Bachelor of Mathematical and Computer Sciences",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/btsm_btchsecbm"
+  },
+  {
+    "code": "btsbm_btchsecbmu",
+    "title": "Bachelor of Teaching (Secondary) with Bachelor of Music",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/btsbm_btchsecbmu"
+  },
+  {
+    "code": "btsbs_btchsecbsc",
+    "title": "Bachelor of Teaching (Secondary) with Bachelor of Science",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/btsbs_btchsecbsc"
+  },
+  {
+    "code": "darts_diparts",
+    "title": "Diploma in Arts",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/darts_diparts"
+  },
+  {
+    "code": "darsp_dipartsp",
+    "title": "Diploma in Arts (Specialisation)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/darsp_dipartsp"
+  },
+  {
+    "code": "dbus_dipbus",
+    "title": "Diploma in Business",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/dbus_dipbus"
+  },
+  {
+    "code": "dilan_diplang",
+    "title": "Diploma in Languages",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/dilan_diplang"
+  },
+  {
+    "code": "egcba_exgcbusad",
+    "title": "Executive Graduate Certificate in Business Administration",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/egcba_exgcbusad"
+  },
+  {
+    "code": "egdba_exgdbusad",
+    "title": "Executive Graduate Diploma in Business Administration",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/egdba_exgdbusad"
+  },
+  {
+    "code": "emba_exmbusad",
+    "title": "Executive Master of Business Administration",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/emba_exmbusad"
+  },
+  {
+    "code": "gcbao_gcbaol",
+    "title": "Graduate Certificate in Business Administration [Online]",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcbao_gcbaol"
+  },
+  {
+    "code": "gcban_gcbusan",
+    "title": "Graduate Certificate in Business Analytics",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcban_gcbusan"
+  },
+  {
+    "code": "gccum_gccmusst",
+    "title": "Graduate Certificate in Curatorial and Museum Studies",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gccum_gccmusst"
+  },
+  {
+    "code": "gcerp_gcecrepol",
+    "title": "Graduate Certificate in Economics and Resource Policy",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcerp_gcecrepol"
+  },
+  {
+    "code": "gced_gceduc",
+    "title": "Graduate Certificate in Education",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gced_gceduc"
+  },
+  {
+    "code": "gcepm_gcenvpm",
+    "title": "Graduate Certificate in Environmental Policy and Management",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcepm_gcenvpm"
+  },
+  {
+    "code": "gcimt_gcimedtech",
+    "title": "Graduate Certificate in Immersive Media Technologies",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcimt_gcimedtech"
+  },
+  {
+    "code": "gcins_gcintsec",
+    "title": "Graduate Certificate in International Security",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcins_gcintsec"
+  },
+  {
+    "code": "gclaw_gclaw",
+    "title": "Graduate Certificate in Law",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gclaw_gclaw"
+  },
+  {
+    "code": "gcmsc_gcmedsc",
+    "title": "Graduate Certificate in Media (Strategic Communication)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcmsc_gcmedsc"
+  },
+  {
+    "code": "gcmla_gcmillaw",
+    "title": "Graduate Certificate in Military Law",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcmla_gcmillaw"
+  },
+  {
+    "code": "gcpm_gcpromgt",
+    "title": "Graduate Certificate in Project Management",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcpm_gcpromgt"
+  },
+  {
+    "code": "gcpup_gcpubpoli",
+    "title": "Graduate Certificate in Public Policy",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcpup_gcpubpoli"
+  },
+  {
+    "code": "gcwib_gcwinebus",
+    "title": "Graduate Certificate in Wine Business",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcwib_gcwinebus"
+  },
+  {
+    "code": "gdbao_gdbaol",
+    "title": "Graduate Diploma in Business Administration [Online]",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdbao_gdbaol"
+  },
+  {
+    "code": "gdban_gdbusan",
+    "title": "Graduate Diploma in Business Analytics",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdban_gdbusan"
+  },
+  {
+    "code": "gdcum_gdcmusst",
+    "title": "Graduate Diploma in Curatorial and Museum Studies",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdcum_gdcmusst"
+  },
+  {
+    "code": "gderp_gdecrepol",
+    "title": "Graduate Diploma in Economics and Resource Policy",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gderp_gdecrepol"
+  },
+  {
+    "code": "gdes_gdeducst",
+    "title": "Graduate Diploma in Education Studies",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdes_gdeducst"
+  },
+  {
+    "code": "gdepm_gdenvpm",
+    "title": "Graduate Diploma in Environmental Policy and Management",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdepm_gdenvpm"
+  },
+  {
+    "code": "gdimt_gdimedtech",
+    "title": "Graduate Diploma in Immersive Media Technologies",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdimt_gdimedtech"
+  },
+  {
+    "code": "gdins_gdintsec",
+    "title": "Graduate Diploma in International Security",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdins_gdintsec"
+  },
+  {
+    "code": "gdlaw_gdlaw",
+    "title": "Graduate Diploma in Law",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdlaw_gdlaw"
+  },
+  {
+    "code": "gdlp_gdlegalpr",
+    "title": "Graduate Diploma in Legal Practice",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdlp_gdlegalpr"
+  },
+  {
+    "code": "gdms_gdmedsc",
+    "title": "Graduate Diploma in Media (Strategic Communication)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdms_gdmedsc"
+  },
+  {
+    "code": "gdmla_gdmillaw",
+    "title": "Graduate Diploma in Military Law",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdmla_gdmillaw"
+  },
+  {
+    "code": "gdmpp_gdmuspp",
+    "title": "Graduate Diploma in Music (Performance and Pedagogy)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdmpp_gdmuspp"
+  },
+  {
+    "code": "gdmup_gdmusperf",
+    "title": "Graduate Diploma in Music Performance",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdmup_gdmusperf"
+  },
+  {
+    "code": "gdpm_gdpromgt",
+    "title": "Graduate Diploma in Project Management",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdpm_gdpromgt"
+  },
+  {
+    "code": "gdpup_gdpubpoli",
+    "title": "Graduate Diploma in Public Policy",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdpup_gdpubpoli"
+  },
+  {
+    "code": "gdwib_gdwinebus",
+    "title": "Graduate Diploma in Wine Business",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdwib_gdwinebus"
+  },
+  {
+    "code": "maccg_maccntg",
+    "title": "Master of Accounting",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/maccg_maccntg"
+  },
+  {
+    "code": "macfi_macfin",
+    "title": "Master of Accounting and Finance",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/macfi_macfin"
+  },
+  {
+    "code": "mapfn_mappfi",
+    "title": "Master of Applied Finance",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mapfn_mappfi"
+  },
+  {
+    "code": "mbusa_mbusad",
+    "title": "Master of Business Administration",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mbusa_mbusad"
+  },
+  {
+    "code": "mbahm_mbahmol",
+    "title": "Master of Business Administration (Health Management) [Online]",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mbahm_mbahmol"
+  },
+  {
+    "code": "mbain_mbusadi",
+    "title": "Master of Business Administration (International)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mbain_mbusadi"
+  },
+  {
+    "code": "mbaol_mbaol",
+    "title": "Master of Business Administration [Online]",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mbaol_mbaol"
+  },
+  {
+    "code": "mbana_mbusana",
+    "title": "Master of Business Analytics",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mbana_mbusana"
+  },
+  {
+    "code": "mcms_mcmusst",
+    "title": "Master of Curatorial and Museum Studies",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mcms_mcmusst"
+  },
+  {
+    "code": "merp_mecrepol",
+    "title": "Master of Economics and Resource Policy",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/merp_mecrepol"
+  },
+  {
+    "code": "meduc_meduc",
+    "title": "Master of Education",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/meduc_meduc"
+  },
+  {
+    "code": "menpm_menvpmgt",
+    "title": "Master of Environmental Policy and Management",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/menpm_menvpmgt"
+  },
+  {
+    "code": "mfin_mfinance",
+    "title": "Master of Finance",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mfin_mfinance"
+  },
+  {
+    "code": "mfbe_mfbec",
+    "title": "Master of Finance and Business Economics",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mfbe_mfbec"
+  },
+  {
+    "code": "mimt_mimedtech",
+    "title": "Master of Immersive Media Technologies",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mimt_mimedtech"
+  },
+  {
+    "code": "misl_mintsl",
+    "title": "Master of International and Security Law",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/misl_mintsl"
+  },
+  {
+    "code": "mim_mintmgmt",
+    "title": "Master of International Management",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mim_mintmgmt"
+  },
+  {
+    "code": "minse_mintsec",
+    "title": "Master of International Security",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/minse_mintsec"
+  },
+  {
+    "code": "mlawc_llmcwk",
+    "title": "Master of Laws (Coursework)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mlawc_llmcwk"
+  },
+  {
+    "code": "mmark_mmarket",
+    "title": "Master of Marketing",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mmark_mmarket"
+  },
+  {
+    "code": "mmesc_mmesc",
+    "title": "Master of Media (Strategic Communication)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mmesc_mmesc"
+  },
+  {
+    "code": "mmupp_mmuspp",
+    "title": "Master of Music (Performance and Pedagogy)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mmupp_mmuspp"
+  },
+  {
+    "code": "mmups_mmuspest",
+    "title": "Master of Music (Performance Studies)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mmups_mmuspest"
+  },
+  {
+    "code": "mprac_mprofac",
+    "title": "Master of Professional Accounting",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mprac_mprofac"
+  },
+  {
+    "code": "mpmt_mprojmgt",
+    "title": "Master of Project Management",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mpmt_mprojmgt"
+  },
+  {
+    "code": "mpmcs_mpmcomsy",
+    "title": "Master of Project Management (Complex Systems)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mpmcs_mpmcomsy"
+  },
+  {
+    "code": "mpup_mpubpoli",
+    "title": "Master of Public Policy",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mpup_mpubpoli"
+  },
+  {
+    "code": "mts_mteachs",
+    "title": "Master of Teaching (Secondary)",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mts_mteachs"
+  },
+  {
+    "code": "mtil_mtchinld",
+    "title": "Master of Technology Innovation and Leadership",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mtil_mtchinld"
+  },
+  {
+    "code": "mwb_mwinbus",
+    "title": "Master of Wine Business",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mwb_mwinbus"
+  },
+  {
+    "code": "pcas_pcadserv",
+    "title": "Professional Certificate in Advisory Services",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/pcas_pcadserv"
+  },
+  {
+    "code": "pcarb_pcarb",
+    "title": "Professional Certificate in Arbitration",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/pcarb_pcarb"
+  },
+  {
+    "code": "pcbs_pcbusst",
+    "title": "Professional Certificate in Business Studies",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/pcbs_pcbusst"
+  },
+  {
+    "code": "pcdcl_pcdefcl",
+    "title": "Professional Certificate in Defence Contracting Law",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/pcdcl_pcdefcl"
+  },
+  {
+    "code": "pcdil_pcdefinl",
+    "title": "Professional Certificate in Defence Industry Leadership",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/pcdil_pcdefinl"
+  },
+  {
+    "code": "pced_pceduc",
+    "title": "Professional Certificate in Education",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/pced_pceduc"
+  },
+  {
+    "code": "pcepm_pcenvpm",
+    "title": "Professional Certificate in Environmental Policy and Management",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/pcepm_pcenvpm"
+  },
+  {
+    "code": "pcnl_pcnuclaw",
+    "title": "Professional Certificate in Nuclear Law",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/pcnl_pcnuclaw"
+  },
+  {
+    "code": "pcpup_pcpubpoli",
+    "title": "Professional Certificate in Public Policy",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/pcpup_pcpubpoli"
+  },
+  {
+    "code": "pcsl_pcspacelaw",
+    "title": "Professional Certificate in Space Law",
+    "faculty": "Faculty of Arts, Business, Law and Economics (ABLE)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/pcsl_pcspacelaw"
+  },
+  {
+    "code": "bds_bds",
+    "title": "Bachelor of Dental Surgery",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bds_bds"
+  },
+  {
+    "code": "bhms_bhlthmsc",
+    "title": "Bachelor of Health and Medical Sciences",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bhms_bhlthmsc"
+  },
+  {
+    "code": "bhmsa_bhlthmsca",
+    "title": "Bachelor of Health and Medical Sciences (Advanced)",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bhmsa_bhlthmsca"
+  },
+  {
+    "code": "hhmsc_hbhlthmeds",
+    "title": "Bachelor of Health and Medical Sciences (Honours)",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hhmsc_hbhlthmeds"
+  },
+  {
+    "code": "bhsm_bhsmoua",
+    "title": "Bachelor of Health Service Management [online]",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bhsm_bhsmoua"
+  },
+  {
+    "code": "bms_bmedstud",
+    "title": "Bachelor of Medical Studies",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bms_bmedstud"
+  },
+  {
+    "code": "bnurs_bnursing",
+    "title": "Bachelor of Nursing",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bnurs_bnursing"
+  },
+  {
+    "code": "hocth_hboccther",
+    "title": "Bachelor of Occupational Therapy (Honours)",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hocth_hboccther"
+  },
+  {
+    "code": "boral_boralhlth",
+    "title": "Bachelor of Oral Health",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/boral_boralhlth"
+  },
+  {
+    "code": "hphys_hbphys",
+    "title": "Bachelor of Physiotherapy (Honours)",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hphys_hbphys"
+  },
+  {
+    "code": "bpsyc_bpsyc",
+    "title": "Bachelor of Psychological Science",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bpsyc_bpsyc"
+  },
+  {
+    "code": "hpsy_hbpsyc",
+    "title": "Bachelor of Psychological Science (Honours)",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hpsy_hbpsyc"
+  },
+  {
+    "code": "hpsya_hbpsycadv",
+    "title": "Bachelor of Psychology (Advanced) (Honours)",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hpsya_hbpsycadv"
+  },
+  {
+    "code": "hsppa_hbsppath",
+    "title": "Bachelor of Speech Pathology (Honours)",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hsppa_hbsppath"
+  },
+  {
+    "code": "drcd_drclinden",
+    "title": "Doctor of Clinical Dentistry",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/drcd_drclinden"
+  },
+  {
+    "code": "dmedi_dmedic",
+    "title": "Doctor of Medicine",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/dmedi_dmedic"
+  },
+  {
+    "code": "gcads_gcalcdrugs",
+    "title": "Graduate Certificate in Alcohol and Drug Studies",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcads_gcalcdrugs"
+  },
+  {
+    "code": "gcbst_gcbiostat",
+    "title": "Graduate Certificate in Biostatistics",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcbst_gcbiostat"
+  },
+  {
+    "code": "gccp_gccounpsy",
+    "title": "Graduate Certificate in Counselling and Psychotherapy",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gccp_gccounpsy"
+  },
+  {
+    "code": "gcias_gcintadst",
+    "title": "Graduate Certificate in International Addiction Studies",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcias_gcintadst"
+  },
+  {
+    "code": "gcnsc_gcnsicnol",
+    "title": "Graduate Certificate in Nursing Science (Infection Control Nursing)",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcnsc_gcnsicnol"
+  },
+  {
+    "code": "gcorh_gcorhlthsc",
+    "title": "Graduate Certificate in Oral Health Science",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcorh_gcorhlthsc"
+  },
+  {
+    "code": "gcpsy_gcpsyol",
+    "title": "Graduate Certificate in Psychology [Online]",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcpsy_gcpsyol"
+  },
+  {
+    "code": "gcpuh_gcpubhlth",
+    "title": "Graduate Certificate in Public Health",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcpuh_gcpubhlth"
+  },
+  {
+    "code": "gdamh_gdadmhlt",
+    "title": "Graduate Diploma in Addiction and Mental Health",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdamh_gdadmhlt"
+  },
+  {
+    "code": "gdbst_gdbiostat",
+    "title": "Graduate Diploma in Biostatistics",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdbst_gdbiostat"
+  },
+  {
+    "code": "gdcp_gdcounpsy",
+    "title": "Graduate Diploma in Counselling and Psychotherapy",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdcp_gdcounpsy"
+  },
+  {
+    "code": "gdfod_gdforodon",
+    "title": "Graduate Diploma in Forensic Odontology",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdfod_gdforodon"
+  },
+  {
+    "code": "gdias_gdintadst",
+    "title": "Graduate Diploma in International Addiction Studies",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdias_gdintadst"
+  },
+  {
+    "code": "gdnsc_gdnsgdnsaccaregdnsanarecgdnscardia",
+    "title": "Graduate Diploma in Nursing Science",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdnsc_gdnsgdnsaccaregdnsanarecgdnscardia"
+  },
+  {
+    "code": "gdpsa_gdpsaol",
+    "title": "Graduate Diploma in Psychology (Advanced) [Online]",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdpsa_gdpsaol"
+  },
+  {
+    "code": "gdps_gdpsychol",
+    "title": "Graduate Diploma in Psychology [Online]",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdps_gdpsychol"
+  },
+  {
+    "code": "gdpuh_gdpubhlth",
+    "title": "Graduate Diploma in Public Health",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdpuh_gdpubhlth"
+  },
+  {
+    "code": "mbst_mbiostats",
+    "title": "Master of Biostatistics",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mbst_mbiostats"
+  },
+  {
+    "code": "mclnu_mclinur",
+    "title": "Master of Clinical Nursing",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mclnu_mclinur"
+  },
+  {
+    "code": "mcp_mcounpsy",
+    "title": "Master of Counselling and Psychotherapy",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mcp_mcounpsy"
+  },
+  {
+    "code": "mmis_mmininvsur",
+    "title": "Master of Minimally Invasive Surgery",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mmis_mmininvsur"
+  },
+  {
+    "code": "mnp_mnurprac",
+    "title": "Master of Nurse Practitioner",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mnp_mnurprac"
+  },
+  {
+    "code": "mnusc_mnurscacmnurscarmnurscenmnurscic",
+    "title": "Master of Nursing Science",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mnusc_mnurscacmnurscarmnurscenmnurscic"
+  },
+  {
+    "code": "mpsyc_mclinpsy",
+    "title": "Master of Psychology (Clinical)",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mpsyc_mclinpsy"
+  },
+  {
+    "code": "mpsyh_mpsyhealth",
+    "title": "Master of Psychology (Health)",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mpsyh_mpsyhealth"
+  },
+  {
+    "code": "mpohf_mpsychohm",
+    "title": "Master of Psychology (Organisational and Human Factors)",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mpohf_mpsychohm"
+  },
+  {
+    "code": "mph_mpubhlt",
+    "title": "Master of Public Health",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mph_mpubhlt"
+  },
+  {
+    "code": "mas_maddstud",
+    "title": "Master of Science in Addiction Studies",
+    "faculty": "Faculty of Health and Medical Sciences",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mas_maddstud"
+  },
+  {
+    "code": "adcm_adconstmgt",
+    "title": "Associate Degree in Construction Management",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/adcm_adconstmgt"
+  },
+  {
+    "code": "bags_bagricsci",
+    "title": "Bachelor of Agricultural Sciences",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bags_bagricsci"
+  },
+  {
+    "code": "bada_bapda",
+    "title": "Bachelor of Applied Data Analytics",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bada_bapda"
+  },
+  {
+    "code": "bdest_bdesignst",
+    "title": "Bachelor of Architectural Design",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bdest_bdesignst"
+  },
+  {
+    "code": "hdess_hbdesignst",
+    "title": "Bachelor of Architectural Design (Honours)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hdess_hbdesignst"
+  },
+  {
+    "code": "bbio_bbiotec",
+    "title": "Bachelor of Biotechnology",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bbio_bbiotec"
+  },
+  {
+    "code": "hbio_hbbiotec",
+    "title": "Bachelor of Biotechnology (Honours)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hbio_hbbiotec"
+  },
+  {
+    "code": "bcomp_bcmpsci",
+    "title": "Bachelor of Computer Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bcomp_bcmpsci"
+  },
+  {
+    "code": "bcmsa_bcmpscadv",
+    "title": "Bachelor of Computer Science (Advanced)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bcmsa_bcmpscadv"
+  },
+  {
+    "code": "hcomp_hbcompsc",
+    "title": "Bachelor of Computer Science (Honours)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hcomp_hbcompsc"
+  },
+  {
+    "code": "bcm_bconsmgt",
+    "title": "Bachelor of Construction Management",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bcm_bconsmgt"
+  },
+  {
+    "code": "hcm_hbcm",
+    "title": "Bachelor of Construction Management (Honours)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hcm_hbcm"
+  },
+  {
+    "code": "bengh_behass1",
+    "title": "Bachelor of Engineering (Honours) (Architectural and Structural)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bengh_behass1"
+  },
+  {
+    "code": "bengh_behchems1",
+    "title": "Bachelor of Engineering (Honours) (Chemical)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bengh_behchems1"
+  },
+  {
+    "code": "bedsr_behchemd6",
+    "title": "Bachelor of Engineering (Honours) (Chemical) with Bachelor of Biotechnology",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bedsr_behchemd6"
+  },
+  {
+    "code": "bedfo_behchemd5",
+    "title": "Bachelor of Engineering (Honours) (Chemical) with Bachelor of Finance and Banking",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bedfo_behchemd5"
+  },
+  {
+    "code": "bedmn_behchemd4",
+    "title": "Bachelor of Engineering (Honours) (Chemical) with Bachelor of Mathematical and Computer Sciences",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bedmn_behchemd4"
+  },
+  {
+    "code": "bedsm_behchemd3",
+    "title": "Bachelor of Engineering (Honours) (Chemical) with Bachelor of Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bedsm_behchemd3"
+  },
+  {
+    "code": "bengh_behcivs1",
+    "title": "Bachelor of Engineering (Honours) (Civil)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bengh_behcivs1"
+  },
+  {
+    "code": "bedfp_behcivild5",
+    "title": "Bachelor of Engineering (Honours) (Civil) with Bachelor of Finance and Banking",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bedfp_behcivild5"
+  },
+  {
+    "code": "bedmm_behcivild4",
+    "title": "Bachelor of Engineering (Honours) (Civil) with Bachelor of Mathematical and Computer Sciences",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bedmm_behcivild4"
+  },
+  {
+    "code": "bengh_behees1",
+    "title": "Bachelor of Engineering (Honours) (Electrical and Electronic)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bengh_behees1"
+  },
+  {
+    "code": "bedfq_beheed5",
+    "title": "Bachelor of Engineering (Honours) (Electrical and Electronic) with Bachelor of Finance and Banking",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bedfq_beheed5"
+  },
+  {
+    "code": "bedmo_beheed4",
+    "title": "Bachelor of Engineering (Honours) (Electrical and Electronic) with Bachelor of Mathematical and Computer Sciences",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bedmo_beheed4"
+  },
+  {
+    "code": "bengh_behecs",
+    "title": "Bachelor of Engineering (Honours) (Environmental and Climate Solutions)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bengh_behecs"
+  },
+  {
+    "code": "bengh_behmechs1",
+    "title": "Bachelor of Engineering (Honours) (Mechanical)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bengh_behmechs1"
+  },
+  {
+    "code": "bedmp_behmechd4",
+    "title": "Bachelor of Engineering (Honours) (Mechanical)  with Bachelor of Mathematical and Computer Sciences",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bedmp_behmechd4"
+  },
+  {
+    "code": "bedfs_behmechd5",
+    "title": "Bachelor of Engineering (Honours) (Mechanical) with Bachelor of Finance and Banking",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bedfs_behmechd5"
+  },
+  {
+    "code": "bedsn_behmechd3",
+    "title": "Bachelor of Engineering (Honours) (Mechanical) with Bachelor of Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bedsn_behmechd3"
+  },
+  {
+    "code": "bengh_behmins1",
+    "title": "Bachelor of Engineering (Honours) (Mining)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bengh_behmins1"
+  },
+  {
+    "code": "bengh_behpets1",
+    "title": "Bachelor of Engineering (Honours) (Petroleum)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bengh_behpets1"
+  },
+  {
+    "code": "behpe_behpetrolbehpetrolm",
+    "title": "Bachelor of Engineering (Honours) (Petroleum) with majors in Civil, Chemical, Mechanical or Mining engineering",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/behpe_behpetrolbehpetrolm"
+  },
+  {
+    "code": "bengh_behsoftws1",
+    "title": "Bachelor of Engineering (Honours) (Software)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bengh_behsoftws1"
+  },
+  {
+    "code": "behep_behengpath",
+    "title": "Bachelor of Engineering (Honours) - Engineering Pathway",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/behep_behengpath"
+  },
+  {
+    "code": "behf_behflex",
+    "title": "Bachelor of Engineering (Honours) - Flexible Entry",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/behf_behflex"
+  },
+  {
+    "code": "bfsct_bfoodsct",
+    "title": "Bachelor of Food and Nutrition Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bfsct_bfoodsct"
+  },
+  {
+    "code": "hfsct_hbfsct",
+    "title": "Bachelor of Food and Nutrition Science (Honours)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hfsct_hbfsct"
+  },
+  {
+    "code": "hfnsc_hbfnsc",
+    "title": "Bachelor of Food and Nutrition Science (Honours) [4 years]",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hfnsc_hbfnsc"
+  },
+  {
+    "code": "bit_binftech",
+    "title": "Bachelor of Information Technology",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bit_binftech"
+  },
+  {
+    "code": "bmwc_bmwcons",
+    "title": "Bachelor of Marine and Wildlife Conservation",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bmwc_bmwcons"
+  },
+  {
+    "code": "bscms_bscmcs",
+    "title": "Bachelor of Mathematical and Computer Sciences",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bscms_bscmcs"
+  },
+  {
+    "code": "bmasc_bmathsci",
+    "title": "Bachelor of Mathematical Sciences",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bmasc_bmathsci"
+  },
+  {
+    "code": "bmsad_bmathscadv",
+    "title": "Bachelor of Mathematical Sciences (Advanced)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bmsad_bmathscadv"
+  },
+  {
+    "code": "hmasc_hbmathsci",
+    "title": "Bachelor of Mathematical Sciences (Honours)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hmasc_hbmathsci"
+  },
+  {
+    "code": "hmsc_hbmathsc",
+    "title": "Bachelor of Mathematical Sciences (Honours) [4 years]",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hmsc_hbmathsc"
+  },
+  {
+    "code": "bsc_bsci",
+    "title": "Bachelor of Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bsc_bsci"
+  },
+  {
+    "code": "bsc_bscadv",
+    "title": "Bachelor of Science (Advanced)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bsc_bscadv"
+  },
+  {
+    "code": "hscia_hbsciadv",
+    "title": "Bachelor of Science (Advanced)(Honours) [4 Years]",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hscia_hbsciadv"
+  },
+  {
+    "code": "bsc_bscab",
+    "title": "Bachelor of Science (Animal Behaviour)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bsc_bscab"
+  },
+  {
+    "code": "bsc_bscas",
+    "title": "Bachelor of Science (Animal Science)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bsc_bscas"
+  },
+  {
+    "code": "bsc_bscibiomed",
+    "title": "Bachelor of Science (Biomedical Science)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bsc_bscibiomed"
+  },
+  {
+    "code": "hschp_hschp",
+    "title": "Bachelor of Science (High Performance Computational Physics) (Honours)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hschp_hschp"
+  },
+  {
+    "code": "hsc_hbsc",
+    "title": "Bachelor of Science (Honours)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hsc_hbsc"
+  },
+  {
+    "code": "hsci_hbsci",
+    "title": "Bachelor of Science (Honours) [4 years]",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hsci_hbsci"
+  },
+  {
+    "code": "bsc_bscmige",
+    "title": "Bachelor of Science (Mineral Geoscience)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bsc_bscmige"
+  },
+  {
+    "code": "bsc_bscssap",
+    "title": "Bachelor of Science (Space Science and Astrophysics)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bsc_bscssap"
+  },
+  {
+    "code": "bscpv_bscaspv",
+    "title": "Bachelor of Science (Veterinary Bioscience)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bscpv_bscaspv"
+  },
+  {
+    "code": "bvt_bvettech",
+    "title": "Bachelor of Veterinary Technology",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bvt_bvettech"
+  },
+  {
+    "code": "bvito_bvitoenol",
+    "title": "Bachelor of Viticulture and Oenology",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/bvito_bvitoenol"
+  },
+  {
+    "code": "hvito_hbvitoen",
+    "title": "Bachelor of Viticulture and Oenology (Honours)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hvito_hbvitoen"
+  },
+  {
+    "code": "deng_dipeng",
+    "title": "Diploma in Engineering",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/deng_dipeng"
+  },
+  {
+    "code": "dvetm_drvetmedi",
+    "title": "Doctor of Veterinary Medicine",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/dvetm_drvetmedi"
+  },
+  {
+    "code": "gcaim_gcaiml",
+    "title": "Graduate Certificate in Artificial Intelligence and Machine Learning",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcaim_gcaiml"
+  },
+  {
+    "code": "gcbib_gcbibiom",
+    "title": "Graduate Certificate in Biotechnology (Biomedical)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcbib_gcbibiom"
+  },
+  {
+    "code": "gccms_gccompsco",
+    "title": "Graduate Certificate in Computer Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gccms_gccompsco"
+  },
+  {
+    "code": "gccys_gccysec",
+    "title": "Graduate Certificate in Cyber Security",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gccys_gccysec"
+  },
+  {
+    "code": "gccse_gccsec",
+    "title": "Graduate Certificate in Cyber Security [Online]",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gccse_gccsec"
+  },
+  {
+    "code": "gcdsc_gcdatasc",
+    "title": "Graduate Certificate in Data Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcdsc_gcdatasc"
+  },
+  {
+    "code": "gcdsa_gcdscapol",
+    "title": "Graduate Certificate in Data Science (Applied) [Online]",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcdsa_gcdscapol"
+  },
+  {
+    "code": "gcfns_gcfoodns",
+    "title": "Graduate Certificate in Food and Nutrition Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcfns_gcfoodns"
+  },
+  {
+    "code": "gcgfn_gcglobfns",
+    "title": "Graduate Certificate in Global Food and Nutrition Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcgfn_gcglobfns"
+  },
+  {
+    "code": "gcmen_gcmaren",
+    "title": "Graduate Certificate in Maritime Engineering",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcmen_gcmaren"
+  },
+  {
+    "code": "gcme_gcmateng",
+    "title": "Graduate Certificate in Materials Engineering",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcme_gcmateng"
+  },
+  {
+    "code": "gcmp_gcmedphys",
+    "title": "Graduate Certificate in Medical Physics",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcmp_gcmedphys"
+  },
+  {
+    "code": "gcpe_gcpeteng",
+    "title": "Graduate Certificate in Petroleum Engineering",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcpe_gcpeteng"
+  },
+  {
+    "code": "gcrm_gcradmgt",
+    "title": "Graduate Certificate in Radiation Management",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gcrm_gcradmgt"
+  },
+  {
+    "code": "gdaim_gdaiml",
+    "title": "Graduate Diploma in Artificial Intelligence and Machine Learning",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdaim_gdaiml"
+  },
+  {
+    "code": "gdbib_gdbibiom",
+    "title": "Graduate Diploma in Biotechnology (Biomedical)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdbib_gdbibiom"
+  },
+  {
+    "code": "gdcms_gdcompsci",
+    "title": "Graduate Diploma in Computer Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdcms_gdcompsci"
+  },
+  {
+    "code": "gdcys_gdcysec",
+    "title": "Graduate Diploma in Cyber Security",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdcys_gdcysec"
+  },
+  {
+    "code": "gdcso_gdcybsecol",
+    "title": "Graduate Diploma in Cyber Security [Online]",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdcso_gdcybsecol"
+  },
+  {
+    "code": "gddsc_gddatasc",
+    "title": "Graduate Diploma in Data Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gddsc_gddatasc"
+  },
+  {
+    "code": "gddsa_gddscapol",
+    "title": "Graduate Diploma in Data Science (Applied) [Online]",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gddsa_gddscapol"
+  },
+  {
+    "code": "gdeng_gdengaerogdengchemgdengcivengdengcivst",
+    "title": "Graduate Diploma in Engineering",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdeng_gdengaerogdengchemgdengcivengdengcivst"
+  },
+  {
+    "code": "gdfns_gdfoodns",
+    "title": "Graduate Diploma in Food and Nutrition Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdfns_gdfoodns"
+  },
+  {
+    "code": "gdgfn_gdglobfns",
+    "title": "Graduate Diploma in Global Food and Nutrition Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdgfn_gdglobfns"
+  },
+  {
+    "code": "gdmen_gdmaren",
+    "title": "Graduate Diploma in Maritime Engineering",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdmen_gdmaren"
+  },
+  {
+    "code": "gdme_gdmateng",
+    "title": "Graduate Diploma in Materials Engineering",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdme_gdmateng"
+  },
+  {
+    "code": "gdpe_gdpeteng",
+    "title": "Graduate Diploma in Petroleum Engineering",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdpe_gdpeteng"
+  },
+  {
+    "code": "gdvo_gdvitoenol",
+    "title": "Graduate Diploma in Viticulture and Oenology",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/gdvo_gdvitoenol"
+  },
+  {
+    "code": "march_marchcswk",
+    "title": "Master of Architecture",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/march_marchcswk"
+  },
+  {
+    "code": "marml_marcmlarc",
+    "title": "Master of Architecture with Master of Landscape Architecture",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/marml_marcmlarc"
+  },
+  {
+    "code": "maiml_maiml",
+    "title": "Master of Artificial Intelligence and Machine Learning",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/maiml_maiml"
+  },
+  {
+    "code": "mbe_mbiopeng",
+    "title": "Master of Biopharmaceutical Engineering",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mbe_mbiopeng"
+  },
+  {
+    "code": "mbib_mbibiom",
+    "title": "Master of Biotechnology (Biomedical)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mbib_mbibiom"
+  },
+  {
+    "code": "mbba_mbbioadv",
+    "title": "Master of Biotechnology (Biomedical) (Advanced)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mbba_mbbioadv"
+  },
+  {
+    "code": "mcoms_mcmpsci",
+    "title": "Master of Computer Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mcoms_mcmpsci"
+  },
+  {
+    "code": "mcomi_mcompinnov",
+    "title": "Master of Computing and Innovation",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mcomi_mcompinnov"
+  },
+  {
+    "code": "mcmgt_mconmgt",
+    "title": "Master of Construction Management",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mcmgt_mconmgt"
+  },
+  {
+    "code": "mcsec_mcybsecu",
+    "title": "Master of Cyber Security",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mcsec_mcybsecu"
+  },
+  {
+    "code": "mcsol_mcybsecol",
+    "title": "Master of Cyber Security [Online]",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mcsol_mcybsecol"
+  },
+  {
+    "code": "mdsci_mdatasci",
+    "title": "Master of Data Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mdsci_mdatasci"
+  },
+  {
+    "code": "mdsa_mdscapol",
+    "title": "Master of Data Science (Applied) [Online]",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mdsa_mdscapol"
+  },
+  {
+    "code": "meng_mengaeromengchmengcivenmengcivst",
+    "title": "Master of Engineering",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/meng_mengaeromengchmengcivenmengcivst"
+  },
+  {
+    "code": "mfns_mfoodns",
+    "title": "Master of Food and Nutrition Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mfns_mfoodns"
+  },
+  {
+    "code": "mgfn_mglobfns",
+    "title": "Master of Global Food and Nutrition Science",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mgfn_mglobfns"
+  },
+  {
+    "code": "mlack_mlarchcswk",
+    "title": "Master of Landscape Architecture",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mlack_mlarchcswk"
+  },
+  {
+    "code": "mmen_mmaren",
+    "title": "Master of Maritime Engineering",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mmen_mmaren"
+  },
+  {
+    "code": "mme_mmateng",
+    "title": "Master of Materials Engineering",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mme_mmateng"
+  },
+  {
+    "code": "mmsci_mmasci",
+    "title": "Master of Mathematical Sciences",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mmsci_mmasci"
+  },
+  {
+    "code": "mmrp_mmedradp",
+    "title": "Master of Medical Radiation Physics",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mmrp_mmedradp"
+  },
+  {
+    "code": "mpen_mpetroleng",
+    "title": "Master of Petroleum Engineering",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mpen_mpetroleng"
+  },
+  {
+    "code": "mpud_mplanud",
+    "title": "Master of Planning (Urban Design)",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mpud_mplanud"
+  },
+  {
+    "code": "mpmla_mlarcmplan",
+    "title": "Master of Planning (Urban Design) with Master of Landscape Architecture",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mpmla_mlarcmplan"
+  },
+  {
+    "code": "mprop_mproperty",
+    "title": "Master of Property",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mprop_mproperty"
+  },
+  {
+    "code": "mvo_mvitoenol",
+    "title": "Master of Viticulture and Oenology",
+    "faculty": "Faculty of Sciences, Engineering and Technology (SET)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mvo_mvitoenol"
+  }
+]

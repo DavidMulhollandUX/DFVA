@@ -1,0 +1,263 @@
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/programs/2026/7346 =====
+# Space Engineering (7346)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 7346
+- **Academic Year**: 2026
+- **Study Level**: Postgraduate
+- **AQF Level**: Level 8
+- **Total Units / Units of Credit (UOC)**: 24
+- **Delivery Mode**: Fully online
+- **CRICOS Code**: Not specified
+- **Academic Organisation**: School of Engineering and Technology
+- **Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/7346
+
+## Description
+The Graduate Certificate of Space Engineering (GCertSpaceEng) is designed for postgraduate scholars with appropriate undergraduate qualifications in a relevant engineering discipline and/or extensive professional experience who wish to develop a high-level understanding of principles and practices of engineering related to space systems and to strengthen skills in this area.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+4. Communicate effectively to a range of audiences, and be capable of independent and collaborative enquiry and working effectively with others.
+2. Develop advanced critical thinking and problem solving skills.
+3. Explain the relevance of international issues to space engineering.
+1. Demonstrate acquired advanced disciplinary knowledge and skills, and an ability to apply these in a range of contexts.
+
+## Program Structure & Degree Requirements
+Students must complete 24 Units of Credit (UOC) structured across the following academic components:
+
+### Prescribed Electives
+Students may complete up to a maximum of 6 UOC of the following courses.
+
+- **ZEIT8032**: Information Assurance Principles [6 UOC]
+- **ZEIT8601**: Applied Machine Learning [6 UOC]
+- **ZEIT8230**: Requirements Practice [6 UOC]
+- **ZEIT8303**: Project Management Body of Knowledge [6 UOC]
+- **ZHSS8504**: Space Cooperation, Conflict and Competition [6 UOC]
+- **ZEIT8231**: Test and Evaluation [6 UOC]
+- **ZEIT8200**: Model Based Systems Engineering [6 UOC]
+
+### Core Courses (0 UOC)
+Students must complete at least 6 UOC from Core - List A, and at least 18 UOC from the combined Core categories.
+
+#### Core Courses - List A (0 UOC)
+Students must complete at least 6 UOC of the following courses.
+
+- **ZEIT8007**: Space Operations [6 UOC]
+- **ZEIT8008**: Space Systems Design [6 UOC]
+
+#### Core Courses - List B (0 UOC)
+Students may complete up to 18 UOC of the following courses.
+
+- **ZEIT8009**: Global Navigation Satellite Systems (GNSS) [6 UOC]
+- **ZEIT8221**: Spaceborne Imaging Technology [6 UOC]
+- **ZEIT8012**: Space Systems Engineering Management [6 UOC]
+- **ZEIT8219**: Satellite Communications [6 UOC]
+- **ZEIT8220**: Space Propulsion [6 UOC]
+
+## Progression & Academic Rules
+This program will receive full credit for the successfully completed courses from 7346 into the 8622 Master of Space Engineering program.
+
+## Admission Requirements
+**Minimum Entry Requirements**:
+To gain entry into a Graduate Certificate in Space Engineering (7346), an applicant must meet one of the following entry requirements:
+
+1.    Completion of a Bachelor degree with honours in the same or a related discipline* from a recognised institution; or
+
+2.    Completion of a Graduate Diploma or Graduate Certificate in the same or a related discipline* from a recognised institution; or
+
+3.    Completion of a Bachelor degree in the same or a related discipline* from a recognised institution; and completion of at least three years relevant full-time professional experience; or
+
+4.    Completion of a Bachelor degree in a non-related discipline; and completion of at least four years relevant full-time professional experience; or
+
+5.    Evidence of other qualifications and professional experience to be assessed as acceptable grounds for admission into the program by the relevant Program Authority. In certain circumstances, students may be required to undertake and successfully complete a relevant non-award course as a condition for admission into the program. This non-award course may also be credited towards the program upon admission.
+
+*Related Discipline/s: Engineering
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8007 =====
+Subject: Space Operations (ZEIT8007)
+Credit Points: 6
+Overview: Space Operations examines issues in space operations, such as orbits (including orbit perturbations and orbit determination), launch, rendezvous, re-entry, space environment, space law, coordination. Operations aspects of space applications are examined, such as communications, navigation, remote sensing, space surveillance and space situational awareness. Mission analysis and design aspects of these applications are also examined. The major goal of the course is to challenge students to conceive space mission concepts that solve problems facing society and will help grow Australia's capability in the space domain. Students are expected to understand and identify who the end users of their space mission are and form a coherent and sustained argument for the value of their proposed mission. Achieving this aim requires understanding key multidisciplinary space operations concepts, from the basic spacecraft types, the most common orbit types and their parameters, how to investigate the most suitable orbit(s) for a particular task, and the regulatory, strategic, economic, and ethical context in which the mission must operate. The course equips students with the ability to define the mission design and operational requirements to achieve mission goals, providing a suitable requirements brief for subsequent lower level subsystem design to commence
+Learning Outcomes:
+- On successful completion of this course, students will have optimized a space mission to meet defined mission goals through the application of expert technical knowledge and skills derived from the theory of orbits, mission analysis, and payload performance metrics
+- On successful completion of this course, students will have analysed the performance of different spacecraft types, orbit types and orbital parameters within a space mission proposal using an advanced and integrated understanding of the dynamic space environment
+- On successful completion of this course, students will have developed an advanced multidisciplinary view of the technical, strategic, regulatory, and commercial drivers that underpin space activity through presenting coherent and sustained arguments within an online forum
+- On successful completion of this course, students will have proposed a novel and creative space mission and justified its value to society through a critical and scholarly analysis of the literature using an appropriate disciplinary style
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8008 =====
+Subject: Space Systems Design (ZEIT8008)
+Credit Points: 6
+Overview: Space Systems Design introduces the engineering design process for spacecraft. The course focuses on systems engineering and design factors associated with both the space and ground segments of missions, while providing an introduction to important subsystems including: propulsion, communications, attitude determination and control, power, and thermal management. Students will also be exposed to broader design elements related to the selection of launch vehicles, as well as spacecraft manufacturing, integration, and testing. During the course, students will learn how to define the main requirements that drive space mission design, various trade studies that may need to be performed, and how to go about selecting appropriate subsystem components. The course will also provide students with a basic understanding of various spacecraft payloads and how these influence overall spacecraft design.
+Learning Outcomes:
+- Recognise the main elements of a spacecraft and then analyse these elements separately and as a whole to synthesise coherent mission requirements and constraints.
+- Understand the basic operating principles and design considerations of spacecraft subsystems to be able to evaluate and select appropriate components for a given space mission, while overseeing their procurement.
+- Understand the different types of payloads available and how to size them.
+- Develop an understanding and appreciation of important spacecraft manufacturing, integration, and testing factors.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8009 =====
+Subject: Global Navigation Satellite Systems (GNSS) (ZEIT8009)
+Credit Points: 6
+Overview: Since the early 1990s, there has been a significant surge in the utilisation of Global Navigation Satellite Systems (GNSS) like the Global Positioning System (GPS) for precise position determination on Earth. This exponential growth in GNSS adoption has transformed various industries and applications. Today, the availability of GPS and other GNSSs allows us to determine our precise location and direction. This course provides an overview of these techniques and is supported by appropriate exercises to help students acquire all the essential concepts of GNSS systems. It initially explores the system essentials, including structure fundamentals, characteristics, and principles. The course also introduces a range of augmentation techniques and GNSS/Inertial integration based on Kalman Filters, as well as Differential GNSS techniques and GNSS applications.
+Learning Outcomes:
+- On successful completion of this program, the student will be able to discuss the applications of GNSS and its importance in society today, reporting on their utility and limitations.
+- On successful completion of this program, the student will be able to understand the operation of Kalman filter-based GNSS/INS integrated systems for different applications.
+- On successful completion of this program, the student will be able to explain the fundamentals of Global Navigation Satellite Systems and operation of these systems.
+- On successful completion of this program, the student will be able to understand the GPS errors and how Differential GPS can be used to improve positioning accuracy.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8012 =====
+Subject: Space Systems Engineering Management (ZEIT8012)
+Credit Points: 6
+Overview: Space Systems Engineering provides those studying the engineering of space systems with a grounding in the discipline of systems engineering, applying that body of knowledge to space systems by way of example throughout the course. The course begins by providing a framework within which to develop an understanding of the processes and management practises associated with the systems engineering discipline. The underlying systems engineering process is presented and is shown to be applied repeatedly throughout the entire system lifecycle. Attention then focuses on the broad topic of systems engineering management and some of the activities normally associated with engineering management are detailed. The course also introduces tools commonly used in systems engineering and details how systems engineering coexists with other disciplines (particularly Project Management, Quality Management and Integrated Logistics Support Management). The systems engineering body of knowledge is reinforced by the use of example and tutorials throughout the course. Students are further practised though a series of individual exercises that reinforce the application of the discipline of systems engineering to the specific nature of space systems.
+Learning Outcomes:
+- On successful completion of this course, students will have critically evaluated the utility of the systems-engineering body of knowledge for the design, development, implementation and sustainment of a space mission concept within an online forum
+- On successful completion of this course, students will have developed a physical description of a space system from a set of functional requirements using systems thinking and life-cycle theories and techniques
+- On successful completion of this course, students will have synthesized an advanced and integrated understanding of the space and systems engineering disciplines to develop a tailored systems engineering management plan for a given space system.
+- On successful completion of this course, students will be capable of applying the core systems engineering body of knowledge to space systems problems.
+- On successful completion of this course, students will have researched and applied contemporary systems engineering theories to break down a space programme into a sequence of appropriate reviews and phases
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8032 =====
+Subject: Information Assurance Principles (ZEIT8032)
+Credit Points: 6
+Overview: This ZEIT8032 Information Assurance Principles course is one of the core courses for Masters in Cybersecurity Operations (8629). It is also offered as an elective for other programs at UNSW Canberra. Additionally, we extend our offer to students in the Homeland Security Program at Arizona State University (ASU), who will enrol in this course as part of the PLuS Alliance (PLuS Alliance is a strategic alliance between ASU, UNSW and King’s College London, designed to help increase educational opportunities for students at each of the partner institutions by offering global experiences and opportunities for interacting and collaborating with global virtual teams. The PLuS online course exchange is an initiative among PLuS Alliance institutions that allows students from the three institutions to take online courses or modules offered at any one of the PLuS Alliance institutions.) online course exchange. The aim of this course is to provide insights into modern cyber security threats and defensive controls and explore effective computer security and risk management strategies, with particular emphasis on Information Assurance (IA) practices and techniques. The course provides a graduate-level foundation in IA for a diverse audience, from middle-level managers to executives. It caters to those with both non-technical and technical backgrounds, and those from a variety of government, commercial and non-for-profit organisations. This course explores concepts such as layered defence mechanisms, use of several technologies in multiple instances (true defence in depth), threat/risk identification, and mitigation and incident response techniques. It will enable executive-level managers to more fully understand the real-world challenges faced by their cyber security teams today. It will assist in developing the frameworks and policies, and in supporting the evidence-based decisions, that are required to allow teams to protect their environments efficiently. It will also increase understanding of the resulting costs and benefits. It is a standard postgraduate course, available only through distance delivery mode, worth six units of credit (6 UOC) and requires 160 hrs of student study time. There are no prerequisites, but it is expected that enrolling students can: understand emerging technologies; explain specific technical terms; describe problems in technical and non- technical language.
+Learning Outcomes:
+- Describe the fundamental principles, key concepts, vital components, and definitions that are essential for implementing an effective IA program.
+- Apply IA principles, methodologies and frameworks and provide the relevant advice required by security personnel for effective cyber security plans.
+- Explain mechanisms for detecting cyber incidents and anomalies as they occur; suggest the various controls that organisations could consider and suggest recovery processes.
+- Investigate preventive controls that organisations should consider when developing strategies to minimise cyber security risks.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8200 =====
+Subject: Model Based Systems Engineering (ZEIT8200)
+Credit Points: 6
+Overview: This course provides systems engineering students with foundational knowledge of Model-Based Systems Engineering (MBSE) concepts and practices. Students learn about MBSE languages and methodologies with a focus on Systems Modeling Language (SysML), covering its diagrams and elements. Students learn different methodologies for creating system models, including top-down and bottom-up modeling approaches. A key emphasis is placed on understanding the relationships between MBSE languages and methodologies and how they influence and complement each other in practice. The course also covers architecture frameworks such as the Unified Architecture Framework (UAF) and the Department of Defense Architecture Framework (DoDAF), and explores various methodologies for system modeling, for example Object-Oriented Systems Engineering Method (OOSEM). Students will learn to model systems across four critical dimensions: requirements, structure, behaviour, and implementation. This comprehensive coverage includes creating required artifacts for analyzing stakeholder needs, defining system requirements, defining logical architectures, synthesizing candidate allocated architectures, optimizing and evaluating alternatives, and validating and verifying the system. Throughout the course, students develop the ability to evaluate different system modeling languages and methodologies, enabling them to select appropriate tools and approaches for various system engineering contexts. The course includes several tutorials with practical examples drawn from real-life systems across multiple domains, providing hands-on experience with MBSE applications in diverse engineering scenarios.
+Learning Outcomes:
+- Recognise and understand and compare different modelling languages (such as SysML) and MBSE modelling methodologies
+- Construct MBSE models, demonstrating the practical application of MBSE principles in system design and representation.
+- Compare and contrast Model-Based Systems Engineering (MBSE) with traditional systems engineering practices.
+- Evaluate the efficacy of utilizing MBSE models as digital artefacts and tools for informing decision-making.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8219 =====
+Subject: Satellite Communications (ZEIT8219)
+Credit Points: 6
+Overview: Satellite communications are now a major part of most telecommunications networks as well as every-day lives through mobile communication systems and broadcast television. A fundamental understanding of such systems is therefore important to a wide range of system designers, engineers, and communications system users. This course covers the fundamentals of satellites, including: the basic building blocks of a satellite; orbits; radio wave propagation and link calculations; signal and noise power; system for space and ground segments; multiplexing and multiple access techniques; coding schemes; error rates, detection and correction; data rates. The course also covers satellite networks, security considerations, satellite applications, and future trends. This is a 6 UOC course.
+Learning Outcomes:
+- Conduct a thorough and critical analysis and comparison of different competing satellite systems.
+- Evaluate the advantages and disadvantages of the different types of satellite orbits.
+- Perform calculations required to conduct a link budget analysis of a satellite system.
+- Describe and evaluate the following aspects of a satellite communications system: satellite subsystems, satellite orbits, frequency bands, antennas and electromagnetic wave propagation for communications between earth stations and satellites.
+- Apply digital communications, multiplexing, channel coding, multiple access techniques, networking protocols, and security measures, as they relate to satellite communications.
+- Perform calculations to determine properties of earth station antennas and satellite footprints.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8220 =====
+Subject: Space Propulsion (ZEIT8220)
+Credit Points: 6
+Overview: Space Propulsion is dedicated to a fundamental aspect of space engineering: how to place spacecraft into orbit and how to maneuver them once there. With essentially no background medium to push against, many satellites require an onboard propulsion system which ultimately has a strong impact on mission success, and in many cases, may be a mission enabler. This course will introduce the basics of space propulsion covering the rocket equation and space mission analysis, high-thrust and low-thrust orbital maneuvers, launch vehicles and orbit insertion, and current and emerging propulsion technologies, their general operation, and their practical usage in space. Technologies to be covered will include chemical propulsion, electric propulsion, propellantless propulsion, air-breathing hypersonic propulsion, and future thermal nuclear propulsion systems. This course is aimed at providing students with a comprehensive overview of all aspects of space propulsion and giving them the knowledge and analytical tools to critically evaluate different technologies, and how to go about selecting such technologies for space missions. The course is designed to fill the common educational gap between propulsion technology (i.e. the “hardware”), and propulsion operations (i.e. the “orbital dynamics”). It serves as a good introduction to those students that: (1) may pursue design and development of actual propulsion systems in the future, (2) students entering the space industry that may need to use and select existing propulsion systems for their missions, or (3) students from other space engineering disciplines that would like to better understand space propulsion.
+Learning Outcomes:
+- Critically evaluate different propulsion technologies and assess their practical and functional utility in ensuring space mission success.
+- Recognize and evaluate important practical considerations related to the usage of propulsion systems in space and how these factors influence space mission design and satellite operations.
+- Synthesize complex, and sometimes conflicting, technical, geopolitical, environmental, and financial factors to establish an integrated set of space mission propulsion requirements.
+- Research different orbital maneuvers and apply established theoretical approximations or numerical simulations to design mission maneuver plans and construct propellant mass budgets.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8221 =====
+Subject: Spaceborne Imaging Technology (ZEIT8221)
+Credit Points: 6
+Overview: This course covers a range of topics relevant to remote sensing of the Earth's surface from space, including Optics for spacecraft imaging payloads Planck's blackbody radiation law Atmospheric transmission and atmospheric windows Wavelength ranges available for earth imaging and corresponding energy-matter interaction mechanisms Properties of different surface cover types Detectors in the visible and reflective infrared regimes and thermal detectors Imaging spectrometry Passive and active microwave sensing of earth surface features, including synthetic aperture radar methods Spaceborne imaging systems such as Landsat MSS and TM, Spot HRV, SIR A, B, C, ERS-1, JERS-1, and Radarsat and aircraft systems Image processing methods used in support of image interpretation, including traditional and machine learning classifiers.
+Learning Outcomes:
+- Apply Planck's black body radiation law and atmospheric transmission properties to explain how different wavelengths can be used in different types of remote sensing.
+- Apply supervised and unsupervised classification techniques to distinguish materials and objects in satellite remote sensing images.
+- Apply optical theory to relate the design of space-based sensors to their ability to detect and resolve features on the Earth's surface.
+- Describe the spectral and backscatter characteristics of typical materials and objects on the Earth's surface.
+- Apply image processing and data correction techniques to aid in interpretation of satellite remote sensing images.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8230 =====
+Subject: Requirements Practice (ZEIT8230)
+Credit Points: 6
+Overview: This course provides students with an opportunity to develop an understanding of the processes and practices associated with the requirements engineering and business analysis disciplines. The course also introduces tools commonly used in requirements practice and details how business analysis and requirements engineering coexist with other disciplines (particularly systems engineering and project management). The complete and accurate definition of system requirements is a primary focus of the early systems engineering effort. The life cycle of a system begins with a mission statement, which is translated into a large number of statements of requirement that form the basis for the logical (functional) design and subsequently the physical architecture. These transitions must be managed by a rigorous process that guarantees that all relevant requirements are included (and all irrelevant requirements excluded). The establishment of correct requirements is fundamental to the success of projects. Once requirements have been collected, requirements practice then focuses on the management of these requirements from the system level right down to the lowest constituent component. This process involves elicitation, analysis, definition and validation of system requirements.
+Learning Outcomes:
+- Articulate the processes and management practices associated with the requirements engineering discipline.
+- Develop major requirements engineering plans and artefacts for an example project.
+- Assess the need, role and contribution of requirements engineering in project and business contexts.
+- Assess strengths and weaknesses of accepted requirements engineering methodologies and processes.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8231 =====
+Subject: Test and Evaluation (ZEIT8231)
+Credit Points: 6
+Overview: This course focuses on the test and evaluation practices that are essential if complex systems are to be developed to meet users' expectations for functional and physical performance. The course provides a broad introductory overview of all aspects of test and evaluation, its role as part of systems engineering, its relationship to verification and validation, major types of T&E (development T&E, acceptance T&E, and operational T&E), T&E measures (critical operational issues, measures of effectiveness etc) and major T&E plans and documentation. The course has a strong practical element, both in terms of the introduction to the topic as well as formal practice in developing T&E measures and T&E master plans through exercises. It is recommended that students complete ZEIT8230 Requirements Practice and/or ZEIT8226 Systems Engineering Practice prior to completing ZEIT8231 Test and Evaluation (T&E) as these courses provided the contextual understanding and overarching discipline that T&E sits within . If students are unable to complete these prior to ZEIT8231, they are still able to effectively complete the course, but may take some time to understand the context behind the engineering discipline.
+Learning Outcomes:
+- Develop hierarchical and traceable T&E measures for capability systems, including critical operational issues (COIs) and measures of effectiveness/suitability (MOEs/MOSs) at the customer-level or needs-level, and measures of performance (MOPs) and technical performance measures (TPMs) at the design-level or specification-level.
+- Compare the types of T&E and their contemporary issues, including preview T&E (pre-contract), developmental T&E, acceptance T&E, operational T&E, and speciality T&E such as: anthropometrics and human factors, environmental qualification, electromagnetic effects, software usability and cybersecurity.
+- Develop T&E master (management) plans (TEMPs) within a hierarchy of project plans using structured risk-based approaches, including during the seminal conceptual phase.
+- Describe organisation and roles of T&E in Systems Engineering and Project Management as applied to system design and capability acquisition lifecycles, including validation methods, verification methods and categories, configuration baselines and functional and physical configuration (FCA/PCA) auditing; and complexity issues for Systems-of-Systems (SoS).
+Assessment Tasks:
+- In-person - Intensive: N/A% (Hurdle: None)
+- Fully online - Intensive: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8303 =====
+Subject: Project Management Body of Knowledge (ZEIT8303)
+Credit Points: 6
+Overview: Restricted to students enrolled in the Graduate Diploma or Masters programs.This course focuses on the distinctive nature of project management in Defence, the public sector generally and higher corporate levels of the private sector where the project manager is orchestrating (rather than controlling) a political, bureaucratic, technical and contractual environment. The course ranges broadly across key facets of project management, such as quality management, configuration management, risk management and contract management.
+Learning Outcomes:
+- Demonstrate the value that a project management body of knowledge brings to successfully manage projects; and
+- Apply the application of the project management body of knowledge in a complex project.
+- Explain the inception and requirement for a project management body of knowledge
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8601 =====
+Subject: Applied Machine Learning (ZEIT8601)
+Credit Points: 6
+Overview: This course will expose cyber security, decision analytics, space, project management, and systems engineering students to the experience of when and how to apply machine learning to solve different real-life problems. The students will master concepts such as learning from data, feature selection, regression, classification, clustering, and modes of learning such as supervised vs. unsupervised learning and biases in machine learning. They will also be exposed to the similarities and differences when applying machine learning to different modalities, such as time series data, image processing, and text analytics. This course will be a hands-on course with a low to moderate technical level that suits students who are interested in applying machine learning. The students will be able to design AI solutions that utilise existing machine learning algorithms to solve real-life problems, and then evaluate the performance of these systems and analyse the potential of recommending these systems to the decision makers.
+Learning Outcomes:
+- Recognise the different classes of machine learning and be able to select and apply the appropriate algorithm by using existing tools
+- Understand how data defines a problem and the choice of the algorithm used to solve the problem
+- Be able to assemble findings from the evaluation of machine learning in a form appropriate to communicate to stakeholders
+- Apply statistical techniques to evaluate or compare the performance of an algorithm for solving a problem
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZHSS8504 =====
+Subject: Space Cooperation, Conflict and Competition (ZHSS8504)
+Credit Points: 6
+Overview: More satellites have been launched in the last 15 years, than in the preceding 50, starting from the launch of Sputnik I in 1957. If the plans of just 10% of satellite operators proposing new satellites and constellations of satellites were to be realised, as many as 100,000 satellites will be launched in the next 10 years. What accounts for this exponential growth? Can and should it be sustained? The exploration and use of the space domain was born out of great power competition and under the spectre of conflict between the USSR and the US. Yet, over the early decades after the dawn of the space age, exploration of outer space was often characterised by cooperation. In the last decade, an increasing number of States, non-State and commercial actors have sought to exploit the commercial, strategic and scientific opportunities of this domain. Sometimes they cooperate, there is always competition, and the spectre of conflict in space itself looms larger than it ever has. Under-regulated conflict and competition could make Earth orbits and beyond unusable in the near future and for generations to come, with potentially devastating consequences. The course invites you to undertake a learning journey in astropolitics and to set your own personal learning goals. As a core course in the Master of Space Operations program it gives students a detailed understanding of the economic, strategic and political drivers of space activities. It facilitates the intersection of multiple disciplines – particularly in the humanities (history, public policy, economics, commerce, strategy, law, ethics and politics) – with the technical foundations of space operations. Students will gain insights into how these drivers influence planning, policies, acquisitions and operations in respect to space activities. As an elective in other Master programs, the course provides advanced knowledge of the factors shaping the strategic and security environment and policy challenges in the space domain. Students will gain insights into the emerging potential for conflict and about the impact of disruptive space technologies in both the space and terrestrial domains. Students will also gain an appreciation of how the space domain may support conventional and special operations and may be an arena for irregular warfare involving non-state actors, especially commercial entities supporting military activities.
+Learning Outcomes:
+- Demonstrate an applied understanding of the basic elements of select disciplines (science, history, commerce, strategy, law, ethics and policy) in relation to the space domain.
+- Synthesise knowledge across select disciplines to argue a position about cooperation, competition and/or conflict in the space domain (astropolitical situation).
+- Formulate an original idea about an astropolitical situation and demonstrate high level communication skills to advocate for the idea.
+- Demonstrate enquiry-based learning through critical reflection on, and integration of, new disciplinary and/or professional knowledge of astropolitical situations.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+

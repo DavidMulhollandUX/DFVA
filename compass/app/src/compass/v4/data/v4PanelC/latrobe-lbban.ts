@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 15,
+  "workplace": 6,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science, n.e.c..",
+    "evidenceLines": [
+      "Reflect critically on your own cultural attitudes, values and beliefs",
+      "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+      "Join the La Trobe University Bachelor of Business Analytics to kick-start an exciting career that drives data, analytics, and artificial intelligence (AI) innovations for business, economic and social growth."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science, n.e.c..",
+    "evidenceLines": [
+      "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+      "Understand the need for and value of appropriate and effective intercultural communication",
+      "Co-designed with leading industry experts, this degree unpacks organisational and business complexities of data-driven decision-making."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science, n.e.c..",
+    "evidenceLines": [
+      "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+      "Subject: ACCOUNTING FOR BUSINESS (ACC1001)",
+      "Analyse and interpret financial statements and discuss implications for business decision-making"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science, n.e.c..",
+    "evidenceLines": [
+      "Explain the importance of accounting reporting and ethical and corporate governance issues as they apply to managerial decisions",
+      "Develop teamwork skills to prepare and apply Budgets, Variances, and Cost-Volume-Profit analysis in business decision-making",
+      "You will achieve this through developing knowledge and skills in the business value of data, data engineering and management, analytics technologies and application, responsible AI, and industry best practices."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science, n.e.c..",
+    "evidenceLines": [
+      "Subject: DATA ANALYTICS CONCEPTS (BUS1001)",
+      "Subject: GENERATIVE ARTIFICIAL INTELLIGENCE FOR BUSINESS (BUS1004)",
+      "Understand the interaction of decision-making across various organisational functions on financial performance"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science, n.e.c..",
+    "evidenceLines": [
+      "Apply probability distributions and regression analysis to business data.",
+      "Join the La Trobe University Bachelor of Business Analytics to kick-start an exciting career that drives data, analytics, and artificial intelligence (AI) innovations for business, economic and social growth.",
+      "Co-designed with leading industry experts, this degree unpacks organisational and business complexities of data-driven decision-making."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science, n.e.c..",
+    "evidenceLines": [
+      "Import, clean and model data in Excel using automation tools.",
+      "Subject: MARKETS, POLICY AND THE ECONOMY (BUS1BUE)",
+      "You will achieve this through developing knowledge and skills in the business value of data, data engineering and management, analytics technologies and application, responsible AI, and industry best practices."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "To qualify for the award of Bachelor of Business Analytics, students must complete 360 credit points consisting of:",
+      "Join the La Trobe University Bachelor of Business Analytics to kick-start an exciting career that drives data, analytics, and artificial intelligence (AI) innovations for business, economic and social growth."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Business Analytics.",
+      "evidenceLines": [
+        "To qualify for the award of Bachelor of Business Analytics, students must complete 360 credit points consisting of:",
+        "225 core credit points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in computer science, n.e.c..",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Reflect critically on your own cultural attitudes, values and beliefs"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

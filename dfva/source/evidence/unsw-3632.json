@@ -1,0 +1,91 @@
+{
+  "code": "unsw-3632",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 14,
+    "workplace": 7,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Effective interpersonal communication, leadership development, and culturally sensitive interaction across diverse individual client populations.",
+      "evidenceLines": [
+        "Develop effective communication, interpersonal and leadership skills.",
+        "Apply knowledge and skills of psychology in a manner that is reflective, culturally appropriate and sensitive to the diversity of individuals."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Applying empirical logic and scientific methods to resolve complex, ambiguous questions regarding cognition, psychopathology, and human behaviour.",
+      "evidenceLines": [
+        "Develop and apply critical thinking skills that use logic, evidence and psychological science in understanding human behaviour and mental processes.",
+        "Topics of study include learning, memory, cognition, perception, motivation, life-span development, personality, social interactions, and abnormal psychology."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of empirical evidence, rigorous appraisal of psychological theories, and methodological scrutiny of research paradigms.",
+      "evidenceLines": [
+        "Develop and apply critical thinking skills that use logic, evidence and psychological science in understanding human behaviour and mental processes.",
+        "Demonstrate knowledge of and ability to evaluate and apply research methods in psychology."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2: Formulating empirical experimental designs, psychological measurement protocols, and fourth-year research project frameworks.",
+      "evidenceLines": [
+        "Demonstrate knowledge of and ability to evaluate and apply research methods in psychology.",
+        "- **PSYC4073**: Psychology Honours Research Project 12 Units of Credit [12 UOC]"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Year-long fourth-year independent empirical honours research thesis project under academic supervision.",
+      "evidenceLines": [
+        "For the thesis component, students must enrol in PSYC4072 in T1 and PSYC4073 in T2 and T3.",
+        "Demonstrate knowledge of and ability to evaluate and apply research methods in psychology."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Exposure to applied settings across clinical, correctional, and organizational domains, plus elective research internships.",
+      "evidenceLines": [
+        "Psychology has many areas of application, especially in clinical, correctional, counselling, educational, and organisational settings.",
+        "- **PSYC3361**: Psychology Research Internship [6 UOC]"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: APAC professional accreditation standards, ethical guidelines for psychological practice, and research participant governance.",
+      "evidenceLines": [
+        "Demonstrate an understanding of appropriate values and ethics in psychology.",
+        "This program is accredited by the Australian Psychology Accreditation Council (APAC) as a four year sequence of study towards provisional registration as a psychologist (www.psychologyboard.gov.au)."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2: Statistical modeling software, psychometric testing tools, and behavioral experimental apparatus.",
+      "evidenceLines": [
+        "Psychologist in clinical, correctional, counselling, educational, organisational settings; academic research; developmental disabilities and rehabilitation; ergonomics; health research; marketing; work health and safety; personnel selection; training; management; vocational guidance.",
+        "Demonstrate knowledge of and ability to evaluate and apply research methods in psychology."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Psychological assessment, psychometric scoring, cognitive profiling, and behavioral modeling face substantial AI integration.",
+        "evidenceLines": [
+          "Psychologist in clinical, correctional, counselling, educational, organisational settings; academic research; developmental disabilities and rehabilitation; ergonomics; health research; marketing; work health and safety; personnel selection; training; management; vocational guidance."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Four-year accredited honours program involving direct human participant studies, lab experiments, and supervised empirical thesis execution.",
+        "evidenceLines": [
+          "This program is accredited by the Australian Psychology Accreditation Council (APAC) as a four year sequence of study towards provisional registration as a psychologist (www.psychologyboard.gov.au).",
+          "For the thesis component, students must enrol in PSYC4072 in T1 and PSYC4073 in T2 and T3."
+        ]
+      }
+    },
+    "ambiguities": [],
+    "notScoreable": []
+  }
+}

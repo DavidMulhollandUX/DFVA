@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in environmental studies.",
+    "evidenceLines": [
+      "**Institution**: The University of Sydney (USYD)",
+      "**Course / Program Identifier**: heritage-conservation",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in environmental studies.",
+    "evidenceLines": [
+      "**Academic Year**: 2026",
+      "**Faculty**: architecture",
+      "- **Course / Program Identifier**: heritage-conservation"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within environmental studies.",
+    "evidenceLines": [
+      "Subject: Modern Architectural History (MARC4201)",
+      "Subject: Advanced Topics in Architectural History (MARC5100)",
+      "**Handbook URL**: https://www.sydney.edu.au/handbooks/architecture/postgraduate/heritage-conservation.html"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in environmental studies.",
+    "evidenceLines": [
+      "LO1 . engage with architectural history/theory as a body of literature",
+      "LO2 . think critically about issues posed by architectural examples",
+      "- **Handbook URL**: https://www.sydney.edu.au/handbooks/architecture/postgraduate/heritage-conservation.html"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in environmental studies.",
+    "evidenceLines": [
+      "Subject: Planning Dissertation 1 (PLAN9010)",
+      "Subject: Planning Dissertation 2 (PLAN9011)",
+      "LO3 . define your own independent research topic"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in environmental studies.",
+    "evidenceLines": [
+      "LO4 . demonstrate familiarity with traditional and digital methods of research",
+      "- **Institution**: The University of Sydney (USYD)",
+      "- **Course / Program Identifier**: heritage-conservation"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in environmental studies.",
+    "evidenceLines": [
+      "LO5 . pose challenging questions of the assigned materials and of your peers",
+      "Subject: Planning Report (PLAN9018)",
+      "- **Handbook URL**: https://www.sydney.edu.au/handbooks/architecture/postgraduate/heritage-conservation.html"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The program aims to develop core competencies in the following areas:",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Heritage Conservation.",
+      "evidenceLines": [
+        "The program aims to develop core competencies in the following areas:",
+        "Students must complete 72 credit points, including:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in environmental studies.",
+      "evidenceLines": [
+        "Subject: Modern Architectural History (MARC4201)",
+        "**Institution**: The University of Sydney (USYD)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

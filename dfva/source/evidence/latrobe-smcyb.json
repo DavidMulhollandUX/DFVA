@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-smcyb",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science.",
+      "evidenceLines": [
+        "Evaluate the use of innovative use of blockchains and different cryptocurrencies to create a set of recommendations for appropriate usage by business and industry.",
+        "Critically compare and orally present the use of blockchains and distributed ledgers as alternatives to traditional approaches to financial transactions in trust-free transactions.",
+        "Become the bridge between the technical and managerial aspects of cybercrime prevention."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science.",
+      "evidenceLines": [
+        "Assess the contemporary commercial and legal environments needed for cryptocurrency start-ups to ensure business success.",
+        "Evaluate security measures in distributed ledgers to minimise risk.",
+        "La Trobe's Master of Cybersecurity (Business Operations) will teach you predictive techniques to align business needs and deliver meaningful outcomes in cybersecurity."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science.",
+      "evidenceLines": [
+        "Subject: THE BLOCKCHAIN AND CRYPTOCURRENCIES (CSE5BCC)",
+        "Subject: COMPUTER FORENSICS (CSE5CFN)",
+        "Demonstrate an understanding of the different forensics tools and techniques used on varying types of hardware, when gathering and analysing digital evidence"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science.",
+      "evidenceLines": [
+        "Describe and orally present computer architectures and key concepts associated with data structures, evidence collection and validation.",
+        "Create investigative procedures to perform forensic Investigations of different types of digital systems",
+        "You'll graduate ready to keep pace with the information security demands of business, government, defence and law enforcement."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science.",
+      "evidenceLines": [
+        "Subject: CYBERSECURITY PROGRAM DEVELOPMENT AND MANAGEMENT (CSE5CPD)",
+        "Subject: CYBER RISK MANAGEMENT AND COMPLIANCE (CSE5CRM)",
+        "Apply legally-compliant processes and procedures for forensically gathering and analysing digital evidence, and presentation of findings."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science.",
+      "evidenceLines": [
+        "Formulate requirements for a cyber security management program",
+        "Become the bridge between the technical and managerial aspects of cybercrime prevention.",
+        "La Trobe's Master of Cybersecurity (Business Operations) will teach you predictive techniques to align business needs and deliver meaningful outcomes in cybersecurity."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science.",
+      "evidenceLines": [
+        "Evaluate contracts and service agreements to support the security function",
+        "Subject: CYBERSECURITY GOVERNANCE (CSE5CSG)",
+        "You'll graduate ready to keep pace with the information security demands of business, government, defence and law enforcement."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The qualification awarded on graduation is recognised in the Australian Qualifications Framework (AQF) as Level 9.",
+        "Become the bridge between the technical and managerial aspects of cybercrime prevention."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Cybersecurity.",
+        "evidenceLines": [
+          "The qualification awarded on graduation is recognised in the Australian Qualifications Framework (AQF) as Level 9.",
+          "To qualify for the award of Master of Cybersecurity (Business Operations), students must complete 240 credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in computer science.",
+        "evidenceLines": [
+          "Subject: THE BLOCKCHAIN AND CRYPTOCURRENCIES (CSE5BCC)",
+          "Evaluate the use of innovative use of blockchains and different cryptocurrencies to create a set of recommendations for appropriate usage by business and industry."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

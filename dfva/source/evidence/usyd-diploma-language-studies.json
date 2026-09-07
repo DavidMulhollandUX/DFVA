@@ -1,0 +1,102 @@
+{
+  "code": "usyd-diploma-language-studies",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in language and literature.",
+      "evidenceLines": [
+        "**Institution**: The University of Sydney (USYD)",
+        "**Course / Program Identifier**: diploma-language-studies",
+        "- **Institution**: The University of Sydney (USYD)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in language and literature.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Handbook URL**: https://www.sydney.edu.au/handbooks/arts/coursework/diploma-language-studies.html",
+        "- **Course / Program Identifier**: diploma-language-studies"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within language and literature.",
+      "evidenceLines": [
+        "Subject: Intro to Tibetan Language and Culture 1 (ASNS1201)",
+        "Subject: Tibetan Culture and Language 2 (ASNS1202)",
+        "Critically evaluate foundational principles, evidence bases, and contemporary methodologies in intro to tibetan language and culture 1."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in language and literature.",
+      "evidenceLines": [
+        "Synthesise disciplinary knowledge to resolve complex real-world challenges.",
+        "Communicate evidence-based findings effectively to technical and professional stakeholders.",
+        "- **Handbook URL**: https://www.sydney.edu.au/handbooks/arts/coursework/diploma-language-studies.html"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in language and literature.",
+      "evidenceLines": [
+        "Subject: Biblical Hebrew Advanced 3 (BBCL3603)",
+        "Subject: Biblical Hebrew Advanced 4 (BBCL3604)",
+        "Apply ethical frameworks and professional standards in practice."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in language and literature.",
+      "evidenceLines": [
+        "Critically evaluate foundational principles, evidence bases, and contemporary methodologies in tibetan culture and language 2.",
+        "- **Institution**: The University of Sydney (USYD)",
+        "- **Course / Program Identifier**: diploma-language-studies"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in language and literature.",
+      "evidenceLines": [
+        "Synthesise disciplinary knowledge to resolve complex real-world challenges.",
+        "Subject: Biblical Hebrew Advanced 4 (BBCL3604)",
+        "- **Handbook URL**: https://www.sydney.edu.au/handbooks/arts/coursework/diploma-language-studies.html"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "C: Corequisites N:Prohibition",
+        "- **Institution**: The University of Sydney (USYD)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Diploma of Language Studies.",
+        "evidenceLines": [
+          "C: Corequisites N:Prohibition",
+          "To qualify for the award of the Diploma of Language Studies, a candidate must successfully complete 48 credit points chosen from any of the subject areas listed below, which may include an optional major or minor."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in language and literature.",
+        "evidenceLines": [
+          "Subject: Intro to Tibetan Language and Culture 1 (ASNS1201)",
+          "**Institution**: The University of Sydney (USYD)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

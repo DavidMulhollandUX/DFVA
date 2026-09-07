@@ -1,0 +1,149 @@
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/programs/2026/7022 =====
+# Computer Science (7022)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 7022
+- **Academic Year**: 2026
+- **Study Level**: Undergraduate
+- **AQF Level**: Not Applicable
+- **Total Units / Units of Credit (UOC)**: 24
+- **Delivery Mode**: Face-to-face (includes blended)
+- **CRICOS Code**: Not specified
+- **Academic Organisation**: School of Computer Science and Engineering
+- **Handbook URL**: https://handbook.unsw.edu.au/undergraduate/programs/2026/7022
+
+## Description
+Computer Science involves the study of the design, construction and uses of computer systems. It is concerned with the representation of data and data structures in computer systems and the design of algorithms for automatic manipulation of this information by programming languages and machine systems
+
+The undergraduate certificate in Computer Science provides you with a solid foundation in Computer Science concepts. You will learn about the fundamentals of programming and computer systems, and gain an understanding of some of the mathematical underpinnings of Computer Science. It will equip you to apply that understanding to write software and solve problems.
+
+On successful completion of the certificate, you can transfer your completed courses and continue your studies in the Bachelor of Computer Science, subject to meeting the articulation requirements.
+
+NOTE:
+
+- This program does not have CRICOS registration; it is not available for study on a Student Visa.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+1. Solve problems by developing software
+4. Apply discrete math concepts to analyse software
+3. Use computer systems running Linux effectively
+2. Write programs in the C and MIPS assembler languages
+
+## Professional Recognition & Accreditation
+Advanced Standing is not available for this degree
+
+## Program Structure & Degree Requirements
+Students must complete 24 Units of Credit (UOC) structured across the following academic components:
+
+### Core Courses (24 UOC)
+Students must complete 24 UOC of the following  courses.
+
+*Note: Students who complete MATH1011 and articulate to the BSc in Computer Science will have that course count towards free elective requirements. Students will still need to complete MATH1131 or MATH1141 towards BSc in Computer Science requirements.
+
+- **COMP2521**: Data Structures and Algorithms [6 UOC]
+- **COMP1521**: Computer Systems Fundamentals [6 UOC]
+- **COMP1511**: Programming Fundamentals [6 UOC]
+
+#### One of the following:
+- **MATH1131**: Mathematics 1A [6 UOC]
+- **MATH1141**: Higher Mathematics 1A [6 UOC]
+- **MATH1011**: Fundamentals of Mathematics [6 UOC]
+
+## Progression & Academic Rules
+Articulation
+Students can apply to articulate from the Undergraduate Certificate in Computer Science to the Bachelor of Computer Science program (3778) with credit for the completed courses provided they achieve a 65 average.
+
+## Admission Requirements
+Minimum ATAR of 80
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP1511 =====
+Subject: Programming Fundamentals (COMP1511)
+Credit Points: 6
+Overview: From recent innovations in AI like self-driving cars to humanoid robotics navigating complex environments, leapfrogs in battery technology to sequencing the human genome - the world is benefiting and evolving thanks to computer systems. At the core of all these systems are computers executing instructions to solve exciting problems. In this course, you will learn the fundamentals of how we instruct computers to solve problems. You will explore the architecture and mechanics of how computers operate and how you can translate real-world problems to computer programs that solve these problems. The concepts you learn will provide a foundation for your future endeavours in computing and, we hope, will begin to change the way you think about real-world problems. This course is an introductory course to the basics of computer programming and Computer Science. It is intended as an introduction to studying further in Computer Science or related fields. Topics include: Fundamental programming concepts Introduction to Computer Science The C programming language and use of a C compiler Programming style Program design and organisation concepts Program testing and debugging
+Learning Outcomes:
+- Read and understand coding solutions.
+- Apply basic data structures, such as arrays and linked lists, to solve complex problems.
+- Apply C programming language to solve simple decision, looping, array, and linked list problems programmatically.
+- Review the produced code against specification criteria by applying testing techniques.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP1521 =====
+Subject: Computer Systems Fundamentals (COMP1521)
+Credit Points: 6
+Overview: This course introduces students to how computer systems are structured in terms of basic electronic components, how they are used to implement procedural programs, and how they are structured as a collection of software layers. It introduces students to low-level software layers such as operating systems, and introduces concurrency concepts. The goal is to give students a solid understanding of what happens when high-level programs are executed, as a basis for further study in important areas of computing such as computer architecture, operating systems.
+Learning Outcomes:
+- Design, implement, and analyse small programs at the assembly/machine level.
+- Describe the components comprising, and the services offered by, an operating system.
+- Explain how the major components of a CPU work together, including how data and instructions are represented in a computer.
+- Implement simple programs involving communication and concurrency.
+- Describe the relationship between a high-level procedural language (C) and assembly (machine language) which implements it, including how a compiled program is executed in a classical von Neumann machine.
+- Describe the architectural layers (fundamental parts) of a modern computer system from hardware device (chip) levels upwards.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP2521 =====
+Subject: Data Structures and Algorithms (COMP2521)
+Credit Points: 6
+Overview: The aim of this course is to get you to think like a computer scientist . This certainly sounds like a noble goal... but what does it really mean? How does a scientist , let alone a computer scientist, actually think? What many types of scientists try to do is understand natural systems and processes: a geologist, for example, tries to understand the structure of the earth; a biologist tries to understand living organisms; a chemist tries to understand materials and reactions, and so on. Computer scientists don't, as the name might suggest, simply try to understand the structure and behaviour of computers, but are more concerned with understanding software systems (and the interaction between the software and the hardware on which it runs). Also, unlike other scientists, computer scientists frequently build the objects that they study. The goal of this course is to deepen your understanding of data structures and algorithms and how these can be employed effectively in the design of software systems. It is an important course in covering a range of core data structures and algorithms that will be used in context in later courses. You explore these ideas in lectures, tutorials, lab exercises, quizzes and assignments. Assessment involves lab exercises, quizzes, assignments and a final exam involving both practice and theory. At the end of the course, we want you to be a solid programmer, with knowledge of a range of useful data structures and programming techniques, and ready to continue with further specialised studies in computing. Topics This course provides an introduction to the structure, analysis and usage of a range of fundamental data types and the core algorithms that operate on them. Key topics are: Recursion Analysis of algorithms Abstract data types Binary search trees Balanced search trees Graphs Sorting algorithms Heaps Hashing Tries
+Learning Outcomes:
+- Choose/develop an appropriate data structure for a given problem
+- Measure the performance behaviour of programs
+- Package a set of data structures and algorithms as an abstract data type
+- Analyse the performance characteristics of algorithms
+- Describe and analyse fundamental data structures and algorithms
+- Choose/develop appropriate algorithms to manipulate chosen data structures
+- Reason about the effectiveness of data structures and algorithms for solving a given problem
+- Develop and maintain software systems in C that contain thousands of lines of code
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/MATH1011 =====
+Subject: Fundamentals of Mathematics (MATH1011)
+Credit Points: 6
+Overview: This course provides mathematical skills and knowledge similar to the NSW HSC Mathematics Extension 1 high school subject. It can serve as a bridging course for students who need to take MATH1131 but do not have the necessary assumed knowledge. It covers functions and their inverses, limits, continuity, differential and integral calculus as a grounding for a more rigorous treatment of these topics in MATH1131. Also covered are sequences and series, mathematical induction, the binomial theorem, probability, and an introduction to vectors in 2 and 3 dimensions and solving systems of linear equations using Gaussian elimination. The Maple computer algebra package is used to complement hand calculations. It is assumed that students will have mathematical background knowledge equivalent to a Band 4 in HSC Mathematics Advanced.
+Learning Outcomes:
+- Formulate mathematical models using Algebra and Calculus and interpret their solution.
+- Use technology as an aid to solve problems in Algebra and Calculus.
+- Communicate mathematical ideas using correct terminology and using technology.
+- Apply the concepts and techniques of Calculus and Linear Algebra to solve specific problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/MATH1131 =====
+Subject: Mathematics 1A (MATH1131)
+Credit Points: 6
+Overview: This course builds on high school calculus-based courses to provide a solid foundation for further study in mathematics for students in STEM disciplines. It is taken by undergraduate students typically in their first year and is usually followed by MATH1231 or MATH1241. The Calculus half of the course develops a deeper understanding of continuous and differentiable functions and introduces the Riemann integral. It shows how theorems such as the Maximum-Minimum Theorem, the Intermediate Value Theorem and Mean Value Theorems are used to justify properties of common functions and to solve both theoretical and applied problems. The Algebra half of the course introduces vectors and matrices and the solution of systems of linear equations by Gaussian elimination which paves the way for linear algebra in later courses. Technology is used throughout the course through use of the Maple computer algebra system and students producing a typeset assignment. Students are assumed to have a good understanding of NSW HSC Mathematics Extension 1 and 2 subjects. MATH1131 has a higher version, MATH1141, has greater depth and a greater emphasis on proof and rigorous argument than MATH1131.
+Learning Outcomes:
+- Communicate mathematical ideas in written form using correct terminology and using technology.
+- Use technology as an aid to solve appropriate problems in Algebra and Calculus.
+- Apply concepts in Algebra and Calculus to unexpected contexts.
+- Apply concepts and techniques from Algebra and Calculus to solve problems.
+- Identify and construct valid mathematical arguments.
+- Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/MATH1141 =====
+Subject: Higher Mathematics 1A (MATH1141)
+Credit Points: 6
+Overview: This course builds on high school calculus-based courses to provide a solid foundation for further study in mathematics for students in STEM disciplines. It is taken by undergraduate students typically in their first year and is usually followed by MATH1241 or MATH1231 and, as the higher version of MATH1131, has greater depth and a greater emphasis on proof and rigorous argument than MATH1131. The Calculus half of the course develops a deeper understanding of continuous and differentiable functions and introduces the Riemann integral. It shows how theorems such as the Maximum-Minimum Theorem, the Intermediate Value Theorem and Mean Value Theorems are used to rigorously justify properties of common functions and to solve both theoretical and applied problems. The Algebra half of the course introduces vectors and matrices and the solution of systems of linear equations by Gaussian elimination which paves the way for linear algebra in later courses. Technology is used throughout the course through use of the Maple computer algebra system and students producing a typeset assignment. Students are assumed to have a good understanding of NSW HSC Mathematics Extension 1 and 2 subjects.
+Learning Outcomes:
+- Communicate mathematical ideas in written and oral form using correct terminology and using technology.
+- Use technology as an aid to solve appropriate problems in Algebra and Calculus.
+- Apply concepts in Algebra and Calculus to unexpected contexts.
+- Identify and construct valid mathematical arguments and proofs of theorems.
+- Apply concepts and techniques from Algebra and Calculus to solve problems.
+- Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+

@@ -1,0 +1,163 @@
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/programs/2026/8638 =====
+# Cyber Security (Bengaluru) (8638)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 8638
+- **Academic Year**: 2026
+- **Study Level**: Postgraduate
+- **AQF Level**: Level 9
+- **Total Units / Units of Credit (UOC)**: 48
+- **Delivery Mode**: Face-to-face (includes blended)
+- **CRICOS Code**: Not specified
+- **Academic Organisation**: School of Systems and Computing
+- **Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/8638
+
+## Description
+The first intake for this program will be in UNSW Bengaluru Semester 1, with teaching commencing in August 2026.
+
+The Master of Cyber Security is a postgraduate award designed for postgraduate scholars and professional managers with appropriate undergraduate qualifications in IT, computer science, computer engineering, or systems engineering or a related discipline and/or extensive relevant professional experience who wish to gain a more detailed understanding of the technical skills and expertise relevant to the technical implementation and leadership of the cyber security function.
+
+This coursework Master's degree is designed to meet the demand for technical experts who can implement and lead the technical cyber security function in government, industry, law enforcement and defence. It provides principles gathered from information systems, systems engineering, computer science, network security, and defence to enhance a career as a cyber security specialist.
+
+This UNSW program is delivered at UNSW Bengaluru by UNSW Bengaluru Private Limited. UNSW Bengaluru Pvt Ltd is a joint venture between UNSW & Eruditus. Please visit the UNSW Bengaluru website for more information.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+1. On successful completion of this program a graduate will be able to communicate effectively to a range of audiences and be capable of independent and collaborative inquiry, working effectively with others.
+2. On successful completion of this program a graduate will have acquired advanced disciplinary knowledge and skills in Cyber Security, and an ability to apply these in a range of contexts.
+3. On successful completion of this program a graduate will have an awareness of international issues within Cyber Security.
+4. On successful completion of this program a graduate will have demonstrated the application of knowledge and skills in Cyber Security with a high level of personal autonomy and accountability.
+5. On successful completion of this program a graduate will have demonstrated the application of knowledge and skills to plan and execute a substantial research-based project or piece of scholarship in Cyber Security.
+6. On successful completion of this program a graduate will have developed advanced critical thinking and problem solving skills and applied them to Cyber Security.
+7. On successful completion of this program a graduate will have demonstrated the application of knowledge and skills with creativity and initiative in new situations in professional practice or for further learning in Cyber Security.
+
+## Program Structure & Degree Requirements
+Students must complete 48 Units of Credit (UOC) structured across the following academic components:
+
+### Core Courses (24 UOC)
+Students must take 24 UOC of the following courses.
+
+- **WCAN9000**: Cyber Offence: Threats and Opportunities (Bengaluru) [6 UOC]
+- **WCAN9001**:  Information Assurance and Security (Bengaluru) [6 UOC]
+- **WCAN9002**: Software Security Lifecycle (Bengaluru) [6 UOC]
+- **WCAN9003**: Cyber Defence: Network Security Operations (Bengaluru) [6 UOC]
+
+### Prescribed Elective  (12 UOC)
+Students must take 12 UOC of the following courses.
+
+- **WCAN9004**: Digital Forensics (Bengaluru) [6 UOC]
+- **WCAN9005**: Big Data and Decision Analytics for Security (Bengaluru) [6 UOC]
+
+### Research Project  (12 UOC)
+Students must take the following course by enrolling twice over two semesters for a total of 12 UOC.
+
+- **WCAN9006**: Project Report - Cyber Security (Bengaluru) [6 UOC]
+
+## Admission Requirements
+**Minimum Entry Requirements**:
+To gain entry into a M Cyber Security (Bengaluru) (8638), an applicant must meet one of the following entry requirements:
+
+1.    Completion of a Bachelor degree with honours in the same or a related discipline* from a recognised institution; or
+
+2.    Completion of a Graduate Diploma or Graduate Certificate in the same or a related discipline* from a recognised institution; or
+
+3.    Completion of a Bachelor degree in the same or a related discipline* from a recognised institution; and completion of at least three years relevant full-time professional experience.
+
+*Related Discipline/s: Information Technology, Information Systems, Science, Computer Science or Engineering.
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/WCAN9000 =====
+Subject: Cyber Offence: Threats and Opportunities (Bengaluru) (WCAN9000)
+Credit Points: 6
+Overview: This course provides a comprehensive theoretical foundation and practical training in offensive cyber operations. Students will develop expertise in the tools, techniques, and procedures used in cyber offense, while addressing strategic, operational, and tactical challenges. By the end of the course, participants will be equipped to conduct cyber offensive operations, evaluate advanced cyber offense concepts, and design active strategies to detect vulnerabilities in systems and networks.
+Learning Outcomes:
+- On successful completion of this course, students will be able to: Improve an organisation's security by identifying opportunities in defeating cyber threat actor tradecraft and acting upon them.
+- On successful completion of this course, students will be able to: Conduct simple cyber offensive operations by applying the cyber kill chain to a variety of use cases.
+- On successful completion of this course, students will be able to: design executive active defence strategies against cyber threat actors.
+- On successful completion of this course, students will be able to: evaluate complex cyber offense concepts, capabilities, and doctrines, and provide advice to non-expert executives and policy makers.
+Assessment Tasks:
+- In-person - Intensive: N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/WCAN9001 =====
+Subject:  Information Assurance and Security (Bengaluru) (WCAN9001)
+Credit Points: 6
+Overview: The Information Assurance and Security course is one of the core courses for the Masters in Cybersecurity. It is a standard postgraduate course worth six Units of Credit (6 UOC). No prerequisites are required . This course aims to lay a firm foundation for cybersecurity knowledge, providing the ability for students from many related fields to gain perspective of modern cybersecurity threats and corresponding defensive controls and explore effective computer security and risk management strategies with particular emphasis on Information Assurance (IA) practices and techniques. Within the course, IA practices and techniques refer to the steps involved in protecting information systems as part of the enterprise. Three common terms are associated with the definition of information assurance: confidentiality , integrity , and availability . While IA is a field in and of itself, it can be thought of as logically occupying a position between Information Technology (IT), Software and Systems Engineering, and Security. Information Assurance can be thought of as ensuring that systems maintain these three qualities of the system. IA involves keeping information confidential . This means that only those authorised to view information can access it. For example, where information is classified or categorised only people with certain clearance levels are allowed access to confidential information. Integrity involves ensuring that data and information systems may be changed by authorised people for authorised purposes. IA may be used to take steps to maintain integrity, such as having anti-malware software in place so that data will not be altered or destroyed and having policies in place so that users know how to properly utilise their systems to minimise the effect of (internal) user error, or (external) malicious code. In the context of IA, availability is the ability of a system to be available for use by those who are allowed to access it. Protecting the availability can involve protecting against malicious code, hackers and any other threat that could block access to the information system or an explicit denial of service attack. This master level 6 UOC course is designed with the tools to integrate and apply IA knowledge to the system phases of System Development, System Acquisition, System Operation and Service Delivery. Along the way, we will review the process of considering Information Assurance from requirements elicitation through system delivery and operation to system disposal. This course is theoretical and covers not only the very broad content of the ISC2 CISSP® certification but also draws on the CMMI for Development and for Services frameworks to provide a holistic application of Information Assurance considerations. It draws on ISC2 material as well as other scholarly sources.
+Learning Outcomes:
+- Make a realistic assessment of information assurance issues through system lifecycle phases
+- Be able to use risk-based and compliance-based strategies to identify security requirements
+- Be aware of technologies that can be used to translate security requirements into system design and implementation elements
+- Show an understanding of different types of engineering and compliance testing required for information assurance related functionality
+- Demonstrate an understanding of integrated risk-based best practices within systems that must deliver a level of information assurance
+- Demonstrate an understanding of security in steady state operations and management of secure systems
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/WCAN9002 =====
+Subject: Software Security Lifecycle (Bengaluru) (WCAN9002)
+Credit Points: 6
+Overview: The world is more digitally connected than it has ever been before with the digitisation of money and content, supporting e-commerce and access from anywhere via fixed or mobile networks. The integrity of such critical digital assets then depends on the reliability and security of the software that enables and controls those assets. According to the latest reports, software application vulnerabilities are ranked the No.1 threat to information security professionals and will continue to be among the top cyber security concerns. While attackers and researchers continue to expose new application vulnerabilities, the many common application flaws are very often previous, rediscovered threats. In many cases software applications operate as part of a larger systems thus face a number of different security risks. For example, security issues associated with implementing COTS software within existing systems. Most importantly, developing web applications in this current environment requires an understanding of: all security issues associated with software components and their interfaces within the larger system; and applicability of a holistic approach to build security starting from a user requirements, software design and implementation to testing and deployment. This Masterscourse is designed to provide students with a deep understanding, and the skills to implement, manage and incorporate security practices throughout the whole Software Development Lifecycle (SDLC), from identifying customer needs, writing secure requirements, designing, implementing, testing and deployment. This course meets an essential requirement for software developers to stay current on the latest advances in software development and the new security threats they create. This course is theoretical and covers not only the content of the ISC2 CSSLP® certification, but also provides a holistic view on a role of software applications within complex systems. It draws on ISC2 material as well as other scholarly sources. Topics include: Secure Software Concepts Secure Software Requirements Secure Software Design Secure Software Implementation / Coding Secure Software Testing Software Acceptance Software Deployment Operations, Maintenance and Disposal
+Learning Outcomes:
+- On completion of this course, students should be able to: understand the relationship between software development and secure software development approaches, practices and frameworks, the relevance and need for ensuring software is secure and the implications of this throughout all the phases of a development lifecycle.
+- On completion of this course, students should be able to: investigate the need and strategies for identifying and evaluating security requirements and the practical implementation of embedding these as part the development lifecycle
+- On completion of this course, students should be able to: explain different types of testing for security functionality and resiliency to cyber-attacks.
+- On completion of this course, students should be able to: demonstrate an understanding of security best practices within software application development lifecycles.
+- On completion of this course, students should be able to: investigate, understand and demonstrate current practices and modern and evolving approaches to secure software.
+Assessment Tasks:
+- In-person - Intensive: N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/WCAN9003 =====
+Subject: Cyber Defence: Network Security Operations (Bengaluru) (WCAN9003)
+Credit Points: 6
+Overview: The threat landscape facing global organisations has fundamentally shifted. Attackers operate across cloud infrastructure, exploit identity and access misconfiguration, and move through enterprise environments leaving traces that span dozens of disconnected log sources. Defending against these threats requires the ability to build a security program, reason about risk, detect adversary behaviour across complex environments, and respond effectively when prevention fails. This course develops the knowledge and practical capabilities required to perform these functions. Students will examine how mature security functions are structured and operated, how frameworks and legal obligations shape security decision-making in organisations, and how to design the visibility architecture that makes detection and response possible.
+Learning Outcomes:
+- Analyse indicators of compromise, vulnerabilities, and adversary behaviour using threat modelling methodologies to develop actionable threat intelligence and support cyber defence decision-making.
+- Evaluate cyber defence programs including team structures, governance frameworks, and national legal and regulatory requirements, and recommend security strategies aligned to an organisation’s context and risk profile.
+- Develop logging and telemetry architectures, and detection logic to identify adversary activity across enterprise environments.
+- Justify security findings, risks, and recommendations through effective communication with technical and non-technical audiences using executive briefings, incident reports, and risk mitigation plans.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/WCAN9004 =====
+Subject: Digital Forensics (Bengaluru) (WCAN9004)
+Credit Points: 6
+Overview: This course will introduce participants to digital forensic analysis and investigation first principles. Students will be introduced to theoretical concepts including the digital forensic method, intent and its application. The course will also cover introductory Microsoft Windows centric technical topics such as file system, memory and operating system artefact analysis using contemporary open source tools, techniques and procedures. Students will be expected to demonstrate both their theoretical and technical understanding through the completion of practical exercises in a contemporary simulated operational environment. This is an introductory course covering: Forensic analysis theory Disk forensic theory and practical exercises targeting common Windows centric filesystems Configuration forensic theory and practical exercises targeting the Microsoft Windows Registry Network forensic theory and practical exercises Memory forensic theory and practical exercises targeting the Microsoft Windows operating platform Digital Forensics comprises five separate modules of intensive theory and practical sessions delivered. Theory, taught during lectures, is reinforced with practical hands-on laboratories. The intended audience for this course are students that have no previous experience or exposure to the field of digital forensics. As a result, students should expect the course material to be introductory and all inclusive, with no digital forensic pre-reading required. However, students are expected to be comfortable working in a Linux command line environment and must have some experience with the Python programming language.
+Learning Outcomes:
+- Demonstrate their ability to derive and exploit the forensic value of atomic operating system artefacts using first principles.
+- Understand how to professionally approach and conduct a digital forensic investigation, regardless of its size and complexity.
+- Demonstrate how to utilise contemporary open source tools, techniques and procedures to conduct forensic analysis.
+- Perform a cyber centric forensic investigation producing an intelligence product that is succinct, accurate, and actionable.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/WCAN9005 =====
+Subject: Big Data and Decision Analytics for Security (Bengaluru) (WCAN9005)
+Credit Points: 6
+Overview: This course introduces students to Big Data, decision analytics, and the use of Big Data for decision making with an emphasis on security. The course includes an overview of Big Data, including its collection, storage, security, and regularity and compliance issues. The basic analytics will cover data analysis, prediction, classification, data anomaly, knowledge and pattern discovery, and simulation and decision making. The course will also study a number of real-world scenarios related to big data use in security intelligence. Big Data represents information from big and often dynamic data sets in variety of forms collected from multiple autonomous or connected sources. Current best practices, compliance and regulatory requirements have dramatically increased the production and retention of data. Methods used for working with Big Data are different from traditional analysis. Big Data carries noise that needs to be filtered out. It is dynamic and can be untrustworthy. Traditional tools and approaches are either not efficient or not capable to respond to the need of smart security intelligence and immediate incident management and response. We will define what structured, semi structured and unstructured data is and discuss different approaches to extract useful and context aware security intelligence. Different Technologies for analysing Big Data will be evaluated during the course. We will look at some of the tools used over the course of the semester.
+Learning Outcomes:
+- On successful completion of this course, students will be able to: Describe the different sources of data, data structures and the attached meta data, and the difference between data at rest and data in motion.
+- On successful completion of this course, students will be able to: Understand how different techniques for data profiling, anomaly detection, user behaviour analytics and predictive analytics work.
+- On successful completion of this course, students will be able to: Apply the principles of data quality, data dynamics, data ethics and data compliance.
+- On successful completion of this course, students will be able to: Develop analytics operational plans for different scenarios, and conduct collection, processing and analysis of data sets on a basic level.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/WCAN9006 =====
+Subject: Project Report - Cyber Security (Bengaluru) (WCAN9006)
+Credit Points: 6
+Overview: This course allows students to undertake a research project worth 12 UOC total (enrollment in 6 UOC per semester over two semesters). Students are required to select a research problem, conduct literature review, define the problem with necessary assumptions for formulation and representation of the problem, select and/or develop appropriate solution approaches, collect data and prepare them for model/problem solving, conduct experiments, analyse results and write a report.
+Learning Outcomes:
+- Demonstrate critical analysis of the state of the domain, drawing on current literature in Cyber Security.
+- Appropriately evaluate solutions and communicate recommendations and other relevant information.
+- Demonstrate engagement with the relevant disciplinary knowledge in its interdisciplinary context.
+- Apply Cyber Security methodologies to solve specific practical problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+

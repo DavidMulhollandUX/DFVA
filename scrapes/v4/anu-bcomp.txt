@@ -1,0 +1,425 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/BCOMP =====
+# Bachelor of Computing (BCOMP)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: BCOMP
+- **Academic Year**: 2027
+- **Career / Study Level**: Undergraduate
+- **Program Duration**: 3 year full-time
+- **Minimum Units Required**: 144 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal BComp
+- **CRICOS Code**: code 112692B
+- **UAC Code**: code 136062 (B Computing)
+- **Field of Education**: of Education Computer Science
+- **Academic Contact**: contact Felipe Werndl Trevizan
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/BCOMP
+
+## Program Description
+A single three year undergraduate award offered by theANU College of Systems and Society
+
+Applicants with an ANU selection rank of80or above are guaranteed admission (subject to meeting any prerequisites).
+
+We consider the unique circumstances and experiences of all applicants. You may be eligible for adjustment factors that recognise educational disadvantages, personal challenges or other barriers that may have impacted your studies.
+
+Learn more about adjustments >
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Analyse well defined problems, and design, implement and evaluate solutions that demonstrate an understanding of the systems context in which software is developed and operated including economic, social, historical, sustainability and ethical aspects.
+2. Recognise connections and recurring themes, including abstraction and complexity, across the discipline.
+3. Adapt to new environments and technologies, and to innovate.
+4. Demonstrate an operational understanding of the foundations of computing including programming, algorithms, logic, architectures and data structures.
+5. Communicate complex concepts effectively with diverse audiences using a range of modalities.
+6. Work effectively within a team in order to achieve a common goal.
+7. Demonstrate commitment to professional conduct and development that recognises the social, legal and ethical implications of their work, to work independently, and to self- and peer-assess performance.
+
+## Program Requirements & Study Options
+### Program Requirements
+The Bachelor of Computing requires completion of 144 units, of which:
+
+### Elective Study
+Once you have met the program requirements of your degree, you may have enough electives to complete an additional elective
+major
+,
+minor
+or
+specialisation
+.
+
+### Study Options
+Year 1
+48 units
+COMP1100
+Programming as Problem Solving
+6 units
+OR
+COMP1130
+;
+MATH1005
+Discrete Mathematical Models
+6 units
+Elective course
+6 units
+Elective course
+6 units
+COMP1110
+Structured Programming
+6 units
+OR
+COMP1140
+;
+COMP1600
+Foundations of Computing
+6 units
+Elective course
+6 units
+Elective course
+6 units
+Year 2
+48 units
+COMP2100
+Software Construction
+6 units
+COMP2300
+Computer Architecture
+6 units
+COMP2420
+Elective course
+6 units
+Computing elective
+6 units
+Computing elective
+6 units
+Computing elective
+6 units
+Elective course
+6 units
+Year 3
+48 units
+Computing elective
+6 units
+Computing Course
+3000/4000 level
+6 units
+Computing Course
+3000/4000 level
+6 units
+Elective course
+6 units
+Computing Course
+3000/4000 level
+6 units
+Computing Course
+3000/4000 level
+6 units
+Computing Course
+3000/4000 level
+6 units
+Elective course
+6 units
+
+### Admission Requirements
+At a minimum, all applicants must meet program-specific academic/non-academic requirements, and English language requirements. Admission to most ANU programs is on a competitive basis. Therefore, meeting all admission requirements does not guarantee entry into the program.
+
+### Prerequisites
+ACT: Mathematical Methods (Major)/Further Mathematics (Major)/Specialist Mathematics/Specialist Methods (Major)
+
+### Electives
+You have four electives
+to choose in your first year. These can be additional computing courses
+(e.g.:
+COMP1720
+,
+COMP1710
+,
+COMP2400
+,
+INFS1001
+), other electives that
+may count as COMP courses (
+MATH1013
+,
+MATH
+1014, STAT
+1003
+,
+STAT1008
+,
+ENGN1211
+) and/or engineering
+oriented electives (such as
+PHYS1001
+or
+ENGN1218
+).
+Explore majors, and
+minors, in other subject areas (e.g., management, mathematics, psychology,
+languages) that interest you. Each college site will provide information
+on the first year courses that you can study for a given major or
+minor.
+When choosing elective
+courses, check the course listing on
+Programs
+and Courses
+to
+ensure that you have the required and assumed knowledge before enrolling. If
+you don't, consider changing your planned enrolment to make sure you take the
+pre-requisite course.
+Transdisciplinary (TD) Courses can be found by searching on P&C.  You will meet your TD Program requirement by following your degree rules.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1100 =====
+Subject: Programming as Problem Solving (COMP1100)
+Credit Points: 6 units
+Overview: This course is the first of three core computer science courses on programming. It introduces students to the field of computer science as a discipline for solving problems through computation and provides the foundation for more advanced courses on programming and software development. Data structures and algorithms, the key concepts at the core of computer science, receive their first treatment in this course.
+
+The course covers functional programming in depth, developing the core idea of functions operating on data structures. Students learn the organization of programming languages using types, how programs are evaluated (reduction), functional composition, recursive functions, algebraic data types, pattern matching, parametric polymorphism, higher-order functions. Students also gain exposure to asymptotic analysis of basic data structures, abstract data types, modules, laziness, and streams. The functional paradigm demonstrates elegant solutions to many programming problems.
+
+The course also introduces students to standard productivity tools for software development that will be used throughout the course and remainder of the computer science degree. These include distributed software revision control systems.
+
+The Advanced version of this course covers these topics in more depth, allowing students to deepen their understanding and experience.
+Learning Outcomes:
+- Apply fundamental programming concepts, using a functional programming language, to solve problems.
+- Understand basic types and the benefits of static typing.
+- Describe, understand and evolve programs, via documentation, testing, and debugging.
+- Discuss, use, and apply the fundamentals of data structures, algorithms, and design; create, implement, and debug algorithms for solving problems, including recursively, using divide-and-conquer, and via decomposition.
+- Discuss basic algorithmic analysis for simple algorithms; determine appropriate algorithmic approaches to a problem (for example bruteforce, greedy, divide-and-conquer, recursive backtracking, heuristic, dynamic programming).
+- Understand and apply the concepts of parametric and ad-hoc polymorphism
+Assessment Tasks:
+- Assignments: 30% (Hurdle: False)
+- Lab Assessment: 5% (Hurdle: False)
+- Mid-term quiz: 10% (Hurdle: True)
+- Final Exam: 55% (Hurdle: True)
+Workload: Lectures, tutorial/laboratory sessions and self study to work through the material, prepare for labs, and complete assignments to reach a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1110 =====
+Subject: Structured Programming (COMP1110)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1130 =====
+Subject: Programming as Problem Solving (Advanced) (COMP1130)
+Credit Points: 6 units
+Overview: This course is a variation on Programming for Problem Solving (COMP1100). It covers the same topics in more depth, requiring additional contact hours to allow students to deepen their understanding and experience. They will understand the foundations of program semantics, program proof, and implementation of the programming language features that they have learned in the course. As the advanced version of the course the first six Learning Outcomes are the same as forCOMP1100.
+
+Students can start inCOMP1130and then drop back toCOMP1100during the semester.  You cannot change intoCOMP1130after week 2.
+
+This course is an Advanced Studies Extension Course (ASE), with the additional work required for an ASE built into theCOMP1130assessment.
+Learning Outcomes:
+- Apply fundamental programming concepts, using a functional programming language, to solve problems.
+- Understand basic types and the benefits of static typing.
+- Describe, understand and evolve programs, via documentation, testing, and debugging.
+- Discuss, use, and apply the fundamentals of data structures, algorithms, and design; create, implement, and debug algorithms for solving problems, including recursively, using divide-and-conquer, and via decomposition.
+- Discuss basic algorithmic analysis for simple algorithms; determine appropriate algorithmic approaches to a problem (for example bruteforce, greedy, divide-and-conquer, recursive backtracking, heuristic, dynamic programming).
+- Understand and apply the concepts of parametric and ad-hoc polymorphism.
+- Reflect on the fundamental mathematical concepts underlying functional programming.
+- Use formal proof and structural induction to reason about the correctness of functional programs.
+- Assessing the significance of different evaluation strategies, including laziness, for the computational behaviour of functional programs.
+Assessment Tasks:
+- Assignments: 30% (Hurdle: False)
+- Lab Assessment: 5% (Hurdle: False)
+- Mid-Term Exam: 10% (Hurdle: False)
+- Final Exam: 55% (Hurdle: False)
+Workload: Lectures, tutorial/laboratory sessions and self-study to work through the material, and prepare for assessments and labs.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1140 =====
+Subject: Structured Programming (Advanced) (COMP1140)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1600 =====
+Subject: Foundations of Computing (COMP1600)
+Credit Points: 6 units
+Overview: This course presents some formal notations that are commonly used for the description of computation and of computing systems, for the specification of software and for mathematically rigorous arguments about program properties. The following areas of study constitute the backbone of the course: predicate calculus and natural deduction, inductive definitions of data types as a basis for recursive functions and structural induction, specification languages and their use in program verification.
+Learning Outcomes:
+- Apply the concepts of mathematical logic to formulate, analyse and evaluate formal assertions about programs
+- Construct proofs or refutations in a variety of formalisms, particularly in a semi-automated, machine-assisted setting.
+- Prove simple properties of recursive functions on inductively defined data structures using structural induction.
+- Prove simple programs correct using Hoare Logic.
+Assessment Tasks:
+- Assignments: 40% (Hurdle: False)
+- Quizzes: 10% (Hurdle: False)
+- Final Exam: 50% (Hurdle: False)
+Workload: Lectures, tutorials and self-directed study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1710 =====
+Subject: Web Development and Design (COMP1710)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1720 =====
+Subject: Art and Interaction Computing (COMP1720)
+Credit Points: 6 units
+Overview: This course introduces the fundamentals of coding and design required to create expressive interactive artworks. Students will learn how to conceptualise, plan, and realise an original interactive artwork using a high-level programming language. They will experiment with computer graphics, sound, and input devices and learn programming concepts required for accomplishing their creative objectives.
+
+The course introduces the range of creative possibilities presented by the computer in the modern art world as well as fundamental concepts of visual and interactive design. Topics covered include interactive and new media art, interaction design, program organisation, variables, control structures, graphics, and audio.
+Learning Outcomes:
+- Describe the qualities of computer-based artworks.
+- Apply knowledge of visual and physical interaction with a computer interface.
+- Design and construct computer programs in a programming language for interactive art.
+- Create an original and creative work of interactive art.
+Assessment Tasks:
+- Lab Assessment and Quizzes: 10% (Hurdle: False)
+- Assignments: 40% (Hurdle: False)
+- Major Project: 50% (Hurdle: False)
+Workload: Lectures, laboratory sessions and self study making a total of 130 hours for the whole course.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP2100 =====
+Subject: Software Construction (COMP2100)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP2300 =====
+Subject: Computer Architecture (COMP2300)
+Credit Points: 6 units
+Overview: This course is a rigorous introduction to the design of digital circuits and computer architecture. It provides technical foundations for how a computer system is built from the bottom up and how the high-level programming languages you learn in other courses are translated into simple instructions the computer executes. The course introduces the different abstraction layers necessary to make a computer system work, and a key focus is the connection between hardware and software.
+
+The course introduces the predominant stored-program computer paradigm and principles of digital design and computer architecture. Students build a fully functional general-purpose computer from simple logic circuits in a digital simulator. The course also demystifies assembly code, the machine language the processor speaks, and the mapping of assembly programs to higher levels of programming abstraction. The focus is on fundamental techniques employed in the design of modern microprocessors and their hardware/software interface.
+
+This course will challenge your understanding of how computers work and what happens in them when we run a program. At the end of this course, you will be able to navigate between layers of abstraction in a computer system, from individual digital circuits to high-level software, and understand how low-level structures enable and enhance the abilities of a computer system.
+
+This course covers topics such as combinational and sequential logic design, digital building blocks such as arithmetic/logic unit and random access memory, instruction set architectures and assembly programming, input/output systems, interrupt handling, single-cycle and pipelined processor design, out-of-order execution, and hardware speculation.
+Learning Outcomes:
+- Understand the basics of digital circuits and principles of digital design.
+- Learn how a modern computer works underneath from the bottom up.
+- Design and implement a simple processor in a digital simulator following a principled approach.
+- Evaluate tradeoffs of different designs and ideas.
+- Debug complex systems systematically at different abstraction layers.
+- Evaluate computer systems at abstraction levels from software to individual digital circuits and account for the implications of machine-level choices.
+- Write programs in assembly language and explain the relationship between high-level and assembly languages, including function calls and basic control structures.
+Assessment Tasks:
+- Labs and Quizzes: 10% (Hurdle: False)
+- Practical Assignments: 40% (Hurdle: False)
+- Final Exam: 50% (Hurdle: False)
+Workload: Lectures and laboratory sessions plus self study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP2400 =====
+Subject: Relational Databases (COMP2400)
+Credit Points: 6 units
+Overview: This course is an introduction to relational databases and the general skills for designing and using them. Topics include the relational data model, SQL, data modelling tools such as the entity-relationship model, functional dependencies, and (de-)normalisation, query processing and optimisation, and potential social and economic impacts of database design, for instance through (in-)security. Current development of database systems based on models other than the relational (known asNoSQL databases) will be introduced at the end of the course.
+Learning Outcomes:
+- Describe the basic concepts of the relational model and its mathematical foundation.
+- Connect database design with social and economic impacts including security, ethics, and Australian Privacy Principles.
+- Use SQL to define, query and manipulate a relational database, and describe principles of SQL query processing and optimisation.
+- Use data modelling concepts and practices to create, evaluate and communicate relational database designs, collaboratively and individually.
+Assessment Tasks:
+- In-class activities and quizzes: 10% (Hurdle: False)
+- Assignments: 30% (Hurdle: False)
+- Final Exam: 60% (Hurdle: False)
+Workload: Lectures and laboratory sessions plus self study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENGN1211 =====
+Subject: Engineering Design 1: Discovering Engineering (ENGN1211)
+Credit Points: 6 units
+Overview: Discovering Engineering is the foundation course for engineering. The course invites students to discover engineering by tackling an open-ended design project, as well as learning a variety of essential technical and non-technical skills. The major project for the course is to work in teams to design and build a robot rover that can autonomously navigate around a maze.
+
+Throughout the course, students undertake a variety of learning activities that introduce the key engineering concepts that are needed to successfully complete the project. Students learn about the engineering design process, including understanding what is needed in a project, generating concepts, prototyping, analysing, and implementing a solution. Students work in teams, allowing them to develop their collaboration and communication skills, as well as their project management skills. This is complemented by learning about the importance of reflective and ethical professional practice. At the same time students will also learn about basic electronics, coding and problem solving, providing a range of fundamental skills needed by a modern engineer.
+Learning Outcomes:
+- Demonstrate research into engineering concepts, technology and contexts.
+- Select and use appropriate engineering tools to model and analyse engineering components.
+- Design a solution to an open-ended problem using an engineering process.
+- Identify responsibilities within an engineering team in relation to professional practice.
+- Communicate engineering concepts and solutions effectively using different media to professional and other audiences.
+- Demonstrate self-reflection and evaluation of ideas
+Assessment Tasks:
+- Engineering Design Report: 15% (Hurdle: False)
+- Mid-semester Test: 15% (Hurdle: False)
+- Lab Quizzes: 15% (Hurdle: False)
+- Rover Project: 40% (Hurdle: False)
+- Reflection: 15% (Hurdle: False)
+Workload: 24 x 1 hour lectures 3 x 2-hour computer labs 3 x 2-hour project workshops 6 x 1-hour Project group updates with optional 1-hour drop-in Plus group and individual study
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENGN1218 =====
+Subject: Introduction to Electronics (ENGN1218)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/INFS1001 =====
+Subject: Business Information Systems (INFS1001)
+Credit Points: 6 units
+Overview: This course aims to provide students from all business disciplines with a general background of BIS. An understanding of BIS is important to the work of business professionals because BIS serves as a bridge between management and operation. For instance, accountants use information systems for business reporting; financial managers use information systems for market forecast; sales managers and marketers use information systems to track customer purchases and to promote new products; information systems designers build and deliver new information services; and executive managers use strategic information systems to determine the company’s strategic position. Mastering both business and technology skills and knowledge builds job opportunities, because they can better contribute to shaping their company's strategy and operation.
+Learning Outcomes:
+- Demonstrate an understanding of the foundations of information systems, and explain the reasons for the current design and use of information systems;
+- Demonstrate an understanding of and interpret the personal, social, ethical, and business implications of using information systems;
+- Observe and explain the real-world use of information systems, citing practical examples;
+- Demonstrate an understanding of the basic principles of modelling information systems processes and outcomes;
+- Evaluate and critically analyse problems.
+Assessment Tasks:
+- Typical assessment may include, but is not restricted to: exams, assignments, quizzes, presentations and other assessment as appropriate. Further details will be made available via the Class Summary.: 100% (Hurdle: False)
+Workload: Students taking this course are expected to commit 130 hours to completing the work. For semester length offerings this will typically include 3 hours per week in class and at least 7 hours a week on average (excluding non-teaching weeks) on course reading, research, writing and assignment work.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1005 =====
+Subject: Discrete Mathematical Models (MATH1005)
+Credit Points: 6 units
+Overview: Introduction to discrete mathematics and its use in mathematical modelling. Emphasis will be placed on developing facility, technique and use in applications. Modelling of processes and phenomena which occur in the physical, environmental and life sciences, especially computer science, will be used as a vehicle throughout. Topics to be covered include: logic and set theory, mathematical reasoning, combinatorics and counting, probability, mathematical induction and recurrence relations, graph theory and networks, matrix arithmetic and Markov chains.
+Learning Outcomes:
+- Recall, invent, interpret examples of motivation for mathematical constructs used in discrete mathematics as models of processes in the world.
+- Recognise, define, explain and use terminology and notation from discrete mathematics.
+- Identify the logical structure of a statement, and then identify the logical structure of an argument that may be used to prove or disprove the statement.
+- Perform mathematical calculations in discrete mathematics using methods presented in the course.
+- Write simple proofs/construct explicit counterexamples for statements relating to discrete mathematics topics covered in the course.
+Assessment Tasks:
+- Workshop quizzes: 10% (Hurdle: False)
+- Workshop contributions: 10% (Hurdle: False)
+- Written assignments: 20% (Hurdle: False)
+- Final ExaminationRegardless of performance on other assessment items, a minimum scaled score of 40% on the final exam is required to pass the course.: 60% (Hurdle: True)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1013 =====
+Subject: Mathematics and Applications 1 (MATH1013)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/PHYS1001 =====
+Subject: Foundations of Physics (PHYS1001)
+Credit Points: 6 units
+Overview: Nationally recognised with two teaching awards, Foundations of Physics aims to teach you tothink like a physicist!
+
+A course for anyone who wants to get a solid foundation in basic-physics concepts, or needs to catch up before entering into a major. It will also teach you skills and an approach to problem solving that you will take forward in your life.
+
+The course offers a unique hands-on approach to learning physics. You will get the background material for each week in a short one hour theory lecture, and then have the opportunity, over the course of an afternoon, to put that theory into practice. You will work in small teams to build, test and analyse physics experiments directly relevant to the material you are learning. Lab manuals and instructions are forbidden! Just like a real researcher.
+
+We introduce students to the key concepts in physics in the areas of mechanics, electricity and magnetism. It is an algebra-based course suitable for those who wish to undertake some physics but do not have a strong mathematical background, and great for those keen on entering graduate medicine via the GAMSAT.
+
+If you have ever wanted to get a real taste of what physics is all about, this is the course for you.
+
+The course is taught by young, enthusiastic and experienced teachers with research interests in nuclear and environmental physics, advanced materials engineering, laser science, and more!
+Learning Outcomes:
+- Understand the fundamental principles of classical mechanics, electric and magnetic fields and simple electrical circuits.
+- Be able to apply these principles to the solution of problems and to the conduct of experiments.
+- Have a basic understanding of uncertainty in the context of physics, and how to handle it.
+- Have basic laboratory skills including equipment skills, data gathering, record keeping, data analysis, experiment design, and presentation.
+Assessment Tasks:
+- Laboratory: 40% (Hurdle: False)
+- Homework assignments: 30% (Hurdle: False)
+- Mid-Term and Final Exam: 30% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT1008 =====
+Subject: Quantitative Research Methods (STAT1008)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+

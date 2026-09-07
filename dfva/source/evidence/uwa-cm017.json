@@ -1,0 +1,102 @@
+{
+  "code": "uwa-cm017",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in public health.",
+      "evidenceLines": [
+        "**Institution**: The University of Western Australia (UWA)",
+        "**Course Code**: CM017",
+        "- **Institution**: The University of Western Australia (UWA)"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in public health.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Study Level**: Undergraduate",
+        "- **Study Level**: Undergraduate"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within public health.",
+      "evidenceLines": [
+        "Subject: Human Biology I: Becoming Human (ANHB1101)",
+        "Subject: Human Biology II: Being Human (ANHB1102)",
+        "**Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=CM017"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in public health.",
+      "evidenceLines": [
+        "**Institution**: The University of Western Australia (UWA)",
+        "**Course Code**: CM017",
+        "- **Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=CM017"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in public health.",
+      "evidenceLines": [
+        "Subject: Waking Up to Sleep (HMSC1000)",
+        "Subject: Form and Function (IMED1001)",
+        "**Academic Year**: 2026"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in public health.",
+      "evidenceLines": [
+        "**Study Level**: Undergraduate",
+        "- **Institution**: The University of Western Australia (UWA)",
+        "- **Study Level**: Undergraduate"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in public health.",
+      "evidenceLines": [
+        "**Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=CM017",
+        "Subject: Mathematics Fundamentals (MATH1720)",
+        "- **Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=CM017"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "Students completing this double packaged award course will graduate with both a Bachelor of Sport and Exercise Sciences majoring in Sport Science, Exercise and Health, and a Master of Public Health.",
+        "- **Institution**: The University of Western Australia (UWA)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of  Sport and Exercise Sciences  and Master of Public Health.",
+        "evidenceLines": [
+          "Students completing this double packaged award course will graduate with both a Bachelor of Sport and Exercise Sciences majoring in Sport Science, Exercise and Health, and a Master of Public Health.",
+          "In the Bachelor of Sport and Exercise Sciences students learn to apply theoretical knowledge to develop and deliver exercise-based interventions for fitness, performance, and health and wellbeing. The award-winning work-integrated learning program provides  students with opportunities to integrate theoretical knowledge in real-world professional settings as well as to interact with professionals in the industry. This course is accredited by Exercise and Sports Science Australia (ESSA - upon graduation, you will be able to apply for credentialing as an Accredited Exercise Scientist (AES)."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in public health.",
+        "evidenceLines": [
+          "Subject: Human Biology I: Becoming Human (ANHB1101)",
+          "**Institution**: The University of Western Australia (UWA)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

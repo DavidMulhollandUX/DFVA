@@ -1,0 +1,102 @@
+{
+  "code": "usyd-exchange",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+      "evidenceLines": [
+        "**Institution**: The University of Sydney (USYD)",
+        "**Course / Program Identifier**: exchange",
+        "- **Institution**: The University of Sydney (USYD)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Handbook URL**: https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/exchange.html",
+        "- **Course / Program Identifier**: exchange"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+      "evidenceLines": [
+        "Subject: Exchange and Study Abroad (FASS6901)",
+        "Subject: Exchange and Study Abroad (FASS6902)",
+        "Critically evaluate foundational principles, evidence bases, and contemporary methodologies in exchange and study abroad."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+      "evidenceLines": [
+        "Synthesise disciplinary knowledge to resolve complex real-world challenges.",
+        "Communicate evidence-based findings effectively to technical and professional stakeholders.",
+        "- **Handbook URL**: https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/exchange.html"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+      "evidenceLines": [
+        "Subject: Exchange and Study Abroad (FASS6903)",
+        "Subject: Exchange and Study Abroad (FASS6904)",
+        "Apply ethical frameworks and professional standards in practice."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+      "evidenceLines": [
+        "Critically evaluate foundational principles, evidence bases, and contemporary methodologies in exchange and study abroad.",
+        "- **Institution**: The University of Sydney (USYD)",
+        "- **Course / Program Identifier**: exchange"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+      "evidenceLines": [
+        "Synthesise disciplinary knowledge to resolve complex real-world challenges.",
+        "Subject: Exchange and Study Abroad (FASS6905)",
+        "- **Handbook URL**: https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/exchange.html"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The University of Sydney Study Abroad and Student Exchange Program provides you with the exciting opportunity to add an international perspective to your education at an Australian university with a reputation for excellence in teaching and research. You can study for one or two semesters from a wide-ranging selection of units of study on a non-award basis.",
+        "- **Institution**: The University of Sydney (USYD)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Exchange, internships and projects.",
+        "evidenceLines": [
+          "The University of Sydney Study Abroad and Student Exchange Program provides you with the exciting opportunity to add an international perspective to your education at an Australian university with a reputation for excellence in teaching and research. You can study for one or two semesters from a wide-ranging selection of units of study on a non-award basis.",
+          "C: Corequisites N: Prohibition"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+        "evidenceLines": [
+          "Subject: Exchange and Study Abroad (FASS6901)",
+          "**Institution**: The University of Sydney (USYD)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

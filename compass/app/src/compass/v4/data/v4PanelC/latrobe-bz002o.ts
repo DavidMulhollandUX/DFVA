@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+    "evidenceLines": [
+      "Reflect critically on your own cultural attitudes, values and beliefs",
+      "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+      "La Trobe’s Bachelor of Business/Bachelor of Arts combines a practical business education with the valuable skillset of an arts degree."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+    "evidenceLines": [
+      "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+      "Understand the need for and value of appropriate and effective intercultural communication",
+      "Learn the foundations of business, while exploring your passions and developing essential human skills such as communication and critical thinking."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+    "evidenceLines": [
+      "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+      "Subject: DATA FUNDAMENTALS FOR BUSINESS DECISIONS (BUS1003)",
+      "Apply Excel proficiency using fundamental statistical methods to evaluate business problems"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+    "evidenceLines": [
+      "Use appropriate software and statistical techniques to present business data to inform decision-marking",
+      "Apply statistical analysis and hypothesis testing techniques to economic, financial and business data to draw conclusions",
+      "The Bachelor of Business/Bachelor of Arts is delivered entirely online, which means you can enjoy a flexible timetable that fits around your other commitments."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+    "evidenceLines": [
+      "Subject: MARKETS, POLICY AND THE ECONOMY (BUS1BUE)",
+      "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+      "Evaluate the relationships between macroeconomic variables and their impacts on businesses, individuals, and society."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+    "evidenceLines": [
+      "Use models to predict and analyse the impacts of changing market conditions and/or public policy responses and their impacts on society",
+      "La Trobe’s Bachelor of Business/Bachelor of Arts combines a practical business education with the valuable skillset of an arts degree.",
+      "Learn the foundations of business, while exploring your passions and developing essential human skills such as communication and critical thinking."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+    "evidenceLines": [
+      "Research and analyse current issues and/or events in the economy by integrating data and other information sources",
+      "Subject: MANAGEMENT AND ORGANISATIONS (MGT1004)",
+      "The Bachelor of Business/Bachelor of Arts is delivered entirely online, which means you can enjoy a flexible timetable that fits around your other commitments."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "To qualify for the award of Bachelor of Business/Bachelor of Arts, students must complete 480 credit points consisting of:",
+      "La Trobe’s Bachelor of Business/Bachelor of Arts combines a practical business education with the valuable skillset of an arts degree."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Business/Bachelor of Arts.",
+      "evidenceLines": [
+        "To qualify for the award of Bachelor of Business/Bachelor of Arts, students must complete 480 credit points consisting of:",
+        "180 credit points of Business requirements, of which:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in business and management.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Reflect critically on your own cultural attitudes, values and beliefs"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

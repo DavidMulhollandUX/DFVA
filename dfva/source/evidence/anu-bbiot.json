@@ -1,0 +1,90 @@
+{
+  "code": "anu-bbiot",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 11,
+    "workplace": 6,
+    "C1": {
+      "score": 2,
+      "rationale": "Builds scientific debate and public communication of contentious biotechnological developments across diverse stakeholder audiences (CILOs, BIOL3191).",
+      "evidenceLines": [
+        "convey and relate professional and disciplinary information and ideas to diverse audiences in effective and appropriate ways;",
+        "Discuss and communicate the science involved in various bioethical debates and the associated social, cultural and political issues."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Requires experimental ingenuity and synthetic biology design to engineer genomes and test novel biological hypotheses (BIOL3161).",
+      "evidenceLines": [
+        "Design a set of experiments to address a particular biological question.",
+        "Students taking this course will develop skills in experimentation and analysis within the context of learning about biology including: gene regulation, genome evolution, complex adaptive and quantitative traits, and genome engineering with synthetic biology."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Employs complex multi-omic analytical pipelines to interpret genome assembly variants, transcriptomics, and population-level genetic variations (CILOs, BIOL3161).",
+      "evidenceLines": [
+        "use a range of analytical techniques for the interpretation of biological data to address specific hypotheses;",
+        "Obtain and analyse information and data relating to specific genetic variation along the genome, population genetic variation among samples across the genome"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Prepares students to navigate emergent ethical controversies, uncertain regulatory frontiers, and risk-benefit dilemmas in gene technologies (BIOL3191).",
+      "evidenceLines": [
+        "Assess the benefits, risks, and societal & ethical implications of developments in the biosciences, biotechnology and biomedicine.",
+        "This course will give you the tools to understand questions like these and to make clear ethical arguments that point to the right course of action. In other words, this course will teach you how toargue well, and how to translate your scientific knowledge into good decisions both for yourself and for society."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Intensive wet-laboratory physical manipulation, executing micro-pipetting, nucleic acid extraction, next-gen sequencing library prep, and bacterial protein purification (BIOL3161, CHEM2208).",
+      "evidenceLines": [
+        "Perform a range of practical techniques including DNA extraction, library preparation, and 3rd gen sequencing",
+        "Make and purify proteins."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Solves applied bio-manufacturing and genomic research problems mirroring industrial biotechnology and molecular pathology laboratory settings (CILOs).",
+      "evidenceLines": [
+        "apply a range of technological skills and laboratory techniques to addressing specific problems in the field of biological research;",
+        "demonstrate the application of biotechnology to real life contexts;"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Rigorous bioethical governance, addressing gene-editing oversight, experimental consent protocols, and societal accountability (BIOL3191).",
+      "evidenceLines": [
+        "Assess the benefits, risks, and societal & ethical implications of developments in the biosciences, biotechnology and biomedicine.",
+        "Understand and employ a range of approaches to ethical and moral reasoning."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Applies commercial biopharmaceutical tooling, bioinformatic modeling software, and structural visualization platforms (CHEM2211, CHEM2208).",
+      "evidenceLines": [
+        "Demonstrate an understanding of the role of chemical biology in industry and commerce.",
+        "Demonstrate familiarity with software for protein visualization, sequence alignment and modelling."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Program satisfies foundational discipline depth requirements.",
+        "evidenceLines": [
+          "understand and evaluate the significance of biotechnological discoveries in educational and professional contexts;"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Program satisfies contextual professional and analytical practice requirements.",
+        "evidenceLines": [
+          "demonstrate the application of biotechnology to real life contexts;"
+        ]
+      }
+    },
+    "ambiguities": [],
+    "notScoreable": []
+  }
+}

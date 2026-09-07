@@ -1,0 +1,161 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/NSCQB =====
+# Master of Science in Quantitative Biology and Bioinformatics (NSCQB)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: NSCQB
+- **Academic Year**: 2027
+- **Career / Study Level**: Postgraduate
+- **Program Duration**: 2 year full-time
+- **Minimum Units Required**: 96 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal MScQnvBiolBioinf
+- **CRICOS Code**: code 096439G
+- **UAC Code**: N/A
+- **Field of Education**: of Education Mathematical Sciences NEC
+- **Academic Contact**: contact Marcin Adamski
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/NSCQB
+
+## Program Description
+A single two year graduate award offered by theANU College of Science and Medicine
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Demonstrate high level knowledge and an understanding of the mathematical, statistical and computational foundations of biological data analysis;
+2. Formulate, apply and interpret appropriate quantitative methods to analyse biological data problems;
+3. Interpret, synthesise and critically analyse published literature of relevance to quantitative biology and bioinformatics;
+4. Advise, and provide assistance to others, on the appropriate use and interpretation of techniques for the analysis of biological data;
+5. Demonstrate a critical understanding of science in society;
+6. Clearly communicate theory and results in both written and oral formats.
+
+## Program Requirements & Study Options
+### Program Requirements
+The Master of Science in Quantitative Biology and Bioinformatics requires the completion of 96 units, of which:
+
+### Study Options
+Year 1
+48 units
+BIOL6200
+Introduction to Quantitative Biology
+6 units
+COMP6730
+Programming for Scientists
+6 units
+Quantitative Biology and Bioinformatics elective course list
+6 units
+6000-, 7000-, 8000- level BIOL, CHEM, COMP, ENGN, MATH, NEUR, POPH, STAT course
+STAT6038
+BIOL8002
+Advanced Topics in Quantitative Biology
+6 units
+Quantitative Biology and Bioinformatics elective course list
+6 units
+6000-, 7000-, 8000- level BIOL, CHEM, COMP, ENGN, MATH, NEUR, POPH, STAT course
+Year 2
+48 units
+BIOL8001
+Scientific Reasoning and Consulting in Quantitative Biology
+6 units
+COMP8410
+Data Mining
+6 units
+Integrative Course List
+6000-, 7000-, 8000- level BIOL, CHEM, COMP, ENGN, MATH, NEUR, POPH, STAT course
+Science and Society course list
+6 units
+Quantitative Biology and Bioinformatics elective course list or Science and Society Course List
+Integrative Course List
+6000-, 7000-, 8000- level BIOL, CHEM, COMP, ENGN, MATH, NEUR, POPH, STAT course
+
+### Admission Requirements
+Applicants must present a Bachelor degree or international equivalent
+
+### Inherent Requirements
+Information on inherent requirements is currently not available.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/BIOL6200 =====
+Subject: Introduction to Quantitative Biology (BIOL6200)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/BIOL8001 =====
+Subject: Scientific Reasoning and Consulting in Quantitative Biology (BIOL8001)
+Credit Points: 6 units
+Overview: Quantitative biology and bioinformatics demand a combination of technical skills and domain knowledge. These data-driven sciences require both a contextual understanding of the research problem and an intuitive grasp of data in the research context. In response, this course is organised around scientific reasoning across the holistic research process, from the initial motivation to the communication of findings. With data as the focus and R as the tool, students are exposed and trained in a unified view of experimental design and data analysis. Students are taught to manipulate wild data and learn from it through visualisation and statistical modelling, setting up structures to ensure transparent and reproducible analyses. Students will be challenged with real data sets from academic journal articles where they test their skills in critiquing data organisation and analytic strategies from published data. Students will complete all assignments in Rmarkdown, thereby gaining a high level of proficiency in creating well documented and reproducible analysis workflows.
+Learning Outcomes:
+- Communicate effectively an professionally about data analysis with scientists outside of their discipline;
+- Translate biological goals and challenges into underpinning quantitative/computational problems;
+- Engage in an independent investigation and evaluation of quantitative/computational solutions to biological problems;
+- Describe and defend a chosen methodology in the context of the problem being solved;
+- Estimate the difficulty of a project and the time commitment that will be required;
+- Identify when additional skills and/or expertise will be required to solve a problem.
+Assessment Tasks:
+- Short report that demonstrates basic R programming skills: 10% (Hurdle: False)
+- Short report that demonstrates ability to comprehend and critically interpret a manuscript: 10% (Hurdle: False)
+- Short report that demonstrates ability to design an experiment and simulate data consistent with design: 10% (Hurdle: False)
+- Short report that demonstrates ability to design and implement an appropriate data analysis workflow: 10% (Hurdle: False)
+- Short report that demonstrates effective communication about data analysis with scientists outside of their discipline: 10% (Hurdle: False)
+- Summative task: Report that demonstrates ability to carry out a complete study, from motivation and design through analysis and interpretation: 50% (Hurdle: True)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/BIOL8002 =====
+Subject: Advanced Topics in Quantitative Biology (BIOL8002)
+Credit Points: 6 units
+Overview: Biological research techniques are changing rapidly, and each year we learn about new ways of collecting and analysing large biological datasets. New empirical data often require novel methods of analysis, and large datasets require advanced computational techniques to handle. Quantitative biologists also frequently rely on mathematical and simulation models to explore and understand complex biological processes and patterns. At the heart of quantitative biology is asking the right question, in the right way, with traditional experimental design during data collection being replaced by (i) decisions about how to partition existing datasets and (ii) parameter definitions in simulation models to effectively answer outstanding biological questions. Students will learn about advanced methods in quantitative biology, from study design, reading and writing skills, through to theory and agent-based modelling, mining citizen-science data, analysing of animal tracking data, and using deep-learning method.
+Learning Outcomes:
+- Describe, present, and critically evaluate analytical methods, models and theories used in published research.
+- Develop skills in experimental design when using simulations or analysing existing datasets, including making appropriate assumptions and identifying the core biological measures of interest.
+- Identify appropriate approaches for posing questions and designing analyses when testing hypotheses using automated data collection method.
+Assessment Tasks:
+- Presentation of a study from the primary literature: 10% (Hurdle: False)
+- Short quizzes on weekly topic or pre-class reading: 25% (Hurdle: False)
+- Experimental design and modelling project: 50% (Hurdle: False)
+- Methodological design project: 15% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6730 =====
+Subject: Programming for Scientists (COMP6730)
+Credit Points: 6 units
+Overview: This course teaches introductory programming, fundamental programming language and computer science concepts, and computational problem solving illustrated with applications common in science and engineering, such as data analysis, visualisation, and image processing. We will take a different approach, including prompting and working with GenAI, with emphasis on testing, debugging and problem decomposition, and using GenAI to help understand code.
+
+These skills will empower students to write software with the aid of GenAI. Assessment will include exam(s) without the aid of GenAI. Students will also create larger software projects with the aid of GenAI. The course does not require any prior knowledge of programming or computer science. It is designed to be a stand-alone computing unit.
+
+Students who wish to study computing courses at a higher level should check course prerequisites as they may need to completeCOMP6710orCOMP7710in addition toCOMP6730.
+Learning Outcomes:
+- Apply advanced programming constructs and structured programming methodologies to develop reliable software systems.
+- Explain key concepts in AI-assisted programming, including Large Language Models (LLMs), prompting, problem decomposition, and top-down design.
+- Apply AI-assisted programming workflows and advanced prompt-engineering techniques to guide, refine, and improve code generated by AI assistants.
+- Analyse the computational complexity of programs, and apply debugging and testing techniques, including black-box and white-box testing.
+- Evaluate and improve code quality using critical judgement.
+- Design and implement complete programs that solve practical problems using structured programming methodologies and AI-assisted prompting.
+- Critically evaluate the role, benefits, limitations, and risks of generative AI in software development projects
+Assessment Tasks:
+- Homework, Assignments and Lab Tests: 20% (Hurdle: False)
+- Programming Project: 20% (Hurdle: False)
+- Final Exam and Mid-semester Test: 60% (Hurdle: False)
+Workload: Lectures, tutorials, assignments, self-study & exam prep for a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP8410 =====
+Subject: Data Mining (COMP8410)
+Credit Points: 6 units
+Overview: Massive amounts of data are collected by public and private organisations, while the Web offers rich information about almost every aspect of human life and society. Analysing such data can provide significant benefits to an organisation or research project. This course provides a practical focus on the technology and research in the area of data mining. It focuses on the algorithms and techniques and less on the mathematical and statistical foundations.
+Learning Outcomes:
+- Critically analyse and justify the steps involved in the data mining process,
+- Anticipate and identify data issues related to data mining,
+- Research, test and apply the principal algorithms and techniques used in data mining,
+- Justify suitable techniques to use for a given data mining problem,
+- Appraise and reflect upon the results of a data mining project using suitable measurements,
+- Investigate application areas and current research directions of data mining,
+- Reflect upon ethical and social impacts of data mining.
+Assessment Tasks:
+- Regular formative quizzes: 5% (Hurdle: False)
+- Written assignment: essay: 15% (Hurdle: False)
+- Mid-course lab exam: 20% (Hurdle: False)
+- Practical assignment: report: 20% (Hurdle: False)
+- Final examination: 40% (Hurdle: False)
+Workload: Approx 130 hours
+

@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in health, n.e.c..",
+    "evidenceLines": [
+      "Demonstrate the skills required with all processes involved in the design, development and implementation of a health science or public health research project;",
+      "Critically evaluate the current literature and provide rationale and aims for the project;",
+      "This course allows graduates of M2014 Bachelor of Health Sciences and M2012 Bachelor of Public Health to undertake an honours year of study."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in health, n.e.c..",
+    "evidenceLines": [
+      "Organise, manage and analyse research data using techniques required",
+      "Communicate research findings though both written and verbal formats",
+      "Graduates from other disciplines with equivalent studies may also be eligible for entry into this honours course."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within health, n.e.c..",
+    "evidenceLines": [
+      "Subject: Health Science research project (HSC4100)",
+      "Subject: Advanced studies in Health Science  (HSC4200)",
+      "Discuss the ethical issues involved in their research project;"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in health, n.e.c..",
+    "evidenceLines": [
+      "Methodology chapter (3000 words): 10% (Hurdle: None)",
+      "Research Presentation (15 minutes): 10% (Hurdle: None)",
+      "Supervision of honours projects will be primarily provided by staff from the School of Public Health and Preventive Medicine, although opportunity exists for you to identify a project and co-supervisor with Monash partner organisations such as the Burnet Institute, the Baker-IDI (Heart and Diabetes Institute), and others."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in health, n.e.c..",
+    "evidenceLines": [
+      "Subject: Health Science research project (HSC4100)",
+      "Subject: Advanced studies in Health Science  (HSC4200)",
+      "Fortnightly supervisor meetings: N/A% (Hurdle: Competency)"
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in health, n.e.c..",
+    "evidenceLines": [
+      "Health Science Research Minor Thesis (15,000 words): 80% (Hurdle: Threshold)",
+      "This course allows graduates of M2014 Bachelor of Health Sciences and M2012 Bachelor of Public Health to undertake an honours year of study.",
+      "Graduates from other disciplines with equivalent studies may also be eligible for entry into this honours course."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in health, n.e.c..",
+    "evidenceLines": [
+      "Explain the processes involved in the design, development and implementation of a research project;",
+      "Subject: Advanced studies in Health Science  (HSC4200)",
+      "Supervision of honours projects will be primarily provided by staff from the School of Public Health and Preventive Medicine, although opportunity exists for you to identify a project and co-supervisor with Monash partner organisations such as the Burnet Institute, the Baker-IDI (Heart and Diabetes Institute), and others."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "48 credit points",
+      "This course allows graduates of M2014 Bachelor of Health Sciences and M2012 Bachelor of Public Health to undertake an honours year of study."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Health Sciences.",
+      "evidenceLines": [
+        "48 credit points",
+        "**Core studies** **48 credit points**"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in health, n.e.c..",
+      "evidenceLines": [
+        "Subject: Health Science research project (HSC4100)",
+        "Demonstrate the skills required with all processes involved in the design, development and implementation of a health science or public health research project;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

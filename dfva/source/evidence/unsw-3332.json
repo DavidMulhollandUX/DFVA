@@ -1,0 +1,102 @@
+{
+  "code": "unsw-3332",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 11,
+    "workplace": 6,
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2: Multimodal communication across verbal, written, visual, and digital formats; structured negotiation with diverse built environment stakeholders and collaborative group feasibility presentations.",
+      "evidenceLines": [
+        "Communicate effectively to diverse audiences and stakeholders using verbal, visual, written and digital methods.",
+        "Collaborate effectively and transparently with diverse stakeholders to inform, consult and negotiate in property management processes and construction project deliveries.",
+        "You will work in groups to conduct and present the feasibility and viability of a real-life property dev"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Formal risk evaluation amid uncertainty, adhering to Australian building regulations, environmental sustainability benchmarks, and professional ethics frameworks.",
+      "evidenceLines": [
+        "Demonstrate ethical and professional responsibility in construction management and property practice, ensuring accountability in workplace and community engagement while adhering to professional and regulatory frameworks.",
+        "These techniques assist in decision-making amid uncertainty, provide insights into specific risks, and form part of a risk management process.",
+        "Evaluate and apply construction management and property knowledge, including sustainability principles and relevant industry regulations within an interdisciplinary context."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Industry-standard digital quantification tools, quantitative risk simulation software (Palisade @Risk), project planning packages (Microsoft Project), and technical principles of on-site/off-site construction robotics.",
+      "evidenceLines": [
+        "Construction Robotics prepares you for engagement with the automation of the construction industry. It introduces cutting-edge robotic technology and principles of robotic construction for both on-site and off-site contexts. You will investigate existing case examples of robotic automation in the construction sector and examine relevant concepts and technical",
+        "You will also learn standard risk assessment tools and business analytics, such as Palisade @Risk software and Microsoft Project",
+        "You will also use industry standard software applications to process measurement and quantification tasks."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Comprehensive synthesis across whole-life value management, procurement, contract delivery methods, and capstone development of an exhaustive Construction Project Management Plan (CPMP) covering ten integrated project management knowledge areas.",
+      "evidenceLines": [
+        "In groups, you will develop a Construction Project Management Plan (CPMP) for a large-scale sustainable construction project. The CPMP encompasses project execution, monitoring, and control, covering aspects like scope, schedule, cost, risk, resource, quality, safety, sustainability, procurement, stakeholder, and communications management.",
+        "We explore value management, whole life value, contract delivery methods and risk in value management for built environment projects.",
+        "Apply technical skills and expertise to make informed decisions, solve practical problems, and address contemporary challenges in the construction and property industries."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Empirical testing of concrete material properties and mix design, quantitative risk modelling, and measurement analysis applied to real-world residential and commercial projects.",
+      "evidenceLines": [
+        "During this course, you will examine the composition of concrete, with a detailed analysis of the properties of its components, including cement, aggregates, and the most utilised admixtures. You will learn how to design concrete mixes in accordance with Australian Standards.",
+        "You will learn about selecting and applying risk assessment techniques adhering to industry standards. These techniques assist in decision-making amid uncertainty, provide insights into specific risks, and form part of a risk management process.",
+        "You will learn measurement and quantification principles and techniques and apply these to a residential building project."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Alignment with Australian construction and property industry regulations, contractual procedures, and quantity surveying standards.",
+      "evidenceLines": [
+        "The program prepares you for management careers in a broad range of construction and property-related organisations.\u00a0 You will acquire sound foundational knowledge and skills in Construction Management, Property Development and Quantity Surveying, including but not limited to relevant construction and property industry regulations, systems and technologies for construction and property management, sustainability principles, and ethical and professional responsibilities.",
+        "Low Rise Building Construction covers a detailed discussion of the procedures for commercial and residential projects adopted in Australia.",
+        "Apply entrepreneurial skills and innovative strategies to drive technological advancements and industry transformation in construction management and property development."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic, simulated workplace deliverables including comprehensive Construction Project Management Plans (CPMP) and property development feasibility proposals.",
+      "evidenceLines": [
+        "In groups, you will develop a Construction Project Management Plan (CPMP) for a large-scale sustainable construction project.",
+        "Real world projects give you the exposure to industry practices.",
+        "Reflection on integrating project management theory with real-life projects and devising strategies for sustainable construction, including environmental impact reduction, is expected."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2: Dedicated Work Integrated Learning elective (FADA6700 Professional Placement), supported by structured site visits, guest lectures, and industry-sponsored briefs.",
+      "evidenceLines": [
+        "The\u00a0UNSW CMP program has a close relationship with\u00a0industry. You have the option of enrolling in a dedicated\u00a0work\u00a0integrated learning course. The program may also provide real-world experiences by offering site visits, guest lectures and overseas study at various points in the curriculum.",
+        "ADA Work Integrated Learning (WIL) - Professional Placement provides you an opportunity to gain targeted professional work experience, and to explore the dynamics, requirements, and expectations of a workplace."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A 144 UOC undergraduate program structured across construction management, property development, and quantity surveying core sequences.",
+        "evidenceLines": [
+          "- **Total Units / Units of Credit (UOC)**: 144",
+          "The Bachelor of Construction Management and Property (3332)\u00a0is a three-year full-time (or equivalent part-time) program of study."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "AQF Level 7 professional degree providing specialized depth in construction project management, cost control, and property development.",
+        "evidenceLines": [
+          "- **AQF Level**: Level 7",
+          "The program is offered over 9 terms, leading to the award of the degree of Bachelor of Construction Management and Property (BCMP).\u00a0 After completion of the BCMP, you may enroll in a one-year honours program where you have the option to continue your studies in construction management and property or to specialise in building, property development, or quantity surveying."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C4: Scored at Level 3 due to the multidisciplinary breadth and technical complexity of the capstone Construction Project Management Plan (BLDG3022).",
+      "W3: Scored at Level 2 as the dedicated professional placement (FADA6700) is an elective option rather than a compulsory hurdle for all students."
+    ],
+    "notScoreable": []
+  }
+}

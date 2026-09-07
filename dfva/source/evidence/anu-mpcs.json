@@ -1,0 +1,102 @@
+{
+  "code": "anu-mpcs",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in political science and policy studies.",
+      "evidenceLines": [
+        "**Institution**: The Australian National University (ANU)",
+        "**Academic Plan Code**: MPCS",
+        "- **Institution**: The Australian National University (ANU)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in political science and policy studies.",
+      "evidenceLines": [
+        "**Academic Year**: 2027",
+        "**Career / Study Level**: Postgraduate",
+        "- **Career / Study Level**: Postgraduate"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within political science and policy studies.",
+      "evidenceLines": [
+        "Subject: Australian National Internships Program A (ANIP6503)",
+        "Subject: Disasters and Epidemics in Asia and the Pacific (ASIA8048)",
+        "**Program Duration**: 1 year full-time"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in political science and policy studies.",
+      "evidenceLines": [
+        "**Minimum Units Required**: 48 Units",
+        "**Mode of Delivery**: of delivery In Person",
+        "- **Program Duration**: 1 year full-time"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in political science and policy studies.",
+      "evidenceLines": [
+        "Subject: Harnessing Diplomacy for International Development (DIPL8010)",
+        "Subject: International Relations Internship (DIPL8015)",
+        "**Post Nominal**: Nominal MPeaConStu"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in political science and policy studies.",
+      "evidenceLines": [
+        "**CRICOS Code**: code 114599E",
+        "- **Institution**: The Australian National University (ANU)",
+        "- **Career / Study Level**: Postgraduate"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in political science and policy studies.",
+      "evidenceLines": [
+        "**Field of Education**: of Education Political Science",
+        "Subject: Research Project in Diplomacy and Peace and Conflict Studies (DIPL8018)",
+        "- **Program Duration**: 1 year full-time"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "- **Program Duration**: 1 year full-time",
+        "- **Institution**: The Australian National University (ANU)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Peace and Conflict Studies.",
+        "evidenceLines": [
+          "- **Program Duration**: 1 year full-time",
+          "- **Minimum Units Required**: 48 Units"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in political science and policy studies.",
+        "evidenceLines": [
+          "Subject: Australian National Internships Program A (ANIP6503)",
+          "**Institution**: The Australian National University (ANU)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

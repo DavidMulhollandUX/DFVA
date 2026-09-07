@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 6,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Assess problems from an engineering perspective and deliberate on the relevant contextual factors. Combine and apply sophisticated data analysis methods and decision-making skills to analyse industrial scenarios and make recommendations that support business growth and development.",
+      "Demonstrate the effective communication of the outcomes in a written and verbal format and assess the work of others.",
+      "The Master of Advanced Materials and Manufacturing Engineering is designed to fulfill a growing need for professionals with a broad awareness of advanced manufacturing processes and the materials that they employ."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Collaboratively evaluate an industry scenario to solve a problem or develop an innovation.",
+      "Justify the use of appropriate computer modelling techniques and experimental methods, whilst ensuring model or test applicability, accuracy and limitations of the methods.",
+      "The course outlines how to design for both metallic and non-metallic materials in additive manufacturing, as well as addressing important aspects of modern manufacturing processes such as lean manufacturing."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Subject: Advanced data analytics for engineers (ENG5001)",
+      "Subject: Research methods (ENG5005)",
+      "Project: Week 12 submission: 32% (Hurdle: None)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Project: Week 4 submission: 25% (Hurdle: None)",
+      "Quiz in workshops: 18% (Hurdle: None)",
+      "The course is aimed at giving you essential skills and knowledge for the modern workplace."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Subject: Research practice (ENG5006)",
+      "Subject: Engineering systems performance analysis (MEC5881)",
+      "Project: Week 8 submission: 25% (Hurdle: None)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Critically evaluate the current scientific literature relevant to the topic and assess its limitations based on an extensive literature review.",
+      "The Master of Advanced Materials and Manufacturing Engineering is designed to fulfill a growing need for professionals with a broad awareness of advanced manufacturing processes and the materials that they employ.",
+      "The course outlines how to design for both metallic and non-metallic materials in additive manufacturing, as well as addressing important aspects of modern manufacturing processes such as lean manufacturing."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Formulate a research plan based on the scientific method coupled with a rational Design of Experiments approach.",
+      "Subject: Design for additive manufacturing (MEC5891)",
+      "The course is aimed at giving you essential skills and knowledge for the modern workplace."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Level 2: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "The advanced expertise units are completed at Southeast University in Suzhou as part of the joint Master’s program. To receive 24 credit points of block credit towards this course, you must provide your Southeast University Master’s transcript showing the relevant completed engineering units.",
+      "The Master of Advanced Materials and Manufacturing Engineering is designed to fulfill a growing need for professionals with a broad awareness of advanced manufacturing processes and the materials that they employ."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Advanced Materials and Manufacturing Engineering.",
+      "evidenceLines": [
+        "The advanced expertise units are completed at Southeast University in Suzhou as part of the joint Master’s program. To receive 24 credit points of block credit towards this course, you must provide your Southeast University Master’s transcript showing the relevant completed engineering units.",
+        "The advanced expertise units are completed at Southeast University in Suzhou as part of the joint Master’s program. To receive 24 credit points of block credit towards this course, you must provide your Southeast University Master’s transcript showing the relevant completed engineering units."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: Advanced data analytics for engineers (ENG5001)",
+        "Assess problems from an engineering perspective and deliberate on the relevant contextual factors. Combine and apply sophisticated data analysis methods and decision-making skills to analyse industrial scenarios and make recommendations that support business growth and development."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

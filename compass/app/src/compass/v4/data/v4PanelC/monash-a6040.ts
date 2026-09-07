@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+    "evidenceLines": [
+      "PK5101 Analysis of Tourism Elements and System",
+      "PK5102 Infrastructure & Transportation System for Tourism",
+      "This international double master's program enables you to complete the requirements of the Monash Master of International Sustainable Tourism Management as well as a second degree with Institut Teknologi Bandung (ITB)."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+    "evidenceLines": [
+      "PK5103 Tourism Development Planning",
+      "PK5104 Institution of Tourism Destinations",
+      "You will initially study a full year at Institut Teknologi Bandung and subsequently a further year at Monash University in Australia."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+    "evidenceLines": [
+      "Subject: Sustainable cultural development (APG5067)",
+      "Subject: Creative cities (APG5068)",
+      "PK5290 Tourism Destination Planning Studio"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+    "evidenceLines": [
+      "PK5203 Tourism Impact",
+      "PK5106 Tourism Analysis Methods",
+      "On successful completion of the academic program at Institut Teknologi Bandung and the academic program at Monash, students will be eligible to graduate with the degrees from both institutions, awarded separately."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+    "evidenceLines": [
+      "Subject: Cultural tourism and events management (APG5128)",
+      "Subject: Mindfulness for workplace wellbeing and productivity (APG5136)",
+      "PK5211 Tourism Research Methodology"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+    "evidenceLines": [
+      "Apply independent research skills to a range of problems in the field of culture and sustainable development;",
+      "This international double master's program enables you to complete the requirements of the Monash Master of International Sustainable Tourism Management as well as a second degree with Institut Teknologi Bandung (ITB).",
+      "You will initially study a full year at Institut Teknologi Bandung and subsequently a further year at Monash University in Australia."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+    "evidenceLines": [
+      "Communicate effectively and in analytical depth a breadth and depth of scholarly analysis applied to culture and development agendas in different cultural contexts.",
+      "Subject: Social entrepreneurship challenge in the Indo-Pacific (APG5170)",
+      "On successful completion of the academic program at Institut Teknologi Bandung and the academic program at Monash, students will be eligible to graduate with the degrees from both institutions, awarded separately."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "You will initially study a full year at Institut Teknologi Bandung and subsequently a further year at Monash University in Australia. On successful completion of the academic program at Institut Teknologi Bandung and the academic program at Monash, students will be eligible to graduate with the degrees from both institutions, awarded separately.",
+      "This international double master's program enables you to complete the requirements of the Monash Master of International Sustainable Tourism Management as well as a second degree with Institut Teknologi Bandung (ITB)."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of International Sustainable Tourism Management (Double Masters International).",
+      "evidenceLines": [
+        "You will initially study a full year at Institut Teknologi Bandung and subsequently a further year at Monash University in Australia. On successful completion of the academic program at Institut Teknologi Bandung and the academic program at Monash, students will be eligible to graduate with the degrees from both institutions, awarded separately.",
+        "The course is structured in three parts. Part A. Core studies, Part B. Elective studies and Part C. Partner studies."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in business and management.",
+      "evidenceLines": [
+        "Subject: Sustainable cultural development (APG5067)",
+        "PK5101 Analysis of Tourism Elements and System"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

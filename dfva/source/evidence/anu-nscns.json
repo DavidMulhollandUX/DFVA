@@ -1,0 +1,102 @@
+{
+  "code": "anu-nscns",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Technical nuclear physics reporting, scientific presentations, and technical documentation.",
+      "evidenceLines": [
+        "demonstrate high-level knowledge of nuclear science concepts;",
+        "apply knowledge of nuclear science to new problems;",
+        "A single two year graduate award offered by theANU College of Science and Medicine"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical appraisal of nuclear models, radiation protection protocols, and reactor systems.",
+      "evidenceLines": [
+        "apply knowledge of nuclear science to new problems;",
+        "interpret, synthesize and critically analyse published literature of relevance to nuclear science;",
+        "A single two year graduate award offered by theANU College of Science and Medicine"
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Advanced mathematical physics: nuclear reaction dynamics, radiation physics, and computational modeling.",
+      "evidenceLines": [
+        "interpret, synthesize and critically analyse published literature of relevance to nuclear science;",
+        "Subject: International Nuclear Energy Law (LAWS8316)",
+        "Subject: Fundamentals of Nuclear Science (PHYS8201)"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Comprehensive synthesis of nuclear physics, radiation dosimetry, reactor engineering, and nuclear policy.",
+      "evidenceLines": [
+        "demonstrate high-level knowledge of nuclear science concepts;",
+        "interpret, synthesize and critically analyse published literature of relevance to nuclear science;",
+        "A single two year graduate award offered by theANU College of Science and Medicine"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Experimental radiation measurements, gamma spectroscopy, accelerator laboratory investigations, and research project.",
+      "evidenceLines": [
+        "demonstrate theoretical and practical skills relevant to techniques and research methodology in nuclear science;",
+        "Subject: Reactor Science (PHYS8202)",
+        "Subject: Accelerators and their Application (PHYS8203)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Strict alignment with nuclear safety regulations, ARPANSA guidelines, and international atomic energy standards.",
+      "evidenceLines": [
+        "apply knowledge of nuclear science to new problems;",
+        "A single two year graduate award offered by theANU College of Science and Medicine",
+        "A single two year graduate award offered by theANU College of Science and Medicine"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic nuclear laboratory experiments, radiation shielding design, and reactor physics simulations.",
+      "evidenceLines": [
+        "demonstrate high-level knowledge of nuclear science concepts;",
+        "apply knowledge of nuclear science to new problems;",
+        "A single two year graduate award offered by theANU College of Science and Medicine"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework master degree without compulsory external placement.",
+      "evidenceLines": [
+        "A single two year graduate award offered by theANU College of Science and Medicine",
+        "A single two year graduate award offered by theANU College of Science and Medicine"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A two-year master degree delivering comprehensive education in nuclear science.",
+        "evidenceLines": [
+          "A single two year graduate award offered by theANU College of Science and Medicine",
+          "A single two year graduate award offered by theANU College of Science and Medicine"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist nuclear science program delivering core physical and technological training.",
+        "evidenceLines": [
+          "A single two year graduate award offered by theANU College of Science and Medicine",
+          "Subject: International Nuclear Energy Law (LAWS8316)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced nuclear physics and computational methods.",
+      "W3: Scored at Level 1 as external placement is elective."
+    ],
+    "notScoreable": []
+  }
+}

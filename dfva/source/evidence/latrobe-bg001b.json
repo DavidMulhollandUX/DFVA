@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-bg001b",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 14,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in accounting.",
+      "evidenceLines": [
+        "Analyse and record business transactions, and prepare financial statements using double-entry accounting principles.",
+        "Evaluate the accounting purpose, processes and systems within the Australian or an international regulatory environment",
+        "This Graduate Diploma in Professional Accounting course is designed for students who don\u2019t have an undergraduate qualification in accounting and wish to advance their knowledge in professional accounting practice."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in accounting.",
+      "evidenceLines": [
+        "Critically evaluate financial performance of firms to inform decision making using relevant information.",
+        "Exercise professional judgement to solve accounting problems from ethical, social, and regulatory perspectives, and effectively communicate relevant information to a range of stakeholders",
+        "The course provides the foundational knowledge required of an aspiring accounting professional."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within accounting.",
+      "evidenceLines": [
+        "Subject: ACCOUNTING PRINCIPLES AND PRACTICES (ACC4001)",
+        "Subject: ACCOUNTING INFORMATION SYSTEMS (ACC5001)",
+        "Work effectively in a team to produce high quality work"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in accounting.",
+      "evidenceLines": [
+        "Develop and employ accounting software application and/or an enterprise business intelligence tool to record, manage and communicate business processes to various stakeholders.",
+        "Critically evaluate the role, use and impact of accounting information systems and technologies on organisation\u2019s business operations, processes, data analysis and decision making.",
+        "The course comprises a mix of accounting, finance and related business studies."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in accounting.",
+      "evidenceLines": [
+        "Subject: FINANCIAL ACCOUNTING AND REPORTING (ACC5002)",
+        "Subject: MANAGEMENT ACCOUNTING (ACC5MCR)",
+        "Critically evaluate the role and adequacy of ICT processes and controls in identifying, managing and reporting risks in organisations and improving organisational systems, processes and communications."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in accounting.",
+      "evidenceLines": [
+        "Apply International Financial Reporting Standards (IFRS) and the equivalent Australian Accounting Standards Board (AASB) standards to account for business transactions appropriately.",
+        "This Graduate Diploma in Professional Accounting course is designed for students who don\u2019t have an undergraduate qualification in accounting and wish to advance their knowledge in professional accounting practice.",
+        "The course provides the foundational knowledge required of an aspiring accounting professional."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in accounting.",
+      "evidenceLines": [
+        "Apply the relevant IFRS and AASB accounting standards to prepare consolidated financial statements",
+        "Subject: ECONOMICS FOR GLOBAL LEADERS (BUA4003)",
+        "The course comprises a mix of accounting, finance and related business studies."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "This Graduate Diploma in Professional Accounting course is designed for students who don\u2019t have an undergraduate qualification in accounting and wish to advance their knowledge in professional accounting practice. The course provides the foundational knowledge required of an aspiring accounting professional. The course comprises a mix of accounting, finance and related business studies. It will equip students with the pre-requisite knowledge to study advanced accounting topics. This is an exit award only.",
+        "This Graduate Diploma in Professional Accounting course is designed for students who don\u2019t have an undergraduate qualification in accounting and wish to advance their knowledge in professional accounting practice."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Diploma in Professional Accounting.",
+        "evidenceLines": [
+          "This Graduate Diploma in Professional Accounting course is designed for students who don\u2019t have an undergraduate qualification in accounting and wish to advance their knowledge in professional accounting practice. The course provides the foundational knowledge required of an aspiring accounting professional. The course comprises a mix of accounting, finance and related business studies. It will equip students with the pre-requisite knowledge to study advanced accounting topics. This is an exit award only.",
+          "To qualify for the award of Graduate Diploma in Professional Accounting, students must complete 120 credit points consisting of:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in accounting.",
+        "evidenceLines": [
+          "Subject: ACCOUNTING PRINCIPLES AND PRACTICES (ACC4001)",
+          "Analyse and record business transactions, and prepare financial statements using double-entry accounting principles."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

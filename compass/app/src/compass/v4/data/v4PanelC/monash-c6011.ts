@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 15,
+  "workplace": 6,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science, n.e.c..",
+    "evidenceLines": [
+      "Apply the theories of the relational database model;",
+      "Implement a relational database based on a sound database design;",
+      "Master of Applied Data Science will develop the core data analytic skills that are essential for a data scientist and prepare you for a career in data science with a critical set of problem-solving skills via bridging the gap between data analytics theorem and practice."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science, n.e.c..",
+    "evidenceLines": [
+      "Manage data that meets user requirements, including queries and transactions;",
+      "Contrast the differences between non-relational database models and the relational database model.",
+      "You will learn contemporary statistical data analytic techniques that effectively transform data into actionable knowledge via solving real-world problems."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science, n.e.c..",
+    "evidenceLines": [
+      "Subject: Introduction to databases (ITO4132)",
+      "Subject: Introduction to Python (ITO4133)",
+      "Develop a sound relational database design;"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science, n.e.c..",
+    "evidenceLines": [
+      "Assessment 2: Relational and Non Relational Database Manipulation: 50% (Hurdle: None)",
+      "Assessment 1: Database Design: 50% (Hurdle: None)",
+      "The course broadly covers topics in data exploration, data wrangling, big data processing, data management and its role and impact in an organization and society."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science, n.e.c..",
+    "evidenceLines": [
+      "Subject: Applied practice 1 (ITO5001)",
+      "Subject: Applied practice 2 (ITO5002)",
+      "Write programs efficiently by discovering and leveraging libraries;"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science, n.e.c..",
+    "evidenceLines": [
+      "Implement good programming practices in a team, including unit testing, basic documentation and readability.",
+      "Master of Applied Data Science will develop the core data analytic skills that are essential for a data scientist and prepare you for a career in data science with a critical set of problem-solving skills via bridging the gap between data analytics theorem and practice.",
+      "You will learn contemporary statistical data analytic techniques that effectively transform data into actionable knowledge via solving real-world problems."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science, n.e.c..",
+    "evidenceLines": [
+      "Design, construct and test simple programs that include user-defined functions and data structures;",
+      "Subject: Introduction to data science (ITO5145)",
+      "The course broadly covers topics in data exploration, data wrangling, big data processing, data management and its role and impact in an organization and society."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "Master of Applied Data Science will develop the core data analytic skills that are essential for a data scientist and prepare you for a career in data science with a critical set of problem-solving skills via bridging the gap between data analytics theorem and practice. You will learn contemporary statistical data analytic techniques that effectively transform data into actionable knowledge via solving real-world problems. The course broadly covers topics in data exploration, data wrangling, big data processing, data management and its role and impact in an organization and society. You will be able to apply your learning, knowledge and skills as part of the assessment process and through a data analytics-focused general practice project.",
+      "Master of Applied Data Science will develop the core data analytic skills that are essential for a data scientist and prepare you for a career in data science with a critical set of problem-solving skills via bridging the gap between data analytics theorem and practice."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Applied Data Science.",
+      "evidenceLines": [
+        "Master of Applied Data Science will develop the core data analytic skills that are essential for a data scientist and prepare you for a career in data science with a critical set of problem-solving skills via bridging the gap between data analytics theorem and practice. You will learn contemporary statistical data analytic techniques that effectively transform data into actionable knowledge via solving real-world problems. The course broadly covers topics in data exploration, data wrangling, big data processing, data management and its role and impact in an organization and society. You will be able to apply your learning, knowledge and skills as part of the assessment process and through a data analytics-focused general practice project.",
+        "This course is structured in four consecutive parts: Part A: Foundation studies, Part B: Core studies, Part C: Specialist studies and Part D: Applied studies"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in computer science, n.e.c..",
+      "evidenceLines": [
+        "Subject: Introduction to databases (ITO4132)",
+        "Apply the theories of the relational database model;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

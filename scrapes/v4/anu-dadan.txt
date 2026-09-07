@@ -1,0 +1,163 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/DADAN =====
+# Graduate Diploma of Applied Data Analytics (DADAN)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: DADAN
+- **Academic Year**: 2027
+- **Career / Study Level**: Postgraduate
+- **Program Duration**: 1 year full-time
+- **Minimum Units Required**: 48 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal GDAppDatAn
+- **CRICOS Code**: code 097201M
+- **UAC Code**: N/A
+- **Field of Education**: of Education Information Technology
+- **Academic Contact**: contact Robert Clark
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/DADAN
+
+## Program Description
+A single one year graduate award offered by theANU College of Arts and Social Sciences and ANU College of Business and Economics
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Apply computing, statistical, and social science principles to solve data analytics problems
+2. Apply data analytics methods and techniques to decision making about policy, business and service delivery
+3. Contribute as an effective member to the performance of a data analytics workplace
+4. Demonstrate basic technical expertise in computing, statistics, and social science as relevant to data analytics
+5. Be able to work to specification and according to a deadline, document tasks undertaken, and report outcomes to a third party
+6. Be capable of independent learning with some ability to evaluate critically work undertake.
+
+## Program Requirements & Study Options
+### Program Requirements
+The Graduate Diploma of Applied Data Analytics requires the completion of 48 units, which must consist of:
+
+### Study Options
+Year 1
+48 units
+COMP6730
+Programming for Scientists
+6 units
+STAT7055
+Introductory Statistics for Business and Finance
+6 units
+SOCR8201
+Asking the Right Questions: Designing Effective Data Collection
+6 units
+COMP6240
+Relational Databases
+6 units
+STAT6026
+Graphical Data Analysis
+6 units
+SOCR8202
+Using Data for Monitoring and Evaluation
+6 units
+COMP8910
+STAT7038
+Regression Modelling
+6 units
+
+### Admission Requirements
+Applicants must present one of the following:
+
+### Inherent Requirements
+Information on inherent requirements is  currently not available for this program.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6240 =====
+Subject: Relational Databases (COMP6240)
+Credit Points: 6 units
+Overview: This course is an introduction to relational databases and the general skills for designing and using them. The topics include the relational data model, SQL, entity-relationship model,functional dependencies,(de-)normalisation, relational algebra, query processing and optimisation, database transactions and security. To deepen the understanding of relational databases, the current industry development of database systems such as NoSQL databases will be introduced at the end of this course.
+Learning Outcomes:
+- Describe the basic concepts of the relational model and understand its mathematical foundation;
+- Connect database design with social and economic impacts including security, ethics, and Australian Privacy Principles.
+- Use SQL to define, query and manipulate a relational database, and describe principles of SQL query processing and optimisation.
+- Use data modelling concepts and practices to create, evaluate and communicate relational database designs, collaboratively and individually.
+- Compare the relational data model with alternative models.
+Assessment Tasks:
+- In-class activities and quizzes: 10% (Hurdle: False)
+- Assignments: 30% (Hurdle: False)
+- Final Exam: 60% (Hurdle: False)
+Workload: Lectures and laboratory sessions plus self study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6730 =====
+Subject: Programming for Scientists (COMP6730)
+Credit Points: 6 units
+Overview: This course teaches introductory programming, fundamental programming language and computer science concepts, and computational problem solving illustrated with applications common in science and engineering, such as data analysis, visualisation, and image processing. We will take a different approach, including prompting and working with GenAI, with emphasis on testing, debugging and problem decomposition, and using GenAI to help understand code.
+
+These skills will empower students to write software with the aid of GenAI. Assessment will include exam(s) without the aid of GenAI. Students will also create larger software projects with the aid of GenAI. The course does not require any prior knowledge of programming or computer science. It is designed to be a stand-alone computing unit.
+
+Students who wish to study computing courses at a higher level should check course prerequisites as they may need to completeCOMP6710orCOMP7710in addition toCOMP6730.
+Learning Outcomes:
+- Apply advanced programming constructs and structured programming methodologies to develop reliable software systems.
+- Explain key concepts in AI-assisted programming, including Large Language Models (LLMs), prompting, problem decomposition, and top-down design.
+- Apply AI-assisted programming workflows and advanced prompt-engineering techniques to guide, refine, and improve code generated by AI assistants.
+- Analyse the computational complexity of programs, and apply debugging and testing techniques, including black-box and white-box testing.
+- Evaluate and improve code quality using critical judgement.
+- Design and implement complete programs that solve practical problems using structured programming methodologies and AI-assisted prompting.
+- Critically evaluate the role, benefits, limitations, and risks of generative AI in software development projects
+Assessment Tasks:
+- Homework, Assignments and Lab Tests: 20% (Hurdle: False)
+- Programming Project: 20% (Hurdle: False)
+- Final Exam and Mid-semester Test: 60% (Hurdle: False)
+Workload: Lectures, tutorials, assignments, self-study & exam prep for a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/SOCR8201 =====
+Subject: Asking the Right Questions: Designing Effective Data Collection (SOCR8201)
+Credit Points: 6 units
+Overview: This course provides an introduction to the main empirical social science methods, types of data, and techniques for collecting social science data. The course will provide students with the skills to apply social science methods to the generation and analysis of data to inform policy, business and service delivery decisions.Content will cover: overview of main social and behavioural theories (rational choice; nudge and behavioural insights; complexity theory), introduction to research design (observational designs; intervention and experimental designs and action research), techniques for collecting data (quantitative surveys; qualitative interviews; behavioural and experience methods), measurement issues, participatory approaches to research, vulnerable populations, and ethics and privacy considerations.
+Learning Outcomes:
+- discuss in broad terms the main social and behavioural theories and their evidence base;
+- specify a research question that is answerable using empirical methods;
+- propose a clear research design that can provide the information required to inform policy, business and service delivery decisions;
+- understand the assumptions, strengths and limitations of the main techniques for collecting data; and
+- comprehend the particular issues related to researching vulnerable populations.
+Assessment Tasks:
+- Class participation: 5% (Hurdle: False)
+- Assignment 1 - Critique of selected empirical research paper: 15% (Hurdle: False)
+- Assignment 2 - Research proposal: 35% (Hurdle: False)
+- Oral presentation - Empirical strategy and ethics considerations: 20% (Hurdle: False)
+- Class test: 25% (Hurdle: False)
+Workload: 130 hours of total student learning time made up from:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/SOCR8202 =====
+Subject: Using Data for Monitoring and Evaluation (SOCR8202)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT6026 =====
+Subject: Graphical Data Analysis (STAT6026)
+Credit Points: 6 units
+Overview: This course introduces the principles of data representation, summarisation and presentation with particular emphasis on the use of graphics. The course will use the R Language in a modern computing environment. Topics to be discussed include:
+Learning Outcomes:
+- Demonstrate detailed knowledge of the R statistical computing language, particularly graphical capabilities.
+- Explain in detail and be able to apply the principles of good data representation.
+- Explain in detail and be able to use various graphics environments, interactive graphics and graphics objects.
+- Construct graphical representations of one dimensional data.
+- Construct graphical representations for multivariate data including scatterplots, and dynamic graphics.
+- Use diagnostic plots when conducting statistical modelling to explore and refine statistical models for data, including detailed explanations of such use.
+- Construct and interpret graphical displays for dependent data.
+Assessment Tasks:
+- Typical assessment may include, but is not restricted to: exams, assignments, quizzes, presentations and other assessment as appropriate.: 100% (Hurdle: False)
+Workload: Students are expected to commit 130 hours of work in completing this course. This includes time spent in scheduled classes and self-directed study time.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT7038 =====
+Subject: Regression Modelling (STAT7038)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT7055 =====
+Subject: Introductory Statistics for Business and Finance (STAT7055)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+

@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+    "evidenceLines": [
+      "Either one or both of LEO5113 and LEO5114; AND",
+      "Two or three elective units, depending on whether one or both of the industry project units listed above (LEO5113 and LEO5114) are taken. Electives may be selected from units offered across the Monash Online programs, provided you meet the prerequisites and there are no restrictions on enrolling in the units.",
+      "The Master of Human Resource management is a forward focused and evidence-based engagement with HR’s role in the emerging environment characterised by change and uncertainty."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+    "evidenceLines": [
+      "If you are admitted at entry level 1 you complete 72 credit points, comprising of Part A, Part B and Part C",
+      "If you are admitted at entry level 2 you complete 48 credit points, comprising of Part B and Part C.",
+      "With a focus on ‘the future of work’ and ‘the future of HRM’ you will learn about current views regarding the changing nature of HRM brought about by changes to the organisational and employment context."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+    "evidenceLines": [
+      "Subject: Industry challenge (LEO5113)",
+      "Subject: Global challenge (LEO5114)",
+      "Teaching period 1: develop understanding of organisations as a set of integrated systems operating in increasingly dynamic environments Teaching period 2: analyse complex organisational contexts to diagnose a real-world business problem using advanced theoretical frameworks related to culture, strategy, innovation, and project management"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+    "evidenceLines": [
+      "Teaching period 1: demonstrate understanding of the processes, methods, and evaluative controls required to deliver industry projects Teaching period 2: evaluate alternative strategic and project management approaches including agile and traditional methodologies to determine their suitability for addressing the identified business challenge",
+      "Teaching period 1: demonstrate the ability to analyse complex organisational challenges, generate unique insights, and make proposals for change. Teaching period 2: create a feasible and strategically aligned project plan that integrates organisational insights, stakeholder considerations, and a detailed roadmap for delivery and evaluation.",
+      "In addition to addressing contemporary challenges such as COVID, the Master of HRM delves deeply into workforce analytics and employee wellbeing, development and capabilities."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+    "evidenceLines": [
+      "Subject: People and change (MGO5100)",
+      "Subject: Sustainability and performance in human resource management (MGO5110)",
+      "Teaching period 1: demonstrate the ability to integrate management theory and specialist knowledge in the delivery of industry projects Teaching period 2: design a comprehensive, evidence-based business case that articulates clear goals, objectives, risks, and implementation pathways"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+    "evidenceLines": [
+      "1 - Artefact: 40% (Hurdle: None)",
+      "The Master of Human Resource management is a forward focused and evidence-based engagement with HR’s role in the emerging environment characterised by change and uncertainty.",
+      "With a focus on ‘the future of work’ and ‘the future of HRM’ you will learn about current views regarding the changing nature of HRM brought about by changes to the organisational and employment context."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+    "evidenceLines": [
+      "2 - Written: 60% (Hurdle: None)",
+      "Subject: Ethics and legal issues in human resource management (MGO5120)",
+      "In addition to addressing contemporary challenges such as COVID, the Master of HRM delves deeply into workforce analytics and employee wellbeing, development and capabilities."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "This course is structured in three parts. Part A. Core studies, Part B. Discipline studies Part C. Application studies.",
+      "The Master of Human Resource management is a forward focused and evidence-based engagement with HR’s role in the emerging environment characterised by change and uncertainty."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Human Resource Management.",
+      "evidenceLines": [
+        "This course is structured in three parts. Part A. Core studies, Part B. Discipline studies Part C. Application studies.",
+        "Part A. Core studies"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in business and management.",
+      "evidenceLines": [
+        "Subject: Industry challenge (LEO5113)",
+        "Either one or both of LEO5113 and LEO5114; AND"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

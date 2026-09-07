@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+    "evidenceLines": [
+      "**Institution**: The University of Sydney (USYD)",
+      "**Course / Program Identifier**: dalyell-stream",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+    "evidenceLines": [
+      "**Academic Year**: 2026",
+      "**Faculty**: interdisciplinary-studies",
+      "- **Course / Program Identifier**: dalyell-stream"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+    "evidenceLines": [
+      "Subject: Science Dalyell Showcase (SCDL1991)",
+      "Subject: Leadership in STEMM (SCDL2991)",
+      "**Handbook URL**: https://www.sydney.edu.au/handbooks/interdisciplinary-studies/dalyell-stream.html"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+    "evidenceLines": [
+      "LO1 . solve a scientific problem independently, in collaboration with a team of researchers.",
+      "LO2 . effectively communicate and collaborate in a group.",
+      "- **Faculty**: interdisciplinary-studies"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+    "evidenceLines": [
+      "Subject: Science Dalyell Individual Research Project (SCDL3991)",
+      "Subject: Science Dalyell Showcase (SCDL1991)",
+      "LO3 . work effectively as part of a team."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+    "evidenceLines": [
+      "LO4 . obtain and integrate information from a range of scientific resources (books, journals, online, meetings with experts).",
+      "- **Institution**: The University of Sydney (USYD)",
+      "- **Course / Program Identifier**: dalyell-stream"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+    "evidenceLines": [
+      "LO5 . critically analyse the information you obtain.",
+      "Subject: Science Dalyell Individual Research Project (SCDL3991)",
+      "- **Faculty**: interdisciplinary-studies"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "Achievement of the Dalyell stream requires 12 credit points of Dalyell units from this table.",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Dalyell stream.",
+      "evidenceLines": [
+        "Achievement of the Dalyell stream requires 12 credit points of Dalyell units from this table.",
+        "C: Corequisites N: Prohibition"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+      "evidenceLines": [
+        "Subject: Science Dalyell Showcase (SCDL1991)",
+        "**Institution**: The University of Sydney (USYD)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

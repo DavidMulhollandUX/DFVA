@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+    "evidenceLines": [
+      "Design experimental approaches to determine the functional consequences of sequence variants;",
+      "Identify functionally important sequences within a genome and explain how changes in these can impact phenotypes at both the mechanistic and molecular level;",
+      "The Graduate Diploma of Genome Analytics is a 48 credit point future-focused course that provides expert training in analysing genomes and bioinformatics, developing graduates to meet the growing demand for expertise in the area of Genome Analytics."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+    "evidenceLines": [
+      "Illustrate, with examples, how the concepts presented in this unit can be applied to real-world situations.",
+      "Demonstrate proficiency in: molecular biology and genetics laboratory techniques, problem-solving, data collection, and analysis, interpretation and presentation of results;",
+      "The course builds knowledge and skills relevant to areas and approaches used in healthcare."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+    "evidenceLines": [
+      "Subject: Genome function (GNA5011)",
+      "Subject: Applied bioinformatics (GNA5012)",
+      "In semester tests: 20% (Hurdle: None)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+    "evidenceLines": [
+      "Case studies and assignments: 80% (Hurdle: None)",
+      "Evaluate current techniques to generate genomic data and apply standard workflows to analyse them;",
+      "You will gain hands-on experience analysing genomes using pipelines and bioinformatics methods, relevant to the genomics industry and its continued expansion and development."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+    "evidenceLines": [
+      "Subject: Sequencing technologies (GNA5022)",
+      "Subject: Genomics and its applications (GNA5040)",
+      "Perform basic computer programming with case studies involving DNA pattern finding;"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+    "evidenceLines": [
+      "Demonstrate team work, scientific communication and peer to peer learning and feedback.",
+      "The Graduate Diploma of Genome Analytics is a 48 credit point future-focused course that provides expert training in analysing genomes and bioinformatics, developing graduates to meet the growing demand for expertise in the area of Genome Analytics.",
+      "The course builds knowledge and skills relevant to areas and approaches used in healthcare."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+    "evidenceLines": [
+      "Identify both small and large-scale genomic variants;",
+      "Subject: Genome curation (GNA5120)",
+      "You will gain hands-on experience analysing genomes using pipelines and bioinformatics methods, relevant to the genomics industry and its continued expansion and development."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The course comprises 48 credit points, structured as a single part.",
+      "The Graduate Diploma of Genome Analytics is a 48 credit point future-focused course that provides expert training in analysing genomes and bioinformatics, developing graduates to meet the growing demand for expertise in the area of Genome Analytics."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Diploma of Genome Analytics.",
+      "evidenceLines": [
+        "The course comprises 48 credit points, structured as a single part.",
+        "48 credit points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+      "evidenceLines": [
+        "Subject: Genome function (GNA5011)",
+        "Design experimental approaches to determine the functional consequences of sequence variants;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

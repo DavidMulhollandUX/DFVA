@@ -1,0 +1,102 @@
+{
+  "code": "monash-a2020",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in political science and policy studies.",
+      "evidenceLines": [
+        "a minimum of 36 credit points at Level 3.",
+        "apply international relations theories and perspectives to the major challenges in the region, through critical written and oral engagement with scholarly analysis and case-study material.",
+        "The Bachelor of International Relations examines the dynamics of power, governance, conflict, and cooperation at the local, national and global levels."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in political science and policy studies.",
+      "evidenceLines": [
+        "investigate the Indo-Pacific as a contested geopolitical territorial and maritime space;",
+        "identify and contextualise the core conventional and human security challenges in the Indo-Pacific in the 21st century;",
+        "In this course, you will study how national and global political institutions operate, how and why conflict and cooperation occur, and the role that power, political ideas, material resources, civil society, and historical legacies play in shaping the opportunities and the constraints for political actors, institutions, states and the wider structure of the international system."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within political science and policy studies.",
+      "evidenceLines": [
+        "Subject: Geopolitical security in the Indo-Pacific (ATS1056)",
+        "Subject: Political theory in a changing world: Concepts, issues and debates (ATS1071)",
+        "apply the knowledge and literacy you have gained on Indo-Pacific regional organisations; bilateral, plurilateral and multilateral agreements and regional governance; flashpoints for conflict; and the perspectives of major regional actors, including Australia\u2019s growing role in the region, and apply these skills to specific issues and problems;"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in political science and policy studies.",
+      "evidenceLines": [
+        "In-Class Participation Activity: 10% (Hurdle: None)",
+        "Research project: 40% (Hurdle: None)",
+        "You will be taught how to explain and anticipate political behaviour, analyse the impact of political decisions, and to interpret the complexities and the interdependencies of national and international systems in an interconnected and ever-changing world."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in political science and policy studies.",
+      "evidenceLines": [
+        "Subject: Introduction to international relations (ATS1873)",
+        "Subject: Issues in Australian politics and government (ATS1945)",
+        "Presentation: 30% (Hurdle: None)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in political science and policy studies.",
+      "evidenceLines": [
+        "Research task: 20% (Hurdle: None)",
+        "The Bachelor of International Relations examines the dynamics of power, governance, conflict, and cooperation at the local, national and global levels.",
+        "In this course, you will study how national and global political institutions operate, how and why conflict and cooperation occur, and the role that power, political ideas, material resources, civil society, and historical legacies play in shaping the opportunities and the constraints for political actors, institutions, states and the wider structure of the international system."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in political science and policy studies.",
+      "evidenceLines": [
+        "recognize and evaluate potential tensions and trade-offs between different concepts in political theory;",
+        "Subject: Genocide (ATS2057)",
+        "You will be taught how to explain and anticipate political behaviour, analyse the impact of political decisions, and to interpret the complexities and the interdependencies of national and international systems in an interconnected and ever-changing world."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course is structured in three parts: Part A. Core studies, Part B. Discipline studies and Part C. Free elective studies.",
+        "The Bachelor of International Relations examines the dynamics of power, governance, conflict, and cooperation at the local, national and global levels."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of International Relations.",
+        "evidenceLines": [
+          "The course is structured in three parts: Part A. Core studies, Part B. Discipline studies and Part C. Free elective studies.",
+          "Part A. Core studies"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in political science and policy studies.",
+        "evidenceLines": [
+          "Subject: Geopolitical security in the Indo-Pacific (ATS1056)",
+          "a minimum of 36 credit points at Level 3."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

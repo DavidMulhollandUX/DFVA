@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in speech pathology.",
+    "evidenceLines": [
+      "Reflect critically on your own cultural attitudes, values and beliefs",
+      "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+      "Our ability to communicate clearly and enjoy food or drink are things we can take for granted."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in speech pathology.",
+    "evidenceLines": [
+      "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+      "Understand the need for and value of appropriate and effective intercultural communication",
+      "But people of all ages can experience difficulties and the effects can be devastating."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within speech pathology.",
+    "evidenceLines": [
+      "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+      "Subject: INTRODUCTION TO HUMAN ANATOMY (ANA1001)",
+      "Evaluate how the nervous system integrates sensory and motor control, and the effects of its dysfunction/impairment."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in speech pathology.",
+    "evidenceLines": [
+      "Describe the anatomical structure and function of major body systems using the appropriate anatomical terminology.",
+      "Analyse the role of the musculoskeletal system in facilitating movement and assess the impacts following injury.",
+      "Speech pathologists work to improve a person’s abilities, they also work to improve quality of life."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in speech pathology.",
+    "evidenceLines": [
+      "Subject: HUMAN BIOSCIENCES A (HBS1HBA)",
+      "Subject: ANATOMY AND NEUROPHYSIOLOGY FOR SPEECH AND SWALLOWING (HBS2ANS)",
+      "Explain the basic physiology of major organ systems of the human body."
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in speech pathology.",
+    "evidenceLines": [
+      "Apply knowledge of physiology concepts to clinical and disease states.",
+      "Our ability to communicate clearly and enjoy food or drink are things we can take for granted.",
+      "But people of all ages can experience difficulties and the effects can be devastating."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in speech pathology.",
+    "evidenceLines": [
+      "Demonstrate oral and written communication skills.",
+      "Subject: FOUNDATIONS IN SPEECH PATHOLOGY (HCS1FSP)",
+      "Speech pathologists work to improve a person’s abilities, they also work to improve quality of life."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "The qualification awarded on graduation is recognised in the Australian Qualifications Framework (AQF) as Level 8 – Bachelor Degree Honours",
+      "Our ability to communicate clearly and enjoy food or drink are things we can take for granted."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Speech Pathology.",
+      "evidenceLines": [
+        "The qualification awarded on graduation is recognised in the Australian Qualifications Framework (AQF) as Level 8 – Bachelor Degree Honours",
+        "To qualify for the award of Bachelor of Speech Pathology (Honours), students must complete 480 credit points consisting of:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in speech pathology.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Reflect critically on your own cultural attitudes, values and beliefs"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

@@ -1,0 +1,98 @@
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/programs/2026/7659 =====
+# Mathematics and Statistics (7659)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 7659
+- **Academic Year**: 2026
+- **Study Level**: Postgraduate
+- **AQF Level**: Level 8
+- **Total Units / Units of Credit (UOC)**: 24
+- **Delivery Mode**: Face-to-face (includes blended)
+- **CRICOS Code**: 056230A
+- **Academic Organisation**: School of Mathematics & Statistics
+- **Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/7659
+
+## Description
+The Graduate Certificate in Mathematics and Statistics is intended for students who wish to further their knowledge of mathematical sciences and statistics. The program offers intensive, high-level training in principles of mathematical sciences and statistics. In particular, the program will develop analytic skills, and substantially broaden the knowledge gained from their prior studies in mathematics and statistics. This program will equip students with a range of skills demanded by today's employers.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+1. Graduates will be able to demonstrate analytical skills and problem solving skills in a range of mathematical and statistical contexts.
+2. Graduates will be able to communicate effectively to a range of audiences both in written and oral forms.
+3. Graduates will have developed an understanding of enquiry-based learning and demonstrate analytical skills as they relate to mathematical science and statistics.
+
+## Program Structure & Degree Requirements
+Students must complete 24 Units of Credit (UOC) structured across the following academic components:
+
+### Prescribed Electives (24 UOC)
+Students must take at least 24 UOC of the following courses.
+
+## Progression & Academic Rules
+Students who have completed the full 24 UoC of the Graduate Certificate in Mathematics and Statistics (7659) and have a WAM of 65 may apply to transfer into the Master of Mathematics (8719), Master of Statistics (8750), or Master of Financial Mathematics (8161).
+
+Students aiming to transfer into a Masters degree program should plan their coursework to ensure the courses they take as part of the Graduate Diploma count for their intended Masters degree.  Not all courses taken as part of the Graduate Diploma count toward all the degrees listed above. For example, MATH5846, MATH5856, and MATH5901 do not count for the Master of Statistics (8750) or Master of Financial Mathematics (8161).
+
+For more information on university policy on progression requirements, please visit Academic Progression.
+
+## Admission Requirements
+**Minimum Entry Requirements**:
+The entry requirement for the Graduate Certificate in Mathematics and Statistics is one of the following:
+
+- A recognised bachelor degree (or equivalent qualification) with a major in a cognate discipline area and an overall average of 65 or higher, as determined by the UNSW Postgraduate Coursework Entry Calculator; OR
+
+- An average of 65 or higher in at least 4 courses in mathematics or statistics at the second-year undergraduate level or above, as determined by the UNSW Postgraduate Coursework Entry Calculator.
+
+International students: Prospective international students need to meet the University's English language requirements.
+
+Assumed knowledge: A mathematical background of a minimum of one course in several variable calculus and one course in linear algebra at the university undergraduate level. (Applies to both admission pathways).
+
+**Limitations on Recognition of Prior Learning**:
+Recognition of Prior Learning (RPL) is the transfer of credit towards a program from another degree. The following policy applies to students with degrees from other institutions and students with an undergraduate degree from UNSW.
+
+In limited cases, students with previous postgraduate or honours-level coursework, including Honours graduates from UNSW, may receive advanced standing/recognition of prior learning. Advanced standing is limited to a maximum of 6 UoC.
+
+Advanced standing will only be granted for courses at the honours or postgraduate level, not courses at the undergraduate level. Students must apply for advanced standing and the School of Mathematics and Statistics will determine if the student’s completed coursework is deemed equivalent to UNSW counterparts.  Advanced standing is not guaranteed.
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5846 =====
+Subject: Introduction to Probability and Stochastic Processes (MATH5846)
+Credit Points: 6
+Overview: This course covers probabilistic concepts which are necessary to study various complex phenomena arising in Engineering, Biology, Medicine and Economics. This course introduces basic concepts which are needed to analyse different phenomena. In particular, we discuss the concepts of random events, random variables, structures of dependence, computation of probabilities using the Central Limit Theorem, simple Markov chains, and Brownian motion.
+Learning Outcomes:
+- Use key theoretical tools to explore properties of random variables.
+- Apply principles of Markov Chains and Brownian motion to practical and theoretical problems.
+- Derive fundamental results in the theory of probability and random variables.
+- Apply the principles of probability to practical and theoretical problems.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5856 =====
+Subject: Introduction to Statistics and Statistical Computations (MATH5856)
+Credit Points: 6
+Overview: This course addresses the foundational principles of statistical reasoning. In particular it introduces the most common methods for estimating unknown parameters of key statistical models in order to draw conclusions and make decisions without complete information. Practical implementations using statistical software packages are continuously presented to students. Students explore methods for estimating parameters using Maximum Likelihood and Bayesian inference, for constructing confidence intervals and performing hypothesis testing, for fitting linear and general linear models. Each week, the course includes typically 4 hour of pre-recorded lecture video and 1 hour of face-to-face tutorial during which students will have the opportunity to reinforce their learning.
+Learning Outcomes:
+- Interpret results generated from statistical software output
+- Write and execute basic R programs to perform statistical analysis.
+- Apply theoretical concepts and appropriate theorems to solve problems.
+- Use appropriate statistical terminology and reporting conventions to effectively communicate analysis and findings to a general audience.
+- Define and explain key statistical terms, concepts, and theorems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5901 =====
+Subject: Stochastic Processes (MATH5901)
+Credit Points: 6
+Overview: This is an advanced level postgraduate course in probability theory and stochastic processes for mathematics/statistics and data science students. Topics covered include rigorous definition of probability and random variables; convergence of random variables; Poisson and Wiener process, and Ito Calculus.
+Learning Outcomes:
+- State the defining properties of various stochastic process models and related random objects.
+- Provide logical and coherent proofs of fundamental results in the theory of stochastic processes.
+- Identify appropriate stochastic process model(s) for a given research problem.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+

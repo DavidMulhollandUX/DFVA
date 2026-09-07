@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+    "evidenceLines": [
+      "Work collaboratively to assess marketing problems and solutions from a value exchange perspective to promote sustainable value creation in real-life business situations.",
+      "Conduct a business environmental analysis and communicate findings effectively in writing for a variety of stakeholders.",
+      "La Trobe’s Master of Management will help you become the adaptable leader these businesses are looking for."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+    "evidenceLines": [
+      "Integrate sustainable management and marketing ideas and apply the conventions of attribution and citation accurately.",
+      "Critically analyse key management concepts and trends for use in contemporary business decision making.",
+      "Be ready for any challenge as you develop the skills and knowledge underpinning agile leadership."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+    "evidenceLines": [
+      "Subject: SUSTAINABLE MANAGEMENT AND MARKETING (BUA4001)",
+      "Subject: ACCOUNTING AND FINANCE FOR MANAGERS (BUA4002)",
+      "Construct, interpret, analyse and communicate information contained in a firms financial statements using appropriate digital and information tools."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+    "evidenceLines": [
+      "Examine and apply financial mathematics tools and techniques to determine cash flows, cost of capital, capital investments.",
+      "Prepare budgets, manage working capital, and make appropriate pricing and production decisions.",
+      "Build expertise applicable in any business, including financial knowledge and how to harness digital disruption."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+    "evidenceLines": [
+      "Subject: ECONOMICS FOR GLOBAL LEADERS (BUA4003)",
+      "Subject: STATISTICS FOR BUSINESS AND FINANCE (BUA4004)",
+      "Examine the importance of basic accounting and finance principles, and differentiate the appropriate sources of finance for a firm."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+    "evidenceLines": [
+      "Apply economic frameworks to business and social problems for policy and decision-making.",
+      "La Trobe’s Master of Management will help you become the adaptable leader these businesses are looking for.",
+      "Be ready for any challenge as you develop the skills and knowledge underpinning agile leadership."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+    "evidenceLines": [
+      "Construct and present logical and persuasive economic arguments and communicate concepts professionally.",
+      "Subject: GLOBAL AND COMPARATIVE HUMAN RESOURCE MANAGEMENT  (IBU5HRM)",
+      "Build expertise applicable in any business, including financial knowledge and how to harness digital disruption."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "During your degree, you’ll build vital foundations in business and management. With coursework modelled on real-world business requirements, you’ll discover how leading organisations manage their workforce, including the strategic and operational challenges of international business – then learn the techniques to develop and implement your own strategies.",
+      "La Trobe’s Master of Management will help you become the adaptable leader these businesses are looking for."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Management.",
+      "evidenceLines": [
+        "During your degree, you’ll build vital foundations in business and management. With coursework modelled on real-world business requirements, you’ll discover how leading organisations manage their workforce, including the strategic and operational challenges of international business – then learn the techniques to develop and implement your own strategies.",
+        "To qualify for the award of Master of Management (with a specialisation), students must complete 240 credit points consisting of:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in business and management.",
+      "evidenceLines": [
+        "Subject: SUSTAINABLE MANAGEMENT AND MARKETING (BUA4001)",
+        "Work collaboratively to assess marketing problems and solutions from a value exchange perspective to promote sustainable value creation in real-life business situations."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

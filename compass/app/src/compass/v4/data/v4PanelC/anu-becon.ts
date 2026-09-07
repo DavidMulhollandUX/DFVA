@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 10,
+  "workplace": 5,
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2: Multimodal and written communication of rigorous economic modeling to multidisciplinary and transdisciplinary stakeholders.",
+    "evidenceLines": [
+      "Effectively communicate rigorous economic analysis in a coherent way to multidisciplinary stakeholders.",
+      "Apply economic analysis to a wide variety of transdisciplinary issues.",
+      "Solve economic problems using analytical reasoning."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical appraisal of macroeconomic policy trade-offs, public goods provision, regulatory design, and behavioral microeconomic incentives.",
+    "evidenceLines": [
+      "Provide insight into the way that households and individuals make decisions and interact, and the role of government in providing public goods and regulating the market sector.",
+      "Exhibit detailed knowledge of modern macroeconomic models, and be able to analyse and apply macroeconomic policy including clear explanations of the economic intuition.",
+      "Modern economics is a way of thinking that provides important insights into human behaviour and how the world works. The emphasis in Microeconomics 3 is on deepening students' understanding of the basic principles of microeconomics and learning how to use these principles to analyse real world problems and policy issues."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Mathematical foundations of economic models (multivariate calculus, constrained optimization, matrix algebra in EMET1001) and applied econometrics using modern software.",
+    "evidenceLines": [
+      "The course teaches the mathematical foundations of models in economics, business and finance and its applications. Mathematical topics covered include set theory, functions, series, limits, univariate and multivariate calculus, unconstrained and constrained optimisation, matrix algebra.",
+      "The main workhorse of applied econometrics is the linear regression model and the course will develop its theory and look at a wide range of applications. The course emphasizes intuitive and conceptual understanding as well as hands on econometric analysis using modern co",
+      "Use basic empirical estimation techniques to test predictions pertaining to multiple disciplinary areas."
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2: Three-year sequential core progression across intermediate and advanced microeconomics (ECON3101), macroeconomics (ECON3102), and econometric theory.",
+    "evidenceLines": [
+      "Modern economics is a way of thinking that provides important insights into human behaviour and how the world works. The emphasis in Microeconomics 3 is on deepening students' understanding of the basic principles of microeconomics and learning how to use these principles to analyse real world problems and policy issues.",
+      "The course teaches the mathematical foundations of models in economics, business and finance and its applications.",
+      "Exhibit detailed knowledge of modern macroeconomic models, and be able to analyse and apply macroeconomic policy including clear explanations of the economic intuition."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Hands-on empirical regression analysis using software packages (EMET2007) to test behavioral and market predictions on real-world economic datasets.",
+    "evidenceLines": [
+      "Use basic empirical estimation techniques to test predictions pertaining to multiple disciplinary areas.",
+      "The course emphasizes intuitive and conceptual understanding as well as hands on econometric analysis using modern co",
+      "Solve economic problems using analytical reasoning."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional economic policy evaluation and analysis conforming to Treasury, central banking, and consulting reporting conventions.",
+    "evidenceLines": [
+      "Effectively communicate rigorous economic analysis in a coherent way to multidisciplinary stakeholders.",
+      "Exhibit detailed knowledge of modern macroeconomic models, and be able to analyse and apply macroeconomic policy including clear explanations of the economic intuition.",
+      "Provide insight into the way that households and individuals make decisions and interact, and the role of government in providing public goods and regulating the market sector."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic econometric modeling and policy simulation addressing contemporary economic, governmental, and commercial challenges.",
+    "evidenceLines": [
+      "The course emphasizes intuitive and conceptual understanding as well as hands on econometric analysis using modern co",
+      "Modern economics is a way of thinking that provides important insights into human behaviour and how the world works. The emphasis in Microeconomics 3 is on deepening students' understanding of the basic principles of microeconomics and learning how to use these principles to analyse real world problems and policy issues.",
+      "Apply economic analysis to a wide variety of transdisciplinary issues."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic and theoretical economic formation without a compulsory workplace placement requirement.",
+    "evidenceLines": [
+      "A single three year undergraduate award offered by theANU College of Business and Economics",
+      "The Bachelor of Economics requires completion of 144 units, of which:"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "A 144 unit undergraduate program covering microeconomics, macroeconomics, econometrics, and economic history.",
+      "evidenceLines": [
+        "- **Minimum Units Required**: 144 Units",
+        "A single three year undergraduate award offered by theANU College of Business and Economics"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist economics undergraduate degree delivering depth through advanced 3rd-year micro and macroeconomic policy units.",
+      "evidenceLines": [
+        "- **Field of Education**: of Education Economics",
+        "The Bachelor of Economics requires completion of 144 units, of which:"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C4: Scored at Level 2 as advanced Honours-level mathematical proof sequences are reserved for the optional 4th-year Honours program.",
+    "W3: Scored at Level 1 as external placement is an elective option rather than a mandatory core requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-tm014",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science, n.e.c..",
+      "evidenceLines": [
+        "Appraise problems relevant to the field of CS/IT",
+        "Develop a research plan to solve a complex CS/IT problem through literature analysis.",
+        "The Accelerated Master of Data Science at La Trobe University develops your skills in data\u00a0science, data modelling, statistical analysis and machine learning to analyse complex datasets\u00a0and support evidence-based decision-making."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science, n.e.c..",
+      "evidenceLines": [
+        "Critically review the relevant literature and assess its quality and relevance to the field of CS/IT",
+        "Effectively communicate your research proposal to the relevant stakeholders",
+        "This accelerated course is designed for students who have completed a cognate degree in artificial intelligence, data science or information technology."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science, n.e.c..",
+      "evidenceLines": [
+        "Subject: THESIS A (CSE5001)",
+        "Subject: PROFESSIONAL PRACTICES AND ENTREPRENEURSHIP IN INFORMATION TECHNOLOGY  (CSE5003)",
+        "Develop a literature review and research proposal using a suitable academic style"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science, n.e.c..",
+      "evidenceLines": [
+        "Write, express and present a business plan that will be ready for venture capitalist review by collaborating in a team",
+        "Examine various types of resources to develop and finance an entrepreneurial venture.",
+        "Eligible cognate students will receive advanced standing for selected subjects, enabling you to complete the degree in 1.5 years."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science, n.e.c..",
+      "evidenceLines": [
+        "Subject: APPLIED RESEARCH PROJECT (CSE5ARP)",
+        "Subject: BIG DATA MANAGEMENT ON THE CLOUD (CSE5BDC)",
+        "Create a personal ethical framework for IT practice that incorporates awareness of cultural and global issues and apply ethical theory to analyze ethical dilemmas in IT and business using a comprehensive approach."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science, n.e.c..",
+      "evidenceLines": [
+        "Reflect on personal viewpoints related to managing relationships and individual entrepreneurial capacity, effectively developing and presenting personal and professional reflections to become career-ready.",
+        "The Accelerated Master of Data Science at La Trobe University develops your skills in data\u00a0science, data modelling, statistical analysis and machine learning to analyse complex datasets\u00a0and support evidence-based decision-making.",
+        "This accelerated course is designed for students who have completed a cognate degree in artificial intelligence, data science or information technology."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science, n.e.c..",
+      "evidenceLines": [
+        "Conduct effective research using methodology appropriate to the discipline of the project.",
+        "Subject: DATA EXPLORATION AND ANALYSIS (CSE5DEV)",
+        "Eligible cognate students will receive advanced standing for selected subjects, enabling you to complete the degree in 1.5 years."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "To qualify for the award of Master of Data Science, students must complete 180 credit points consisting of:",
+        "The Accelerated Master of Data Science at La Trobe University develops your skills in data\u00a0science, data modelling, statistical analysis and machine learning to analyse complex datasets\u00a0and support evidence-based decision-making."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Data Science (Accelerated).",
+        "evidenceLines": [
+          "To qualify for the award of Master of Data Science, students must complete 180 credit points consisting of:",
+          "45 core credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in computer science, n.e.c..",
+        "evidenceLines": [
+          "Subject: THESIS A (CSE5001)",
+          "Appraise problems relevant to the field of CS/IT"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 15,
+  "workplace": 6,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science.",
+    "evidenceLines": [
+      "Analyse approaches to security networks, firewalls, intrusion detection systems and intrusion prevention systems",
+      "Appraise key terms and concepts in cyber security, cyber law, intellectual property and cyber crime",
+      "Equip yourself with valuable skills in the fight against cyber criminals."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science.",
+    "evidenceLines": [
+      "Formulate approaches for incident analysis, risk management in cyber space and incident response",
+      "Analyse various software design practices and principles of web security",
+      "Designed by industry leaders, La Trobe's Graduate Certificate in Cybersecurity will give you essentials skills and knowledge to advance your career."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science.",
+    "evidenceLines": [
+      "Subject: CYBER SECURITY PRINCIPLES (CSE4004)",
+      "Subject: INFORMATION TECHNOLOGY FUNDAMENTALS (CSE4IFU)",
+      "Design and construct basic web pages using HTML and style sheets based on specific requirements."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science.",
+    "evidenceLines": [
+      "Critically examine simple problems and develop spreadsheets to model these problems.",
+      "Differentiate between main types of computer networks and explain the purpose of major network components including any advantages and disadvantages of different data communication media.",
+      "Learn how to defend against hackers in one of the most rapid-growth sectors in Australia."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science.",
+    "evidenceLines": [
+      "Subject: INSIDE THE MIND OF A HACKER (CSE5010)",
+      "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+      "Identify and critically evaluate functions of the main hardware components of computers."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science.",
+    "evidenceLines": [
+      "Analyse and evaluate the requirements and functionality of different types of software.",
+      "Equip yourself with valuable skills in the fight against cyber criminals.",
+      "Designed by industry leaders, La Trobe's Graduate Certificate in Cybersecurity will give you essentials skills and knowledge to advance your career."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science.",
+    "evidenceLines": [
+      "Develop and interpret simple database tables, queries and reports based on specific requirements.",
+      "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+      "Learn how to defend against hackers in one of the most rapid-growth sectors in Australia."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "To qualify for the award of Graduate Certificate in Cybersecurity, students must complete 60 credit points consisting of:",
+      "Equip yourself with valuable skills in the fight against cyber criminals."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate in Cybersecurity.",
+      "evidenceLines": [
+        "To qualify for the award of Graduate Certificate in Cybersecurity, students must complete 60 credit points consisting of:",
+        "60 core credit-points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in computer science.",
+      "evidenceLines": [
+        "Subject: CYBER SECURITY PRINCIPLES (CSE4004)",
+        "Analyse approaches to security networks, firewalls, intrusion detection systems and intrusion prevention systems"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

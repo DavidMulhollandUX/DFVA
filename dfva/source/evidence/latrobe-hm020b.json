@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-hm020b",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in general nursing.",
+      "evidenceLines": [
+        "Understand the importance of the acknowledgment and the referencing of sources",
+        "Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.",
+        "Gain the clinical skills and experience you need to become a registered nurse (RN) in just two years with La Trobe's Master of Nursing Practice."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in general nursing.",
+      "evidenceLines": [
+        "Recognise and understand academic integrity responsibilities.",
+        "Examine and identify strategies for self-care, stress management, and burnout prevention for personal well-being.",
+        "In this degree, you'll build on your existing Bachelor's degree qualification \u2013 in any discipline \u2013 and develop the clinical knowledge and skills you'll need to upskill or change careers in the health sector."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within general nursing.",
+      "evidenceLines": [
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "Subject: PROFESSIONAL NURSING 1: PROFESSIONAL IDENTITY (NRS5001)",
+        "Reflect on personal values and beliefs to promote self-awareness and culturally safe nursing care."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in general nursing.",
+      "evidenceLines": [
+        "Critically evaluate professional standards, codes, and guidelines for evidenced based nursing practice.",
+        "Classify the roles of nurses and other health professionals within Australian healthcare.",
+        "You'll learn the theory from leading clinicians and academics at the La Trobe Rural Health School and then apply it in the real world with clinical placements (800 hours) in leading regional and rural hospitals and healthcare providers."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in general nursing.",
+      "evidenceLines": [
+        "Subject: CONTEMPORARY STUDIES 1: LEGAL AND ETHICAL PRACTICE (NRS5002)",
+        "Subject: CONTEMPORARY STUDIES 2: FIRST NATION PEOPLES HEALTH AND HEALING (NRS5003)",
+        "Establish a professional portfolio as evidence of professional identity development and continuing professional development (CPD)."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in general nursing.",
+      "evidenceLines": [
+        "Integrate and apply knowledge, skills, and values necessary for safe, quality, person-centred nursing care in the Australian healthcare context.",
+        "Gain the clinical skills and experience you need to become a registered nurse (RN) in just two years with La Trobe's Master of Nursing Practice.",
+        "In this degree, you'll build on your existing Bachelor's degree qualification \u2013 in any discipline \u2013 and develop the clinical knowledge and skills you'll need to upskill or change careers in the health sector."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in general nursing.",
+      "evidenceLines": [
+        "Critically analyse complex ethical dilemmas that arise in nursing practice.",
+        "Subject: PREPARATION FOR NURSING PRACTICE (PNP) 1 (NRS5004)",
+        "You'll learn the theory from leading clinicians and academics at the La Trobe Rural Health School and then apply it in the real world with clinical placements (800 hours) in leading regional and rural hospitals and healthcare providers."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "To qualify for the award of Master of Nursing Practice, students must complete 240 credit points consisting of:",
+        "Gain the clinical skills and experience you need to become a registered nurse (RN) in just two years with La Trobe's Master of Nursing Practice."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Nursing Practice.",
+        "evidenceLines": [
+          "To qualify for the award of Master of Nursing Practice, students must complete 240 credit points consisting of:",
+          "240 core credit-points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in general nursing.",
+        "evidenceLines": [
+          "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+          "Understand the importance of the acknowledgment and the referencing of sources"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 6,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Conduct effective brainstorming and selection methods as part of the design thinking methodology to develop potential solutions to problems.",
+      "Identify and evaluate problems that can be solved by innovation.",
+      "Take the next step in your career with La Trobe’s Graduate Certificate in Professional Engineering."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Comprehensively investigate and report on the impact of technical, financial, societal, legal and environmental impact and viability of innovations and ideas.",
+      "Effectively communicate innovative solutions from a developed portfolio, presenting technical and non-technical information.",
+      "With our course’s blend of on-campus and online delivery, you can keep building your career while you develop the skills to take it to the next level."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Subject: ADVANCED ENGINEERING INNOVATION (EMS5AEI)",
+      "Subject: COMPUTER AIDED ENGINEERING (EMS5CAE)",
+      "Use rapid prototyping techniques to develop concept work and prototypes."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Investigate and apply understanding of current and future key areas of innovation in Australia and worldwide.",
+      "Demonstrate effective verbal communication by presenting a pitch in a clear, concise and confident manner.",
+      "In just six months, you’ll get insights into innovative product design and develop the practical engineering management skills that employers are looking for."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Subject: APPLIED MANAGEMENT FOR ENGINEERS (EMS5EMT)",
+      "Subject: RISK AND COST ENGINEERING (EMS5RCE)",
+      "Collect and analyse primary and secondary research."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Interpret the theory, design and modelling techiques of finite element analysis",
+      "Take the next step in your career with La Trobe’s Graduate Certificate in Professional Engineering.",
+      "With our course’s blend of on-campus and online delivery, you can keep building your career while you develop the skills to take it to the next level."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Develop stiffness matrices for spring, truss, beam and plates and finite element formulations for static, vibration and buckling problems",
+      "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+      "In just six months, you’ll get insights into innovative product design and develop the practical engineering management skills that employers are looking for."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Level 2: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "To qualify for the award of Graduate Certificate in Professional Engineering students must complete 60 credit points as follows:",
+      "Take the next step in your career with La Trobe’s Graduate Certificate in Professional Engineering."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate in Professional Engineering.",
+      "evidenceLines": [
+        "To qualify for the award of Graduate Certificate in Professional Engineering students must complete 60 credit points as follows:",
+        "60 core-choice credit points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: ADVANCED ENGINEERING INNOVATION (EMS5AEI)",
+        "Conduct effective brainstorming and selection methods as part of the design thinking methodology to develop potential solutions to problems."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

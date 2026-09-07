@@ -1,0 +1,102 @@
+{
+  "code": "unsw-8204",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+      "evidenceLines": [
+        "**Institution**: University of New South Wales (UNSW Sydney)",
+        "**Course Code**: 8204",
+        "- **Institution**: University of New South Wales (UNSW Sydney)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Study Level**: Postgraduate",
+        "- **Study Level**: Postgraduate"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+      "evidenceLines": [
+        "Subject: Academic Writing for the Humanities (ARTS5503)",
+        "Subject: Personalised English Language Enhancement (ARTS5505)",
+        "**AQF Level**: Level 9"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+      "evidenceLines": [
+        "**Total Units / Units of Credit (UOC)**: 96",
+        "**Delivery Mode**: Fully online, Face-to-face (includes blended)",
+        "- **Total Units / Units of Credit (UOC)**: 96"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+      "evidenceLines": [
+        "Subject: Indigenous Languages of Australia (ARTS5506)",
+        "Subject: Second Language Acquisition (LING5001)",
+        "**CRICOS Code**: 083246B"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+      "evidenceLines": [
+        "**Academic Organisation**: School of Humanities and Languages",
+        "- **Institution**: University of New South Wales (UNSW Sydney)",
+        "- **Study Level**: Postgraduate"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+      "evidenceLines": [
+        "**Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/8204",
+        "Subject: The Grammar of English (LING5005)",
+        "- **Total Units / Units of Credit (UOC)**: 96"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "- **Total Units / Units of Credit (UOC)**: 96",
+        "- **Institution**: University of New South Wales (UNSW Sydney)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Translation and Interpreting.",
+        "evidenceLines": [
+          "- **Total Units / Units of Credit (UOC)**: 96",
+          "The Master of Translation\u00a0& Interpreting (MTI) is a 96 UoC program endorsed by the National Accreditation Authority for Translators and Interpreters (NAATI). The program prepares you to sit certification exams administered by NAATI for qualification as a Certified Provisional Interpreter, Certified Interpreter, and Certified Translator. With certain coursework, our program will also prepare you to sit specialist certification exams for Certified Advanced Translator, Certified Specialist Interpreter (Health), Certified Specialist Interpreter (Legal) and Certified Conference Interpreter. The program equips graduates with the necessary theoretical knowledge and practical skills to work as competent and ethical interpreters and translators in international and domestic settings. The areas of interpreting specialisation covered in the program are legal, medical, business, community and conference interpreting.\u00a0The areas of translation specialisation are multimedia, business, legal, medical, scientific, technical, subtitling and captioning, translation technology (machine translation, post-editing) and community translation.\u00a0The program is staffed by leading researchers and practitioners in interpreting, translation and linguistics. Academic content is underpinned by theory and up-to-date research and complemented by professional practical experience where you are able to apply what was learned in class in real professional settings. In addition to the knowledge and skills of the interpreting and translation disciplines and professions, you will also learn about the different settings in which interpreters are required to work and the different genres of translation. Related academic and practical skills such as oral and written comprehension, public speaking and writing skills, discourse analysis, critical self-analysis, research and preparation, project management and teamwork will also be taught.\u00a0The program is offered in the following language combinations, subject to student demand: English and Chinese (Mandarin), Chinese (Cantonese), French, Greek, Indonesian, Italian, Japanese, Korean, Portuguese, Russian, Serbian, Spanish and Turkish."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+        "evidenceLines": [
+          "Subject: Academic Writing for the Humanities (ARTS5503)",
+          "**Institution**: University of New South Wales (UNSW Sydney)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-ldesb",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+      "evidenceLines": [
+        "Reflect critically on your own cultural attitudes, values and beliefs",
+        "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+        "La Trobe\u2019s Diploma of Elite Sport Business lets you turn your passion for elite sport into a career."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+      "evidenceLines": [
+        "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+        "Understand the need for and value of appropriate and effective intercultural communication",
+        "You\u2019ll gain the business expertise and practical skills to help sporting organisations and teams achieve success."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Subject: DATA ANALYTICS CONCEPTS (BUS1001)",
+        "Apply probability distributions and regression analysis to business data."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+      "evidenceLines": [
+        "Import, clean and model data in Excel using automation tools.",
+        "Use Structured Query Language (SQL) proficiently to retrieve and manipulate data.",
+        "Immerse yourself in a real elite sport environment by studying at the home of the Carlton Football Club \u2013 the Carlton College of Sport campus at Ikon Park."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+      "evidenceLines": [
+        "Subject: DISRUPTION IN BUSINESS (BUS1DIB)",
+        "Subject: SPORT REPORTING (JRN2SRP)",
+        "Create insightful data visualisations and dashboards using Excel ensuring ethical principles in the collection, analysis, and reporting of data."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+      "evidenceLines": [
+        "Discuss how business performance management can be linked to any data strategy and data analytics initiatives.",
+        "La Trobe\u2019s Diploma of Elite Sport Business lets you turn your passion for elite sport into a career.",
+        "You\u2019ll gain the business expertise and practical skills to help sporting organisations and teams achieve success."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+      "evidenceLines": [
+        "Understand the value of analytics from various case examples across key business functions and industries.",
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "Immerse yourself in a real elite sport environment by studying at the home of the Carlton Football Club \u2013 the Carlton College of Sport campus at Ikon Park."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "To qualify for the award of Diploma of Elite Sport Business, students must complete 120 credit",
+        "La Trobe\u2019s Diploma of Elite Sport Business lets you turn your passion for elite sport into a career."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Diploma of Elite Sport Business.",
+        "evidenceLines": [
+          "To qualify for the award of Diploma of Elite Sport Business, students must complete 120 credit",
+          "120 core credit-points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in business and management.",
+        "evidenceLines": [
+          "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+          "Reflect critically on your own cultural attitudes, values and beliefs"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

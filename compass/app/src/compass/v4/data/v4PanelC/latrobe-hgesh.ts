@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in health, n.e.c..",
+    "evidenceLines": [
+      "Critically analyse the efficacy of workplace interventions integrating evidence-based theoretical knowledge and practical ergonomics assessment skills.",
+      "Analyse aspects of human physical and psychological capacities, including limitations, and their impact on safely and efficiency.",
+      "Critically analyse the efficacy of workplace interventions integrating evidence-based theoretical knowledge and practical ergonomics assessment skills."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in health, n.e.c..",
+    "evidenceLines": [
+      "Evaluate work processes, workstation and plant design using ergonomic principles and communicate recommendations for improvement.",
+      "Reflect critically on hazards arising from the design of work processes, workstations, and equipment.",
+      "Analyse aspects of human physical and psychological capacities, including limitations, and their impact on safely and efficiency."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within health, n.e.c..",
+    "evidenceLines": [
+      "Subject: ERGONOMICS PRINCIPLES OF WORK, WORKSTATION AND PLANT DESIGN (HBS5ERG)",
+      "Subject: MUSCULOSKELETAL INJURIES/DISORDERS AND PSYCHOLOGICAL HEALTH (HBS5MSD)",
+      "Appraise, synthesise and effectively communicate evidence on a range of issues relating to work-related MSDs and psychological health."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in health, n.e.c..",
+    "evidenceLines": [
+      "To critically evaluate evidence on a range of topics relating to the development and risk management of complex health problems in the workplace.",
+      "Critically analyse the efficacy of workplace interventions using evidence based theoretical knowledge",
+      "Evaluate work processes, workstation and plant design using ergonomic principles and communicate recommendations for improvement."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in health, n.e.c..",
+    "evidenceLines": [
+      "Subject: OCCUPATIONAL HEALTH AND SAFETY: PRINCIPLES AND LEGISLATION (HBS5OHA)",
+      "Subject: WORKPLACE MANAGEMENT OF HAZARDOUS SUBSTANCES IN OCCUPATIONAL HEALTH AND SAFETY (HBS5OHC)",
+      "Implement evidence-based and effective preventive interventions to reduce the incidence of MSDs and stress-related mental health problems."
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in health, n.e.c..",
+    "evidenceLines": [
+      "Investigate and critically evaluate the impact of current and emerging work patterns, and technologies on the workforce, job design and worker health.",
+      "Critically analyse the efficacy of workplace interventions integrating evidence-based theoretical knowledge and practical ergonomics assessment skills.",
+      "Analyse aspects of human physical and psychological capacities, including limitations, and their impact on safely and efficiency."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in health, n.e.c..",
+    "evidenceLines": [
+      "Critically analyse, synthesise and apply complex theoretical concepts and models of health and disease to OHS practice.",
+      "Subject: WORKPLACE RISK MANAGEMENT PRINCIPLES AND PRACTICE (HBS5RPP)",
+      "Evaluate work processes, workstation and plant design using ergonomic principles and communicate recommendations for improvement."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "To qualify with the award of Graduate Diploma in Ergonomics Safety and Health, students must complete 120 credit points in total consisting of:",
+      "Critically analyse the efficacy of workplace interventions integrating evidence-based theoretical knowledge and practical ergonomics assessment skills."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Diploma in Ergonomics, Safety and Health - On.",
+      "evidenceLines": [
+        "To qualify with the award of Graduate Diploma in Ergonomics Safety and Health, students must complete 120 credit points in total consisting of:",
+        "120 credit points of core subjects"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in health, n.e.c..",
+      "evidenceLines": [
+        "Subject: ERGONOMICS PRINCIPLES OF WORK, WORKSTATION AND PLANT DESIGN (HBS5ERG)",
+        "Critically analyse the efficacy of workplace interventions integrating evidence-based theoretical knowledge and practical ergonomics assessment skills."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

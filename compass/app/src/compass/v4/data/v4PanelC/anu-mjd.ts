@@ -1,0 +1,94 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 11,
+  "workplace": 7,
+  "C1": {
+    "score": 2,
+    "rationale": "Students master oral and written legal argument, client interviewing, and dispute advocacy across complex litigious and commercial scenarios (LAWS6101, LAWS6203).",
+    "evidenceLines": [
+      "Formulate and justify oral and written arguments in response to questions about the Australian legal system and the process of law-making.",
+      "Select and apply a range of approaches to written or oral communication, and apply the apply the professional judgment required to develop and evaluate solutions to complex corporations law problems."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Requires intellectual agility to critique legal doctrine, propose statutory reforms addressing systemic access to justice, and think strategically in real time (LAWS6102, LAWS6207).",
+    "evidenceLines": [
+      "Reflect critically on the roles of lawyers and the legal system, and propose reforms to address the limitations on access to justice in our society.",
+      "It will require you to participate in discussion, present arguments, think on your feet, and make strategic decisions."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Advanced statutory interpretation, case synthesis, and multi-layered evidentiary and corporate doctrine evaluation to resolve complex legal disputes (LAWS6207, LAWS6203).",
+    "evidenceLines": [
+      "Synthesise and evaluate the rules of evidence, evidentiary standards, substantive law, principles of statutory construction, and policy considerations, to design and justify solutions to complex evidentiary problems.",
+      "Research, interpret and evaluate complex statutory material to design or justify solutions to corporations law problems in the context of legal problem solving."
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Adapts legal strategy dynamically under evolving procedural rules, novel factual complexities, and adversarial counter-arguments (LAWS6106, LAWS6207).",
+    "evidenceLines": [
+      "The lecture program will be supported by problem-solving tutorials and live workshops, aimed at enabling students to give legal advice as to criminal liability and the resolution of procedural problems and to consider significant issues such as Indigenous Peoples’ experiences of the criminal justice system and their over-representation in the prison system in Australia.",
+      "It will require you to participate in discussion, present arguments, think on your feet, and make strategic decisions."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Requires physical presence and real-time trial procedure adherence in courtroom simulations and contested evidential proceedings (LAWS6207).",
+    "evidenceLines": [
+      "Evaluate and reflect on their own professional capability and development in the context of court procedure in a trial.",
+      "Evidence law is also a major component of trial procedure, governing how proof is presented in a trial."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Authentic client advisory practice, drafting comprehensive legal briefs, and solving complex procedural problems mirroring legal practice (LAWS6106, LAWS6207).",
+    "evidenceLines": [
+      "Evaluate and apply a range of legally specific research principles, methods, primary legal resources, and tools to develop solutions to criminal law problems in the context of advising a client.",
+      "Synthesise and evaluate the rules of evidence, evidentiary standards, substantive law, principles of statutory construction, and policy considerations, to design and justify solutions to complex evidentiary problems."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Deep professional ethics grounding, covering fiduciary duties, duties to the administration of justice, conflict of interest, and professional conduct regulation (LAWS6102).",
+    "evidenceLines": [
+      "Analyse, reflect on, assess and apply substantive rules and principles governing professional conduct in respect of lawyers’ duties to: the law, the administration of justice, clients, fellow practitioners and others.",
+      "Develop and defend strategies to respond ethically to challenges that arise for practising lawyers in seeking to discharge their professional obligations."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Direct integration of statutory regulatory frameworks including Uniform Evidence Law, Corporations Act 2001 (Cth), and LACC admission requirements (LAWS6207, LAWS6203).",
+    "evidenceLines": [
+      "This course meets the requirements of the Law Admissions Consultative Committee Prescribed Academic Areas of Knowledge for Evidence.",
+      "This course meets the requirements of the Law Admissions Consultative Committee Prescribed Academic Areas of Knowledge for Company Law."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Foundational postgraduate law degree meeting national admission standards.",
+      "evidenceLines": [
+        "Foundations of Australian Law is designed to lay the groundwork for the remainder of students' legal studies. In particular, the course aims to assist students to develop a range of legal skills that are crucial for successful legal studies and for professional practice. Students learn the essential skills that enable them to engage with and use our principal sources of law - case law and legislation."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Accredited legal curriculum covering professional ethics and adversarial trial procedure.",
+      "evidenceLines": [
+        "This course meets the requirements of the Law Admissions Consultative Committee Prescribed Academic Areas of Knowledge for Ethics and Professional Responsibility."
+      ]
+    }
+  },
+  "ambiguities": [],
+  "notScoreable": []
+};
+
+export default record;

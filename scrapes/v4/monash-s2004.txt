@@ -1,0 +1,129 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/S2004 =====
+## Bachelor of Science and Bachelor of Computer Science
+##### S2004
+##### 192 credit points
+You are viewing the 2026 version
+
+### Overview
+IT is driving major advances in many areas of science, which increasingly relies on computing in collecting, storing and analysing huge volumes of data such as computationally intensive simulations of new physical phenomena. So it's an exciting time to combine computer science with any of the emerging or traditional areas of science.
+
+This double degree course will provide you with a highly transferable set of skills and knowledge. It develops your scientific thinking skills, including critical analysis and problem-solving ability, and adds computational and complex IT skills, maximising opportunities for employment related to information technology and science.
+
+### AQF level
+Level 7 - Bachelor Degree / Level 7 - Bachelor Degree
+### CRICOS code
+082580G
+### Post-nominals
+Refer to each partner course for the post nominals for the degree awarded
+### Course duration (full time)
+
+
+### Structure
+Double degree courses include the features of the component degree courses, except that electives may be reduced. 
+
+Science
+
+S2000 Bachelor of Science is a comprehensive course and it will provide you with a broad, general science education, as well as specialist training in one or more science disciplines. This course is structured in three equal parts. In the double degree course you complete:
+
+Part A. Science specified study 
+
+This will provide you with the mathematical or statistical foundation for your study of science. It will also expose you to different science disciplines contributing breadth to your understanding of science and giving you the opportunity to learn about several disciplines before finalising your choice of major.
+
+Part B. Science listed major
+
+This will provide you with a focused program of study that will develop your expertise in one discipline area. You will learn to develop, apply and communicate an advanced level of understanding of the concepts and theoretical frameworks that constitute the knowledge base of the discipline.
+
+Computer science
+
+C2001 Bachelor of Computer Science course is a specialist course that develops through the themes of computer science foundation study, professional skills study, specialist discipline knowledge, problem solving and analytic skills study, and professional skills study which come together in applied practice.
+
+Part A. Foundation studies
+
+This study will develop your understanding of the role and theoretical basis of computer science and computational methods.
+
+Part B. Professional practice studies
+
+This study develops professional skills by providing an understanding and appreciation of the ethical and professional guidelines applicable to computer science, developing the ability to work as an effective team member, developing the ability to communicate proficiently and appropriately for professional practice, and developing formal project management skills.
+
+Part C. Specialist studies
+
+This study will develop your in-depth knowledge of the specific computer science methods of your specialised field within computer science. You will develop your ability to apply appropriate methodologies in computer science and develop efficient computational solutions. It develops strong problem solving skills and the ability to apply analytical thinking.
+
+Part D. Applied studies
+
+The above knowledge and skills are integrated and consolidated in applied practice as demonstrated in a computer or data science project, and in some cases in an industry-based learning placement.
+
+Course progression map
+
+The course progression map provides guidance on unit enrolment for each semester of study.
+
+### Requirements
+You must complete 192 credit points, of which 96 credit points are from the Bachelor of Science (including all of the requirements in Parts A and B for the single degree) and 96 credit points from the Bachelor of Computer Science (including all of the requirements in Parts A, B, C and D for the single degree).
+
+In choosing the 96 credit points of Bachelor of Science listed study over Part A and Part B, you must ensure that you complete six science listed units (36 credit points) at Level 1 and ten science listed units (60 credit points) at Levels 2 and 3 with a minimum of four (24 credit points) at Level 3. You must complete the Mathematics and statistics unit requirement within the first 72 credit points of this double degree. SCI1022 is not available for the Mathematics and Statistics requirement on the Bachelor of Science component of this double degree, as FIT1045 is a compulsory equivalent unit in the Bachelor of Computer Science component.
+
+Areas of study not available in this double degree:
+- Computational science minor, major and extended major
+- Psychology extended major
+
+### Course structure
+192 credit points
+**Rules**
+You must complete 192 credit points, of which 96 credit points are from the Bachelor of Science (including all of the requirements in Parts A and B for the single degree) and 96 credit points from the Bachelor of Computer Science (including all of the requirements in Parts A, B, C and D for the single degree).
+**Science component** **96 credit points**
+In choosing the 96 credit points of Bachelor of Science listed study over Part A and Part B, you must ensure that you complete six science listed units (36 credit points) at Level 1 and ten science listed units (60 credit points) at Levels 2 and 3 with a minimum of four (24 credit points) at Level 3. You must complete the Mathematics and statistics unit requirement within the first 72 credit points of this double degree. SCI1022 is not available for the Mathematics and Statistics requirement on the Bachelor of Science component of this double degree, as FIT1045 is a compulsory equivalent unit in the Bachelor of Computer Science component.
+
+Note: Areas of study not available in this double degree:
+- Computational science minor, major and extended major
+- Psychology extended major
+  [ _arrow_forward_ S2000 Bachelor of Science ](https://handbook.monash.edu/2026/units/S2000)
+**Computer Science component** **96 credit points**
+You must complete 96 credit points from the Bachelor of Computer Science
+  [ _arrow_forward_ C2001 Bachelor of Computer Science ](https://handbook.monash.edu/2026/units/C2001)
+
+### Course intended learning outcomes
+
+### Entry requirements
+Refer to the Course description for each partner course
+
+### AHEGS
+Refer to the AHEGS for each partner course.
+
+### Degrees awarded
+Bachelor of Computer Science 
+Bachelor of Computer Science in Cybersecurity 
+Bachelor of Computer Science in Data Science and Artificial Intelligence
+Bachelor of Science
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT1045 =====
+Subject: Introduction to programming (FIT1045)
+Credit Points: 6
+Overview: This unit introduces programming fundamentals. It will present fundamental programming control structures, built-in and complex datatypes, mechanisms for modularity, and the use of basic libraries. You will also be introduced to good programming practices and processes for software development.
+Learning Outcomes:
+- Design, construct and test programs that include user-defined functions and data structures;
+- Implement good programming practices, including unit testing, basic documentation and readability.
+- Effectively use variables, conditionals and loops in computer programs;
+- Write programs efficiently by discovering and leveraging libraries;
+Assessment Tasks:
+- Learning Project Portfolio: 100% (Hurdle: Competency)
+- In class tests: 0% (Hurdle: Competency)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/SCI1022 =====
+Subject: Introduction to scientific coding (SCI1022)
+Credit Points: 6
+Overview: This unit will teach the fundamental principles of the writing and development of scientific computing code through the completion of practical modules. You will initially complete a compulsory introductory module in which you will learn coding skills using Python. You will then complete a module in other languages such as R, MATLAB, Mathematica or Julia. All the modules will be taught in applied sessions using practical examples from various disciplines. All modules will cover fundamental control structures, common file systems, input and output of data, two- and three-dimensional data plotting and the interpretation of these plots.
+Learning Outcomes:
+- Use a variety of plotting routines to manipulate and critically assess scientific data for mathematical, physical, environmental, chemical and biological applications;
+- Demonstrate how basic control and data structures function in a range of programming languages;
+- Communicate practical findings on data analysis and scientific modelling across a range of application's to different audiences.
+- Identify and describe common online and local computer file systems and file types for interacting with external systems;
+- Discuss the importance of data and simulations in science;
+- Construct basic computer codes for data analysis and scientific modelling;
+- Access and navigate online repositories, download source and data files from repositories;
+Assessment Tasks:
+- Homework assignment (Group and individual assignments): 50% (Hurdle: None)
+- In-class assignment (Weekly computer laboratory work): 40% (Hurdle: None)
+- Pre-class test: 10% (Hurdle: None)
+Workload: Four hours of seminars over one week; Two 2-hour applied sessions per week (in weeks 2-12) and Six hours of independent study
+

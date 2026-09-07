@@ -1,0 +1,102 @@
+{
+  "code": "monash-m6003",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in health, n.e.c..",
+      "evidenceLines": [
+        "Analyse the range of different biomedical science techniques used at the level of tissues, organs and systems, to create models pertinent to human health and disease",
+        "Evaluate the different types of research designs used in the biomedical sciences at the level of tissues, organs and systems, and justify the use of particular research designs to address specific research questions;",
+        "The Master of Biomedical and Health Science is a coursework degree to be undertaken in key research areas in the Monash Biomedicine Discovery Institute in the Faculty of Medicine, Nursing and Health Sciences."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in health, n.e.c..",
+      "evidenceLines": [
+        "Effectively communicate the basis of the scientific method from building a hypothesis, to testing the ideas through experimental methods;",
+        "Interpret and summarise the purpose and outcomes of current biomedical research papers on studies at the level of tissues, organs and systems;",
+        "You will undertake an initial year of intensive training in how to conduct research, by studying coursework units in pedagogical and research skills training and engaging in specialist research in theory units, followed by a second year of a full time research project in a research environment under the direct supervision, or co-supervision of a member of the academic staff of Monash University, training in entrepreneurship and employability, and culminating in a merit-based internship in industry or with Monash."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within health, n.e.c..",
+      "evidenceLines": [
+        "Subject: Research training: Critical thinking and communication skills (BMS5001)",
+        "Subject: Research techniques: Tissues, organs and systems (BMS5002)",
+        "Analyse current, cutting-edge research in biomedical sciences, and effectively communicate these complex ideas to a diverse audience."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in health, n.e.c..",
+      "evidenceLines": [
+        "Critically evaluate the advantages and limitations of different biomedical science techniques in providing information pertinent to human health and disease;",
+        "4 written critiques of BDI Scientific seminars (each approx. 1,000 words): 40% (Hurdle: Competency)",
+        "You will also be able to undertake elective\u00a0units, which enable you to develop and expand your specialist discipline knowledge in key areas of biomedical and health sciences, in the following biomedical theory areas:"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in health, n.e.c..",
+      "evidenceLines": [
+        "Subject: Infectious diseases and population health (BMS5003)",
+        "Subject: Advanced neuroscience (BMS5004)",
+        "Mid-semester abstract writing test (1 hour writing time): 15% (Hurdle: None)"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in health, n.e.c..",
+      "evidenceLines": [
+        "Written report on a hot scientific topic (1,500 words): 30% (Hurdle: None)",
+        "The Master of Biomedical and Health Science is a coursework degree to be undertaken in key research areas in the Monash Biomedicine Discovery Institute in the Faculty of Medicine, Nursing and Health Sciences.",
+        "You will undertake an initial year of intensive training in how to conduct research, by studying coursework units in pedagogical and research skills training and engaging in specialist research in theory units, followed by a second year of a full time research project in a research environment under the direct supervision, or co-supervision of a member of the academic staff of Monash University, training in entrepreneurship and employability, and culminating in a merit-based internship in industry or with Monash."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in health, n.e.c..",
+      "evidenceLines": [
+        "End of semester abstract exam (1 hour writing time ): 15% (Hurdle: None)",
+        "Subject: Regenerative medicine and stem cells (BMS5005)",
+        "You will also be able to undertake elective\u00a0units, which enable you to develop and expand your specialist discipline knowledge in key areas of biomedical and health sciences, in the following biomedical theory areas:"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "* If you are admitted at entry level 1 you complete 96 credit points, comprising Part A, Part B and Part C.",
+        "The Master of Biomedical and Health Science is a coursework degree to be undertaken in key research areas in the Monash Biomedicine Discovery Institute in the Faculty of Medicine, Nursing and Health Sciences."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Biomedical and Health Science.",
+        "evidenceLines": [
+          "* If you are admitted at entry level 1 you complete 96 credit points, comprising Part A, Part B and Part C.",
+          "* If you are admitted at entry level\u00a02 you complete 48 credit points, comprising Part C. You will need to organise a research project and supervisor before the commencement date of the semester when you are eligible to start."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in health, n.e.c..",
+        "evidenceLines": [
+          "Subject: Research training: Critical thinking and communication skills (BMS5001)",
+          "Analyse the range of different biomedical science techniques used at the level of tissues, organs and systems, to create models pertinent to human health and disease"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in environmental studies.",
+    "evidenceLines": [
+      "**Institution**: The University of Sydney (USYD)",
+      "**Course / Program Identifier**: environmental-science",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in environmental studies.",
+    "evidenceLines": [
+      "**Academic Year**: 2026",
+      "**Faculty**: science-pg",
+      "- **Course / Program Identifier**: environmental-science"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within environmental studies.",
+    "evidenceLines": [
+      "Subject: Environmental Research Project A (ENVI5502)",
+      "Subject: Coastal Processes and Systems (MARS5001)",
+      "**Handbook URL**: https://www.sydney.edu.au/handbooks/science-pg/coursework/environmental-science.html"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in environmental studies.",
+    "evidenceLines": [
+      "Integrated Environmental Practice; or",
+      "Environmental Research Project A, and",
+      "- **Handbook URL**: https://www.sydney.edu.au/handbooks/science-pg/coursework/environmental-science.html"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in environmental studies.",
+    "evidenceLines": [
+      "Subject: Coastal Management Field School (MARS5004)",
+      "Subject: Industrial Ecology (PHYS4801)",
+      "Environmental Research Project B, and"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in environmental studies.",
+    "evidenceLines": [
+      "Environmental Research Project C",
+      "- **Institution**: The University of Sydney (USYD)",
+      "- **Course / Program Identifier**: environmental-science"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in environmental studies.",
+    "evidenceLines": [
+      "LO1 . apply advanced research principles and skills to interpret existing data and formulate and test research hypotheses to address novel environmental science problems.",
+      "Subject: Techniques for Sustainability Analysis (PHYS5032)",
+      "- **Handbook URL**: https://www.sydney.edu.au/handbooks/science-pg/coursework/environmental-science.html"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The articulated award program in Environmental Science is designed for both recent graduates wishing to obtain employment in the environmental field and for graduates already working in an environmental sphere who are interested in gaining either a formal qualification in environmental science or additional information about related areas of environmental science.",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Environmental Science.",
+      "evidenceLines": [
+        "The articulated award program in Environmental Science is designed for both recent graduates wishing to obtain employment in the environmental field and for graduates already working in an environmental sphere who are interested in gaining either a formal qualification in environmental science or additional information about related areas of environmental science.",
+        "Environmental managers and scientists are increasingly finding that they need to have a broad interdisciplinary knowledge base and the ability to be flexible and innovative in their application of such knowledge. Thus the aim of this award program is to provide students with the ability to solve environmental problems that require the integration of knowledge from diverse disciplines. Emphasis is placed on studies which span several disciplines, adaptive problem solving, and the development of new skills and expertise."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in environmental studies.",
+      "evidenceLines": [
+        "Subject: Environmental Research Project A (ENVI5502)",
+        "**Institution**: The University of Sydney (USYD)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

@@ -1,0 +1,102 @@
+{
+  "code": "monash-m4022",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+      "evidenceLines": [
+        "Discuss basic concepts relating to aviation, including aerodynamics, control surfaces and performance and limitations for both rotary and fixed wing aircraft and including basic meteorology;",
+        "Justify the integral role of retrieval medicine within the broader health care system, identifying the factors to be considered when coordinating an aero medical retrieval;",
+        "Monash Paramedicine is a world leader in education and research and provides you with the opportunity to develop and demonstrate core attributes pertinent to advanced practice, including professionalism, leadership, teamwork, patient-centred care, reflective practice, and advanced clinical reasoning."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+      "evidenceLines": [
+        "Appraise aspects of aviation safety including Crew Resource Management (CRM) to optimise safety practices within the aviation environment;",
+        "Assess the physiological effects of flight upon crew and patient(s) identifying strategies to appropriately manage a range of patient conditions;",
+        "This online course allows you to improve your clinical practice and knowledge in the delivery of aeromedical retrieval services, preparing you for future positions in clinical practice, leadership and coordination roles."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+      "evidenceLines": [
+        "Subject: Introduction to aeromedical and retrieval concepts (PAR5200)",
+        "Subject: Professional practice in aeromedical retrieval  (PAR5210)",
+        "Analyse the factors to be considered to work safely around both rotary and fixed wing aircraft; and"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+      "evidenceLines": [
+        "Examine the concept of self-preservation following an aircraft incident and actions that can be taken to maximise one\u2019s chances of survival.",
+        "Clinical practice discussion forums (3 x 500 words each. Total = 1,500 words): 30% (Hurdle: None)",
+        "The development of advanced techniques and treatment regimes, coupled with an understanding of local and global aeromedical retrieval systems will enable you to provide out-of-hospital care to patients in a diverse range of situations at the highest level."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+      "evidenceLines": [
+        "Subject: Aeromedical retrieval coordination (PAR5230)",
+        "Subject: Aeromedical retrieval rescue for intensive care paramedics (PAR5240)",
+        "Online quizzes (4 x 20 questions, 30 mins and 5 mins reading time each): 40% (Hurdle: Competency)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+      "evidenceLines": [
+        "Assignment (2,500 words): 30% (Hurdle: None)",
+        "Monash Paramedicine is a world leader in education and research and provides you with the opportunity to develop and demonstrate core attributes pertinent to advanced practice, including professionalism, leadership, teamwork, patient-centred care, reflective practice, and advanced clinical reasoning.",
+        "This online course allows you to improve your clinical practice and knowledge in the delivery of aeromedical retrieval services, preparing you for future positions in clinical practice, leadership and coordination roles."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+      "evidenceLines": [
+        "Demonstrate advanced communication skills in a range of operational circumstances, including the participation in critical incident debriefing;",
+        "Subject: Aeromedical and retrieval: Clinical (PAR5250)",
+        "The development of advanced techniques and treatment regimes, coupled with an understanding of local and global aeromedical retrieval systems will enable you to provide out-of-hospital care to patients in a diverse range of situations at the highest level."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "Monash Paramedicine is a world leader in education and research and provides you with the opportunity to develop and demonstrate core attributes pertinent to advanced practice, including professionalism, leadership, teamwork, patient-centred care, reflective practice, and advanced clinical reasoning.",
+        "Monash Paramedicine is a world leader in education and research and provides you with the opportunity to develop and demonstrate core attributes pertinent to advanced practice, including professionalism, leadership, teamwork, patient-centred care, reflective practice, and advanced clinical reasoning."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate of Aeromedical Retrieval.",
+        "evidenceLines": [
+          "Monash Paramedicine is a world leader in education and research and provides you with the opportunity to develop and demonstrate core attributes pertinent to advanced practice, including professionalism, leadership, teamwork, patient-centred care, reflective practice, and advanced clinical reasoning.",
+          "The course requires the completion of 24 credit points."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+        "evidenceLines": [
+          "Subject: Introduction to aeromedical and retrieval concepts (PAR5200)",
+          "Discuss basic concepts relating to aviation, including aerodynamics, control surfaces and performance and limitations for both rotary and fixed wing aircraft and including basic meteorology;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

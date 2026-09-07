@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-hhp",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in physiotherapy.",
+      "evidenceLines": [
+        "Reflect critically on your own cultural attitudes, values and beliefs",
+        "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+        "Become a fully-qualified physiotherapist."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in physiotherapy.",
+      "evidenceLines": [
+        "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+        "Understand the need for and value of appropriate and effective intercultural communication",
+        "Movement is essential to our health, happiness and connection to others - and physios help us move better."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within physiotherapy.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Subject: ANATOMY FOR PHYSIOTHERAPY A (ANA1003)",
+        "Identify musculoskeletal structures within the lower limb through surface anatomy."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in physiotherapy.",
+      "evidenceLines": [
+        "Apply relevant anatomical principles to describe normal structure and function of body systems within the lower limb, including its role in support, locomotion and posture.",
+        "Apply observational and communication skills, individually or as part of a team, using appropriate anatomical and lay terminology for use with clients or other health care professionals, to make accurate observations of anatomical structures or events and infer their relationship to function using cadaveric material, anatomical models, the living body or medical imaging.",
+        "Get ready to use exercise and movement to improve the lives of athletes, children, adults and people recovering from surgery, injury or illness."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in physiotherapy.",
+      "evidenceLines": [
+        "Subject: ANATOMY FOR PHYSIOTHERAPY B (ANA1004)",
+        "Subject: ANATOMY FOR PHYSIOTHERAPY C (ANA2003)",
+        "Apply foundational biomechanical principles, including the concepts of force, motion and leverage, to analyse human movement within the lower limb."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in physiotherapy.",
+      "evidenceLines": [
+        "Apply relevant anatomical principles to describe normal structure and function of body systems within the vertebral column, including its role in support and posture.",
+        "Become a fully-qualified physiotherapist.",
+        "Movement is essential to our health, happiness and connection to others - and physios help us move better."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in physiotherapy.",
+      "evidenceLines": [
+        "Apply foundational biomechanical principles, including the concepts of force, motion and leverage, to analyse human movement within the upper limb and trunk.",
+        "Subject: HUMAN BIOSCIENCES A (HBS1HBA)",
+        "Get ready to use exercise and movement to improve the lives of athletes, children, adults and people recovering from surgery, injury or illness."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "To qualify for the award of Bachelor of Physiotherapy (Honours), students must complete 480 credit points consisting of:",
+        "Become a fully-qualified physiotherapist."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Physiotherapy (Honours).",
+        "evidenceLines": [
+          "To qualify for the award of Bachelor of Physiotherapy (Honours), students must complete 480 credit points consisting of:",
+          "420 core credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in physiotherapy.",
+        "evidenceLines": [
+          "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+          "Reflect critically on your own cultural attitudes, values and beliefs"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

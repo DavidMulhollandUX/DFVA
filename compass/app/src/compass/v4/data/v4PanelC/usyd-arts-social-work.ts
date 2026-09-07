@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in social work.",
+    "evidenceLines": [
+      "**Institution**: The University of Sydney (USYD)",
+      "**Course / Program Identifier**: arts-social-work",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in social work.",
+    "evidenceLines": [
+      "**Academic Year**: 2026",
+      "**Handbook URL**: https://www.sydney.edu.au/handbooks/arts/coursework/arts-social-work.html",
+      "- **Course / Program Identifier**: arts-social-work"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within social work.",
+    "evidenceLines": [
+      "Subject: Introduction to Sociology 2 (SCLG1002)",
+      "Subject: Social Justice Practice (SCWK1001)",
+      "LO1 . understand a range of existing fields of sociological theory and research, and develop skills to expand knowledge and understanding about social life. In particular, you will: become acquainted with the basic concepts and methods of sociological inquiry and how to apply these in developing your own understanding of the societies in which you live; be able to acquire and evaluate new knowledge through independent research; be able to identify, define, investigate, and solve problems; think independently, analytically and creatively; and exercise critical judgement and critical thinking to create new modes of understanding."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in social work.",
+    "evidenceLines": [
+      "LO2 . find and use information effectively in a variety of contexts. In particular, you will: i. recognize what types of information you require for particular purposes; ii. become acquainted with the basic concepts and methods sociological enquiry and how to apply these in developing your own understanding of the society in which you live; iii. be able to use academic and non-academic information resources, with a particular focus on how to access both open and proprietary web interfaces; and iv. use information effectively in critical and creative thinking.",
+      "LO3 . learn how to work independently and sustainably, in a way that is informed by openness, curiosity and a desire to meet new challenges. You will: i. become an independent learner who takes responsibility for your own learning; ii.set appropriate goals for ongoing intellectual and professional development, and evaluate your own performance effectively; iii. be intellectually curious, open to new ideas, methods and ways of thinking, and able to sustain intellectual interest; iv. respond effectively to unfamiliar problems in unfamiliar contexts; and v. work effectively in teams and other collaborative contexts.",
+      "- **Handbook URL**: https://www.sydney.edu.au/handbooks/arts/coursework/arts-social-work.html"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in social work.",
+    "evidenceLines": [
+      "Subject: Introduction to Human Services (SCWK1002)",
+      "Subject: Life-course Perspectives on Development (SCWK2007)",
+      "LO4 . develop personal values and beliefs consistent with your role as responsible members of local, national, international and professional communities. You will: i. understand and practise the highest standards of ethical behaviour associated with the discipline; ii. be informed and open-minded about social, cultural and linguistic diversity in Australia and the world; iii. appreciate your ethical responsibilities towards colleagues, research subjects, the wider community, and the environment; and iv. be aware that knowledge is not value-free."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in social work.",
+    "evidenceLines": [
+      "LO5 . develop the capacity to recognise and value communication as a tool for negotiating and creating new understanding, interacting with others, and furthering your own learning. You will: i. develop your written, oral, and multimedia communication skills in a variety of learning tasks; ii. recognise the importance of continuing to develop your oral, visual, and written communication skills; and iii. be able to use appropriate communication technologies.",
+      "- **Institution**: The University of Sydney (USYD)",
+      "- **Course / Program Identifier**: arts-social-work"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in social work.",
+    "evidenceLines": [
+      "Final exam Handwritten exam: multiple-choice questions and an essay question: 50%: Formal exam period% (Hurdle: False)",
+      "Subject: Social Work, Law and Social Policy (SCWK2010)",
+      "- **Handbook URL**: https://www.sydney.edu.au/handbooks/arts/coursework/arts-social-work.html"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "Candidates must complete 240 credit points of units of study comprising:",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Arts and Bachelor of Social Work.",
+      "evidenceLines": [
+        "Candidates must complete 240 credit points of units of study comprising:",
+        "C: Corequisites N: Prohibition"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in social work.",
+      "evidenceLines": [
+        "Subject: Introduction to Sociology 2 (SCLG1002)",
+        "**Institution**: The University of Sydney (USYD)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

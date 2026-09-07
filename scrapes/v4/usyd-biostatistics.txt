@@ -1,0 +1,885 @@
+===== SOURCE: https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/biostatistics.html =====
+# Biostatistics (biostatistics)
+
+## Program Overview
+- **Institution**: The University of Sydney (USYD)
+- **Course / Program Identifier**: biostatistics
+- **Academic Year**: 2026
+- **Faculty**: medicine-health-pg
+- **Handbook URL**: https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/biostatistics.html
+
+## Overview
+2026 Handbooks
+Medicine and Health Postgraduate
+Coursework
+Biostatistics
+Course resolutions
+Unit of study table
+
+Course resolutions
+Unit of study table
+
+## Unit of Study Table & Curriculum Structure
+Biostatistics - Unit of study table - The University of Sydney
+Handbooks
+Medicine and Health Postgraduate
+/
+Coursework
+/
+Biostatistics
+/
+Unit of study table
+2026 Handbooks
+Medicine and Health Postgraduate
+Coursework
+Biostatistics
+Course resolutions
+Unit of study table
+Biostatistics
+Unit of study table
+This page was first published on 13 November 2025 and was last amended on 19 January 2026.
+View details of the changes below
+.
+Master of Biostatistics
+Students must complete 72 credit points, including:
+(a) 6 credit points from Epidemiology units of study; and
+(b) 30 credits points from Biostatistics Part 1 units of study; and
+(c) a minimum of 18 credit points from Biostatistics Part 2 units of study; and
+(d) a maximum of 12 credit points from General Elective units of study; and
+(e) a minimum of 6 credit points of Capstone units of study.
+Graduate Diploma in Biostatistics
+Students must complete 48 credit points, including:
+(a) 6 credit points from Epidemiology units of study; and
+(b) 30 credit points from Biostatistics Part 1 units of study; and
+(c) a minimum of 6 credit points from Biostatistics Part 2 units of study; and
+(d) a maximum of 6 credit points from General Elective units of study.
+Graduate Certificate in Biostatistics
+Students must complete 24 credit points, including:
+(a) 6 credit points from Epidemiology units of study; and
+(b) 18 credit points from Biostatistics Part 1 or Biostatistics Part 2 units of study.
+Unit of study
+Credit points
+A: Assumed knowledge P: Prerequisites
+C: Corequisites N: Prohibition
+Epidemiology
+All students must complete 6 credit points from Epidemiology.
+CEPI5100
+Introduction to Clinical Epidemiology
+6
+PUBH5010
+Epidemiology Methods and Uses
+6
+N
+BSTA5011
+Biostatistics Part 1
+Graduate Diploma and Master students must complete 30 credit points from Biostatistics Part 1.
+BSTA5002
+Principles of Statistical Inference (PSI)
+6
+P
+BSTA5100
+or (
+BSTA5001
+and
+BSTA5023
+)
+BSTA5004
+Data Management and Stats Computing (DMC)
+6
+BSTA5100
+Mathematics Foundations of Biostatistics (MFB)
+6
+N
+BSTA5023
+BSTA5210
+Regression Modelling for Biostatistics 1 (RM1)
+6
+P
+(
+BSTA5011
+or
+PUBH5010
+or
+CEPI5100
+)
+C
+BSTA5002
+N
+BSTA5007
+or
+BSTA5008
+BSTA5211
+Regression Modelling for Biostatistics 2 (RM2)
+6
+P
+(
+BSTA5210
+or
+BSTA5007
+)
+N
+BSTA5008
+and
+BSTA5009
+Biostatistics Part 2
+Graduate Diploma students must complete a minimum of 6 credit points from Biostatistics Part 2. Masters students must complete a minimum of 18 credit points from Biostatistics Part 2.
+BSTA5003
+Health Indicators and Health Surveys (HIS)
+6
+C
+BSTA5100
+or
+BSTA5001
+BSTA5005
+Clinical Biostatistics (CLB)
+6
+P
+(
+PUBH5010
+or
+BSTA5011
+or
+CEPI5100
+) and
+BSTA5002
+C
+BSTA5210
+or
+BSTA5007
+BSTA5006
+Design of Randomised Controlled Trials (DES)
+6
+P
+(
+PUBH5010
+or
+BSTA5011
+or
+CEPI5100
+) and (
+BSTA5100
+or
+BSTA5023
+)
+C
+BSTA5002
+BSTA5012
+Longitudinal and Correlated Data (LCD)
+6
+P
+BSTA5210
+or
+BSTA5211
+or (
+BSTA5007
+and
+BSTA5008
+)
+BSTA5013
+Statistical Genomics (SGX)
+6
+P
+BSTA5004
+and (
+BSTA5210
+or
+BSTA5211
+or
+BSTA5007
+)
+BSTA5014
+Bayesian Statistical Methods (BAY)
+6
+P
+BSTA5210
+or
+BSTA5211
+or (
+BSTA5007
+and
+BSTA5008
+)
+BSTA5017
+Causal Inference (CSI)
+6
+P
+BSTA5210
+or
+BSTA5211
+or (
+BSTA5007
+and
+BSTA5008
+)
+BSTA5018
+Machine Learning for Biostatistics (MLB)
+6
+P
+(
+PUBH5010
+or
+BSTA5011
+or
+CEPI5100
+) and (
+BSTA5007
+or
+BSTA5210
+or
+BSTA5211
+or
+PUBH5217
+)
+PUBH5215
+Analysis of Linked Health Data
+6
+A
+The unit assumes introductory-level programming skills in SAS or R, assumes introductory-level knowledge in epidemiology, e.g.,
+PUBH5010
+or
+CEPI5100
+, and introductory-level knowledge in biostatistics or statistics, e.g.,
+PUBH5018
+or
+FMHU5002
+.
+C
+(
+PUBH5010
+or
+BSTA5011
+or
+CEPI5100
+) and (
+PUBH5211
+or
+PUBH5217
+or
+BSTA5004
+)
+General Electives
+Graduate Diploma students can complete a maximum of 6 credit points from General Electives. Master students can complete a maximum of 12 credit points from General Electives.
+Students are encouraged to contact the Program Coordinator prior to enrolling into these units.
+Analytic Methods
+CEPI5105
+Advanced Epidemiology
+6
+P
+(
+CEPI5100
+or
+PUBH5010
+) and (
+FMHU5002
+or
+PUBH5018
+or
+BSTA5002
+)
+C
+PUBH5217
+or
+BSTA5210
+CEPI5215
+Writing and Reviewing Medical Papers
+6
+A
+Some basic knowledge of summary statistic is assumed
+P
+(
+PUBH5010
+or
+CEPI5100
+or
+BSTA5011
+)
+N
+CEPI5214
+HPOL5000
+Health Policy and Health Economics
+6
+N
+PUBH5032
+PUBH5125
+Environmental and Social Epidemiology
+6
+C
+PUBH5010
+or
+CEPI5100
+or
+BSTA5011
+P
+PUBH5010
+or
+CEPI5100
+or
+BSTA5011
+PUBH5224
+Applied Epidemiology
+6
+P
+(
+PUBH5010
+or
+CEPI5100
+or
+BSTA5011
+) and (
+PUBH5018
+or
+FMHU5002
+or
+BSTA5002
+)
+PUBH5300
+Infectious Disease Epidemiology
+6
+A
+A basic understanding of introductory statistics and generalised linear regression (as would be attained through a unit such as
+PUBH5217
+or equivalent, or through equivalent experience). No previous coding experience is required or assumed
+PUBH5312
+Health Economic Evaluation
+6
+P
+HPOL5000
+or
+FMHU5001
+or
+BSTA5002
+N
+PUBH5302
+FMHU5003
+Introduction to Qualitative Research in Health
+6
+N
+PUBH5505
+or
+BACH5255
+or
+QUAL5005
+FMHU5004
+Qualitative Analysis and Writing in Health
+6
+A
+Students should have an understanding of qualitative research as this unit does not cover research design or data collection. Students looking for an introductory level unit should take
+FMHU5003
+Introduction to Qualitative Research in Health.
+P
+FMHU5003
+or
+PUBH5505
+or
+QUAL5005
+or
+QUAL5006
+or
+GLOH5201
+N
+PUBH5506
+PUBH5317
+Advanced Economic and Decision Analysis
+6
+P
+PUBH5312
+C
+PUBH5312
+N
+PUBH5205
+or
+PUBH5307
+Data Science
+COMP5048
+Visual Analytics
+6
+A
+Experience with data structures and algorithms as covered in
+COMP9103
+or
+COMP9003
+or
+COMP2123
+or
+COMP2823
+or
+INFO1105
+or
+INFO1905
+(or equivalent UoS from different institutions)
+N
+COMP4448
+or
+OCMP5048
+COMP5310
+Principles of Data Science
+6
+A
+Good understanding of relational data model and database technologies as covered in
+ISYS2120
+or
+COMP9120
+(or equivalent UoS from different institutions)
+N
+INFO3406
+or
+OCMP5310
+COMP5329
+Deep Learning
+6
+A
+COMP4318
+or
+COMP5318
+N
+COMP4329
+or
+OCMP5329
+COMP5338
+Advanced Data Models
+6
+A
+This unit of study assumes foundational knowledge of relational database systems as taught in
+COMP5138
+/
+COMP9120
+(Database Management Systems) or
+INFO2120
+/
+INFO2820
+/
+ISYS2120
+(Database Systems 1)
+N
+COMP4338
+or
+OCMP5338
+COMP9120
+Database Management Systems
+6
+A
+Some exposure to programming and some familiarity with data model concepts
+N
+INFO2120
+or
+INFO2820
+or
+INFO2005
+or
+INFO2905
+or
+COMP5138
+or
+ISYS2120
+Students who have previously studied an introductory database subject as part of their undergraduate degree should not enrol in this foundational unit as it covers the same foundational content
+HTIN5005
+Applied Healthcare Data Science
+6
+N
+HTIN4005
+Ethics
+BETH5202
+Research Ethics
+6
+A
+A three-year undergraduate degree in science, medicine, nursing, allied health sciences, philosophy/ethics, sociology/anthropology, law, history, or other relevant field, or by special permission
+N
+BETH5208
+BETH5203
+Public Health Ethics
+6
+N
+BETH5206
+BETH5204
+Clinical Ethics
+6
+BETH5209
+Medicines Policy, Economics and Ethics
+6
+A
+A degree in science, medicine, pharmacy, nursing, allied health, philosophy/ethics, sociology/anthropology, history, law, communications, public policy, business, economics, commerce, organisation studies, or other relevant field, or by special permission
+Capstone
+Master students must complete a minimum of 6 credit points from Capstone.
+BSTA5020
+Biostatistics Research Project 1
+6
+P
+48 credit points including
+BSTA5004
+and
+BSTA5210
+C
+BSTA5211
+BSTA5021
+Biostatistics Research Project 2
+6
+P
+48 credit points including
+BSTA5004
+and
+BSTA5210
+C
+BSTA5211
+and
+BSTA5020
+BSTA5030
+Professional Practice in Biostatistics
+6
+P
+60 credit points including
+PUBH5215
+and
+BSTA5211
+N
+BSTA5020
+or
+BSTA5021
+Post-publication amendments
+Date
+Original publication
+Post-publication amendment
+19/01/2026
+BETH5208
+was published and available for selection.
+BETH5208
+removed
+.
+
+## Course Resolutions & Academic Rules
+Biostatistics - Course Resolutions - The University of Sydney
+Handbooks
+Medicine and Health Postgraduate
+/
+Coursework
+/
+Biostatistics
+/
+Course resolutions
+2026 Handbooks
+Medicine and Health Postgraduate
+Coursework
+Biostatistics
+Course resolutions
+Unit of study table
+Biostatistics
+Course resolutions
+The course resolutions detailed in this page apply to all courses included in the table below under section 1 (course codes).
+These resolutions must be read in conjunction with applicable University By-laws, Rules and policies including (but not limited to) the University of Sydney (Coursework) Rule 2014 (the 'Coursework Rule'), the Coursework Policy 2021 (the 'Coursework Policy'), the Learning and Teaching Policy 2024, the Resolutions of the Faculty, University of Sydney (Student Academic Appeals) Rule 2021, the Academic Integrity Policy 2022 and the Academic Integrity Procedures 2022. Current versions of all policies are available from the Policy Register:
+http://www.sydney.edu.au/policies
+1 Course codes
+Code
+Course title
+GCBIOSTA-01
+Graduate Certificate in Biostatistics
+GNBIOSTA-01
+Graduate Diploma in Biostatistics
+MABIOSTA-01
+Master of Biostatistics
+2 Attendance pattern
+The attendance pattern for this course is full-time or part-time according to candidate choice.
+3 Masters type
+The masters degree in these resolutions is a professional masters course as defined by the Coursework Policy.
+4 Embedded courses in this sequence
+(1) The embedded courses in this sequence are:
+(a) the Graduate Certificate in Biostatistics
+(b) the Graduate Diploma in Biostatistics
+(c) the Master of Biostatistics.
+(2) Providing candidates satisfy the admission requirements and progression rules for each stage, a candidate may progress to the award of any of the courses in this sequence and receive full credit for work completed in the prior award (subject to coursework time limits). Only the longest award completed will be conferred.
+5 Admission to candidature
+(1) Available places will be offered to qualified applicants based on merit, according to the following admissions criteria.
+(2) Admission to the Graduate Certificate in Biostatistics requires:
+(a) A bachelor's degree in statistics, mathematics, science, psychology, medicine, pharmacy, economics, health sciences or other appropriate discipline from the University of Sydney or equivalent qualification, with assumed knowledge of advanced mathematics concepts.
+(3) Admission to the Graduate Diploma in Biostatistics requires:
+(a) A bachelor's degree in statistics, mathematics, science, psychology, medicine, pharmacy, economics, health sciences or other appropriate discipline from the University of Sydney or equivalent qualification, with assumed knowledge of advanced mathematics concepts; or
+(b) completion of the requirements of the embedded Graduate Certificate in Biostatistics.
+(4) Admission to the Master of Biostatistics requires:
+(a) a bachelor's degree in statistics, mathematics, science, psychology, medicine, pharmacy, economics, health sciences or other appropriate discipline from the University of Sydney or equivalent qualification with a minimum credit average mark of 65 per cent or equivalent, with assumed knowledge of advanced mathematics concepts; or
+(b) completion of the requirements of the embedded Graduate Diploma in Biostatistics with a minimum average mark of 70 per cent across BSTA5002, BSTA5004 and BSTA5210.
+(5) In exceptional circumstances, the delegated authority may admit applicants without these qualifications who, in the opinion of the Faculty, have qualifications, evidence of experience and achievement sufficient to successfully undertake the award.
+6 Requirements for award
+(1) The units of study that may be taken for these awards are set out in the Table of Units of Study: Biostatistics.
+(2) To qualify for the award of the Graduate Certificate in Biostatistics a candidate must successfully complete 24 credit points, comprising:
+(a) 6 credit points from Epidemiology units of study; and
+(b) 18 credit points from Biostatistics Part 1 units of study or Biostatistics Part 2 units of study.
+(3) To qualify for the award of the Graduate Diploma in Biostatistics a candidate must successfully complete 48 credit points, comprising:
+(a) 6 credit points from Epidemiology units of study; and
+(b) 30 credit points from Biostatistics Part 1 units of study; and.
+(c) a minimum of 6 credit points from Biostatistics Part 2 units of study; and
+(d) a maximum of 6 credit points from General Elective units of study.
+(4) To qualify for the award of the Master of Biostatistics a candidate must successfully complete 72 credit points, comprising:
+(a) 6 credit points of from Epidemiology units of study; and
+(b) 30 credit points from Biostatistics Part 1 units of study; and
+(c) a minimum of 18 credit points from Biostatistics Part 2; and
+(d) a maximum of 12 credit points of General Elective units of study; and
+(e) a minimum of 6 credit points of Capstone units of study.
+7 Progression rules
+(1) Master of Biostatistics
+(a) Candidates must achieve a minimum average mark of 70 per cent across BSTA5002, BSTA5004, and BSTA5210.
+(b) Candidates who successfully complete BSTA5002, BSTA5004 and BSTA5210 but do not achieve a minimum average mark of 70 per cent across these units will be eligible for the award of Graduate Diploma in Biostatistics provided the requirements of the award have been met.
+(2) Graduate Diploma in Biostatistics:
+(a) Candidates who achieve a minimum average mark of 70 per cent across BSTA5002, BSTA5004, and BSTA5210 will be eligible to upgrade to the masters degree.
+(3) In exceptional circumstances, the delegated authority may permit candidates who do not satisfy these progression rules to progress in the Master of Biostatistics who, in the opinion of the Faculty, are able to provide evidence of academic achievement sufficient to successfully undertake the longer award.
+8 Course transfer
+(1) A candidate for the Master of Biostatistics degree may elect to discontinue study and graduate with the Graduate Diploma in Biostatistics, with the approval of the delegated authority, and provided the requirements of the Graduate Diploma have been met.
+(2) A candidate for the Master of Biostatistics degree may elect to discontinue study and graduate with the Graduate Certificate in Biostatistics, with the approval of the delegated authority, and provided the requirements of the Graduate Certificate have been met.
+(3) A candidate for the Graduate Diploma in Biostatistics degree may elect to discontinue study and graduate with the Graduate Certificate in Biostatistics, with the approval of the delegated authority, and provided the requirements of the Graduate Certificate have been met.
+9 Transitional provisions
+(1) These resolutions apply to persons who commenced their candidature after 1 January 2025 and persons who commenced their candidature prior to 1 January 2025 who formally elect to proceed under these resolutions.
+(2) Candidates who commenced prior to 1 January 2025 should complete the requirements in accordance with the resolutions in force at the time of their commencement.
+
+## Course resolutions
+The course resolutions detailed in this page apply to all courses included in the table below under section 1 (course codes).
+
+These resolutions must be read in conjunction with applicable University By-laws, Rules and policies including (but not limited to) the University of Sydney (Coursework) Rule 2014 (the 'Coursework Rule'), the Coursework Policy 2021 (the 'Coursework Policy'), the Learning and Teaching Policy 2024, the Resolutions of the Faculty, University of Sydney (Student Academic Appeals) Rule 2021, the Academic Integrity Policy 2022 and the Academic Integrity Procedures 2022. Current versions of all policies are available from the Policy Register:
+http://www.sydney.edu.au/policies
+
+The attendance pattern for this course is full-time or part-time according to candidate choice.
+
+The masters degree in these resolutions is a professional masters course as defined by the Coursework Policy.
+
+(1) The embedded courses in this sequence are:
+
+(a) the Graduate Certificate in Biostatistics
+
+(b) the Graduate Diploma in Biostatistics
+
+(c) the Master of Biostatistics.
+
+(2) Providing candidates satisfy the admission requirements and progression rules for each stage, a candidate may progress to the award of any of the courses in this sequence and receive full credit for work completed in the prior award (subject to coursework time limits). Only the longest award completed will be conferred.
+
+(1) Available places will be offered to qualified applicants based on merit, according to the following admissions criteria.
+
+(2) Admission to the Graduate Certificate in Biostatistics requires:
+
+(a) A bachelor's degree in statistics, mathematics, science, psychology, medicine, pharmacy, economics, health sciences or other appropriate discipline from the University of Sydney or equivalent qualification, with assumed knowledge of advanced mathematics concepts.
+
+(3) Admission to the Graduate Diploma in Biostatistics requires:
+
+(a) A bachelor's degree in statistics, mathematics, science, psychology, medicine, pharmacy, economics, health sciences or other appropriate discipline from the University of Sydney or equivalent qualification, with assumed knowledge of advanced mathematics concepts; or
+
+(b) completion of the requirements of the embedded Graduate Certificate in Biostatistics.
+
+(4) Admission to the Master of Biostatistics requires:
+
+(a) a bachelor's degree in statistics, mathematics, science, psychology, medicine, pharmacy, economics, health sciences or other appropriate discipline from the University of Sydney or equivalent qualification with a minimum credit average mark of 65 per cent or equivalent, with assumed knowledge of advanced mathematics concepts; or
+
+(b) completion of the requirements of the embedded Graduate Diploma in Biostatistics with a minimum average mark of 70 per cent across BSTA5002, BSTA5004 and BSTA5210.
+
+(5) In exceptional circumstances, the delegated authority may admit applicants without these qualifications who, in the opinion of the Faculty, have qualifications, evidence of experience and achievement sufficient to successfully undertake the award.
+
+(1) The units of study that may be taken for these awards are set out in the Table of Units of Study: Biostatistics.
+
+(2) To qualify for the award of the Graduate Certificate in Biostatistics a candidate must successfully complete 24 credit points, comprising:
+
+(a) 6 credit points from Epidemiology units of study; and
+
+(b) 18 credit points from Biostatistics Part 1 units of study or Biostatistics Part 2 units of study.
+
+(3) To qualify for the award of the Graduate Diploma in Biostatistics a candidate must successfully complete 48 credit points, comprising:
+
+(b) 30 credit points from Biostatistics Part 1 units of study; and.
+
+(c) a minimum of 6 credit points from Biostatistics Part 2 units of study; and
+
+(d) a maximum of 6 credit points from General Elective units of study.
+
+(4) To qualify for the award of the Master of Biostatistics a candidate must successfully complete 72 credit points, comprising:
+
+(a) 6 credit points of from Epidemiology units of study; and
+
+(b) 30 credit points from Biostatistics Part 1 units of study; and
+
+(c) a minimum of 18 credit points from Biostatistics Part 2; and
+
+(d) a maximum of 12 credit points of General Elective units of study; and
+
+(e) a minimum of 6 credit points of Capstone units of study.
+
+(1) Master of Biostatistics
+
+(a) Candidates must achieve a minimum average mark of 70 per cent across BSTA5002, BSTA5004, and BSTA5210.
+
+(b) Candidates who successfully complete BSTA5002, BSTA5004 and BSTA5210 but do not achieve a minimum average mark of 70 per cent across these units will be eligible for the award of Graduate Diploma in Biostatistics provided the requirements of the award have been met.
+
+(2) Graduate Diploma in Biostatistics:
+
+(a) Candidates who achieve a minimum average mark of 70 per cent across BSTA5002, BSTA5004, and BSTA5210 will be eligible to upgrade to the masters degree.
+
+(3) In exceptional circumstances, the delegated authority may permit candidates who do not satisfy these progression rules to progress in the Master of Biostatistics who, in the opinion of the Faculty, are able to provide evidence of academic achievement sufficient to successfully undertake the longer award.
+
+(1) A candidate for the Master of Biostatistics degree may elect to discontinue study and graduate with the Graduate Diploma in Biostatistics, with the approval of the delegated authority, and provided the requirements of the Graduate Diploma have been met.
+
+(2) A candidate for the Master of Biostatistics degree may elect to discontinue study and graduate with the Graduate Certificate in Biostatistics, with the approval of the delegated authority, and provided the requirements of the Graduate Certificate have been met.
+
+(3) A candidate for the Graduate Diploma in Biostatistics degree may elect to discontinue study and graduate with the Graduate Certificate in Biostatistics, with the approval of the delegated authority, and provided the requirements of the Graduate Certificate have been met.
+
+(1) These resolutions apply to persons who commenced their candidature after 1 January 2025 and persons who commenced their candidature prior to 1 January 2025 who formally elect to proceed under these resolutions.
+
+(2) Candidates who commenced prior to 1 January 2025 should complete the requirements in accordance with the resolutions in force at the time of their commencement.
+
+===== SOURCE: https://www.sydney.edu.au/units/HTIN4005 =====
+Subject: Applied Healthcare Data Science (HTIN4005)
+Credit Points: 6
+Overview: The current health data revolution promises transformative advancements in healthcare services and delivery. However, the data generated are vast and complex. Extracting actionable understanding requires cross-disciplinary engagement between data science with healthcare. This unit explores the computational technologies involved in integrating and making sense of the breath of health data, and their use in better understanding the patient. Students will understand the data challenges presented by the various assays in which patients are quantified, spanning genetic testing to organ imaging. Students will explore how computational and machine learning models can span health data to derive integrated understanding of the links and patterns across them. They will employ such models in performing diagnosis and forecasting disease progression and intervention outcomes, thus enabling personalised medicine and supporting clinical decision making. This unit will develop students' understanding of current healthcare challenges, how these can be framed as data science questions, and how they can engage and apply their knowledge in cross-disciplinary ventures to improve healthcare.
+Learning Outcomes:
+- LO1 . Demonstrate knowledge of the broad range of computational problems in healthcare.
+- LO2 . Use machine learning tools to address the needs in healthcare data science.
+- LO3 . Evaluate the performance of machine learning tools in computational healthcare problems.
+- LO4 . Apply and tailor known machine learning tools for solving new challenging healthcare problems.
+- LO5 . Present the design and evaluation of a machine learning prototype for healthcare data science problems, defining the requirements and describing the design processes and evaluation.
+- LO6 . Communicate and collaborate effectively across technological and healthcare/medicine disciplinary boundaries.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/OCMP5310 =====
+Subject: Principles of Data Science (OCMP5310)
+Credit Points: 6
+Overview: The focus of this unit is on understanding and applying relevant concepts, techniques, algorithms, and tools for the analysis, management and visualisation of data- with the goal of enabling discovery of information and knowledge to guide effective decision making and to gain new insights from large data sets. To this end, this unit of study provides a broad introduction to data management, analysis, modelling and visualisation using the Python programming language. Development of custom software using the powerful, general-purpose Python scripting language; Data collection, cleaning, pre-processing, and storage using various databases; Exploratory data analysis to understand and profile complex data sets; Mining unlabelled data to identify relationships, patterns, and trends; Machine learning from labelled data to predict into the future; Communicate findings to varied audiences, including effective data visualisations. Core data science content will be taught in normal lecture + tutorial delivery mode. Python programming will be taught through an online learning platform in addition to the weekly face-to-face lecture/tutorials. The unit of study will include hands-on exercises covering the range of data science skills above.
+Learning Outcomes:
+- LO1 . select statistical techniques appropriate for evaluation of a predictive model that is based on data analysis, and justify this choice
+- LO2 . select statistical techniques appropriate for summarisation and analysis of a data set, and justify this choice
+- LO3 . apply concepts and terms from social science to describe and analyse the role of a data analysis task in its organisational context
+- LO4 . understand the role of data science in decision-making
+- LO5 . understand the technical issues that are present in the stages of a data analysis task and the properties of different technologies and tools that can be used to deal with the issues
+- LO6 . process large data sets using appropriate technologies
+- LO7 . carry out (in guided stages) the whole design and implementation cycle for creating a pipeline to analyse a large heterogenous dataset
+- LO8 . seek details of how to use a method or tool in the data analytic process
+- LO9 . communicate the results produced by an analysis pipeline, in oral and written form, including meaningful diagrams
+- LO10 . communicate the process used to analyse a large data set, and justify the methods used
+Assessment Tasks:
+- Project Stage 1: Data Acquisition, Cleaning, Summarisation and Analysis Project proposal, obtain data and clean it. Summarise data and conduct data: 15%: Week 03 Due date : 15 Mar 2026 at 23:59% (Hurdle: False)
+- Project Stage 2: Predictive Model & Final Report Develop and evaluate predictive model; submission of project report: 15%: Week 05 Due date : 29 Mar 2026 at 23:59% (Hurdle: False)
+- Online Project Presentation Project Stage 3: Online Oral Presentation: 10%: Week 06 Due date : 02 Apr 2026 at 23:59% (Hurdle: False)
+- Final Exam Monitored (proctored) exam in Canvas: 50%: Week 08 Due date : 13 Apr 2026 at 18:30% (Hurdle: False)
+- Weekly Review Quizzes Weekly Canvas quiz on concepts taught in this course. No late submission.: 10%: Weekly% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/OCMP5329 =====
+Subject: Deep Learning (OCMP5329)
+Credit Points: 6
+Overview: This course provides an introduction to deep machine learning, which is rapidly emerging as one of the most successful and widely applicable set of techniques across a range of applications. Students taking this course will be exposed to cutting-edge research in machine learning, starting from theories, models, and algorithms, to implementation and recent progress of deep learning. Specific topics include: classical architectures of deep neural network, optimization techniques for training deep neural networks, theoretical understanding of deep learning, and diverse applications of deep learning in computer vision.
+Learning Outcomes:
+- LO1 . Students will be able to demonstrate and build deep neural networks using fundamental layers and modules
+- LO2 . Students will be able to explain the principles and insights behind optimization and regularization techniques of deep neural networks
+- LO3 . Students will be able to compare different deep learning architectures, including MLP, CNN, RNN, Transformer, and GNN, as well as their characteristics
+- LO4 . Students will be able to implement and train various deep learning models with codes
+- LO5 . Student will get familiar with application scenarios and recent research of deep learning
+Assessment Tasks:
+- Final Project (Project Abstract) Final Project (Project Abstract): 6%: Week 03 Due date : 15 Mar 2026 at 23:59% (Hurdle: False)
+- Coding Assignment Coding Assignment: 40%: Week 04 Due date : 22 Mar 2026 at 23:59% (Hurdle: False)
+- Final Project (Progress Check) Final Project (Progress Check): 6%: Week 06 Due date : 02 Apr 2026 at 23:59% (Hurdle: False)
+- Final Project (Final Report and Codes) Final Project (Final Report and Codes): 48%: Week 08 Due date : 19 Apr 2026 at 23:59% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/PUBH5010 =====
+Subject: Epidemiology Methods and Uses (PUBH5010)
+Credit Points: 6
+Overview: This unit provides students with core skills in epidemiology, particularly the ability to critically appraise public health and clinical epidemiological research literature regarding public health and clinical issues. This unit covers: study types; measures of frequency and association; measurement bias; confounding/effect modification; randomized trials; systematic reviews; screening and test evaluation; infectious disease outbreaks; measuring public health impact and use and interpretation of population health data. All classes and the end of semester exam are held in real time (live), and may be taken face to face or on-line, depending upon enrolment mode. Classes consist of a one-hour lecture/seminar and two-hour tutorial each week. Student attendance is expected at all classes. Students are expected to spend an additional one hour each week watching a pre-recorded lecture and at least three to four hours each week preparing for their classes.
+Learning Outcomes:
+- LO1 . identify whether the hypothesis of a paper is concerned with the efficacy of intervention, causality, test accuracy, or determining the magnitude of the health problem
+- LO2 . identify which study type has been used, and judge how this affects the interpretation of the results
+- LO3 . calculate and interpret measures of disease frequency and measures of association
+- LO4 . identify and assess the implications of the main forms of bias (selection, measurement, confounding, lead time, and length time) in epidemiological and clinical medicine research
+- LO5 . distinguish which of the methodological flaws in any paper are the most important
+- LO6 . assess the overall quality of a research paper or report concerned with defining the magnitude of a health problem, evaluating the effect of a health intervention, causal inference, evaluating screening tests, and interpreting their use in different populations
+- LO7 . assess the reliability, validity, and efficacy of a diagnostic test
+- LO8 . (critically) appraise and use a systematic review
+- LO9 . assess infectious disease outbreaks
+- LO10 . identify and interpret key sources of population health data.
+Assessment Tasks:
+- Final exam Written examination: 60%: Formal exam period% (Hurdle: False)
+- Tutorial quiz Short answer or multiple choice quiz - IN CLASS - student must be present.: 5%: Multiple weeks% (Hurdle: False)
+- Mid-term assessment Written assessment: 25%: Week 06 Due date : 05 Apr 2026 at 23:59 Closing date : 15 Apr 2026% (Hurdle: False)
+- Weekly quizzes Online quizzes: 10%: Weekly% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/PUBH5018 =====
+Subject: Introductory Biostatistics (PUBH5018)
+Credit Points: 6
+Overview: This unit of study is no longer offered. Refer to your handbook for alternative units available in your course.
+Learning Outcomes:
+- LO1 . choose appropriate measures to summarise data using tables and graphs
+- LO2 . create simple tables and graphs following guidelines for clear presentation
+- LO3 . determine and calculate the appropriate summary statistics to summarise different types of distributions
+- LO4 . understand and explain the concepts of sampling and sampling distributions
+- LO5 . choose the appropriate hypothesis test to apply based on the type of data collected and the design of the study
+- LO6 . calculate and interpret confidence intervals for various measures of effects (e.g. single mean, difference in means, difference in proportions)
+- LO7 . conduct and interpret simple hypothesis tests (e.g. one sample t-test, two-sample t-test, Chi-squared test)
+- LO8 . understand and explain the difference between statistical significance and practical importance
+- LO9 . carry out simple statistical methods using statistical software
+- LO10 . interpret the output produced by statistical software
+- LO11 . write concise descriptions that summarise the results from a statistical analysis
+- LO12 . determine the sample size requirements for simple studies.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/PUBH5125 =====
+Subject: Environmental and Social Epidemiology (PUBH5125)
+Credit Points: 6
+Overview: Our environment comprises not only the physical environment (air, water, soil, the built environment), but also the social and economic environment. These environments play a critical role in determining our health and wellbeing, while the associated health impacts are compounded by advancing climate change and growing inequality. This unit provides students with a conceptual and practical understanding of how epidemiologists can study how these environments effect the health of populations and how these effects are distributed using real-world examples. Students will be introduced to analysis and visualisation of various socioeconomic, environmental and health data including spatial data involving Geographic Information Systems (GIS) for mapping using both R Statistical Software and QGIS. While the unit has a strong quantitative focus it does not require high level technical skills from the outset. Throughout the semester students will learn from various experts in the field and attend live (online) tutorials to develop practical skills as well as engage in critical discussions on key concepts and interpretation of evidence.
+Learning Outcomes:
+- LO1 . Describe and apply the principles of environmental and social epidemiology to the assessment of health risks from environmental hazards and societal characteristics
+- LO2 . Describe and apply epidemiological study designs relevant to environmental hazards and societal characteristic including those not frequently used in other epidemiological fields (eg: clinical epidemiology)
+- LO3 . Apply the principles of environmental and social exposure assessment as they relate to individuals and populations incorporating spatial and / or temporal variation in exposure to environmental hazards and societal characteristic.
+- LO4 . Identify sources of measurement error in exposure, health outcomes and confounders, describe methods for minimising bias and appreciate the implications of these issues for environmental and social epidemiological analyses and interpretation of study results.
+- LO5 . Identify and critically appraise environmental and social epidemiological literature on potential environmental hazards to health
+- LO6 . Appreciate the importance of different subdisciplines in environmental and social epidemiology (eg: exposure science, epidemiology, toxicology, sociology, and risk assessment) and potential career opportunities
+Assessment Tasks:
+- Tutorial Assessment #1 Written answers to 2 or 3 questions.: 5%: Week 03 Due date : 16 Mar 2025 at 23:59% (Hurdle: False)
+- Tutorial Assessment #2 Written answers to 2 or 3 questions: 5%: Week 05 Due date : 30 Mar 2025 at 23:59% (Hurdle: False)
+- Tutorial Assessment #3 Written answers to 2 or 3 questions.: 5%: Week 06 Due date : 06 Apr 2025 at 23:59% (Hurdle: False)
+- Tutorial Assessment #4 Written answer to 2 or 3 questions.: 5%: Week 07 Due date : 13 Apr 2025 at 23:59% (Hurdle: False)
+- Tutorial Assessment #5 Written answers to 2 or 3 questions.: 5%: Week 08 Due date : 16 Apr 2025 at 23:59% (Hurdle: False)
+- Data Analysis Report Written assessment - write up of data analysis based on tutorial work.: 30%: Week 09 Due date : 04 May 2025 at 23:59% (Hurdle: False)
+- Environmental Epidemiology Study Proposal Written assessment - epidemiological study proposal of environmental hazard: 40%: Week 12 Due date : 25 May 2025 at 23:59% (Hurdle: False)
+- Tutorial Assessment #6 Written answers to 2 or 3 questions.: 5%: Week 13 Due date : 01 Jun 2025 at 23:59% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/PUBH5312 =====
+Subject: Health Economic Evaluation (PUBH5312)
+Credit Points: 6
+Overview: The overall aim of the course is to develop students' knowledge and skills of economic evaluation as an aid to priority setting in health care. Students will be introduced to the principles of economic evaluation and develop skills in the application of those principles to resource allocation choices. Emphasis will be placed on learning by case study analysis and problem solving in small groups. This unit covers: principles and different types of economic evaluation; critical appraisal guidelines; measuring and valuing benefits; methods of costing; modeling in economic evaluation, the role of the PBAC, introduction to advanced methods including use of patient-level data and data linkage. The workshops consist of interactive lectures, class exercises and quizzes.
+Learning Outcomes:
+- LO1 . appreciate basic concepts of decision making and economic evaluation
+- LO2 . perform a basic economic evaluation
+- LO3 . demonstrate an understanding the principles of appraisal in the assessment of economic evaluations
+- LO4 . demonstrate an understanding of the basic principles of decision modeling
+- LO5 . apply the methods of economic evaluation to designing an economic evaluation of a health care program.
+Assessment Tasks:
+- A1: Workshop 1 exercises Completion of Workshop 1 worksheet exercise tasks: 2.5%: Week 05 Due date : 06 Sep 2026 at 23:59% (Hurdle: False)
+- A2: Presentation Recorded powerpoint presentation: 5%: Week 06 Due date : 13 Sep 2026 at 23:59% (Hurdle: False)
+- A3: Short answer & critical appraisal assignment Short answers and critical appraisal: 35%: Week 07 Due date : 20 Sep 2026 at 23:59% (Hurdle: False)
+- A4: Workshop 2 exercises Completion of Workshop 2 worksheet exercise tasks: 2.5%: Week 09 Due date : 11 Oct 2026 at 23:59% (Hurdle: False)
+- A4: Online quiz Online quiz: 5%: Week 10 Due date : 15 Oct 2026 at 23:59% (Hurdle: False)
+- A5: Protocol report Written assessment: 50%: Week 12 Due date : 01 Nov 2026 at 23:59% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/PUBH5505 =====
+Subject: Qualitative Research in Health (PUBH5505)
+Credit Points: 6
+Overview: This unit of study is no longer offered. Refer to your handbook for alternative units available in your course.
+Learning Outcomes:
+- LO1 . Understand the value of qualitative research;argue for the value and usefulness of qualitative research
+- LO2 . understand and apply the principles underlying qualitative study design
+- LO3 . understand and apply qualitative data collection principles, and evaluate personal data collection skills
+- LO4 . understand the principles shaping qualitative research practice, and justify research practice decisions in relation to these principles
+- LO5 . understand qualitative data analysis principles, and analyse qualitative data at an introductory level
+- LO6 . evaluate the quality and contribution to knowledge of published qualitative literature.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/PUBH5506 =====
+Subject: Advanced Qualitative Analysis and Writing (PUBH5506)
+Credit Points: 6
+Overview: This unit of study is no longer offered. Refer to your handbook for alternative units available in your course.
+Learning Outcomes:
+- LO1 . understand, explain and apply fundamental principles underlying qualitative analysis
+- LO2 . explain the differences between key analytic methods
+- LO3 . systematically implement the key steps of an analytic method to a set of data
+- LO4 . develop an analytic argument in a piece of qualitative writing and use data appropriately to advance this argument
+- LO5 . understand and apply feedback on your analytic work and writing
+- LO6 . apply techniques to improve the quality of your academic writing
+- LO7 . apply techniques to improve your academic writing productivity
+Assessment Tasks:
+Workload: 
+

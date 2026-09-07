@@ -1,0 +1,362 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/BADAN =====
+# Bachelor of Applied Data Analytics (BADAN)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: BADAN
+- **Academic Year**: 2027
+- **Career / Study Level**: Undergraduate
+- **Program Duration**: 3 year full-time
+- **Minimum Units Required**: 144 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal BAppDataAnalyt
+- **CRICOS Code**: code 094621D
+- **UAC Code**: code 135801 (B Applied Data Analytics)
+- **Field of Education**: of Education Information Technology
+- **Academic Contact**: contact Dr Kerry Taylor
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/BADAN
+
+## Program Description
+A single three year undergraduate award offered by theANU College of Systems and Society
+
+Applicants with an ANU selection rank of90or above are guaranteed admission (subject to meeting any prerequisites).
+
+We consider the unique circumstances and experiences of all applicants. You may be eligible for adjustment factors that recognise educational disadvantages, personal challenges or other barriers that may have impacted your studies.
+
+Learn more about adjustments >
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Select, adapt, apply, and communicate advanced data analytics methods and techniques;
+2. Apply data analytics to decision making about policy, business and service delivery;
+3. Examine current issues in data analytics using leading-edge research and practices in the field;
+4. Demonstrate strong cognitive, technical, and communication skills to work independently and collaboratively to collect, process, interpret and communicate the outcomes of data analytics problems; and
+5. Communicate complex data analytics outcomes to diverse audiences.
+
+## Program Requirements & Study Options
+### Program Requirements
+The Bachelor of Applied Data Analytics requires the completion of 144 units, of which:
+
+### Elective Study
+Once you have met the program requirements of your degree, you may have enough electives to complete an additional elective
+major
+,
+minor
+or
+specialisation
+.
+
+### Study Options
+Year 1
+48 units
+COMP1100
+Programming as Problem Solving
+6 units
+MATH1013
+Mathematics and Applications 1
+6 units
+Elective
+6 units
+Elective
+6 units
+COMP1110
+Structured Programming
+6 units
+COMP2400
+Relational Databases
+6 units
+SOCR1001
+Foundations of Social Research
+6 units
+MATH1014
+Mathematics and Applications 2
+6 units
+Year 2
+48 units
+COMP3425
+Data Mining
+6 units
+STAT2001
+Introductory Mathematical Statistics
+6 units
+DEMO2002
+Population Analysis
+6 units
+Elective
+6 units
+COMP3430
+Data Wrangling
+6 units
+STAT2008
+Regression Modelling
+6 units
+SOCY2169
+Elective
+6 units
+Year 3
+48 units
+SOCR3001
+Data for Decision Making
+6 units
+STAT3040
+Statistical Learning
+6 units
+SOCY3005
+or
+SOCY2166
+(winter)
+6 units
+Elective
+6 units
+STAT3011
+Graphical Data Analysis
+6 units
+Elective
+6 units
+Elective
+6 units
+Elective
+6 units
+
+### Admission Requirements
+At a minimum, all applicants must meet program-specific academic/non-academic requirements, and English language requirements. Admission to most ANU programs is on a competitive basis. Therefore, meeting all admission requirements does not guarantee entry into the program.
+
+### Prerequisites
+There are no formal program prerequisites. But assumed knowledge is:-ACT: Mathematical Methods (Major)/Further Mathematics/Specialist Mathematics (major)/Specialist Methods or NSW: HSC Mathematics Advanced or equivalent. More information about interstate subject equivalencies can be found
+here
+.
+
+### Inherent Requirements
+Information on inherent requirements is currently not available for this program
+
+### Electives
+If you are in the single degree then in your first year you have two university electives to choose. University electives can be additional computing courses, or courses from anywhere in the university.
+To find 1000-level (first year) elective courses, use the catalogue search.
+If you have an interest in another area (e.g. management, science, languages) then you should explore first year courses in these areas and in particular, look at the majors and minors in these areas. These will give you an idea of the first year courses that you should study.
+If you are studying a Flexible Double degree and want to “double count a course” so that you can choose electives please speak to CECS Student Services for course approvals.
+For more information about subject choices visit:
+Bachelor of Applied Data Analytics | ANU College of Engineering, Computing & Cybernetics
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1100 =====
+Subject: Programming as Problem Solving (COMP1100)
+Credit Points: 6 units
+Overview: This course is the first of three core computer science courses on programming. It introduces students to the field of computer science as a discipline for solving problems through computation and provides the foundation for more advanced courses on programming and software development. Data structures and algorithms, the key concepts at the core of computer science, receive their first treatment in this course.
+
+The course covers functional programming in depth, developing the core idea of functions operating on data structures. Students learn the organization of programming languages using types, how programs are evaluated (reduction), functional composition, recursive functions, algebraic data types, pattern matching, parametric polymorphism, higher-order functions. Students also gain exposure to asymptotic analysis of basic data structures, abstract data types, modules, laziness, and streams. The functional paradigm demonstrates elegant solutions to many programming problems.
+
+The course also introduces students to standard productivity tools for software development that will be used throughout the course and remainder of the computer science degree. These include distributed software revision control systems.
+
+The Advanced version of this course covers these topics in more depth, allowing students to deepen their understanding and experience.
+Learning Outcomes:
+- Apply fundamental programming concepts, using a functional programming language, to solve problems.
+- Understand basic types and the benefits of static typing.
+- Describe, understand and evolve programs, via documentation, testing, and debugging.
+- Discuss, use, and apply the fundamentals of data structures, algorithms, and design; create, implement, and debug algorithms for solving problems, including recursively, using divide-and-conquer, and via decomposition.
+- Discuss basic algorithmic analysis for simple algorithms; determine appropriate algorithmic approaches to a problem (for example bruteforce, greedy, divide-and-conquer, recursive backtracking, heuristic, dynamic programming).
+- Understand and apply the concepts of parametric and ad-hoc polymorphism
+Assessment Tasks:
+- Assignments: 30% (Hurdle: False)
+- Lab Assessment: 5% (Hurdle: False)
+- Mid-term quiz: 10% (Hurdle: True)
+- Final Exam: 55% (Hurdle: True)
+Workload: Lectures, tutorial/laboratory sessions and self study to work through the material, prepare for labs, and complete assignments to reach a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP1110 =====
+Subject: Structured Programming (COMP1110)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP2400 =====
+Subject: Relational Databases (COMP2400)
+Credit Points: 6 units
+Overview: This course is an introduction to relational databases and the general skills for designing and using them. Topics include the relational data model, SQL, data modelling tools such as the entity-relationship model, functional dependencies, and (de-)normalisation, query processing and optimisation, and potential social and economic impacts of database design, for instance through (in-)security. Current development of database systems based on models other than the relational (known asNoSQL databases) will be introduced at the end of the course.
+Learning Outcomes:
+- Describe the basic concepts of the relational model and its mathematical foundation.
+- Connect database design with social and economic impacts including security, ethics, and Australian Privacy Principles.
+- Use SQL to define, query and manipulate a relational database, and describe principles of SQL query processing and optimisation.
+- Use data modelling concepts and practices to create, evaluate and communicate relational database designs, collaboratively and individually.
+Assessment Tasks:
+- In-class activities and quizzes: 10% (Hurdle: False)
+- Assignments: 30% (Hurdle: False)
+- Final Exam: 60% (Hurdle: False)
+Workload: Lectures and laboratory sessions plus self study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP3425 =====
+Subject: Data Mining (COMP3425)
+Credit Points: 6 units
+Overview: Massive amounts of data are being collected by public and private organisations, and research projects, while the Internet provides a very large source of information about almost every aspect of human life and society. Analysing such data can provide significant benefits to an organisation. This course provides a practical focus on the technology and research in the area of data mining. It focuses on the algorithms and techniques and less on the mathematical and statistical foundations.
+Learning Outcomes:
+- Critically analyse and justify the steps involved in the data mining process.
+- Anticipate and identify data issues related to data mining.
+- Test and apply the principal algorithms and techniques used in data mining.
+- Justify suitable techniques to use for a given data mining problem.
+- Appraise and reflect upon the results of a data mining project using suitable measurements.
+- Reflect upon ethical and social impacts of data mining.
+Assessment Tasks:
+- Written and practical assignments and quizzes: 50% (Hurdle: False)
+- Final examination: 50% (Hurdle: False)
+Workload: The workload for the course is 130 hours, including reading, the viewing of online course material, participation in face-to-face lectures, practical labs and tutorials, and preparation for assessments.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP3430 =====
+Subject: Data Wrangling (COMP3430)
+Credit Points: 6 units
+Overview: Real-world data are commonly messy, distributed, and heterogeneous. This course introduces core concepts of data cleaning, standardisation, and data integration, that are aimed at converting and mapping raw data into other formats that allow more efficient and convenient use and analysis of data. The courses also discusses data quality, management, and storage issues as relevant to data analytics.
+Learning Outcomes:
+- Critically reflect upon different data sources, types, formats and structures,
+- Justify and apply data cleaning, preprocessing, and standardisation for data analytics,
+- Apply data integration concepts and techniques to heterogeneous and distributed data,
+- Interpret, assess and discuss data quality measurements,
+- Understand and be able to use advanced data wrangling, data integration, and database techniques as relevant to data analytics.
+Assessment Tasks:
+- Written and practical assignments: 30% (Hurdle: False)
+- Oral presentation and report: 20% (Hurdle: False)
+- Final examination: 50% (Hurdle: False)
+Workload: Inherent Requirements
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/DEMO2002 =====
+Subject: Population Analysis (DEMO2002)
+Credit Points: 6 units
+Overview: This course provides the basic analytical foundation for understanding societal change. It focuses on the key measures and techniques used to study the diversity of demographic change occurring in Australia and throughout the world. This includes methods for analysing fertility, mortality, migration and population compositions. The construction of life tables and populations projections are also introduced.
+Learning Outcomes:
+- understand the processes that cause demographic change;
+- apply and critique various methods and concepts to study population change;
+- interpret various demographic measures;
+- analyse demographic data; and
+- access various demographic data sources and understand their relative strengths and weaknesses.
+Assessment Tasks:
+- Group exercise: 25% (Hurdle: False)
+- Examinations x 2: 50% (Hurdle: False)
+- Class participation, including weekly in-lab demographic methods application: 25% (Hurdle: False)
+Workload: 130 hours of total student learning time made up from:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1013 =====
+Subject: Mathematics and Applications 1 (MATH1013)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH1014 =====
+Subject: Mathematics and Applications 2 (MATH1014)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/SOCR1001 =====
+Subject: Foundations of Social Research (SOCR1001)
+Credit Points: 6 units
+Overview: This course examines key issues and assumptions in social research. It covers areas such as: formulating social research questions; operationalisation of concepts; validity; theory testing and theory construction; and strategies of analysis of social research.
+Learning Outcomes:
+- identify a social scientific research question;
+- recognise what makes for valid social science research;
+- distinguish different forms of social science research data;
+- recognise different types of social science research methods; and,
+- critically read and understand the results of social science research.
+Assessment Tasks:
+- Synoptic Essay, 1000 words: 20% (Hurdle: False)
+- Critical Analysis of Research, 2 x 750 words: 30% (Hurdle: False)
+- Research Essay, 2000 words: 40% (Hurdle: False)
+- Tutorial Participation: 10% (Hurdle: False)
+Workload: Inherent Requirements
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/SOCR3001 =====
+Subject: Data for Decision Making (SOCR3001)
+Credit Points: 6 units
+Overview: This course will provide students with an understanding of how data is currently used to inform decision making and how data might be used more effectively to inform business, service delivery and policy questions. The course will build on student knowledge across a range of analytical techniques with a focus on the practical application of these techniques to real world problems. It is structured around a number of case studies drawn from business, the community sector and the public sector. Key themes include:
+Learning Outcomes:
+- interpret data to inform real world decisions;
+- understand the assumptions, strengths and limitations of different types of data for informing decision making;
+- develop robust analytical questions and identify the most effective techniques to answer these questions;
+- communicate complex data to a non-specialist audience; and,
+- assess the robustness of data for decision making.
+Assessment Tasks:
+- Class participation: 10% (Hurdle: False)
+- Written Critique: 30% (Hurdle: False)
+- Data Report: 40% (Hurdle: False)
+- Oral presentation of data report: 20% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/SOCY2166 =====
+Subject: Social Science of the Internet (SOCY2166)
+Credit Points: 6 units
+Overview: The internet, and in particular the web and social media, has transformed the way we socialise, participate in politics, work, collaborate, and engage in commerce. This course focuses on the contribution of social science at large – emphasising classical sociology and social network analysis – to understanding life in the Digital Age. While attention is paid to relevant insights and approaches from other disciplines, for example applied physics and computer science, the primary focus is on theoretical and empirical contributions from social science. This course equips students with the theory and methods for understanding the social, political and economic impact of the internet. Students will also learn how network analysis and big data are being used to answer long-standing questions in social science.
+Learning Outcomes:
+- critically assess the social, political and economic impact of the Internet;
+- understand how big data are being used to answer long-standing social science research questions;
+- conduct basic social network analysis;
+- research available data, tools and methods for studying online social behaviour; and
+- compare social scientific approaches to studying the Internet with those from other disciplines.
+Assessment Tasks:
+- Online quizzes: 20% (Hurdle: False)
+- Social network analysis problem set and research note: 30% (Hurdle: False)
+- Final examination: 50% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/SOCY3005 =====
+Subject: Quantitative Projects for Inclusion and Diversity (SOCY3005)
+Credit Points: 6 units
+Overview: In today's globalised world, fostering inclusive and equitable cultures in workplaces and educational institutions is more critical than ever. The Australian National University (ANU) recognises the significance of creating a diverse and inclusive environment and is committed to becoming a national leader in this area. This course examines the latest research on institutional equity, diversity, equity, and inclusion (EDI), enabling students to develop transdisciplinary problem-solving skills to address the remaining barriers.
+
+The course draws on sociological concepts of gender, ethnicity, socio-economic status, social closure and intersectionality, which serve as the foundation for student collaborative research. Additionally, students develop skills to use and critically assess quantitative methods used to generate EDI data. Two distinct streams are available: the beginner stream and the application stream for students with prior exposure to computational and statistical methods.
+
+The main objective of this course is to enable participants to learn, share, consolidate and apply a range of EDI theories and quantitative methodologies used by social scientists and data scientists, including the use of appropriate software. The unit adopts a student-centred approach, with teaching and learning centred around a research project designed and completed individually or in teams throughout the course. By the end of the semester, students will have acquired the practical skills and theoretical knowledge necessary to advance EDI practices in diverse institutional settings.
+Learning Outcomes:
+- collaborate to critically assess the leading theories and methodologies used in studies of equity, diversity and inclusion;
+- understand the study design and ethical considerations in research on equity, diversity and inclusion;
+- design a small project aimed at solving an EDI problem, using appropriate methodologies and computational approaches;
+- utilise appropriate cross-disciplinary approaches and computational software to complete an EDI research project; and
+- collect primary data or analyse secondary data and present the project's findings to non-technical audiences.
+Assessment Tasks:
+- Research Project Proposal: 20% (Hurdle: False)
+- Research Project Report: 40% (Hurdle: False)
+- Lectures and Readings Quizzes 2 x 10%: 20% (Hurdle: False)
+- Workshop Participation: 20% (Hurdle: False)
+Workload: There are 130 total hours of student learning time, which includes both scheduled class time and self-directed study. Contact time with students may consist of lectures, workshops, seminars, tutorials, and group work.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT2001 =====
+Subject: Introductory Mathematical Statistics (STAT2001)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT2008 =====
+Subject: Regression Modelling (STAT2008)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT3011 =====
+Subject: Graphical Data Analysis (STAT3011)
+Credit Points: 6 units
+Overview: This course introduces the principles of data representation, summarisation and presentation with particular emphasis on the use of graphics. The course will use the R Language in a modern computing environment. Topics to be discussed include:
+Learning Outcomes:
+- Demonstrate working knowledge of the R statistical computing language, particularly graphical capabilities.
+- Explain and be able to apply the principles of good data representation.
+- Explain and be able to use various graphics environments, interactive graphics and graphics objects.
+- Construct graphical representations of one dimensional data.
+- Construct graphical representations for multivariate data including scatterplots, and dynamic graphics.
+- Use diagnostic plots when conducting statistical modelling to explore and refine statistical models for data, including explanations of such use.
+- Construct and interpret graphical displays for dependent data.
+Assessment Tasks:
+- Typical assessment may include, but is not restricted to: exams, assignments, quizzes, presentations and other assessment as appropriate: 100% (Hurdle: False)
+Workload: Students are expected to commit 130 hours of work in completing this course. This includes time spent in scheduled classes and self-directed study time.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT3040 =====
+Subject: Statistical Learning (STAT3040)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+

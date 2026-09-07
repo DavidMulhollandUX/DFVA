@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in communication and media studies.",
+    "evidenceLines": [
+      "**Institution**: The University of Sydney (USYD)",
+      "**Course / Program Identifier**: digital-communication-culture",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in communication and media studies.",
+    "evidenceLines": [
+      "**Academic Year**: 2026",
+      "**Handbook URL**: https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/digital-communication-culture.html",
+      "- **Course / Program Identifier**: digital-communication-culture"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within communication and media studies.",
+    "evidenceLines": [
+      "Subject: Creative Coding (IDEA9103)",
+      "Subject: Computing 1A Professionalism (INFO1111)",
+      "prerequisites required); or"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in communication and media studies.",
+    "evidenceLines": [
+      "LO1 . Apply fundamental programming constructs (variables, control flow, functions, and arrays) to construct interactive JavaScript programs",
+      "LO2 . Understanding the design and development ecosystem of digital Analyse and debug JavaScript programs to identify and resolve errors in logic and syntaxproducts",
+      "- **Handbook URL**: https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/digital-communication-culture.html"
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in communication and media studies.",
+    "evidenceLines": [
+      "Subject: Understanding IT Innovations (INFO5992)",
+      "Subject: News Writing (MECO6900)",
+      "LO3 . Understand the design and development ecosystem of digital interactive products"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in communication and media studies.",
+    "evidenceLines": [
+      "LO4 . Understanding the principles of creative coding",
+      "- **Institution**: The University of Sydney (USYD)",
+      "- **Course / Program Identifier**: digital-communication-culture"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in communication and media studies.",
+    "evidenceLines": [
+      "LO5 . Developing programming skills for visual and information design",
+      "Subject: Dissertation Part 1 (MECO6904)",
+      "- **Handbook URL**: https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/digital-communication-culture.html"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "These core units explore key themes in Digital Communication and Cultures:",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Digital Communication and Culture.",
+      "evidenceLines": [
+        "These core units explore key themes in Digital Communication and Cultures:",
+        "Students complete 72 credit points, including:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in communication and media studies.",
+      "evidenceLines": [
+        "Subject: Creative Coding (IDEA9103)",
+        "**Institution**: The University of Sydney (USYD)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

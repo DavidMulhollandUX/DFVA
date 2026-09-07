@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in public health.",
+    "evidenceLines": [
+      "Understand the importance of the acknowledgment and the referencing of sources",
+      "Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.",
+      "Will you help design a healthier - and safer - future?"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in public health.",
+    "evidenceLines": [
+      "Recognise and understand academic integrity responsibilities.",
+      "Explain how the principles of epidemiology and biostatistics can be applied in public health.",
+      "There's never been a more important time to learn about the power of public health."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within public health.",
+    "evidenceLines": [
+      "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+      "Subject: EPIDEMIOLOGY AND BIOSTATISTICS (PHE5EPB)",
+      "Comprehend the fundamental principles of epidemiology and biostatistics."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in public health.",
+    "evidenceLines": [
+      "Explain, differentiate, and apply fundamental concepts of epidemiology and biostatistics.",
+      "Recognise, generate, interpret and communicate descriptive and basic inferential statistics.",
+      "With an ever-increasing need for public health initiatives to prevent and protect the community from diseases, the world needs skilled professionals who understand contemporary public health research and practice."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in public health.",
+    "evidenceLines": [
+      "Subject: HEALTH SYSTEMS (PHE5HHS)",
+      "Subject: PUBLIC HEALTH RESPONSES (PHE5PHR)",
+      "Calculate, interpret and communicate epidemiological measures."
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in public health.",
+    "evidenceLines": [
+      "Analyse the orientation and structure of the health care system in relation to health care provision needs for diverse populations.",
+      "Will you help design a healthier - and safer - future?",
+      "There's never been a more important time to learn about the power of public health."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in public health.",
+    "evidenceLines": [
+      "Compare, contrast and evaluate the rationale and aims of different types of health systems.",
+      "Subject: HEALTH POLICY DEVELOPMENT AND IMPLEMENTATION (PHE5POL)",
+      "With an ever-increasing need for public health initiatives to prevent and protect the community from diseases, the world needs skilled professionals who understand contemporary public health research and practice."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "To qualify for the award of Master of Public Health, students must complete 240 credit points consisting of:",
+      "Will you help design a healthier - and safer - future?"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Public Health.",
+      "evidenceLines": [
+        "To qualify for the award of Master of Public Health, students must complete 240 credit points consisting of:",
+        "120 core credit points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in public health.",
+      "evidenceLines": [
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "Understand the importance of the acknowledgment and the referencing of sources"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

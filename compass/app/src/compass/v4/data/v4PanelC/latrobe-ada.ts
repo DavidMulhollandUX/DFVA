@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in society and culture.",
+    "evidenceLines": [
+      "Reflect critically on your own cultural attitudes, values and beliefs",
+      "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+      "Reflect critically on your own cultural attitudes, values and beliefs"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in society and culture.",
+    "evidenceLines": [
+      "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+      "Understand the need for and value of appropriate and effective intercultural communication",
+      "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within society and culture.",
+    "evidenceLines": [
+      "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+      "Subject: ARCHAEOLOGY OF ANCIENT CIVILISATIONS (ARC1CIV)",
+      "Develop appropriate questions for archaeological case studies"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in society and culture.",
+    "evidenceLines": [
+      "Answer research questions about archaeological case studies using relevant literature on ancient civilisations",
+      "Integrate key methodological and theoretical skills",
+      "Recall important details regarding the history, culture, customs and people of Indigenous Australia"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in society and culture.",
+    "evidenceLines": [
+      "Subject: THE HUMAN JOURNEY: ARCHAEOLOGY AND EVOLUTION (ARC1THJ)",
+      "Subject: INTRODUCTION TO ARCHAEOLOGY: FROM AUSTRALOPITHECUS TO THE ANTHROPOCENE (ARC1WOR)",
+      "Accurately interpret the relationship between variables in a given dataset and draw supported conclusions"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in society and culture.",
+    "evidenceLines": [
+      "Recognise and discuss the cultural diversity of world civilisations and varying attitudes to individual human rights",
+      "Reflect critically on your own cultural attitudes, values and beliefs",
+      "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in society and culture.",
+    "evidenceLines": [
+      "You will be able to interpret differing views on the origins of humans",
+      "Subject: VISIONS OF MODERNITY: ART, FILM AND VISUAL CULTURES (ART1001)",
+      "Recall important details regarding the history, culture, customs and people of Indigenous Australia"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "To qualify for the award of Diploma of Arts, students must complete 120 credit points consisting of: 15 core credit points 30 credit points Level one Humanities and Social Sciences subjects 75 credit points Level one stream or elective subjects",
+      "Reflect critically on your own cultural attitudes, values and beliefs"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Diploma of Arts.",
+      "evidenceLines": [
+        "To qualify for the award of Diploma of Arts, students must complete 120 credit points consisting of: 15 core credit points 30 credit points Level one Humanities and Social Sciences subjects 75 credit points Level one stream or elective subjects",
+        "To qualify for the award of Diploma of Arts, students must complete 120 credit points consisting of:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in society and culture.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Reflect critically on your own cultural attitudes, values and beliefs"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

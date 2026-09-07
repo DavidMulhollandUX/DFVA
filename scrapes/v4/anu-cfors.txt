@@ -1,0 +1,386 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/CFORS =====
+# Graduate Certificate of Forests (CFORS)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: CFORS
+- **Academic Year**: 2027
+- **Career / Study Level**: Postgraduate
+- **Program Duration**: 0.5 years
+- **Minimum Units Required**: 24 Units
+- **Mode of Delivery**: of delivery Multi-Modal
+- **Post Nominal**: Nominal GCFor
+- **CRICOS Code**: code NO CRICOS
+- **UAC Code**: N/A
+- **Field of Education**: of Education Forestry Studies - general
+- **Academic Contact**: contact Dr Sara Beavis
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/CFORS
+
+## Program Description
+A single graduate award offered by theANU College of Systems and Society
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Demonstrate a broad knowledge and cognitive skills across a range of contemporary issues and challenges in the forest sciences and forest management.
+2. Apply skills to engage with interdisciplinary approaches and multiple stakeholders.
+3. Effectively communicate knowledge and understanding of forest systems, policy and management options to diverse audiences in both written and oral formats.
+
+## Program Requirements & Study Options
+### Program Requirements
+The Graduate Certificate of Forests requires the completion of 24 units, which must consist of:
+
+### Admission Requirements
+Applicants must present one of the following:
+
+### Inherent Requirements
+None specifically identified for this program but applicants should be aware that some courses may have inherent requirements and are advised to check the individual course entries in the Programs and Courses catalogue.
+
+## Faculty Governance & Academic Quality
+Programs at The Australian National University (ANU) are governed under the Australian National University Act 1991, the Higher Education Standards Framework (Threshold Standards) 2021, and the Australian Qualifications Framework (AQF). Academic oversight is maintained by the Academic Board and responsible ANU Academic Colleges to ensure rigorous curriculum alignment, constructive alignment of learning outcomes, and assessment integrity.
+
+### Research-Led Education & Disciplinary Training
+As Australia's national university and a core member of the Group of Eight (Go8), ANU programs integrate active research methodologies into core undergraduate and postgraduate curricula. Students engage directly with primary source scholarship, quantitative and qualitative inquiry, ethical deliberation, and advanced capstone investigations prepared for industry transition or higher degree research.
+
+Official program specifications verified against the ANU Programs and Courses handbook register for the 2027 academic year.
+
+### Program Structure & Prescribed Units of Study
+The following 19 units of study are prescribed for this academic program:
+  * [ COMP6730 Programming for Scientists ](https://programsandcourses.anu.edu.au/course/COMP6730)
+  * [ EMDV8078 Environmental Economics for Public Policy ](https://programsandcourses.anu.edu.au/course/EMDV8078)
+  * [ EMDV8104 Environmental Governance ](https://programsandcourses.anu.edu.au/course/EMDV8104)
+  * [ ENVS6015 GIS and Spatial Analysis ](https://programsandcourses.anu.edu.au/course/ENVS6015)
+  * [ ENVS6020 Human Ecology ](https://programsandcourses.anu.edu.au/course/ENVS6020)
+  * [ ENVS6021 Participatory Resource Management: Working with Communities and Stakeholders ](https://programsandcourses.anu.edu.au/course/ENVS6021)
+  * [ ENVS6025 Complex Environmental Problems in Action ](https://programsandcourses.anu.edu.au/course/ENVS6025)
+  * [ ENVS6026 Managing Forested Landscapes ](https://programsandcourses.anu.edu.au/course/ENVS6026)
+  * [ ENVS6103 Introduction to Environmental and Social Research ](https://programsandcourses.anu.edu.au/course/ENVS6103)
+  * [ ENVS6202 Environmental Measurement, Modelling and Monitoring ](https://programsandcourses.anu.edu.au/course/ENVS6202)
+  * [ ENVS6223 Sustainable Agricultural Systems ](https://programsandcourses.anu.edu.au/course/ENVS6223)
+  * [ ENVS6304 Land and Catchment Management ](https://programsandcourses.anu.edu.au/course/ENVS6304)
+  * [ ENVS6308 Fire in the Environment ](https://programsandcourses.anu.edu.au/course/ENVS6308)
+  * [ ENVS8018 Partnership Research for Agricultural and Natural Resource-Based Development ](https://programsandcourses.anu.edu.au/course/ENVS8018)
+  * [ ENVS8048 Topics in Environment and Society ](https://programsandcourses.anu.edu.au/course/ENVS8048)
+  * [ ENVS8105 Forests Research Essay ](https://programsandcourses.anu.edu.au/course/ENVS8105)
+  * [ MATH6102 Environmental Modelling and Integrated Assessment ](https://programsandcourses.anu.edu.au/course/MATH6102)
+  * [ MGMT7153 Core Leadership ](https://programsandcourses.anu.edu.au/course/MGMT7153)
+  * [ SCNC8000 Science Internship ](https://programsandcourses.anu.edu.au/course/SCNC8000)
+
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6730 =====
+Subject: Programming for Scientists (COMP6730)
+Credit Points: 6 units
+Overview: This course teaches introductory programming, fundamental programming language and computer science concepts, and computational problem solving illustrated with applications common in science and engineering, such as data analysis, visualisation, and image processing. We will take a different approach, including prompting and working with GenAI, with emphasis on testing, debugging and problem decomposition, and using GenAI to help understand code.
+
+These skills will empower students to write software with the aid of GenAI. Assessment will include exam(s) without the aid of GenAI. Students will also create larger software projects with the aid of GenAI. The course does not require any prior knowledge of programming or computer science. It is designed to be a stand-alone computing unit.
+
+Students who wish to study computing courses at a higher level should check course prerequisites as they may need to completeCOMP6710orCOMP7710in addition toCOMP6730.
+Learning Outcomes:
+- Apply advanced programming constructs and structured programming methodologies to develop reliable software systems.
+- Explain key concepts in AI-assisted programming, including Large Language Models (LLMs), prompting, problem decomposition, and top-down design.
+- Apply AI-assisted programming workflows and advanced prompt-engineering techniques to guide, refine, and improve code generated by AI assistants.
+- Analyse the computational complexity of programs, and apply debugging and testing techniques, including black-box and white-box testing.
+- Evaluate and improve code quality using critical judgement.
+- Design and implement complete programs that solve practical problems using structured programming methodologies and AI-assisted prompting.
+- Critically evaluate the role, benefits, limitations, and risks of generative AI in software development projects
+Assessment Tasks:
+- Homework, Assignments and Lab Tests: 20% (Hurdle: False)
+- Programming Project: 20% (Hurdle: False)
+- Final Exam and Mid-semester Test: 60% (Hurdle: False)
+Workload: Lectures, tutorials, assignments, self-study & exam prep for a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/EMDV8078 =====
+Subject: Environmental Economics for Public Policy (EMDV8078)
+Credit Points: 6 units
+Overview: This course examines the 'economic way of thinking' for environmental and resources management. The potential for markets, taxes, and subsidies to address environmental problems is explored across pollution control, water, energy, and climate change, among other areas. Requirements and challenges associated with economic policy instruments are compared to those associated with traditional regulatory-based, or ‘command and control’, mechanisms for dealing with environmental issues. Key economic principles and techniques are applied to contemporary case studies throughout the course, including cost-benefit analysis of infrastructure projects and alternative approaches to managing urban water scarcity. This course will benefit policy-makers and other practitioners who seek to apply, analyse, and/or critique economic approaches to environmental policy, particularly those without previous formal training in economics or experience in applying it to real-world policy challenges.
+Learning Outcomes:
+- Investigate how economic concepts can be applied to environmental and natural resources management.
+- Critically assess the opportunities and challenges of using market-based and traditional regulatory ('command and control) mechanisms to address environmental issues.
+- Analyse the role of economics in the management of natural resources, including water, fisheries, and energy.
+- Critically review cost-benefit analyses in the context of environmental and natural resource policy.
+- Explain the theoretical basis of environmental valuation and how it can be applied to multiple policy settings.
+Assessment Tasks:
+- Workshop assessments: 15% (Hurdle: False)
+- Policy brief: 20% (Hurdle: False)
+- Mid semester  test: 25% (Hurdle: False)
+- Policy report: 40% (Hurdle: False)
+Workload: The standard workload for a 6 unit course is 130 hours including class time and independent study.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/EMDV8104 =====
+Subject: Environmental Governance (EMDV8104)
+Credit Points: 6 units
+Overview: In this course we examine local, national and international environmental governance issues, with a focus on ethical principles, theories and frameworks that may be used to address a wide range of problems relating to environment and development issues, in the domains of biodiversity conservation, climate change, and forests and fisheries management, among others. We consider the organisations, institutions and actors influencing environmental management, and we look for policies and tools to address the problems of environmental degradation and social inequality. A range of resource management approaches are also considered, including common property management, market and non-market incentives for resource management, government regulation and planning, decentralization, and indigenous and community-based initiatives.
+Learning Outcomes:
+- Articulate key theories and frameworks underpinning environmental governance
+- Critically analyse and communicate about environmental governance issues
+- Contribute to the development of solutions to environmental governance problems at the local, national, and global levels
+- Reflect upon the diversity of values, knowledges and practices involved in environmental governance, including First Nations' perspectives
+- Demonstrate a solid understanding of the organisations, institutions and actors influencing environmental management.
+Assessment Tasks:
+- Stakeholder analysis paper: 35% (Hurdle: False)
+- Presentation or podcast: 10% (Hurdle: False)
+- Final essay: 50% (Hurdle: False)
+- Critical commentary: 5% (Hurdle: False)
+Workload: The standard workload for a 6 unit course is 130 hours including class time and independent study.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENVS6015 =====
+Subject: GIS and Spatial Analysis (ENVS6015)
+Credit Points: 6 units
+Overview: This course provides an introduction to Geographic Information Systems (GIS) and is based around a hypothetical, but realistic Environmental Impact Study in a small regional catchment. GIS are widely used by government agencies and research organisations in the environmental sciences and to assist with resource and environmental management decision making, in part due to the rapid growth in the availability of high quality digital spatial data.
+
+This course aims to develop both a solid theoretical understanding and a comprehensive practical grounding through the construction and integration of a range of spatial models. On the satisfactory completion of this course, students will have completed realistic hydrological, erosion, conservation, wildlife habitat, forest, agriculture, fire and economic models within the GIS. The integration of these sub-models to inform decision makers about recommended landuse options will be based on Multi-criteria Evaluation and Multiple Objective Land Use Allocation frameworks.
+
+Note: Graduate students attend joint classes with undergraduate students but are assessed separately.
+Learning Outcomes:
+- Explain the theoretical and practical considerations required for conducting a GIS-based landuse planning analysis for decision support in a professional manner;
+- Prepare, manipulate, display and analyse spatial data;
+- Use Global Positioning System (GPS) data to assist in conducting field checking of satellite imagery;
+- Synthesise and present high quality GIS-based outputs in a report format;
+- Critically assess research papers.
+Assessment Tasks:
+- Progress report: 10% (Hurdle: False)
+- Critical review of journal paper: 20% (Hurdle: False)
+- Test: 20% (Hurdle: False)
+- Final Report: 50% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENVS6020 =====
+Subject: Human Ecology (ENVS6020)
+Credit Points: 6 units
+Overview: The course applies the principles of ecosystem sciences to the study of the human environment. The emphasis is on the significance and function of ecosystems, how humans have affected these systems over time, and what are the opportunities of and barriers to making positive changes. Dynamical systems thinking and the concept of coupled social ecological system is introduced as a powerful means of comprehending the behaviour of these complex situations. Field trips allow students to experience first-hand the complexity of these human-ecological interactions and the challenges of managing them sustainably. In the latter half of the course, human-nature interactions over human history are critically reviewed, including hunter gatherer societies, early agricultural societies and modern globalised urban and industrial societies. Some key contemporary challenges facing humanity in the Anthropocene are presented for critical reflection. Students extend their understanding of one of these challenges in their final research report and presentation.
+
+This course is co-taught with undergraduate students but assessed separately.
+Learning Outcomes:
+- Demonstrate advanced understanding of Human Ecology, including knowledge of the history and background to the topic.
+- Demonstrate advanced understanding of key linkages between ecosystem and social processes and how they relate to human-nature interactions, and to integrate this understanding with knowledge drawn from their own degree backgrounds.
+- Use systems approach to ‘get at' an understanding of the complex, multi-scaled, interactions that characterize human-ecological situations, and their associated problems
+- Apply this understanding in to a significant contemporary challenge facing humanity in the Anthropocene.
+- Communicate human ecological systems approaches to social-environmental challenges to a range of audiences in effective written and oral form.
+Assessment Tasks:
+- Tutorial Participation: 10% (Hurdle: False)
+- Complete Online Systems-Thinking Modules: 10% (Hurdle: False)
+- Field Trip Report: 40% (Hurdle: False)
+- Research Essay: 40% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENVS6021 =====
+Subject: Participatory Resource Management: Working with Communities and Stakeholders (ENVS6021)
+Credit Points: 6 units
+Overview: There is increasing recognition of the need to actively involve different stakeholders and communities in the process of making decisions about natural resource management (NRM). Almost every NRM professional is asked to 'consult' or 'involve' the community when drawing up management plans for resources such as national parks, forests, fisheries, water or mining activities, amongst many others.
+
+This course provides a critical review of participatory resource management (PRM) approaches, exploring when and why different PRM processes succeed and fail to resolve conflicts between stakeholders. Students learn both the theories underpinning different PRM approaches, and practical skills such as group facilitation, stakeholder analysis and how to design and manage participatory processes. A series of guest speakers discuss recently-implemented Australian and international participatory processes, and the class evaluates the factors that affected the success or otherwise of these processes. The course assessment, much of which is based on group-work, is designed to ensure students apply the facilitation skills being taught, and that students can explore topics of particular interest to them in the field of PRM.
+
+Note: Graduate students attend joint classes with undergraduates but are assessed separately.
+Learning Outcomes:
+- Critically analyse the different approaches commonly used in participatory resource management, and the advantages and disadvantages of these different approaches
+- Synthesise and apply the principles and theories underpinning different approaches to participatory resource management in consideration of cultural context and PRM objectives
+- Employ informed methods for the design and implementation of PRM processes. Specifically (a) conduct group facilitation identifying and addressing group behaviour characteristics, (b) effectively design participatory processes for different management and cultural situations applying knowledge of PRM approaches, limitations, principles and theories, and (c) monitor and evaluate the success of participatory processes
+- Critically review literature and ‘real life' examples of participatory processes and conflict resolution in NRM
+- Apply reflexive practices to adequately identify personal and social characteristics and their influence on PRM practice
+Assessment Tasks:
+- Course journal and peer assessment: 30% (Hurdle: False)
+- Practical preparation and facilitation: 15% (Hurdle: False)
+- Group Presentation: 15% (Hurdle: False)
+- Research essay: 40% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the session including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENVS6025 =====
+Subject: Complex Environmental Problems in Action (ENVS6025)
+Credit Points: 6 units
+Overview: This course uses three case studies to develop a multi-faceted, research-based understanding of complex environmental problems that graduating students can apply in future research or work environments. The course emphasises integrative, engaged, and research-based approaches to complexity. The first two cases present complex local and national issues in collaboration with key stakeholders. Students engage with these issues by drawing on a range of theoretical concepts and practical tools. The learning from these cases is then applied to a developing a research project proposal. The focus throughout is on case studies as vehicles for learning and reflection, as well as a testing ground for tools, techniques and approaches discussed in the course.
+
+Note:This course is co-taught with undergraduate students but assessed separately. During the second part of the course graduate students attend specialist case-based tutorials with peers.
+Learning Outcomes:
+- Understand and engage with the methodological and practical challenges posed by complex environmental problems.
+- Critically evaluate the complex nature of environmental problems.
+- Apply higher-level problem solving skills in environmental studies and environmental science, including problem framing, social learning and critical reflection.
+- Create innovative, collaborative research-based responses to complex environmental problems.
+- Understand and apply effective stakeholder engagement practices within a case-based framework.
+- Demonstrate a critical understanding of the case study approach as a means of addressing complexity.
+Assessment Tasks:
+- Learning portfolio #1: 15% (Hurdle: False)
+- Learning portfolio #2: 35% (Hurdle: False)
+- Transdisciplinary project proposal: 40% (Hurdle: False)
+- Transdisciplinary project proposal reflection: 10% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENVS6026 =====
+Subject: Managing Forested Landscapes (ENVS6026)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENVS6103 =====
+Subject: Introduction to Environmental and Social Research (ENVS6103)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENVS6202 =====
+Subject: Environmental Measurement, Modelling and Monitoring (ENVS6202)
+Credit Points: 6 units
+Overview: Ecosystems worldwide are under stress. Global and local assessments of biodiversity continue to report deteriorating ecosystems and species loss. Measuring, monitoring and modelling these changes, as well as designing and analysing experiments aimed at testing potential management actions are central to restoration and conservation responses. Despite the array of attributes ecosystems express, the same broad concepts are consistently called upon when quantitatively expressing change and difference. This course aims to introduce the concepts that underpin quantitative modelling relevant to understanding organismal and ecosystem response and difference. Specifically, this course aims to build on quantitative modelling skills using approaches that underpin the vast majority of ecological studies with an emphasis upon general linear models integrating complex ANOVA and univariate and multivariate least-squares regression, and generalised linear modelling. The intent is to provide the next step (after pre-requisite introductory courses) for students in building competence in widely applicable field-survey, data-handling and statistical methods, delivering an essential skill set for ecology- and environment-based professionals. The partial field focus of the course, and it’s contextual emphasis on vegetated ecosystems, also necessitates the development of field botany skills. We introduce basic concepts associated with the description of floral and leaf forms and their application to consistently differentiating plant families, genera and species with particular emphasis on eucalypt identification.
+
+Note:This course is co-taught with undergraduate students but assessed separately.
+Learning Outcomes:
+- Demonstrate advanced conceptual understanding and ability in, measurement of ecological attributes.
+- Apply understanding of advanced quantitative-analysis concepts and methods, as well as integration of staged modelling techniques in the context of environmental, ecological and experimental data.
+- Effectively communicate process, outcomes of quantitative modelling and interpretation of implications for a management audience.
+- Demonstrate familiarity with, and skill in, botanical traits and use of dichotomous keys for plant identification.
+- Exhibit an appreciation for, and demonstrated capacity in, delivering timely data sets consistent with required measurement/ monitoring protocols.
+Assessment Tasks:
+- Complex ANOVA linear model: 20% (Hurdle: False)
+- Validated allometric model: 20% (Hurdle: False)
+- Two-stage generalised linear modelling: 30% (Hurdle: False)
+- Plant identification practical examination: 20% (Hurdle: False)
+- Data delivery: 10% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the session including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENVS6223 =====
+Subject: Sustainable Agricultural Systems (ENVS6223)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENVS6304 =====
+Subject: Land and Catchment Management (ENVS6304)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENVS6308 =====
+Subject: Fire in the Environment (ENVS6308)
+Credit Points: 6 units
+Overview: Fire is pivotal to the functioning of Australian ecosystems. This course explores a range of important themes concerning bushfires in Australian and international environments. The inter-dependent relationship between fire regimes and biota is explored using evidence from experiments and simulation modelling. An exploration of the sensitivity of fire regimes to natural and human factors then provides a context for exploring the likely effects of climate change and other aspects of global change on future bushfire dynamics. Similarly, it provides context for understanding the role of bushfire management, including cultural and prescribed burning, in modifying fire regimes. These themes are brought together in an analysis of managing likelihood of adverse outcomes from bushfires, including legal and other societal implications.
+
+Note:Graduate students attend joint classes with undergraduates but are assessed separately.
+Learning Outcomes:
+- Explain the pivotal importance of fire regimes for the present and future management of natural landscapes
+- Explain methods for exploring fire regime effects including through long-term experiments and landscape simulation
+- Explain how the sensitivity of fire regimes to natural and human factors provides a context for exploring effects of land management, and the likely effects of climate change and other aspects of global change, on bushfire occurrence
+- Explain principles for managing likelihood of adverse outcomes from bushfires, and for understanding subsequent legal and other societal implications of adverse outcomes
+- Acquire, demonstrate and generate knowledge on bushfire dynamics, effects, measurement and management
+- Select and research a relevant topic in depth (e.g. literature analysis, computer modelling)
+Assessment Tasks:
+- Students must submit one laboratory sheet and attend 75% of reading discussion groups to attain a final grade. A CRS will be applied against these requirements.: 0% (Hurdle: False)
+- One-hour mid-course test on significance and management of fire in Australian and overseas environments.: 20% (Hurdle: False)
+- 2000-word practical report, either constructing computer simulation model of plant dynamics subject to recurrent fire or analysis of data from a long-term fire ecology experiment.: 35% (Hurdle: False)
+- 3000-word research paper  on relevant topic agreed with Course Convenor.: 45% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the session including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENVS8018 =====
+Subject: Partnership Research for Agricultural and Natural Resource-Based Development (ENVS8018)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENVS8048 =====
+Subject: Topics in Environment and Society (ENVS8048)
+Credit Points: 6 units
+Overview: This is a shell course that allows the delivery of developing environment, society and sustainability curriculum content to groups of students over intensive or semester long formats. An academic lead of each developing curriculum content (topic) develops teaching content, assessment and management. Each topic varies, reflecting the interests, authority and expertise of those teaching the course. The mode of delivery and location of this courses varies. Some topics are taught intensively, others are taught seminar-long. The content will provide students with study opportunities not covered in other courses taught in the Fenner School of Environment & Society or elsewhere in the University. Depending on the topic, students may be required to take part in lectures, workshops, tutorials, seminars, discussion groups, field trips and other activities. Assessment and work integrated learning opportunities will differ between each offering.
+Learning Outcomes:
+- Pursue a sustained guided investigation of a topic relevant to the environment, society and/or sustainability.
+- Systematically identify relevant theory and concepts, relate these to appropriate methodology and/or evidence, analyse data using appropriate methods and tools, and draw appropriate evidence-based conclusions.
+- Critically evaluate their own work and results as well as published research.
+- Communicate research concepts and results effectively in appropriate formats.
+Assessment Tasks:
+- The nature and weightings of assessment items will be customised in negotiation with each student. An example of typical assessment is:: 0% (Hurdle: False)
+- Development and presentation of a research/learning plan: 10% (Hurdle: False)
+- Presentation of one or more short seminars: 20% (Hurdle: False)
+- A summary paper or papers of 5000 words in total  or 8000 words in total: 70% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours per 6 units of enrolment. Depending on the nature and timing of the topic, the course may be delivered as a standard semester course or as an intensive in anon-standard sessions.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENVS8105 =====
+Subject: Forests Research Essay (ENVS8105)
+Credit Points: 6 to 12 units
+Overview: The Forests Research Essay is a significant piece of guided independent research on a topic agreed between the student and their supervisor. It typically involves a literature review and an appropriate form of critical analysis of sources of primary and /or secondary data. It may also involve field and/or laboratory work. All students must attend relevant seminars, present at least one seminar.
+Learning Outcomes:
+- Plan and engage in, an independent and sustained critical investigation and evaluation of a chosen research topic relevant to the study of environment and society;
+- Systematically identify relevant theory and concepts, relate these to appropriate methodologies and evidence, and draw appropriate conclusions;
+- Engage in systematic discovery and critical review of appropriate and relevant information sources;
+- Appropriately apply statistical or other evaluation processes to original data;
+- Communicate research concepts and contexts clearly and effectively both in writing and orally.
+Assessment Tasks:
+- Research Plan: 10% (Hurdle: False)
+- Final seminar presentation: 10% (Hurdle: False)
+- Research paper, usually less than 15,000 words  or 7,500 words: 80% (Hurdle: False)
+Workload: Approximately 130 hours per 6 units of enrolment, of student learning time made up of independent student research, reading and writing. Students are expected to maintain regular contact with their supervisor and attend all supervisory meetings.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH6102 =====
+Subject: Environmental Modelling and Integrated Assessment (MATH6102)
+Credit Points: 6 units
+Overview: Offered in association with Fenner School.
+
+In this course the major model types used to represent environmental systems are studied. Mathematical emphasis on how they are constructed will use the theory of inverse problems while the practical emphasis uses systems methodology. The focus will be on hydrological systems and their basic processes, combined with the constraints imposed by the limitations of real observational data.
+
+It will be assumed that students have a reasonable grasp of different model types (time series, PDE/ODE-based models, frequency domain models) as well as understanding of the issue of uncertainty in model inputs, structure and observed outputs.
+
+The assessment of the course will be based on written reports on selected papers, as well as a project exploring a particular paper/model in more detail. The key component of the project will be proposing potential improvements in the work done, and doing at least some initial work on evaluating these improvements. This will include components of:
+
+analytical evaluation of model behaviour
+
+coding the original and improved versions of the model and conducting sensitivity analysis
+
+exploration of structure of uncertainty in model inputs.
+
+Propagating uncertainty in inputs through the model
+
+Note: Graduate students attend joint classes with undergraduates but are assessed separately.
+Learning Outcomes:
+- Describe the basic processes and behaviour of different environmental systems and the major methods of modelling these (e.g. model family selection, model structure identification, parameter estimation, sensitivity assessment, optimisation).
+- Be able to apply the concept of tradeoffs and uncertainty sources in decision-making and optimisation through critical evaluation of case studies referring to hydrology, ecology, water quality and socioeconomics.
+- Evaluate the issues in building and evaluating models; formulate treatment of complex real-world problems (not just environmental problems); and select appropriate frameworks and methods to solve these, including using computer platforms and the statistical R package.
+- Communicate and engage with interest groups involved in a problem; and appreciate how integrated assessment can be used for managing our environment more sustainably, and the valuable role played by modelling.
+- Build a model of a system, drawing on an existing understanding of the typical behaviour of the system and available data.
+- Be able to critically evaluate the limitations of a model, and identify and conduct research that will enable improvements in the model.
+Assessment Tasks:
+- • Five reviews of selected papers: 50% (Hurdle: False)
+- • Two presentations: 10% (Hurdle: False)
+- • Project: 40% (Hurdle: False)
+Workload: Inherent Requirements
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MGMT7153 =====
+Subject: Core Leadership (MGMT7153)
+Credit Points: 6 units
+Overview: The overarching goal of this course is to help students understand their own potential to become the leader they would like to be and their own responsibilities in achieving this goal. The course emphasises personal development with the development of leadership capabilities as the vehicle to do so. This course has two primary content areas. A key focus is on making life choices i.e. what work excites learners, as well as understanding one's passions and responsibilities. The emphasis is less about being entitled to be a leader and more about how participants can become leaders that they themselves would like to be. This is a challenging question and gets to the heart of one's major life decisions. The second element supports the first and relates to the development of practical life skills e.g. managing stress, building positivity, mindsets and setting life goals.
+Learning Outcomes:
+- Identify their leadership character strengths ( Ask & Remember );
+- Recognise personal motivations and how they influence life decisions ( Acquire & Understand );
+- Apply emotional intelligence to leadership ( Appraise & Apply );
+- Ascertain how their own mindset influences their leadership ( Appraise & Analyse );
+- Summarise how personal physiology affects personal leadership ( Aggregate & Analyse );
+- Critique arguments related to the use of pro-social behaviour in personal leadership and developing others ( Apply & Evaluate );
+- Evaluate different approaches to dealing with stress and building resilience ( Assess & Evaluate ); and
+- Design an action plan that builds personal leadership capacity ( Assess & Create ).
+Assessment Tasks:
+- Typical assessments may include, but is not restricted to: in-class exercises, written and oral assignments, quizzes, examinations, group project, oral presentation and defence of project and other assessment deemed appropriate to show attainment of the learning outcomes set for the course . Further details will be made available via the Class Summary in the course Wattle site.: 100% (Hurdle: False)
+Workload: Students taking this course are expected to commit 130 hours to completing the work. For semester length offerings this will typically include 3 hours per week in class and at least 7 hours a week on average (excluding non-teaching weeks) on course reading, research, writing and assessment work.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/SCNC8000 =====
+Subject: Science Internship (SCNC8000)
+Credit Points: 6 to 12 units
+Overview: This course provides an opportunity for high-achieving graduate science students to apply and develop professional skills and attributes in an area of their choice. This course offers opportunities to network with professional organisations such as local and national government and industry, and to acquire skills, knowledge and professional attributes which will facilitate future employment and career outcomes. The internship will be under the direct supervision of a workplace professional, with access to an appropriate academic within the ANU Colleges of Science. Students are generally expected to have already completed Science courses relevant to their placement topic. The internship is expected to be on a topic of professional interest to the student and the supervising workplace.
+Learning Outcomes:
+- Demonstrate the ability to devise and conduct a project in consultation with supervisors in the context of a professional workplace.
+- Communicate complex concepts clearly and coherently in a professional environment, both orally and in writing.
+- Analyse, apply and synthesise scientific knowledge, data and evidence with intellectual independence in a professional context.
+- Exercise critical thinking and evidence-based judgment to enhance business and industry-related activities.
+- Demonstrate insight into how professional development opportunities can enhance a career in Science and related disciplines.
+Assessment Tasks:
+- Project proposal: 0% (Hurdle: False)
+- Internship report: 0% (Hurdle: False)
+- Oral presentation: 0% (Hurdle: False)
+- Career development reflection: 0% (Hurdle: False)
+- All four components of the assessment must be completed satisfactorily to meet the grade of Course Requirements Satisfied.: 0% (Hurdle: False)
+Workload: For the 130 hours (6 units), 260 hours (12 units) over the relevant semester or session, in consultation with your Host Organisation Supervisor and ANU Supervisor, made up of approximately:
+

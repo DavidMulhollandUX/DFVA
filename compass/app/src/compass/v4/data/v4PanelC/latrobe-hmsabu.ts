@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+    "evidenceLines": [
+      "Evaluate database design in terms of data anomalies and redundancies by applying the appropriate normalization techniques.",
+      "Design a relational database using an ER or EER diagram, and use a transformation process to change the ER or EER diagram to a relational database design",
+      "Get the skills and experience needed to meet the growing demand for sports insights and performance analysis with La Trobe's Master of Sport Analytics."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+    "evidenceLines": [
+      "Evaluate the possible risks and ethical and social considerations relevant to designed systems.",
+      "Explain the underlying model of relational database operations using relational algebra.",
+      "Learn how to use data to boost athlete performance and wellbeing."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+    "evidenceLines": [
+      "Subject: DATABASE FUNDAMENTALS (CSE4DBF)",
+      "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+      "Implement database systems using SQL and advanced PL/SQL including stored procedures and triggers."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+    "evidenceLines": [
+      "Understand the importance of the acknowledgment and the referencing of sources",
+      "Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.",
+      "Get hands-on experience with industry-standard technologies and advanced analytics tools including R, Python and SQL, computer vision and video annotation software, machine-learning platforms and other athlete management systems."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+    "evidenceLines": [
+      "Subject: ANALYTICAL METHODS IN SPORT (SPE5AMS)",
+      "Subject: ADVANCED SPORT ANALYTICS (SPE5ASA)",
+      "Recognise and understand academic integrity responsibilities."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+    "evidenceLines": [
+      "Apply data handling techniques to correctly treat and process data to provide a range of descriptive statistical outcomes.",
+      "Get the skills and experience needed to meet the growing demand for sports insights and performance analysis with La Trobe's Master of Sport Analytics.",
+      "Learn how to use data to boost athlete performance and wellbeing."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+    "evidenceLines": [
+      "Critically appraise statistical designs, research methodologies and modern analytical techniques relevant to sports and exercise science",
+      "Subject: PRINCIPLES OF SPORT ANALYTICS (SPE5PSA)",
+      "Get hands-on experience with industry-standard technologies and advanced analytics tools including R, Python and SQL, computer vision and video annotation software, machine-learning platforms and other athlete management systems."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "To qualify for the award of Master of Sport Analytics, students must complete 240 credit points consisting of:",
+      "Get the skills and experience needed to meet the growing demand for sports insights and performance analysis with La Trobe's Master of Sport Analytics."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Sport Analytics.",
+      "evidenceLines": [
+        "To qualify for the award of Master of Sport Analytics, students must complete 240 credit points consisting of:",
+        "240 core credit points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+      "evidenceLines": [
+        "Subject: DATABASE FUNDAMENTALS (CSE4DBF)",
+        "Evaluate database design in terms of data anomalies and redundancies by applying the appropriate normalization techniques."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

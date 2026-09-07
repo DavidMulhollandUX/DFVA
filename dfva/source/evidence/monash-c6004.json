@@ -1,0 +1,102 @@
+{
+  "code": "monash-c6004",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science, n.e.c..",
+      "evidenceLines": [
+        "the following seven units (42 credit points); and",
+        "one unit (6 credit points) from the Specified elective studies list.",
+        "The Master of Data Science prepares you for a career in data science giving\u00a0you the skills needed to deal effectively within the areas of data analysis, data engineering and big data processing."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science, n.e.c..",
+      "evidenceLines": [
+        "Explain the health data life cycle and the relevance of computation in modern life sciences research.",
+        "Evaluate the merits and limitations of the major bioinformatics databases to solve specific computational biomedical problems.",
+        "The course covers topics in both theoretical and practical perspectives, which include statistical machine learning, exploratory analysis, data formats and types, processing of structured and semi-structured data sets, and their role and impact in an organisation and society."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science, n.e.c..",
+      "evidenceLines": [
+        "Subject: Introduction to Bioinformatics (BMS5021)",
+        "Subject: Project management (FIT5057)",
+        "Perform elementary statistical analysis on biomolecular and \u201comics\u201d datasets and represent the outcomes in informative graphical displays and data summaries."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science, n.e.c..",
+      "evidenceLines": [
+        "Explain how nucleotide and protein sequence and structure data are represented and processed in computational biology.",
+        "Use bioinformatic tools and databases to analyse nucleotide or protein sequences.",
+        "You will be able to apply your learning, knowledge and skills as part of the assessment process and have the opportunity to complete either a research project or an industry experience studio project in a team."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science, n.e.c..",
+      "evidenceLines": [
+        "Subject: Industry experience studio project (FIT5120)",
+        "Subject: Professional practice (FIT5122)",
+        "Describe the relationships between DNA, RNA, and proteins and their roles in cell functioning."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science, n.e.c..",
+      "evidenceLines": [
+        "Data Analysis and Evaluation \u2013 Proteomics (1,500 words equivalent, includes figures and tables): 35% (Hurdle: None)",
+        "The Master of Data Science prepares you for a career in data science giving\u00a0you the skills needed to deal effectively within the areas of data analysis, data engineering and big data processing.",
+        "The course covers topics in both theoretical and practical perspectives, which include statistical machine learning, exploratory analysis, data formats and types, processing of structured and semi-structured data sets, and their role and impact in an organisation and society."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science, n.e.c..",
+      "evidenceLines": [
+        "MCQ and extended questions on biology of the gene (3 x 25-35 mins): 30% (Hurdle: None)",
+        "Subject: IT research and innovation methods (FIT5125)",
+        "You will be able to apply your learning, knowledge and skills as part of the assessment process and have the opportunity to complete either a research project or an industry experience studio project in a team."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course comprises 96 credit points structured into three parts: Part A. Foundation studies, Part B. Core studies and Part C. Applied studies.",
+        "The Master of Data Science prepares you for a career in data science giving\u00a0you the skills needed to deal effectively within the areas of data analysis, data engineering and big data processing."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Data Science.",
+        "evidenceLines": [
+          "The course comprises 96 credit points structured into three parts: Part A. Foundation studies, Part B. Core studies and Part C. Applied studies.",
+          "Part B. Core studies"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in computer science, n.e.c..",
+        "evidenceLines": [
+          "Subject: Introduction to Bioinformatics (BMS5021)",
+          "the following seven units (42 credit points); and"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "code": "monash-c6003",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in information systems.",
+      "evidenceLines": [
+        "the following six units (36 credit points); and",
+        "two units (12 credit points) of Specified elective studies.",
+        "The Master of Business Information Systems is a postgraduate degree that prepares you for a career in an information systems field such as business/system analyst, IT/IS consultant, IT product/project manager, and information manager."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in information systems.",
+      "evidenceLines": [
+        "Collaborative strategies to support effective teamwork in modern IT projects.",
+        "Recommend project management and critical thinking strategies and techniques for modern IT projects;",
+        "The rapidly changing business and technology landscape entails constant digital innovations."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within information systems.",
+      "evidenceLines": [
+        "Subject: Project management (FIT5057)",
+        "Subject: Evolutionary decision support (FIT5094)",
+        "Apply the 10 Project Management Body of Knowledge (PMBOK) areas to modern IT projects;"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in information systems.",
+      "evidenceLines": [
+        "Create a collaborative ICT project plan using the PMBOK areas for a given case-study;",
+        "Create IT project governance & compliance frameworks, including ethics and security requirements, to manage modern IT projects;",
+        "Offered by the Faculty of IT (the only faculty within Australia\u2019s prestigious Group of Eight universities dedicated to IT), MBIS is specifically designed to enhance and update your knowledge and skills on the emerging technology and their business applications, the design and management of digital innovations, as well as the socio-technical dynamics of changes."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in information systems.",
+      "evidenceLines": [
+        "Subject: Industry experience studio project (FIT5120)",
+        "Subject: Professional practice (FIT5122)",
+        "Adaptive Project Management;: 40% (Hurdle: None)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in information systems.",
+      "evidenceLines": [
+        "Predictive Project Management and foundations: 40% (Hurdle: None)",
+        "The Master of Business Information Systems is a postgraduate degree that prepares you for a career in an information systems field such as business/system analyst, IT/IS consultant, IT product/project manager, and information manager.",
+        "The rapidly changing business and technology landscape entails constant digital innovations."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in information systems.",
+      "evidenceLines": [
+        "Weekly Quizzes: 20% (Hurdle: None)",
+        "Subject: IT research and innovation methods (FIT5125)",
+        "Offered by the Faculty of IT (the only faculty within Australia\u2019s prestigious Group of Eight universities dedicated to IT), MBIS is specifically designed to enhance and update your knowledge and skills on the emerging technology and their business applications, the design and management of digital innovations, as well as the socio-technical dynamics of changes."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course is structured in three part: Part A. Foundations for advanced business information systems, Part B. Core master's study and Part C. Advanced practice. All students complete Part B and Part C.",
+        "The Master of Business Information Systems is a postgraduate degree that prepares you for a career in an information systems field such as business/system analyst, IT/IS consultant, IT product/project manager, and information manager."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Business Information Systems.",
+        "evidenceLines": [
+          "The course is structured in three part: Part A. Foundations for advanced business information systems, Part B. Core master's study and Part C. Advanced practice. All students complete Part B and Part C.",
+          "Part B. Core studies"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in information systems.",
+        "evidenceLines": [
+          "Subject: Project management (FIT5057)",
+          "the following six units (36 credit points); and"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,677 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/S6007 =====
+## Master of Geographical Information Science and Technology
+##### S6007
+##### 96 credit points
+You are viewing the 2026 version
+
+### Overview
+The Master of Geographical Information Science and Technology provides industry-relevant training to allow you to pursue or further your career in global and Australian geospatial industry. You will learn the principles, techniques and applications of GIS and technology in a contextual environment from experts at the cutting edge of this field.
+
+The course provides you with the theoretical knowledge and technical skills necessary to develop and apply solutions based on GIS and technology to real-world problems using a range of the state-of-the-art spatial information or geospatial technologies including geographical information systems (GIS), remote sensing, global navigation satellite systems (GNSS), spatial analysis and modelling, and decision support systems; design and implement methods for spatial data capture, design, develop and manage spatial databases; explore, integrate and analyse spatial data from multiple data sources; and to design and implement appropriate procedures for quality control, formulate, implement and manage GIS and remote sensing projects.
+
+As part of your study, you will have the opportunity to undertake supervised independent research or to complete an industry-based internship.
+
+### AQF level
+Level 9 - Master's Degree (Coursework)
+### CRICOS code
+112792J
+### Post-nominals
+MGeoInfSciTech
+### Course duration (full time)
+
+
+### Structure
+The course is structured in four parts. Part A. Foundation GIS and technology studies, Part B. Advanced GIS and technology studies, Part C. Extended studies and Part D. Advanced practice. 
+
+Part A. Foundation studies
+
+This provides foundation units to allow students, particularly those without any prior knowledge of GIS and technology, to develop an understanding of fundamental principles and methods of GIS and technology.
+
+Part B. Core studies
+
+This contains the core skills of GIS and technology that allow students to translate GIS and technology theory into research and practice. 
+
+Part C. Advanced discipline studies
+
+This provides collections of units grouped in three streams, which allows students to further develop knowledge and skills in one of the following specific areas: advanced GIS and technology, data science, and environment and sustainability.
+
+Part D. Applied practice 
+
+This offers students opportunities to conduct a supervised research project or learn professional GIS and technology practice via internships. 
+
+Master's entry points
+
+Depending on prior qualifications you may receive entry level credit (a form of block credit) which determines your point of entry to the course:
+
+  * If you are admitted at Entry level 1 you complete 96 credit points, comprising Parts A, B, C and D.
+  * If you are admitted at Entry level 2 you complete 72 credit points, comprising Parts B, C and D.
+
+Note: If you are eligible for credit for prior studies, you may elect not to receive the credit.
+
+Course progression map
+
+The course progression map provides guidance on unit enrolment for each semester of study.
+
+### Requirements
+The course is structured in four parts. Part A. Foundation GIS and technology studies, Part B. Advanced GIS and technology studies, Part C. Extended studies and Part D. Advanced practice. Each part is 24 points.
+
+Part A. Foundation studies (24 points)
+
+You must complete:
+
+  * EAE4051 Fundamentals of geographical information science 
+
+  * EAE4067 Remote sensing 
+
+  * FIT9132 Introduction to databases 
+
+and one of the following units:
+
+  * EAE2522 Earth Surface Dynamics 
+
+  * FIT9136 Introduction to Python programming
+
+Note: EAE2522 is required for Stream 1 of Part C, while FIT9136 is required for Stream 2. 
+
+Part B. Core studies (24 points)
+
+You must complete:
+
+  * EAE5051 Spatial databases 
+
+  * EAE5052 Spatial data interoperability and integration 
+
+  * EAE5053 Advanced spatial analysis and modelling 
+
+  * EAE5054 Research methods and project management
+
+Part C. Advanced discipline studies (24 points)
+
+You must complete 24 credit points from one or more disciplines listed below
+
+Advanced GIS and technology
+
+You must complete the following units:
+
+  * EAE5040 Earth Science Coursework A (12 points)
+
+  * EAE5068 Spatial Data Analysis
+
+  * EAE5258 Geographical information systems (GIS) for environmental science
+
+Data Science for GIS and technology
+
+You must complete four of the following units:
+
+  * FIT5145 Foundations of data science
+
+  * EAE5068 Spatial data analysis 
+
+  * FIT5147 Data exploration and visualisation 
+
+  * FIT5196 Data Wrangling
+
+  * FIT5237 Responsible digitalisation
+
+Environmental and sustainability
+
+You must complete:
+
+  * EAE5258 Geographical information systems (GIS) for environmental science 
+
+and any three of the following units:
+
+  * APG5426 Environmental analysis 
+
+  * APG5553 Field studies in sustainable development (not offered in 2026)
+
+  * APG5627 Power, politics and development in a changing environment (not offered in 2026)
+
+  * ENS5320 Climate change risk, resilience and security
+
+  * ENS5330 Water security and environmental pollution 
+
+  * ENS5340 Transforming cities for sustainability
+
+Part D. Applied practice (24 points)
+
+You will complete either the Research pathway or the Professional practice pathway
+
+Research pathway
+
+You must complete:
+
+  * EAE5015 Research thesis in GIS and technology Part A (12 points)
+
+  * EAE5016 Research thesis in GIS and technology Part B (12 points)
+
+Professional practice pathway
+
+You must complete:
+
+  * EAE5017 GIS and technology internship (12 points)
+
+and 
+
+  * EAE5018 Professional practice in GIS and technology (12 points) or
+
+  * 12 points from units listed under Part C (and not already undertaken)
+
+### Course structure
+96 credit points
+**Part A. Foundation studies** **24 credit points**
+You must complete 24 credit points. You can complete only one of EAE2522 or FIT9136. 
+
+Notes: 
+- EAE2522 is required for Advanced GIS and technology discipline study in Part C.
+- FIT9136 is required for Data science for GIS and technology discipline study in Part C.
+  [ _arrow_forward_ EAE2522 Earth surface dynamics ](https://handbook.monash.edu/2026/units/EAE2522)
+  [ _arrow_forward_ EAE4051 Fundamentals of geographical information science ](https://handbook.monash.edu/2026/units/EAE4051)
+  [ _arrow_forward_ EAE4067 Remote sensing ](https://handbook.monash.edu/2026/units/EAE4067)
+  [ _arrow_forward_ FIT9132 Introduction to databases ](https://handbook.monash.edu/2026/units/FIT9132)
+  [ _arrow_forward_ FIT9136 Introduction to Python programming ](https://handbook.monash.edu/2026/units/FIT9136)
+**Part B. Core studies** **24 credit points**
+You must complete the following units
+  [ _arrow_forward_ EAE5051 Spatial databases ](https://handbook.monash.edu/2026/units/EAE5051)
+  [ _arrow_forward_ EAE5052 Spatial data interoperability and integration ](https://handbook.monash.edu/2026/units/EAE5052)
+  [ _arrow_forward_ EAE5053 Advanced spatial analysis and modelling ](https://handbook.monash.edu/2026/units/EAE5053)
+  [ _arrow_forward_ EAE5054 Research methods and project management ](https://handbook.monash.edu/2026/units/EAE5054)
+**Part C. Advanced discipline studies** **24 credit points**
+You must complete 24 credit points from either one discipline or a combination of units across the disciplines listed below
+  **Advanced GIS and technology** **24 credit points**
+  You must complete the following units (24 credit points)
+    [ _arrow_forward_ EAE5040 Earth science coursework A ](https://handbook.monash.edu/2026/units/EAE5040)
+    [ _arrow_forward_ EAE5068 Spatial data analysis ](https://handbook.monash.edu/2026/units/EAE5068)
+    [ _arrow_forward_ EAE5258 Geographical information systems (GIS) for environmental science ](https://handbook.monash.edu/2026/units/EAE5258)
+  **Data science for GIS and technology** **24 credit points**
+  You must complete four of the following units (24 credit points)
+    [ _arrow_forward_ EAE5068 Spatial data analysis ](https://handbook.monash.edu/2026/units/EAE5068)
+    [ _arrow_forward_ FIT5145 Foundations of data science ](https://handbook.monash.edu/2026/units/FIT5145)
+    [ _arrow_forward_ FIT5147 Data exploration and visualisation ](https://handbook.monash.edu/2026/units/FIT5147)
+    [ _arrow_forward_ FIT5196 Data wrangling ](https://handbook.monash.edu/2026/units/FIT5196)
+    [ _arrow_forward_ FIT5237 Responsible digitalisation ](https://handbook.monash.edu/2026/units/FIT5237)
+  **Environmental and sustainability** **24 credit points**
+  You must complete EAE5258 (6 credit points) and three additional units (18 credit points) from the list below.
+    [ _arrow_forward_ EAE5258 Geographical information systems (GIS) for environmental science ](https://handbook.monash.edu/2026/units/EAE5258)
+    [ _arrow_forward_ APG5426 Environmental analysis ](https://handbook.monash.edu/2026/units/APG5426)
+    [ _arrow_forward_ ENS5320 Climate change risk, resilience and security ](https://handbook.monash.edu/2026/units/ENS5320)
+    [ _arrow_forward_ ENS5330 Water security and environmental pollution ](https://handbook.monash.edu/2026/units/ENS5330)
+    [ _arrow_forward_ ENS5340 Transforming cities for sustainability ](https://handbook.monash.edu/2026/units/ENS5340)
+**Part D. Advanced practice** **24 credit points**
+You must complete either the Research pathway or the Professional practice pathway
+  **Research pathway** **24 credit points**
+  You must complete the following units
+    [ _arrow_forward_ EAE5015 Research thesis in GIS and technology A ](https://handbook.monash.edu/2026/units/EAE5015)
+    [ _arrow_forward_ EAE5016 Research thesis in GIS and technology B ](https://handbook.monash.edu/2026/units/EAE5016)
+  **Professional practice pathway** **24 credit points**
+  You must complete EAE5017 and EAE5018, or EAE5017 and 12 credit points of units from Part C not previously completed.
+    [ _arrow_forward_ EAE5017 GIS and technology internship ](https://handbook.monash.edu/2026/units/EAE5017)
+    [ _arrow_forward_ EAE5018 Professional practice in GIS and technology ](https://handbook.monash.edu/2026/units/EAE5018)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+Apply GIS and technology knowledge and skills independently, professionally, and ethically in an interdisciplinary, academic, or professional context.
+**2.**
+Apply critical analysis and reflection to evaluate complex problems and to develop and apply innovative GIS and technology solutions.
+**3.**
+Demonstrate an advanced and integrated understanding of the principles, techniques and applications of GIS and technology, and knowledge of the global and Australian geospatial industry.
+**4.**
+Effectively interpret knowledge and outcomes generated from the application of GIS and technology, and communicate them effectively to a variety of audiences, and work productively within a team.
+
+### Progression to further studies
+Successful completion of this course may provide a pathway to a graduate research degree for students who have complete the 24 point research thesis under Part D. Students will be required to demonstrate strong academic performance
+
+### AHEGS
+The Master of Geographical Information Science and Technology is a postgraduate degree. The course is taught in English and takes two years of full-time study. This coursework masters degree develops the capacity to utilise the core principles and concepts of  Geographical Information Science to solve real-world issues for industry, government and society. The coursework aspects of the degree are complemented by a research project or industry placement producing a rich blend of a strong theoretical education and a highly practical training in the area of Geographical Information Science and Technology. The Master of Geographical Information Science and Technology is a Level 9 Australian Qualifications Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations.
+
+### Degrees awarded
+Master of Geographical Information Science and Technology
+
+===== SOURCE: https://handbook.monash.edu/2026/units/APG5426 =====
+Subject: Environmental analysis (APG5426)
+Credit Points: 6
+Overview: This unit equips you with an understanding of tools for environmental analysis and decision-making around development projects, production processes, and governmental policies. Particular attention is given to Environmental Impact Assessment (EIA), a key tool for environmental management and reporting. We learn how EIAs are conducted, and scrutinise their merits, limitations, and controversies. We also discuss Life Cycle Assessment (LCA) and Strategic Environmental Assessment (SEA), connecting these tools to contemporary topics such as sustainable food production, the Paris Agreement, and ‘negative emissions’ concepts. Throughout, the dynamic interaction between scientists, policy makers and the broader community will be explored through a series of in-class debates, discussions, and activities around environmental justice.
+Learning Outcomes:
+- critically analyse the EIA, LCA, and SEA literature in the context of environmental decision making.
+- recognise, apply, and critique the process of Environmental Impact Assessment (EIA) for development projects;
+- analyse and showcase how Life Cycle Assessment (LCA) can inform sustainable production processes;
+- evaluate the influence of Strategic Environmental Assessments (SEA) in policy development;
+Assessment Tasks:
+- Policy Brief: 30% (Hurdle: None)
+- Report: 40% (Hurdle: None)
+- Multimedia: 30% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Scheduled activities may include a combination of teacher directed learning, peer directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/APG5553 =====
+Subject: Field studies in sustainable development (APG5553)
+Credit Points: 12
+Overview: This field studies unit explores the concept of sustainable development in Asia and draws attention to the practical constraints and issues associated with translating the Sustainable Development Goals into regional policy and practice. Working across multiple development sectors and with a range of local partners, the unit provides you with the opportunity to apply inter-disciplinary and cross-cultural problem solving skills outside the classroom, while contributing to a local organisation, as detailed in point 3 below. The unit is divided into four phases. You will: (1) Attend pre-departure preparatory workshops in Melbourne. Topics covered include understanding the Sustainable Development Goals and their implementation, an overview of sustainable development issues in the host country, and an overview of cross-cultural norms, safety and logistical information. (2) Participate in a week long journey across a specific region/area in the host country where you will meet with a variety of groups to discuss sustainable development challenges. Themes include: post-conflict transitions, livelihood development, sustainable resource management, gender empowerment, disaster management, migration; climate change, ecotourism; urbanisation, disabilities, and sustainability education. (3) In the host-country, work in a small team to provide a service to a partner organisation addressing a specific organizational need over a two-week period. Examples of a service includes conducting a needs assessment, designing and writing monitoring and evaluation reports, event coordination, stakeholder research, conducting a gender analysis, designing training programs, writing project and grant proposals, or developing a communication and media strategy. (4) Attend a briefing workshop prior to leaving the country to share and reflect on your work.
+Learning Outcomes:
+- Identify, describe, and interpret the concept of sustainable development in the context of development practice;
+- Critique and integrate theoretical knowledge and frameworks acquired through their studies to practical situations;
+- Demonstrate advanced understanding of the complex constraints, issues and opportunities associated with translating the Sustainable Development Goals into practice;
+- Effectively present complex ideas about sustainable development practice.
+- Reflect upon skills required to work in the area of sustainable development and identify skills they wish to develop further and;
+- Apply practical skills including working in interdisciplinary teams and cross-cultural skills;
+Assessment Tasks:
+- Reflection: 40% (Hurdle: None)
+- Participation: 10% (Hurdle: None)
+- Report: 50% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 288 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Scheduled activities may include a combination of teacher directed learning, peer directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/APG5627 =====
+Subject: Power, politics and development in a changing environment (APG5627)
+Credit Points: 6
+Overview: This unit considers the relevance of power and politics for shaping relationships between humans and their environments. Throughout the semester you will engage with the principles and approaches of political ecology that foreground politics and the role of capitalism in shaping environment and development. The unit introduces fundamental tool of political ecology research, such as critical chains of explanation, as well as feminist and decolonial analytical lenses for contemporary socio-environmental problems. Through examination of real-world case studies, you will apply these tools to develop sophisticated understanding of particular socio-environmental challenges.
+Learning Outcomes:
+- analyse socio-environmental issues (e.g. environmental conflicts, conflicts over resources) by drawing on political-ecological arguments and approaches;
+- identify and explain the ways in which power and politics influence human-environment relationships;
+- select, evaluate, and adapt analytical approaches for understanding the links between the political economy of development and ecological change;
+- independently apply political ecology analytical approaches to real-world cases.
+Assessment Tasks:
+- Analytical exercise: 25% (Hurdle: None)
+- Exercise/s: 10% (Hurdle: None)
+- Report: 40% (Hurdle: None)
+- Presentation: 25% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Scheduled activities may include a combination of teacher directed learning, peer directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/EAE2522 =====
+Subject: Earth surface dynamics (EAE2522)
+Credit Points: 6
+Overview: This unit focuses on the methods used to decipher the geological history the Earth from the sedimentary rock record. Topics covered include sedimentology, sedimentary petrology, stratigraphy, physical volcanology and palaeontology. You will explore the formation of sedimentary basins, their environments and past climate in the context of plate tectonics and how basins and their resources are analysed using geophysical and geological observations.
+Learning Outcomes:
+- Determine the age of sedimentary and volcanic rocks using the principles of stratigraphy;
+- Analyse the global tectonic context of sedimentary basins;
+- Apply the techniques of sedimentology, physical volcanology, stratigraphy and palaeontology to reconstruct the geological and paleoclimate record of sedimentary basins;
+- Evaluate basin evolution using geophysical techniques;
+- Apply geological principles to explore for and manage the resources and uses of sedimentary basins, including water and mineral resources, carbon capture and storage, and geothermal energy.
+Assessment Tasks:
+- Basin analysis project: 30% (Hurdle: None)
+- Assessed practical work: 25% (Hurdle: None)
+- Field trip: 15% (Hurdle: None)
+- Three, intra-semester tests: 30% (Hurdle: None)
+Workload: One 2-hour workshop; One 3-hour practical and Approximately 6 hours of independent study per week, plus One 1-day field trip.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/EAE4051 =====
+Subject: Fundamentals of geographical information science (EAE4051)
+Credit Points: 6
+Overview: This unit introduces geographical information science (GIScience). It covers the basic theories, methods and technology associated with collection, management, processing, integration and use of geographical information. You will explore fundamental issues raised by the use of geographical information and related technologies such as spatial data modelling, map projections, spatial analysis and spatial visualisation. The unit provides the foundation for further study on geographical information systems, remote sensing and global navigation satellite systems.
+Learning Outcomes:
+- Comprehend the breadth and depth of applications of GIScience and technology.
+- Have basic skills and competency in basic methods of spatial data handling using geographical information technology;
+- Gain fundamental knowledge of methods and techniques of GIScience, including mapping, spatial data manipulation and analysis;
+- Understand basic concepts and principles of GIScience;
+- Understand the nature of spatial data;
+Assessment Tasks:
+- On-line theory quiz: 40% (Hurdle: None)
+- Project: 20% (Hurdle: None)
+- Practical work: 40% (Hurdle: None)
+Workload: 1-hour lecture videos; 2-hour workshops; 3-hour practicals/project and 6-hour independent study per week
+
+===== SOURCE: https://handbook.monash.edu/2026/units/EAE4067 =====
+Subject: Remote sensing (EAE4067)
+Credit Points: 6
+Overview: Remote sensing has become one of the important and widely applied methods for environmental and earth resource monitoring and evaluation. The information extracted from remotely sensed images may be used in many ways, e.g. as a basis for mapping land use/cover, for understanding environmental processes and for estimating biophysical variables. This unit will introduce the basic concepts and principles of remote sensing, and prepare you with image interpretation and digital image processing skills with an emphasis on the use of remote sensing imagery for vegetation, atmosphere, geology, water, soils and landform analysis.
+Learning Outcomes:
+- To conduct digital image processing and analysis using a digital image processing system to extract information.
+- To visually interpret aerial photos and satellite images.
+- To explain and apply the major concepts and principles of remote sensing and digital image processing for earth science applications.
+- To identify the types of information that can be extracted from remotely sensed data on the environment and earth resources.
+- To explain and apply the fundamental image interpretation elements (e.g., tone, texture, size, shape, pattern, site and association)
+Assessment Tasks:
+- Project: 50% (Hurdle: None)
+- Practicals: 50% (Hurdle: None)
+Workload: A total of 12 hours per week consisting of: One 1-hour workshop; One 2-hour practical and Nine hours of independent study per week
+
+===== SOURCE: https://handbook.monash.edu/2026/units/EAE5015 =====
+Subject: Research thesis in GIS and technology A (EAE5015)
+Credit Points: 12
+Overview: This unit will provide you with an opportunity to undertake a specific research project under the supervision of an academic from the School of Earth, Atmosphere and Environment. Our academic staff members have a wide range of expertise, ranging from GIS, remote sensing or earth observation, spatial data science and machine learning, cartography, and GIS and technology applications in environment and sustainability. A full list of potential projects will be made available to you prior to commencing your Masters program. You will be able to choose a topic which is aligned to your particular interests, and identify a supervisor for your project after discussion with the course director. This unit is part A of a two-semester project that allows you to apply or further develop the advanced knowledge and skills gained through the course and make a genuine contribution to research in GIS and technology. You are required to conduct a comprehensive literature review and report your preliminary results at a seminar. The literature review includes a research proposal describing the research objectives and questions, the significance and preliminary methodology of the project. It will lay a foundation for Part B of the project in the unit EAE5016, where you refine your research questions and methods, implement the project, communicate the research outcomes in the form of a thesis, and defend them via an oral examination.
+Learning Outcomes:
+- Interrogate, synthesis and interpret the literature, and identify knowledge gaps and suggest further avenues for research;
+- Source relevant data, identify appropriate tools and produce preliminary outcomes;
+- Define clear research objectives and questions based on current knowledge and practice in GIS&T, and design a preliminary methodology appropriate to the research;
+- Effectively communicate preliminary research outcomes and synthesise literature in verbal and written form.
+- Demonstrate knowledge and understanding of theory and concepts from the published literature and relate them to your chosen research topic;
+Assessment Tasks:
+- Research proposal: 70% (Hurdle: None)
+- Oral presentation: 30% (Hurdle: None)
+Workload: 24 hours per week comprising: Independent research (16 hours per week, including literature review, sourcing data sources and tools, producing preliminary outcomes, and refining research questions and research design); Research design and proposal writing (5 hour per week averaged over the semester, including developing the research proposal, and preparing seminar presentations); Attendance at weekly group meetings (1 hour per week); Attendance at seminars and colloquia (1 hour per week averaged over the semester); Consultation with the supervisor (1 hour per week).
+
+===== SOURCE: https://handbook.monash.edu/2026/units/EAE5016 =====
+Subject: Research thesis in GIS and technology B (EAE5016)
+Credit Points: 12
+Overview: This unit will provide you with an opportunity to undertake a specific research project under the supervision of an academic from the School of Earth, Atmosphere and Environment. Our academic staff members have a wide range of expertise, ranging from GIS, remote sensing or earth observation, spatial data science and machine learning, cartography, and GIS and technology applications in environment and sustainability. A full list of potential projects will be made available to you prior to commencing your Masters program. You will be able to choose a topic which is aligned to your particular interests, and identify a supervisor for your project after discussion with the course director. This unit is Part B of a two-semester project that allows you to apply or further develop the advanced knowledge and skills gained through the course and make a genuine contribution to research in GIS and technology. Based on the literature review and project design completed in Part A (EAE5015), you will further refine your research questions and methods, implement the project design, interpret the results, communicate those results in the form of a thesis, and defend them via an oral examination. The thesis is the final output of the research project, written in a professional, academic manner in the format of a research article in a peer-reviewed international journal.
+Learning Outcomes:
+- Demonstrate the skills required to successfully execute a GIS/Remote Sensing research project;
+- Communicate concepts and results clearly and effectively both in writing and orally.
+- Exercise critical judgement and independent thinking, and adopt a problem-solving approach to unfamiliar tasks;
+- Plan and undertake an independent investigation of your research topic;
+- Apply relevant research techniques and methods as well as GIS/remote sensing skills to produce new research outcomes in the chosen field of the research project;
+Assessment Tasks:
+- Thesis: 80% (Hurdle: None)
+- Oral presentation: 20% (Hurdle: None)
+Workload: 24 hours per week: Attendance at weekly group meetings (1 hour per week); Attendance at seminars and colloquia (1 hour per week); Consultation with the supervisor (1 hour per week); Preparation of thesis (approximately 4 hour per week averaged over the semester); Preparation for the seminar (approximately 1 hour per week averaged over the semester); 16 hours of independent research per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/EAE5017 =====
+Subject: GIS and technology internship (EAE5017)
+Credit Points: 12
+Overview: The unit provides you, if you fulfil the academic requirements, with an opportunity to undertake a project defined by a host organisation with the approval of the unit coordinator. The placement may be an affiliated arrangement where a consultancy or research project is carried out in association with the company and physical location at the company is not required. Host organisations may be from a diverse range of industries and sectors involving the development or use of GIS&T, including government departments, private industry and not-for-profit organisations. You will present the project findings to the host organisation in the format specified by the host organisation, such as a consultation paper, report, commentary, manual, submission or speech. The host organisation provides field supervision, and the faculty provides academic supervision.
+Learning Outcomes:
+- Communicate clearly and effectively to the intended audience on technical and non-technical aspects;
+- Collaborate with others on a project in a workplace setting;
+- Plan, conduct and reflect upon a professional project with a degree of independence and accountability;
+- Exercise critical thinking and professional judgment in developing new understandings;
+- Demonstrate professional conduct and integrity in a workplace environment.
+- Apply broad discipline knowledge to find solutions to complex problems in the area of GIS&T;
+Assessment Tasks:
+- Final project report: 50% (Hurdle: None)
+- Records and reflections: 20% (Hurdle: None)
+- Placement brief and project proposal: 15% (Hurdle: None)
+- Oral presentation: 15% (Hurdle: None)
+Workload: The minimum expected workload for the unit is 288 hours over the course of one semester, including project work and 6 hours of two scheduled workshops. One workshop will be scheduled at the beginning of semester for unit induction, and the other at the end of semester for oral presentations.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/EAE5018 =====
+Subject: Professional practice in GIS and technology (EAE5018)
+Credit Points: 12
+Overview: This unit introduces the concepts, standards and techniques associated with the current professional practice in GIS&T in professional and organisational settings. You will investigate the nature of professions generally and the characteristics of the professions that occupy the GIS&T field in particular, and learn a range of concepts, techniques and professional issues, including professional communications, human resources and conflict resolution, teamwork, project management practice, social impacts of GIS&T, and applications of professional ethics and relevant legal frameworks. Practical and real-world case studies will be used as part of the learning to help you build knowledge and enhance skills to meet challenges in professional practice in the workplace.
+Learning Outcomes:
+- Demonstrate understanding of multiple aspects of intellectual property and its protection;
+- Analyse and criticise wider issues and problems concerning professional practice in GIS&T;
+- Construct and deliver effective written and oral communication appropriate to GIS&T professionals, including original written inquiries, critiques, and case study analyses.
+- Describe and apply skills relating to professional practice in GIS&T project management;
+- Demonstrate awareness of and have gained skills in aspects of professional practice including conflict resolution, leadership, and team dynamics;
+- Comprehend, conceptualise and interrogate ethical, legal and social issues arising from locational privacy and cartographic integrity using appropriate frameworks;
+Assessment Tasks:
+- Final project report: 30% (Hurdle: None)
+- Case study analyses: 30% (Hurdle: None)
+- Oral presentation: 10% (Hurdle: None)
+- Quizzes: 30% (Hurdle: None)
+Workload: A total of 24 hours per week: Attendance at seminars and applied sessions (4 hours per week); Watching lecture videos (1.5 hour per week); Preparation for the seminar (approximately 1.5 hours per week averaged over the semester); Preparation for the applied sessions (approximately 2 hour per week averaged over the semester); Preparation for practitioner interviews, including questionnaire design, searching and selection of organisations and practitioners (approximately 0.5 hours per week averaged over the semester); Conducting the project and preparing the project report (approximately 3 hour per week averaged over the semester); Taking quizzes (0.5 hour per week); 11 hours of independent study and research per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/EAE5040 =====
+Subject: Earth science coursework A (EAE5040)
+Credit Points: 12
+Overview: You will study two to four topics in earth sciences, chosen from a range of specialist subjects. These include specialist units taught by the School of Earth, Atmosphere and Environment and modules offered by the Victorian Institute of Earth and Planetary Sciences (VIEPS). Through your study of these topics, you will develop an advanced understanding of the discipline and acquire the skills to operate professionally in the area.
+Learning Outcomes:
+- Communicate the contemporary understanding of the field to a wide audience.
+- Demonstrate an advanced understanding of Earth Science and related disciplines;
+- Demonstrate advanced theoretical, computational and/or experimental skills in Earth sciences;
+- Synthesize and interpret data to solve complex problems in Earth science;
+Assessment Tasks:
+- Continuous assessment: 100% (Hurdle: None)
+Workload: Approximately 6 hours of on-campus classes per week, plus 18 hours of self-directed activities including readings and videos in preparation for class, weekly exercises, assignments, study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/EAE5051 =====
+Subject: Spatial databases (EAE5051)
+Credit Points: 6
+Overview: Spatial data are associated with geographical locations. A spatial database is a database system that provides spatial data types in its data model and query language and supports spatial data types in its implementation. This unit focuses on the theories that underpin the design of such spatially enabled databases and the fundamental principles and methods in their implementation. The major contents include the concepts of database systems and database models, structured query language, spatial database models and spatial database design, spatial data types, spatial indexing and spatial join, spatial operators and spatial querying, enterprise spatial databases and their implementation. It also introduces the open-source Postgres database management system and its spatial extension PostGIS, and ESRI’s proprietary file, mobile and enterprise geodatabases, and uses them as tools to facilitate the understanding of theories and the development of design and implementation skills.
+Learning Outcomes:
+- Grasp the principles of spatial databases and their design;
+- Be proficient in solving practical spatial data modelling tasks;
+- Implement a specific spatial database.
+- Design queries to interact with a spatial database;
+- Understand the characteristics of spatial databases;
+Assessment Tasks:
+- Practical work: 40% (Hurdle: None)
+- Project 2: 30% (Hurdle: None)
+- Project 1: 30% (Hurdle: None)
+Workload: 1-hour lecture videos; 2-hour workshops; 3-hour practicals/projects and 6-hour independent study per week
+
+===== SOURCE: https://handbook.monash.edu/2026/units/EAE5052 =====
+Subject: Spatial data interoperability and integration (EAE5052)
+Credit Points: 6
+Overview: Spatial data interoperability is the ability to access, share, exchange and manipulate spatial data stored in heterogeneous distributed repositories. It is a cornerstone tenet of a spatial data infrastructure and enables the sharing and integration of spatial data between systems in different organisations and across applications and industries. This unit introduces the concept of spatial data infrastructure, international standards enabling spatial data interoperability, spatial data structures and file formats, the common approaches to spatial data exchange including the Extract, Transform and Load (ETL) method, and tools for spatial data exchange and integration such as Feature Manipulation Engine (FME) and the ArcGIS Data Interoperability extension. It has a strong practical element, encompassing a set of hands-on practicals and projects in which you undertake spatial data transformation and integration for various applications using the taught approaches and tools.
+Learning Outcomes:
+- Be familiar with international spatial data standards;
+- Comprehend the concept, principles and components of spatial data infrastructure;
+- Understand the importance of spatial data interoperability;
+- Obtain skills for spatial data integration.
+- Describe common spatial data structures and file formats
+- Grasp the common methods and skills for the spatial data exchange;
+Assessment Tasks:
+- Group Project: 40% (Hurdle: None)
+- Individual Project: 20% (Hurdle: None)
+- Practical work: 40% (Hurdle: None)
+Workload: 1-hour lecture videos; 2-hour workshops; 3-hour practicals/projects and 6-hour independent study per week
+
+===== SOURCE: https://handbook.monash.edu/2026/units/EAE5053 =====
+Subject: Advanced spatial analysis and modelling (EAE5053)
+Credit Points: 6
+Overview: This unit aims to develop advanced knowledge and skills in spatial analysis and modelling within GIS. It covers network analysis, digital terrain modelling, geostatistics, multi-criteria decision analysis, cellular automata, agent-based modelling, weights-of-evidence modelling and AI-based techniques such as fuzzy logic, random forests, artificial neural networks and deep learning. It also introduces methods and techniques for integrating advanced analysis and modelling tools with GIS or extending GIS functionality using the Python programming language to build new tools and custom GIS solutions. The unit will equip you with highly valued spatial analysis and modelling skills by the geospatial industry and research community.
+Learning Outcomes:
+- Build a strong foundation in modern spatial analysis and modelling techniques;
+- Grasp skills in selecting appropriate spatial analysis and modelling techniques for a specific problem;
+- Interpret, evaluate and communicate the results from spatial analysis and modelling.
+- Gain practical experience in developing and applying a range of spatial analysis and modelling methods in a GIS;
+- Understand the assumptions and limitations of spatial analysis techniques;
+Assessment Tasks:
+- Practical work: 40% (Hurdle: None)
+- Theory quizzes: 30% (Hurdle: None)
+- Group project: 30% (Hurdle: None)
+Workload: 1-hour lecture videos; 2-hour workshops; 3-hour practicals/projects and 6-hour independent study per week
+
+===== SOURCE: https://handbook.monash.edu/2026/units/EAE5054 =====
+Subject: Research methods and project management (EAE5054)
+Credit Points: 6
+Overview: This unit develops your ability to define, plan and implement GIS and remote sensing projects in research and industry. It covers the fundamentals of doing research and the foundations of project management, which are relevant to GIS and remote sensing scientists and professionals. These mainly include definition of objectives; critical review of literature and identification of research gaps; data collection and fieldwork methods; project planning, execution and monitoring; project management methodologies; oral and written communication; document preparation and version control; verification and validation of project outcomes. In addition, this unit discusses intellectual property and research integrity. Group work will be conducted to develop a project plan for a GIS or remote sensing research or industry project.
+Learning Outcomes:
+- Identify the ethical and professional issues that may arise in GIS/remote sensing research and address them in practice;
+- Carry out a research project professionally and ethically;
+- Develop a project management plan;
+- Explain standard project management approaches;
+- Systematically search and critically assess relevant literature in order to identify research gaps and/or investigate specific problems in a GIS/remote sensing project;
+- Formulate or design a GIS/remote sensing research project;
+- Interpret and communicate research outcomes orally and in writing.
+- Evaluate, identify and apply research methodologies and techniques for spatial data collection and analysis appropriate to a research design or project;
+Assessment Tasks:
+- Research design: 15% (Hurdle: None)
+- Theory quizzes: 30% (Hurdle: None)
+- Literature review: 15% (Hurdle: None)
+- Group project: 40% (Hurdle: None)
+Workload: 2-hour lectures; 2-hour workshops; 2-hour preparation before each workshop and 6-hour independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/EAE5068 =====
+Subject: Spatial data analysis (EAE5068)
+Credit Points: 6
+Overview: This unit aims to teach the knowledge and skills for exploring the spatial patterns that result from social and physical processes on or near the Earth's surface. It examines the theories and methods of quantitative geography, including spatial data exploration, hypothetic testing and spatial predictive modelling, provides practical training in fundamental tools of spatial analysis in GIS, and develops skills in finding, understanding and applying appropriate spatial analysis tools, and correctly interpreting and presenting the results.
+Learning Outcomes:
+- To demonstrate the ability to plan, design and implement a spatial data analysis project.
+- To be able to interpret and communicate effectively the results of spatial data analysis.
+- To understand the concepts and nature of spatial data analysis.
+- To understand spatial statistics, assumptions and how they are used to explain spatial patterns and processes.
+- To understand and apply different approaches to spatial data exploration.
+- To demonstrate competency in the use of spatial data analysis tools.
+- To understand the geographical concepts of distance, adjacency and interaction and how fundamental they are in performing spatial data analysis.
+Assessment Tasks:
+- Practicals: 50% (Hurdle: None)
+- Project: 50% (Hurdle: None)
+Workload: 12 hours per week consisting of: One 1-hour workshop; One 2-hour practical and Nine hours of independent study per week
+
+===== SOURCE: https://handbook.monash.edu/2026/units/EAE5258 =====
+Subject: Geographical information systems (GIS) for environmental science (EAE5258)
+Credit Points: 6
+Overview: The unit provides a practical introduction to the principles, techniques and applications in GIS for environmental problem solving and decision making. It covers a wide range of topics including general nature of spatial data, spatial data quality, georeferencing, raster and vector approaches, spatial data management, spatial analysis, spatial modelling, spatial visualisation, terrain analysis, and GIS applications in land use analysis, hydrology, ecology, geoscience, environmental policy and decision analysis.
+Learning Outcomes:
+- Identify environmental problems that can be solved with GIS.
+- Demonstrate a high level of skills in the use of GIS software (ArcGIS).
+- Grasp basic GIS skills.
+- Comprehend the nature of spatial data and their importance in environmental science.
+- Design GIS-based solutions to environmental problems.
+- Understand the fundamental principles of GIS.
+Assessment Tasks:
+- Project: Identify a site for remote bush lodges: 30% (Hurdle: None)
+- Online quizzes: 20% (Hurdle: None)
+- Practicals: 50% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. A unit requires on average three/four hours of scheduled activities per week. Scheduled activities may include a combination of teacher directed learning, peer directed learning and online engagement.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ENS5320 =====
+Subject: Climate change risk, resilience and security (ENS5320)
+Credit Points: 6
+Overview: This unit examines climate change risk and its relationship to climate security – a nexus between energy, food, water and human security related to the impacts of climate change. The unit pays special attention to developing knowledge for enhancing climate resilience, that is, the ability to cope with and reduce the risks of climate change. Fundamental knowledge related to the science of climate change and climate risk, and solutions to improve resilience in human and natural systems via adaptation and mitigation, are explored. The unit will develop skills in applying fundamental scientific knowledge and data for examining contemporary climate change issues, including climate-related disasters and the impacts of climate trends. There is a focus on skills enhancement for robust decision-making for complex problems that contain deep uncertainty; and for problems that have a strong intersection between biophysical and human systems. You will gain key knowledge of: likely future climate changes at the regional and global scale; the development of storylines of future climates; the utility and limitations of climate models; vulnerability assessment of climate change impacts; relationships between climate impacts and security; and mitigation and adaptation responses that promote resilience to climate change, including policy and regulatory frameworks.
+Learning Outcomes:
+- Develop appropriate strategies for planning, managing and evaluating climate change risk;
+- Analyse and assess the key elements of climate risk using a range of data sources from biophysical and human systems;
+- Apply effective communication skills for collaboration on climate change issues across academia, government and non-governmental and corporate organisations and negotiate diverse perspectives on relevant topics.
+- Evaluate and compare the range of future responses of the climate system, and relate these to changes in climate risk and climate security;
+- Assess the role that human and biophysical systems play in the deep uncertainty related to decision-making on climate change risk;
+Assessment Tasks:
+- Vulnerability assessment and response (group): 30% (Hurdle: None)
+- Climate risk report (individual): 30% (Hurdle: None)
+- Climate change negotiations (group): 10% (Hurdle: None)
+- Mini quizzes (individual): 15% (Hurdle: None)
+- Reflective pieces (individual): 15% (Hurdle: None)
+Workload: Contact hours: 1 hour per week of online delivery; Ten hours per week in three block-on weeks; An additional three hours in the last block-on week and Additional requirements of at least 9-hours of independent pre and post class work, including assessment activities
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ENS5330 =====
+Subject: Water security and environmental pollution (ENS5330)
+Credit Points: 6
+Overview: This unit will provide you with the knowledge and perspectives to manage groundwater and surface water resources for human consumption, recreation and ecological values. The unit will commence by covering the basics of the hydrological cycle and the factors controlling groundwater and surface water availability. Fundamentals of water quality and pollutants and their behaviour including, metals, organic contaminants, nutrients and algal blooms, pathogens and water treatment will also be addressed. Application of this knowledge will then be applied to case studies of contaminated systems, their assessment and remediation approaches. Finally the unit will cover the policy approaches used to manage water resources around the world including local and international examples of the development of water quality guidelines and frameworks. Current approaches used to balance the needs of ecological values and human water needs, will also be discussed with global and local examples.
+Learning Outcomes:
+- Understand, apply and design water quality guidelines to protect different water uses and purposes.
+- Articulate the key aspects of the hydrological cycle that control surface and groundwater availability and evaluate approaches used to quantify and predict this.
+- Describe and understand the key physical, chemical and biological threats to water quality, including the key classes and behaviour of pollutants such as metals, organic contaminants, nutrients and acidity.
+- Effectively communicate the key issues associated with water quantity and quality to the public and policy makers.
+- Design management strategies to maintain, improve and remediate water availability and quality in surface groundwater and marine systems.
+Assessment Tasks:
+- Presentation: 20% (Hurdle: None)
+- Assignments: 50% (Hurdle: None)
+- Weekly quizzes and in-class assessments: 30% (Hurdle: None)
+Workload: Total 144 hours over 12 weeks, which includes: Four hours of in-class workshops per week; A 1-day field trip and Additional self-directed learning activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ENS5340 =====
+Subject: Transforming cities for sustainability (ENS5340)
+Credit Points: 6
+Overview: Every city is unique in its history, community, and sustainability challenges. Transformation toward positive urban futures requires thoughtful, collaborative action from all sectors and local communities. Climate change, population growth and rapid urbanisation pose particularly significant threats to the sustainability and resilience of cities; however, most urban planning and resource service delivery strategies, including water and energy, reflect 20th century practices that are no longer suitable for our increasingly complex and uncertain world. Recognition of these interconnected problems has inspired new ways to manage our cities for sustainability. These embrace emerging technology and nature-based solutions, adopt flexible, adaptive infrastructure, and support engaged, socially resilient communities This unit introduces you to key principles of the Net Zero emissions and Water Sensitive Cities (WSC) paradigms, drawing on Monash University’s leading international research and practice in both areas. Together with principles of social innovation, these provide powerful guiding frameworks for rethinking our urban landscapes. In this unit, you will learn creative futuring methods to envision radically transformed sustainable cities, and devise place-based approaches and innovative pathways to achieve them. Integrating insights from social sciences, strategic foresight, urban planning, engineering, ecology and design, the unit will expand what you think is possible. You will encounter real-world urban innovations on Monash’s ‘living laboratory’ campus, meet industry experts, and learn how to apply tools and strategies to influence positive change in your chosen career context.
+Learning Outcomes:
+- Describe and evaluate fundamental principles of the Water Sensitive Cities paradigm and Net Zero decarbonisation agenda, and their relevance to cities;
+- Apply multiple methods to investigate the complexity of city evolution and planning, including social and technical elements;
+- Assess key challenges facing contemporary and future cities, with a focus on issues in the sustainable development domain;
+- Integrate disciplinary and paradigmatic approaches to re-imagine a case study urban location and design pathways for change toward its sustainable future.
+- Practise creative, future oriented and collaborative skills to influence change toward sustainable development of cities;
+Assessment Tasks:
+- Case study analysis: 40% (Hurdle: None)
+- Design challenge: 40% (Hurdle: None)
+- Ongoing learning: 20% (Hurdle: None)
+Workload: Equivalent of 24 hours per week across 6-week Summer Semester period (total of 144 hours)
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5145 =====
+Subject: Foundations of data science (FIT5145)
+Credit Points: 6
+Overview: This unit looks at processes, case studies and simple tools to understand the many facets of working with data, and the significant effort in Data Science over and above the core task of Data Analysis. Working with data as part of a business model and the lifecycle in an organisation is considered, as well as business processes and case studies. Data and its handling is also introduced: characteristic kinds of data and its collection, data storage and basic kinds of data preparation, data cleaning and data stream processing. Styles of data analysis and outcomes of successful data exploration and analysis are reviewed. Standards, tools and resources are also reviewed. Basic curation and management are reviewed: archival and architectural practice, policy, legal and ethical issues.
+Learning Outcomes:
+- Apply basic tools for performing exploratory data analysis and visualisation;
+- Recognise and analyse ethical and security challenges inherent to data science.
+- Analyse the role of data in organisations, including curation and management issues;
+- Apply basic tools for managing and processing big data;
+- Identify data resources, data storage, processing requirements, and recognised standards for a data science project;
+- Apply basic predictive modelling methods and integrate data analysis results to guide real-world decision making;
+Assessment Tasks:
+- Data Analysis with R (Coding task I): 15% (Hurdle: None)
+- Report on the Data Science Project: 30% (Hurdle: None)
+- Propose a Data Science Project: 15% (Hurdle: None)
+- Data Analysis with Tools and Scripting (Coding task II): 40% (Hurdle: None)
+Workload: Applied sessions are scheduled from week 2 to week 12. Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5147 =====
+Subject: Data exploration and visualisation (FIT5147)
+Credit Points: 6
+Overview: This unit introduces statistical and visualisation techniques for the exploratory analysis of data. It will cover the role of data visualisation in data science and its limitations. Visualisation of qualitative, quantitative, temporal and spatial data will be presented. What makes an effective data visualisation, interactive data visualisation, and creating data visualisations with R and other tools will also be presented.
+Learning Outcomes:
+- Perform exploratory data analysis using a range of visualisation tools;
+- Distinguish standard visualisations for qualitative, quantitative, temporal and spatial data;
+- Choose an appropriate and effective data visualisation;
+- Critically evaluate and interpret a data visualisation;
+- Describe the role of data visualisation in data science and its limitations;
+- Implement static and interactive data visualisations using R and other tools.
+Assessment Tasks:
+- Visualisation Project: 40% (Hurdle: None)
+- Programming Exercise 3: D3: 5% (Hurdle: None)
+- Programming Exercise 1: Tableau Public: 5% (Hurdle: None)
+- Programming Exercise 2: R: 5% (Hurdle: None)
+- Design Activity: 15% (Hurdle: None)
+- Visualisation Project: 40% (Hurdle: None)
+- Data Exploration Project: 35% (Hurdle: None)
+- Data Exploration Project: 35% (Hurdle: None)
+- Online Quiz: 10% (Hurdle: None)
+- Online Quiz: 10% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5196 =====
+Subject: Data wrangling (FIT5196)
+Credit Points: 6
+Overview: This unit introduces tools and techniques for data wrangling. It will cover the problems that prevent raw data from being effectively used in analysis and the data cleansing and pre-processing tasks that prepare it for analytics. These include, for example, the handling of bad and missing data, data integration and initial feature selection. It will also introduce text mining and web analytics. Python and the Pandas environment will be used for implementation.
+Learning Outcomes:
+- Resolve data quality issues ready for the data analysis process;
+- Parse data in the required format;
+- Write program scripts for data wrangling processes.
+- Assess the quality of data for problem identification;
+- Integrate data sources for data enrichment;
+- Communicate data wrangling processes, decisions, and outcomes effectively in written and oral forms.
+Assessment Tasks:
+- Group assignment 1: 35% (Hurdle: None)
+- Group assignment 2: 40% (Hurdle: None)
+- Quiz 1: 10% (Hurdle: None)
+- Learning Activity Participation: 5% (Hurdle: None)
+- Quiz 2: 10% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT5237 =====
+Subject: Responsible digitalisation (FIT5237)
+Credit Points: 6
+Overview: This unit aims to develop your understanding of the ways in which digital technologies, processes and systems can be responsibly designed, developed and implemented to contribute to global challenges of sustainability, equity and inclusion. You will explore the ways in which the digital transformation of processes and systems - particularly with data-driven and algorithmic technologies - can better recognise and respond to short, medium and long-term consequences and impacts on individuals, organisations, communities and societies. You will learn how to apply ethical design and human rights frameworks to information system design, development and deployment in a range of organisational contexts, and develop their critical thinking and writing skills.
+Learning Outcomes:
+- Describe and explain the key principles that underpin the responsible digital transformation of processes and systems for operational, legal and societal accountability.
+- Holistically analyse the benefits, risks, consequences, and impacts of digital transformations on individuals, organisations, communities and societies.
+- Apply ethical design, human rights and sustainable development frameworks to the design and deployment of data-driven and algorithmic technologies into digital ecosystems in a range of organisational contexts.
+- Identify and navigate the existing and emergent regulatory frameworks impacting on information system design and development.
+Assessment Tasks:
+- Assignment 1 - Critical IS Review: 25% (Hurdle: None)
+- Assignment 3 - Learning Activities Portfolio: 20% (Hurdle: None)
+- Assignment 2 - Impact Assessment: 25% (Hurdle: None)
+- Assignment 4 - Case Study Report: 30% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT9132 =====
+Subject: Introduction to databases (FIT9132)
+Credit Points: 6
+Overview: This unit will introduce the concept of data management in an organisation through relational database technology. Theoretical foundation of relational model, analysis and design, implementation of relational database using SQL will be covered.
+Learning Outcomes:
+- Implement a relational database based on a sound database design;
+- Develop a sound relational database design;
+- Apply the theories of the relational database model;
+- Manage data that meets user requirements, including queries and transactions;
+- Contrast the differences between non-relational database models and the relational database model.
+Assessment Tasks:
+- Assignment 2 - Creating, Populating and Manipulating Databases: 35% (Hurdle: None)
+- Class test 2: 15% (Hurdle: None)
+- Class test 1: 15% (Hurdle: None)
+- Assignment 1 - Database Design: 35% (Hurdle: None)
+Workload: This unit has a requirement of 1-2 hours per week of asynchronous learning. Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of online and face to face learning activities and independent study. Independent study includes associated reading and self-directed online study in preparation for scheduled activities. The unit requires on average three/four hours of scheduled activities per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT9136 =====
+Subject: Introduction to Python programming (FIT9136)
+Credit Points: 6
+Overview: This unit introduces programming fundamentals using the Python language. It will present fundamental programming control structures, built-in and complex datatypes, mechanisms for modularity, and the use of basic libraries. You will also be introduced to good programming practices and programming in teams.
+Learning Outcomes:
+- Design, construct and test simple programs that include user-defined functions and data structures;
+- Write programs efficiently by discovering and leveraging libraries;
+- Implement good programming practices in a team, including unit testing, basic documentation and readability.
+- Effectively use variables, conditionals and loops in computer programs;
+Assessment Tasks:
+- Assignment 1 Project: 25% (Hurdle: None)
+- Assignment 3 Project: 15% (Hurdle: None)
+- Assignment 2 Project: 30% (Hurdle: None)
+- Assignment 1 In-class test: 10% (Hurdle: None)
+- Assignment 2 In-class test: 10% (Hurdle: None)
+- Assignment 3 In-class test: 10% (Hurdle: None)
+- Discussion 2: 10% (Hurdle: None)
+- Assignment 1 Project: 20% (Hurdle: None)
+- In-class test 1: 5% (Hurdle: None)
+- Discussion 1: 5% (Hurdle: None)
+- Assignment 2 Project: 30% (Hurdle: None)
+- In-class test 2: 15% (Hurdle: None)
+- In-class test 3: 15% (Hurdle: None)
+Workload: This unit has a requirement of 1-2 hours per week of asynchronous learning. Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+

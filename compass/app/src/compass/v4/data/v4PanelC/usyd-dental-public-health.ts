@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in public health.",
+    "evidenceLines": [
+      "**Institution**: The University of Sydney (USYD)",
+      "**Course / Program Identifier**: dental-public-health",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in public health.",
+    "evidenceLines": [
+      "**Academic Year**: 2026",
+      "**Faculty**: medicine-health-pg",
+      "- **Course / Program Identifier**: dental-public-health"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within public health.",
+    "evidenceLines": [
+      "Subject: Epidemiology Methods and Uses (PUBH5010)",
+      "Subject: Introductory Biostatistics (PUBH5018)",
+      "**Handbook URL**: https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/dental-public-health.html"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in public health.",
+    "evidenceLines": [
+      "LO1 . identify whether the hypothesis of a paper is concerned with the efficacy of intervention, causality, test accuracy, or determining the magnitude of the health problem",
+      "LO2 . identify which study type has been used, and judge how this affects the interpretation of the results",
+      "- **Faculty**: medicine-health-pg"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in public health.",
+    "evidenceLines": [
+      "Subject: Aboriginal/Torres Strait Islander Health (PUBH5120)",
+      "Subject: Health Economic Evaluation (PUBH5312)",
+      "LO3 . calculate and interpret measures of disease frequency and measures of association"
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in public health.",
+    "evidenceLines": [
+      "LO4 . identify and assess the implications of the main forms of bias (selection, measurement, confounding, lead time, and length time) in epidemiological and clinical medicine research",
+      "- **Institution**: The University of Sydney (USYD)",
+      "- **Course / Program Identifier**: dental-public-health"
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in public health.",
+    "evidenceLines": [
+      "LO5 . distinguish which of the methodological flaws in any paper are the most important",
+      "Subject: Qualitative Research in Health (PUBH5505)",
+      "- **Faculty**: medicine-health-pg"
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "Students must complete 48 credit points, comprising:",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Dental Public Health.",
+      "evidenceLines": [
+        "Students must complete 48 credit points, comprising:",
+        "(a) 18 credit points of Core 5000-level units of study and;"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in public health.",
+      "evidenceLines": [
+        "Subject: Epidemiology Methods and Uses (PUBH5010)",
+        "**Institution**: The University of Sydney (USYD)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

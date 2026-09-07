@@ -1,0 +1,584 @@
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/programs/2026/8959 =====
+# Data Science and Decisions (8959)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 8959
+- **Academic Year**: 2026
+- **Study Level**: Postgraduate
+- **AQF Level**: Level 9
+- **Total Units / Units of Credit (UOC)**: 96
+- **Delivery Mode**: Face-to-face (includes blended)
+- **CRICOS Code**: 0101866
+- **Academic Organisation**: Faculty of Science
+- **Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/8959
+
+## Description
+The two-year Master of Data Science and Decisions has been developed to train the current and future generation of data scientists and data analysts to meet the strong demand in the workforce. Graduates will have broad and advanced knowledge and skills in data science across three areas: mathematics and statistics, computer science, and economics.  They will also gain deeper knowledge in one of these three areas by pursuing studies in one of four specialisations. Students will develop research and communication skills in data science through project work.
+
+Students have two pathways for completing some of the required statistics coursework.  In Option 1, students take two courses (MATH5846 and MATH5856) that cover the foundations of probability and statistics necessary for data science. This pathway is intended for students who have limited or no previous exposure to probability and mathematical statistical theory from previous study. Option 2 is intended for students who already have taken prior statistics coursework. In this pathway, students take MATH5905 and an elective of their choosing. Students choosing Option 2 should have the following assumed knowledge: probability, random variables, the central limit theorem, Markov chains, hypothesis tests, confidence intervals, maximum likelihood estimation, and least squares methods.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+10. Demonstrate an understanding of the role of speculation in the selection and solution of problems, the construction of hypotheses, and the design of experiments.
+2. Read critically and with understanding to think logically, and to communicate clearly by written and oral means.
+8. Prepare, process, interpret and present data using appropriate qualitative and quantitative techniques.
+9. Demonstrate an advanced working knowledge of scientific criteria and methods of investigation, and a concern for objectivity and precision.
+5. Analyse information critically in a mathematical setting.
+1. Demonstrate a high level understanding of the significance of science, technology, economics and social factors in modern society, and of the contributions they can make in improving material conditions.
+4. Apply advanced mathematical and computational techniques and business sensibilities to real-world problems involving complex data sets.
+7. Demonstrate knowledge and skills in formulating problems involving both qualitative and quantitative data.
+6. Apply the highest ethical standards to their professional lives.
+3. Create new understanding through the process of enquiry, critical analysis and problem solving, including constructing a research project, that demonstrates technical skills in research and design.
+
+## Career Opportunities & Employment Areas
+Database and Systems Administrators, and ICT Security Specialists, Statistician, Business and Systems Analysts, and Programmers, Computer Network Professionals
+
+## Program Structure & Degree Requirements
+Students must complete 96 Units of Credit (UOC) structured across the following academic components:
+
+### Specialisations
+Students must complete 30 UOC from one of the specialisations below.
+
+- **MATHNT**: Quantitative Data Science and Decisions [30 UOC]
+- **ECONZS**: Business Data Science and Decisions [30 UOC]
+- **ECONZT**: Behavioural Data Science and Decisions [30 UOC]
+- **COMPQS**: Computational Data Science and Decisions [30 UOC]
+
+### Research Project (12 UOC)
+Students must take 12 UOC of the following courses.
+
+DATA5925 Project (12 UOC) in one Term or DATA5011 Project (6 UOC) and DATA5012 Project (6 UOC) over two consecutive Terms (with approval of supervisor).
+
+A WAM of greater than 65 is recommended for DATA5925.
+A WAM of greater than 85 is recommended for DATA5011/5012.
+
+Students seeking to enrol into a DATA5011/5012 project are required to have the approval of the Director of Postgraduate Studies.
+
+Enrolment into these courses is subject to appropriate research and supervision resources being available.
+
+- **DATA5012**: Data Science and Decisions Project B [6 UOC]
+- **DATA5925**: Data Science and Decisions Project [12 UOC]
+- **DATA5011**: Data Science and Decisions Project A [6 UOC]
+
+### Core Courses (54 UOC)
+Students must take 54 UOC of the following courses.
+
+Please note: Students must take 12 UOC from either Option One or Option Two.
+
+Students taking COMPQS Computational Data Science and Decisions specialisation, must take COMP9417, not MATH5836.
+
+#### Core Courses
+- **DATA9001**: Fundamentals of Data Science [6 UOC]
+- **COMP9311**: Database Systems [6 UOC]
+- **ECON5103**: Business Economics [6 UOC]
+- **DATA5002**: Data Visualisation [6 UOC]
+- **ECON5111**: Economics of Strategy [6 UOC]
+
+#### Option One (12 UOC)
+Students may take 12 UOC of the following courses.
+
+- **MATH5856**: Introduction to Statistics and Statistical Computations [6 UOC]
+- **MATH5846**: Introduction to Probability and Stochastic Processes [6 UOC]
+
+#### One of the following:
+- **COMP9021**: Principles of Programming [6 UOC]
+- **COMP9020**: Foundations of Computer Science [6 UOC]
+
+#### Option Two (12 UOC)
+Students may take 12 UOC of the following courses.
+
+##### Core Course (0 UOC)
+- **MATH5905**: Statistical Inference [6 UOC]
+
+##### One of the following (0 UOC)
+- **MATH5895**: Nonparametric Statistics [6 UOC]
+- **MATH5845**: Time Series [6 UOC]
+- **MATH5906**: Design & Analysis of Clinical Trials [6 UOC]
+- **MATH5868**: Bootstrap and Other Resampling Methods [6 UOC]
+- **MATH5826**: Statistical Methods in Epidemiology [6 UOC]
+- **MATH5885**: Longitudinal Data Analysis [6 UOC]
+- **MATH5855**: Multivariate Analysis [6 UOC]
+- **MATH5945**: Categorical Data Analysis [6 UOC]
+- **MATH5881**: Statistical Machine Learning Theory  [6 UOC]
+- **MATH5806**: Applied Regression Analysis [6 UOC]
+- **MATH5852**: Experimental Design and Causal Inference [6 UOC]
+- **MATH5916**: Survival Analysis [6 UOC]
+- **MATH5960**: Bayesian Inference and Computation [6 UOC]
+
+#### One of the following:
+- **COMP9417**: Machine Learning [6 UOC]
+- **MATH5836**: Data and Machine Learning [6 UOC]
+
+### Prescribed Electives
+Students must choose 24 UOC from their chosen specialisation and 6 UOC from other specialisations including Business/Behavioural elective courses.
+
+## Progression & Academic Rules
+Students usually complete their Research Project during their last one or two Terms. Students are not eligible to start a project until they have completed at least 36 UoC  (typically, 6 courses).
+
+- Students who have passed 24 UoC can elect to exit the program with a Graduate Certificate (7959).
+
+- Students who have passed 48 UoC can elect to exit the program with a Graduate Diploma (5959).
+
+- Students who have completed the Graduate Certificate (7959) and have a WAM of 65 may apply to transfer into this Masters program and will receive up to 24 UOC of Advanced Standing.
+
+- Students who have completed the full 48 UoC of the Graduate Diploma (5959), and have a WAM of 65, may apply to transfer into this Masters program and will receive up to 48 UoC of Advanced Standing.
+
+- Students who have completed 24 UoC of the Graduate Diploma (5959), and have a WAM of 65, may apply to transfer into this Masters program and will receive up to 24 UoC of Advanced Standing.
+
+## Admission Requirements
+**Limitations on Recognition of Prior Learning**:
+In limited cases, students with previous postgraduate or honours-level coursework, including Honours graduates in Mathematics or Statistics from UNSW (or equivalent), may receive advanced standing.  Advanced standing is limited to a maximum of 36 UOC.  Students who receive the maximum 36 UOC may complete the degree with 60 UOC, or 1.3 years of full-time study.
+
+Advanced standing will only be granted for courses at the honours or postgraduate level, not courses at the undergraduate level. Students must apply for advanced standing and the School of Mathematics and Statistics will determine if the student’s completed coursework is deemed equivalent to UNSW counterparts.  Advanced standing is not guaranteed.
+
+**Minimum Entry Requirements**:
+The entry requirement for the Master of Data Science and Decisions is both of the following:
+
+1. A recognised bachelor degree (or equivalent qualification) with a substantial quantitative component in a cognate discipline.
+
+2. An overall average of 70 or higher as determined by the UNSW Postgraduate Coursework Entry Calculator.
+
+Notes
+
+Assumed knowledge: A mathematical background of a minimum of one course in several variable calculus and one course in linear algebra at the university undergraduate level.
+
+International students: Prospective international students need to meet the University's English language requirements.
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/COMP9020 =====
+Subject: Foundations of Computer Science (COMP9020)
+Credit Points: 6
+Overview: The official scope is: mathematical methods for designing correct and efficient programs; mathematics for algorithm analysis; logic for proving and verification. The actual content is taken from a list of subjects that constitute the basis of the tool box of every serious practitioner of computing: set and relation theory; induction, recursion and recurrence relations; order of growth of functions; structured counting (combinatorics); discrete probability; graph theory and trees for algorithmic applications; propositional logic and boolean algebras.
+Learning Outcomes:
+- Explain basic number theory concepts and definitions.
+- Explain simple combinatorics, probability and statistics.
+- Explain Boolean and propositional logic.
+- Explain the fundamental Computer Science concepts of recursion and induction.
+- Explain the foundational structures used in discrete mathematics.
+- Explore additional approaches to problem solving by identifying broader abstract connections between concepts.
+- Analyze the correctness and efficiency of algorithms.
+- Apply mathematical tools to formulate and prove problems in Computer Science.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/COMP9021 =====
+Subject: Principles of Programming (COMP9021)
+Credit Points: 6
+Overview: This course provides students with solid conceptual knowledge and practical skills of both generic programming techniques and Python programming, to be used effectively in the many specialised courses that expect students to have acquired strong enough programming skills and well mastered the Python language. The features of the language are covered to a significant depth, and there is a strong emphasis on problem solving, from a broad base of application domains, with quite a few that involve mathematical notions. Like all foundation courses for postgraduate students, there is a lot of contents to study in limited time and the learning curve is not gentle. Still the course does not assume any prior knowledge of programming in general, or of Python programming in particular, as its content is self-contained for students with the expected mathematical background.
+Learning Outcomes:
+- Apply appropriate tools, in particular for editing, testing and debugging.
+- Apply Python language, including advanced syntax and programming techniques.
+- Design, implement and test programs written in a language with procedural, object-oriented, and functional constructs.
+- Create clear, reliable, well-structured, well-tested, well-documented programs.
+- Analyse what happens behind the scene when operating on Python data types, with an understanding of efficiency and memory use.
+- Use fundamental data structures and algorithms.
+- Design programs to solve small to medium scale problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/COMP9311 =====
+Subject: Database Systems (COMP9311)
+Credit Points: 6
+Overview: Large data resources are critical to the functioning of just about every significant modern computer application, and so knowledge of how to manage them is clearly important in the industry. One very important platform for this is relational database management systems (RDBMSs). This course explores in-depth the practice of developing database applications and the theory behind RDBMSs. The course focuses on database design and querying, as well as analysis of database schemas. It will also give an overview of the technologies used in implementing database management systems and the past, present, and future of database systems and database research.
+Learning Outcomes:
+- Formulate efficient and effective queries via the full range of SQL constructs
+- Understand the concepts behind transactions and concurrency control
+- Appreciate the past, present, and future of database technology
+- Realise data models as relational database schemas
+- Use stored procedures and triggers to extend DBMS capabilities
+- Understand the overall architecture of relational DBMSs
+- Develop accurate, non-redundant data models
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/courses/2026/COMP9417 =====
+Subject: Machine Learning (COMP9417)
+Credit Points: 6
+Overview: Machine learning is the algorithmic approach to learning from data. The course also covers aspects of data mining, the application of machine learning to obtain insight from data. In this course machine learning algorithms are placed in the context of their theoretical foundations in order to understand their derivation and correct application. Machine learning also is an empirical science, where performance of algorithms must be rigorously evaluated on datasets. Completion of this course will contribute to further learning in advanced topics such as deep learning, bioinformatics, computer vision, and robotics. Topics covered in the course include: linear models for regression and classification, local methods (nearest neighbour), tree learning, kernel machines, neural networks, unsupervised learning, ensemble learning, and learning theory. To expand and extend the development of theory and algorithms presented in lectures, practical examples will be given in tutorials and programming tasks during the project.
+Learning Outcomes:
+- Implement machine learning algorithms, apply them to realistic datasets and collect results to enable evaluation of their performance.
+- Construct a well-defined learning problem for a given task, selecting representations for the data input and output, the model, and the learning algorithm.
+- Explain key concepts from the foundations of learning theory, describe their applicability, and express knowledge of the general limits of machine learning.
+- Compare different algorithms according to the properties of their inputs and outputs, and the computational methods used.
+- Develop and describe algorithms to solve a well-defined learning problem.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/DATA5002 =====
+Subject: Data Visualisation (DATA5002)
+Credit Points: 6
+Overview: This course introduces students to data visualisation in the areas of statistical analysis and data science. Students will learn how to make their own effective and impactful visualisations using software tools including R. There will be a strong focus on developing the skill of data storytelling: combining data, its visualisation, and a narrative to create a powerful story to drive change. Key topics include visualisation for exploratory and statistical data analysis and interactive visualisations such as dashboards.
+Learning Outcomes:
+- Critically evaluate and interpret data graphics, including understanding and interpreting the output of software packages.
+- Apply data storytelling techniques to a range of problems in data science, statistics, and applications.
+- Communicate data insights effectively and successfully to a variety of audiences. Successful communication can include accurately portraying insights, promoting understanding, or informing effective decisions.
+- Apply basic principles and concepts of data visualisation design.
+- Produce appropriate high quality data visualisations using a variety of software packages and techniques.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/DATA5011 =====
+Subject: Data Science and Decisions Project A (DATA5011)
+Credit Points: 6
+Overview: This course exposes students to research methods in applying data science and decisions techniques to a research project. The project courses serve as a capstone in the Master of Data Science and Decisions program. Students will be required to apply and demonstrate their learning from the courses in the program. It also requires students to present their work in visual and verbal forms including a presentation. The Data Science and Decisions Project course is done over two terms under the course code DATA5011 and DATA5012. The assessment is a final report which is worth 80% and a presentation worth 20%. The project report is due at the end of DATA5012 and presentation is held at the end of DATA5012. Therefore there is no formal assessment while the student is enrolled in DATA5011. Please note: Students in the 8959 program have an alternative 12 UOC Masters project course: DATA5925 - Data Science and Decisions Project. Please visit Handbook for more advice.
+Learning Outcomes:
+- Critically reflect on a specialist body of knowledge related to data science.
+- Apply robust research methods to design, build, or evaluate a data science project.
+- Communicate technical information clearly, in both verbal and written form.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/DATA5012 =====
+Subject: Data Science and Decisions Project B (DATA5012)
+Credit Points: 6
+Overview: This course exposes students to research methods in applying data science and decisions techniques to a research project. The project courses serve as capstone courses in the Master of Data Science and Decisions program. Students will be required to apply and demonstrate their learning from the courses in the program. It also requires students to present their work in visual and verbal forms including a presentation. The Data science and decisions project course is done over two terms under the course code DATA5011 and DATA5012. The assessment is a final report which is worth 80% and a presentation worth 20%. The project report is due at the end of DATA5012 and presentation is held at the end of DATA5012. Therefore there is no formal assessment while the student is enrolled in DATA5011.
+Learning Outcomes:
+- Communicate technical information clearly, in both verbal and written form.
+- Apply robust research methods to design, build, or evaluate a data science project.
+- Critically reflect on a specialist body of knowledge related to data science.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/DATA5925 =====
+Subject: Data Science and Decisions Project (DATA5925)
+Credit Points: 12
+Overview: This course is an opportunity to bring together the skills the students have developed during their Master of Data Science and Decisions program and apply them to a substantive new problem. Students will work in a small group and present results in thesis form and in a presentation. Students will be supervised by an academic staff member from the School and meet one hour per week to discuss and work on the group project. Note: Available only to students for in the 8959 Master of Data Science and Decisions program. Students usually complete their project during their last one or two Terms. Students are not eligible to start a project until they have completed at least 36 UoC (typically, 6 courses) over at least three terms.
+Learning Outcomes:
+- Communicate a research topic effectively to a range of audiences both in written and oral forms.
+- Create a research project involving enquiry-based learning and analytical skills as they relate to mathematical and statistical sciences.
+- Conduct both independent and collaborative enquiry effectively.
+- Analyse and solve advanced problems in the mathematical and statistical sciences.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/DATA9001 =====
+Subject: Fundamentals of Data Science (DATA9001)
+Credit Points: 6
+Overview: This course provides a broad overview of Data Science as a platform for further studies in Data Science and an understanding and appreciation of Data Science in the modern world. Students will study the fundamentals of Data Science as it is applied in Computer Science, Economics, and Mathematics and Statistics. They will be introduced to topics such as databases, data analytics, data mining, Bayesian statistics, statistical software, econometrics, machine learning and business forecasting. The content of this course will be delivered via weekly live lectures with academics from three different Schools: The School of Mathematics and Statistics, the School of Economics and the School of Computer Science and Engineering. These concepts will be further explored through a series of tutorials/workshops.
+Learning Outcomes:
+- Apply fundamental data science techniques and tools, including machine learning, Naïve Bayes classification, Decision trees, K-NN, unsupervised learning and neural networks.
+- Apply key methods of statistical inference in applied settings.
+- Use R/RStudio to perform statistical computations and simulations.
+- Use key theoretical tools to explore the properties of random variables.
+- Apply various data visualisation tools, perform regression analysis and draw causal inference from data.
+- Apply probability rules in a given setting to calculate key quantities.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person -: N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ECON5103 =====
+Subject: Business Economics (ECON5103)
+Credit Points: 6
+Overview: How do markets operate, how do firms and consumers respond to incentives, and how do government policies affect business strategy and performance? This course introduces key economic principles and their application to business decision making in a dynamic and uncertain environment. Students will develop a foundational understanding of economic principles and receive practical training in decision making, within the economic contexts which influence business activities. By the end of the course, students will be able to apply economic reasoning to strategic and operational decisions, assess policy impacts on business outcomes, and think critically about the broader economic forces shaping modern organisations.
+Learning Outcomes:
+- Construct economic arguments in terms of these concepts.
+- Implement economic models to analyse relevant issues, incorporating environmental and sustainability considerations in international macroeconomics.
+- Explain key micro- and macro-economic concepts.
+- Synthesise ideas through succinct and clear work that communicates ideas in a logical, professional manner.
+- Critically read and evaluate economic stories in the media.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ECON5111 =====
+Subject: Economics of Strategy (ECON5111)
+Credit Points: 6
+Overview: Strategic interaction is central to modern economics and business decisions. This course introduces the core tools of game theory and applies them to competition, contracting, auctions, bargaining, and related strategic settings. You will study simultaneous and sequential games, imperfect information, and repeated interaction, and apply these tools across mean cases and contexts. The result is a practical framework for analysing strategic behaviour. By the end of this course, you will be able apply core game theoretic concepts to analyse strategic behaviour, market structure, and policy design with precision and confidence.​
+Learning Outcomes:
+- Interpret and communicate insights derived from game-theoretic analysis to a non-technical audience.
+- Analyse real-world strategic situations using game-theoretic tools, assess the incentives faced by players, and evaluate resulting behavioural outcomes.
+- Critically apply game-theoretical tools and solution concepts, and clearly justify their use in strategic analysis.
+- Synthesise ideas through succinct and clear work that communicates ideas in a logical, professional manner.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5806 =====
+Subject: Applied Regression Analysis (MATH5806)
+Credit Points: 6
+Overview: Regression is a set of statistical techniques widely used to analyse relationships between several variables. The topics covered in this course include: linear regression; weighted least squares; generalized linear models (GLMs); fitting GLMs and examining model diagnostics; Poisson regression, binomial regression; analysis of variance; penalized regression methods; splines; penalized splines; thin plate splines; variable selection; generalized cross-validation; local likelihood; kernel smoothing; generalized additive models; multinomial logit analysis; ordinal logistic regression. Lectures will be complemented with worked examples where students will perform data analysis and statistical programming using the R software.
+Learning Outcomes:
+- Formulate and discuss the mathematical and statistical results from the regression analysis in written form.
+- Relate the output of statistical software to the theoretical formulas presented in the lectures.
+- Assess the strengths and weaknesses of regression models, hypotheses and intuitions of the various approaches.
+- Analyse a given data set by choosing the appropriate regression technique.
+- Apply the appropriate R package for regression analysis and effectively apply R programming skills to the appropriate regression technique.
+- Describe the output of statistical software and interpret the results.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5826 =====
+Subject: Statistical Methods in Epidemiology (MATH5826)
+Credit Points: 6
+Overview: Epidemiology is the study of factors that impact on the occurrence and outcome of diseases in human populations. The course introduces the main statistical concepts, methods and models used in the design and analysis of epidemiological studies. Extensive use of statistical computing and analysis of real datasets is an essential part of this course.
+Learning Outcomes:
+- Explain the di fferent measures of disease-exposure association, the diff erences between the measures and under what circumstances each is appropriate, andcalculate these measures
+- Explain the idea of matching in epidemiological studies and the reasons why it is used
+- Interpret the coeffcients of a logistic regression model for diff erent types of studies
+- Use the theory of maximum likelihood estimation to derive estimators and standard errors for parameters in a logistic regression model
+- Explain the concepts of causality, confounding, and interaction
+- Use the computer language R to analyze data from epidemiological studies, and interpret R output.
+- Explain the key features of epidemiological studies and what distinguishes them from other types of studies
+- Examine whether interaction and/or confounding is present in an epidemiological study
+- List the di erent types of epidemiological studies, explain their key features and the distinctions between them, and the advantages and disadvantages of each type of study
+- Derive and use statistical techniques appropriate for matched studies
+- Explain how the design features of the di erent types of studies dictate the methods of analysis appropriate to each
+- Explain the di fferent measures of disease occurrence and calculate these measures
+- Solve theoretical problems related to epidemiological studies
+- Check the validity of a logistic regression model using residuals and influence measures
+- Explain generalized linear models (GLMs), and indicate how logistic regression models fit into the GLM framework
+- Explain the di erent types of regression models used in epidemiological studies
+- Implement techniques to deal with interaction and/or confounding in an epidemiological study
+- Assess the statistical significance of disease-exposure association by applying hypothesis tests and calculating confidence intervals for measures of disease-exposure association
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5836 =====
+Subject: Data and Machine Learning (MATH5836)
+Credit Points: 6
+Overview: A wide range of statistical methods and computational tools have been developed in the past few decades to gather information from data. This postgraduate course covers the key techniques in data mining and machine learning with theoretical background and applications, delivered through a series of lectures and tutorials.The topics include methods such as linear and logistic regression, neural networks, Bayesian neural networks, clustering and dimensionality reduction, ensemble learning, and an introduction to deep learning. Emerging machine learning tools and libraries are used to illustrate the methods in programming environments that include Python and R.
+Learning Outcomes:
+- Develop models for solving data mining problems that include clustering, regression, and classification.
+- Demonstrate an applied working knowledge of the methodologies covered with practical assignments.
+- Select appropriate statistical and machine learning approaches to analyse data.
+- Build machine learning models using real-world data sets and use evaluation metrics to compare their performance.
+- Identify the fundamentals of machine learning and data mining through model development.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5845 =====
+Subject: Time Series (MATH5845)
+Credit Points: 6
+Overview: The course is concerned with the theory and application of appropriate statistical techniques for analysis of time series data -- data collected over time. The course will help students develop a sound understanding of stationary and non-stationary time series models and their properties in discrete time. The topics include the theory of stationary time series; methods for trend and seasonal analysis and adjustment; modelling and forecasting with autoregressive moving average processes; modelling the impact of exogenous or intervention variables on responses; models for stochastic volatility and long-term dependence; regression models for time series. Applications are primarily drawn from finance and public health and the R software environment is used to perform appropriate analyses for numerical examples.
+Learning Outcomes:
+- Apply diagnostic checking for the adequacy of the fit of a model.
+- Generate, interpret and explain R software output appropriate for time series identification, modeling and forecasting.
+- Identify appropriate models for time series.
+- Perform linear prediction for a range of time series models.
+- Understand the properties of the major types of time series observed in discrete time.
+- Estimate the time series models using different methods.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5846 =====
+Subject: Introduction to Probability and Stochastic Processes (MATH5846)
+Credit Points: 6
+Overview: This course covers probabilistic concepts which are necessary to study various complex phenomena arising in Engineering, Biology, Medicine and Economics. This course introduces basic concepts which are needed to analyse different phenomena. In particular, we discuss the concepts of random events, random variables, structures of dependence, computation of probabilities using the Central Limit Theorem, simple Markov chains, and Brownian motion.
+Learning Outcomes:
+- Use key theoretical tools to explore properties of random variables.
+- Apply principles of Markov Chains and Brownian motion to practical and theoretical problems.
+- Derive fundamental results in the theory of probability and random variables.
+- Apply the principles of probability to practical and theoretical problems.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5852 =====
+Subject: Experimental Design and Causal Inference (MATH5852)
+Credit Points: 6
+Overview: This course in statistics that covers the design and analysis of experiments and observational studies to answer causal questions. Topics include potential outcomes, causal estimands, and the importance of the design phase in both experiments and observational studies. Experimental design topics will include randomisation techniques, such as blocked and factorial experiments, and analysis methods, including both parametric and randomisation methods. Causal inference topics will include propensity scores, weighting, and matching. Students will put methods into practice using the statistical software R throughout the course. The intended audience of this course is wide-ranging, from statistics and data science students to students in the social and natural sciences (biology, psychology, economics, and others). This course is jointly taught at two levels. MATH3852 is for 3rd year undergraduates, whereas MATH5852 is for Honours & Masters students.
+Learning Outcomes:
+- Apply methods in the course to the analysis of datasets using statistical software packages and interpret the results. Create meaningful conclusions based on analysis.
+- Identify and evaluate experimental designs for different settings.
+- Evaluate the key differences between experiments and observational studies
+- Estimate propensity scores and apply them in the design and analysis of observational studies.
+- Describe the potential outcomes framework and apply causal estimands.
+- Analyse experimental data generated from different designs.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5855 =====
+Subject: Multivariate Analysis (MATH5855)
+Credit Points: 6
+Overview: The course gives a methodological background in multivariate analysis as a backbone of Applied Statistics. It introduces multivariate techniques including principal component analysis; canonical correlation analysis; cluster analysis; factor analysis and discriminant analysis. Computing and data analysis features prominently in this course.
+Learning Outcomes:
+- Apply multivariate techniques and models to the analysis of datasets, interpretation of results and drawing of conclusions.
+- Perform different multivariate inference procedures by using the available powerful procedures in the R and/or SAS system.
+- Use the general terminology, notation, and concepts in the theory, methods, and applications of multivariate analysis.
+- Use the properties of the multivariate normal distribution to justify optimality properties of Statistical Inference procedures based on multivariate normality.
+- Formulate and solve inference problems that use one or a combination of different multivariate statistical procedures.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5856 =====
+Subject: Introduction to Statistics and Statistical Computations (MATH5856)
+Credit Points: 6
+Overview: This course addresses the foundational principles of statistical reasoning. In particular it introduces the most common methods for estimating unknown parameters of key statistical models in order to draw conclusions and make decisions without complete information. Practical implementations using statistical software packages are continuously presented to students. Students explore methods for estimating parameters using Maximum Likelihood and Bayesian inference, for constructing confidence intervals and performing hypothesis testing, for fitting linear and general linear models. Each week, the course includes typically 4 hour of pre-recorded lecture video and 1 hour of face-to-face tutorial during which students will have the opportunity to reinforce their learning.
+Learning Outcomes:
+- Interpret results generated from statistical software output
+- Write and execute basic R programs to perform statistical analysis.
+- Apply theoretical concepts and appropriate theorems to solve problems.
+- Use appropriate statistical terminology and reporting conventions to effectively communicate analysis and findings to a general audience.
+- Define and explain key statistical terms, concepts, and theorems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5868 =====
+Subject: Bootstrap and Other Resampling Methods (MATH5868)
+Credit Points: 6
+Overview: The course presents the basic techniques of resampling methods useful in statistics. These have grown very popular over the last two decades as they offer reliable alternatives to traditional asymptotic approaches, mostly based on Central Limit Theorems. The flagship instance of resampling-based approaches is the so-called `bootstrap' , by now considered as a real breakthrough in statistics. A very versatile technique, the bootstrap allows easy determination of the sampling distribution of any statistic of interest (estimator or test statistic) in a variety of situations. In fact, the bootstrap bypasses heavy analytical developments by substituting appropriate simulations. In many cases, the quality of the bootstrap approximation is better than its asymptotic counterparts, while in other situations, there is no asymptotic approximation available and the bootstrap turns out to be the only possibility for statistical inference. In this course, the bootstrap and other related resampling methods are first introduced in a general framework and their theoretical properties are investigated. Then, they are illustrated through many standard problems of statistical inference and common questions in related fields.
+Learning Outcomes:
+- Analyse the results and draw appropriate conclusions, when the resampling techniques are used to solve problems with real data.
+- Create and develop short pieces of code in an appropriate software to generate output in regard to the previous learning outcome.
+- Understand the underlying mechanisms for justifying the resampling approach.
+- Select and apply correctly the main resampling methods for statistical inference.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5881 =====
+Subject: Statistical Machine Learning Theory  (MATH5881)
+Credit Points: 6
+Overview: This course gives students a statistical and mathematical perspective on modern machine learning methods, with the aim of obtaining a deeper understanding of how such methods work and have been derived. This theoretical knowledge will then be used to demonstrate how to fine tune machine learning methods for complex applications. This course will focus on principles of neural networks (convolutional, recurrent, sequential methods), optimisation methods relevant for machine learning and generative AI (autoencoders, diffusion models, generative adversarial networks). This course is intended as an elective for Statistics majors & minors, Quantitative Data Science Major and Mathematics majors, both at the undergraduate and postgraduate level. Prior knowledge of basic probability is necessary, and knowledge of stochastic processes will be advantageous but is not required. This course complements MATH5191 Optimisation for data science by focusing on various neural network architectures and training methods that make use of some optimisation methods explored in MATH5191, along with probabilistic aspects governing generative modelling. Additionally, this course focuses on mathematical and statistical foundations of many machine learning methods discussed from a computational perspective in MATH5836. This course is jointly taught at two levels. MATH3881 is for 3rd year undergraduates, with MATH5881 for Honours & Masters students.
+Learning Outcomes:
+- Evaluate existing methods and justify which tools are most appropriate for particular applications based on their strengths and weaknesses.
+- Formulate and derive basic neural network and generative modelling methods using tools from linear algebra, calculus and basic probability theory.
+- Construct bespoke machine learning methods for complex applications.
+- Explain background concepts underlying modern machine learning.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5885 =====
+Subject: Longitudinal Data Analysis (MATH5885)
+Credit Points: 6
+Overview: This course focuses on modelling response profiles over time, whilst accounting for the correlation that will typically exist between measurements taken on the same individual and the variability between individual response profiles. MATH5885 brings together multivariate regression modelling, time series modelling and random effects modelling for continuous and discrete valued response measurements and aims to enhance a student’s capacity to analyze and understand large, complex data sets. The focus will be on applications to biomedical studies, but the ideas have a wider application, for example, to panel studies that arise in market research and social surveys.
+Learning Outcomes:
+- Use the linear mixed effects models for analyzing continuous longitudinal data and show how this extends to generalized linear mixed effects models for analyzing non-normal longitudinal data.
+- Use the R software to fit the models studied, visualize patterns, and interpret the output.
+- Learn the key features of longitudinal data and the ability to use longitudinal data analysis techniques.
+- Distinguish between a "subject-specific" and "population-average" interpretation of parameters.
+- Derive the likelihoods for correlated data and use them to calculate maximum likelihood estimates. Also, learn to use the concept of residual maximum likelihood (REML).
+- Use linear models when incorporating correlated errors to analyze longitudinal data.
+- Explain the distinct types of correlation that can occur in longitudinal data and choose appropriate models for correlation structures in given datasets.
+- Use marginal models to analyze non-normal longitudinal data via generalized estimating equations.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5895 =====
+Subject: Nonparametric Statistics (MATH5895)
+Credit Points: 6
+Overview: This course introduces modern nonparametric techniques for statistical analysis. Nonparametric methods are often said to “let the data speak for itself”, as they do not require the analyst to make any strong assumptions about the process which generated the data. This is in contrast with classical statistical procedures which are essentially parametric: they assume that the data follows a prescribed model defined in terms of a small number of parameters. As this course gives another insight into statistical theory, it can be thought of as an interesting complement to most of the other statistics courses which the student may have taken in their program.
+Learning Outcomes:
+- Apply the fundamental principles of smoothing for hypotheses testing when analysing real-world data sets.
+- Research scientific literature in the field and review recently published papers introducing novel nonparametric approaches for data analysis.
+- Use R software to answer concrete questions about real-world data sets and for intensive computing methods such as the bootstrap.
+- Apply the fundamental principles of smoothing for nonparametric curve estimation when analysing real-world data sets.
+- Explain why non-parametric techniques for data analysis are needed and useful.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5905 =====
+Subject: Statistical Inference (MATH5905)
+Credit Points: 6
+Overview: This postgraduate course presents general inference theory based on maximum likelihood and on Bayes methods. Estimation, confidence set construction, and hypothesis testing are discussed within decision-theoretic framework. Computationally intensive methods such as bootstrap are also discussed and are compared to asymptotic approximations such as saddlepoint and empirical likelihood.
+Learning Outcomes:
+- Use computer packages to generate output for common Inference procedures and for computer-intensive calculations such as bootstrapping and robust estimation.
+- Apply concepts of finite-sample and asymptotic efficiency of inference procedure to appropriate problems.
+- Explain how statistical inference arises from the first principles of probability theory.
+- Use parametric, nonparametric, Bayes and robust inference methods.
+- Apply the fundamental principles of inference: sufficiency, likelihood, ancillarity, and equivariance.
+- Estimate key population parameters of interest, test hypotheses about them and construct confidence regions.
+- Apply the parametric and non-parametric delta method, asymptotic normality, Edgeworth expansions and saddlepoint method to solve appropriate problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5906 =====
+Subject: Design & Analysis of Clinical Trials (MATH5906)
+Credit Points: 6
+Overview: This course will provide an introduction to statistical methodology used in the conduct of randomised controlled clinical trials. We will start with an introduction to the basic philosophy and history of the randomized controlled trial, and discuss design issues such as methods of randomization and sample size determination. Extensive use will be made of computer methods in analysing data sets.
+Learning Outcomes:
+- Solve theoretical problems related to the design and analysis of clinical trials
+- Explain the key features of randomized controlled clinical trials and what distinguishes them from other types of studies
+- Explain the issues related to multiple comparisons and how adjustments should be made for them
+- Explain why and how clinical trials are monitored, and implement monitoring schemes
+- Perform appropriate analyses of data from clinical trials, using the computer language R , and interpret R output
+- Explain the issues related to subgroup analyses and perform a subgroup analysis
+- Explain bias and how it might a ffect clinical trials
+- Explain how sample sizes can be calculated for di fferent types of outcomes in clinical trials, and implement these calculations
+- Explain the intention-to-treat principle and why it is widely used in clinical trials
+- List the di fferent types of clinical trials, such as parallel group, crossover, and equivalence trials, explain their key features and the distinctions between them, and analyse data from these trials
+- Explain the importance of randomization and the di fferent methods of random allocation used in clinical trials, and prepare randomization schemes based on these methods
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5916 =====
+Subject: Survival Analysis (MATH5916)
+Credit Points: 6
+Overview: Survival analysis is the analysis of data representing the time to occurrence of a certain event or endpoint (time-to-event data). This course introduces the special features of time-to-event data and explores methods and models available to deal with them. Extensive use will be made of the computer methods in analysing real datasets.
+Learning Outcomes:
+- Understand the counting process formulation for survival data to calculate residuals and influence for survival models including assessing the proportional hazards assumption.
+- Understand the key features of survival data including censoring, truncation, hazard, and frailty.
+- Solve theoretical statistical problems related to the analysis of survival data.
+- Understand and apply the Cox proportional hazards model to examine the effect of covariates on survival including the use of time-dependent covariates.
+- Understand and apply parametric and non-parametric inference techniques for the analysis of survival data.
+- Use common R packages and functions for the processing and analysis of survival data.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5945 =====
+Subject: Categorical Data Analysis (MATH5945)
+Credit Points: 6
+Overview: This postgraduate course provides the theoretical foundation and methodological background for the analysis of categorical response data. Through a series of lectures and labs, a range of topics will be introduced including the Bernoulli trial, the analysis of contingency tables, and generalised linear models including logistic and Poisson regression. Statistical computing is an integral part of this course.
+Learning Outcomes:
+- Solve theoretical statistical problems related to the analysis of categorical data.
+- Understand and apply the terminology, notation and concepts in the theory, methods, and application of categorical data analysis.
+- Write SAS code for data input, data processing, and for conducting analyses using categorical data.
+- Apply inference techniques for log-linear models, logistic regression, Poisson regression, logit and probit models to a rigorous standard, including model comparisons and the use of model selection strategies within a hierarchical set of models.
+- Use common SAS procedures for categorical data analysis such as FREQ, LOGISTIC, CATMOD and GENMOD to analyse datasets, interpret the results and draw conclusions.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5960 =====
+Subject: Bayesian Inference and Computation (MATH5960)
+Credit Points: 6
+Overview: After describing the fundamentals of Bayesian inference, this course will examine the specification of prior and posterior distributions, Bayesian decision theoretic concepts, the ideas behind Bayesian hypothesis tests, model choice and model averaging, and evaluate the capabilities of several common model types, such as hierarchical and mixture models. An important part of Bayesian inference is the requirement to numerically evaluate complex integrals on a routine basis. Accordingly this course will also introduce the ideas behind Monte Carlo integration, importance sampling, rejection sampling, Markov chain Monte Carlo samplers such as the Gibbs sampler and the Metropolis-Hastings algorithm, and use of the Stan posterior simulation software. The intended audience of this course is wide-ranging, from statistics and data science students to economics, actuarial, computer science and natural science (e.g. biology, geology, physics) students. Prior knowledge of basic probability is necessary, and knowledge of stochastic processes will be advantageous but is not required. The purpose of this course is to introduce students to Bayesian statistical concepts not seen in core courses which are primarily focused on frequentist statistics. This course is jointly taught at two levels. MATH3871 is for 3rd year undergraduates, whereas MATH5960 is for Honours & Masters students.
+Learning Outcomes:
+- Explain the importance of computational techniques that are critical for Bayesian inference.
+- Explain and apply the background concepts underlying Bayesian inference.
+- Perform Bayesian analysis on realistic data using either common model types or using newly-constructed/bespoke models for new problems.
+- Prove theoretic results underlying some common Bayesian models and simulation techniques.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)
+Workload: 
+

@@ -1,0 +1,102 @@
+{
+  "code": "monash-p3002",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in natural and physical sciences.",
+      "evidenceLines": [
+        "Analyse and communicate experimental findings;",
+        "Explain the role of molecules, cells, tissues, organs and systems in ensuring homeostasis and effective functioning of the body;",
+        "This advanced version of the Bachelor of Pharmaceutical Science is designed for high-achieving students who expect to pursue honours studies and a career in pharmaceutical science, the science of medicines."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in natural and physical sciences.",
+      "evidenceLines": [
+        "Suggest a rational drug therapy strategy to target a disease state with known pathophysiological causes;",
+        "Compare different body systems in terms of their structure and function at the organ, tissue, cell and macromolecule level;",
+        "A flexible course, it covers the multi-disciplinary chemical and biological science base used in researching and developing reliable, accessible and effective medicinal products."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within natural and physical sciences.",
+      "evidenceLines": [
+        "Subject: Human physiology 1: Cells to systems (BPS1011)",
+        "Subject: Human physiology 2: Body systems (BPS1012)",
+        "Research a topic in the area of physiology, and present the findings of such research (written and verbal), at an appropriate scientific level."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in natural and physical sciences.",
+      "evidenceLines": [
+        "Safely and effectively carry out a basic laboratory procedure using common biochemical and physiological techniques;",
+        "Explain how drug molecules target cell components to mimic, modulate or disrupt physiological processes;",
+        "A pharmaceutical scientist is trained to select new targets for drug therapy that arise from basic research."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in natural and physical sciences.",
+      "evidenceLines": [
+        "Subject: Medicinal chemistry 1: Structure (BPS1021)",
+        "Subject: Medicinal chemistry 2: Reactivity and biomolecules (BPS1022)",
+        "Design and perform an hypothesis-driven experimental approach to investigate physiological processes;"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in natural and physical sciences.",
+      "evidenceLines": [
+        "Predict the effect of disrupting cellular processes on cellular and system function and on human health;",
+        "This advanced version of the Bachelor of Pharmaceutical Science is designed for high-achieving students who expect to pursue honours studies and a career in pharmaceutical science, the science of medicines.",
+        "A flexible course, it covers the multi-disciplinary chemical and biological science base used in researching and developing reliable, accessible and effective medicinal products."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in natural and physical sciences.",
+      "evidenceLines": [
+        "Participation and engagement: 5% (Hurdle: None)",
+        "Subject: Physical chemistry 1: Equilibria and change (BPS1031)",
+        "A pharmaceutical scientist is trained to select new targets for drug therapy that arise from basic research."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "Part A. Core studies",
+        "This advanced version of the Bachelor of Pharmaceutical Science is designed for high-achieving students who expect to pursue honours studies and a career in pharmaceutical science, the science of medicines."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Pharmaceutical Science Advanced (Honours).",
+        "evidenceLines": [
+          "Part A. Core studies",
+          "The course develops through theme studies in: A. Core studies, B. Discipline elective studies and C.Applied studies and Part D. Research project (48 points)."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in natural and physical sciences.",
+        "evidenceLines": [
+          "Subject: Human physiology 1: Cells to systems (BPS1011)",
+          "Analyse and communicate experimental findings;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

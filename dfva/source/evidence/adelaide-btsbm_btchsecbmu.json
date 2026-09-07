@@ -1,0 +1,102 @@
+{
+  "code": "adelaide-btsbm_btchsecbmu",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education.",
+      "evidenceLines": [
+        "**Institution**: The University of Adelaide",
+        "**Program Identifier / Slug**: btsbm_btchsecbmu",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education.",
+      "evidenceLines": [
+        "**Academic Calendar Year**: 2025/2026",
+        "**Faculty**: Faculty of Arts, Business, Law and Economics (ABLE)",
+        "- **Program Identifier / Slug**: btsbm_btchsecbmu"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education.",
+      "evidenceLines": [
+        "Subject: Curriculum through Play (EDUC1001)",
+        "Subject: Growth and Motor Development (EDUC1100)",
+        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/btsbm_btchsecbmu"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education.",
+      "evidenceLines": [
+        "Critically examine multiple perspectives of play and its value and benefits",
+        "Critically analyse adults\u2019 roles in children\u2019s play, considering Australian and international perspectives about play in the curriculum and the relationship between play, development, learning and wellbeing",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education.",
+      "evidenceLines": [
+        "Subject: Arts Education (EDUC2001)",
+        "Subject: Teaching and Learning Motor Skills (EDUC2002)",
+        "Apply practical knowledge and theoretical understanding of play-based pedagogy to plan diverse and balanced programs for children birth to 8 years"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education.",
+      "evidenceLines": [
+        "Use observation, listening and documentation pedagogies in planning and assessing play-based pedagogy that acknowledges children\u2019s competence and voice in co-constructed meaning in play",
+        "- **Institution**: The University of Adelaide",
+        "- **Program Identifier / Slug**: btsbm_btchsecbmu"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education.",
+      "evidenceLines": [
+        "Knowledge of what it means to be a \u2018novice\u2019 learner in comparison to an \u2018expert\u2019. Knowledge of and skill in the related implications for practice",
+        "Subject: Languages Education (EDUC3003)",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "Students are required to have completed the requirements of the discipline degree to be eligible to enrol into the fourth year of the program.",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Teaching.",
+        "evidenceLines": [
+          "Students are required to have completed the requirements of the discipline degree to be eligible to enrol into the fourth year of the program.",
+          "The Bachelor of Teaching (Secondary) with Bachelor of Music is an AQF Level 7 qualification with a standard full-time duration of 4 years."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in teacher education.",
+        "evidenceLines": [
+          "Subject: Curriculum through Play (EDUC1001)",
+          "**Institution**: The University of Adelaide"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

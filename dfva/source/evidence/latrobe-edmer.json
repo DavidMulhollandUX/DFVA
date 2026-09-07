@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-edmer",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education.",
+      "evidenceLines": [
+        "Justify the significance, originality, and coherence of a set of proposed research aims and associated questions.",
+        "Distinguish between different kinds of literature reviews in terms of their defining features and purposes.",
+        "If you have a background in teaching or educational administration, or have a professional interest in education, this course has been designed for you."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education.",
+      "evidenceLines": [
+        "Locate, critically analyse, and synthesise existing theories, knowledge, ideas, and research methods relevant to an identified research problem.",
+        "Identify knowledge gaps and weaknesses within the existing research literature on a topic.",
+        "Assessment consists of a thesis of up to 40,000 words which constitutes 100% of the examination for the degree and is examined externally."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education.",
+      "evidenceLines": [
+        "Subject: REVIEWING EDUCATIONAL LITERATURE (EDU5029)",
+        "Subject: EDUCATION RESEARCH METHODOLOGY   (EDU5030)",
+        "Demonstrate mastery of specific research methods suited to their research aims and questions."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education.",
+      "evidenceLines": [
+        "Demonstrate an understanding of and commitment to research ethics and integrity.",
+        "Analyse the strengths and limitations of a range of methodologies used in the field of educational research.",
+        "Applicants without prior relevant research training will be required to take 60 credit points of research training coursework subjects in the first semester (FTE) of the degree."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education.",
+      "evidenceLines": [
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "Subject: REVIEWING EDUCATIONAL LITERATURE (EDU5029)",
+        "Identify specific statistical analyses and the types of research question they can address."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education.",
+      "evidenceLines": [
+        "Understand the importance of the acknowledgment and the referencing of sources",
+        "If you have a background in teaching or educational administration, or have a professional interest in education, this course has been designed for you.",
+        "Assessment consists of a thesis of up to 40,000 words which constitutes 100% of the examination for the degree and is examined externally."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education.",
+      "evidenceLines": [
+        "Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.",
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "Applicants without prior relevant research training will be required to take 60 credit points of research training coursework subjects in the first semester (FTE) of the degree."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "Assessment consists of a thesis of up to 40,000 words which constitutes 100% of the examination for the degree and is examined externally.\u00a0 Applicants without prior relevant research training will be required to take 60 credit points of research training coursework subjects in the first semester (FTE) of the degree.",
+        "If you have a background in teaching or educational administration, or have a professional interest in education, this course has been designed for you."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Education.",
+        "evidenceLines": [
+          "Assessment consists of a thesis of up to 40,000 words which constitutes 100% of the examination for the degree and is examined externally.\u00a0 Applicants without prior relevant research training will be required to take 60 credit points of research training coursework subjects in the first semester (FTE) of the degree.",
+          "To qualify for award of the degree, you must submit a satisfactory thesis of up to 40,000 words which demonstrates specialised knowledge and research skills in your field. Your thesis will be examined by at least two examiners."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in teacher education.",
+        "evidenceLines": [
+          "Subject: REVIEWING EDUCATIONAL LITERATURE (EDU5029)",
+          "Justify the significance, originality, and coherence of a set of proposed research aims and associated questions."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,1444 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/C3001 =====
+## Bachelor of Computer Science Advanced (Honours)
+##### C3001
+##### 192 credit points
+You are viewing the 2026 version
+
+### Overview
+The course is an advanced version of the Bachelor of Computer Science, designed for high-achieving students who wish to study computing in depth with a strong research component through the four years of study. Computer science is the theory and practice of applying computers and software to problem solving. Its practical applications span all disciplines including science, engineering, business and commerce, creative and performing arts and the humanities. You will learn how to think like a computer scientist about processes and their descriptions. This will enable you to design algorithms (instructions for computers) and data structures (ways to store information). You will also acquire practical programming skills to implement these in efficient software that solves real-world problems, as well as strong foundations in the theory of computation and its connection to mathematics. 
+
+This advanced course will prepare you for either postgraduate study or employment requiring research and advanced computer science skills. You will do a research project unit in your second year, supported by a research skills unit. If you are an eligible student, you may apply for the industry-based learning (IBL) placement program as part of the curriculum or you will complete a two semester capstone project in your chosen specialisation. 
+
+Your studies will conclude with a full-year honours-level research project in a specialist area of advanced computer science or data science. You will graduate with strong research, analysis, problem solving, communication and teamwork skills, deep knowledge of the field of computer science, and hands-on experience in IT research.
+
+### AQF level
+Level 8 - Bachelor Honours Degree
+### CRICOS code
+085350G
+### Post-nominals
+BCompScAdv(Hons)
+### Course duration (full time)
+
+
+### Structure
+The course develops through the themes of computer science foundation studies, specialist discipline knowledge, research skills, and professional skills, which come together in applied practice. 
+
+ Part A. Foundation studies
+
+This study will develop your understanding of the role and theoretical basis of computer science and computational methods. 
+
+ Part B. Professional practice studies
+
+This study develops professional skills by providing an understanding and appreciation of the ethical and professional guidelines applicable to computer science practice and research; developing the ability to work as an effective team member and to communicate proficiently and appropriately in professional and research contexts. 
+
+ Part C. Specialist studies
+
+This study will develop deep knowledge and advanced skills in advanced computer science or data science. 
+
+ Part D. Applied studies
+
+The above knowledge and skills are integrated and consolidated in applied practice as demonstrated in a computer science, cybersecurity or data science and AI project, and in some cases in an industry-based learning placement.
+
+ Part E. Research studies
+
+This study develops the ability to critically evaluate IT research and to apply appropriate methodologies to conduct independent research in computer science, cybersecurity or data science and AI. It develops strong problem-solving skills and the ability to apply analytical thinking.
+
+ Part F. Free elective studies
+
+These elective units will enable you to broaden and deepen your knowledge of computer science or data science, or to select units from across the University in which you are eligible to enrol.
+
+Course progression map
+
+The course progression map provides guidance on unit enrolment for each semester of study.
+
+### Requirements
+This course comprises 192 points, of which 144 points must be from computer science study and 48 points are used to provide additional depth or breadth through elective study. 
+
+The course develops through theme studies in: Part A. Foundation studies (48 points); Part B. Professional practice studies (12 points), Part C. Specialist studies (42 or 48 points) and Part D. Applied studies (12 or 18 points); and Part E. Research studies (24 points); and Part F. Free elective studies (48 points).
+
+Elective units may be at any level, however, no more than ten units (60 points) can be credited to the computer science advanced course at level 1 and a minimum of 36 points must be completed in computer science or data science at each of level 3 and 4 (or higher).
+
+Units are 6 credit points unless otherwise stated. 
+
+Part A. Foundation studies (48 points)
+
+You must complete:
+
+  * FIT1053 Introduction to programming (Advanced)
+
+  * FIT1054 Fundamentals of algorithms (advanced)
+
+  * FIT1047 Introduction to computer systems, networks and security
+
+  * FIT1049 IT professional practice
+
+  * FIT1058 Foundations of computing
+
+  * FIT2004 Algorithms and data structures
+
+  * FIT2014 Theory of computation
+
+  * FIT2094 Databases
+
+Parts B. Professional practice studies (12 points)
+
+You must complete:
+
+  * FIT2083 Innovation and research in computer science
+
+  * FIT2082 Computer science research project
+
+Part C. Specialist studies (42 or 48 points)
+
+You must complete one of the following specialisations (30 or 36 points**); and two level 4 or level 5 elective units (12 points) as approved by the course director.
+
+Algorithms and software
+
+You must complete:
+
+a. The following five units (30 points):
+
+  * FIT2099 Object-oriented design and implementation
+
+  * FIT2102 Programming paradigms
+
+  * FIT2109 Computer science workshop
+
+  * FIT3143 Parallel computing
+
+  * FIT3155 Advanced data structures and algorithms
+
+b. one of the following level 3 elective units (6 points)*: 
+
+  * FIT3080 Artificial intelligence
+
+  * FIT3139 Computational modelling and simulation
+
+  * FIT3146 Maker lab
+
+  * FIT3159 Computer architecture
+
+  * FIT3182 Big data management and processing
+
+  * FIT3196 Computer architecture and networks
+
+  * MTH3170 Network mathematics
+
+  * MTH3175 Network mathematics (Advanced)
+
+* If you are selected to participate in the IBL placement program you will replace this level 3 elective unit with 6 points of the 18 point IBL unit (FIT3045).
+
+Artificial intelligence
+
+You must complete:
+
+a. The following five units (30 points):
+
+  * FIT1061 Introduction to artificial intelligence
+
+  * FIT2111 Symbolic artificial intelligence and machine learning
+
+  * FIT2112 Deep learning
+
+  * FIT3191 Generative artificial intelligence
+
+  * FIT3203 Intelligent agents
+
+b. One of the following elective units (6 points)*:
+
+  * FIT3192 Emerging and advanced topics in artificial intelligence
+
+  * FIT3183 Malicious AI and dark side security
+
+*If you are selected to participate in the IBL placement program you will replace this level 3 elective unit with 6 points of the 18 point IBL unit (FIT3045).
+
+Cybersecurity
+
+You must complete:
+
+a. the following five units (30 points):
+
+  * FIT1057 Introduction to cybersecurity
+
+  * FIT1093 Cybersecurity tools and techniques
+
+  * FIT2173 Software security
+
+  * FIT3185 Privacy enhancing technologies
+
+  * FIT3186 Vulnerability analysis, response and mitigation
+
+b. one of the following level 3 elective units (6 points):
+
+  * FIT3168 IT forensics
+
+  * FIT3031 Network security
+
+If you are selected to participate in the IBL placement program you will replace this Level 3 elective unit with 6 credit points of the 18 credit point IBL unit (FIT3045).
+
+Data science
+
+You must complete:
+
+a. The following four units (24 points):
+
+  * FIT1043 Introduction to data science
+
+  * FIT2086 Modelling for data analysis
+
+  * FIT2179 Data visualisation
+
+  * FIT3152 Data analytics
+
+b. Two of the following level 3 elective units (12 points)*:
+
+  * FIT3003 Business intelligence and data warehousing
+
+  * FIT3154 Advanced data analysis
+
+  * FIT3181 Deep learning
+
+  * FIT3182 Big data management and processing
+
+  * FIT3183 Malicious AI and dark side security
+
+*If you are selected to participate in the IBL placement program you will replace one level 3 elective unit with 6 points of the 18 point IBL unit (FIT3045).
+
+Part D. Applied studies (12 or 18 points)
+
+You must complete a full-year project (12 points) relevant to your specialisation, or the industry-based learning placement (18 points).
+
+Algorithms and software
+
+  * FIT3161 Computer science project 1
+
+  * FIT3162 Computer science project 2
+
+Artificial intelligence
+
+  * FIT3193 Artificial intelligence project 1
+
+  * FIT3194 Artificial intelligence project 2
+
+Cybersecurity
+
+  * FIT3188 Cybersecurity project 1
+
+  * FIT3189 Cybersecurity project 2
+
+Data science
+
+  * FIT3163 Data science project 1
+
+  * FIT3164 Data science project 2
+
+OR
+
+Industry-based learning placement (18 points)
+
+FIT3045 is available only if you are selected to participate in the IBL placement program.
+
+If you are selected to participate in the IBL placement program you will complete FIT3045 Industry-based learning (18 credit points) and FIT2108 Industry-based learning (0 credit points); or FIT3045, FIT2108 and one of FIT3201 Industry-based learning onboarding (8 weeks) (0 credit points) or FIT3202 Industry-based learning onboarding (4 weeks) (0 credit points) (depending on the duration of your placement). This will replace the Applied studies project units and the Level 3 elective unit in your specialisation.
+
+All students in the IBL program must complete a unit over summer semester or overload in one semester by one unit in order to complete the degree within four years (this is because you only complete 18 credit points of credit during the IBL placement semester). You must have completed at least three semesters of your course before starting your IBL placement.
+
+  * FIT3045 Industry-based learning (18 points)
+
+  * FIT2108 Industry based learning seminar (0 points)
+
+  * FIT3201 Industry-based learning onboarding (8 weeks) (0 points)
+
+  * FIT3202 Industry-based learning onboarding (4 weeks) (0 points)
+
+Part E. Research studies (24 points)#
+
+You must complete the following units.
+
+Note: To progress to Honours you are required to maintain at least a distinction average (70%) throughout your course. If you do not meet this standard you will be required to transfer to C2001 Bachelor of Computer Science or C2000 Bachelor of Information Technology.
+
+  * FIT4441 Honours thesis part 1
+
+  * FIT4442 Honours thesis part 2
+
+  * FIT4443 Honours thesis part 3
+
+  * FIT4444 Honours thesis final
+
+Part F. Free elective studies (48 points)
+
+Your elective units may be chosen from the Faculty of Information Technology, or from across the University; or you may choose to complete a major or minor from the Faculty of Information Technology or other courses, as long as you have the prerequisites and there are no restrictions on enrolment in the units.
+
+Note: If you are doing the Cybersecurity specialisation you cannot do the Cybersecurity minor.
+
+To enhance your IT studies the Faculty recommends the following minors and elective units which can be taken as part of your free electives. Other IT minors are also available, check the Faculty Handbook pages.
+
+Note: If you are doing the Cybersecurity specialisation you cannot do the Cybersecurity minor.
+
+Discipline elective studies
+
+  * Business information systems (minor)
+
+  * Cybersecurity (minor)
+
+  * Games design (minor)
+
+  * Games development (minor)
+
+  * Software development (minor)
+
+  * FIT3190Work professional placement
+
+  * FIT3195Deep tech entrepreneurship
+
+### Course structure
+192 credit points
+**Part C. Specialist studies** **48 credit points**
+You must complete one specialisation below and two Level 4 or Level 5 units (12 credit points) as approved by the course director. See link in the Notes section above for the list.
+  [ _arrow_forward_ CSCYBSEC01 Cybersecurity ](https://handbook.monash.edu/2026/units/CSCYBSEC01)
+  [ _arrow_forward_ DATASCI11 Data science ](https://handbook.monash.edu/2026/units/DATASCI11)
+  [ _arrow_forward_ ALGSFTWR01 Algorithms and software ](https://handbook.monash.edu/2026/units/ALGSFTWR01)
+  [ _arrow_forward_ ATINTELL02 Artificial intelligence ](https://handbook.monash.edu/2026/units/ATINTELL02)
+**Part D. Applied studies** **12 credit points**
+You must complete a full-year project (12 credit points) relevant to your specialisation, or the industry-based learning unit (18 credit points).
+  **Cybersecurity** **12 credit points**
+    [ _arrow_forward_ FIT3189 Cybersecurity project 2 ](https://handbook.monash.edu/2026/units/FIT3189)
+    [ _arrow_forward_ FIT3188 Cybersecurity project 1 ](https://handbook.monash.edu/2026/units/FIT3188)
+  **Algorithms and software** **12 credit points**
+    [ _arrow_forward_ FIT3162 Computer science project 2 ](https://handbook.monash.edu/2026/units/FIT3162)
+    [ _arrow_forward_ FIT3161 Computer science project 1 ](https://handbook.monash.edu/2026/units/FIT3161)
+  **Data science** **12 credit points**
+    [ _arrow_forward_ FIT3163 Data science project 1 ](https://handbook.monash.edu/2026/units/FIT3163)
+    [ _arrow_forward_ FIT3164 Data science project 2 ](https://handbook.monash.edu/2026/units/FIT3164)
+  **Industry based learning placement** **18 credit points**
+  FIT3045 is available only if you are selected to participate in the IBL placement program.
+
+If you are selected to participate in the IBL placement program you will complete FIT3045 Industry-based learning (18 credit points) and FIT2108 Industry-based learning (0 credit points); or FIT3045, FIT2108 and one of FIT3201 Industry-based learning onboarding (8 weeks) (0 credit points) or FIT3202 Industry-based learning onboarding (4 weeks) (0 credit points) (depending on the duration of your placement). This will replace the Applied studies project units and the Level 3 elective unit in your specialisation.
+
+All students in the IBL program must complete a unit over summer semester or overload in one semester by one unit in order to complete the degree within four years (this is because you only complete 18 credit points of credit during the IBL placement semester). You must have completed at least three semesters of your course before starting your IBL placement.
+    [ _arrow_forward_ FIT3045 Industry-based learning ](https://handbook.monash.edu/2026/units/FIT3045)
+    [ _arrow_forward_ FIT2108 Industry based learning seminar ](https://handbook.monash.edu/2026/units/FIT2108)
+    [ _arrow_forward_ FIT3202 Industry-based learning onboarding (4 weeks) ](https://handbook.monash.edu/2026/units/FIT3202)
+    [ _arrow_forward_ FIT3201 Industry-based learning onboarding (8 weeks) ](https://handbook.monash.edu/2026/units/FIT3201)
+  **Artificial intelligence** **12 credit points**
+    [ _arrow_forward_ FIT3193 Artificial intelligence project 1 ](https://handbook.monash.edu/2026/units/FIT3193)
+    [ _arrow_forward_ FIT3194 Artificial intelligence project 2 ](https://handbook.monash.edu/2026/units/FIT3194)
+**Rules** **0 credit points**
+Note 1: To progress to Honours you are required to maintain at least a distinction average (70%) throughout your course. If you do not meet this standard you will be required to transfer to C2001 Bachelor of Computer Science or C2000 Bachelor of Information Technology. 
+
+Note 2: No more than 10 Level one units (60 credit points); and at least six Level 3 (or higher) units (36 credit points), must be completed.
+**Part B. Professional practice studies** **12 credit points**
+You must complete the following units
+  [ _arrow_forward_ FIT2083 Innovation and research in computer science ](https://handbook.monash.edu/2026/units/FIT2083)
+  [ _arrow_forward_ FIT2082 Computer science research project ](https://handbook.monash.edu/2026/units/FIT2082)
+**Part E. Research studies** **24 credit points**
+The must complete the following units.
+
+Note: To progress to Honours you are required to maintain at least a distinction average (70%) throughout your course. If you do not meet this standard you will be required to transfer to C2001 Bachelor of Computer Science or C2000 Bachelor of Information Technology.
+  [ _arrow_forward_ FIT4442 Honours thesis part 2 ](https://handbook.monash.edu/2026/units/FIT4442)
+  [ _arrow_forward_ FIT4441 Honours thesis part 1 ](https://handbook.monash.edu/2026/units/FIT4441)
+  [ _arrow_forward_ FIT4443 Honours thesis part 3 ](https://handbook.monash.edu/2026/units/FIT4443)
+  [ _arrow_forward_ FIT4444 Honours thesis final ](https://handbook.monash.edu/2026/units/FIT4444)
+**Part A. Foundation studies** **48 credit points**
+You must complete the following units
+  [ _arrow_forward_ FIT1049 IT professional practice ](https://handbook.monash.edu/2026/units/FIT1049)
+  [ _arrow_forward_ FIT1054 Fundamentals of algorithms (Advanced) ](https://handbook.monash.edu/2026/units/FIT1054)
+  [ _arrow_forward_ FIT1053 Introduction to programming (Advanced) ](https://handbook.monash.edu/2026/units/FIT1053)
+  [ _arrow_forward_ FIT2014 Theory of computation ](https://handbook.monash.edu/2026/units/FIT2014)
+  [ _arrow_forward_ FIT2004 Algorithms and data structures ](https://handbook.monash.edu/2026/units/FIT2004)
+  [ _arrow_forward_ FIT1058 Foundations of computing ](https://handbook.monash.edu/2026/units/FIT1058)
+  [ _arrow_forward_ FIT1047 Introduction to computer systems, networks and security ](https://handbook.monash.edu/2026/units/FIT1047)
+  [ _arrow_forward_ FIT2094 Databases ](https://handbook.monash.edu/2026/units/FIT2094)
+**Part F. Free elective studies** **48 credit points**
+Your elective units may be chosen from the Faculty of Information Technology, or from across the University; or you may choose to complete a major or minor from the Faculty of Information Technology or other courses, as long as you have the prerequisites and there are no restrictions on enrolment in the units.
+
+Note: If you are doing the Cybersecurity specialisation you cannot do the Cybersecurity minor.
+  **Discipline elective studies** **0 credit points**
+  To enhance your IT studies the Faculty recommends the following minors and elective units which can be taken as part of your free electives. Other IT minors are also available, check the Faculty Handbook pages.
+
+Note: If you are doing the Cybersecurity specialisation you cannot do the Cybersecurity minor.
+    [ _arrow_forward_ GAMESDEV03 Games development ](https://handbook.monash.edu/2026/units/GAMESDEV03)
+    [ _arrow_forward_ ITBIS07 Business information systems ](https://handbook.monash.edu/2026/units/ITBIS07)
+    [ _arrow_forward_ SFTWRDEV07 Software development ](https://handbook.monash.edu/2026/units/SFTWRDEV07)
+    [ _arrow_forward_ FIT3195 Deep tech entrepreneurship ](https://handbook.monash.edu/2026/units/FIT3195)
+    [ _arrow_forward_ CYBERSEC05 Cybersecurity ](https://handbook.monash.edu/2026/units/CYBERSEC05)
+    [ _arrow_forward_ FIT3190 Work integrated learning: Industry placement ](https://handbook.monash.edu/2026/units/FIT3190)
+    [ _arrow_forward_ GAMESDES03 Games design ](https://handbook.monash.edu/2026/units/GAMESDES03)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+critically evaluate IT research; be able to apply appropriate research methodologies to conduct significant independent research.
+**2.**
+demonstrate an advanced knowledge of the role of computer science and computational methods, and recognise the importance of theoretical underpinning for practical work
+**3.**
+apply problem-solving strategies to develop efficient solutions in your area of specialisation; in particular in:
+
+  * algorithms and software students will be able to design and implement substantial pieces of software using a range of programming paradigms, advanced data structures and algorithms.
+
+  * artificial intelligence students will be able to apply the theory and practice of machine learning, neural networks, computer vision, natural language processing, generative methods, etc. in automating software systems that emulate human intelligence, solving complex problems across various industries.
+
+  * cybersecurity students will be able to design, analyse, implement, and evaluate security and privacy mechanisms.
+
+  * data science students will be able to design, implement and critically evaluate methods for capturing, managing and analysing data
+**4.**
+plan and execute projects with some independence and take responsibility for your own learning and practice; manage your own time and processes effectively by prioritising competing demands to achieve personal and team goals, with regular review of personal performance as a primary means of managing continuing professional development; behave in an ethical and professional manner, and be able to adapt readily to changing technologies
+**5.**
+critically analyse problems, design algorithms to solve them, program efficient software solutions and demonstrate the ability to transform and apply computational solutions to new context
+**6.**
+demonstrate understanding of ethical issues in professional and research practice and its historical, contemporary and likely future scientific, industrial and social context
+**7.**
+communicate and coordinate proficiently by: listening, speaking, reading and writing English and utilising diagrams, graphics and interactive visualisations in a professional and research context; working as an effective member or leader of teams; and using basic tools and practices of formal project management
+
+### AHEGS
+The Bachelor of Computer Science Advanced (Honours) is an undergraduate degree. The course is taught in English and normally takes four years of full-time study or eight years of part-time study. The degree provides graduates with research and advanced IT development skills. It provides a strong foundation in information technology leading to algorithms and software; cybersecurity or data science and artificial intelligence studies and is a research-focused degree that combines on-campus study with an industry-based learning work placement. The Bachelor of Computer Science Advanced (Honours) is a Level 8 Australian Qualifications Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations
+
+### Degrees awarded
+Bachelor of Computer Science Advanced (Honours)
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT1043 =====
+Subject:  Introduction to data science  (FIT1043)
+Credit Points: 6
+Overview: This unit looks at processes and case studies to understand the many facets of working with data, and the significant effort in Data Science over and above the core task of Data Analysis. Working with data as part of a business model and the lifecycle in an organisation is considered, as well as business processes and case studies. Data and its handling is also introduced: characteristic kinds of data and its collection, data storage and basic kinds of data preparation, data cleaning and data stream processing. Curation and management are reviewed: archival and architectural practice, policy, legal and ethical issues. Styles of data analysis and outcomes of successful data exploration and analysis are reviewed. Standards, tools and resources are also reviewed.
+Learning Outcomes:
+- Implement strategies for acquiring, cleaning, and organising data prior to analysis.
+- Detail the phases of the data science lifecycle and differentiate the roles involved in a data science project.
+- Utilise basic data analysis models to extract insights and critique their effectiveness.
+- Understand fundamental properties of Big Data and their influence on storage and processing and evaluate the strengths and weaknesses of Big Data tools for specific contexts.
+- Examine data science projects by identifying and discussing inherent ethical, privacy, and data management issues, including their broader impacts.
+- Apply commonly used data science software and programming languages to interpret results across a diverse range of scenarios.
+Assessment Tasks:
+- In-Class examination: 10% (Hurdle: Threshold)
+- Data science assignment 2: 20% (Hurdle: Threshold)
+- Data science assignment 1: 20% (Hurdle: Threshold)
+- Semester 1: Scheduled final assessment (2 hours and 10 minutes): 50% (Hurdle: None)
+- Semester 2: Scheduled final assessment (2 hours and 10 minutes): 50% (Hurdle: Threshold)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT1047 =====
+Subject: Introduction to computer systems, networks and security (FIT1047)
+Credit Points: 6
+Overview: The unit introduces you to fundamentals of computer systems, networks and security. It provides basic knowledge of computer organisation and architecture, operating systems, networking architecture, technology and operation. It introduces the concepts of security goals for protecting common modern computer systems and communication networks from adversaries and the deployment of suitable countermeasures to achieve these goals.
+Learning Outcomes:
+- Explain the three major functions of an operating system (OS), namely, process management, memory management, and file management;
+- Apply number representations and boolean algebra to analyse simple logic circuits;
+- Discuss the fundamental concepts of cybersecurity, including common threats and countermeasures.
+- Describe basic concepts of computer hardware and software architectures;
+- Program simple algorithms in assembly code;
+- Analyse networks using the underlying fundamental theories, models and protocols for data transmission;
+- Describe the functions and architectures of local area networks, wide area networks and the Internet.
+Assessment Tasks:
+- Assignment 1: 15% (Hurdle: None)
+- Assignment 2: 30% (Hurdle: None)
+- Assignment 3: 30% (Hurdle: None)
+- Assignment 4: 25% (Hurdle: None)
+Workload: This unit has a requirement of 1-2 hours per week of asynchronous learning. Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT1049 =====
+Subject: IT professional practice (FIT1049)
+Credit Points: 6
+Overview: This unit provides a practical and theoretical introduction to what it means to be an IT professional, or a professional with IT expertise today. You will encounter a range of issues relevant to professional practice in the workplace, as well as an understanding of the wider responsibilities that professionals are called upon to uphold in society as they apply their IT expertise. Topics addressed include: the nature of IT as professional expertise; professional communications; situational management; teamwork in professional and organisational settings; problem solving and decision making; applications of professional ethics and relevant legal frameworks. Skills and knowledge will be developed and applied through a range of collaborative, individual and reflective tasks in relevant communication modes and formats.
+Learning Outcomes:
+- Effectively conduct critical research for specific purposes within professional settings;
+- Understand how to make and justify decisions in various professional and organisational situations, by applying relevant professional ethics (e.g. the ACS Code of Ethics) and relevant legal frameworks;
+- Effectively contribute professionally to teams using appropriate techniques, concepts and technologies;
+- Systematically develop and effectively communicate your personal and professional reflections to inform your current and future professional practice.
+- Effectively plan, develop and deliver a range of professional communications using appropriate techniques, concepts and technologies;
+- Describe the social, ethical and legal implications of working with IT expertise in a professional capacity;
+Assessment Tasks:
+- Portfolio Tasks: 30% (Hurdle: None)
+- Assignment 2: 24% (Hurdle: None)
+- Assignment 1: 18% (Hurdle: None)
+- Reflections: 5% (Hurdle: None)
+- Quizzes: 5% (Hurdle: None)
+- Assignment 3: 18% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT1053 =====
+Subject: Introduction to programming (Advanced) (FIT1053)
+Credit Points: 6
+Overview: This unit introduces programming fundamentals. It will present fundamental programming control structures, built-in and complex datatypes, mechanisms for modularity, and the use of basic libraries. You will also be introduced to good programming practices and processes for software development.
+Learning Outcomes:
+- Design, construct and test programs that include user-defined functions and data structures;
+- Implement good programming practices, including unit testing, basic documentation and readability.
+- Write programs efficiently by discovering and leveraging libraries;
+- Effectively use variables, conditionals and loops in computer programs;
+Assessment Tasks:
+- Learning Project Portfolio: 100% (Hurdle: Competency)
+- In-class tests: 0% (Hurdle: Competency)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT1054 =====
+Subject: Fundamentals of algorithms (Advanced) (FIT1054)
+Credit Points: 6
+Overview: Data structures and algorithms are the tools that allow programs to solve problems efficiently, reliably and at scale. This unit develops the core algorithmic thinking and implementation skills needed to move from a problem statement to a well-structured computational solution. You will learn to represent problems using appropriate data structures, design algorithms that use those structures effectively, and reason about how choices affect correctness, performance and maintainability. The unit covers recursion, introductory complexity analysis, and structures such as stacks, queues, trees, heaps and hash tables. You will evaluate algorithm behaviour both theoretically and experimentally, building a practical understanding of time, space and trade-offs. Through structured programming activities, you will strengthen your ability to design, implement, test and explain algorithmic solutions. The unit builds disciplined habits of precise reasoning, careful coding, performance awareness and reflection, preparing you for later study in advanced algorithms, software design, artificial intelligence, systems and computational problem solving.
+Learning Outcomes:
+- Demonstrate awareness and working knowledge of relevant tools and technologies, and use them effectively to increase productivity and improve quality, such as IDEs, AI, and Version Control Systems.
+- Design modular algorithmic solutions using appropriate abstract data types, including lists, stacks, queues, trees, heaps and hash tables.
+- Demonstrate understanding of data structures and algorithms by implementing, using, and testing them in ways that support correctness, readability and maintainability.
+- Analyse computational problems to identify suitable algorithmic strategies, data representations and performance considerations.
+- Plan, monitor, and reflect on the development of your algorithmic thinking and implementation practice through focused problem solving, feedback and iterative improvement.
+- Communicate algorithmic reasoning and correctness, implementation choices, performance trade-offs and testing evidence using appropriate technical terminology and representations.
+Assessment Tasks:
+- Learning Portfolio: 100% (Hurdle: Competency)
+- Theory Test: 0% (Hurdle: Competency)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT1057 =====
+Subject: Introduction to cybersecurity (FIT1057)
+Credit Points: 6
+Overview: This course provides an introductory overview of cybersecurity, covering fundamental concepts, principles, and practices. You will explore the cyber environment, understand cyber risks, examine cyber policy, and examine the ethics around implementing policy to detect, prevent, and deter cyber threats.
+Learning Outcomes:
+- Identify and assess common cyber risks, harms, and threats;
+- Explore the ethical considerations and professional conduct in cybersecurity;
+- Examine how to develop and evaluate cybersecurity policies and procedures;
+- Stay informed about emerging trends and technologies in the field
+- Gain an understanding of the cyber environment and its components;
+Assessment Tasks:
+- Post-class reflective pieces: 15% (Hurdle: None)
+- Assignment 2: Ethical Analysis: 30% (Hurdle: None)
+- Assignment 1: Security Assessment and Presentation: 25% (Hurdle: None)
+- Assignment 3: Policy Development Assignment: 30% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT1058 =====
+Subject: Foundations of computing (FIT1058)
+Credit Points: 6
+Overview: Computation uses abstract formal models of real objects and systems. This unit lays the theoretical foundations for working with the most fundamental abstract models used in computer science, including relations, sequences, trees and graphs. It will develop skills in abstract modelling, logical reasoning, rigorous proof, formal analysis, enumeration and probability. These concepts and skills will be taught in a variety of contexts from across computer science.
+Learning Outcomes:
+- Relate areas of computer science with appropriate discrete structures and methods.
+- Apply precise counting principles and the tools of probability, number theory, and combinatorics to problems in computer science;
+- Use the language of propositional and predicate logic to formally model and reason about problems in computer science and its applications;
+- Analyse complex formal statements, formally define discrete structures, and prove properties about them using a wide range of techniques, including proof by construction, by cases, by contradiction and by induction;
+- Define discrete structures and key concepts commonly found in set theory, logic and proof, number theory, probability, combinatorics, graph theory, and related fields underlying computer science;
+- Solve problems in computer science using a variety of objects and structures, including sets, functions, relations, graphs, matrices and random variables;
+Assessment Tasks:
+- Assessed Quizzes: 10% (Hurdle: Threshold)
+- Assignment 1: Introduction to Computational Thinking: 10% (Hurdle: Threshold)
+- Assignment 2: Formal Methods and Logical Reasoning: 25% (Hurdle: Threshold)
+- Mid-semester test: 15% (Hurdle: Threshold)
+- Scheduled final assessment (3 hours and 10 minutes):: 40% (Hurdle: Threshold)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT1061 =====
+Subject: Introduction to artificial intelligence (FIT1061)
+Credit Points: 6
+Overview: This unit introduces you to the field of Artificial Intelligence (AI) as a specialisation within Computer Science. It provides an overview of the foundations of AI, including the history, key concepts, and applications across diverse domains such as language, vision, and intelligent decision-making. You will explore introductory AI problem-solving techniques and develop a basic understanding of how AI systems are designed to emulate aspects of intelligence. In parallel, the unit equips you with the essential mathematical and computational foundations required for later AI units. These include fundamental concepts from linear algebra and vector calculus, introduced in the context of solving simple AI-related problems such as classification and optimisation. Practical labs emphasise hands-on engagement through simulations, mathematical reasoning, and basic AI model-building, along with reflection on the societal and ethical implications of AI technologies.
+Learning Outcomes:
+- Explain the scope and foundations of Artificial Intelligence, including its history, core concepts, and real-world applications.
+- Reflect on the ethical use of AI, and demonstrate an ability to guide its impacts to benefit society and the natural environment.
+- Apply basic AI problem-solving techniques such as simple search strategies, classification, or optimisation in the context of case studies.
+- Describe fundamental mathematical tools and explain their role in solving introductory AI problems.
+Assessment Tasks:
+- Portfolio: 100% (Hurdle: Competency)
+- In class tests: 0% (Hurdle: Competency)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT1093 =====
+Subject: Cybersecurity tools and techniques (FIT1093)
+Credit Points: 6
+Overview: This unit will provide you with an introduction to fundamental tools and techniques for designing secure systems. You will learn how common cryptographic encryption and authentication algorithms work, their limitations and common pitfalls, and how to apply them to protect against confidentiality and integrity threats. You will learn how to apply and evaluate techniques for user authentication and access control to protect systems against unauthorised access. You will further learn about common security vulnerabilities in software systems, how attackers can exploit such vulnerabilities, and how software vulnerabilities can be identified and protected against. Additionally, you will be required to analyse and assess recent developments and future trends in cyber security technologies.
+Learning Outcomes:
+- Analyse software systems to identify common vulnerabilities that exist and recommend mitigation strategies.
+- Assess and implement security mechanisms to prevent unauthorised system and network access;
+- Identify and assess common security threats to an organisation's software systems;
+- Understand and correctly apply cryptographic techniques to protect information confidentiality and integrity in contemporary IT systems and networks;
+Assessment Tasks:
+- Test 1: 40% (Hurdle: None)
+- Assignment 2: 25% (Hurdle: None)
+- Assignment 1: 20% (Hurdle: None)
+- Assignment 3: 15% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2004 =====
+Subject: Algorithms and data structures (FIT2004)
+Credit Points: 6
+Overview: This unit introduces you to problem solving concepts and techniques fundamental to the science of programming. In doing this it covers problem specification, algorithmic design, analysis and implementation. Detailed topics include analysis of best, average and worst-case time and space complexity; introduction to numerical algorithms; recursion; advanced data structures such as heaps and B-trees; hashing; sorting algorithms; searching algorithms; graph algorithms; and numerical computing.
+Learning Outcomes:
+- Compare and contrast various abstract data types and use them appropriately;
+- Prove correctness of programs, analyse their space and time complexities;
+- Analyse general problem solving strategies and algorithmic paradigms, and apply them to solving new problems;
+- Develop and implement algorithms to solve computational problems.
+Assessment Tasks:
+- Learning Project Portfolio: 100% (Hurdle: None)
+- In class tests: 0% (Hurdle: Competency)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities. Applied sessions are scheduled from Week 2 to Week 12.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2014 =====
+Subject: Theory of computation (FIT2014)
+Credit Points: 6
+Overview: This unit introduces formal languages, models of computation, and computational complexity. It looks at what computers can and cannot compute. Topics include finite state automata, regular expressions, grammars, pushdown automata, computable functions, Turing machines, polynomial-time reductions, complexity classes P and NP, and NP-completeness. Skills at writing formal proofs will be developed.
+Learning Outcomes:
+- Use Turing Machines to describe languages and represent computable functions;
+- Demonstrate the limitations of the models of computation considered;
+- Use propositional logic, predicates and quantifiers to represent and analyse problems in the theory of computation;
+- Construct Finite Automata, Nondeterministic Finite Automata and Context-Free Grammars to describe languages;
+- Find a parse tree, leftmost derivation and rightmost derivation for a word in a Context Free Language;
+- Find a Regular Grammar for a Regular Language;
+- Show that a language is in P, or in NP, or NP-complete;
+- Convert Regular Expressions into Finite Automata and vice versa;
+- Show a language is not regular, or not context-free, or not decidable;
+- Write rigorous formal proofs, including proofs by construction, cases, contradiction and induction.
+Assessment Tasks:
+- Scheduled final assessment (3 hours and 10 minutes): 50% (Hurdle: Threshold)
+- Practical Preparation: 5% (Hurdle: Threshold)
+- Mid-semester Test: 15% (Hurdle: Threshold)
+- Assignment 1: Regular Expressions and Finite Automata: 10% (Hurdle: Threshold)
+- Assignment 2: Lexical Analysis, Parsing, Computability: 20% (Hurdle: Threshold)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2082 =====
+Subject: Computer science research project (FIT2082)
+Credit Points: 6
+Overview: This unit builds upon FIT2083 and allows you to conduct an independent research project. You will be assigned to one of the Faculty of Information Technology's research groups, an academic supervisor and a research topic. You may work on your project individually or in groups, as determined by your supervisor. During the semester, you will be required to participate in research group events including seminars and presentations.
+Learning Outcomes:
+- Demonstrate the ability to effectively communicate their research findings both orally and in writing.
+- Demonstrate how to conduct IT research;
+- Conduct the experiment and/or implementation in order to evaluate the hypothesis;
+- Participate as a member of a research group;
+- Critically analyse and assess previous approaches to solve a particular research problem;
+- Formulate a research hypothesis and chose an appropriate methodology to evaluate that hypothesis;
+Assessment Tasks:
+- Assignment 2: Workbook: 15% (Hurdle: None)
+- Assignment 1: Project Specification: 10% (Hurdle: None)
+- Assignment 1: Project Presentation: 15% (Hurdle: None)
+- Assignment 3: Final Report and Project: 60% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2083 =====
+Subject: Innovation and research in computer science (FIT2083)
+Credit Points: 6
+Overview: This unit equips you to be effective innovators and researchers in Computer Science. It introduces you to the issues, concepts, methods and techniques associated with IT research in general, but focuses on those most commonly used for research in Computer Science. It introduces you to professional practice and research ethics, the principles of research design, research methods and techniques of data collection and analysis appropriate to Computer Science. It covers oral and written communication skills. Skills developed and knowledge acquired from this unit will prepare you to conduct and to communicate your own research, as well as to be knowledgeable consumers of others' research.
+Learning Outcomes:
+- Identify appropriate research, data collection and analysis methods for technology-related research;
+- Plan, design and execute a simple Computer Science research study in which every aspect, from ideation to impact, is appropriately selected, justified, applied and assessed.
+- Identify, review and critique Computer Science research literature;
+- Communicate research findings, orally and in writing;
+- Explain ethical, professional, social and environmental issues that may motivate or arise during and after technology-related research;
+Assessment Tasks:
+- Research implementation, analysis and documentation: 0% (Hurdle: Competency)
+- Research innovation and value: 0% (Hurdle: Competency)
+- Research impact and community engagement: 0% (Hurdle: Competency)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2086 =====
+Subject: Modelling for data analysis (FIT2086)
+Credit Points: 6
+Overview: This unit explores the statistical modelling foundations that underlie the analytic aspects of Data Science. It covers: Data: collection and sampling, data quality. Analytic tasks: statistical hypothesis testing, exploratory and confirmatory analysis. Probability distributions: dependence and independence, multivariate Gaussian, Poisson, Dirichlet, random number generation and simulation of distributions, simulation of samples (bootstrap). Predictive models: linear and logistic regression, and Bayesian classification. Estimation: parameter and function estimation, maximum likelihood and minimum cost estimators, Monte Carlo estimators, inverse probabilities and Bayes theorem, bias versus variance and sample size effects, cross validation, estimation of model performance.
+Learning Outcomes:
+- Implement a model for data analysis through programming and scripting;
+- Perform fundamental random sampling, simulation and hypothesis testing for required scenarios;
+- Perform exploratory data analysis with descriptive statistics on given datasets;
+- Construct models for inferential statistical analysis;
+- Produce models for predictive statistical analysis;
+- Interpret results for a variety of models.
+Assessment Tasks:
+- Scheduled final assessment: 50% (Hurdle: None)
+- Assignment 3: 20% (Hurdle: None)
+- Assignment 2: 20% (Hurdle: None)
+- Assignment 1: 10% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2094 =====
+Subject: Databases (FIT2094)
+Credit Points: 6
+Overview: This unit will provide an introduction to the concepts of database design and usage and the related issues of data management. You will develop skills in planning, designing, and implementing a data model using an enterprise-scale relational database system (Oracle). Methods and techniques will also be presented to populate, retrieve, update and implement integrity features on data in the implemented database system.
+Learning Outcomes:
+- Develop a sound relational database design;
+- Contrast the differences between non-relational database models and the relational database model.
+- Manage data that meets user requirements, including queries and transactions;
+- Apply the theories of the relational database model;
+- Implement a relational database based on a sound database design;
+Assessment Tasks:
+- In-Class test 1: 15% (Hurdle: None)
+- In-Class test 2: 15% (Hurdle: None)
+- Assignment 2: 35% (Hurdle: None)
+- Assignment 1: 35% (Hurdle: None)
+Workload: This unit has a requirement of 1-2 hours per week of asynchronous learning. Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2099 =====
+Subject: Object oriented design and implementation (FIT2099)
+Credit Points: 6
+Overview: This unit introduces you to object-oriented design principles and their application to the construction of quality software. You will learn the fundamental concepts that underlie modern object-oriented languages, and will learn how to implement your designs using at least one. You will also learn how to use standard notation to illustrate your designs.
+Learning Outcomes:
+- Apply principles of software engineering practice to create object-oriented systems with peers using tools including integrated development environments (IDEs), UML drawing tools, and version control systems.
+- Iteratively apply object-oriented design principles to design small to medium-size software systems, using standard software engineering notations, namely UML class diagrams and UML interaction diagrams.
+- Apply effective programming strategies to refactor and debug object-oriented implementations systematically and efficiently by using available programming language tools.
+- Describe the quality of object-oriented software designs, both in terms of meeting user requirements and the effective application of object-oriented design concepts and principles.
+- Apply object-oriented programming constructs, such as abstraction, information hiding, inheritance, and polymorphism, to implement object-oriented designs using a programming language (namely, Java).
+Assessment Tasks:
+- Assignment 3: 20% (Hurdle: None)
+- Quizzes: 10% (Hurdle: None)
+- Assignment 1: 30% (Hurdle: None)
+- Bootcamp (Applied session): 20% (Hurdle: None)
+- Assignment 2: 20% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2102 =====
+Subject: Programming paradigms (FIT2102)
+Credit Points: 6
+Overview: Ability to code in differently constructed programming languages is analogous to speaking in different natural languages with varying grammars. Similar to natural languages, programming languages from different paradigms (styles) vary in their expressiveness and efficiency. One programming language may require many screens-full of complex code to accomplish a task for which another requires but a few expressive lines of code. Therefore, understanding the design principles of programming languages enables computational problems to be implemented in dramatically different and powerful ways; leading, in some cases, to solutions that are more elegant, correct, maintainable, efficient and/or extensible. This unit examines a selection of programming languages and paradigms and explores the evolution of language design from low-level paradigms that are closer to the execution model of the machine, to more high-level declarative paradigms that allow programmers to model a problem precisely rather than specify its solution. The unit covers paradigms such as functional and declarative programming styles, comparing and contrasting them to programming styles that you are already familiar with, including object-oriented, imperative and procedural programming paradigms. We compare type systems supported by various languages, from scripting languages like JavaScript with weak type systems, to gradual typing as in TypeScript, to advanced compiled languages with strong type correctness, such as Haskell. We see these applied to data-modeling techniques (covering polymorphism, mutability-versus-purity, state management, and side-effects) and different models of execution such as strict-versus-lazy evaluation. Strong, expressive type systems are increasingly important in the age of artificial intelligence and "vibe coding", where type checking provides an essential verification of code correctness to support safe integration of AI-generated code. The unit provides practical experience with using modern functional programming techniques, non-procedural, non-object-oriented programming languages and discusses the influence of programming language theory on the design of current main-stream computer languages, and how the theory translates to practice. A focus of the unit is that these techniques are applicable and ubiquitous in a variety of modern languages, for example, we will see how functional programming techniques are used in relatively conventional imperative languages like JavaScript, and compare and contrast this with pure functional languages, such as Haskell.
+Learning Outcomes:
+- Design and implement programs in several programming languages of different paradigms and demonstrate an ability to solve more complex problems in at least one non-procedural paradigm;
+- Describe the major features, strengths and weaknesses of important programming languages in the context of their historical development;
+- Describe the major attributes that differentiate programming paradigms considered;
+- Analyse and critique past, present and future programming languages;
+- Evaluate the suitability of different paradigms for different problem types;
+- Describe the theoretical aspects of modern programming paradigms and apply this theory to analysis and design of programs.
+Assessment Tasks:
+- Assignment 2 Haskell Programming: 30% (Hurdle: Threshold)
+- Assignment 1 Functional Reactive Programming: 30% (Hurdle: Threshold)
+- Applied quizzes: 20% (Hurdle: Threshold)
+- Applied classwork: 20% (Hurdle: Threshold)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2108 =====
+Subject: Industry based learning seminar (FIT2108)
+Credit Points: 0
+Overview: This undergraduate seminar unit is compulsory for undergraduate students who have been selected for the Industry Based Learning Program in the Faculty of Information Technology. It is a non-weighted unit and is taken in addition to any prescribed coursework. The seminars are presented by the industry partners of the IBL program and are intended to provide you with useful knowledge of current industry practise in IT. This seminar series should be attended prior to the commencement of an IBL placement.
+Learning Outcomes:
+- Critique current knowledge of the breadth of IT;
+- Assess current industry requirements in terms of skills and knowledge.
+Assessment Tasks:
+- Reflections on this Week's Seminar: N/A% (Hurdle: None)
+Workload: Minimum total expected workload equals 2 hours per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2109 =====
+Subject: Computer science workshop (FIT2109)
+Credit Points: 6
+Overview: This unit is about developing proficiency with the tools of the trade in the practice of Computer Science. It will include mastering the command-line, using a powerful text editor, mastery of version control systems, debugging and profiling, working securely with remote machines, fundamentals of virtual machines, data wrangling and metaprogramming. These topics and the underlying foundations are crucial to be an effective computer scientist and programmer. The unit will be very practical and revolve about solving real-world challenges faced by computer scientists.
+Learning Outcomes:
+- Explain how to use metaprogramming concepts and command shell tools for efficient data wrangling and software development.
+- Describe the main concepts and advantages of modern distributed version control systems and efficiently apply those in developing complex computer program.
+- Apply common-practice methods to identify and fix software bugs, and techniques to measure and optimise the performance of software.
+- Explain the basics of everyday security practices and the use of cryptographic concepts and tools when developing software and establishing secure communication channels.
+- Describe how to use remote and virtual machines for developing and deploying computer programs.
+Assessment Tasks:
+- Applied Class Demonstrations: 15% (Hurdle: None)
+- In-class Quizzes: 15% (Hurdle: None)
+- Group Project: 35% (Hurdle: None)
+- Individual Assignments: 35% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2111 =====
+Subject: Symbolic artificial intelligence and machine learning (FIT2111)
+Credit Points: 6
+Overview: This unit covers the concepts of intelligent agents and delves into problem-solving and search techniques, including problem representation, heuristic search, and adversarial search. You will learn about knowledge representation and reasoning, focusing on propositional and first-order logic for AI applications, as well as planning. You will also engage with a variety of machine-learning techniques, including data representation, unsupervised and supervised learning and reinforcement learning. The curriculum also addresses the selection of appropriate model complexity tailored to specific problems and datasets. Through problem-based learning activities, you will apply these techniques to real-world scenarios and examine ethical considerations in AI.
+Learning Outcomes:
+- Assess and select appropriate model complexities for different datasets and problem scenarios, ensuring optimal performance and accuracy;
+- Design and develop intelligent systems using computational methods for searching, problem-solving, reasoning, and knowledge representation;
+- Understand the practical and ethical implications of Artificial Intelligence in real-world contexts.
+- Analyse and address real-world problems through problem-based learning activities, utilising advanced machine learning and computational intelligence techniques;
+- Apply machine learning techniques, including data representation, clustering, factor analysis, and classification, to solve complex problems;
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2112 =====
+Subject: Deep learning (FIT2112)
+Credit Points: 6
+Overview: Deep learning (DL) has been a driving force behind modern Artificial Intelligence. The remarkable success of DL in various applications has garnered significant attention and made it a highly sought-after skill across numerous industries. This unit will provide you with a comprehensive understanding of deep learning theory within the broader context of machine learning. Additionally, you will acquire practical skills to apply DL to real-world applications across a range of AI cognitive tasks, such as image and object recognition in computer vision and text classification using deep neural embeddings. The learning activities will focus on fundamental DL concepts, including neural networks (NN), convolutional NN, backpropagation, optimisation for deep learning, adversarial robustness, attention mechanism and transformers.
+Learning Outcomes:
+- Explain the fundamental elements of deep learning;
+- Analyse what makes deep learning work or fail, and critique where it should be applied;
+- Construct deep neural networks, convolutional NNs, RNNs, and Transformers and apply different strategies for training them.
+- Describe basic and advanced concepts of deep learning;
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2173 =====
+Subject: Software security (FIT2173)
+Credit Points: 6
+Overview: This unit aims to introduce secure software development issues from the design stage, through to the implementation, testing and deployment stages. Topics covered in this unit include the secure software development life cycle, secure software design principles, threat evaluation models, secure coding and development practices, software security testing, deployment and maintenance. You are provided with a range of practical exercises and tasks to reinforce your skills including: identification of security bugs in programs written in different programming languages, design, implementation, and testing of secure concurrent and networked applications and identification of vulnerabilities in networked and mobile/wireless applications.
+Learning Outcomes:
+- Apply appropriate methods for the design and realisation of secure software for memory exploits and web applications security.
+- Apply a wide range of tools and technologies to evaluate software vulnerabilities.
+- Understand the fundamentals of software security.
+- Analyse and evaluate security properties of concurrent and networked applications.
+- Describe and select mitigation strategies for common vulnerabilities and attacks.
+- Discuss and evaluate the significance of various software security weaknesses.
+- Model the possible software vulnerabilities and threats for a given application system
+- Investigate, implement and exploit security vulnerabilities in a lab environment.
+Assessment Tasks:
+- Assignment 2: 35% (Hurdle: None)
+- In-Class Test: 35% (Hurdle: None)
+- Assignment 1: 30% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities. There will be around 2-hours per week asynchronous material, including videos, articles, etc., over 12 weeks - this will be created on Moodle.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT2179 =====
+Subject: Data visualisation (FIT2179)
+Credit Points: 6
+Overview: Data visualisation is a powerful technique that allows us to use our visual system to understand data. Interactive data visualisation is now common in business, engineering and design and the social and physical sciences. This unit introduces the main kinds of information graphics and interactive visualisation systems and their areas of application. It investigates the reasons why visualisation can be effective and based on this you will gain experience in critically assessing data visualisations and in designing your own visualisations. You will learn how to create visualisations with representative computer tools and gain experience in creating a data visualisation for an application domain of their choice.
+Learning Outcomes:
+Assessment Tasks:
+- Class Tests: 35% (Hurdle: None)
+- Data Visualisation I: 25% (Hurdle: None)
+- Data Visualisation I1: 25% (Hurdle: None)
+- Studio Tasks: 15% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3003 =====
+Subject: Business intelligence and data warehousing (FIT3003)
+Credit Points: 6
+Overview: Automation and the use of technological tools have resulted in the accumulation of vast volumes of data by modern business organisations. Data warehouses have been set up as repositories to store this data and improved techniques now result in the speedy collection and integration of such data. OLAP technology has resulted in the faster generation of reports and more flexible analysis based on the data repositories. This unit will explore the concepts of data warehousing and OLAP, covering the data processing technological requirements for data warehousing and OLAP and will provide hands on experience on designing data warehousing and OLAP systems.
+Learning Outcomes:
+- Design multi-dimensional databases and data warehouses;
+- Implement online analytical processing (OLAP) queries;
+- Use fact and dimensional modelling;
+- Create business intelligence reports using data warehouses and OLAP.
+- Explain the roles of data warehousing architecture and the concepts of granularity in data warehousing;
+Assessment Tasks:
+- Scheduled final assessment (2 hours and 10 minutes): 40% (Hurdle: Threshold)
+- Assessment 1: 10% (Hurdle: Threshold)
+- Assessment 2: 40% (Hurdle: Threshold)
+- Assessment 3: 10% (Hurdle: Threshold)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3031 =====
+Subject: Network security (FIT3031)
+Credit Points: 6
+Overview: Computer networks underpin modern communication and digital services, and network attacks can disrupt systems, expose sensitive information, and cause serious consequences for organisations and individuals. This unit introduces foundational and practical knowledge of network security principles and the mechanisms used to protect modern computer networks. You will explore common network attacks and the protocols and techniques used to secure both wired and wireless networks. Topics include cryptography fundamentals for network security, secure communication protocols, authentication and access control, and defensive mechanisms such as firewalls and intrusion detection systems, as well as attacks like denial‑of‑service. By the end of the unit, you will understand how security mechanisms operate within real‑world networks and how they are applied to mitigate security risks.
+Learning Outcomes:
+- Design and implement secure networked systems that defend against malicious activities.
+- Identify and examine the ethical and legal issues relating to the security of information and computer networks.
+- Explain and critically evaluate common security standards and protocols used in networked applications.
+- Apply and compare appropriate cryptographic techniques to secure network communications.
+- Analyse and evaluate networked environments for security threats, vulnerabilities, and risks, and recommend appropriate security improvements.
+- Identify and analyse security issues and attacks in wired and wireless networks.
+Assessment Tasks:
+- Final assessment: 45% (Hurdle: None)
+- Assignment 1: 30% (Hurdle: None)
+- Quiz: 25% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3045 =====
+Subject: Industry-based learning (FIT3045)
+Credit Points: 18
+Overview: You engage in a full time industry placement at an established partner of the Faculty of IT industry based learning program including major global companies, leading Australian companies and worldwide consultancies. Students on placement apply the knowledge, skills and practices developed in their academic studies and, with the guidance of mentors and colleagues, build further IT expertise and professional awareness. Throughout the placement, you reflect on their experiences to optimise their professional development. This unit combined with one of its prerequisites (FIT3201 or FIT3202) form an uninterrupted 20 or 16 week industry placement respectively.
+Learning Outcomes:
+- Identify useful theoretical knowledge that has been covered in prior coursework and knowledge that has not yet been covered;
+- Prepare documentation and written reports of a professional standard;
+- Set achievable and measurable goals;
+- Develop information technology skills (such as business process modelling, performance enhancement of installed software, updating current software and developing new software) in a complex, corporate business environment.
+- Develop solutions to business problems using information technology and other techniques;
+- Address performance improvement opportunities identified by industry supervisors and self-assess opportunities for personal development;
+- Develop and practice professional skills and attitudes including: initiative, communication, time-management and teamwork skills in a business environment;
+Assessment Tasks:
+- Final IBL presentation: 20% (Hurdle: None)
+- Mid-placement evaluation: 20% (Hurdle: None)
+- Final IBL report: 15% (Hurdle: None)
+- IBL Student Portfolio: 15% (Hurdle: None)
+- End-placement evaluation: 30% (Hurdle: None)
+Workload: Students on placement are deployed full-time for 12 weeks with the industry partners of the Faculty of IT industry-based learning program in a graduate level role within the company.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3080 =====
+Subject: Artificial intelligence (FIT3080)
+Credit Points: 6
+Overview: This unit covers the history of artificial intelligence and the foundational concepts of intelligent agents. It delves into problem-solving and search techniques, including problem representation, heuristic search, and adversarial search. You will learn about knowledge representation and reasoning, focusing on propositional and first-order logic for AI applications, as well as planning. The unit also explores reasoning under uncertainty through Bayesian Networks and Markov Decision Processes. In the realm of machine learning, the unit includes reinforcement learning techniques, supervised learning such as decision trees, Naive Bayes, neural networks, and self-supervised learning approaches. Additionally, the unit addresses various AI applications and examines ethical considerations in AI
+Learning Outcomes:
+- Describe the historical and conceptual development of AI;
+- Explain, apply and evaluate the goals of AI and the main paradigms for achieving them including logical inference, search, machine learning and Bayesian inference;
+- Describe, analyse and apply probabilistic inference mechanisms for reasoning under uncertainty;
+- Describe, analyse, apply and evaluate heuristic AI for problem solving;
+- Describe, analyse and apply basic knowledge representation and reasoning mechanisms;
+- Explain the and understand the practical and ethical implications of Artificial Intelligence in real world contexts;
+- Describe, analyse, apply and evaluate machine learning techniques.
+Assessment Tasks:
+- Examination: 50% (Hurdle: None)
+- Assignment 1: 20% (Hurdle: None)
+- Assignment 2: 10% (Hurdle: None)
+- Assignment 3: 20% (Hurdle: None)
+Workload: Applied sessions start from Week 2. Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3139 =====
+Subject: Computational modelling and simulation (FIT3139)
+Credit Points: 6
+Overview: This unit provides an overview of computational science and an introduction to its central methods. It covers the role of computational tools and methods in 21st century science, emphasising modelling and simulation. It introduces a variety of models, providing contrasting studies on: continuous versus discrete models; analytical versus numerical models; deterministic versus stochastic models; and static versus dynamic models. Other topics include: Monte-Carlo methods; epistemology of simulations; visualisation; high-dimensional data analysis; optimisation; limitations of numerical methods; high-performance computing and data-intensive research. A general overview is provided for each main topic, followed by a detailed technical exploration of one or a few methods selected from the area. These are applied workshops which also acquaint you with standard scientific computing software (e.g., Mathematica, Matlab, Maple, Sage). Applications are drawn from disciplines including Physics, Biology, Bioinformatics, Chemistry, Social Science.
+Learning Outcomes:
+- Rationalise the role of simulation and data visualisation in science;
+- Explain and apply the process of computational scientific model building, verification and interpretation;
+- Evaluate the implications of choosing different modelling approaches;
+- Analyse the differences between core classes of modelling approaches (Numerical versus Analytical; Linear versus Non-linear; Continuous versus Discrete; Deterministic versus Stochastic);
+- Apply all of the above to solving idealisations of real-world problems across various scientific disciplines.
+Assessment Tasks:
+- Assignment Part 1: 15% (Hurdle: None)
+- Final Project: 50% (Hurdle: None)
+- Assignment Part 2: 25% (Hurdle: None)
+- Qizzes: 10% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3143 =====
+Subject: Parallel computing (FIT3143)
+Credit Points: 6
+Overview: Modern computer systems contain parallelism in both hardware and software. This unit covers parallelism in both general purpose and application specific computer architectures and the programming paradigms that allow parallelism to be exploited in software. The unit examines shared memory and message passing paradigms in hardware and software; concurrency, multithreading and synchronicity; parallel, clustered and distributed supercomputing algorithms, languages and software tools and development environments. You will learn to design and develop parallel algorithms in these paradigms, and apply technical writing and presentation to communicate parallel computing.
+Learning Outcomes:
+- Research and solve synchronisation problems typical in the design of parallel applications;
+- Judge modern parallel computing applications and the impact of exponential growth in hardware
+- Evaluate and contrast different types of parallel architectures using Flynn's taxonomy;
+- Analyse the design principles of distributed parallel computing systems;
+- Criticise and assess common performance models used for parallel applications;
+- Examine the design principles of parallel computing architectures;
+- Compare the fundamental principles of parallel hardware using vector processing, Graphics Processing Units (GPU) and Neural Processing Units (NPU);
+Assessment Tasks:
+- Applied Problem Solving Tasks (Quiz): 50% (Hurdle: None)
+- Applied Sessions: 20% (Hurdle: None)
+- Laboratories: 30% (Hurdle: None)
+Workload: This unit has a requirement of 1-2 hours per week of asynchronous learning. Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3146 =====
+Subject: Maker lab (FIT3146)
+Credit Points: 6
+Overview: This unit will enable you to create new artefacts which utilise developments in information technology. The unit will combine the theoretical and technical skills gained in other units into a problem solving context and allow the you to gain the skills needed to create solutions of problems using technology. You will learn valuable research and communication skills as they explore and create using a variety of technologies that support the making process. You will have the opportunity to explore new technologies and undertake the prototyping and refinement process in an environment that supports independent learning. You will have the opportunity to use technology to solve a problem which is of interest.
+Learning Outcomes:
+- Use a variety of techniques to learn new technologies at different levels of depth of understanding and be able to communicate this to others
+- Methodically locate and use new technologies to solve a specific problem in a variety of contexts
+- Be able to articulate how emerging technologies are used in different contexts including social good, HCI, creativity, and ethics
+- Reflect effectively on the making process and the value of trial and error
+- Undertake an iterative prototyping process to create a viable solution for a user and be able to demonstrate and communicate the reasons for decisions in the creation of a working prototype
+Assessment Tasks:
+- Task oriented portfolio: 100% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3152 =====
+Subject: Data analytics (FIT3152)
+Credit Points: 6
+Overview: There has been an explosion in the quantity and variety of data collected and routinely analysed by government, business and society at large over recent years. This has been described by some social commentators as the rise of "big data" and and the analysts and practitioners who investigate this data as "data scientists." This unit will introduce you to the analysis of big data and the role of the data scientist. Techniques covered include data management and transformation, visual analysis, social network analysis, statistical learning, clustering and natural language processing. You will be introduced to these methods using open source industry standard software. Data and case studies will be drawn from diverse sources. The general principles of analysis, investigation and reporting will be covered. You will be encouraged to critically reflect on the data analysis process within your own domain of interest.
+Learning Outcomes:
+- Interpret the results of analysis and communicate these to a broad audience.
+- Analyse large data sets using a range of statistical, graphical and machine-learning techniques;
+- Validate and critically assess the results of analysis;
+- Demonstrate the ability to transform real world problems into ones that can then be solved using data analytics techniques;
+- Cleanse and prepare data for analysis;
+Assessment Tasks:
+- Assignment 2: 20% (Hurdle: None)
+- Assignment 3: 25% (Hurdle: None)
+- Quiz and practical activity: 30% (Hurdle: None)
+- Assignment 1: 25% (Hurdle: None)
+Workload: Applied sessions are scheduled from week 2 to week 12. Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3154 =====
+Subject: Advanced data analysis (FIT3154)
+Credit Points: 6
+Overview: This unit introduces the problem of machine learning and the major kinds of statistical learning used in data analysis. Learning and the different kinds of learning will be covered and their usage discussed. Evaluation techniques and typical application contexts will presented. A series of different models and algorithms will be presented in an exploratory way: looking at typical data, the basic models and algorithms and their use: linear and logistic regression, support vector machines, Bayesian networks, decision trees, random forests, k-means and clustering, neural-networks, deep learning, and others. Finally, two specialist topics will be covered briefly, statistical learning theory and working with big data.
+Learning Outcomes:
+- Compare and contrast the differences between big data applications and regular applications of algorithms;
+- Describe and apply the major models and algorithms for statistical learning;
+- Describe the theoretical limits of learning.
+- Evaluate a machine learning algorithm in typical contexts;
+- Differentiate kinds of statistical learning models and algorithms;
+- Describe what machine learning is;
+- Identify the most competitive algorithms for typical contexts;
+Assessment Tasks:
+- Scheduled final assessment (2 hours and 10 minutes): 60% (Hurdle: None)
+- Assignment 1: 10% (Hurdle: None)
+- Assignment 2: 10% (Hurdle: None)
+- Assignment 3: 20% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3155 =====
+Subject: Advanced data structures and algorithms (FIT3155)
+Credit Points: 6
+Overview: This unit builds on the concepts learnt in introductory algorithms and data structures study. It covers advanced algorithmic paradigms and problem-solving techniques required to address real-world programming challenges. It explores, in depth, the design and analysis of space-efficient data structures and time-efficient problem solving strategies to be used with them. Topics include amortized analysis, advanced sorting and searching algorithms, new tree/string/graph data structures and algorithms, and number-theoretic algorithms amongst others.
+Learning Outcomes:
+- Design and implement efficient algorithms and data structures for use on large data sets;
+- Prove the correctness of programs and reason about their space and time complexities.
+- Apply advanced algorithms and data structures to tackle complex computational problems;
+- Analyse efficient data structures and effective algorithmic paradigms;
+Assessment Tasks:
+- Assignment 1: 20% (Hurdle: Threshold)
+- Assignment 2: 20% (Hurdle: Threshold)
+- Scheduled final assessment (2 hours and 10 minutes): 60% (Hurdle: Threshold)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities. Offers 2 x 1 hrs blocks of online workshop weekly (starting week 2).
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3159 =====
+Subject: Computer architecture (FIT3159)
+Credit Points: 6
+Overview: This unit covers the internal mechanism of computers and how they are organised and programmed. Topics include combinatorial and sequential logic, Boolean Algebra, counters, ripple adders, tree adders, memory/addressing, busses, speed, DMA, data representation, machine arithmetic, microprogramming, caches and cache architectures, virtual memory and translation look-aside buffers, vectored interrupts, polled interrupts, pipelined architecture, superscalar architecture, data dependency, hazards, CISC, RISC, VLIW machine architectures.
+Learning Outcomes:
+- Explain and analyse key processor components;
+- Use simulator programs to model computer system components.
+- Explain and analyse computer organisation;
+- Write and debug simple assembly language programs;
+- Analyse simple logic circuits;
+Assessment Tasks:
+- Laboratory Exercises: 30% (Hurdle: None)
+- Applied Problem Solving Tasks: 50% (Hurdle: None)
+- Applied session Exercises: 20% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3161 =====
+Subject: Computer science project 1 (FIT3161)
+Credit Points: 6
+Overview: This unit provides practical experience in researching, designing, developing and testing a substantial computer science project. Projects are generally software-based, although sometimes they may involve hardware development or investigation of theory. Projects cover the whole process of software (or hardware) development, from analysis through design to implementation and testing. Comprehensive written documentation on the project is required. You are assigned in groups to a project supervisor. You will be expected to meet weekly with your project supervisor during formal lab sessions, and attend 2-hour project management seminars during the first six weeks. Other workshops relevant to research and development of the project will be held in the latter six weeks. The unit is the first part of a 12-credit point project sequence; the second part and exit point for the project is FIT3162.
+Learning Outcomes:
+- Evaluate research methods and techniques of data collection and analysis to select those appropriate for a particular project
+- Recognise the factors essential for professional management of software projects, including ethical conduct, teamwork and interpersonal communication
+- Identify and analyse relevant research literature as part of the process of developing solutions to problems
+- Construct a project proposal
+- Communicate the deliverables of a project in written and oral form to an appropriate audience
+- Develop effective collaboration skills to operate effectively as a member of a development and research team
+Assessment Tasks:
+- Individual Critique of Other Final Presentations: 5% (Hurdle: None)
+- Group Mid-Semester Project Pitch: 25% (Hurdle: None)
+- Group Final Proposal Presentation: 30% (Hurdle: None)
+- Individual Vlog Reflections: 10% (Hurdle: None)
+- Project Proposal Report: 10% (Hurdle: None)
+- Group Project Meeting Minutes & Videos: 15% (Hurdle: None)
+- Individual Critique of Other Group Pitches: 5% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3162 =====
+Subject: Computer science project 2 (FIT3162)
+Credit Points: 6
+Overview: This unit provides practical experience in researching, designing, developing and testing a non-trivial computer science project. Projects are generally software-based, although sometimes they may involve hardware development or investigation of theory. Projects cover the whole process of software (or hardware) development, from analysis through design to implementation and testing. Comprehensive written documentation on the project is required. Students are assigned in groups to a project supervisor. There are no lectures in this unit, although you will be expected to attend regular meetings with your project supervisor. The unit is the second part of a 12-credit point project sequence; the first part and entry point for the project is FIT3161.
+Learning Outcomes:
+- Work effectively in collaborative teams;
+- Explain and reflect upon the purpose, operation, success and value of the developed project in writing and orally;
+- Write a report explaining methodology, outlining their contributions and the contributions of others, and documenting the developed project from appropriate perspectives, for instance that of a user, researcher or developer.
+- Evaluate and select research methods and techniques of data collection and analysis appropriate to a particular project;
+- Search, access, and analyse research literature as part of the process of developing solutions to problems;
+- Develop and test a substantial piece of software or hardware;
+Assessment Tasks:
+- Final Written Report: 10% (Hurdle: None)
+- Software Demonstration and Final Presentation: 30% (Hurdle: None)
+- Group Mid-Semester Project Pitch: 25% (Hurdle: None)
+- Group Project Meeting Minutes & Videos: 15% (Hurdle: None)
+- Individual Critique of Other Group Pitches: 5% (Hurdle: None)
+- Individual Vlog Reflections: 10% (Hurdle: None)
+- Individual Critique of Other Final Presentations: 5% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3163 =====
+Subject: Data science project 1 (FIT3163)
+Credit Points: 6
+Overview: This unit provides practical experience in researching, designing, developing and evaluating a non-trivial data science project. Projects involve whole or part of the data science process (visualisation, analysis, algorithms, etc.) but can also be software-based, or they may involve investigation of theory. Projects if software-based should cover analysis through design to implementation and sting. Comprehensive written documentation on the project is required. Students are assigned in groups to a project supervisor. There are no lectures in this unit, although you will be expected to attend regular meetings with your project supervisor. The unit is the first part of a 12-credit point project sequence; the second part and exit point for the project is FIT3164.
+Learning Outcomes:
+- Operate effectively as a member of a development team;
+- Search, access and analyse research literature as part of the process of developing solutions to problems;
+- Evaluate and select research methods and techniques of data preparation and analysis appropriate to a particular project, and practice these ethically and professionally;
+- Communicate in written and oral form the proposed deliverables of a project and reflect upon their value and the likelihood of success;
+- Develop, demonstrate and explain results of analysis, a software prototype or model.
+- Recognise and execute the factors essential for successful management of systems development projects, including teamwork and interpersonal communication;
+Assessment Tasks:
+- Group Final Proposal Presentation: 30% (Hurdle: None)
+- Project Proposal Report: 10% (Hurdle: None)
+- Individual Vlog Reflections: 10% (Hurdle: None)
+- Individual Critique of Other Final Presentations: 5% (Hurdle: None)
+- Individual Critique of Other Group Pitches: 5% (Hurdle: None)
+- Group Project Meeting Minutes & Videos: 15% (Hurdle: None)
+- Group Mid-Semester Project Pitch: 25% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3164 =====
+Subject: Data science project 2 (FIT3164)
+Credit Points: 6
+Overview: This unit provides practical experience in researching, designing, developing and testing a non-trivial data science project. Projects involve whole or part of the data science process (visualisation, analysis, algorithms, etc.) but can also be software-based, or they may involve investigation of theory. Projects if software-based should cover analysis through design to implementation and testing. Comprehensive written documentation on the project is required. Students are assigned in groups to a project supervisor. There are no lectures in this unit, although you will be expected to attend regular meetings with your project supervisor. The unit is the second part of a 12-credit point project sequence; the first part and entry point for the project is FIT3163.
+Learning Outcomes:
+- Explain and reflect upon the purpose, operation, success and value of the developed project in writing and orally;
+- Write a report explaining methodology, outlining their contributions and the contributions of others, and documenting the developed project from appropriate perspectives, for instance that of a user, researcher or developer.
+- Evaluate and select research methods and techniques of data preparation and analysis appropriate to a particular project;
+- Develop and test a substantial piece of software or perform a substantial analysis of data using software;
+- Search, access, and analyse research literature as part of the process of developing solutions to problems;
+- Work effectively in collaborative teams;
+Assessment Tasks:
+- Final Written Report: 10% (Hurdle: None)
+- Individual Vlog Reflections: 10% (Hurdle: None)
+- Software Demonstration and Final Presentation: 30% (Hurdle: None)
+- Individual Critique of Other Final Presentations: 5% (Hurdle: None)
+- Individual Critique of Other Group Pitches: 5% (Hurdle: None)
+- Group Project Meeting Minutes & Videos: 15% (Hurdle: None)
+- Group Mid-Semester Project Pitch: 25% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3168 =====
+Subject: IT forensics (FIT3168)
+Credit Points: 6
+Overview: This unit provides a broad coverage of digital ICT forensics. You will examine definitions of evidence as they apply to investigations involving the seizure and examination of information technology devices. The unit will introduce you to various tools, techniques and algorithms that may be employed by investigators for acquisition, preservation and analysis of evidence. Disk-based (local) and network (remote) forensic environments will be explored. You will also learn of the impediments and complicating factors that can threaten forensic investigations.
+Learning Outcomes:
+- Explain the relevant legal definitions and frameworks that apply to digital forensic investigations;
+- Report on forensic findings in a clear and concise manner.
+- Select appropriate tools and algorithms to perform forensic investigations and acquire relevant evidence;
+- Explain the motivations and landscape of forensic investigations in an IT context;
+- Apply and evaluate forensic techniques in local media-based an network-based environments;
+- Demonstrate how digital forensics can be employed by Police and Tax officials in a court of law.
+Assessment Tasks:
+- Assignment 2 Practical Test (disk-based forensics): 30% (Hurdle: None)
+- Assessment 1 Enterprise Forensic Readiness: 10% (Hurdle: None)
+- Assignment 3 Practical Test (network-based forensics): 30% (Hurdle: None)
+- Assignment 4 Practical Test (memory-based forensics): 30% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3181 =====
+Subject: Deep learning (FIT3181)
+Credit Points: 6
+Overview: Deep learning (DL) has been fuelling Artificial Intelligence (AI) and the Fourth Industrial Revolution in recent years. The success of DL in many applications, including generative AI such as ChatGPT or DALL·E, has gained rocketed attention and becomes a highly demanded skill across industries and sectors. It is transforming innovations, powering new applications and impact our society in everyday activities. In this unit, you will learn the foundations of deep learning theory within a broader context of machine learning. At the same time, you will gain hands-on practical skills on how to apply DL to real-world applications across a range of AI cognitive tasks in computer vision such as image and object recognition, in natural language processing such as text classification using deep neural embeddings. Learning activities will focus on understand the fundamental concepts in DL such as neural networks (NN), convolutional NN, backpropagation and optimisation for deep learning, adversarial robustness, attention mechanism, transformer, important concepts in deep generative AI (VAE, GAN), in combination with laboratory sessions to gain hands-on experiences.
+Learning Outcomes:
+- Explain fundamental elements of deep learning.
+- Describe basic and advanced concepts of machine learning, AI, and deep learning
+- Construct deep neural networks, convolutional NNs, RNN, deep generative models and apply different strategies for training them
+- Assess what deep learning is, what makes deep learning work or fail, and critique where they should be applied.
+- Develop critical thinking and obtain hands-on experiences with practical deep learning models and frameworks
+- Apply DL models in real-world applications such as image classification, text translation, image/text generation
+Assessment Tasks:
+- Quiz 2: 10% (Hurdle: None)
+- Final exam: 35% (Hurdle: Threshold)
+- Assignment 2: 20% (Hurdle: None)
+- Assignment 1: 25% (Hurdle: None)
+- Quiz 1: 10% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3182 =====
+Subject: Big data management and processing (FIT3182)
+Credit Points: 6
+Overview: Data engineering is about developing the software (and hardware) infrastructure to support data science. This unit introduces software tools and techniques for data engineering, but not hardware. It will cover an introduction to big data processing, covering volume, variety, and velocity; large volume data processing using parallel technologies; variety data formats, including unstructured and semi-structured data, using NoSQL databases; and velocity data processing, covering data streaming.
+Learning Outcomes:
+- apply modern big data processing tools for various data structures;
+- solve complex big data streaming problems.
+- identify big data concepts and technologies;
+- design and develop parallel database processing algorithms and methods;
+- explain a variety of data formats in big data;
+Assessment Tasks:
+- Assignment-3: 10% (Hurdle: None)
+- In class tests: 40% (Hurdle: None)
+- Assignment-2: 20% (Hurdle: None)
+- Assignment-1B: 5% (Hurdle: None)
+- Assignment-1: 15% (Hurdle: None)
+- Assignment-2B: 10% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3183 =====
+Subject: Malicious AI and dark side security (FIT3183)
+Credit Points: 6
+Overview: In this unit you will learn first-hand some of the required skills of a Chief Security Officer. You will be exposed to the latest technologies deployed by attackers against AI and security, and mechanisms to counter these malicious activities. This unit gives you the opportunity to engage in role-playing case studies wherein you will be required to participate against other students in a security warfare: security vs anti-security technologies, such as, deepfakes vs anti-deepfakes, forensics vs counter forensics.
+Learning Outcomes:
+- explain the ethical principles between the dark side and cybersecurity for social good.
+- design and deploy security or anti-security techniques in real-world situations.
+- identify and evaluate malicious technologies deployed by attackers against AI and security such as adversarial machine learning, deepfakes, ransomware, kleptography, cryptovirology, covert exfiltration, anti-forensics, subversion.
+- implement counter-anti-security technologies to combat the anti-security techniques deployed by attackers.
+- critically assess the level of security offered by existing AI and security systems.
+Assessment Tasks:
+- Assignment Milestone 3: 20% (Hurdle: Threshold)
+- Assignment Milestone 4: 10% (Hurdle: Threshold)
+- Assignment Milestone 2: 8% (Hurdle: Threshold)
+- Assignment Milestone 1: 2% (Hurdle: Threshold)
+- Scheduled final assessment (2 hours and 10 mins): 60% (Hurdle: Threshold)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3185 =====
+Subject: Privacy enhancing technologies (FIT3185)
+Credit Points: 6
+Overview: This unit encompasses a progression from foundational knowledge and comprehension to practical application, analysis, synthesis, and evaluation of advanced vulnerability analysis and mitigation techniques in the context of cloud security, operating systems security, reverse engineering, and side-channel analysis and mitigations.
+Learning Outcomes:
+- Perform impact and risk assessment to provide responsible expert advice on (Australian) privacy policies, procedures and governance incorporating ethical considerations.
+- Design and construct privacy-preserving algorithms and solutions by combining multiple privacy-enhancing technologies, demonstrating innovation in solving real-world privacy challenges.
+- Be familiar with and assess zero-knowledge proofs to enhance privacy of applications such as secure authentication and verification processes.
+- Define the fundamental concepts of privacy-enhancing technologies, including differential privacy, post-quantum cryptography, zero-knowledge proofs, and secure multiparty computation
+- Understand and evaluate post-quantum cryptographic algorithms in real-world scenarios to protect data and communications against potential quantum threats, showcasing proficiency in encryption and digital signatures.
+- Apply the principles of differential privacy to design privacy-preserving data collection and analysis techniques, ensuring that sensitive information remains confidential while maintaining data utility.
+- Create and analyse practical applications of secure multiparty computation, allowing multiple parties to jointly compute results while preserving the privacy of their inputs.
+Assessment Tasks:
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3186 =====
+Subject: Vulnerability analysis, response and mitigation (FIT3186)
+Credit Points: 6
+Overview: This unit covers advanced concepts in computer security, designed to equip you with practical skills for securing systems, networks, and applications. The unit blends theory with hands-on experience in labs, aligning with real-world industry practices. You will learn security principles, authentication mechanisms, cryptographic protocols, incident response strategies, network defense tools, and security auditing techniques. The unit culminates in a project where you design, implement, and present security solutions. The aim of the unit is to provide you with a solid understanding of computer security architecture components and mechanisms and how they work together at the various architectural layers. You will be able to design and implement secure real-world systems.
+Learning Outcomes:
+- Use auditing tools to analyze and secure IT infrastructure
+- Deploy and evaluate network security tools such as firewalls, IDS, and honeypots
+- Configure and manage authentication, access control, and cryptographic mechanisms
+- Explain core principles of computer security and their application in real-world systems.
+- Detect, report, and respond to cyber incidents effectively
+- Present and document a complete security solution through a real-world vulnerability.
+- Implement secure programming techniques to mitigate vulnerabilities
+Assessment Tasks:
+- Demo: 20% (Hurdle: None)
+- Project Proposal: 20% (Hurdle: None)
+- Lab: 30% (Hurdle: None)
+- Project Report: 30% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3188 =====
+Subject: Cybersecurity project 1 (FIT3188)
+Credit Points: 6
+Overview: This unit delivers a hands-on experience in the entire process of a cybersecurity project, from initial research and concept development to the design, implementation, and critical evaluation of security solutions. You will tackle components of cybersecurity such as threat analysis, defence mechanisms, cryptographic algorithms, and security protocol implementation, potentially exploring both practical and theoretical dimensions. Projects with a software orientation should encompass everything from system analysis and architectural design to secure coding practices and vulnerability assessment. Rigorous documentation is required throughout the project's evolution. Participants will work in teams under the mentorship of a project supervisor, replacing standard lectures with periodic strategy and update sessions. The unit is the first part of a 12-credit point project sequence; the second part and exit point for the project is FIT3189.
+Learning Outcomes:
+- Critically assess and apply appropriate research methodologies and vulnerability analysis techniques for cybersecurity projects, ensuring ethical and professional integrity in practice.
+- Design, build, and present a functioning cybersecurity prototype or model, effectively explaining the methodologies used and the results achieved in the context of contemporary security challenges.
+- Articulate the objectives, expected outcomes, and potential impact of a cybersecurity project in both written and oral presentations, and critically evaluate the project's prospects for success.
+- Conduct thorough literature reviews to support the development of cybersecurity solutions, employing rigorous analysis of existing research.
+- Collaborate proficiently within a cybersecurity project team, demonstrating roles such as threat intelligence assessment, risk management, and security planning.
+- Identify and apply the critical elements for the successful management of cybersecurity projects, including collaborative security strategies and effective communication within a cybersecurity team.
+Assessment Tasks:
+- Project proposal report: 30% (Hurdle: None)
+- Critique of other group’s pitches: 5% (Hurdle: None)
+- Individual Vlog Reflections: 10% (Hurdle: None)
+- Group Project Meeting Minutes & Videos: 15% (Hurdle: None)
+- Individual Critique of Other Group Pitches: 10% (Hurdle: None)
+- Group Mid-Semester Project Pitch: 25% (Hurdle: None)
+- Group Final Proposal Presentation: 30% (Hurdle: None)
+- Project Proposal Report: 10% (Hurdle: None)
+- Critique of other final proposal presentation: 5% (Hurdle: None)
+- Mid-semester project Pitch: 20% (Hurdle: None)
+- Final proposal presentation: 30% (Hurdle: None)
+- Project meeting Minutes & videos: 10% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3189 =====
+Subject: Cybersecurity project 2 (FIT3189)
+Credit Points: 6
+Overview: This unit delivers a hands-on experience in the entire process of a cybersecurity project, from initial research and concept development to the design, implementation, and critical evaluation of security solutions. You will tackle components of cybersecurity such as threat analysis, defence mechanisms, cryptographic algorithms, and security protocol implementation, potentially exploring both practical and theoretical dimensions. Projects with a software orientation should encompass everything from system analysis and architectural design to secure coding practices and vulnerability assessment. Rigorous documentation is required throughout the project's evolution. Participants will work in teams under the mentorship of a project supervisor, replacing standard lectures with periodic strategy and update sessions. The unit is the second part of a 12-credit point project sequence; the first part and entry point for the project is FIT3188.
+Learning Outcomes:
+- Articulate the objectives, expected outcomes, and potential impact of a cybersecurity project in both written and oral presentations, and critically evaluate the project's prospects for success.
+- Design, build, and present a functioning cybersecurity prototype or model, effectively explaining the methodologies used and the results achieved in the context of contemporary security challenges.
+- Identify and apply the critical elements for the successful management of cybersecurity projects, including collaborative security strategies and effective communication within a cybersecurity team.
+- Conduct thorough literature reviews to support the development of cybersecurity solutions, employing rigorous analysis of existing research.
+- Collaborate proficiently within a cybersecurity project team, demonstrating roles such as threat intelligence assessment, risk management, and security planning.
+- Critically assess and apply appropriate research methodologies and vulnerability analysis techniques for cybersecurity projects, ensuring ethical and professional integrity in practice.
+Assessment Tasks:
+- Group Mid-Semester Project Pitch: 25% (Hurdle: None)
+- Individual Vlog Reflections: 10% (Hurdle: None)
+- Group Project Meeting Minutes & Videos: 15% (Hurdle: None)
+- Critique of other final project presentation: 10% (Hurdle: None)
+- Software Demonstration and Final Presentation: 30% (Hurdle: None)
+- Final project report: 10% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3190 =====
+Subject: Work integrated learning: Industry placement (FIT3190)
+Credit Points: 12
+Overview: FIT3190 is a Work Integrated Learning (WIL) unit that allows eligible students to receive academic credit for a self-sourced industry internship over the summer and winter teaching periods. The unit is designed to integrate professional workplace experience with academic reflection, industry evaluation, and structured learning outcomes. You complete a paid internship placement totalling 230 hours, normally undertaken over 6 consecutive weeks full-time. Placements must be approved by the Faculty prior to commencement and must meet program requirements relating to supervision, relevance to IT, and workplace conditions. Throughout the placement, you are supported through academic check-ins and assessment activities including professional reflections, workplace evaluations, and a final presentation. FIT3190 provides you with the opportunity to develop industry experience, professional skills, and workplace readiness while progressing through your degree.
+Learning Outcomes:
+- Set achievable and measurable goals;
+- Prepare documentation and written reports of a professional standard;
+- Address performance improvement opportunities identified by industry supervisors and self-assess opportunities for personal development.
+- Develop and practice professional skills and attitudes including: initiative, communication, time-management and teamwork skills in a business environment;
+- Identify useful theoretical knowledge that has been covered in prior coursework and knowledge that has not yet been covered;
+- Develop solutions to relevant problems in a business context using information technology and other techniques;
+Assessment Tasks:
+- End-of-placement presentation: 30% (Hurdle: None)
+- Professional placement evaluation: 40% (Hurdle: None)
+- Professional placement portfolio: 30% (Hurdle: None)
+Workload: Students on placement are deployed full-time (36 hours per week) for 6 weeks with an approved industry partner of the work professional placement program in a role within the company.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3191 =====
+Subject: Generative artificial intelligence  (FIT3191)
+Credit Points: 6
+Overview: This unit covers the theoretical and practical foundations of Generative Artificial Intelligence (GenAI), building on prior knowledge of deep learning. The unit begins with essential Natural Language Processing (NLP) concepts that underpin modern generative systems, such as text representation, contextual embeddings, and sequence modelling. You then progress to large language models (LLMs), advanced generative techniques including variational autoencoders (VAEs), generative adversarial networks (GANs), and diffusion models, as well as their integration into real-world applications such as conversational systems, summarisation, translation, and multimodal AI. Throughout the unit, you will critically evaluate the architectures and training strategies that power generative systems, with strong emphasis on ethical, societal, and regulatory considerations. By the end of the unit, you will be able to design, apply, and evaluate generative AI solutions responsibly across various complex domains.
+Learning Outcomes:
+- Evaluate generative models using theoretical foundations and appropriate metrics, considering accuracy, creativity, robustness, and limitations.
+- Analyse the architectures and training strategies that underpin large language models and other generative approaches.
+- Assess the ethical, legal, and societal implications of NLP and generative AI technologies, including bias, fairness, safety, and governance.
+- Apply NLP and Generative AI in practical applications such as dialogue systems, translation, summarisation, and multimodal systems.
+- Explain the core principles of NLP and Generative AI, and how these methods enable artificial intelligence systems to interpret and generate human language.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3192 =====
+Subject: Emerging and advanced topics in artificial intelligence (FIT3192)
+Credit Points: 6
+Overview: This advanced undergraduate unit delves into the forefront of Artificial Intelligence, offering you an in-depth exploration of emerging and cutting-edge topics within the field. The course is designed to keep pace with the rapid advancements in AI, providing a comprehensive understanding of both foundational and innovative concepts. Key topics covered in this course include 1) Multi-Agent Systems - Study the dynamics of systems where multiple autonomous agents interact, cooperate, or compete to achieve individual or collective goals; 2) Quantum Machine Learning - Investigate the intersection of quantum computing and machine learning and its potential applications in optimisation, cryptography, and complex data analysis; 3) Cognitive Systems - Examine AI systems that simulate human cognitive processes, including perception, reasoning, learning, and decision-making; and 4) Integrated Planning and Learning: Explore methods that combine planning and learning to enable AI systems to adapt and optimise their strategies in real-time with applications such as robotics, autonomous systems, and complex decision-making scenarios. You will have a robust understanding of these advanced AI topics and be equipped with the knowledge to contribute to the development and application of innovative AI solutions in various domains.
+Learning Outcomes:
+- Demonstrate a comprehensive understanding of new concepts, techniques, and algorithms in the field of AI.
+- Compare and contrast different AI architectures, algorithms and advanced schemes using research-based knowledge and methods.
+- Evaluate the strengths and limitations of recent AI-driven technologies for industry application.
+- Understand the legal and ethical implications of AI on organisations and the future of work
+- Apply technical writing and presentation to effectively communicate advanced topics in AI to a range of academic and expert audiences.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3193 =====
+Subject: Artificial intelligence project 1 (FIT3193)
+Credit Points: 6
+Overview: This capstone project unit offers hands-on experience in researching, designing, developing, and evaluating a substantial Artificial Intelligence (AI) project. Projects may encompass various aspects of the AI process, including machine learning, deep learning, natural language processing, generative AI, computer vision, and more. You will also consider ethical implications and societal impact of AI. The scope of the project covers both software-based and theoretical investigation. In the context of software-based, projects should cover the entire lifecycle from analysis and design to implementation and testing. Comprehensive written documentation of the project is required. You will work in groups under the guidance of a project supervisor. The capstone project consist of two parts, with each part worth 6 credit points.
+Learning Outcomes:
+- Search, access and analyse research literature as part of the process of developing solutions to problems;
+- Recognise and execute the factors essential for successful management of systems development projects, including teamwork and interpersonal communication;
+- Develop, demonstrate and explain results of analysis, a software prototype or model.
+- Evaluate and select research methods and techniques of data preparation and analysis appropriate to a particular project, and practice these ethically and professionally;
+- Operate effectively as a member of a development team;
+- Communicate in written and oral form the proposed deliverables of a project and reflect upon their value and the likelihood of success;
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3194 =====
+Subject: Artificial intelligence project 2 (FIT3194)
+Credit Points: 6
+Overview: This capstone project unit offers hands-on experience in researching, designing, developing, and evaluating a substantial Artificial Intelligence (AI) project. Projects may encompass various aspects of the AI process, including machine learning, deep learning, natural language processing, generative AI, computer vision, and more. You will also consider ethical implications and societal impact of AI. The scope of the project covers both software-based and theoretical investigation. In the context of software-based, projects should cover the entire lifecycle from analysis and design to implementation and testing. Comprehensive written documentation of the project is required. You will work in groups under the guidance of a project supervisor. The capstone project consist of two parts, with each part worth 6 credit points.
+Learning Outcomes:
+- Operate effectively as a member of a development team;
+- Evaluate and select research methods and techniques of data preparation and analysis appropriate to a particular project, and practice these ethically and professionally;
+- Develop, demonstrate and explain results of analysis, a software prototype or model.
+- Communicate in written and oral form the proposed deliverables of a project and reflect upon their value and the likelihood of success;
+- Recognise and execute the factors essential for successful management of systems development projects, including teamwork and interpersonal communication;
+- Search, access and analyse research literature as part of the process of developing solutions to problems;
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3195 =====
+Subject: Deep tech entrepreneurship (FIT3195)
+Credit Points: 6
+Overview: In today’s fast paced innovation-driven world, leveraging AI and other advanced technologies to develop impactful and practical solutions for real-world problems and convert these innovations into successful tech startups is a critical skill. This unit will equip you with the knowledge and tools to identify opportunities for creating deep tech start-ups, develop viable business strategies by understanding how investors value technology start-ups, understand how to develop pricing models for AI/deep tech entreprise solutions, and understand the technology architectures and testing frameworks to build scalable technology-based ventures. It integrates foundational programming with software engineering, human-centered computing and emerging tech like AI, cybersecurity, and immersive media ensuring you can apply these technical skills in an entrepreneurial context. A key focus will be on leveraging state-of-the-art AI models to solve real-world problems, particularly in cybersecurity, finance, healthcare, interactive media including gaming, AR/VR and other high-growth verticals. You will explore strategies for market validation, start-up building, and integrating these advanced technologies into products and solutions. The unit will emphasize on how concepts from software engineering and human centered computing are key elements in turning technology innovations into market-ready products. By the end of this unit, you will have the practical skills and insights to lead technology-driven innovations, build and scale start-ups, and navigate funding strategies and team dynamics. The curriculum will be underpinned by real-world experience through sessions with start-up founders and industry experts, empowering you to create, scale, and run your own ventures successfully.
+Learning Outcomes:
+- Develop and present a prototype in teams to test and improve the innovative solution as per market assessment;
+- Evaluate business models and strategies and apply them to tech based ventures;
+- Identify opportunities to leverage AI/ML and other emerging tech to build real-world practical solutions;
+- Evaluate market needs to position the unique tech product;
+- Develop entrepreneurial mindset to overcome challenges and solve problems.
+- Demonstrate technical and business concepts effectively to stakeholders including investors and industry leaders.
+Assessment Tasks:
+- MVP V1 and Business Model: 35% (Hurdle: None)
+- Pitch and Start-up Presentation: 15% (Hurdle: None)
+- Contribution Journal: 10% (Hurdle: None)
+- Proof of Concept and Initial Market assessment: 30% (Hurdle: None)
+- Quiz: 10% (Hurdle: None)
+Workload: Minimum expected workload to achieve the learning outcomes of this unit is 144 hours per semester comprising a mixture of scheduled face to face learning activities (2 hours workshop and 2 hours applied classes per week) and independent study. Independent study may include pre-class activities and post-class activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3196 =====
+Subject: Computer architecture and networks (FIT3196)
+Credit Points: 6
+Overview: This unit examines the core principles and interrelationships of computer architecture and data communication, providing you with a comprehensive understanding of how computing systems operate and interact within modern digital infrastructures. You will explore two key areas of study: computer architecture and computer networks, developing the analytical and technical skills needed to evaluate and design efficient computing environments. The computer architecture area of study investigates the structure and operation of system components including the central processing unit, memory hierarchy, storage devices, and input and output subsystems. It also analyses the role of operating systems in process management, file systems, and resource allocation, with an emphasis on performance and system optimisation. The computer networks area of study focuses on the design and operation of communication systems, including network architectures, the TCP IP model, switching and routing mechanisms, local and wireless networks, and the fundamentals of network performance, reliability, and security. By integrating these two areas, the unit equips you with the conceptual and practical foundation to analyse, design, and optimise contemporary computing and communication systems
+Learning Outcomes:
+Assessment Tasks:
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3201 =====
+Subject: Industry-based learning onboarding (8 weeks) (FIT3201)
+Credit Points: 0
+Overview: This onboarding unit is compulsory for undergraduate students who are undertaking a placement in the Industry-Based Learning Program in the Faculty of Information Technology. It is a non-weighted unit and is taken in addition to any prescribed coursework. You begin your IBL placement with this 8-week IBL onboarding at established partners of the Faculty of Information Technology industry-based learning program including major global companies, leading Australian companies and worldwide consultancies. You use this time to be inducted into the organisation, learn languages, frameworks and tools in use at the partner, and understand the processes and dynamics of the organisation, allowing you to become an integrated, productive member of the team. Students on placement are deployed full-time (36 hours per week) for 8 weeks with the industry partners of the Faculty of IT industry-based learning program in a graduate level role within the company. This unit is a prerequisite to FIT3045 and FIT4042 Industry based learning.
+Learning Outcomes:
+- Demonstrate proficiency in the languages, frameworks, and tools utilised by the partner organization;
+- Communicate effectively with peers and supervisors, utilising appropriate technical and organisational language.
+- Apply organizational processes and best practices to contribute effectively within a professional team environment;
+Assessment Tasks:
+- Assessment task 1 (Initial goals for placement): 0% (Hurdle: None)
+- Assessment task 3 (Progress check visit): 0% (Hurdle: None)
+- Assessment task 2 (Short weekly reflection on placement experience): 0% (Hurdle: None)
+Workload: As it is a zero credit point unit, there is no teaching space required, it will be administered by the IBL teaching team.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3202 =====
+Subject:  Industry-based learning onboarding (4 weeks) (FIT3202)
+Credit Points: 0
+Overview: This onboarding unit is compulsory for undergraduate students who are undertaking a placement in the Industry-Based Learning Program in the Faculty of Information Technology. It is a non-weighted unit and is taken in addition to any prescribed coursework. You begin your IBL placement with this 4-week IBL onboarding at established partners of the Faculty of Information Technology industry-based learning program including major global companies, leading Australian companies and worldwide consultancies. You use this time to be inducted into the organisation, learn languages, frameworks and tools in use at the partner, and understand the processes and dynamics of the organisation, allowing you to become an integrated, productive member of the team. Students on placement are deployed full-time (36 hours per week) for 4 weeks with the industry partners of the Faculty of IT industry-based learning program in a graduate level role within the company. This unit is a prerequisite to FIT3045 and FIT4042 Industry based learning.
+Learning Outcomes:
+- Apply organizational processes and best practices to contribute effectively within a professional team environment;
+- Communicate effectively with peers and supervisors, utilising appropriate technical and organisational language.
+- Demonstrate proficiency in the languages, frameworks, and tools utilised by the partner organization;
+Assessment Tasks:
+- Assessment task 2 (Short weekly Reflection on placement experience): 0% (Hurdle: None)
+- Assessment task 1 (Initial goals for placement: 0% (Hurdle: None)
+- Assessment task 3 (Progress check visit): 0% (Hurdle: None)
+Workload: As it is a zero credit point unit, there is no teaching space. It will be administered by the IBL teaching team.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT3203 =====
+Subject: Intelligent agents  (FIT3203)
+Credit Points: 6
+Overview: This unit introduces you to the field of Artificial Intelligence (AI) as a specialisation within Computer Science. It provides an overview of the foundations of AI, including the history, key concepts, and applications across diverse domains such as language, vision, and intelligent decision-making. You will explore introductory AI problem-solving techniques and develop a basic understanding of how AI systems are designed to emulate aspects of intelligence. In parallel, the unit equips you with the essential mathematical and computational foundations required for later AI units. These include fundamental concepts from linear algebra and vector calculus, introduced in the context of solving simple AI-related problems such as classification and optimisation. Practical labs emphasise hands-on engagement through simulations, mathematical reasoning, and basic AI model-building, along with reflection on the societal and ethical implications of AI technologies.
+Learning Outcomes:
+- Build simulations under which emergent large-scale phenomena appear as a result of local agent-level interactions.
+- Evaluate the performance and limitations of intelligent agent systems in practical applications.
+- Explain the characteristics and architectures of intelligent agents, planning and automated reasoning.
+- Construct intelligent agents to achieve defined goals efficiently
+- Compare model-based and model-free reinforcement learning.
+Assessment Tasks:
+- Assessment Task 1: Reinforcement Learning Agent: 30% (Hurdle: None)
+- Assessment Task 3: Game Theory and Agent Decision-Making: 50% (Hurdle: None)
+- Assessment Task 2: Multi-Agent Pathfinding: 20% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT4441 =====
+Subject: Honours thesis part 1 (FIT4441)
+Credit Points: 6
+Overview: This unit is a research unit and a requirement for the FIT Honours degrees. Due to the nature of IT, a wide range of Honours project types can be offered to you. Some project components are of a practical nature and may involve some software development and/or experimentation, while other components are of a more theoretical nature. This unit forms part of the sequence of units comprising the Honours thesis in the Faculty of Information Technology. The exit point for the Honours thesis is FIT4444 (24 credit points).
+Learning Outcomes:
+- Conduct ethical research;
+- Design a rigorous Bachelor Honours level research project and develop project proposal;
+- Critically review research literature, research design and reported findings;
+- Evaluate and select research methods and techniques of data collection and analysis appropriate to particular research designs, projects and disciplines;
+- Communicate research findings in written and oral form in research and industry settings.
+Assessment Tasks:
+- Thesis: 80% (Hurdle: None)
+- Final Presentation: 5% (Hurdle: None)
+- Literature Review + Interim Presentation: 15% (Hurdle: None)
+Workload: Minimum total expected workload equals 12 hours per week. You will be expected to hold regular meetings with supervisor(s) over the course of the semester.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT4442 =====
+Subject: Honours thesis part 2 (FIT4442)
+Credit Points: 6
+Overview: This unit is a research unit and a requirement for the FIT Honours degrees. Due to the nature of IT, a wide range of Honours project types can be offered to you. Some project components are of a practical nature and may involve some software development and/or experimentation, while other components are of a more theoretical nature. This unit forms part of the sequence of units comprising the Honours thesis in the Faculty of Information Technology. The exit point for the Honours thesis is FIT4444 (24 pts).
+Learning Outcomes:
+- Evaluate and select research methods and techniques of data collection and analysis appropriate to particular research designs, projects and disciplines;
+- Conduct ethical research;
+- Design a rigorous Bachelor Honours level research project and develop project proposal;
+- Critically review research literature, research design and reported findings;
+- Communicate research findings in written and oral form in research and industry settings.
+Assessment Tasks:
+- Thesis: 80% (Hurdle: None)
+- Literature Review + Interim Presentation: 15% (Hurdle: None)
+- Final Presentation: 5% (Hurdle: None)
+Workload: Minimum total expected workload equals 12 hours per week. You will be expected to hold regular meetings with supervisor(s) over the course of the semester.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT4443 =====
+Subject: Honours thesis part 3 (FIT4443)
+Credit Points: 6
+Overview: This unit is a research unit and a requirement for the FIT Honours degrees. Due to the nature of IT, a wide range of Honours project types can be offered to you. Some project components are of a practical nature and may involve some software development and/or experimentation, while other components are of a more theoretical nature. This unit forms part of the sequence of units comprising the Honours thesis in the Faculty of Information Technology. The exit point for the Honours thesis is FIT4444 (24 credit points).
+Learning Outcomes:
+- Conduct ethical research;
+- Evaluate and select research methods and techniques of data collection and analysis appropriate to particular research designs, projects and disciplines;
+- Design a rigorous Bachelor Honours level research project and develop project proposal;
+- Communicate research findings in written and oral form in research and industry settings.
+- Critically review research literature, research design and reported findings;
+Assessment Tasks:
+- Final Presentation: 5% (Hurdle: None)
+- Thesis: 80% (Hurdle: None)
+- Literature Review + Interim Presentation: 15% (Hurdle: None)
+Workload: Minimum total expected workload equals 12 hours per week. You will be expected to hold regular meetings with supervisor(s) over the course of the semester.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT4444 =====
+Subject: Honours thesis final (FIT4444)
+Credit Points: 6
+Overview: This unit is a research unit and a requirement for the FIT Honours degrees. Due to the nature of IT, a wide range of Honours project types can be offered to you. Some project components are of a practical nature and may involve some software development and/or experimentation, while other components are of a more theoretical nature. This unit forms part of the sequence of units comprising the Honours thesis in the Faculty of Information Technology and is the exit point for the Honours thesis.
+Learning Outcomes:
+- Conduct ethical research;
+- Critically review research literature, research design and reported findings;
+- Evaluate and select research methods and techniques of data collection and analysis appropriate to particular research designs, projects and disciplines;
+- Design a rigorous Bachelor Honours level research project and develop project proposal;
+- Communicate research findings in written and oral form in research and industry settings.
+Assessment Tasks:
+- Thesis: 80% (Hurdle: None)
+- Final Presentation: 5% (Hurdle: None)
+- Literature Review + Interim Presentation: 15% (Hurdle: None)
+Workload: Minimum total expected workload equals 12 hours per week. You will be expected to hold regular meetings with supervisor(s) over the course of the semester.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH3170 =====
+Subject: Network mathematics (MTH3170)
+Credit Points: 6
+Overview: This unit provides an introduction to graph theory, which is the mathematics of networks. Topics covered include trees, Eulerian tours, Hamiltonian cycles, shortest path problem, bipartite graphs, matchings, graph colouring, max-flow problem, graph connectivity, independent sets, planarity, random graphs. Applications to a variety of the sciences will be presented. You will learn how to write proofs and analyse algorithms.
+Learning Outcomes:
+- Apply the basic concepts of graph theory.
+- Construct basic mathematical proofs of theorems about graphs.
+- Apply some of the most famous theorems of graph theory such as the max-flow-min-cut theorem, the marriage theorem, and the 4-colour theorem.
+- Demonstrate the importance and breadth of applications of graph theory in mathematics and the sciences, especially computer science.
+- Demonstrate advanced problem solving skills, both individually and collectively with staff and fellow students.
+- Execute and analyse algorithms for solving various graph optimisation problems.
+- Demonstrate advanced skills in the written and oral presentation of mathematical arguments.
+Assessment Tasks:
+- Continuous assessment: 50% (Hurdle: None)
+- Final assessment: Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH3175 =====
+Subject: Network mathematics (Advanced) (MTH3175)
+Credit Points: 6
+Overview: This unit provides an introduction to graph theory, which is the mathematics of networks. Topics covered include trees, Eulerian tours, Hamiltonian cycles, shortest path problem, bipartite graphs, matchings, graph colouring, max-flow problem, graph connectivity, independent sets, planarity, random graphs. Applications to a variety of the sciences will be presented. You will learn how to write proofs and analyse algorithms.
+Learning Outcomes:
+- Demonstrate advanced problem solving skills, both individually and collectively with staff and fellow students;
+- Apply the basic concepts of graph theory;
+- Demonstrate the importance and breadth of applications of graph theory in mathematics and the sciences, especially computer science;
+- Apply some of the most famous theorems of graph theory such as the max-flow-min-cut theorem, the marriage theorem, and the 4-colour theorem;
+- Execute and analyse and prove correctness of algorithms for solving various graph optimisation problems;
+- Understand, construct and write mathematical proofs of theorems about graphs;
+- Demonstrate advanced skills in the written and oral presentation of mathematical arguments.
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+

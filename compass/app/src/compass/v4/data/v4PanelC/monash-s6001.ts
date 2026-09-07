@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in banking and finance.",
+    "evidenceLines": [
+      "18 credit points from the list of Specified elective studies,",
+      "18 credit points from the list of Discipline elective studies.",
+      "Modern finance relies on deep mathematical concepts and techniques, assembled in what has come to be known as financial mathematics or quantitative finance."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in banking and finance.",
+    "evidenceLines": [
+      "18 credit points from the list of Specified elective studies,",
+      "18 credit points from the list of Discipline elective studies.",
+      "Financial institutions have developed an ever-increasing appetite for graduates with the right mix of advanced quantitative methods and modelling."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within banking and finance.",
+    "evidenceLines": [
+      "Subject: Fundamentals of investment strategy (BEX5131)",
+      "Subject: Understanding megatrends: The big forces shaping your future (BEX5260)",
+      "improve your skill of critical thinking and problem-solving communication skills"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in banking and finance.",
+    "evidenceLines": [
+      "develop your own investment philosophy an investment strategy aligned with your personal investment goals",
+      "understand the practical sides of different investment strategies simple and effective ways to manage risks and returns how to transform this knowledge into practice the challenges investors face",
+      "Monash offers a unique blend of expertise spread over four academic units (economics, econometrics, finance and mathematics)."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in banking and finance.",
+    "evidenceLines": [
+      "Subject: Funds management (BFF5270)",
+      "Subject: Quantitative and data analysis in Python (BFF5525)",
+      "1 - Quiz / Test: 40% (Hurdle: None)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in banking and finance.",
+    "evidenceLines": [
+      "2 - Written: 60% (Hurdle: None)",
+      "Modern finance relies on deep mathematical concepts and techniques, assembled in what has come to be known as financial mathematics or quantitative finance.",
+      "Financial institutions have developed an ever-increasing appetite for graduates with the right mix of advanced quantitative methods and modelling."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in banking and finance.",
+    "evidenceLines": [
+      "3 - Exercise: 35% (Hurdle: None)",
+      "Subject: Financial machine learning (BFF5555)",
+      "Monash offers a unique blend of expertise spread over four academic units (economics, econometrics, finance and mathematics)."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The master's program is designed to suit graduates with a sound foundation in mathematics and statistics. The program offers training in the core areas of stochastic, financial and insurance modelling, statistical analysis and computational methodology, as well as in a wide range of elective topics from economics, econometrics, finance, mathematics and probability. You will gain a comprehensive understanding of stochastic and statistical analysis, partial differential equations and computational methods in finance, financial econometric techniques, and financial and risk modelling.",
+      "Modern finance relies on deep mathematical concepts and techniques, assembled in what has come to be known as financial mathematics or quantitative finance."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Financial Mathematics.",
+      "evidenceLines": [
+        "The master's program is designed to suit graduates with a sound foundation in mathematics and statistics. The program offers training in the core areas of stochastic, financial and insurance modelling, statistical analysis and computational methodology, as well as in a wide range of elective topics from economics, econometrics, finance, mathematics and probability. You will gain a comprehensive understanding of stochastic and statistical analysis, partial differential equations and computational methods in finance, financial econometric techniques, and financial and risk modelling.",
+        "These studies will provide you with advanced knowledge and skills relevant to thoughtful, innovative and evidence-based practice in financial modelling and analysis. You will acquire core knowledge of and skills in stochastic calculus, quantitative risk management, interest rate modelling and computational methods in finance. You will complement these with study in areas of your choice, including financial econometrics, Markov processes, statistical learning in finance, and machine learning."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in banking and finance.",
+      "evidenceLines": [
+        "Subject: Fundamentals of investment strategy (BEX5131)",
+        "18 credit points from the list of Specified elective studies,"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

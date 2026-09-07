@@ -1,0 +1,102 @@
+{
+  "code": "monash-p3001",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+      "evidenceLines": [
+        "Comprehend basic ethical principles related to pharmacy",
+        "Describe the role of sustainability in the context of pharmacy practice, and identify ways to promote ethical use of resources",
+        "Pharmacists make a difference to people's health in hospitals, aged-care facilities and local communities."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+      "evidenceLines": [
+        "Describe and apply guiding principles (e.g. regulatory frameworks, standards of practice, competencies and advanced practice) and standard references in Australian pharmacy practice",
+        "Reflect on identified strengths and weaknesses in communication and other non-cognitive skills via a Personalised Learning Plan to enhance professional skills required to practice as a pharmacist",
+        "In this course you will learn about how medicines work and their impact on the body."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+      "evidenceLines": [
+        "Subject: Professional practice 1 (PHR1011)",
+        "Subject: Professional practice 2 (PHR1012)",
+        "Describe and demonstrate the key principles and processes of good communication and cultural competence."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+      "evidenceLines": [
+        "Identify and describe unsafe or less than optimal practices in pharmacy, with respect to health outcomes and legal and ethical considerations",
+        "Describe and define the Australian healthcare system (primary, secondary and tertiary) and the role of healthcare professionals",
+        "You will also develop the knowledge, skills, and expertise you need to make a difference as a member of the healthcare team."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+      "evidenceLines": [
+        "Subject: How medicines work 1: Physical chemistry (PHR1021)",
+        "Subject: How medicines work 2: Pharmacokinetics  (PHR1022)",
+        "Observe, evaluate and reflect on specific aspects of pharmacy layout, workforce and the provision of professional services within a community pharmacy"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+      "evidenceLines": [
+        "Demonstrate the safe and ethical use of Generative Artificial Intelligence (GenAI)",
+        "Pharmacists make a difference to people's health in hospitals, aged-care facilities and local communities.",
+        "In this course you will learn about how medicines work and their impact on the body."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+      "evidenceLines": [
+        "Understand key principles to support a constructive team climate, and work in teams to solve problems",
+        "Subject: How the body works (PHR1031)",
+        "You will also develop the knowledge, skills, and expertise you need to make a difference as a member of the healthcare team."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course comprises 192 points of pharmacy core studies.",
+        "Pharmacists make a difference to people's health in hospitals, aged-care facilities and local communities."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Pharmacy (Honours).",
+        "evidenceLines": [
+          "The course comprises 192 points of pharmacy core studies.",
+          "192 credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+        "evidenceLines": [
+          "Subject: Professional practice 1 (PHR1011)",
+          "Comprehend basic ethical principles related to pharmacy"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

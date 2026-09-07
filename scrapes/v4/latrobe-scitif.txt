@@ -1,0 +1,130 @@
+===== SOURCE: https://handbook.latrobe.edu.au/courses/2026/SCITIF =====
+## Graduate Certificate in Information Technology Fundamentals - Melbourne (Bundoora)
+##### SCITIF
+##### 60 credit points
+You are viewing the 2026 version
+
+### Overview
+Providing a pathway into a range of postgraduate IT degrees, La Trobe’s Graduate Certificate in Information Technology Fundamentals is your first step to a successful career in IT.
+
+With technology taking a front-and-centre role in modern business, IT professionals are in high demand. Industries from media and government to health and education are scrambling to recruit specialists in computing, diagnosis, service and maintenance.
+
+Whether you’re working in IT already and want to deepen your knowledge, or you’re new to IT and want to break into this fast-growing industry, La Trobe’s Graduate Certificate in Information Technology Fundamentals gives you a strong foundation you can use to launch the rest of your career.
+
+Not sure exactly how to secure your dream job? No need to worry – our supportive academic staff will work with you to understand your career goals and help you make them happen.
+
+Delivered in just six months full-time, this course provides you with a solid foundation in IT fundamentals, programming and statistics – highly transferable skills you can apply in a wide range of industries.
+
+From there, you’ll be ready to apply for one of our IT Master’s degrees, choosing from specialist qualifications in artificial intelligence, cybersecurity, data science, digital media, information technology or the Internet of Things
+
+You'll learn:
+
+  * Programming 101  * Understand how to design and create software solutions using Python. Learn how to tackle practical problems using real-life scenarios.
+
+  * Information technology fundamentals  * Build foundational skills in computer operation, hardware components, data storage and retrieval, system software, operating systems, file management systems, security and more.
+
+  * Database basics  * Explore the architecture and management of different database systems and models. Design and implement your own commercial standard database system to meet specifications.
+
+### Location(s)
+Melbourne (Bundoora)
+### CRICOS code
+102578J
+### Course duration (full time)
+N/A
+### Study level
+Postgraduate
+### AQF level
+Level 8 - Graduate Certificate
+### Available only as an exit award
+Yes
+
+### Completion requirements
+To qualify for the award of Graduate Certificate in Information Technology Fundamentals, students must complete 60 credit points consisting of:
+
+45 core credit points 
+
+15 elective credit points
+
+### Course structure
+60 credit points
+**Level one** **60 credit points**
+  **Core** **45 credit points**
+    [ _arrow_forward_ CSE4DBF DATABASE FUNDAMENTALS ](https://handbook.latrobe.edu.au/subjects/2026/CSE4DBF)
+    [ _arrow_forward_ LTU0AIM ACADEMIC INTEGRITY MODULE ](https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM)
+    [ _arrow_forward_ CSE4IP INTRODUCTION TO PROGRAMMING ](https://handbook.latrobe.edu.au/subjects/2026/CSE4IP)
+    [ _arrow_forward_ CSE4IFU INFORMATION TECHNOLOGY FUNDAMENTALS ](https://handbook.latrobe.edu.au/subjects/2026/CSE4IFU)
+  **Electives** **15 credit points**
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+Apply awareness of professional ethical values to communicate technical issues in information technology.
+**2.**
+Test theories in information technology using research and technical skills.
+**3.**
+Critically evaluate solutions to technical problems.
+**4.**
+Apply advanced understanding of fundamental issues and techniques in information technology.
+
+### Course features
+### Career outcomes
+The Graduate Certificate of Information Technology Fundamentals provides the skills you need for a career in IT – either immediately or after further postgraduate study. Possible roles include:*
+
+  * Network administrator
+  * Develop, install and provide maintenance support across network and computer systems including local area networks (LANs), wide area networks (WANs), network segments, intranets and other data communication systems.
+
+  * Web developer
+  * Design, build and maintain websites using both creative and technical skills to continuously improve safety, performance, usability and capacity.
+
+  * Network architect
+  * Plan and build data communication networks to provide both local and global connections. Analyse and implement new technologies and provide solutions to maintain and improve technical infrastructure.
+
+  * Software developer/programmer
+  * Design, test and develop software to meet user needs. Write code for programs and applications that adapt and respond to changing business requirements.
+
+  * Machine learning engineer
+  * Use data science to design and develop machine learning systems that perform statistical analysis and help to drive innovation in artificial intelligence.
+
+*Specific outcomes may depend on the completion of further tertiary studies in IT or a related field.
+
+### Internal course relationships
+
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4DBF =====
+Subject: DATABASE FUNDAMENTALS (CSE4DBF)
+Credit Points: 15
+Overview: This subject starts with an overview of the architecture and management of database systems, and a discussion of different existing database models. The main focus includes relational database analysis, design, and implementation. The students learn: relational algebra as the formal foundation of relational databases; relational conceptual design using an entity-relationship diagram; relational logical database design; security and integrity; and SQL implementation of relational database queries. Students will also learn advanced normalization theory and the techniques to remove data anomalies and redundancies. In this subject, students are required to design a database application that meets the needs of a system requirement specification, and to implement the system using a commercial standard database system such as ORACLE.
+Learning Outcomes:
+- Evaluate database design in terms of data anomalies and redundancies by applying the appropriate normalization techniques.
+- Design a relational database using an ER or EER diagram, and use a transformation process to change the ER or EER diagram to a relational database design
+- Evaluate the possible risks and ethical and social considerations relevant to designed systems.
+- Explain the underlying model of relational database operations using relational algebra.
+- Implement database systems using SQL and advanced PL/SQL including stored procedures and triggers.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/CSE4IFU =====
+Subject: INFORMATION TECHNOLOGY FUNDAMENTALS (CSE4IFU)
+Credit Points: 15
+Overview: In this subject, you will learn computer system organization and its associated topics. It covers the hardware components of the computer, data storage and retrieval, and introduces system software, computer networks, data communications, the Internet, operating systems, file management systems and security. You will also be introduced to information systems and application software packages.
+Learning Outcomes:
+- Design and construct basic web pages using HTML and style sheets based on specific requirements.
+- Critically examine simple problems and develop spreadsheets to model these problems.
+- Differentiate between main types of computer networks and explain the purpose of major network components including any advantages and disadvantages of different data communication media.
+- Identify and critically evaluate functions of the main hardware components of computers.
+- Analyse and evaluate the requirements and functionality of different types of software.
+- Develop and interpret simple database tables, queries and reports based on specific requirements.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM =====
+Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)
+Credit Points: 0
+Overview: The academic integrity module introduces academic integrity standards to inform and support students in avoiding plagiarism and academic misconduct. Students complete four parts that encompass academic misconduct and academic integrity decisions, including cheating, plagiarism, and collusion. Students learn about Turnitin (the text-matching tool) used at La Trobe University, and how to get help and support their development of referencing skills.
+Learning Outcomes:
+- Understand the importance of the acknowledgment and the referencing of sources
+- Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.
+- Recognise and understand academic integrity responsibilities.
+Assessment Tasks:
+Workload: 
+

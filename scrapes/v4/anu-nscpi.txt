@@ -1,0 +1,211 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/NSCPI =====
+# Master of Science in Precision Instrumentation and Measurement (NSCPI)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: NSCPI
+- **Academic Year**: 2027
+- **Career / Study Level**: Postgraduate
+- **Program Duration**: 2 year full-time
+- **Minimum Units Required**: 96 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal MSciPreInsMeas
+- **CRICOS Code**: code 099248B
+- **UAC Code**: N/A
+- **Field of Education**: of Education Physics
+- **Academic Contact**: contact Emily Rose Rees
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/NSCPI
+
+## Program Description
+A single two year graduate award offered by theANU College of Science and Medicine
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. demonstrate high level knowledge of scientific instrumentation and measurement;
+2. apply their knowledge of measurement systems and instrumentation to new problems;
+3. interpret, synthesize and critically analyse published literature of relevance to measurement and instrumentation;
+4. demonstrate theoretical and practical skills relevant to techniques and research methodology in scientific measurement;
+5. critically analyse data from measurement systems to reach independent conclusions;
+6. demonstrate a critical understanding of science in society;
+7. clearly communicate theory and results in both written and oral formats
+
+## Program Requirements & Study Options
+### Program Requirements
+The Master of Science in Precision Instrumentation and Measurement degree requires the completion of 96 units, of which:
+
+### Study Options
+Year 1
+48 units
+PHYS6711
+Fundamentals of Noise and Measurement
+6 units
+Computing Course List
+6 units
+ASTR/PHYS/EMSC/ENGN 6000 - 8000 level
+6 units
+ANU elective
+6 units
+PHYS6502
+Applied Optics
+6 units
+EMSC8712
+Electronics and Data Analysis
+6 units
+PHYS6205
+Physics for Future Leaders
+6 units
+ANU elective
+6 units
+Year 2
+48 units
+PHYS8721
+Advanced Imaging Methods and Systems
+6 units
+Measurement & Instrumentation Course List
+6 units
+PHYS6701
+Rapid Prototyping
+6 units
+ANU elective
+6 units
+Science and Society Course List
+6 units
+Measurement & Instrumentation Course List
+6 units
+PHYS8702
+Prototyping and Systems Integration
+6 units
+ANU elective
+6 units
+
+### Admission Requirements
+Applicants must present a Bachelor degree or international equivalent
+
+### Inherent Requirements
+Information on inherent requirements is currently not available for this program.
+
+### Other Requirements
+Students applying for this program will need to have a background in Mathematics, equivalent at least to the level of ANU
+MATH2305
+(Ordinary Differential Equations and Vector Calculus)
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/EMSC8712 =====
+Subject: Electronics and Data Analysis (EMSC8712)
+Credit Points: 6 units
+Overview: The proper analysis of scientific data is the most powerful tool we have for separating scientific fact from fiction, and a key part of the process in the modern practice of science is getting the data into an electronic format. This class will provide an introduction to the electronics methods and techniques most useful in instrumentation and laboratory settings, along with an introduction to statistical and numerical techniques that are useful in the analysis and characterisation of data. Students will have the opportunity to learn and practice the methods of signal conditioning, analog to digital conversion (and the reverse), and low-noise circuit design that are key to the high-fidelity transformation of signals into data. When analysing data, a focus will be placed on conceptual understanding of how specific methods work and the situations in which they can and cannot be applied. A number of practical examples will be discussed during the course, providing the opportunity for hands-on learning through the processing of real data sets with statistical software and data evaluation programs. The experience gained in this course will help students approach their own research problems.
+Learning Outcomes:
+- Understand of the principles of linear circuits, amplification and feedback, analog to digital conversion, digital to analog conversion, and the requirements of analog electronics to successfully interface with digital systems;
+- Analyse, design, and build practical circuits;
+- Interpret and evaluate electronic circuit diagrams;
+- Apply the basic principles of the design of electronic circuits to optimise signals to noise ratios in data acquisition systems;
+- Understand and perform a suite of statistical techniques;
+- Evaluate data sets using appropriate techniques;
+- Assess quality of data needed to obtain specific goals;
+- Apply effectively a variety of data analysis tools.
+Assessment Tasks:
+- Theory exam: N/A% (Hurdle: False)
+- Data Practicals: N/A% (Hurdle: False)
+- Electronics Labs 25%: N/A% (Hurdle: False)
+- Oral reports 25%: N/A% (Hurdle: False)
+Workload: Requisite and Incompatibility
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH2305 =====
+Subject: Applied Mathematics I (MATH2305)
+Credit Points: 6 units
+Overview: This course shows the modelling process in the context of differential equations and case studies from a number of areas such as population dynamics, economics, electric circuits, mechanical systems, fluid flow, physics and astrophysics. Analytic methods from the elementary theory of differential equations and calculus will be provided to allow for the analysis of the various models being investigated. The numerical package MATLAB will be used to study model behaviour and to obtain deeper understanding of the consequences of analytical studies.
+
+Topics to be covered include:
+
+First order differential equations; second order linear equations; systems of first order equations; nonlinear differential equations; power series solutions.
+
+Advanced Vector Calculus - Curves and surfaces in three dimensions; parametric representations; curvilinear coordinate systems; Surface and volume integrals; gradient, divergence and curl; identities involving vector differential operators; Green's theorem, Stokes' theorem and the divergence theorem.
+Learning Outcomes:
+- Explain the fundamental concepts of differential equations and vector calculus and their role in modern applied mathematics and real-world contexts.
+- Develop and demonstrate accurate and efficient use of techniques involved in solving differential equations and applying vector differential operators.
+- Demonstrate capacity for mathematical reasoning through analyzing, proving and explaining concepts from the theory of differential equations.
+- Apply problem-solving using techniques in differential equations and vector calculus in diverse situations in physics, engineering and other mathematical contexts.
+Assessment Tasks:
+- Exam: 60% (Hurdle: False)
+- Workshop participation and presentation: 10% (Hurdle: False)
+- Assignments: 20% (Hurdle: False)
+- Online homework: 10% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/PHYS6205 =====
+Subject: Physics for Future Leaders (PHYS6205)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/PHYS6502 =====
+Subject: Applied Optics (PHYS6502)
+Credit Points: 6 units
+Overview: This course will cover the use of optics and photonics to develop environmental, industrial and commercial sensors. It includes fundamental knowledge of a wide range of optical and photonic measurement techniques and covers the process of designing and optimising optical sensors for real-world use. It is an application-driven course, including topics such as LiDAR, navigation systems, environmental gas sensing and intrusion/vibration detection. Laboratory work involves hands-on, project focused fibre-based and free-space experiments. Assignments promote creative design-based questions supported by computer simulation to justify reasoning and prove out sensing solutions.
+
+Note: This course is co-taught with undergraduate students but assessed separately.
+Learning Outcomes:
+- Demonstrate an in-depth understanding of the technologies that underly key components in an optical sensing system;
+- Demonstrate how to quantify the effect of important parameters such as calibration, linearity and signal-to-noise;
+- Design and build a complete topology for a sensing system by integrating key optical components;
+- Effectively communicate the details of an optical sensor's design, operation, performance and limitations.
+- To demonstrate independent acquisition and evaluation of further relevant knowledge beyond the classroom.
+Assessment Tasks:
+- Examination: 30% (Hurdle: False)
+- Research Assignment: 10% (Hurdle: False)
+- Laboratory: 30% (Hurdle: False)
+- Assignments: 20% (Hurdle: False)
+- Workshop Assessment: 10% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/PHYS6701 =====
+Subject: Rapid Prototyping (PHYS6701)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/PHYS6711 =====
+Subject: Fundamentals of Noise and Measurement (PHYS6711)
+Credit Points: 6 units
+Overview: How do we know what we know, and how well do we know it? Measurement underpins our understanding of the physical world, and great care must be taken in the design, operation, and analysis of measurement systems to avoid hoodwinking ourselves. In this course, taught by experts, you will learn crucial techniques in the design and operation of measurement systems and apparatuses. Along the way, you’ll learn how to avoid common pitfalls that confound many experiments. Topics covered will include: feedback control, statistical analysis and limit theorems, types of noise and mitigation strategies, types of measurements and sensors, signal conditioning and processing, measurement limits. Key concepts and systems-level considerations will be illustrated with case-studies of sophisticated instrumentation and measurement systems.This course is co-taught with undergraduate students but assessed separately.
+Learning Outcomes:
+- Understand and be able to describe the principles of scientific measurement;
+- Identify appropriate mathematical and statistical techniques and apply them to scientific data;
+- Analyse a measurement system;
+- Evaluate the reliability of a measurement.
+Assessment Tasks:
+- Assignments: 30% (Hurdle: False)
+- Regular Quizzes: 10% (Hurdle: False)
+- Labs: 20% (Hurdle: False)
+- Exam: 40% (Hurdle: False)
+Workload: The expected workload will consist of approximately 120 hours throughout the semester including:
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/PHYS8702 =====
+Subject: Prototyping and Systems Integration (PHYS8702)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/PHYS8721 =====
+Subject: Advanced Imaging Methods and Systems (PHYS8721)
+Credit Points: 6 units
+Overview: Imaging is one of the most important tools in scientific discovery; as they say, "seeing is believing." It can give conclusive evidence of certain properties, structures, composition and even processes providing invaluable insight into objects of interest. There are many ways to image matter; the right choice depends on the scale, time-frame, and property of interest. Objects can be imaged in 2D or 3D with various probes including electromagnetic radiation, particles, and acoustic waves. Advanced imaging is becoming increasingly important, producing imaging systems with significantly enhanced capabilities such as in ground-penetrating radar, magnetic resonance imaging, synthetic aperture radar, hyperspectral imaging, and computed tomography.While this unique course will cover conventional imaging techniques, the focus will be more on advanced imaging for specific applications. It will include case-studies of some of the state-of-the-art instruments and techniques used by world-class scientists in Astronomy, Geophysics, and Physics researchers here at ANU. The imaging material covered includes optical, hyper-spectral, scanning probe, interferometric, and tomographic (both emission and transmission modes).
+Learning Outcomes:
+- Understand a range of conventional and advanced 2D and 3D imaging techniques;
+- Describe the different matter/probe (e.g., infrared, neutrons, acoustic) interactions and which are ideal to identify an object’s characteristic of interest;
+- Understand how these techniques are used in some principle application areas (astronomical, seismic, biomedical, atmospheric studies);
+- Describe the concept of computational imaging and apply some techniques involved such as expectation maximisation and compressed sensing;
+- Understand and appreciate the limits and pitfalls of using images to make inferences;
+- Evaluate the performance and limitations of an imaging technique for a given application.
+Assessment Tasks:
+- Presentation plus oral examination - Topic 1: 34% (Hurdle: False)
+- Presentation plus oral examination - Topic 2: 33% (Hurdle: False)
+- Presentation plus oral examination - Topic 3: 33% (Hurdle: False)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+

@@ -1,0 +1,91 @@
+{
+  "code": "monash-p2001",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Disseminating scientific findings across diverse pharmaceutical stakeholders, participating in professional interview practice, and team inquiry.",
+      "evidenceLines": [
+        "Communicate the project outcomes in written and oral form to a diverse audience of Pharmaceutical Science stakeholders",
+        "You will participate in activities to develop your job seeking, career planning and professional communication skills, such as writing resumes, and practising interview techniques."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Formulating technical solutions to unstandardized industry problems and discovering novel drug delivery candidates.",
+      "evidenceLines": [
+        "Propose and justify an approach to solving an industry-relevant problem",
+        "You will develop the knowledge and practical skills critical to the discovery and development of new drugs and therapies leading to exciting careers in research and industry."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Critical appraisal of computational models in drug development and rigorous evaluation of biological receptor interactions.",
+      "evidenceLines": [
+        "Critically analyse the use of computational methods in drug development",
+        "Propose and justify an approach to solving an industry-relevant problem"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Designing molecular formulations, computational ligand docking simulations, and developing chemical therapies.",
+      "evidenceLines": [
+        "In this course, you will learn about the chemistry, biology and technology of medicines and other chemical formulations and how to improve human health and well-being by researching and developing more reliable, accessible and effective treatments and products.",
+        "It will cover important molecular modelling methods including molecular docking, molecular dynamics, and quantum mechanical calculations, as well as bioinformatics methods."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Independent investigative research project or industry placement synthesizing cutting-edge formulation science.",
+      "evidenceLines": [
+        "In the final year, you will gain practical skills through a major research project or industry placement and be ready for a career in pharmaceutical research, the biomedical industry and many other fields both nationally and internationally that require advanced chemical-formulation skills.",
+        "Propose and justify an approach to solving an industry-relevant problem"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Compulsory industry placement immersion and training in industry-standard laboratory environments.",
+      "evidenceLines": [
+        "In the second half of the unit, you will complete a compulsory industry placement, which will give you the opportunity to expand your understanding of the industry and to hone your professional skills.",
+        "You will study with one of the largest and most productive groups of pharmaceutical researchers in Australia, the Monash Institute of Pharmaceutical Sciences, and will graduate having worked in industry-standard facilities, such as our Shimadzu high-pressure liquid chromatography (HPLC) lab."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Professional workplace compliance, chemical safety protocols, and ethical governance of therapeutic products.",
+      "evidenceLines": [
+        "Work safely and effectively in a professional environment",
+        "In this course, you will learn about the chemistry, biology and technology of medicines and other chemical formulations and how to improve human health and well-being by researching and developing more reliable, accessible and effective treatments and products."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Mastery of advanced analytical instrumentation (HPLC), Python-based chemoinformatics, and molecular modeling platforms.",
+      "evidenceLines": [
+        "The unit will teach fundamental programming skills using the widely-used programming language Python and apply them to the key skills of as data visualization, chemoinformatics, and machine learning.",
+        "You will study with one of the largest and most productive groups of pharmaceutical researchers in Australia, the Monash Institute of Pharmaceutical Sciences, and will graduate having worked in industry-standard facilities, such as our Shimadzu high-pressure liquid chromatography (HPLC) lab."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Pharmaceutical research relies heavily on AI-driven generative molecular design, virtual screening, and automated bio-modelling.",
+        "evidenceLines": [
+          "The unit will teach fundamental programming skills using the widely-used programming language Python and apply them to the key skills of as data visualization, chemoinformatics, and machine learning."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Physical wet chemistry laboratory synthesis, Shimadzu HPLC instruments, formulation compounding, and external industry placement.",
+        "evidenceLines": [
+          "In the second half of the unit, you will complete a compulsory industry placement, which will give you the opportunity to expand your understanding of the industry and to hone your professional skills.",
+          "You will study with one of the largest and most productive groups of pharmaceutical researchers in Australia, the Monash Institute of Pharmaceutical Sciences, and will graduate having worked in industry-standard facilities, such as our Shimadzu high-pressure liquid chromatography (HPLC) lab."
+        ]
+      }
+    },
+    "ambiguities": [],
+    "notScoreable": []
+  }
+}

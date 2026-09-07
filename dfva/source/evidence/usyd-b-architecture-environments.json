@@ -1,0 +1,102 @@
+{
+  "code": "usyd-b-architecture-environments",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in environmental studies.",
+      "evidenceLines": [
+        "**Institution**: The University of Sydney (USYD)",
+        "**Course / Program Identifier**: b-architecture-environments",
+        "- **Institution**: The University of Sydney (USYD)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in environmental studies.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Faculty**: architecture",
+        "- **Course / Program Identifier**: b-architecture-environments"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within environmental studies.",
+      "evidenceLines": [
+        "Subject: Contemporary is Always Over (ARCH3008)",
+        "Subject: Industry and Community Projects (ARCH3108)",
+        "**Handbook URL**: https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments.html"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in environmental studies.",
+      "evidenceLines": [
+        "Critically evaluate foundational principles, evidence bases, and contemporary methodologies in contemporary is always over.",
+        "Synthesise disciplinary knowledge to resolve complex real-world challenges.",
+        "- **Handbook URL**: https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments.html"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in environmental studies.",
+      "evidenceLines": [
+        "Subject: Architectural Sketching and Drawing (AWSS1001)",
+        "Subject: Creative Drawing Practices in Design (AWSS2015)",
+        "Communicate evidence-based findings effectively to technical and professional stakeholders."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in environmental studies.",
+      "evidenceLines": [
+        "Apply ethical frameworks and professional standards in practice.",
+        "- **Institution**: The University of Sydney (USYD)",
+        "- **Course / Program Identifier**: b-architecture-environments"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in environmental studies.",
+      "evidenceLines": [
+        "Critically evaluate foundational principles, evidence bases, and contemporary methodologies in industry and community projects.",
+        "Subject: Architectural Photography (AWSS2023)",
+        "- **Handbook URL**: https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments.html"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "Students must complete 144 credit points, including:",
+        "- **Institution**: The University of Sydney (USYD)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Architecture and Environments.",
+        "evidenceLines": [
+          "Students must complete 144 credit points, including:",
+          "(1) The units of study that may be taken for this award are set out in Table A"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in environmental studies.",
+        "evidenceLines": [
+          "Subject: Contemporary is Always Over (ARCH3008)",
+          "**Institution**: The University of Sydney (USYD)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

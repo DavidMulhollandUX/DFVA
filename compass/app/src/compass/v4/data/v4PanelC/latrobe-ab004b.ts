@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in fine arts.",
+    "evidenceLines": [
+      "Reflect critically on your own cultural attitudes, values and beliefs",
+      "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+      "If you’re creative and want to pursue your artistic passion, La Trobe’s Bachelor of Visual Arts will give you the knowledge, experiences and connections to realise your dream career."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in fine arts.",
+    "evidenceLines": [
+      "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+      "Understand the need for and value of appropriate and effective intercultural communication",
+      "Gain valuable skills in a range of visual mediums, then dive into your art practice with access to our purpose-built studios and workshops."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within fine arts.",
+    "evidenceLines": [
+      "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+      "Subject: INTRODUCTION TO ABORIGINAL AUSTRALIA (ABS1IAA)",
+      "Analyse a range of texts in the field of Aboriginal and Torres Strait Islander studies"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in fine arts.",
+    "evidenceLines": [
+      "Produce a sustained, complex written argument about social research methods relating to a topic on Aboriginal and Torres Strait Islander people",
+      "Apply knowledge to understanding concepts and issues, and interpreting data about Aboriginal and Torres Strait Islander people in Australia and the world today",
+      "Develop your art practice in a professional environment."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in fine arts.",
+    "evidenceLines": [
+      "Subject: THE POLITICS OF INDIGENOUS AUSTRALIA (ABS2PIA)",
+      "Subject: VISIONS OF MODERNITY: ART, FILM AND VISUAL CULTURES (ART1001)",
+      "Apply suitable research methods to addressing social issues involving Aboriginal and Torres Strait Islander people"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in fine arts.",
+    "evidenceLines": [
+      "Apply research methods to demonstrate a written understanding of the subject matter.",
+      "If you’re creative and want to pursue your artistic passion, La Trobe’s Bachelor of Visual Arts will give you the knowledge, experiences and connections to realise your dream career.",
+      "Gain valuable skills in a range of visual mediums, then dive into your art practice with access to our purpose-built studios and workshops."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in fine arts.",
+    "evidenceLines": [
+      "Reflect on your own identity and how this affects your positionality in debates related to Indigenous politics.",
+      "Subject: REPRESENTING BODIES: GENDER, SEXUALITY AND IDENTITIES (ART1002)",
+      "Develop your art practice in a professional environment."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "Pursue your passion for visual arts while exploring other specialisations. You'll study core visual arts subjects and develop your practice, then explore your interests or build an essential skill when you choose from open access majors, minors and electives from across the university. You can graduate with your additional major on your academic transcript, so future employers can recognise your expertise.",
+      "If you’re creative and want to pursue your artistic passion, La Trobe’s Bachelor of Visual Arts will give you the knowledge, experiences and connections to realise your dream career."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Visual Arts.",
+      "evidenceLines": [
+        "Pursue your passion for visual arts while exploring other specialisations. You'll study core visual arts subjects and develop your practice, then explore your interests or build an essential skill when you choose from open access majors, minors and electives from across the university. You can graduate with your additional major on your academic transcript, so future employers can recognise your expertise.",
+        "To qualify for the Bachelor of Visual Arts, students must complete 360 credit points consisting of:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in fine arts.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Reflect critically on your own cultural attitudes, values and beliefs"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

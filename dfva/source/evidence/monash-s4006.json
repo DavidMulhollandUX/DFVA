@@ -1,0 +1,102 @@
+{
+  "code": "monash-s4006",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+      "evidenceLines": [
+        "acquire an understanding of climate change mitigation with respect to political, environmental, regulatory and economic impacts on business in the Australian and global context",
+        "acquire a working knowledge of the main market and regulatory mechanisms for mitigating GHG emissions",
+        "This course will provide you with critical knowledge, tools and frameworks to implement innovative responses to our sustainability challenges."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+      "evidenceLines": [
+        "assess the likely strategies that can be employed by businesses to comply with, and manage, carbon pricing obligations at least cost",
+        "acquire practical research skills including the ability to work in groups of diverse cultural and social backgrounds and investigate academic, institutional and public media sources",
+        "The units respectively deal with innovation and change on the individual, organisational and systems level, within the context of sustainability."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+      "evidenceLines": [
+        "Subject: Climate change and carbon management strategies (BEX5200)",
+        "Subject: Sustainable business and innovation (BEX5810)",
+        "demonstrate the ability to evaluate, formulate, and articulate justifiable business strategies and tactics to address the impacts of market and regulatory changes arising from climate change in a summative assessment."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+      "evidenceLines": [
+        "evaluate the supply and demand side aspects of industries that are the principal GHG emitters and their capacity to mitigate such emissions",
+        "4 - Written: 70% (Hurdle: None)",
+        "The course is aimed at a diversity of sectors, ranging from business to public and non-for-profit sectors."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+      "evidenceLines": [
+        "Subject: Sustainability and innovation (CHE5888)",
+        "Subject: Water security and environmental pollution (ENS5330)",
+        "5 - Quiz / Test: 15% (Hurdle: None)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+      "evidenceLines": [
+        "6 - Exercise: 15% (Hurdle: None)",
+        "This course will provide you with critical knowledge, tools and frameworks to implement innovative responses to our sustainability challenges.",
+        "The units respectively deal with innovation and change on the individual, organisational and systems level, within the context of sustainability."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+      "evidenceLines": [
+        "3 - Exercise: 20% (Hurdle: None)",
+        "Subject: Innovation to influence system change (ENS5510)",
+        "The course is aimed at a diversity of sectors, ranging from business to public and non-for-profit sectors."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course comprises 24 credit points of\u00a0Innovation for Sustainability studies.",
+        "This course will provide you with critical knowledge, tools and frameworks to implement innovative responses to our sustainability challenges."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate of Innovation for Sustainability.",
+        "evidenceLines": [
+          "The course comprises 24 credit points of\u00a0Innovation for Sustainability studies.",
+          "You must complete a minimum of three core units (18 points) from below:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+        "evidenceLines": [
+          "Subject: Climate change and carbon management strategies (BEX5200)",
+          "acquire an understanding of climate change mitigation with respect to political, environmental, regulatory and economic impacts on business in the Australian and global context"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

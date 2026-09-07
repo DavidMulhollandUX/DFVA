@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in public health.",
+    "evidenceLines": [
+      "Compose arguments on health systems and policy development.",
+      "Analyse the structure of their own health system.",
+      "This course, offered by the School of Public Health and Preventive Medicine, provides the full range of quantitative, analytical and communication skills necessary to work in the broad domain of public health."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in public health.",
+    "evidenceLines": [
+      "Critically appraise existing health policies.",
+      "Outline the key structural components of national health systems.",
+      "It also provides skills in the quantitative methods of the population-based health sciences and their problem-solving application for primary care provision within Australia and developing countries."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within public health.",
+    "evidenceLines": [
+      "Subject: Health systems and policy (MPH5301)",
+      "Subject: Biostatistics: Concepts and applications (MPH5302)",
+      "Apply policy theories to contemporary health policy issues."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in public health.",
+    "evidenceLines": [
+      "Evaluate the role of the policy making process.",
+      "Analyse policy stakeholders and their policy interests.",
+      "This course is flexible by design with units taught online."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in public health.",
+    "evidenceLines": [
+      "Subject: Epidemiology of infectious diseases (MPH5303)",
+      "Subject: Leading and managing in public health and health care (MPH5304)",
+      "Analyse formal and informal sources of information guiding health system and policy development."
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in public health.",
+    "evidenceLines": [
+      "Contribution to weekly online tasks: 45% (Hurdle: Competency)",
+      "This course, offered by the School of Public Health and Preventive Medicine, provides the full range of quantitative, analytical and communication skills necessary to work in the broad domain of public health.",
+      "It also provides skills in the quantitative methods of the population-based health sciences and their problem-solving application for primary care provision within Australia and developing countries."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in public health.",
+    "evidenceLines": [
+      "Not less than 2 written assignments totaling 3,000 words: 55% (Hurdle: Threshold)",
+      "Subject: Epidemiology: Concepts and applications (MPH5305)",
+      "This course is flexible by design with units taught online."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "In these studies, you will gain fundamental professional knowledge in the core skills, knowledge, and disciplines of public health through the study of epidemiology, biostatistics, research methods, and health promotion.",
+      "This course, offered by the School of Public Health and Preventive Medicine, provides the full range of quantitative, analytical and communication skills necessary to work in the broad domain of public health."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Public Health.",
+      "evidenceLines": [
+        "In these studies, you will gain fundamental professional knowledge in the core skills, knowledge, and disciplines of public health through the study of epidemiology, biostatistics, research methods, and health promotion.",
+        "In these studies, you will advance your knowledge and skills across specialised domains of public health through core studies in public health discipline areas including epidemiology, health policy, management in health, occupational health and safety, and planetary health."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in public health.",
+      "evidenceLines": [
+        "Subject: Health systems and policy (MPH5301)",
+        "Compose arguments on health systems and policy development."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

@@ -1,0 +1,399 @@
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/programs/2026/8624 =====
+# Space Operations (8624)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 8624
+- **Academic Year**: 2026
+- **Study Level**: Postgraduate
+- **AQF Level**: Level 9
+- **Total Units / Units of Credit (UOC)**: 48
+- **Delivery Mode**: Fully online
+- **CRICOS Code**: Not specified
+- **Academic Organisation**: School of Engineering and Technology
+- **Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/8624
+
+## Description
+The Master of Space Operations is a multidisciplinary program awarded by the School of Engineering and Information Technology. It is designed for postgraduate scholars and professionals with appropriate undergraduate qualifications in management, humanities, and engineering, or those with extensive relevant professional experience. The program develops awareness of the technical, strategic, and economic drivers required to conceive, design, and operate spacecraft within the rapidly changing global space sector. The program analyses the intersection between the technical and strategic forces that influence operational decisions within the space domain and explores the changing landscape for the utilization of space for military, civilian, and commercial applications.
+
+The Space Operations program aims to allow students to develop a high level of understanding of the issues associated with the planning, operation and acquisition of space systems. A specific emphasis is placed on examining opportunities for Australia to grow its strategic space capability while responsibly operating within the space domain to ensure the sustainment of the space environment into the future.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+3. Synthesize expert knowledge and skills from a multidisciplinary body of knowledge to argue a vision for Australia's emerging role in the global space sector
+1. Critically evaluate current and future space operations practices within a range of international and national contexts
+4. Demonstrate an advanced understanding of the disciplinary body of knowledge, including established theories and recent developments relevant to the discipline or professional field.
+5. Apply enquiry-based learning and ways of thinking to new disciplinary and/or professional contexts.
+2. Demonstrate advanced and integrated knowledge of the technical issues within the discipline necessary to conceive creative and novel space missions that address societal needs
+6. Communicate complex ideas in a variety of formats to diverse audiences.
+
+## Program Structure & Degree Requirements
+Students must complete 48 Units of Credit (UOC) structured across the following academic components:
+
+### Core Courses (24 UOC)
+Students must take 24 UOC of the following courses.
+
+- **ZEIT8012**: Space Systems Engineering Management [6 UOC]
+- **ZEIT8007**: Space Operations [6 UOC]
+- **ZHSS8504**: Space Cooperation, Conflict and Competition [6 UOC]
+- **ZEIT8011**: Space Systems Technology [6 UOC]
+
+### Research Project
+A research project within the school of SEIT or HASS is available to Masters students who obtain a distinction average or better in four courses and is subject to approval by the Program Authority in lieu of two elective courses. The project is recommended for those with a strong interest in pursuing original research in a particular area or intending to undertake a higher-level research qualification.
+
+- **ZEIT8299**: Project Report - Space Engineering FT [12 UOC]
+- **ZHSS8401**: Research Thesis A [6 UOC]
+- **ZEIT8298**: Project Report - Space Engineering Part-Time [6 UOC]
+
+### Prescribed Electives
+Students must take 24 UOC of the following courses. Students may, with School approval, take up to two courses (12 UOC) from other coursework programs.
+
+- **ZEIT8032**: Information Assurance Principles [6 UOC]
+- **ZEIT8230**: Requirements Practice [6 UOC]
+- **ZEIT8219**: Satellite Communications [6 UOC]
+- **ZHSS8410**: Australian Defence Policy: Concepts and Challenges [6 UOC]
+- **ZEIT8018**: Cyber Resilience: Management Governance and Acquisition [6 UOC]
+- **ZHSS8435**: Contemporary Strategy [6 UOC]
+- **ZEIT8231**: Test and Evaluation [6 UOC]
+- **ZEIT8601**: Applied Machine Learning [6 UOC]
+- **ZEIT8303**: Project Management Body of Knowledge [6 UOC]
+- **ZPEM8310**: Understanding Social-Technical Systems: Ideas, Spaces and Cultures [6 UOC]
+- **ZHSS8463**: International Law in Global Politics [6 UOC]
+- **ZEIT8403**: Capability Option Analysis [6 UOC]
+- **ZEIT8221**: Spaceborne Imaging Technology [6 UOC]
+- **ZHSS8467**: Military Game Changers in 21st Century Warfare [6 UOC]
+- **ZEIT8009**: Global Navigation Satellite Systems (GNSS) [6 UOC]
+- **ZPEM8208**: Human Factors and the Technological Interface [6 UOC]
+- **ZHSS8403**: Global Security [6 UOC]
+
+## Progression & Academic Rules
+Students who do not complete the full Master program requirements may exit the program with a Graduate Certificate in Space Operations (7353) qualification (24 UOC). Of the four courses, students must have completed a minimum of two core courses and two other courses (core or elective) from the 8624 program. For any advanced standing granted on entry into the Masters program, a maximum of 12 UOC advanced standing can be applied to the Graduate Certificate. It is still a requirement that the student complete at least one core course at UNSW.
+
+## Admission Requirements
+**Minimum Entry Requirements**:
+To gain entry into a Master of Space Operations (8624), an applicant must meet one of the following entry requirements:
+
+1.    Completion of a Bachelor degree with honours in the same or a related discipline* from a recognised institution; or
+
+2.    Completion of a Graduate Diploma or Graduate Certificate in the same or a related discipline* from a recognised institution; or
+
+3.    Completion of a Bachelor degree in the same or a related discipline* from a recognised institution; and completion of at least three years relevant full-time professional experience; or
+
+4.    Completion of a Bachelor degree in a non-related discipline; and completion of at least four years relevant full-time professional experience; or
+
+5.    Evidence of other qualifications and professional experience to be assessed as acceptable grounds for admission into the program by the relevant Program Authority. In certain circumstances, students may be required to undertake and successfully complete a relevant non-award course as a condition for admission into the program. This non-award course may also be credited towards the program upon admission.
+
+*Related Discipline/s: Management, Engineering, Humanities.
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8007 =====
+Subject: Space Operations (ZEIT8007)
+Credit Points: 6
+Overview: Space Operations examines issues in space operations, such as orbits (including orbit perturbations and orbit determination), launch, rendezvous, re-entry, space environment, space law, coordination. Operations aspects of space applications are examined, such as communications, navigation, remote sensing, space surveillance and space situational awareness. Mission analysis and design aspects of these applications are also examined. The major goal of the course is to challenge students to conceive space mission concepts that solve problems facing society and will help grow Australia's capability in the space domain. Students are expected to understand and identify who the end users of their space mission are and form a coherent and sustained argument for the value of their proposed mission. Achieving this aim requires understanding key multidisciplinary space operations concepts, from the basic spacecraft types, the most common orbit types and their parameters, how to investigate the most suitable orbit(s) for a particular task, and the regulatory, strategic, economic, and ethical context in which the mission must operate. The course equips students with the ability to define the mission design and operational requirements to achieve mission goals, providing a suitable requirements brief for subsequent lower level subsystem design to commence
+Learning Outcomes:
+- On successful completion of this course, students will have optimized a space mission to meet defined mission goals through the application of expert technical knowledge and skills derived from the theory of orbits, mission analysis, and payload performance metrics
+- On successful completion of this course, students will have analysed the performance of different spacecraft types, orbit types and orbital parameters within a space mission proposal using an advanced and integrated understanding of the dynamic space environment
+- On successful completion of this course, students will have developed an advanced multidisciplinary view of the technical, strategic, regulatory, and commercial drivers that underpin space activity through presenting coherent and sustained arguments within an online forum
+- On successful completion of this course, students will have proposed a novel and creative space mission and justified its value to society through a critical and scholarly analysis of the literature using an appropriate disciplinary style
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8009 =====
+Subject: Global Navigation Satellite Systems (GNSS) (ZEIT8009)
+Credit Points: 6
+Overview: Since the early 1990s, there has been a significant surge in the utilisation of Global Navigation Satellite Systems (GNSS) like the Global Positioning System (GPS) for precise position determination on Earth. This exponential growth in GNSS adoption has transformed various industries and applications. Today, the availability of GPS and other GNSSs allows us to determine our precise location and direction. This course provides an overview of these techniques and is supported by appropriate exercises to help students acquire all the essential concepts of GNSS systems. It initially explores the system essentials, including structure fundamentals, characteristics, and principles. The course also introduces a range of augmentation techniques and GNSS/Inertial integration based on Kalman Filters, as well as Differential GNSS techniques and GNSS applications.
+Learning Outcomes:
+- On successful completion of this program, the student will be able to discuss the applications of GNSS and its importance in society today, reporting on their utility and limitations.
+- On successful completion of this program, the student will be able to understand the operation of Kalman filter-based GNSS/INS integrated systems for different applications.
+- On successful completion of this program, the student will be able to explain the fundamentals of Global Navigation Satellite Systems and operation of these systems.
+- On successful completion of this program, the student will be able to understand the GPS errors and how Differential GPS can be used to improve positioning accuracy.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8011 =====
+Subject: Space Systems Technology (ZEIT8011)
+Credit Points: 6
+Overview: This course introduces the technologies associated with space systems employed for applications such as communications, navigation and remote sensing. An overview is provided of the technologies employed in all aspects of space systems, including both ground and space segments. It introduces the role and operation of satellite subsystems, satellite propulsion subsystems, satellite attitude determination and control subsystems, aerospace structures, and satellite integration issues.
+Learning Outcomes:
+- On successful completion of this course, students will be able to appraise and critique industry trends to formulate an argument for the use of satellite sub-system technologies to meet space mission requirements.
+- On successful completion of this course, students will be able to apply knowledge and expert judgement to construct and defend a coherent and sustained argument regarding the future of space technology development.
+- On successful completion of this course, students will be able to critically analyse the applicability of different satellite technologies to achieve a mission goal using a range of theoretical analysis techniques.
+- On successful completion of this course, students will be able to research the different spacecraft subsystems types and explain their role in achieving a set of mission goals.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8012 =====
+Subject: Space Systems Engineering Management (ZEIT8012)
+Credit Points: 6
+Overview: Space Systems Engineering provides those studying the engineering of space systems with a grounding in the discipline of systems engineering, applying that body of knowledge to space systems by way of example throughout the course. The course begins by providing a framework within which to develop an understanding of the processes and management practises associated with the systems engineering discipline. The underlying systems engineering process is presented and is shown to be applied repeatedly throughout the entire system lifecycle. Attention then focuses on the broad topic of systems engineering management and some of the activities normally associated with engineering management are detailed. The course also introduces tools commonly used in systems engineering and details how systems engineering coexists with other disciplines (particularly Project Management, Quality Management and Integrated Logistics Support Management). The systems engineering body of knowledge is reinforced by the use of example and tutorials throughout the course. Students are further practised though a series of individual exercises that reinforce the application of the discipline of systems engineering to the specific nature of space systems.
+Learning Outcomes:
+- On successful completion of this course, students will have critically evaluated the utility of the systems-engineering body of knowledge for the design, development, implementation and sustainment of a space mission concept within an online forum
+- On successful completion of this course, students will have developed a physical description of a space system from a set of functional requirements using systems thinking and life-cycle theories and techniques
+- On successful completion of this course, students will have synthesized an advanced and integrated understanding of the space and systems engineering disciplines to develop a tailored systems engineering management plan for a given space system.
+- On successful completion of this course, students will be capable of applying the core systems engineering body of knowledge to space systems problems.
+- On successful completion of this course, students will have researched and applied contemporary systems engineering theories to break down a space programme into a sequence of appropriate reviews and phases
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8018 =====
+Subject: Cyber Resilience: Management Governance and Acquisition (ZEIT8018)
+Credit Points: 6
+Overview: This course will examine the operational aspects of Information Assurance (IA) and cyber security, in particular the implementation of management systems and acquisition. Information Systems (IS) strategy Information Assurance (IA) Governance - scope and purpose Procurement Governance and management Security policies and processes Security Standards Learning Outcomes On the completion of this course the student will be able to Analyse the key components of an organisational strategy from relevant business management theories Compare and contrast different frameworks for IA management systems from those presented Critically assess a given security policy. Develop a range of metrics to measure IS, Enterprise Architecture and IA performance appropriate to the information supplied in a case study Justify selecting a management system for a given organisation Outline an implementation program for ISO 27000 family Develop security requirements in the context of acquisition
+Learning Outcomes:
+- Critically assess cyber security policies and processes including relevant standards.
+- Apply cyber defensive strategies to develop security requirements in the context of acquisition.
+- Identify security measures for an organisation’s architecture, systems, and performance.
+- Analyse the key components of an organisational strategy and governance from relevant business management theories.
+- Compare and contrast different frameworks for information assurance management systems from those presented.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+- Fully online - Intensive: N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8032 =====
+Subject: Information Assurance Principles (ZEIT8032)
+Credit Points: 6
+Overview: This ZEIT8032 Information Assurance Principles course is one of the core courses for Masters in Cybersecurity Operations (8629). It is also offered as an elective for other programs at UNSW Canberra. Additionally, we extend our offer to students in the Homeland Security Program at Arizona State University (ASU), who will enrol in this course as part of the PLuS Alliance (PLuS Alliance is a strategic alliance between ASU, UNSW and King’s College London, designed to help increase educational opportunities for students at each of the partner institutions by offering global experiences and opportunities for interacting and collaborating with global virtual teams. The PLuS online course exchange is an initiative among PLuS Alliance institutions that allows students from the three institutions to take online courses or modules offered at any one of the PLuS Alliance institutions.) online course exchange. The aim of this course is to provide insights into modern cyber security threats and defensive controls and explore effective computer security and risk management strategies, with particular emphasis on Information Assurance (IA) practices and techniques. The course provides a graduate-level foundation in IA for a diverse audience, from middle-level managers to executives. It caters to those with both non-technical and technical backgrounds, and those from a variety of government, commercial and non-for-profit organisations. This course explores concepts such as layered defence mechanisms, use of several technologies in multiple instances (true defence in depth), threat/risk identification, and mitigation and incident response techniques. It will enable executive-level managers to more fully understand the real-world challenges faced by their cyber security teams today. It will assist in developing the frameworks and policies, and in supporting the evidence-based decisions, that are required to allow teams to protect their environments efficiently. It will also increase understanding of the resulting costs and benefits. It is a standard postgraduate course, available only through distance delivery mode, worth six units of credit (6 UOC) and requires 160 hrs of student study time. There are no prerequisites, but it is expected that enrolling students can: understand emerging technologies; explain specific technical terms; describe problems in technical and non- technical language.
+Learning Outcomes:
+- Describe the fundamental principles, key concepts, vital components, and definitions that are essential for implementing an effective IA program.
+- Apply IA principles, methodologies and frameworks and provide the relevant advice required by security personnel for effective cyber security plans.
+- Explain mechanisms for detecting cyber incidents and anomalies as they occur; suggest the various controls that organisations could consider and suggest recovery processes.
+- Investigate preventive controls that organisations should consider when developing strategies to minimise cyber security risks.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8219 =====
+Subject: Satellite Communications (ZEIT8219)
+Credit Points: 6
+Overview: Satellite communications are now a major part of most telecommunications networks as well as every-day lives through mobile communication systems and broadcast television. A fundamental understanding of such systems is therefore important to a wide range of system designers, engineers, and communications system users. This course covers the fundamentals of satellites, including: the basic building blocks of a satellite; orbits; radio wave propagation and link calculations; signal and noise power; system for space and ground segments; multiplexing and multiple access techniques; coding schemes; error rates, detection and correction; data rates. The course also covers satellite networks, security considerations, satellite applications, and future trends. This is a 6 UOC course.
+Learning Outcomes:
+- Conduct a thorough and critical analysis and comparison of different competing satellite systems.
+- Evaluate the advantages and disadvantages of the different types of satellite orbits.
+- Perform calculations required to conduct a link budget analysis of a satellite system.
+- Describe and evaluate the following aspects of a satellite communications system: satellite subsystems, satellite orbits, frequency bands, antennas and electromagnetic wave propagation for communications between earth stations and satellites.
+- Apply digital communications, multiplexing, channel coding, multiple access techniques, networking protocols, and security measures, as they relate to satellite communications.
+- Perform calculations to determine properties of earth station antennas and satellite footprints.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8221 =====
+Subject: Spaceborne Imaging Technology (ZEIT8221)
+Credit Points: 6
+Overview: This course covers a range of topics relevant to remote sensing of the Earth's surface from space, including Optics for spacecraft imaging payloads Planck's blackbody radiation law Atmospheric transmission and atmospheric windows Wavelength ranges available for earth imaging and corresponding energy-matter interaction mechanisms Properties of different surface cover types Detectors in the visible and reflective infrared regimes and thermal detectors Imaging spectrometry Passive and active microwave sensing of earth surface features, including synthetic aperture radar methods Spaceborne imaging systems such as Landsat MSS and TM, Spot HRV, SIR A, B, C, ERS-1, JERS-1, and Radarsat and aircraft systems Image processing methods used in support of image interpretation, including traditional and machine learning classifiers.
+Learning Outcomes:
+- Apply Planck's black body radiation law and atmospheric transmission properties to explain how different wavelengths can be used in different types of remote sensing.
+- Apply supervised and unsupervised classification techniques to distinguish materials and objects in satellite remote sensing images.
+- Apply optical theory to relate the design of space-based sensors to their ability to detect and resolve features on the Earth's surface.
+- Describe the spectral and backscatter characteristics of typical materials and objects on the Earth's surface.
+- Apply image processing and data correction techniques to aid in interpretation of satellite remote sensing images.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8230 =====
+Subject: Requirements Practice (ZEIT8230)
+Credit Points: 6
+Overview: This course provides students with an opportunity to develop an understanding of the processes and practices associated with the requirements engineering and business analysis disciplines. The course also introduces tools commonly used in requirements practice and details how business analysis and requirements engineering coexist with other disciplines (particularly systems engineering and project management). The complete and accurate definition of system requirements is a primary focus of the early systems engineering effort. The life cycle of a system begins with a mission statement, which is translated into a large number of statements of requirement that form the basis for the logical (functional) design and subsequently the physical architecture. These transitions must be managed by a rigorous process that guarantees that all relevant requirements are included (and all irrelevant requirements excluded). The establishment of correct requirements is fundamental to the success of projects. Once requirements have been collected, requirements practice then focuses on the management of these requirements from the system level right down to the lowest constituent component. This process involves elicitation, analysis, definition and validation of system requirements.
+Learning Outcomes:
+- Articulate the processes and management practices associated with the requirements engineering discipline.
+- Develop major requirements engineering plans and artefacts for an example project.
+- Assess the need, role and contribution of requirements engineering in project and business contexts.
+- Assess strengths and weaknesses of accepted requirements engineering methodologies and processes.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8231 =====
+Subject: Test and Evaluation (ZEIT8231)
+Credit Points: 6
+Overview: This course focuses on the test and evaluation practices that are essential if complex systems are to be developed to meet users' expectations for functional and physical performance. The course provides a broad introductory overview of all aspects of test and evaluation, its role as part of systems engineering, its relationship to verification and validation, major types of T&E (development T&E, acceptance T&E, and operational T&E), T&E measures (critical operational issues, measures of effectiveness etc) and major T&E plans and documentation. The course has a strong practical element, both in terms of the introduction to the topic as well as formal practice in developing T&E measures and T&E master plans through exercises. It is recommended that students complete ZEIT8230 Requirements Practice and/or ZEIT8226 Systems Engineering Practice prior to completing ZEIT8231 Test and Evaluation (T&E) as these courses provided the contextual understanding and overarching discipline that T&E sits within . If students are unable to complete these prior to ZEIT8231, they are still able to effectively complete the course, but may take some time to understand the context behind the engineering discipline.
+Learning Outcomes:
+- Develop hierarchical and traceable T&E measures for capability systems, including critical operational issues (COIs) and measures of effectiveness/suitability (MOEs/MOSs) at the customer-level or needs-level, and measures of performance (MOPs) and technical performance measures (TPMs) at the design-level or specification-level.
+- Compare the types of T&E and their contemporary issues, including preview T&E (pre-contract), developmental T&E, acceptance T&E, operational T&E, and speciality T&E such as: anthropometrics and human factors, environmental qualification, electromagnetic effects, software usability and cybersecurity.
+- Develop T&E master (management) plans (TEMPs) within a hierarchy of project plans using structured risk-based approaches, including during the seminal conceptual phase.
+- Describe organisation and roles of T&E in Systems Engineering and Project Management as applied to system design and capability acquisition lifecycles, including validation methods, verification methods and categories, configuration baselines and functional and physical configuration (FCA/PCA) auditing; and complexity issues for Systems-of-Systems (SoS).
+Assessment Tasks:
+- In-person - Intensive: N/A% (Hurdle: False)
+- Fully online - Intensive: N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8298 =====
+Subject: Project Report - Space Engineering Part-Time (ZEIT8298)
+Credit Points: 6
+Overview: In this course students undertake a research project focused on space engineering or operations. This project should represent a meaningful contribution to a specialised research area. The project is evaluated based on research records, oral presentations, a written thesis, and agreed deliverables. This course provides postgraduate research students in the latter half of their degree with an opportunity to integrate the knowledge and skills developed through their program to produce an original body of research. A project is undertaken over two semesters, with students enrolling in this course for each. Program coordinator approval is required and depends on prior marks, a suitable research topic, and supervision arrangements.
+Learning Outcomes:
+- Evaluate the results of a novel investigation into a research topic and draw meaningful conclusions.
+- Understand the broader importance and context of a research topic in space engineering or operations.
+- Communicate research in verbal and written forms clearly, accurately, and effectively.
+- Plan and manage a small research project with a high degree of independence.
+- Derive and justify a relevant research question based on a thorough analysis of the academic literature.
+- Design a rigorous methodology to address a research topic by applying critical thinking, analysis, and reflection.
+- Demonstrate specialised knowledge relevant to an active research topic in space engineering or operations.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8303 =====
+Subject: Project Management Body of Knowledge (ZEIT8303)
+Credit Points: 6
+Overview: Restricted to students enrolled in the Graduate Diploma or Masters programs.This course focuses on the distinctive nature of project management in Defence, the public sector generally and higher corporate levels of the private sector where the project manager is orchestrating (rather than controlling) a political, bureaucratic, technical and contractual environment. The course ranges broadly across key facets of project management, such as quality management, configuration management, risk management and contract management.
+Learning Outcomes:
+- Demonstrate the value that a project management body of knowledge brings to successfully manage projects; and
+- Apply the application of the project management body of knowledge in a complex project.
+- Explain the inception and requirement for a project management body of knowledge
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8403 =====
+Subject: Capability Option Analysis (ZEIT8403)
+Credit Points: 6
+Overview: This course aims at providing students an understanding of capability science and how it is used in achieving strategic organisational goals in defence as well as in a broader context. It also focuses on teaching mechanisms required to analyse and develop such capabilities. The students are exposed to a number of analytical techniques used to identify, analyse, evaluate and choose between capability options. At the successful completion of this course, students will understand the concept of capabilities and capability based planning, enhance their skills in analysing capability gaps and generating options to address these gaps, develop skills in analysing capability options and developing coherent and informative business cases to present their analysis to decision makers, and learn decision making techniques under risk for single and multiple attribute decision problems.
+Learning Outcomes:
+- Describe some of the techniques used to analyse capability gaps and generate options to address these gaps.
+- Develop skills in analysing capability options and selecting appropriate tools to choose among these options
+- Apply decision making techniques under risk for single and multiple attribute decision problems
+- Articulate the concept of capabilities and capability based planning and its connection more broadly to strategic management and its processes
+- Articulate principles for developing a coherent and informative business case based on their analyses
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+- In-person - Intensive: N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZEIT8601 =====
+Subject: Applied Machine Learning (ZEIT8601)
+Credit Points: 6
+Overview: This course will expose cyber security, decision analytics, space, project management, and systems engineering students to the experience of when and how to apply machine learning to solve different real-life problems. The students will master concepts such as learning from data, feature selection, regression, classification, clustering, and modes of learning such as supervised vs. unsupervised learning and biases in machine learning. They will also be exposed to the similarities and differences when applying machine learning to different modalities, such as time series data, image processing, and text analytics. This course will be a hands-on course with a low to moderate technical level that suits students who are interested in applying machine learning. The students will be able to design AI solutions that utilise existing machine learning algorithms to solve real-life problems, and then evaluate the performance of these systems and analyse the potential of recommending these systems to the decision makers.
+Learning Outcomes:
+- Recognise the different classes of machine learning and be able to select and apply the appropriate algorithm by using existing tools
+- Understand how data defines a problem and the choice of the algorithm used to solve the problem
+- Be able to assemble findings from the evaluation of machine learning in a form appropriate to communicate to stakeholders
+- Apply statistical techniques to evaluate or compare the performance of an algorithm for solving a problem
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZHSS8401 =====
+Subject: Research Thesis A (ZHSS8401)
+Credit Points: 6
+Overview: Research Project A and Research Project B are a course of study based on the development and completion of an extended research essay. The course offers the student an opportunity to conceive and develop a research topic of their own choosing that is of relevance to the Master program in which the student is enrolled. The prerequisite for entry is at least a Distinction average over six courses. The topic will be agreed in consultation with a supervisor and approved by the Program Authority. Applicants should approach a potential supervisor or the Program Authority with ideas or a brief research proposal. The student will then work with the supervisor to scaffold the research and writing process, resulting in an essay of 10,000 – 12,000 words. The student must enrol in both courses (A and B) to fulfil the requirements but may enrol in the two concurrently to complete in a single semester, or consecutively to complete it over two semesters.
+Learning Outcomes:
+- Write a clearly expressed and logically argued research essay.
+- Investigate, analyse and evaluate the relevant scholarly literature, demonstrating some independence and critical thinking in research skills.
+- Define a research topic and critically assess a research question relevant to the Masters program in which they are enrolled.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZHSS8403 =====
+Subject: Global Security (ZHSS8403)
+Credit Points: 6
+Overview: Global pandemic. War in Ukraine. Climate crisis. Deepening geopolitical hostilities. Why is the world less and less secure? ZHSS8403 Global Security invites you to learn about the varied and increasingly complex global landscape of insecurity. It covers the theories and practices that scholars and policymakers have used to seek security, and the major architectures of global security cooperation and governance. It considers the contested values and power relations at work in global security, and the challenges of co-ordination in the face of globalised threats. As a member of the armed forces, intelligence analyst, policy advisor, NGO staff or a concerned citizen, you will have already encountered these challenges. We will analyse their change, interaction, and effectiveness, and debate potential solutions.
+Learning Outcomes:
+- Describe and evaluate the key ethical, normative, structural and legal frameworks that shape and govern international security relationships and policies.
+- Communicate effectively and confidently in written, oral, and technological forms appropriate to academic and policy discourse on security matters.
+- Discuss and evaluate the key theoretical approaches to the study of international security and relate them to real world security problems.
+- Reflect upon the roots and dynamics of key conflicts and security issues and debate how they can be addressed or resolved using key theories, norms and frameworks.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZHSS8410 =====
+Subject: Australian Defence Policy: Concepts and Challenges (ZHSS8410)
+Credit Points: 6
+Overview: This course will give students an in-depth understanding of Australian defence policy across past, present and future contexts. It examines the fundamental concepts that have underpinned Australian defence policy: how and why Australian defence policy has evolved; and the options available for resolving current and prospective dilemmas. Students will study the balance between defence of Australia tasks and broader security commitments; the tools for producing sustainable capacity (personnel, equipment and national support); and the complexities of managing security relations with others. The course will therefore equip students working in Defence or related areas with the knowledge and skills to contribute to the development of policy.
+Learning Outcomes:
+- Critically evaluate the strengths and limitations of different aspects of Australian defence policy.
+- Analyse Australia’s strategic relationships with major powers and regional neighbours.
+- Explain the fundamental concepts and key elements in Australian defence policy and their continuity and change over time.
+- Justify recommendations for Australian defence policy based on evidence and research.
+- Apply high-level communication skills in a variety of formats.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZHSS8435 =====
+Subject: Contemporary Strategy (ZHSS8435)
+Credit Points: 6
+Overview: This course provides an in-depth understanding of the issues and challenges that are shaping decisions to use military force in the 21st century. It examines the breadth and characteristics of the diverse range of conflict situations and MOOTW into which forces might be deployed and considers both the international and domestic issues that would need to be addressed in making a decision to do so. It addresses the lessons learnt from recent operations. Consideration is also given to the specific factors determining the roles which military forces might undertake, the selection of appropriate capabilities and how operations are conducted.
+Learning Outcomes:
+- On successful conclusion of this course, students will be able to apply the theory and concepts of strategy to specific issues in Asia and beyond.
+- On successful conclusion of this course, students will be able to critically analyze the military options available to decisions makers in specific contexts.
+- On successful conclusion of this course, students will be able to describe the challenges involved in successfully formulating and implementing strategy.
+- On successful conclusion of this course, students will be able to demonstrate an understanding of the various interpretations of strategy and which interpretation is the most applicable to contemporary developments in world politics.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZHSS8463 =====
+Subject: International Law in Global Politics (ZHSS8463)
+Credit Points: 6
+Overview: International law plays an integral role in the system of international politics: the rules-based global order. This course challenges students to analyse that role and the major interpretations of that role in an era when rising and revisionist powers may be re-shaping the rules-based order. The content covered includes topics such as: the core principles and concepts of international law; international law and the use of military force; the role of multilateral treaties in global governance; distinguishing a political from a legal interpretation of a multilateral treaty; the operation of international courts and tribunals; and the relationship between foreign policy formulation and international law with an emphasis on current case studies such as the shifting balance of power in the South China Sea. This is an International Relations course focusing on the interaction of law and politics. It is not a Law course so no prior knowledge of international law is required.
+Learning Outcomes:
+- Select and synthesise information and use it to develop and effectively communicate a well-structured and well-supported argument or counter-argument.
+- Demonstrate knowledge of some of the key concepts and principles of international law.
+- Analyse ways in which world politics and international law are inter-related at the global level and the implications for international security and strategy.
+- Demonstrate the ability to interact analytically and respectfully with the ideas of peers and to reflect on one’s own learning.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZHSS8467 =====
+Subject: Military Game Changers in 21st Century Warfare (ZHSS8467)
+Credit Points: 6
+Overview: While the nature of war does not change, the character of war unquestionably does. During this course we explore four key disruptive capabilities changing the character of 21st Century warfare: special operations, cyber war, autonomous weapons systems and space operations. After learning the basics of each capability we will look at its impact on operational and tactical levels of the military, as well as discuss implications for international relations and the law and finally, the ethical considerations. The course will require students to hypothesise how these capabilities will combine and interact in potential future conflict.
+Learning Outcomes:
+- Hypothesise how military capabilities will combine and interact in future conflict.
+- Discuss the implications, risks and opportunities of future capabilities on military efforts at operational and tactical levels;
+- Outline future military capabilities, specifically in special operations, cyber operations, space operations and autonomous/AI weapons;
+- Analyse how application of future capabilities challenges ethics, international relations and law; and
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZHSS8504 =====
+Subject: Space Cooperation, Conflict and Competition (ZHSS8504)
+Credit Points: 6
+Overview: More satellites have been launched in the last 15 years, than in the preceding 50, starting from the launch of Sputnik I in 1957. If the plans of just 10% of satellite operators proposing new satellites and constellations of satellites were to be realised, as many as 100,000 satellites will be launched in the next 10 years. What accounts for this exponential growth? Can and should it be sustained? The exploration and use of the space domain was born out of great power competition and under the spectre of conflict between the USSR and the US. Yet, over the early decades after the dawn of the space age, exploration of outer space was often characterised by cooperation. In the last decade, an increasing number of States, non-State and commercial actors have sought to exploit the commercial, strategic and scientific opportunities of this domain. Sometimes they cooperate, there is always competition, and the spectre of conflict in space itself looms larger than it ever has. Under-regulated conflict and competition could make Earth orbits and beyond unusable in the near future and for generations to come, with potentially devastating consequences. The course invites you to undertake a learning journey in astropolitics and to set your own personal learning goals. As a core course in the Master of Space Operations program it gives students a detailed understanding of the economic, strategic and political drivers of space activities. It facilitates the intersection of multiple disciplines – particularly in the humanities (history, public policy, economics, commerce, strategy, law, ethics and politics) – with the technical foundations of space operations. Students will gain insights into how these drivers influence planning, policies, acquisitions and operations in respect to space activities. As an elective in other Master programs, the course provides advanced knowledge of the factors shaping the strategic and security environment and policy challenges in the space domain. Students will gain insights into the emerging potential for conflict and about the impact of disruptive space technologies in both the space and terrestrial domains. Students will also gain an appreciation of how the space domain may support conventional and special operations and may be an arena for irregular warfare involving non-state actors, especially commercial entities supporting military activities.
+Learning Outcomes:
+- Demonstrate an applied understanding of the basic elements of select disciplines (science, history, commerce, strategy, law, ethics and policy) in relation to the space domain.
+- Synthesise knowledge across select disciplines to argue a position about cooperation, competition and/or conflict in the space domain (astropolitical situation).
+- Formulate an original idea about an astropolitical situation and demonstrate high level communication skills to advocate for the idea.
+- Demonstrate enquiry-based learning through critical reflection on, and integration of, new disciplinary and/or professional knowledge of astropolitical situations.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZPEM8208 =====
+Subject: Human Factors and the Technological Interface (ZPEM8208)
+Credit Points: 6
+Overview: The increasing reliance upon technological innovation, from pervasive digital computing in everyday smart phone and smart infrastructures to new forms of intelligent materials and pharmaceutical augmentation, is changing the nature of human-technology relationships. These changes are in turn having a major impact on the nature of human behaviour and the ways in which governments, defence, policy makers and intelligence services understand, predict and transform collective and individual human action. Traditionally the study of human factors has centred on scientific questions but this course widens the focus to address the broader transformation of human behaviour in ways that bring together contemporary debates in anthropology, philosophy, behavioural science and technology studies through practical case-studies and application. This course focuses upon the human factors influencing effective decision-making in a range of technological interface scenarios to offer invaluable insights into how courses of action are chosen from within mundane, novel and complex situations. The proliferation of technological interfaces, both digital and biological, raises new questions about the autonomy and reliability of the human when the location and agency, the where and who, of decision-making is no longer clear cut. These questions shape contemporary concerns in politics, ethics and security. Looking at a series of technological interface scenarios the role of human factors in decision-making processes can be better understood through an attention to the role technology is playing in reshaping the context of human behaviour. Contexts will range from collective and team performance within hierarchical command structures to emerging spontaneous crowd behaviour, from augmented individual biological performance through skill and training to diminished mental and physical capability of stress and fatigue, and from the agency of code, digital mediation and matter to the spatial and temporal questions of architecture and duration. The social science of recent technological innovations will present students with an exciting opportunity to examine, evaluate and critique the emergence of new kinds of behaviour at the evolving interface of human and machine. The course is designed to provide students with an understanding of what human factors are, including habit, trust, team performance, individual mental and physical skill, affect and endurance, with particular attention paid to scenarios where technology has both an intensive and extensive influence on decision-making and behavioural change. Students will bring together information to analyse how human factors shape, and are reshaped by, technological interfaces through a qualitative social science perspective.
+Learning Outcomes:
+- Apply social science concepts in order to explain the evolving nature of the relationship between humans and technology
+- Synthesise case study data with the scholarly social scientific literature and diverse social scientific methodologies, to explain the changing nature of human factors in the interface with technology
+- 1. Demonstrate an understanding of the strengths and weakness of different theories questioning the nature of human factors in relationships with technological interfaces
+- Analyse the levels of human agency in decision-making through technological interfaces, including human-computer interaction from cyber-security to everyday internet use
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ZPEM8310 =====
+Subject: Understanding Social-Technical Systems: Ideas, Spaces and Cultures (ZPEM8310)
+Credit Points: 6
+Overview: The increasing ubiquity of digital information technologies and systems – from smartphones and self driving cars to artificial intelligence and advanced robotics – is having unprecedented impacts on society and how we think about issues like privacy, security, responsibility, and trust in the future. The unfamiliar landscape inaugurated by new digital information systems also demands new ways of thinking and problem-solving within engineering disciplines. This course will introduce students to the intimate connection between ideas and practice - philosophical concepts and technological systems - in both historical and contemporary contexts. The questions the course poses are twofold: first, how have different genealogies of ideas about the human and the machine (such as cybernetics and complexity theory) fed into the evolution of today’s digital information systems?; and second, what is the broader significance of such systems and associated technologies in challenging conventional understandings of key concepts – including intelligence, autonomy, and responsibility – in ways that advance discussions about the political, ethical, and security issues associated with intelligent technologies? Drawing on the latest research across the social sciences, the course will unpack these questions through a range of exciting topics, including the rise of online social networks and the associated challenges to traditional notions of privacy and identity; new understandings of security and trust in blockchain technologies and cryptocurrencies; and new conceptions of intelligence from ‘Deep Blue’ and ‘Alpha Go’ to the ’Blue Brain’ project.
+Learning Outcomes:
+- Demonstrate proficiency in conceptual vocabularies to support interdisciplinary projects across the physical and social sciences;
+- Evaluate the significance of ‘socio-technical systems’ as a unit of analysis that enables a more holistic, ethically-informed approach to problem solving within the context of technological change.
+- Apply social science concepts in order to explain the evolving nature of the relationship between theoretical concepts and the development of networked digital information systems in different cultural and geographical contexts; and
+- Develop a critical understanding of the ideas and assumptions that underlie your design practice;
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+

@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in criminology.",
+    "evidenceLines": [
+      "Reflect critically on your own cultural attitudes, values and beliefs",
+      "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+      "Build a rewarding legal career and a safer community for all with La Trobe’s Bachelor of Laws (Honours)/Bachelor of Criminology."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in criminology.",
+    "evidenceLines": [
+      "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+      "Understand the need for and value of appropriate and effective intercultural communication",
+      "Develop the knowledge and expertise to establish yourself as a forward-thinking legal professional while investigating the complex causes of crime."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within criminology.",
+    "evidenceLines": [
+      "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+      "Subject: PRINCIPLES OF CRIMINAL LAW (LAW1CRL)",
+      "Work co-operatively in small teams to produce joint work and develop a reflective approach to learning."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in criminology.",
+    "evidenceLines": [
+      "Demonstrate well-developed skills in problem analysis, logical argumentation, effective communication, and the interpretation of statutory provisions and case law.",
+      "Compose a legal opinion, involving the identification and application of relevant laws, in answer to problems raising a range of criminal law issues",
+      "Gain a powerful skillset in dispute resolution, evidence and criminal procedure, contract law, company law and public law."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in criminology.",
+    "evidenceLines": [
+      "Subject: LEGAL INSTITUTIONS AND METHODS (LAW1LIM)",
+      "Subject: PRINCIPLES OF PUBLIC LAW (LAW1PPL)",
+      "Identify and apply the structure of a range of criminal offences and their underlying general principles."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in criminology.",
+    "evidenceLines": [
+      "Demonstrate an awareness of the social and ethical impact of the Australian legal system and the role of lawyers in the system",
+      "Build a rewarding legal career and a safer community for all with La Trobe’s Bachelor of Laws (Honours)/Bachelor of Criminology.",
+      "Develop the knowledge and expertise to establish yourself as a forward-thinking legal professional while investigating the complex causes of crime."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in criminology.",
+    "evidenceLines": [
+      "Apply appropriate written communication skills",
+      "Subject: PRINCIPLES OF CONSTITUTIONAL LAW (LAW2CSL)",
+      "Gain a powerful skillset in dispute resolution, evidence and criminal procedure, contract law, company law and public law."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "To qualify for the award of Bachelor of Laws (Honours)/ Bachelor of Criminology students must complete 600 credit points consisting of:",
+      "Build a rewarding legal career and a safer community for all with La Trobe’s Bachelor of Laws (Honours)/Bachelor of Criminology."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Laws (Honours)/Bachelor of Criminology.",
+      "evidenceLines": [
+        "To qualify for the award of Bachelor of Laws (Honours)/ Bachelor of Criminology students must complete 600 credit points consisting of:",
+        "360 credit points of Bachelor of Laws (Honours) coded subjects, of which:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in criminology.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Reflect critically on your own cultural attitudes, values and beliefs"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

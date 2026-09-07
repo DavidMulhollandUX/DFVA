@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in banking and finance.",
+    "evidenceLines": [
+      "**Institution**: The University of Adelaide",
+      "**Program Identifier / Slug**: bfb_bfinbank",
+      "- **Institution**: The University of Adelaide"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in banking and finance.",
+    "evidenceLines": [
+      "**Academic Calendar Year**: 2025/2026",
+      "**Faculty**: Faculty of Arts, Business, Law and Economics (ABLE)",
+      "- **Program Identifier / Slug**: bfb_bfinbank"
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within banking and finance.",
+    "evidenceLines": [
+      "Subject: Introductory Economics and Personal Finance (ECON1008)",
+      "Subject: Principles of Economics I (ECON1009)",
+      "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/bfb_bfinbank"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in banking and finance.",
+    "evidenceLines": [
+      "Explain the principles of economics, including the economic way of thinking, market demand and supply, the elasticity of demand and supply, market structures, measurement of the size of the economy, inflation, and unemployment",
+      "Apply microeconomic and macroeconomic knowledge and skills to make informed decisions in today's world",
+      "- **Academic Calendar Year**: 2025/2026"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in banking and finance.",
+    "evidenceLines": [
+      "Subject: Data Analytics (ECON1012)",
+      "Subject: Introductory Economics and Personal Finance (ECON1008)",
+      "Explain the principles of personal finance, including the financial planning process, financial statements, income taxes, cash and savings, credit cards, and consumer loans"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in banking and finance.",
+    "evidenceLines": [
+      "Apply personal financial knowledge and skills to make informed decisions in today's world",
+      "- **Institution**: The University of Adelaide",
+      "- **Program Identifier / Slug**: bfb_bfinbank"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in banking and finance.",
+    "evidenceLines": [
+      "Evaluate and present a national economic issue or a personal financial issue based on a predetermined set of criteria",
+      "Subject: Data Analytics (ECON1012)",
+      "- **Academic Calendar Year**: 2025/2026"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The Bachelor of Finance and Banking is an AQF level 7 program with a standard full-time duration of 3 years.",
+      "- **Institution**: The University of Adelaide"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Finance and Banking.",
+      "evidenceLines": [
+        "The Bachelor of Finance and Banking is an AQF level 7 program with a standard full-time duration of 3 years.",
+        "Program Maximum Duration:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in banking and finance.",
+      "evidenceLines": [
+        "Subject: Introductory Economics and Personal Finance (ECON1008)",
+        "**Institution**: The University of Adelaide"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

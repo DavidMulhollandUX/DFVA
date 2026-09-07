@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Strategic marketing communications, multi-stakeholder storytelling, brand strategy presentations, and applied sales negotiations.",
+    "evidenceLines": [
+      "Gain future-focused knowledge, skills, and industry experience and become a professional marketer with our innovative, applied and world-class degree that delivers real impact.",
+      "explore topics such as sales, negotiation, customer experience and service design, digital marketing, content marketing, marketing research and analytics, entrepreneurship and innovation, cybersecurity and artificial intelligence, and marketing strategy",
+      "benefit from our practical and applied approach to learning, with the use of active workshops and tasks sourced from the real world, a broad student cohort, industry guest speakers and more"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of market environments, consumer behaviour heuristics, UN Sustainable Development Goals alignment, and marketing ethics.",
+    "evidenceLines": [
+      "critically analyse the business environment and solve marketing problems ethically and responsibly",
+      "Master responsible marketing practice, strategies and tactics aligned with industry demands and the United Nations Sustainable Development Goals.",
+      "Build future-focused marketing skills supported by critical thinking and a problem-solving mindset."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Applied marketing analytics (MKT5006), research methods (MKT5003), digital metrics, and customer experience measurement.",
+    "evidenceLines": [
+      "explore topics such as sales, negotiation, customer experience and service design, digital marketing, content marketing, marketing research and analytics, entrepreneurship and innovation, cybersecurity and artificial intelligence, and marketing strategy",
+      "Subject: MARKETING ANALYTICS (MKT5006)",
+      "Subject: APPLIED MARKETING RESEARCH (MKT5003)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Strategic marketing synthesis: content marketing (MKT5012), service design, omni-channel sales (MKT5001), and brand strategy (MKT5009).",
+    "evidenceLines": [
+      "explore topics such as sales, negotiation, customer experience and service design, digital marketing, content marketing, marketing research and analytics, entrepreneurship and innovation, cybersecurity and artificial intelligence, and marketing strategy",
+      "Master responsible marketing practice, strategies and tactics aligned with industry demands and the United Nations Sustainable Development Goals.",
+      "Build future-focused marketing skills supported by critical thinking and a problem-solving mindset."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Collaborative solving of industry-based marketing problems, campaign testing, and real-world market research studies.",
+    "evidenceLines": [
+      "Gain real-world, applied experience by solving industry-based problems and engaging with industry experts.",
+      "Subject: MARKETING STRATEGY AND PLANNING (MKT5009)",
+      "Subject: CONTENT MARKETING STRATEGY (MKT5012)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Alignment with responsible marketing practice, United Nations Sustainable Development Goals, and professional industry codes.",
+    "evidenceLines": [
+      "Master responsible marketing practice, strategies and tactics aligned with industry demands and the United Nations Sustainable Development Goals.",
+      "critically analyse the business environment and solve marketing problems ethically and responsibly",
+      "tap into industry expertise and potential job opportunities through our partnerships with major corporations and industry leaders in marketing."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic marketing campaign design, industry-based problem solving, active workshops, and partnership engagement with major corporations.",
+    "evidenceLines": [
+      "Gain real-world, applied experience by solving industry-based problems and engaging with industry experts.",
+      "benefit from our practical and applied approach to learning, with the use of active workshops and tasks sourced from the real world, a broad student cohort, industry guest speakers and more",
+      "explore topics such as sales, negotiation, customer experience and service design, digital marketing, content marketing, marketing research and analytics, entrepreneurship and innovation, cybersecurity and artificial intelligence, and marketing strategy"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework master degree with elective rather than compulsory industry workplace placement.",
+    "evidenceLines": [
+      "benefit from our practical and applied approach to learning, with the use of active workshops and tasks sourced from the real world, a broad student cohort, industry guest speakers and more",
+      "tap into industry expertise and potential job opportunities through our partnerships with major corporations and industry leaders in marketing."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "A 240-credit-point two-year master degree delivering comprehensive education in strategic and digital marketing.",
+      "evidenceLines": [
+        "To qualify for the award of Master of Marketing, students must complete 240 credit points consisting of:",
+        "210 core credit points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist marketing program structured through core marketing strategy and analytics.",
+      "evidenceLines": [
+        "## Master of Marketing - Melbourne (Bundoora)",
+        "Gain future-focused knowledge, skills, and industry experience and become a professional marketer with our innovative, applied and world-class degree that delivers real impact."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied marketing analytics without low-level computer science algorithms.",
+    "W3: Scored at Level 1 as external placement is elective."
+  ],
+  "notScoreable": []
+};
+
+export default record;

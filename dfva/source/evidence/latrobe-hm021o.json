@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-hm021o",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in general nursing.",
+      "evidenceLines": [
+        "Understand the importance of the acknowledgment and the referencing of sources",
+        "Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.",
+        "This course aims to give students the in-depth knowledge and skills required to practice at an advanced nursing level and to provide professional leadership in contemporary clinical and professional nursing specialties."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in general nursing.",
+      "evidenceLines": [
+        "Recognise and understand academic integrity responsibilities.",
+        "Critically analyse treatment evidence and patient preferences in clinical decision-making, considering cultural, geographical, and socio-economic factors, including language, literacy, and health beliefs.",
+        "It is designed to build on the knowledge base and clinical skills of specialist nurses."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within general nursing.",
+      "evidenceLines": [
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "Subject: ADVANCED CLINICAL EVIDENCE FOR NURSING PRACTICE (NSM5ACE)",
+        "Source, critically appraise, and integrate evidence into nursing practice to enhance patient outcomes, inform ongoing professional development, and promote lifelong learning."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in general nursing.",
+      "evidenceLines": [
+        "Formulate ethically sound research questions which address evidence gaps within your practice area.",
+        "Justify the selection and use of validated research tools to ensure methodological rigor and the integration of high-quality evidence into safe and effective consumer care.",
+        "The role of nurse practitioner places particular emphasis on the development of advanced clinical assessment skills relevant to the nurse's specialty, and development of a collaborative multidisciplinary approach to patient care."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in general nursing.",
+      "evidenceLines": [
+        "Subject: ADVANCED CLINICAL NURSING PRACTICE (NSM5ACN)",
+        "Subject: CLINICAL INTERNSHIP FOR NURSE PRACTITIONER A (NSM5CIA)",
+        "Utilise digital technologies and data analysis tools proficiently, while critically assessing the potential benefits and risks of discursive AI in nursing and midwifery research and practice."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in general nursing.",
+      "evidenceLines": [
+        "Critique how evidence translation impacts health outcomes, focusing on key barriers and the impact of underrepresented vulnerable populations in research literature.",
+        "This course aims to give students the in-depth knowledge and skills required to practice at an advanced nursing level and to provide professional leadership in contemporary clinical and professional nursing specialties.",
+        "It is designed to build on the knowledge base and clinical skills of specialist nurses."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in general nursing.",
+      "evidenceLines": [
+        "Apply clinical reasoning and knowledge of own scope of practice to inform decision making round referrals to other healthcare professionals (for either sole or collaborative treatment).",
+        "Subject: CLINICAL INTERNSHIP FOR NURSE PRACTITIONER B (NSM5CIB)",
+        "The role of nurse practitioner places particular emphasis on the development of advanced clinical assessment skills relevant to the nurse's specialty, and development of a collaborative multidisciplinary approach to patient care."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "To qualify for the award of Master of Nurse Practitioner, students must complete 120 credit points consisting of:",
+        "This course aims to give students the in-depth knowledge and skills required to practice at an advanced nursing level and to provide professional leadership in contemporary clinical and professional nursing specialties."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Nurse Practitioner.",
+        "evidenceLines": [
+          "To qualify for the award of Master of Nurse Practitioner, students must complete 120 credit points consisting of:",
+          "120 core credit-points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in general nursing.",
+        "evidenceLines": [
+          "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+          "Understand the importance of the acknowledgment and the referencing of sources"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

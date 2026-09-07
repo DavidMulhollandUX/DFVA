@@ -1,0 +1,102 @@
+{
+  "code": "adelaide-bscms_bscmcs",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science.",
+      "evidenceLines": [
+        "**Institution**: The University of Adelaide",
+        "**Program Identifier / Slug**: bscms_bscmcs",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science.",
+      "evidenceLines": [
+        "**Academic Calendar Year**: 2025/2026",
+        "**Faculty**: Faculty of Sciences, Engineering and Technology (SET)",
+        "- **Program Identifier / Slug**: bscms_bscmcs"
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science.",
+      "evidenceLines": [
+        "Subject: Introductory Economics and Personal Finance (ECON1008)",
+        "Subject: UO Principles of Economics (ECON1010)",
+        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/bscms_bscmcs"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science.",
+      "evidenceLines": [
+        "the following courses may be presented either towards a major in Statistics or a major in Applied Mathematics but not both:",
+        "the following courses may be presented either towards a major in Statistics or a major in Applied Mathematics but not both:",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science.",
+      "evidenceLines": [
+        "Subject: Introduction to Health Ethics (HLTH1001)",
+        "Subject: Physical Activity and Health (HLTH1003)",
+        "the following courses may be presented either towards a major in Statistics or a major in Applied Mathematics but not both:"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science.",
+      "evidenceLines": [
+        "the following courses may be presented either towards a major in Statistics or a major in Applied Mathematics but not both:",
+        "- **Institution**: The University of Adelaide",
+        "- **Program Identifier / Slug**: bscms_bscmcs"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science.",
+      "evidenceLines": [
+        "Explain the principles of economics, including the economic way of thinking, market demand and supply, the elasticity of demand and supply, market structures, measurement of the size of the economy, inflation, and unemployment",
+        "Subject: Fitness and Lifestyle Management (HLTH1004)",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The Bachelor of Mathematical and Computer Sciences is an AQF Level 7 qualification with a standard full-time duration of 3 years.",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Mathematical and Computer Sciences.",
+        "evidenceLines": [
+          "The Bachelor of Mathematical and Computer Sciences is an AQF Level 7 qualification with a standard full-time duration of 3 years.",
+          "Program Maximum Duration:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in computer science.",
+        "evidenceLines": [
+          "Subject: Introductory Economics and Personal Finance (ECON1008)",
+          "**Institution**: The University of Adelaide"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

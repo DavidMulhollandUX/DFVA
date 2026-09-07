@@ -1,0 +1,102 @@
+{
+  "code": "monash-f2018",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 14,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in fine arts.",
+      "evidenceLines": [
+        "Commit to ethical and socially responsible practices by addressing contemporary issues with empathy and a focus on community well-being;",
+        "Demonstrate an understanding of key contemporary issues within your discipline and how they intersect with other disciplines and perspectives;",
+        "Commit to ethical and socially responsible practices by addressing contemporary issues with empathy and a focus on community well-being;"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in fine arts.",
+      "evidenceLines": [
+        "Collaborate effectively in diverse teams, recognising and valuing different disciplinary strengths and perspectives to achieve shared goals;",
+        "Synthesise insights from diverse disciplines to identify synergies and develop cohesive strategies for solving complex problems;",
+        "Demonstrate an understanding of key contemporary issues within your discipline and how they intersect with other disciplines and perspectives;"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within fine arts.",
+      "evidenceLines": [
+        "Subject: Transdisciplinary studies (ADA3012)",
+        "Subject: Architecture foundation studio 1 (ARC1001)",
+        "Apply knowledge and methods from multiple disciplines to create innovative, context-sensitive solutions to contemporary challenges;"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in fine arts.",
+      "evidenceLines": [
+        "Reflect critically on the integration of transdisciplinary approaches and identify strategies for lifelong learning and professional growth.",
+        "Project: 100% (Hurdle: None)",
+        "Collaborate effectively in diverse teams, recognising and valuing different disciplinary strengths and perspectives to achieve shared goals;"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in fine arts.",
+      "evidenceLines": [
+        "Subject: Architecture foundation studio 2 (ARC1002)",
+        "Subject: Architecture communications 1 (ARC1301)",
+        "Develop strategies and skills to undertake self directed architectural design development."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in fine arts.",
+      "evidenceLines": [
+        "Explore an understanding of design development and architectural practice as having social, political, environmental, and economic implications;",
+        "Commit to ethical and socially responsible practices by addressing contemporary issues with empathy and a focus on community well-being;",
+        "Demonstrate an understanding of key contemporary issues within your discipline and how they intersect with other disciplines and perspectives;"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in fine arts.",
+      "evidenceLines": [
+        "Develop skills to work collaboratively in the studio environment, fostering a high level of respectful engagement with others;",
+        "Subject: Architecture design studio 3 (ARC2001)",
+        "Collaborate effectively in diverse teams, recognising and valuing different disciplinary strengths and perspectives to achieve shared goals;"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course comprises 192 credit points, of which 96 points are from the Bachelor of Architectural Studies (including the requirements listed below from Parts A, B and C) and 96 points from the Bachelor of Fine Art (including the requirements listed below from Parts A, B, C and D).",
+        "Commit to ethical and socially responsible practices by addressing contemporary issues with empathy and a focus on community well-being;"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Architectural Studies and Bachelor of Fine Art.",
+        "evidenceLines": [
+          "The course comprises 192 credit points, of which 96 points are from the Bachelor of Architectural Studies (including the requirements listed below from Parts A, B and C) and 96 points from the Bachelor of Fine Art (including the requirements listed below from Parts A, B, C and D).",
+          "In this case, the unit BLK1000 Indigenous Australian creative practice and ways of knowing will be taught as part of the Fine Art program\u2019s 96 core credit points."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in fine arts.",
+        "evidenceLines": [
+          "Subject: Transdisciplinary studies (ADA3012)",
+          "Commit to ethical and socially responsible practices by addressing contemporary issues with empathy and a focus on community well-being;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

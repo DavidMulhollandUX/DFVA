@@ -1,0 +1,102 @@
+{
+  "code": "anu-hmeds",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in medical studies.",
+      "evidenceLines": [
+        "**Institution**: The Australian National University (ANU)",
+        "**Academic Plan Code**: HMEDS",
+        "- **Institution**: The Australian National University (ANU)"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in medical studies.",
+      "evidenceLines": [
+        "**Academic Year**: 2027",
+        "**Career / Study Level**: Undergraduate",
+        "- **Academic Plan Code**: HMEDS"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within medical studies.",
+      "evidenceLines": [
+        "Subject: Archaeology and Biological Anthropology Honours Writing Seminar (ARCH4003)",
+        "Subject: Astronomical Computing (ASTR4004)",
+        "**Program Duration**: 1 year full-time"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in medical studies.",
+      "evidenceLines": [
+        "**Minimum Units Required**: 48 Units",
+        "**Mode of Delivery**: of delivery In Person",
+        "- **Career / Study Level**: Undergraduate"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in medical studies.",
+      "evidenceLines": [
+        "Subject: Astronomy and Astrophysics IV Honours Research Project (ASTR4005)",
+        "Subject: Galaxies (ASTR4006)",
+        "**Post Nominal**: Nominal"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in medical studies.",
+      "evidenceLines": [
+        "**CRICOS Code**: code 036678A",
+        "- **Institution**: The Australian National University (ANU)",
+        "- **Academic Plan Code**: HMEDS"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in medical studies.",
+      "evidenceLines": [
+        "**Field of Education**: of Education Medical Science",
+        "Subject: Observational Techniques (ASTR4011)",
+        "- **Career / Study Level**: Undergraduate"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "- **Program Duration**: 1 year full-time",
+        "- **Institution**: The Australian National University (ANU)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Medical Science.",
+        "evidenceLines": [
+          "- **Program Duration**: 1 year full-time",
+          "- **Minimum Units Required**: 48 Units"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in medical studies.",
+        "evidenceLines": [
+          "Subject: Archaeology and Biological Anthropology Honours Writing Seminar (ARCH4003)",
+          "**Institution**: The Australian National University (ANU)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

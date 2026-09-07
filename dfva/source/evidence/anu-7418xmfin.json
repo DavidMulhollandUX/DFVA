@@ -1,0 +1,102 @@
+{
+  "code": "anu-7418xmfin",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 14,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Executive investment reporting, portfolio allocation presentations, and corporate valuation pitches.",
+      "evidenceLines": [
+        "Demonstrate an in-depth understanding of corporate finance, securities trading, investments, portfolio construction, derivative pricing and risk management.",
+        "Recognise, understand and apply finance theory to company valuation.",
+        "A single two year graduate award offered by theANU College of Business and Economics"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical appraisal of corporate financial decisions, asset pricing models, and market efficiency.",
+      "evidenceLines": [
+        "Recognise, understand and apply finance theory to company valuation.",
+        "Demonstrate a critical awareness of current issues in finance which is informed by leading edge research and practices in the field.",
+        "A single two year graduate award offered by theANU College of Business and Economics"
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Quantitative portfolio optimization, derivative pricing formulas, and financial econometrics.",
+      "evidenceLines": [
+        "Demonstrate a critical awareness of current issues in finance which is informed by leading edge research and practices in the field.",
+        "Subject: Financial Statements and Reporting (BUSN7008)",
+        "Subject: Business Economics (ECON8069)"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Comprehensive synthesis of investment management, corporate governance, fixed income, and risk hedging.",
+      "evidenceLines": [
+        "Demonstrate an in-depth understanding of corporate finance, securities trading, investments, portfolio construction, derivative pricing and risk management.",
+        "Demonstrate a critical awareness of current issues in finance which is informed by leading edge research and practices in the field.",
+        "A single two year graduate award offered by theANU College of Business and Economics"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied portfolio backtesting, financial statement analysis, and valuation modeling.",
+      "evidenceLines": [
+        "Demonstrate the ability to conduct financial research, acquiring and analysing financial information.",
+        "Subject: Applied Valuation (FINM6005)",
+        "Subject: Applied Portfolio Construction (FINM6016)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Strict adherence to corporate finance conventions, financial market regulations, and fiduciary duties.",
+      "evidenceLines": [
+        "Recognise, understand and apply finance theory to company valuation.",
+        "A single two year graduate award offered by theANU College of Business and Economics",
+        "A single two year graduate award offered by theANU College of Business and Economics"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic investment analysis, capital budgeting simulations, and market case studies.",
+      "evidenceLines": [
+        "Demonstrate an in-depth understanding of corporate finance, securities trading, investments, portfolio construction, derivative pricing and risk management.",
+        "Recognise, understand and apply finance theory to company valuation.",
+        "A single two year graduate award offered by theANU College of Business and Economics"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework master degree without compulsory industry workplace placement.",
+      "evidenceLines": [
+        "A single two year graduate award offered by theANU College of Business and Economics",
+        "A single two year graduate award offered by theANU College of Business and Economics"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A two-year master degree delivering advanced finance education.",
+        "evidenceLines": [
+          "A single two year graduate award offered by theANU College of Business and Economics",
+          "A single two year graduate award offered by theANU College of Business and Economics"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist finance degree delivering sequential investment analysis study.",
+        "evidenceLines": [
+          "A single two year graduate award offered by theANU College of Business and Economics",
+          "Subject: Financial Statements and Reporting (BUSN7008)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 for advanced quantitative portfolio analytics.",
+      "W3: Scored at Level 1 as external placement is elective."
+    ],
+    "notScoreable": []
+  }
+}

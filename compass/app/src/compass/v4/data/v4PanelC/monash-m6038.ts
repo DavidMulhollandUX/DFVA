@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in health, n.e.c..",
+    "evidenceLines": [
+      "Learning and teaching with simulation",
+      "Quality supervision course",
+      "The Master of Health Professions Education qualifies you to apply principles and theories that inform educational practice in a range of clinical and other relevant contexts to undertake professional and highly skilled work and as educators in the health professions."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in health, n.e.c..",
+    "evidenceLines": [
+      "Scenario design for simulation-based education",
+      "Learning conversations: Feedback and debriefing practices in clinical simulation",
+      "This practice-based qualification builds on the existing Graduate Certificate of Health Professions Education."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within health, n.e.c..",
+    "evidenceLines": [
+      "Subject: Foundations of health professions education (HPE5100)",
+      "Subject: Health professions and simulation education in practice (HPE5200)",
+      "Assessment in health professions education"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in health, n.e.c..",
+    "evidenceLines": [
+      "Introduction to education research in the health professions and sciences (12 credit points)",
+      "Qualitative research methods for public health",
+      "It is suitable for a broad range of health professionals who are, or will be, engaged in the teaching, assessment, evaluation, curriculum design, mentoring and supervision of health professionals in a range of clinical and other contexts."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in health, n.e.c..",
+    "evidenceLines": [
+      "Subject: Advanced health practice research project (MAP5010)",
+      "Subject: Improving Indigenous equity in professional practice (MAP5200)",
+      "Fundamentals of clinical coaching"
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in health, n.e.c..",
+    "evidenceLines": [
+      "Sustainable healthcare in practice",
+      "The Master of Health Professions Education qualifies you to apply principles and theories that inform educational practice in a range of clinical and other relevant contexts to undertake professional and highly skilled work and as educators in the health professions.",
+      "This practice-based qualification builds on the existing Graduate Certificate of Health Professions Education."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in health, n.e.c..",
+    "evidenceLines": [
+      "The art of mixed methods research: from design to execution",
+      "Subject: Clinical leadership and management (MPH5266)",
+      "It is suitable for a broad range of health professionals who are, or will be, engaged in the teaching, assessment, evaluation, curriculum design, mentoring and supervision of health professionals in a range of clinical and other contexts."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "This course is structured into three parts: Part A. Core studies, Part B. Applied studies, and Part C. Specified elective studies. Each part comprises a combination of units and short courses.",
+      "The Master of Health Professions Education qualifies you to apply principles and theories that inform educational practice in a range of clinical and other relevant contexts to undertake professional and highly skilled work and as educators in the health professions."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Health Professions Education.",
+      "evidenceLines": [
+        "This course is structured into three parts: Part A. Core studies, Part B. Applied studies, and Part C. Specified elective studies. Each part comprises a combination of units and short courses.",
+        "Part A. Core studies"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in health, n.e.c..",
+      "evidenceLines": [
+        "Subject: Foundations of health professions education (HPE5100)",
+        "Learning and teaching with simulation"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+    "evidenceLines": [
+      "Analyse genome data to identify causative variants as they relate to patient clinical presentation using current software, databases and published literature;",
+      "Formulate variant reports suitable for clinical use and consistent with guidelines;",
+      "The Graduate Certificate of Genome Analytics is a 24 credit point future-focused course that provides expert training in analysing genomes and bioinformatics, developing graduates to meet the growing demand for expertise in the area of Genome Analytics."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+    "evidenceLines": [
+      "Outline the current international guidelines and accreditation within the genome analysis industry;",
+      "Interpret and classify genetic variants and understand their significance among different populations;",
+      "The course builds knowledge and skills relevant to areas and approaches used in healthcare."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+    "evidenceLines": [
+      "Subject: Genome curation (GNA5120)",
+      "Subject: Clinical applications of genomics (GNA5200)",
+      "Literature appraisal: 20% (Hurdle: None)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+    "evidenceLines": [
+      "Analysis of clinical frameworks and bioinformatic tools: 20% (Hurdle: None)",
+      "Preliminary case studies: 25% (Hurdle: None)",
+      "You will gain hands-on experience analysing genomes using pipelines and bioinformatics methods, relevant to the genomics industry and its continued expansion and development."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+    "evidenceLines": [
+      "Subject: Genome curation (GNA5120)",
+      "Subject: Clinical applications of genomics (GNA5200)",
+      "Summative case studies: 35% (Hurdle: None)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+    "evidenceLines": [
+      "Evaluate and identify appropriate genetic tests, and their limitations, for use in clinical cases;",
+      "The Graduate Certificate of Genome Analytics is a 24 credit point future-focused course that provides expert training in analysing genomes and bioinformatics, developing graduates to meet the growing demand for expertise in the area of Genome Analytics.",
+      "The course builds knowledge and skills relevant to areas and approaches used in healthcare."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+    "evidenceLines": [
+      "Apply the principles of variant curation to genomic variants;",
+      "Subject: Clinical applications of genomics (GNA5200)",
+      "You will gain hands-on experience analysing genomes using pipelines and bioinformatics methods, relevant to the genomics industry and its continued expansion and development."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The course comprises two units, each worth 12 credit points, for a total of 24 credit points.You will complete Clinical applications of genomics in semester 1 and Genome curation in semester 2.",
+      "The Graduate Certificate of Genome Analytics is a 24 credit point future-focused course that provides expert training in analysing genomes and bioinformatics, developing graduates to meet the growing demand for expertise in the area of Genome Analytics."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate of Genome Analytics.",
+      "evidenceLines": [
+        "The course comprises two units, each worth 12 credit points, for a total of 24 credit points.You will complete Clinical applications of genomics in semester 1 and Genome curation in semester 2.",
+        "24 credit points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+      "evidenceLines": [
+        "Subject: Genome curation (GNA5120)",
+        "Analyse genome data to identify causative variants as they relate to patient clinical presentation using current software, databases and published literature;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

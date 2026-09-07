@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-bm004",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 14,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in accounting.",
+      "evidenceLines": [
+        "Analyse and record business transactions, and prepare financial statements using double-entry accounting principles.",
+        "Evaluate the accounting purpose, processes and systems within the Australian or an international regulatory environment",
+        "Want to become an accounting expert with career options beyond the traditional roles of accounting?"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in accounting.",
+      "evidenceLines": [
+        "Critically evaluate financial performance of firms to inform decision making using relevant information.",
+        "Exercise professional judgement to solve accounting problems from ethical, social, and regulatory perspectives, and effectively communicate relevant information to a range of stakeholders",
+        "La Trobe\u2019s Master of Extended Professional Accounting offers you the flexibility to extend your study into a range of specialist business areas."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within accounting.",
+      "evidenceLines": [
+        "Subject: ACCOUNTING PRINCIPLES AND PRACTICES (ACC4001)",
+        "Subject: ACCOUNTING INFORMATION SYSTEMS (ACC5001)",
+        "Work effectively in a team to produce high quality work"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in accounting.",
+      "evidenceLines": [
+        "Develop and employ accounting software application and/or an enterprise business intelligence tool to record, manage and communicate business processes to various stakeholders.",
+        "Critically evaluate the role, use and impact of accounting information systems and technologies on organisation\u2019s business operations, processes, data analysis and decision making.",
+        "In this accredited degree, you\u2019ll build the skills and knowledge to create, analyse and interpret the accounting information that\u2019s essential in all businesses and public enterprises."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in accounting.",
+      "evidenceLines": [
+        "Subject: FINANCIAL ACCOUNTING AND REPORTING (ACC5002)",
+        "Subject: ADVANCED ACCOUNTING ISSUES (ACC5AAI)",
+        "Critically evaluate the role and adequacy of ICT processes and controls in identifying, managing and reporting risks in organisations and improving organisational systems, processes and communications."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in accounting.",
+      "evidenceLines": [
+        "Apply International Financial Reporting Standards (IFRS) and the equivalent Australian Accounting Standards Board (AASB) standards to account for business transactions appropriately.",
+        "Want to become an accounting expert with career options beyond the traditional roles of accounting?",
+        "La Trobe\u2019s Master of Extended Professional Accounting offers you the flexibility to extend your study into a range of specialist business areas."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in accounting.",
+      "evidenceLines": [
+        "Apply the relevant IFRS and AASB accounting standards to prepare consolidated financial statements",
+        "Subject: AUDITING AND ASSURANCE  (ACC5AAS)",
+        "In this accredited degree, you\u2019ll build the skills and knowledge to create, analyse and interpret the accounting information that\u2019s essential in all businesses and public enterprises."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "To qualify for the award of Master of Extended Professional Accounting, students must complete 240 credit points consisting of:",
+        "Want to become an accounting expert with career options beyond the traditional roles of accounting?"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Extended Professional Accounting.",
+        "evidenceLines": [
+          "To qualify for the award of Master of Extended Professional Accounting, students must complete 240 credit points consisting of:",
+          "165 core credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in accounting.",
+        "evidenceLines": [
+          "Subject: ACCOUNTING PRINCIPLES AND PRACTICES (ACC4001)",
+          "Analyse and record business transactions, and prepare financial statements using double-entry accounting principles."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

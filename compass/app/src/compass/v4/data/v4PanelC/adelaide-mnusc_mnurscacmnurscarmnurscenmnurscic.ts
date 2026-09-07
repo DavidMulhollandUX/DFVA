@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in general nursing.",
+    "evidenceLines": [
+      "**Institution**: The University of Adelaide",
+      "**Program Identifier / Slug**: mnusc_mnurscacmnurscarmnurscenmnurscic",
+      "- **Institution**: The University of Adelaide"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in general nursing.",
+    "evidenceLines": [
+      "**Academic Calendar Year**: 2025/2026",
+      "**Faculty**: Faculty of Health and Medical Sciences",
+      "- **Program Identifier / Slug**: mnusc_mnurscacmnurscarmnurscenmnurscic"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within general nursing.",
+    "evidenceLines": [
+      "Subject: Knowledge Translation (NURS5052)",
+      "Subject: Professional Practice (MATH1021)",
+      "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/mnusc_mnurscacmnurscarmnurscenmnurscic"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in general nursing.",
+    "evidenceLines": [
+      "Describe the underlying principles of Knowledge Translation",
+      "Examine an area in nursing practice where there is a knowledge translation issue",
+      "- **Academic Calendar Year**: 2025/2026"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in general nursing.",
+    "evidenceLines": [
+      "Subject: Research Literacy (NURS5040)",
+      "Subject: Acute Care Nursing I (NURS5122)",
+      "Analyse the steps taken to address a knowledge translation issue"
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in general nursing.",
+    "evidenceLines": [
+      "Design a knowledge translation project intended to assess evidence use in the clinical setting",
+      "- **Institution**: The University of Adelaide",
+      "- **Program Identifier / Slug**: mnusc_mnurscacmnurscarmnurscenmnurscic"
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in general nursing.",
+    "evidenceLines": [
+      "Evaluate potential barriers to the translation of knowledge into practice and identify ways in which they can be addressed",
+      "Subject: Acute Care Nursing II (NURS5123)",
+      "- **Academic Calendar Year**: 2025/2026"
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "Students are able to specialise in: Acute Care Nursing; Anaesthetic and Recovery Nursing; Cardiac Nursing; Emergency Nursing;  Intensive Care Nursing; Oncology Nursing; Orthopaedic Nursing and Perioperative Nursing. Students may also complete the program with a Non-Specialist Nursing Science award without undertaking any of the specialisations.",
+      "- **Institution**: The University of Adelaide"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Nursing Science.",
+      "evidenceLines": [
+        "Students are able to specialise in: Acute Care Nursing; Anaesthetic and Recovery Nursing; Cardiac Nursing; Emergency Nursing;  Intensive Care Nursing; Oncology Nursing; Orthopaedic Nursing and Perioperative Nursing. Students may also complete the program with a Non-Specialist Nursing Science award without undertaking any of the specialisations.",
+        "The Master of Nursing Science is an AQF Level 9 qualification with a standard full-time duration of 2 years."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in general nursing.",
+      "evidenceLines": [
+        "Subject: Knowledge Translation (NURS5052)",
+        "**Institution**: The University of Adelaide"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

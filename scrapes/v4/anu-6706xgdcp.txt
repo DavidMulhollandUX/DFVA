@@ -1,0 +1,305 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/6706XGDCP =====
+# Graduate Diploma of Computing (6706XGDCP)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: 6706XGDCP
+- **Academic Year**: 2027
+- **Career / Study Level**: Postgraduate
+- **Program Duration**: 1 year full-time
+- **Minimum Units Required**: 48 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal GDComp
+- **CRICOS Code**: code 078938E
+- **UAC Code**: N/A
+- **Field of Education**: of Education Computer Science
+- **Academic Contact**: contact Dr Xiaoyu Sun
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/6706XGDCP
+
+## Program Description
+A single one year graduate award offered by theANU College of Systems and Society
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Design, implement programmatically, and evaluate a solution for a well-defined problem
+2. Demonstrate an understanding of the systems context in which software is developed and operated
+3. Communicate complex concepts effectively with a diverse audience using a range of modalities
+4. Depending upon the elective courses a student chooses, they will be able variously toa.    Apply a range of data modelling, management, analytics and visualisation techniques to extract value from structured and unstructured datab.    Demonstrate an understanding of a variety of computer systems approaches and architecturesc.    Apply of a variety of approaches to understanding and developing software systems
+
+## Program Requirements & Study Options
+### Program Requirements
+The Graduate Diploma of Computing requires the completion of 48 units, which must consist of:
+
+### Study Options
+Year 1
+48 units
+COMP6710
+Structured Programming
+6 units
+COMP6250
+Professional Practice: Holistic Thinking and Communication
+6 units
+MATH6005
+Discrete Mathematical Models
+6 units
+Computing Elective
+6 units
+COMP6442
+Software Construction
+6 units
+Computing Elective
+6 units
+Computing Elective
+6 units
+Computing Elective
+6 units
+
+### Admission Requirements
+Applicants must present one of the following:
+
+### Inherent Requirements
+Information on inherent requirement is currently not available for this program.
+
+### Electives
+When choosing elective courses, check the course listing on
+Programs and Courses
+to ensure that you have the required and assumed knowledge before enrolling. If you don't, consider changing your planned enrolment to make sure you take the pre-requisite course.
+All electives should be 6000, 7000, or 8000-level
+COMP courses.
+Recommended electives:
+COMP6120
+Software Engineering*
+COMP6240
+Relational Databases
+COMP6260
+Foundations of Computing
+COMP6261
+Information Theory
+COMP6262
+Logic
+COMP6300
+Computer Architecture
+COMP6390
+HCI and Usability Engineering
+COMP6466
+Algorithms
+COMP6670
+Introduction to Machine Learning
+*If you are planning
+to continue into the Master of Computing (MCOMP) after you have completed the
+Graduate Diploma, then you should complete
+COMP6120
+and select electives that
+are relevant to the MCOMP specialisation you are considering.
+
+### Study Options
+Please refer to the enrolment pattern in the Study tab
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6120 =====
+Subject: Software Engineering (COMP6120)
+Credit Points: 6 units
+Overview: Real-world software development is a complex and dynamic activity involving people, technology and processes interacting within a complex environment of clients, users and other stakeholders while being observant of technological, physical, social, legal, and ethical constraints.
+
+This course will empower students with the ability and confidence necessary to exercise critical thinking and professional judgment to select and apply appropriate knowledge, practices and tools to the development of non-trivial software systems. This will be achieved by introducing students to important design methodologies. We will build on previous programming courses to deepen and broaden students' knowledge and understanding of the practices and tools used to build large software systems within complex environments. We will use real-world examples such as distributed, high-integrity, web-based systems where rigorous software engineering can demonstrably enhance business value.
+
+Students will learn how practices and tools can be adapted to suit specific project needs and contexts. Knowledge, practices and tools considered in this course will include process models, requirements engineering, design, modelling and user experience.
+
+Software engineering design methodologies evolve over time. In this course, students will study the details of one or more design methodologies and critically assess their applicability to modern software systems.
+Learning Outcomes:
+- Discuss the breadth and nature of the software engineering process, including project management activities, and distinguish various phases of the process.
+- Evaluate other people's code contributions using modern formal code inspection approaches.
+- Compare correct techniques for ensuring and assessing the quality of software.
+- Assess the issues in constructing large software systems from their components, including considerations of cyber security and user-centred design, and evaluate the nature and design of these components.
+- Employ group working skills in solving software development problems;
+- Analyse and evaluate IT-related scenarios with reference to the software engineering code of ethics and professional practice.
+Assessment Tasks:
+- Assignment: 5% (Hurdle: False)
+- Group Assignments & Presentation: 50% (Hurdle: False)
+- Final Exam: 45% (Hurdle: False)
+Workload: 130 hours including lectures, video lectures, and tutorials and self study.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6240 =====
+Subject: Relational Databases (COMP6240)
+Credit Points: 6 units
+Overview: This course is an introduction to relational databases and the general skills for designing and using them. The topics include the relational data model, SQL, entity-relationship model,functional dependencies,(de-)normalisation, relational algebra, query processing and optimisation, database transactions and security. To deepen the understanding of relational databases, the current industry development of database systems such as NoSQL databases will be introduced at the end of this course.
+Learning Outcomes:
+- Describe the basic concepts of the relational model and understand its mathematical foundation;
+- Connect database design with social and economic impacts including security, ethics, and Australian Privacy Principles.
+- Use SQL to define, query and manipulate a relational database, and describe principles of SQL query processing and optimisation.
+- Use data modelling concepts and practices to create, evaluate and communicate relational database designs, collaboratively and individually.
+- Compare the relational data model with alternative models.
+Assessment Tasks:
+- In-class activities and quizzes: 10% (Hurdle: False)
+- Assignments: 30% (Hurdle: False)
+- Final Exam: 60% (Hurdle: False)
+Workload: Lectures and laboratory sessions plus self study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6250 =====
+Subject: Professional Practice: Holistic Thinking and Communication (COMP6250)
+Credit Points: 6 units
+Overview: This is one of two professional practice courses (the other isCOMP8260: Professional Practice: Responsible Innovation and Leadership) for engineering and computing graduate students that focus on developing professional and communication skills for the 21st century workplace. Industry bodies and employers of engineering and computing graduates consistently rank communication skills as one of the most important selection criteria when hiring.
+
+This course aims to heighten students’ awareness of ethical professional practice, and to develop new interpersonal and communication skills, leading to students becoming more competent professionals in their field.
+
+Based on Engineers Australia and Australian Computer Society professional competencies, students will develop and practice fundamental skills required by industry to better equip them for the workforce.
+Learning Outcomes:
+- Communicate effectively in a professional setting in written and spoken formats to transfer complex knowledge and ideas to technical and non-technical audiences.
+- Identify, critique and use appropriate sources of information when developing professional documents.
+- Maintain and develop appropriate, effective and professional forms of documentation.
+- Demonstrate effective team membership skills and contribute collaboratively within diverse team environments.
+- Articulate and reflect on the industry expectations of competence and ethical conduct in engineering and computing professions.
+Assessment Tasks:
+- Group assignments Marks for group tasks will include components for group performance and individual contribution of each student.: 60% (Hurdle: False)
+- Individual Assignments and Tutorial contributions Weighting of assessment items will be confirmed by the course convener at the start of semester and published in the class summary.: 40% (Hurdle: False)
+Workload: Inherent Requirements
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6260 =====
+Subject: Foundations of Computing (COMP6260)
+Credit Points: 6 units
+Overview: This course presents some formal notations that are commonly used for the description of computation and of computing systems, for the specification of software and for mathematically rigorous arguments about program properties.  The following areas of study constitute the backbone of the course. Predicate calculus and natural deduction, inductive definitions of data types as a basis for recursive functions and structural induction, formal language theory (particularly regular expressions, finite state machines and context free grammars), and specification languages.
+Learning Outcomes:
+- Apply the concepts of standard mathematical logic to produce proofs or refutations of well-formed propositions or arguments phrased in English or in a variety of formal notations (first order logic, discrete mathematics or Hoare logic). Express problems, presented in English, in these formal notations and demonstrate an awareness of the differences between them.
+- Relate structural induction to other forms of mathematical induction, and write a recursive definition of a given simple operation on data of a given type presented via an inductive definition of the data structure.
+- Explain the concept of program correctness and prove simple programs correct using Hoare Logic.
+Assessment Tasks:
+- Assignments: 40% (Hurdle: False)
+- Quizzes: 10% (Hurdle: False)
+- Final Exam: 50% (Hurdle: False)
+Workload: Lectures, tutorials and self-directed study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6261 =====
+Subject: Information Theory (COMP6261)
+Credit Points: 6 units
+Overview: Information theory studies the fundamental limits of the representation and transmission of information. This course provides an introduction to information theory, studying fundamental concepts such as probability, information, and entropy and examining their applications in the areas of data compression, coding, communications, pattern recognition and probabilistic inference.
+Learning Outcomes:
+- Understand and apply fundamental concepts in information theory such as probability, entropy, information content and their inter-relationships.
+- Understand the principles of data compression.
+- Compute entropy and mutual information of random variables.
+- Implement and analyse basic coding and compression algorithms.
+- Understand the relationship of information theoretical principles and Bayesian inference in data modelling and pattern recognition.
+- Understand some key theorems and inequalities that quantify essential limitations on compression, communication and inference.
+- Know the basic concepts regarding communications over noisy channels.
+Assessment Tasks:
+- Assignment 1: 10% (Hurdle: False)
+- Assignment 2: 20% (Hurdle: False)
+- Assignment 3: 20% (Hurdle: False)
+- Final Exam: 50% (Hurdle: False)
+Workload: Lectures and tutorial sessions plus self study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6262 =====
+Subject: Logic (COMP6262)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6300 =====
+Subject: Computer Architecture (COMP6300)
+Credit Points: 6 units
+Overview: This course is a rigorous introduction to the design of digital circuits and computer architecture. It provides technical foundations for how a computer system is built from the bottom up and how the high-level programming languages you learn in other courses are translated into simple instructions the computer executes. The course introduces the different abstraction layers necessary to make a computer system work, and a key focus is the connection between hardware and software.
+
+The course introduces the predominant stored-program computer paradigm and principles of digital design and computer architecture. Students build a fully functional general-purpose computer from simple logic circuits in a digital simulator. The course also demystifies assembly code, the machine language the processor speaks, and the mapping of assembly programs to higher levels of programming abstraction. The focus is on fundamental techniques employed in the design of modern microprocessors and their hardware/software interface.
+
+This course will challenge your understanding of how computers work and what happens in them when we run a program. At the end of this course, you will be able to navigate between layers of abstraction in a computer system, from individual digital circuits to high-level software, and understand how low-level structures enable and enhance the abilities of a computer system.
+
+This course covers topics such as combinational and sequential logic design, digital building blocks such as arithmetic/logic unit and random access memory, instruction set architectures and assembly programming, input/output systems, interrupt handling, single-cycle and pipelined processor design, out-of-order execution, and hardware speculation.
+Learning Outcomes:
+- Understand the basics of digital circuits and principles of digital design.
+- Learn how a modern computer works underneath from the bottom up.
+- Design and implement an advanced processor in a digital simulator following a principled approach.
+- Critically discuss the tradeoffs of different designs and ideas that reflect recent developments in the field.
+- Debug complex systems systematically at different abstraction layers.
+- Evaluate computer systems at abstraction levels from software to individual digital circuits and account for the implications of machine-level choices.
+- Write programs in assembly language and explain the relationship between high-level and assembly languages, including function calls and basic control structures.
+Assessment Tasks:
+- Labs and Quizzes: 10% (Hurdle: False)
+- Practical Assignments: 40% (Hurdle: False)
+- Final Exam: 50% (Hurdle: False)
+Workload: Lectures and laboratory sessions plus self study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6390 =====
+Subject: Human-Computer Interaction (COMP6390)
+Credit Points: 6 units
+Overview: This course will provide an overview of the field of Human-Computer Interaction (HCI) and will introduce students to key interaction and experience design paradigms, approaches and methods. The course will equip students with theory, methods, and techniques to investigate different design situations, develop and prototype novel design ideas, and engage with the ethical dimensions of technology design.
+Learning Outcomes:
+- Explain and illustrate key aspects of human-computer interaction, including relevant theories, ethical considerations, and perspectives.
+- Apply a design and prototyping process to develop interactive systems that address user needs.
+- Investigate activities, practices, and contexts of technology use through research methods.
+- Critically evaluate novel technology designs using human-computer interaction approaches.
+- Critically reflect on a designer's own presence and influence within a technology design and research process.
+Assessment Tasks:
+- Class Tasks: 10% (Hurdle: False)
+- Prototyping Assignment: 20% (Hurdle: False)
+- User Research Study: 30% (Hurdle: False)
+- Prototype Design and Research Project: 40% (Hurdle: False)
+Workload: Approximately 130 hours of study consisting of lectures, tutorials, and self-directed study and assessment work.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6466 =====
+Subject: Algorithms (COMP6466)
+Credit Points: 6 units
+Overview: Algorithms are the foundation of Computer Science. They enable advances in Artificial Intelligence, Machine Learning, Cybersecurity, Distributed, Mobile, and Cloud Computing, Computer Graphics and Animation, and many more. These advances have made Computer Science an indispensable part of our everyday life.
+
+The main goal of this course is to familiarize students with basic concepts in the design and analysis of algorithms and data structures. It focuses on fundamental computing problems such as sorting and searching. The students will learn how to use different algorithm design methods and data structures to solve such problems efficiently, as well as basic performance measures and analysis techniques.
+Learning Outcomes:
+- Display a solid understanding of classical algorithms for fundamental computing problems such as sorting and searching and their analysis.
+- Demonstrate deep knowledge of various data structures, such as binary search trees and heaps, and their applications.
+- Design efficient algorithms using techniques such as greedy approaches and dynamic programming.
+- Analyse the time and space complexity of algorithms.
+Assessment Tasks:
+- Assignments: 5% (Hurdle: False)
+- Midterm Test: 40% (Hurdle: False)
+- Final Exam: 55% (Hurdle: False)
+Workload: As a Master level course, students are expected to recap and conduct independent studies for as many hours as they need to gain an understanding of the materials. To help this learning process, we provide lectures and tutorial/laboratory sessions. The total workload is expected to be 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6670 =====
+Subject: Introduction to Machine Learning (COMP6670)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6710 =====
+Subject: Structured Programming (COMP6710)
+Credit Points: 6 units
+Overview: This is an introductory programming course that teaches basic concepts in imperative and object-oriented programming and corresponding data structures for students with some previous programming experience.
+
+Students will learn to use an industrial-strength object-oriented programming language and form basic mental models of how computer programs execute and interact with their environment. The course focuses on key aspects of solving programming problems: reasoning about a problem description to design appropriate data representations and function/method descriptions, to find examples, to write, test, debug, and otherwise evaluate the relevant code, and to present and defend their approach.
+
+Students will learn to effectively use a large standard library and key standard data structures, including lists, trees, hash tables, and graphs. The course also introduces the basics of reasoning about the time and space complexity of algorithms, in particular as related to the above data structures.
+Learning Outcomes:
+- Internalize computational thinking
+- Apply fundamental programming concepts, using an object-oriented programming language, to solve practical programming problems
+- Implement, debug, and evaluate algorithms for solving substantial problems; implement an abstract data type
+- Apply basic algorithmic analysis to simple algorithms; use appropriate algorithmic approaches to solve problems
+- Design, implement, and test data structures and code
+- Present, explain, evaluate, and defend choices in design and implementations of programs and algorithms
+- Independently write programs that address given programming problems
+- Understand their ethical responsibilities as a programmer with respect to Academic integrity, the use of Artificial Intelligence and authorship of code
+Assessment Tasks:
+- Assignments and in-Person Activities: 20% (Hurdle: False)
+- Final Exam and in-term test: 80% (Hurdle: False)
+Workload: Lectures, tutorials/laboratory sessions, presentations, assessments and self-study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/MATH6005 =====
+Subject: Discrete Mathematical Models (MATH6005)
+Credit Points: 6 units
+Overview: Introduction to discrete mathematics and its use in mathematical modelling. Emphasis will be placed on developing facility, technique and use in applications. Modelling of processes and phenomena which occur in the physical, environmental and life sciences, especially computer science, will be used as a vehicle throughout. Topics to be covered include: logic and set theory, combinatorics and counting, probability, induction and recurrence relations, graph theory and networks, matrix arithmetic and Markov chains.
+
+Note:This course is co-taught with undergraduate students but assessed separately.
+Learning Outcomes:
+- Recall, invent or interpret examples of motivation for mathematical constructs used in discrete mathematics as models of processes in the world.
+- Recognise, define, explain and use terminology and notation from discrete mathematics.
+- Identify the logical structure of a statement, and then identify the logical structure of an argument that may be used to prove or disprove the statement.
+- Competently perform mathematical calculations in discrete mathematics using methods presented in the course.
+- Write simple proofs/construct explicit counterexamples for statements relating to discrete mathematics topics covered in the course.
+- Use their deep knowledge and understanding of the material presented in the course to formulate responses to complex concrete and abstract problems.
+- Communicate their understanding and skills in discrete mathematics with colleagues and non-experts and apply their knowledge in an occupational situation.
+Assessment Tasks:
+- Workshop quizzes: 10% (Hurdle: False)
+- Graduate Written Assignments: 30% (Hurdle: False)
+- Final Examination Regardless of performance on other assessment items, a minimum score of 40% on the final exam is required to pass the course.: 60% (Hurdle: True)
+Workload: The expected workload will consist of approximately 130 hours throughout the semester including:
+

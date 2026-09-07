@@ -1,0 +1,102 @@
+{
+  "code": "uwa-bp056",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in medical studies.",
+      "evidenceLines": [
+        "**Institution**: The University of Western Australia (UWA)",
+        "**Course Code**: BP056",
+        "- **Institution**: The University of Western Australia (UWA)"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in medical studies.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Study Level**: Undergraduate",
+        "- **Study Level**: Undergraduate"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within medical studies.",
+      "evidenceLines": [
+        "Subject: Aboriginal Health and Wellbeing (AHEA2201)",
+        "Subject: Aboriginal Social and Emotional Wellbeing (AHEA3301)",
+        "**Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=BP056"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in medical studies.",
+      "evidenceLines": [
+        "**Institution**: The University of Western Australia (UWA)",
+        "**Course Code**: BP056",
+        "- **Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=BP056"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in medical studies.",
+      "evidenceLines": [
+        "Subject: Human Biology I: Becoming Human (ANHB1101)",
+        "Subject: Human Biology II: Being Human (ANHB1102)",
+        "**Academic Year**: 2026"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in medical studies.",
+      "evidenceLines": [
+        "**Study Level**: Undergraduate",
+        "- **Institution**: The University of Western Australia (UWA)",
+        "- **Study Level**: Undergraduate"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in medical studies.",
+      "evidenceLines": [
+        "**Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=BP056",
+        "Subject: Human Structure and Development (ANHB2212)",
+        "- **Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=BP056"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "The Bachelor of Biomedicine is a practical degree in which students will learn to master and apply biological and physiological principles to clinical practice and research across a broad arena of health and medical disciplines.  It includes four preclinical Extended Majors, three of which provide assured pathways into postgraduate clinical degrees (medicine, dentistry and podiatry).  The fourth is the new Extended Major in Medical Science with Specialisation, which has been developed to combine essential training and clinical context with a major-level focus on a chosen discipline to provide a strong foundation for other biomedical/health-related postgraduate studies including Masters and PhD studies at UWA. Students all take a set of core units in Levels 1 and 2, along with their chosen specialisation units. In year 3, students in the direct pathways commence their professional specialty units (Y1 professional degree), while students in the Medical Science Extended Major complete their Level 3 specialisation units plus two body systems units.",
+        "- **Institution**: The University of Western Australia (UWA)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Biomedicine.",
+        "evidenceLines": [
+          "The Bachelor of Biomedicine is a practical degree in which students will learn to master and apply biological and physiological principles to clinical practice and research across a broad arena of health and medical disciplines.  It includes four preclinical Extended Majors, three of which provide assured pathways into postgraduate clinical degrees (medicine, dentistry and podiatry).  The fourth is the new Extended Major in Medical Science with Specialisation, which has been developed to combine essential training and clinical context with a major-level focus on a chosen discipline to provide a strong foundation for other biomedical/health-related postgraduate studies including Masters and PhD studies at UWA. Students all take a set of core units in Levels 1 and 2, along with their chosen specialisation units. In year 3, students in the direct pathways commence their professional specialty units (Y1 professional degree), while students in the Medical Science Extended Major complete their Level 3 specialisation units plus two body systems units.",
+          "A student must successfully complete the ACE module within the first teaching period of their enrolment. Failure to complete the module within this timeframe will result in the student's unit results from this teaching period being withheld. These results will continue to be withheld until students avail themselves of a subsequent opportunity to achieve a passing grade in the ACE module. In the event that students complete units in subsequent teaching periods without completing the ACE module, these results will similarly be withheld. Students will not be permitted to submit late review or appeal applications regarding results which have been withheld for this reason and which they were unable to access in the normally permitted review period."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in medical studies.",
+        "evidenceLines": [
+          "Subject: Aboriginal Health and Wellbeing (AHEA2201)",
+          "**Institution**: The University of Western Australia (UWA)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

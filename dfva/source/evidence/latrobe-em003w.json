@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-em003w",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education: primary.",
+      "evidenceLines": [
+        "Demonstrate the ability to design whole class instructional and progress monitoring activities that align with the principles of contemporary learning science frameworks.",
+        "Apply knowledge of typical and atypical neurodevelopment to the instructional context to respond to the needs of diverse learners in the classroom in a Response to Intervention (RTI) framework.",
+        "If you\u2019re passionate about sharing your love of learning, La Trobe\u2019s Master of Teaching (Primary) will give you the tools to thrive in a rewarding teaching career."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education: primary.",
+      "evidenceLines": [
+        "Differentiate between teaching and intervention approaches that are well-supported by rigorous research evidence and those that are of low efficacy and impact.",
+        "Demonstrate the ability to identify students requiring intervention and the role of family-school connections, community agencies, representatives and external professionals in meeting such needs.",
+        "Feel completely prepared from your first day in the classroom."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education: primary.",
+      "evidenceLines": [
+        "Subject: UNDERSTANDING LEARNING AND DIFFERENTIATION (EDU5010)",
+        "Subject: UNDERSTANDING AND ASSESSING INTEGRATED CURRICULUM (EDU5011)",
+        "Demonstrate core disciplinary knowledge in Humanities, Health and Physical Education/PDHPE, English and Mathematics"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education: primary.",
+      "evidenceLines": [
+        "Design learning and assessment sequences that incorporate integration across curriculum areas",
+        "Select a range of evidence-based assessment practices to evaluate progress, adjust instruction, provide targeted feedback, and support learning.",
+        "Through a combination of practical and evidence-based learning, you\u2019ll gain the confidence and knowledge to help shape the lives of our next generation."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education: primary.",
+      "evidenceLines": [
+        "Subject: FRAMING IDENTITIES AND CULTURES (EDU5012)",
+        "Subject: LEARNING DESIGN AND CLASSROOM MANAGEMENT  (EDU5013)",
+        "Demonstrate understanding of integrated curriculum and how it contributes to learning and disciplinary knowledge in Humanities, Health and Physical Education/PDHPE, English and Mathematics"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education: primary.",
+      "evidenceLines": [
+        "Demonstrate understanding of culturally safe and inclusive resources and pedagogies from an Aboriginal and Torres Strait Islander perspective.",
+        "If you\u2019re passionate about sharing your love of learning, La Trobe\u2019s Master of Teaching (Primary) will give you the tools to thrive in a rewarding teaching career.",
+        "Feel completely prepared from your first day in the classroom."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education: primary.",
+      "evidenceLines": [
+        "Demonstrate and apply knowledge of and respect for Aboriginal and Torres Strait Islander cultures and histories",
+        "Subject: FOUNDATIONS OF LANGUAGE AND EARLY READING (EDU5014)",
+        "Through a combination of practical and evidence-based learning, you\u2019ll gain the confidence and knowledge to help shape the lives of our next generation."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "To qualify for the award of Master of Teaching (Primary), students\u00a0must complete 240 credit points of study in total, consisting of:",
+        "If you\u2019re passionate about sharing your love of learning, La Trobe\u2019s Master of Teaching (Primary) will give you the tools to thrive in a rewarding teaching career."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Teaching (Primary) - Albury.",
+        "evidenceLines": [
+          "To qualify for the award of Master of Teaching (Primary), students\u00a0must complete 240 credit points of study in total, consisting of:",
+          "240 core credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in teacher education: primary.",
+        "evidenceLines": [
+          "Subject: UNDERSTANDING LEARNING AND DIFFERENTIATION (EDU5010)",
+          "Demonstrate the ability to design whole class instructional and progress monitoring activities that align with the principles of contemporary learning science frameworks."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

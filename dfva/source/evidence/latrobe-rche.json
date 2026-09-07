@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-rche",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education.",
+      "evidenceLines": [
+        "Critically reflect on how current trends in learning and teaching in higher education impact your practice.",
+        "Critically analyse the higher education literature in relation to your practice in curriculum, teaching and learning.",
+        "If you\u2019re keen to develop your teaching capabilities and understand how to better support learning, La Trobe\u2019s Graduate Certificate in Higher Education Curriculum, Teaching and Learning will give you a deep understanding of the key theories in teaching and curriculum design within a practice-based course."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education.",
+      "evidenceLines": [
+        "Apply the principles of learner interactions and active learning in the design of a teaching and learning activity.",
+        "Integrate a scholarly approach to your professional practice.",
+        "This flexible, online course is exclusively available to staff at La Trobe who are in a teaching and learning role."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education.",
+      "evidenceLines": [
+        "Subject: CURRICULUM, TEACHING AND LEARNING (EDU4CTL)",
+        "Subject: DESIGN AND DELIVERY ONLINE (EDU4DDO)",
+        "Design and evaluate online assessments to achieve learning objectives, including formal and informal feedback processes for diverse learners."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education.",
+      "evidenceLines": [
+        "Integrate a scholarly approach to your professional practice.",
+        "Apply learning theories and principles to the development and evaluation of meaningful online learning interactions to promote higher-order learning.",
+        "The course is designed for a wide range of academic and professional staff, from academic lecturers to library learning advisors."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education.",
+      "evidenceLines": [
+        "Subject: HIGHER EDUCATION CURRICULUM DESIGN (EDU4HEC)",
+        "Subject: TEACHING IN HIGHER EDUCATION: EFFECTIVE, REFLECTIVE PRACTICE (EDU4HET)",
+        "Critically analyse and appraise learner-centred approaches to the design and delivery of online learning."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education.",
+      "evidenceLines": [
+        "Integrate a scholarly approach to your professional practice.",
+        "If you\u2019re keen to develop your teaching capabilities and understand how to better support learning, La Trobe\u2019s Graduate Certificate in Higher Education Curriculum, Teaching and Learning will give you a deep understanding of the key theories in teaching and curriculum design within a practice-based course.",
+        "This flexible, online course is exclusively available to staff at La Trobe who are in a teaching and learning role."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education.",
+      "evidenceLines": [
+        "Critically review and evaluate curriculum design in accordance with contemporary leading practice in higher education.",
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "The course is designed for a wide range of academic and professional staff, from academic lecturers to library learning advisors."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "Students must complete a total of 60 credit points to graduate from this course.",
+        "If you\u2019re keen to develop your teaching capabilities and understand how to better support learning, La Trobe\u2019s Graduate Certificate in Higher Education Curriculum, Teaching and Learning will give you a deep understanding of the key theories in teaching and curriculum design within a practice-based course."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate in Higher Education Curriculum, Teaching and Learning.",
+        "evidenceLines": [
+          "Students must complete a total of 60 credit points to graduate from this course.",
+          "60 credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in teacher education.",
+        "evidenceLines": [
+          "Subject: CURRICULUM, TEACHING AND LEARNING (EDU4CTL)",
+          "Critically reflect on how current trends in learning and teaching in higher education impact your practice."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-shps",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in psychology.",
+      "evidenceLines": [
+        "Reflect critically on your own cultural attitudes, values and beliefs",
+        "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+        "Build on your successes in the Bachelor of Psychological Science by completing Honours to enhance essential employability skills or take your first step to a career in research, academia and beyond."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in psychology.",
+      "evidenceLines": [
+        "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+        "Understand the need for and value of appropriate and effective intercultural communication",
+        "You'll gain a deeper understanding of research theory, design and practice principles introduced in your undergraduate degree."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within psychology.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "Understand the importance of the acknowledgment and the referencing of sources"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in psychology.",
+      "evidenceLines": [
+        "Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.",
+        "Recognise and understand academic integrity responsibilities.",
+        "You'll study advanced theory in psychology and take part in a tailored psychology research methodology seminar."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in psychology.",
+      "evidenceLines": [
+        "Subject: ADVANCED ASSESSMENT AND INTERVENTION (PSY4AAI)",
+        "Subject: ADVANCED TOPICS IN PSYCHOLOGY (PSY4ATP)",
+        "Critically evaluate and choose suitable behavioural and cognitive-behavioural treatment approaches to a variety of presentations including depression, anxiety disorders, and personality disorders."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in psychology.",
+      "evidenceLines": [
+        "Apply skills and in-depth knowledge in psychological assessment and intervention that is considerate of and responsive to diversity within individuals, with the intention to promote respect and understanding among all cultures and diverse communities.",
+        "Build on your successes in the Bachelor of Psychological Science by completing Honours to enhance essential employability skills or take your first step to a career in research, academia and beyond.",
+        "You'll gain a deeper understanding of research theory, design and practice principles introduced in your undergraduate degree."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in psychology.",
+      "evidenceLines": [
+        "Apply skills in basic interviewing and counselling techniques.",
+        "Subject: ETHICS AND PROFESSIONAL ISSUES IN PSYCHOLOGY (PSY4EPI)",
+        "You'll study advanced theory in psychology and take part in a tailored psychology research methodology seminar."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "To qualify for the award of Bachelor of Psychological Science with Honours, students must complete 120\u00a0credit points consisting of:",
+        "Build on your successes in the Bachelor of Psychological Science by completing Honours to enhance essential employability skills or take your first step to a career in research, academia and beyond."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Psychological Science with Honours.",
+        "evidenceLines": [
+          "To qualify for the award of Bachelor of Psychological Science with Honours, students must complete 120\u00a0credit points consisting of:",
+          "120 core credit points."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in psychology.",
+        "evidenceLines": [
+          "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+          "Reflect critically on your own cultural attitudes, values and beliefs"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

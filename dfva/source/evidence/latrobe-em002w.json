@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-em002w",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education: secondary.",
+      "evidenceLines": [
+        "Demonstrate knowledge and understanding of the concepts, substance and structure of the content of relevant secondary Arts curriculum.",
+        "Demonstrate ability to \u2018backwards design\u2019 an appropriate learning and teaching sequence using the Understanding by Design (UbD) planning model, knowledge of student learning, content and effective teaching strategies.",
+        "If you\u2019re passionate about teaching and are keen to build a rewarding career in secondary school teaching, La Trobe's Master of Teaching (Secondary) is for you."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education: secondary.",
+      "evidenceLines": [
+        "Demonstrate ability to organise content into an effective learning and teaching sequence for summative assessment using knowledge of relevant secondary Arts curriculum and UbD planning model, including design and justification of an assessment task and rubric.",
+        "Demonstrate ability to organise content into a sequence enabling various forms of diagnostic and formative assessments for the purposes of evaluation, reflection and goal setting, using knowledge of relevant secondary Arts curriculum.",
+        "Get the skills, experience and confidence you need to make a real difference in the classroom."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education: secondary.",
+      "evidenceLines": [
+        "Subject: ARTS SECONDARY PEDAGOGIES 1 (EDU4016)",
+        "Subject: ARTS SECONDARY PEDAGOGIES 2 (EDU4017)",
+        "Demonstrate knowledge and understanding of various pedagogical approaches relevant to teaching secondary Arts curriculum."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education: secondary.",
+      "evidenceLines": [
+        "Demonstrate ability to organise content into an effective learning and teaching sequence using knowledge of relevant secondary Arts curriculum, SOLO taxonomy and Bloom\u2019s Revised Taxonomy.",
+        "Demonstrate ability to organise content into a sequence enabling various forms of diagnostic and formative assessments for the purposes of evaluation, reflection and goal setting, using knowledge of relevant senior secondary Arts curriculum.",
+        "Feel completely prepared from your first day."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education: secondary.",
+      "evidenceLines": [
+        "Subject: ENGLISH SECONDARY PEDAGOGIES 1 (EDU4018)",
+        "Subject: ENGLISH SECONDARY PEDAGOGIES 2 (EDU4019)",
+        "Demonstrate ability to organise content into an effective learning and teaching sequence using knowledge of relevant senior secondary Arts curriculum, SOLO taxonomy and Bloom\u2019s Revised Taxonomy."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education: secondary.",
+      "evidenceLines": [
+        "Demonstrate ability to \u2018backwards design\u2019 an appropriate learning and teaching sequence using the Understanding by Design (UbD) planning model, knowledge of student learning, content and effective teaching strategies (including literacy and numeracy teaching strategies appropriate to Arts).",
+        "If you\u2019re passionate about teaching and are keen to build a rewarding career in secondary school teaching, La Trobe's Master of Teaching (Secondary) is for you.",
+        "Get the skills, experience and confidence you need to make a real difference in the classroom."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education: secondary.",
+      "evidenceLines": [
+        "Demonstrate knowledge and understanding of various pedagogical approaches relevant to teaching senior secondary Arts curriculum.",
+        "Subject: HEALTH AND PHYSICAL EDUCATION SECONDARY PEDAGOGIES 1 (EDU4020)",
+        "Feel completely prepared from your first day."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "To qualify for the award of Master of Teaching (Secondary), students\u00a0must complete 240 credit points of study in total, consisting of:",
+        "If you\u2019re passionate about teaching and are keen to build a rewarding career in secondary school teaching, La Trobe's Master of Teaching (Secondary) is for you."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Teaching (Secondary) - Albury.",
+        "evidenceLines": [
+          "To qualify for the award of Master of Teaching (Secondary), students\u00a0must complete 240 credit points of study in total, consisting of:",
+          "180 core credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in teacher education: secondary.",
+        "evidenceLines": [
+          "Subject: ARTS SECONDARY PEDAGOGIES 1 (EDU4016)",
+          "Demonstrate knowledge and understanding of the concepts, substance and structure of the content of relevant secondary Arts curriculum."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

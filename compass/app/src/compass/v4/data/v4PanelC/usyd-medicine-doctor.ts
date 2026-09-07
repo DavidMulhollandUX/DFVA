@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in medical studies.",
+    "evidenceLines": [
+      "**Institution**: The University of Sydney (USYD)",
+      "**Course / Program Identifier**: medicine-doctor",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in medical studies.",
+    "evidenceLines": [
+      "**Academic Year**: 2026",
+      "**Faculty**: medicine-health-pg",
+      "- **Course / Program Identifier**: medicine-doctor"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within medical studies.",
+    "evidenceLines": [
+      "Subject: Clinical and Research Practice 1 (MDMP6511)",
+      "Subject: Clinical and Research Practice 2 (MDMP6512)",
+      "**Handbook URL**: https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/medicine-doctor.html"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in medical studies.",
+    "evidenceLines": [
+      "LO1 . Outline the etiology, epidemiology and pathogenesis of the common medical and surgical conditions encountered in both hospital and community settings and taught in Blocks 1 and 2** in order to explain symptoms and signs in terms of the underlying mechanisms",
+      "LO2 . Apply knowledge regarding normal and abnormal human structure and function across the life course in the context of acute and chronic disease",
+      "- **Faculty**: medicine-health-pg"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in medical studies.",
+    "evidenceLines": [
+      "Subject: Specialty Clinical 1 (MDMP7511)",
+      "Subject: Preparation for Practice 1 (MDMP8511)",
+      "LO3 . Apply knowledge of sociobehavioural sciences to understand the effect of acute or chronic disease in individuals or groups"
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in medical studies.",
+    "evidenceLines": [
+      "LO4 . Apply knowledge of relevant clinical anatomy, pharmacology, cell/molecular biology and microbiology in simulated or real clinical settings across the life course in both hospital and community settings",
+      "- **Institution**: The University of Sydney (USYD)",
+      "- **Course / Program Identifier**: medicine-doctor"
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in medical studies.",
+    "evidenceLines": [
+      "LO5 . Outline the clinical features and natural history of the common medical and surgical conditions encountered in both hospital and community setting and taught in Blocks 1 and 2** in order to synthesise lists of likely differential diagnoses",
+      "Subject: Preparation for Practice 1 (MDMP8511)",
+      "- **Faculty**: medicine-health-pg"
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "Students complete 192 credit points, including:",
+      "- **Institution**: The University of Sydney (USYD)"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Medicine.",
+      "evidenceLines": [
+        "Students complete 192 credit points, including:",
+        "(a) 192 credit points across the four year program"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in medical studies.",
+      "evidenceLines": [
+        "Subject: Clinical and Research Practice 1 (MDMP6511)",
+        "**Institution**: The University of Sydney (USYD)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

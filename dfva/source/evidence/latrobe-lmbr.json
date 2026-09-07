@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-lmbr",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+      "evidenceLines": [
+        "Effectively manage your literature library using a reference management system",
+        "Evaluate the ideas and debates of the philosophy of science in the context of business research",
+        "This course requires the submission of a thesis of up to 50,000 words for examination."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+      "evidenceLines": [
+        "Communicate arguments and syntheses of research in a professional and scholarly manner",
+        "Generate appropriate research questions from a rigorous literature review of a relevant body of knowledge",
+        "You can undertake supervised research in accounting, data analytics, economics, entrepreneurship, finance, management and human resources, marketing, sports management, or tourism."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+      "evidenceLines": [
+        "Subject: FOUNDATIONS OF BUSINESS RESEARCH (BUS5004)",
+        "Subject: QUANTITATIVE DATA ANALYSIS (BUS5005)",
+        "Generate quantitative insights utilising a prescribed statistical package."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+      "evidenceLines": [
+        "Define and justify the use of univariate and/or multivariate data analysis techniques to address a research problem",
+        "Communicate the methods and/or results of the quantitative approaches utilised in a professional and scholarly way to an academic and practitioner audience",
+        "The course includes four coursework subjects, which provide training in research skills and may be waived for students who have completed an Honours degree or equivalent."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+      "evidenceLines": [
+        "Subject: RESEARCH DESIGN (BUS5006)",
+        "Subject: QUALITATIVE DATA ANALYSIS (BUS5007)",
+        "Critically evaluate various research design and methodologies"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+      "evidenceLines": [
+        "Identify ethical issues within a research setting and develop an appropriate response to these issues",
+        "This course requires the submission of a thesis of up to 50,000 words for examination.",
+        "You can undertake supervised research in accounting, data analytics, economics, entrepreneurship, finance, management and human resources, marketing, sports management, or tourism."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+      "evidenceLines": [
+        "Develop and justify a written research proposal designed to address research questions within your discipline",
+        "Subject: ECONOMETRICS AND DATA ANALYTICS (BUS5008)",
+        "The course includes four coursework subjects, which provide training in research skills and may be waived for students who have completed an Honours degree or equivalent."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "To qualify for an award of the degree, you must submit a satisfactory thesis of up to 50,000 words, demonstrating specialised knowledge and research skills in any of the following disciplines: accounting, data analytics, economics, entrepreneurship, finance, management and human resources, marketing, sports management, and tourism.\u00a0 Your thesis will be examined by at least two external examiners.",
+        "This course requires the submission of a thesis of up to 50,000 words for examination."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Business.",
+        "evidenceLines": [
+          "To qualify for an award of the degree, you must submit a satisfactory thesis of up to 50,000 words, demonstrating specialised knowledge and research skills in any of the following disciplines: accounting, data analytics, economics, entrepreneurship, finance, management and human resources, marketing, sports management, and tourism.\u00a0 Your thesis will be examined by at least two external examiners.",
+          "The degree of Master of Business (Research) shall be awarded based on examination of the thesis and, if applicable, after the satisfactory completion of any coursework requirements."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in business and management.",
+        "evidenceLines": [
+          "Subject: FOUNDATIONS OF BUSINESS RESEARCH (BUS5004)",
+          "Effectively manage your literature library using a reference management system"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

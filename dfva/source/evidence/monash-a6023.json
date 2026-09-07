@@ -1,0 +1,102 @@
+{
+  "code": "monash-a6023",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+      "evidenceLines": [
+        "18 credit points that must include APG5611, APG5875 and APG5677;",
+        "12 credit points that is one of APG5044 or APG5883 as you cannot complete both; and",
+        "This international double master's program enables you to complete the requirements of the Monash Master of Interpreting and Translation Studies (MITS), as well as a second degree with one of the following universities:"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+      "evidenceLines": [
+        "18 credit points chosen from the remaining listed units (APG5601, APG5602, APG5603 and APG5604).",
+        "ASA5006 Arts study abroad",
+        "In each case, you will study one year at Monash University in Australia and one year at the partner university."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+      "evidenceLines": [
+        "Subject: Arts exchange unit (AEH5005)",
+        "Subject: Arts exchange unit (AEH5006)",
+        "ASA5007 Arts study abroad"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+      "evidenceLines": [
+        "ASA5008 Arts study abroad",
+        "ASA5009 Arts study abroad",
+        "On successful completion of the academic program at Monash and the academic program at the partner university, students will be eligible to graduate with the degrees from both institutions, awarded separately."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+      "evidenceLines": [
+        "Subject: Professional internship (APG5044)",
+        "Subject: Introduction to interpreting (APG5169)",
+        "Core studies (24 credit points);"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+      "evidenceLines": [
+        "Additional core studies (12 credit points); and",
+        "This international double master's program enables you to complete the requirements of the Monash Master of Interpreting and Translation Studies (MITS), as well as a second degree with one of the following universities:",
+        "In each case, you will study one year at Monash University in Australia and one year at the partner university."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+      "evidenceLines": [
+        "Applied studies (12 credit points).",
+        "Subject: Community interpreting (APG5177)",
+        "On successful completion of the academic program at Monash and the academic program at the partner university, students will be eligible to graduate with the degrees from both institutions, awarded separately."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "This international double master's program enables you to complete the requirements of the Monash Master of Interpreting and Translation Studies (MITS), as well as a second degree with one of the following universities:",
+        "This international double master's program enables you to complete the requirements of the Monash Master of Interpreting and Translation Studies (MITS), as well as a second degree with one of the following universities:"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Interpreting and Translation Studies.",
+        "evidenceLines": [
+          "This international double master's program enables you to complete the requirements of the Monash Master of Interpreting and Translation Studies (MITS), as well as a second degree with one of the following universities:",
+          "In each case, you will study one year at Monash University in Australia and one year at the partner university. \u00a0On successful completion of the academic program at Monash and the academic program at the partner university, students will be eligible to graduate with the degrees from both institutions, awarded separately."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+        "evidenceLines": [
+          "Subject: Arts exchange unit (AEH5005)",
+          "18 credit points that must include APG5611, APG5875 and APG5677;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

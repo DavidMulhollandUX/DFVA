@@ -1,0 +1,130 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/HCOMP =====
+# Bachelor of Computing (Honours) (HCOMP)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: HCOMP
+- **Academic Year**: 2027
+- **Career / Study Level**: Undergraduate
+- **Program Duration**: 1 year full-time
+- **Minimum Units Required**: 48 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal BComp(Hons)
+- **CRICOS Code**: code 112693A
+- **UAC Code**: N/A
+- **Field of Education**: of Education Computer Science
+- **Academic Contact**: contact Felipe Trevizan
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/HCOMP
+
+## Program Description
+A single one year undergraduate award offered by theANU College of Systems and Society
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Demonstrate a sound knowledge and critical understanding of research design and methods
+2. Apply that knowledge to the development of a research proposal and research plan
+3. Develop the capacity to perform high-level independent research
+4. Exhibit in-depth knowledge of their chosen research topic
+5. Demonstrate a high level of ability to critically analyse and evaluate computer science research questions and communicate the results.
+
+## Program Requirements & Study Options
+### Program Requirements
+Bachelor of Computing (Honours) requires the completion of 48 units, which must consist of:
+
+### Elective Study
+Once you have met the program requirements of your degree, you may have enough electives to complete an additional elective
+major
+,
+minor
+or
+specialisation
+.
+
+### Admission Requirements
+At a minimum, all applicants must meet program-specific academic/non-academic requirements, and English language requirements. Admission to ANU is on a competitive basis as the number of places available in a program is limited. Admission to Honours is also subject to supervisory capacity and approval from the relevant Delegated Authority within the Academic College.
+
+### Program Structure & Prescribed Units of Study
+The following 4 units of study are prescribed for this academic program:
+  * [ COMP4450 Computing Research Methods ](https://programsandcourses.anu.edu.au/course/COMP4450)
+  * [ COMP4500 Software Engineering Team Project ](https://programsandcourses.anu.edu.au/course/COMP4500)
+  * [ COMP4550 Computing Research Project ](https://programsandcourses.anu.edu.au/course/COMP4550)
+  * [ COMP4820 Advanced Computing Internship ](https://programsandcourses.anu.edu.au/course/COMP4820)
+
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP4450 =====
+Subject: Computing Research Methods (COMP4450)
+Credit Points: 6 units
+Overview: The course introduces students to some fundamentals of research methodology. The course comprises a series of lectures which cover the following topics: Philosophy of Science, Quantitative Research Methods, Qualitative Research Methods, Basic Machine Learning Methods, Theoretical Research Methods, How to find a Research Topic, Literature Analysis, Reading and Reviewing Papers, Research Ethics and Commercialising Research.
+
+The lectures will be complemented by a series of workshops, labs and assignments that require students to do some small research focused tasks that help them get a hands-on experience of research, both individually and in teams of students. This includes different tasks such as topic modelling, statistical analysis, applying different machine learning techniques to solve a problem in a team, proving theorems, complexity analysis, designing a research project, reviewing papers and presenting papers.
+
+Workshops cover topics such as research integrity, time management and project management, teamwork, reading strategies, report writing, and presenting research. At the end of the course, students will be confident to start working on their own research projects.
+Learning Outcomes:
+- Effectively communicate research questions, methods and outcomes in oral, written and graphical forms to a broad audience using appropriate tools.
+- Justify and apply appropriate ethical technological choices based on a consideration of the research question and methods.
+- Apply effective literature search and critical evaluation skills.
+- Explain the process of identifying and formulating ethical research questions.
+- Explain the role academic integrity and the importance of building upon and correctly attributing the work of others.
+Assessment Tasks:
+- Research Proposal: 20% (Hurdle: False)
+- Literature Review: 60% (Hurdle: False)
+- Presentation: 20% (Hurdle: False)
+Workload: 130 hours from a combination of lectures, workshops/tutorials, assessments and individual study.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP4500 =====
+Subject: Software Engineering Team Project (COMP4500)
+Credit Points: 6 units
+Overview: COMP4500is an annual course that must be completed twice, in consecutive semesters.
+
+This course exposes students to professional software engineering practice and leadership through the development of a software system for an industry, government or university based customer, or by engaging with the ACT innovation community and students across the university to create a software-based start-up business. Students will lead small teams to plan (define, estimate, schedule) and manage an appropriate set of activities to ultimately deliver a software product. The implementation part of the project will include monitoring, measuring, tracking, and managing change.
+
+To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener.
+Learning Outcomes:
+- Develop as a leading member of a transdisciplinary team that creatively identifies, implements, and delivers a software solution to a complex problem.
+- Develop lifelong learning through reflection, as demonstrated through continual reflection on the software development lifecycle (SDLC) and teamwork processes experienced throughout the year.
+- Demonstrate and develop the ability to employ team formation strategies and stages leading to a high-performing self-managing team.
+- Present, communicate, and effectively defend sound engineering decisions at project reviews, both orally and in writing, with peers, supervisors, and project stakeholders.
+- Demonstrate a sound understanding of project, configuration, and risk management processes when undertaking a software development project.
+- Demonstrate a sound understanding of the different stages of the SDLC.
+- Demonstrate a sound use of standards in software development.
+Assessment Tasks:
+- Three group project reviews: 75% (Hurdle: False)
+- Group Poster and Showcase: 10% (Hurdle: False)
+- Individual Reflection: 15% (Hurdle: False)
+Workload: Annual course. COMP4500 must be taken in two consecutive semesters. Around 50 contact hours across Team Formation Day, introductory lectures, tutor meetings, project reviews and public showcase. Around 210 hours of group project work and individual study.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP4550 =====
+Subject: Computing Research Project (COMP4550)
+Credit Points: 12 units
+Overview: COMP4550(12+12) is an Annual course that must be completed twice, in consecutive semesters.
+
+Students will conduct an individual research project under the close supervision of one or more academic staff. Projects will, at least in part, require the application of theoretical or experimental research techniques. In particular, students will be expected to conduct and present a survey of the literature relevant to the research topic.
+
+Students will prepare a thesis reporting on the research project and its outcomes. They will also be expected to present a poster or a short seminar describing their work.
+Learning Outcomes:
+- Identify a question/problem in a particular field of computing and devise a plan for a research project to investigate the topic.
+- Apply effective literature search and critical evaluation skills to complete a literature survey in the project topic area.
+- Select and apply appropriate research methods, tools, techniques to develop research findings and insights.
+- Effectively communicate research questions, methods and outcomes in oral, written and graphical forms to a broad audience using appropriate tools.
+- Produce a structured written thesis demonstrating an understanding of the chosen research area.
+Assessment Tasks:
+- Thesis: 90% (Hurdle: False)
+- Presentation: 10% (Hurdle: False)
+Workload: Annual Course. Students enrol in Semester 1 and Semester 2 in consecutive semesters.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP4820 =====
+Subject: Advanced Computing Internship (COMP4820)
+Credit Points: 12 units
+Overview: This course will enable advanced computing students to develop competencies expected of professionals working in business, government or the broader community. The internship opportunities are published on the School of Computing Projects webpage. A holistic selection process, including interviews with the Host, will be used to select the best applicant for each opportunity. Students can also propose internships, but these will always be established following negotiations between the ANU and potential host organisations, and then offered to students along with other opportunities.
+Learning Outcomes:
+- Demonstrate a personal commitment to ethical behaviour, competent practice, meeting legal and regulatory requirements, taking responsibility for their own work and acknowledging the work of others.
+- Demonstrate a commitment to safety and sustainability, appropriate engagement with relevant stakeholders, and identify, assess and manage risk.
+- Communicate effectively and work productively in a trans-disciplinary team, using initiative and sound judgement, to achieve defined workplace objectives.
+- Apply their knowledge and skills in computer science to explore and critically analyse a real-world problem; using creativity and innovation, identify and critically evaluate potential solutions to the problem; choose and implement a particular solution; and critically evaluate and analyse the outcomes and impact of this solution.
+Assessment Tasks:
+- Statement of Work: 25% (Hurdle: False)
+- Poster and Pitch: 25% (Hurdle: False)
+- Feedback and Reflection: 50% (Hurdle: False)
+Workload: 240 hours of student learning time, consisting of a combination of contribution at the internship placement, attendance at and participation in assessment and learning activities, and writing reflective reports.
+

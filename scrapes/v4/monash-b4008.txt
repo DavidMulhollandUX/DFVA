@@ -1,0 +1,129 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/B4008 =====
+## Graduate Certificate of Analytics
+##### B4008
+##### 24 credit points
+You are viewing the 2026 version
+
+### Overview
+In this online course you will be introduced to the fundamental principles and tools in analytics, and gain key skills required to use data to make informed business decisions. As part of this graduate certificate, you will complete units in python programming, data science and statistical data modelling.
+
+This course is perfect if you are wanting to upskill and develop a deeper understanding of data-backed decision making. You will be introduced to analytics skills at an advanced graduate level, with an opportunity to continue into the Master’s degree if you want to proceed with further study.
+
+### AQF level
+Level 8 - Graduate Certificate
+### Post-nominals
+GradCertAt
+
+### Structure
+The course comprises four units where you be introduced to analytic principles and skills at an advanced graduate level.
+
+Course progression map
+
+The course progression map provides guidance on unit enrolment for each semester of study.
+
+### Requirements
+The course comprises 24 credit points.
+
+You must complete the following four units (24 credit points)
+
+  * LEO5310 Data exploration, visualisation, and information design
+
+  * LEO5311 Quantitative analysis and data modelling
+
+  * LEO5312 Data reporting, presentation, and dashboards
+
+  * LEO5104 Enterprise analytics
+
+### Course structure
+24 credit points
+**Core studies** **24 credit points**
+You must complete the following units
+  [ _arrow_forward_ LEO5311 Quantitative analysis and data modelling ](https://handbook.monash.edu/2026/units/LEO5311)
+  [ _arrow_forward_ LEO5310 Data exploration, visualisation, and information design ](https://handbook.monash.edu/2026/units/LEO5310)
+  [ _arrow_forward_ LEO5312 Data reporting, presentation, and dashboards ](https://handbook.monash.edu/2026/units/LEO5312)
+  [ _arrow_forward_ LEO5104 Enterprise analytics ](https://handbook.monash.edu/2026/units/LEO5104)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+be responsible and effective global citizens who:
+
+  * engage in an internationalised world 
+
+  * exhibit cross-cultural competence 
+
+  * demonstrate ethical values
+**2.**
+apply the core principles and approaches to data analytics in a business context
+**3.**
+be critical and creative scholars who:
+
+  * produce innovative solutions to problems
+apply research skills to business challenges
+communicate effectively and perceptively
+
+### Progression to further studies
+Students who successfully complete the Graduate Certificate of Analytics will be eligible for admission at entry point 2 into the Master of Analytics (B6028).
+
+Successful completion of this course may also provide a pathway to a graduate diploma or master's course in the Faculty of Business and Economics subject to satisfying the appropriate entry requirements.
+
+### AHEGS
+The Graduate Certificate of Analytics is a postgraduate award. The course is taught in English. Graduates develop a broad knowledge of modern data analysis tools in the context of business and economics. They appreciate the emerging role of analytics in the business environment, understand the types of mathematical, statistical and computing skills required to design and manage an analytics project. The course takes 0.5 year of full-time equivalent study to complete. The Graduate Certificate of Analytics is a level 8 Australian Qualifications Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations.
+
+### Degrees awarded
+Graduate Certificate of Analytics
+
+===== SOURCE: https://handbook.monash.edu/2026/units/LEO5104 =====
+Subject: Enterprise analytics (LEO5104)
+Credit Points: 6
+Overview: The modern organisation generates a significant amount of data which is used to enhance decision making and improve ESG (environmental, social, governance) performance. Implementing analytics across an enterprise should establish a data-driven environment using the right tools and platforms to convert data into meaningful information for the right end users. This unit explores how contemporary business intelligence, data analytics and reporting capabilities (e.g., Excel, Power BI, Tableau) can be used effectively to communicate actionable insights to stakeholders. You will consider the strategic and technical considerations of designing, delivering and utilising a successful enterprise analytics solution for today’s global challenges.
+Learning Outcomes:
+- identify and critically evaluate the frameworks, tools and applications that can be used in an enterprise setting to deliver actionable reporting and insights.
+- develop and understand data storytelling skills combined with analytical resources to foster a data-driven enterprise
+- demonstrate an understanding of the strategies and challenges of implementing an enterprise analytics solution
+- recognise the types of data analytics in an organisation and how these can inform decision making and address business problems
+Assessment Tasks:
+- 2 - Written: 50% (Hurdle: None)
+- 1 - Written: 50% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/LEO5310 =====
+Subject: Data exploration, visualisation, and information design (LEO5310)
+Credit Points: 6
+Overview: Contemporary analytics requires skills in data identification, exploration, and presentation. This unit develops basic skills in the use of SQL and R to clean and explore data. It then focusses on the use of R, as a programming language, for further manipulation and visualisation of complex data. It also provides instruction on the use of Generative AI to draft R code. Through the strategic application of these tools, commonly used throughout the data analytics cycle, the unit emphasises principles of information design in the exploration and visualisation of complex data, thereby improving the usability of analytical findings to support decision making and address dynamic challenges. Examples will be included as a foundation for you to develop your own application of data exploration and visualisation.
+Learning Outcomes:
+- understand the principles of information design to apply appropriate types of visual representation to produce useful insights
+- identify the pattern/trends from the visualisation and perform analysis to further understand the relationship(s) between variables using information design
+- identify, collect, and manipulate appropriate data in preparation for data visualisation by using R programming
+- interpret and analyse the results for decision making and develop oral and written communication skills in data reporting.
+Assessment Tasks:
+- 1 - Project: 60% (Hurdle: None)
+- 2 - Written: 40% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/LEO5311 =====
+Subject: Quantitative analysis and data modelling (LEO5311)
+Credit Points: 6
+Overview: Quantitative data analysis lies at the centre of the data analytics cycle - the critical stage when data is transformed into findings and insights. This unit introduces the use of Microsoft Excel for statistical analysis and basic modelling methods. While covering a broad range of quantitative methods, it provides specific instruction on the use of confidence intervals, linear regression, and causality analysis to generate findings that can inform decisions across a wide range of applications. Examples from marketing, economics, accounting and related disciplines are included as a foundation for students to design and execute their own application of quantitative data analysis.
+Learning Outcomes:
+- perform descriptive and inferential statistical analysis of business data and draw useful insights
+- demonstrate advanced understanding in the identification of which statistical analyses and tools are most appropriate to support specific decisions.
+- construct linear models for predictive analysis and conduct causality analysis to support data-driven decision making
+Assessment Tasks:
+- 2 - Written: 50% (Hurdle: None)
+- 1 - Written: 50% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/LEO5312 =====
+Subject: Data reporting, presentation, and dashboards (LEO5312)
+Credit Points: 6
+Overview: Data reporting and presentation plays a vital role in the data analytics cycle. This unit develops advanced skills in the use of Power BI for the exploration, analysis, and presentation of data for decision making. Specifically, it focusses on transformation of raw data into a worked form for initial visualisation and descriptive analysis. It then moves through the data analytics cycle to provide instruction for intensive use of Power BI to generate reports and dashboards in alignment with stakeholder needs. Examples of analysis, visualisation and reporting using Power BI will be included as a foundation for you to design and execute your own application of reporting and presentation.
+Learning Outcomes:
+- demonstrate the use of alternative means for data reporting for management, such as reports, data models, and dashboards
+- demonstrate ability to use Power BI in the manipulation, visualisation, analysis, and reporting for stakeholders and management to derive actionable insights and assist effective decision making.
+- understand a range of drivers for decision makers to engage with data analytics, such as routine operational decision making, performance monitoring, and insight development
+Assessment Tasks:
+- 2 - Project: 60% (Hurdle: None)
+- 1 - Written: 40% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+

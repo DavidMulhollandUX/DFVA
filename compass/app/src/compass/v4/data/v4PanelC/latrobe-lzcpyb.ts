@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in criminology.",
+    "evidenceLines": [
+      "Reflect critically on your own cultural attitudes, values and beliefs",
+      "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+      "Explore the close connections between crime and the human mind and its effects on behaviour with La Trobe's multidisciplinary Bachelor of Criminology/Bachelor of Psychological Science."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in criminology.",
+    "evidenceLines": [
+      "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+      "Understand the need for and value of appropriate and effective intercultural communication",
+      "Understand crime in its broader social context and how individual and social responses are shaped by gender, race, power and money."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within criminology.",
+    "evidenceLines": [
+      "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+      "Subject: INTRODUCTION TO THE AUSTRALIAN LEGAL SYSTEM (LCR1ALS)",
+      "Explain the roles and functions of Australian legal institutions and actors."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in criminology.",
+    "evidenceLines": [
+      "Demonstrate an awareness of the social and political context and impact of the Australian legal system.",
+      "Demonstrate an ability to work collaboratively and communicate effectively to share and debate ideas.",
+      "Establish a grounding in psychology, exploring theories on individuals, groups and whole societies."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in criminology.",
+    "evidenceLines": [
+      "Subject: CRIMINAL LAW FOR CRIMINAL JUSTICE PROFESSIONALS (LCR1CLC)",
+      "Subject: CRIMINOLOGY SKILLS (LCR1CSS)",
+      "Describe the structure of the Australian legal system."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in criminology.",
+    "evidenceLines": [
+      "Understand the process by which law is created, interpreted, and applied.",
+      "Explore the close connections between crime and the human mind and its effects on behaviour with La Trobe's multidisciplinary Bachelor of Criminology/Bachelor of Psychological Science.",
+      "Understand crime in its broader social context and how individual and social responses are shaped by gender, race, power and money."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in criminology.",
+    "evidenceLines": [
+      "Demonstrate a critical understanding of the different institutions and actors within the criminal justice system and their interaction.",
+      "Subject: JUSTICE AND COMMUNITY CASE MANAGEMENT (LCR2001)",
+      "Establish a grounding in psychology, exploring theories on individuals, groups and whole societies."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "To qualify for the award of Bachelor of Criminology/Bachelor of Psychological Science, students must complete 480 credit points consisting of:",
+      "Explore the close connections between crime and the human mind and its effects on behaviour with La Trobe's multidisciplinary Bachelor of Criminology/Bachelor of Psychological Science."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Criminology/Bachelor of Psychological Science.",
+      "evidenceLines": [
+        "To qualify for the award of Bachelor of Criminology/Bachelor of Psychological Science, students must complete 480 credit points consisting of:",
+        "240 core credit points of Criminology subjects"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in criminology.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Reflect critically on your own cultural attitudes, values and beliefs"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

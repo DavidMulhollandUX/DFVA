@@ -1,0 +1,102 @@
+{
+  "code": "monash-p4001",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+      "evidenceLines": [
+        "12 credit points from the following units; or",
+        "6 credit points from the following units and an approved microcredential.",
+        "This course provides pharmacy interns the opportunity to complete an intern training program accredited by the Australian Pharmacy Council and to credit this towards a postgraduate qualification."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+      "evidenceLines": [
+        "Monash University Medication Management Review Training Program (MUMTP)",
+        "Monash University\u00a0Aged Care On-site Pharmacist Training Program (MUATP)",
+        "In addition to the intern training program component,\u00a0you can undertake elective units relevant to pharmacy practice."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+      "evidenceLines": [
+        "Subject: Introduction to epidemiology and biostatistics (MPH5020)",
+        "Subject: Evidence based practice (PGC5101)",
+        "Pharmacy Administration and Leadership"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+      "evidenceLines": [
+        "Developing a research protocol",
+        "Explain and contextualise the concepts of population, sampling, measurement, bias, confounding and causation;",
+        "This course provides pharmacy interns the opportunity to complete an intern training program accredited by the Australian Pharmacy Council and to credit this towards a postgraduate qualification."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+      "evidenceLines": [
+        "Subject: Advanced therapeutic decision-making: Acute care (PGC5102)",
+        "Subject: Infectious diseases pharmacotherapy (PGC5110)",
+        "Explain how disease is measured in populations, calculate,interpret and communicate measures of association and difference;"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+      "evidenceLines": [
+        "Use epidemiological and biostatistical principles to critically evaluate and interpret and communicate findings from epidemiological research.",
+        "This course provides pharmacy interns the opportunity to complete an intern training program accredited by the Australian Pharmacy Council and to credit this towards a postgraduate qualification.",
+        "In addition to the intern training program component,\u00a0you can undertake elective units relevant to pharmacy practice."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+      "evidenceLines": [
+        "Demonstrate an understanding of basic concepts and methods of biostatistics.",
+        "Subject: Geriatric disease state management (PGC5116)",
+        "This course provides pharmacy interns the opportunity to complete an intern training program accredited by the Australian Pharmacy Council and to credit this towards a postgraduate qualification."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course comprises 24 credit points structured into two parts: Part A. Intern training program and Part B. Specified elective studies.",
+        "This course provides pharmacy interns the opportunity to complete an intern training program accredited by the Australian Pharmacy Council and to credit this towards a postgraduate qualification."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate of Pharmacy Practice.",
+        "evidenceLines": [
+          "The course comprises 24 credit points structured into two parts: Part A. Intern training program and Part B. Specified elective studies.",
+          "24 credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+        "evidenceLines": [
+          "Subject: Introduction to epidemiology and biostatistics (MPH5020)",
+          "12 credit points from the following units; or"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "code": "anu-bppol",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Policy briefing documents, cabinet submissions, ministerial memos, and stakeholder advocacy.",
+      "evidenceLines": [
+        "demonstrate understanding of differences in political systems and the contexts in which public policy operates;",
+        "apply concepts and theories used in the study of public policy;",
+        "A single three year undergraduate award offered by theANU College of Arts and Social Sciences"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical appraisal of public governance, policy design dilemmas, regulatory ethics, and democratic institutions.",
+      "evidenceLines": [
+        "apply concepts and theories used in the study of public policy;",
+        "apply a range of research methods to the investigation of public policy;",
+        "A single three year undergraduate award offered by theANU College of Arts and Social Sciences"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Applied policy analysis, social research statistics, cost-benefit evaluations, and quantitative indicators.",
+      "evidenceLines": [
+        "apply a range of research methods to the investigation of public policy;",
+        "Subject: Global Population Challenges (DEMO1001)",
+        "Subject: Population Analysis (DEMO2002)"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Comprehensive synthesis uniting political science, economics, public management, and administrative law.",
+      "evidenceLines": [
+        "demonstrate understanding of differences in political systems and the contexts in which public policy operates;",
+        "apply a range of research methods to the investigation of public policy;",
+        "A single three year undergraduate award offered by theANU College of Arts and Social Sciences"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied policy formulation projects, regulatory impact analyses, and empirical policy evaluations.",
+      "evidenceLines": [
+        "gather, analyse, and interpret economic data, social data, and statistics related to Australian public policies; and",
+        "Subject: Demographic Research Internship (DEMO3002)",
+        "Subject: Introduction to Data and Methods for Political Science and International Relations (POLS1009)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Alignment with Australian Public Service (APS) values, governance standards, and legislative drafting.",
+      "evidenceLines": [
+        "apply concepts and theories used in the study of public policy;",
+        "A single three year undergraduate award offered by theANU College of Arts and Social Sciences",
+        "Applicants with an ANU selection rank of85or above are guaranteed admission (subject to meeting any prerequisites)."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic policy design workshops, public service case studies, and policy simulation exercises.",
+      "evidenceLines": [
+        "demonstrate understanding of differences in political systems and the contexts in which public policy operates;",
+        "apply concepts and theories used in the study of public policy;",
+        "A single three year undergraduate award offered by theANU College of Arts and Social Sciences"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic undergraduate degree without compulsory external placement.",
+      "evidenceLines": [
+        "A single three year undergraduate award offered by theANU College of Arts and Social Sciences",
+        "A single three year undergraduate award offered by theANU College of Arts and Social Sciences"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A three-year undergraduate degree delivering public policy education.",
+        "evidenceLines": [
+          "A single three year undergraduate award offered by theANU College of Arts and Social Sciences",
+          "A single three year undergraduate award offered by theANU College of Arts and Social Sciences"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist policy degree structured through core public administration and political science.",
+        "evidenceLines": [
+          "A single three year undergraduate award offered by theANU College of Arts and Social Sciences",
+          "Subject: Global Population Challenges (DEMO1001)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for quantitative policy analysis.",
+      "W3: Scored at Level 1 as internship is an elective stream."
+    ],
+    "notScoreable": []
+  }
+}

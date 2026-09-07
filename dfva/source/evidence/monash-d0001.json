@@ -1,0 +1,102 @@
+{
+  "code": "monash-d0001",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+      "evidenceLines": [
+        "apply and reflect on collaborative, interdisciplinary approaches to global studies;",
+        "evaluate a range of relevant sources, and communicate research effectively in multiple formats (written, oral, audio-visual);",
+        "The Monash Access Program offers an alternative entry pathway for mature age students who do not meet standard admission requirements, are motivated to learn, and have a desire to study at the university level."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+      "evidenceLines": [
+        "collaborate with peers and apply effective group skills.",
+        "identify and define key concepts and frameworks in understanding global mobility;",
+        "The Monash Access Program will prepare you for academic study at the university level by introducing\u00a0you to the foundational skills and knowledge required for entry into a bachelor-level course."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+      "evidenceLines": [
+        "Subject: Global mobilities (ATS1052)",
+        "Subject: Understanding the media (ATS1280)",
+        "explain and analyse key forms of global mobility in the contemporary world and their uneven effects;"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+      "evidenceLines": [
+        "Multimedia journal: 15% (Hurdle: None)",
+        "Oral Presentation: 15% (Hurdle: None)",
+        "In the Monash Access Program,\u00a0you will examine the context of university learning and develop skills in academic writing and entry-level mathematics."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+      "evidenceLines": [
+        "Subject: The Medieval and Early Modern world, 1050-1750 (ATS1611)",
+        "Subject: Learning in a university context (EDF1010)",
+        "In-Class Participation Activity: 10% (Hurdle: None)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+      "evidenceLines": [
+        "Reflective writing: 20% (Hurdle: None)",
+        "The Monash Access Program offers an alternative entry pathway for mature age students who do not meet standard admission requirements, are motivated to learn, and have a desire to study at the university level.",
+        "The Monash Access Program will prepare you for academic study at the university level by introducing\u00a0you to the foundational skills and knowledge required for entry into a bachelor-level course."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+      "evidenceLines": [
+        "Reflective writing: 10% (Hurdle: None)",
+        "Subject: Mathematics for tertiary study (EDF1012)",
+        "In the Monash Access Program,\u00a0you will examine the context of university learning and develop skills in academic writing and entry-level mathematics."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "24 credit points",
+        "The Monash Access Program offers an alternative entry pathway for mature age students who do not meet standard admission requirements, are motivated to learn, and have a desire to study at the university level."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Monash Access Program.",
+        "evidenceLines": [
+          "24 credit points",
+          "**Part B. Discipline studies** **6 credit points**"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+        "evidenceLines": [
+          "Subject: Global mobilities (ATS1052)",
+          "apply and reflect on collaborative, interdisciplinary approaches to global studies;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,767 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/S6001 =====
+## Master of Financial Mathematics
+##### S6001
+##### 96 credit points
+You are viewing the 2026 version
+
+### Overview
+Modern finance relies on deep mathematical concepts and techniques, assembled in what has come to be known as financial mathematics or quantitative finance. Financial institutions have developed an ever-increasing appetite for graduates with the right mix of advanced quantitative methods and modelling.
+
+Monash offers a unique blend of expertise spread over four academic units (economics, econometrics, finance and mathematics). All units contribute to the master's program and maintain a close relationship with banks, investment firms, and research organisations in financial mathematics.
+
+The master's program is designed to suit graduates with a sound foundation in mathematics and statistics. The program offers training in the core areas of stochastic, financial and insurance modelling, statistical analysis and computational methodology, as well as in a wide range of elective topics from economics, econometrics, finance, mathematics and probability. You will gain a comprehensive understanding of stochastic and statistical analysis, partial differential equations and computational methods in finance, financial econometric techniques, and financial and risk modelling.
+
+You will develop the quantitative, mathematical, statistical and computing skills needed in financial, insurance and other related careers.
+
+### AQF level
+Level 9 - Master's Degree (Coursework)
+### CRICOS code
+086157A
+### Post-nominals
+MFinMath
+### Course duration (full time)
+
+
+### Structure
+The course is structured in three parts: Part A. Orientation studies, Part B. Specialist studies, Part C. Applied professional practice.
+
+Part A. Advanced preparatory studies 
+
+These studies provide an orientation to the field of financial mathematics. You will choose studies that complement your current knowledge relevant to financial mathematics, including principles of econometrics, mathematical methods and stochastic processes. 
+
+Part B. Discipline studies
+
+These studies will provide you with advanced knowledge and skills relevant to thoughtful, innovative and evidence-based practice in financial modelling and analysis. You will acquire core knowledge of and skills in stochastic calculus, quantitative risk management, interest rate modelling and computational methods in finance. You will complement these with study in areas of your choice, including financial econometrics, Markov processes, statistical learning in finance, and machine learning.
+
+Part C. Professional practice 
+
+These studies will provide you with the opportunity to apply your knowledge skills developed in Part A and B to 'real life' problems. For those who achieve a distinction average (70%) in Part B, you can complete a major industry project or industry internship. For those who do not meet this requirement, you can complete a minor industry project or industry internship, as well as taking additional units from mathematics, business/economics and IT, to further supplement your studies. If you are admitted to the course with a recognised honours or equivalent in mathematics or statistics, you will receive credit for this part. However, should you wish to complete a 24 point research project you should consult with the course coordinator.
+
+Masters entry points
+
+Depending on prior qualifications you may receive entry level credit (a form of block credit) which determines your point of entry to the course:
+
+  * If you are admitted at entry level 1 you complete 96 credit points, comprising Part A, Part B and Part C
+  * If you are admitted at entry level 2 you complete 72 credit points, comprising Part B and Part C
+  * If you are admitted at entry level 3 you complete 48 credit points, comprising Part B.
+
+Note: If you are eligible for credit for prior studies you may elect not to receive the credit and complete one of the higher credit-point options.
+
+Course progression map
+
+The course progression map provides guidance on unit enrolment for each semester of study.
+
+### Requirements
+The course comprises 96 points structured into three parts: Part A. Orientation studies (24 points), Part B. Specialist studies (48 points) and Part C. Applied professional practice (24 points).
+
+Units are 6 points unless otherwise stated. 
+
+Part A: Advanced preparatory studies (24 points)
+
+You must complete:
+
+  * MTH3251 Financial mathematics
+
+And one of the following units:
+
+  * MTH3241 Random processes in the sciences and engineering
+
+  * MTH3260 Statistics of stochastic processes
+
+Additional preparatory studies
+
+You must complete 12 credit points from the following units OR 6 credit points from from the following units and 6 credit points from the Advanced preparatory studies above, excluding units previously completed.
+
+  * ETC3400 Principles of econometrics
+
+  * ETC3420 Applied insurance methods
+
+  * ETC3460 Financial econometrics
+
+  * MTH3140 Real analysis
+
+  * MTH3320 Computational linear algebra
+
+  * MTH3330 Optimisation and operations research
+
+  * MTH3160 Metric spaces, Banach spaces, Hilbert spaces
+
+  * MTH3230 Time series and random processes in linear systems
+
+Part B: Discipline studies (48 points)
+
+You must complete MTH5210, MTH5510 and:
+- 18 credit points from the list of Specified elective studies,
+- 18 credit points from the list of Discipline elective studies.
+
+  * MTH5210 Stochastic calculus and mathematical finance
+
+  * MTH5510 Quantitative risk management
+
+Specified elective studies
+
+You must complete 18 credit point form the following units:
+
+  * MTH5520 Interest rate modelling
+
+  * MTH5530 Computational methods in finance
+
+  * MTH5550 Quantitative trading and market microstructure
+
+  * MTH5560 Partial differential equations for finance
+
+Discipline elective studie
+
+You must complete 18 credit points from the following units OR 12 credit points from the following units and 6 credit points from the Specified elective studies not previously completed:
+
+  * BFF5270 Funds management
+
+  * BFX5260 Treasury and financial markets
+
+  * BEX5131 Fundamentals of Investment Strategy
+
+  * BEX5260 Understanding megatrends: The big forces shaping your future
+
+  * BFF5525 Quantitative and data analysis in Python
+
+  * BFF5555 Financial machine learning
+
+  * ETX5460 Advanced financial econometrics
+
+  * MTH5010 Special topics in advanced mathematics 1
+
+  * MTH5020 Special topics in advanced mathematics 2
+
+  * MTH5099 Measure Theory
+
+  * MTH5220 The theory of martingales in discrete time
+
+  * MTH5230 Markov chains and random walks
+
+  * MTH5331 Nonlinear optimisation
+
+  * MTH5540 Statistical learning in finance
+
+Part C: Professional practice (24 points)
+
+You must complete one of the following options:
+
+1. Either MTH5840 Minor Industry Placement (12 points) OR MTH5820 Minor Industry Research Project (12 points), plus 12 credit points from the Discipline elective studies, excluding units previously completed, OR
+
+2. MTH5830 Industry Placement (24 points), OR
+
+3. MTH5810 Industry Research Project (24 points).
+
+### Course structure
+96 credit points
+**Part A. Advanced preparatory studies** **24 credit points**
+You must complete MTH3251 and one unit from either MTH3241 or MTH3260
+  [ _arrow_forward_ MTH3241 Random processes in the sciences and engineering ](https://handbook.monash.edu/2026/units/MTH3241)
+  [ _arrow_forward_ MTH3260 Statistics of stochastic processes ](https://handbook.monash.edu/2026/units/MTH3260)
+  [ _arrow_forward_ MTH3251 Financial mathematics ](https://handbook.monash.edu/2026/units/MTH3251)
+  **Additional preparatory studies** **12 credit points**
+  You must complete 12 credit points from the following units OR 6 credit points from from the following units and 6 credit points from the Advanced preparatory studies above, excluding units previously completed.
+    [ _arrow_forward_ MTH3160 Metric spaces, Banach spaces, Hilbert spaces ](https://handbook.monash.edu/2026/units/MTH3160)
+    [ _arrow_forward_ ETC3460 Financial econometrics ](https://handbook.monash.edu/2026/units/ETC3460)
+    [ _arrow_forward_ MTH3320 Computational linear algebra ](https://handbook.monash.edu/2026/units/MTH3320)
+    [ _arrow_forward_ ETC3400 Principles of econometrics ](https://handbook.monash.edu/2026/units/ETC3400)
+    [ _arrow_forward_ ETC3420 Applied insurance methods ](https://handbook.monash.edu/2026/units/ETC3420)
+    [ _arrow_forward_ MTH3330 Optimisation and operations research ](https://handbook.monash.edu/2026/units/MTH3330)
+    [ _arrow_forward_ MTH3140 Real analysis ](https://handbook.monash.edu/2026/units/MTH3140)
+    [ _arrow_forward_ MTH3230 Time series and random processes in linear systems ](https://handbook.monash.edu/2026/units/MTH3230)
+**Part C. Professional practice** **24 credit points**
+You must complete one of the following options:
+1. Either MTH5840 (12 credit points) OR MTH5820 (12 credit points), plus 12 credit points from the Discipline elective studies above, excluding units previously completed, OR
+2. MTH5830 (24 credit points), OR
+3. MTH5810 (24 credit points).
+  [ _arrow_forward_ MTH5820 Minor industry research project ](https://handbook.monash.edu/2026/units/MTH5820)
+  [ _arrow_forward_ MTH5840 Minor industry placement ](https://handbook.monash.edu/2026/units/MTH5840)
+  [ _arrow_forward_ MTH5810 Industry research project ](https://handbook.monash.edu/2026/units/MTH5810)
+  [ _arrow_forward_ MTH5830 Industry placement ](https://handbook.monash.edu/2026/units/MTH5830)
+**Part B. Discipline studies** **48 credit points**
+You must complete MTH5210, MTH5510 and:
+- 18 credit points from the list of Specified elective studies, 
+- 18 credit points from the list of Discipline elective studies.
+  [ _arrow_forward_ MTH5510 Quantitative risk management ](https://handbook.monash.edu/2026/units/MTH5510)
+  [ _arrow_forward_ MTH5210 Stochastic calculus and mathematical finance ](https://handbook.monash.edu/2026/units/MTH5210)
+  **Specified elective studies** **18 credit points**
+  You must complete 18 credit points from the following units
+    [ _arrow_forward_ MTH5530 Computational methods in finance ](https://handbook.monash.edu/2026/units/MTH5530)
+    [ _arrow_forward_ MTH5550 Quantitative trading and market microstructure ](https://handbook.monash.edu/2026/units/MTH5550)
+    [ _arrow_forward_ MTH5520 Interest rate modelling ](https://handbook.monash.edu/2026/units/MTH5520)
+    [ _arrow_forward_ MTH5560 Partial differential equations for finance ](https://handbook.monash.edu/2026/units/MTH5560)
+  **Discipline elective studies** **18 credit points**
+  You must complete 18 credit points from the following units OR 12 credit points from the following units and 6 credit points from the Specified elective studies above, excluding units previously completed.
+    [ _arrow_forward_ MTH5230 Markov chains and random walks ](https://handbook.monash.edu/2026/units/MTH5230)
+    [ _arrow_forward_ MTH5540 Statistical learning in finance ](https://handbook.monash.edu/2026/units/MTH5540)
+    [ _arrow_forward_ BEX5260 Understanding megatrends: The big forces shaping your future ](https://handbook.monash.edu/2026/units/BEX5260)
+    [ _arrow_forward_ MTH5220 The theory of martingales in discrete time ](https://handbook.monash.edu/2026/units/MTH5220)
+    [ _arrow_forward_ BEX5131 Fundamentals of investment strategy ](https://handbook.monash.edu/2026/units/BEX5131)
+    [ _arrow_forward_ ETX5460 Advanced financial econometrics ](https://handbook.monash.edu/2026/units/ETX5460)
+    [ _arrow_forward_ MTH5020 Special topics in advanced mathematics 2 ](https://handbook.monash.edu/2026/units/MTH5020)
+    [ _arrow_forward_ MTH5331 Nonlinear optimisation ](https://handbook.monash.edu/2026/units/MTH5331)
+    [ _arrow_forward_ MTH5099 Measure theory ](https://handbook.monash.edu/2026/units/MTH5099)
+    [ _arrow_forward_ BFF5555 Financial machine learning ](https://handbook.monash.edu/2026/units/BFF5555)
+    [ _arrow_forward_ MTH5010 Special topics in advanced mathematics 1 ](https://handbook.monash.edu/2026/units/MTH5010)
+    [ _arrow_forward_ BFF5525 Quantitative and data analysis in Python ](https://handbook.monash.edu/2026/units/BFF5525)
+    [ _arrow_forward_ BFX5260 Treasury and financial markets ](https://handbook.monash.edu/2026/units/BFX5260)
+    [ _arrow_forward_ BFF5270 Funds management ](https://handbook.monash.edu/2026/units/BFF5270)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+apply advanced statistical techniques and skills to the analysis of financial and insurance data
+**2.**
+work competently, independently and in a collaborative manner in an interdisciplinary professional context.
+**3.**
+apply critical thinking, problem solving, and research skills within the finance and insurance context
+**4.**
+apply sophisticated stochastic modelling skills within the context of financial markets and the insurance industry
+**5.**
+convey ideas and results effectively to technical and non-technical audiences alike and in a variety of formats
+**6.**
+utilise high-level computational methodology to tackle complex financial and insurance problems
+
+### Progression to further studies
+Successful completion of this course may provide a pathway to graduate research degree. To be eligible to apply for entry into the higher degree by research, you must achieve a distinction average (70%) in Part B and Part C in the Master of Financial Mathematics.
+
+If you achieve a high distinction average (80%) in Part B and Part C in the Master of Financial Mathematics you may be eligible to apply for a scholarship.
+
+### Entry requirements
+Articulation agreement: Central University of Finance and Economics (3+1+1) Exp: 16-Jun-24
+
+### AHEGS
+The Master of Financial Mathematics is a postgraduate degree. The course is taught in English and normally takes two years of full-time study or up to four years of part-time study. This coursework masters degree recognises the analytic, quantitative and computational skills that are required to work in the financial and insurance industries. The coursework aspects of the degree are complemented by industry projects and industry placements, producing a rich blend of a strong theoretical education and a highly practical training in the area of financial mathematics. The Master of Financial Mathematics is a Level 9 Australian Qualifications Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations.
+
+### Degrees awarded
+Master of Financial Mathematics
+
+===== SOURCE: https://handbook.monash.edu/2026/units/BEX5131 =====
+Subject: Fundamentals of investment strategy (BEX5131)
+Credit Points: 6
+Overview: This unit provides you with a unique opportunity to learn about the basics of investment management from leading local and international investment professionals. The course has a practical focus, providing knowledge and insights about the complexities of investment markets and superannuation. The unit aims to help you build a strong base of knowledge and confidence around personal investment and to develop your own investment philosophy – a set of principles guiding their understanding of investment and financial markets. While primarily designed for students interested in managing their own investments, the unit also offers significant value for those students aiming for careers as investment and financial professionals. Upon completing the unit, you will develop practical life skills in investment management and emerge with extensive theoretical and practical knowledge across the main facets of investment in financial markets, which cannot be gathered from current textbook-based units. Through a combination of case study evaluation, lectures, and discussion with investment practitioners, you will acquire a broad understanding of capital markets, asset classes (stocks, bonds, credit, real estate, private equity, commodities, digital assets etc.), investing styles, and instruments (active and index investing, value and growth investing, activism, ESG investing, tail risk hedging, futures and swaps, etc.). The unit will also cover investing from the perspective of an asset owner, teaching modern practices in portfolio construction for personal and institutional investors and risk management.
+Learning Outcomes:
+- improve your skill of critical thinking and problem-solving communication skills
+- develop your own investment philosophy an investment strategy aligned with your personal investment goals
+- understand the practical sides of different investment strategies simple and effective ways to manage risks and returns how to transform this knowledge into practice the challenges investors face
+Assessment Tasks:
+- 1 - Quiz / Test: 40% (Hurdle: None)
+- 2 - Written: 60% (Hurdle: None)
+- 3 - Exercise: 35% (Hurdle: None)
+- 4 - Quiz / Test: 40% (Hurdle: None)
+- 5 - Written: 25% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/BEX5260 =====
+Subject: Understanding megatrends: The big forces shaping your future (BEX5260)
+Credit Points: 6
+Overview: The next decade will not look like the last. Technologies once on the margins are remaking industries, populations are ageing and shifting, supply chains are being rewritten, and the effects of climate and geopolitical tensions are reshaping everything from energy markets to job prospects. For students preparing to enter this landscape, understanding the forces behind these shifts is no longer optional, it’s a strategic advantage. Understanding megatrends: the big forces shaping your future gives you that edge. This unit cuts through the noise to explain the global trends that will influence the careers available to you, the skills that will matter most, and the sectors poised for both disruption and growth. You’ll explore the major drivers of long-term change — AI and automation, demographic transitions, sustainability and climate risks, global power dynamics, public finance, and more — and examine how these forces interact to shape the world’s economic and social trajectory. Through lectures, case studies and interactions with experts who navigate these trends professionally, you will learn to identify emerging shifts, interpret their meaning, and design thoughtful responses to the opportunities and challenges they create. By seeing how industries are evolving and which capabilities are rising in value, you’ll be able to position yourself ahead of the curve: choosing pathways aligned with future demand, spotting new opportunities earlier, and adapting your plans with confidence as global trends unfold. Employers increasingly seek graduates who can make sense of complexity, navigate uncertainty, and think strategically, precisely the capabilities you develop here. Open to students from all disciplines, this unit offers a rare chance to understand the world not as it is today, but as it is becoming. It equips you with the analytical depth, strategic perspective, and problem-solving skills needed to thrive in a future defined by rapid, structural change, and to avoid being left behind.
+Learning Outcomes:
+- enhance: your ability to think critically and strategically about long-term global changes your communication skills, enabling you to effectively discuss and explain megatrends and their impacts your problem-solving skills, focusing on solutions that are informed by an understanding of significant global trends.
+- evaluate: the implications of megatrends for businesses and governments strategies for adapting to these changes in different industries the role of innovation in harnessing opportunities presented by megatrends challenges that organisations face when responding to global shifts
+- analyse: the nature and impact of global megatrends across various sectors factors that drive these megatrends
+Assessment Tasks:
+- 2 - Quiz / Test: 20% (Hurdle: None)
+- 1 - Exercise: 40% (Hurdle: None)
+- 3 - Examination: 40% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/BFF5270 =====
+Subject: Funds management (BFF5270)
+Credit Points: 6
+Overview: This unit focuses on funds management styles and philosophies; approaches to implementing investment strategies for funds design and decision making; practical allocation of assets across and within different markets (industries); market sector volatilities and risk management; and performance measurement. Current academic research and trends in the industry are also considered from local and global funds management perspectives. The topics include: portfolio investment styles, philosophies, mandates and policies capital market expectations asset allocation and portfolio optimisation management of fixed income portfolios international diversification alternative investments quantitative portfolio factor models portfolio monitoring and rebalancing portfolio performance, attribution and evaluation.
+Learning Outcomes:
+- develop skills of summarising, critically analysing and assessing, ranking, reporting and, presenting the current performance of funds managers
+- develop the capability to work effectively in a group and demonstrate effective research and problem solving skills to produce quality investment portfolio analysis
+- compare and contrast approaches to funds design and decision making in terms of fund allocation, portfolio optimisation and portfolio monitoring, along with current trends in the funds management industry
+- demonstrate in an individual summative assessment task the acquisition of a comprehensive understanding of the rudiments of fund management both in theory and in practice as detailed in the unit.
+- demonstrate knowledge of the global funds management industry, its management philosophies, strategies and styles
+Assessment Tasks:
+- 1 - Quiz / Test: 20% (Hurdle: None)
+- 2 - Written: 30% (Hurdle: None)
+- 3 - Examination: 50% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/BFF5525 =====
+Subject: Quantitative and data analysis in Python (BFF5525)
+Credit Points: 6
+Overview: This unit develops advanced foundational skills in quantitative and data analysis for financial applications using Python as the programing language. Content is organised into 2 sections: introduction to Python and quantitative investment analysis. In the former, you will be introduced to Python and its core libraries for financial applications such as NumPy and Pandas - no prior knowledge in Python or programming is required. In the latter, you will refresh your knowledge on probability and statistics and develop hands-on skills in financial data processing and visualisation, performing correlation and regression, time series analysis, simulation analysis and portfolio construction.
+Learning Outcomes:
+- perform various financial analyses and implement quantitative models in investment strategies
+- write custom Python codes and build custom Python modules to analyse financial data and investment strategies.
+- develop a confident knowledge of fundamental concepts in probability, statistics and mathematics relevant in quantitative investment analysis
+- apply critical thinking, problem solving and presentation skills to individual and/or group activities dealing with quantitative and data analysis in an individual summative assessment task the acquisition of a comprehensive understanding of the topics covered in this unit.
+- gain a functional understanding of the Python programming language and its various libraries required for financial applications
+- develop skills to efficiently process and manipulate financial databases
+Assessment Tasks:
+- 2 - Project: 25% (Hurdle: None)
+- 3 - Written: 50% (Hurdle: None)
+- 1 - Exercise: 25% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/BFF5555 =====
+Subject: Financial machine learning (BFF5555)
+Credit Points: 6
+Overview: This unit explores the application of machine learning techniques in financial contexts, emphasising practical implementation using Python. Beginning with foundational concepts in statistical learning, the unit progresses through key supervised learning methods such as linear regression, classification, and tree-based models, before introducing unsupervised learning and deep learning techniques. Special attention is given to model evaluation, regularisation, and cross-validation. The unit culminates in advanced topics including natural language processing (NLP) in finance. Through interactive seminars and hands-on assessments, you will develop the skills to build, assess, and apply machine learning models to real-world financial problems.
+Learning Outcomes:
+- explain machine learning as a statistical learning paradigm and distinguish it from traditional statistical approaches
+- implement machine learning models in Python, including regression, classification, tree-based methods, and deep learning, tailored to finance scenarios
+- identify and describe key machine learning categories (supervised, unsupervised) and techniques, including their financial applications
+- evaluate model performance using techniques such as cross-validation and regularisation, and discuss challenges like overfitting
+Assessment Tasks:
+- 2 - Written: 40% (Hurdle: None)
+- 3 - Quiz / Test: 20% (Hurdle: None)
+- 1 - Project: 40% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/BFX5260 =====
+Subject: Treasury and financial markets (BFX5260)
+Credit Points: 6
+Overview: This unit will combine classroom teaching and direct experiential learning in financial markets covering topics that may include market participants, treasury operations, market structures, dealer markets, liquidity and price formation. This unit is taught in the simulated trading and research laboratory (STARLab). It is a specialist, practically oriented unit where attendance is compulsory as assessment is based on classroom activities. An understanding of financial prices, returns and volatility is required.
+Learning Outcomes:
+- acquire an in-depth understanding of economic concepts such as market efficiency, performance evaluation and market structure regulation
+- plan, verify and settle transactions completed in STARLab
+- apply critical thinking, problem solving and presentation skills to individual and/or group activities dealing with treasury and financial markets.
+- compare and contrast differences between various market structures
+- plan, organise and report on all activities involved in STARLab
+- develop, implement, analyse and manage strategies in financial markets
+- formulate portfolio management decisions
+Assessment Tasks:
+- 2 - Exercise: 60% (Hurdle: None)
+- 1 - Demonstration: 40% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ETC3400 =====
+Subject: Principles of econometrics (ETC3400)
+Credit Points: 6
+Overview: This unit provides a formal treatment of the core principles underlying econometric and statistical analysis, with particular focus given to likelihood-based inference. Topics covered include the likelihood principle and maximum likelihood estimation; minimum variance unbiased estimation; maximum likelihood asymptotic distribution theory; likelihood-based hypothesis testing. The theoretical developments are supplemented by numerical results produced using computer simulation. Consideration is also given to the numerical optimisation techniques used to implement likelihood-based procedures in practice.
+Learning Outcomes:
+- develop the skills needed to demonstrate and explore theoretical sampling properties using computer simulation.
+- consolidate the core principles underlying econometric and statistical analysis
+- understand and implement likelihood-based hypothesis testing
+- understand and implement the technique of maximum likelihood estimation and develop an appreciation of the associated asymptotic distribution theory
+Assessment Tasks:
+- 1 - Written: 40% (Hurdle: None)
+- 2 - Examination: 60% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ETC3420 =====
+Subject: Applied insurance methods (ETC3420)
+Credit Points: 6
+Overview: To provide a grounding in the mathematics and statistics of short term insurance risk.
+Learning Outcomes:
+- construct risk models involving frequency and severity distributions and calculate the moment generating function and the moments for the risk models both with and without simple reinsurance arrangements
+- describe the fundamental concepts of risk rating and apply them to simple experience rating systems
+- explain the concept of ruin for a risk model
+- describe and apply techniques for analysing a delay (or run-off) triangle and projecting the ultimate position.
+- calculate probabilities and moments of loss distributions both with and without limits and risk-sharing arrangements
+Assessment Tasks:
+- 3 - Quiz / Test: 15% (Hurdle: None)
+- 4 - Examination: 60% (Hurdle: None)
+- 1 - Presentation: 5% (Hurdle: None)
+- 2 - Project: 20% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ETC3460 =====
+Subject: Financial econometrics (ETC3460)
+Credit Points: 6
+Overview: This unit provides an introduction to the field of financial econometrics which draws on ideas and methods from finance, economics, probability, statistics and applied mathematics, and uses them to explain the complex world of finance and financial instruments. You will learn about different aspects of asset pricing, namely specification, estimation and testing of asset pricing models, including the capital asset pricing model and extensions. You will also learn how to decipher the statistical characteristics of financial data emphasising skewness, kurtosis and volatility aspects, and how to incorporate these in volatility models such as ARCH and multi-variate extensions. Further, you will apply these techniques to financial time series in real time (e.g. stock prices) and evaluate the forecast performance of these models.
+Learning Outcomes:
+- describe the time series and distributional features of financial data
+- explain appropriate specification, estimation and testing of asset pricing models
+- describe the specification and estimation of conditional volatility models.
+- evaluate the need for volatility models for financial returns
+Assessment Tasks:
+- 2 - Examination: 60% (Hurdle: None)
+- 1 - Written: 40% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ETX5460 =====
+Subject: Advanced financial econometrics (ETX5460)
+Credit Points: 6
+Overview: This unit introduces you to a range of advanced, current techniques used in analysing financial data. Topics covered include the analysis of the time series and distributional features of financial data; the use of stochastic volatility and realised volatility models to capture time-varying volatility, including long memory in volatility; the use of econometric methods to estimate Value at Risk; the modelling of transactions data using trade duration models and transaction-based volatility models; continuous time processes and the application of econometric techniques to option pricing; and the use of generalised method of moments in financial models.
+Learning Outcomes:
+- evaluate econometric models for high frequency data
+- critically evaluate alternative methods of modelling asset return volatility
+- describe the role of continuous time stochastic processes in the pricing of financial derivatives
+- explain the role of volatility modelling in the measurement of risk and in the pricing of financial derivatives
+- evaluate the use of generalised method of moments in financial models.
+Assessment Tasks:
+- 2 - Project: 20% (Hurdle: None)
+- 1 - Project: 20% (Hurdle: None)
+- 3 - Examination: 60% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH3140 =====
+Subject: Real analysis (MTH3140)
+Credit Points: 6
+Overview: An introduction to real analysis with a special focus on sequences of real numbers and functions. Topics covered include properties of real numbers (infima/suprema and the axiom of completeness), sequences and series of real numbers (order limit theorem, Cauchy sequences and completeness, compactness), properties of functions over the reals (intermediate value theorem, mean value theorem), sequences and series of functions (pointwise and uniform convergence, the Weierstrass M-test, continuity and differentiability of the limit). Emphasis will be on rigorous mathematical proof and examples will be provided to show how intuition can be misleading.
+Learning Outcomes:
+- Analyse continuity, differentiability, and convergence with an emphasis on logical reasoning and counterexamples;
+- Extend and deepen understanding of real analysis through advanced proofs, generalisations, and applications, demonstrating higher levels of rigour and independence .
+- Apply core concepts of real analysis to study sequences, series, and functions of real variables;
+- Develop and justify rigorous mathematical proofs in the context of real analysis;
+- Communicate mathematical arguments effectively, both orally and in writing, and collaborate to solve analysis problems;
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH3160 =====
+Subject: Metric spaces, Banach spaces, Hilbert spaces (MTH3160)
+Credit Points: 6
+Overview: In this unit, we develop the theory of metric spaces, Banach spaces and Hilbert spaces. These are the foundations that support the models of modern physics, including general relativity, quantum mechanics, and optimisation; and are also essential for understanding stochastic phenomena, signal processing and data compression, Fourier analysis, differential equations, and numerical analysis. Topics covered include a basic introduction to metric spaces, topology in metric and Banach spaces, dual spaces, continuous linear mappings between Banach spaces, weak convergence and weak compactness in separable Banach spaces, Hilbert spaces and the Riesz representation theorem. Applications of these theories may include the contraction mapping theorem and its usage to prove the Cauchy-Lipschitz theorem (existence and uniqueness of solution to ordinary differential equations).
+Learning Outcomes:
+- Explain the basic topological properties of metric spaces, and their applications to problems in other areas of mathematics;
+- Apply some important basic theorems in analysis and their applications, such as the contraction mapping theorem and the Riesz representation theorem;
+- Identify the conditions for existence and uniqueness of solutions to the initial value problem for systems of ordinary differential equations;
+- Communicate mathematical ideas and work in teams as appropriate for the discipline of mathematics.
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH3230 =====
+Subject: Time series and random processes in linear systems (MTH3230)
+Credit Points: 6
+Overview: Multivariate distributions. Estimation: maximum of likelihood and method of moments. Confidence intervals. Analysis in the time domain: stationary models, autocorrelation, partial autocorrelation. ARMA and ARIMA models. Analysis in the frequency domain (Spectral analysis): spectrum, periodigram, linear and digital filters, cross-correlations and cross-spectrum, spectral estimators, confidence interval for the spectral density. State-space models. Kalman filter. Empirical Orthogonal Functions and other Eigen Methods. Use of ITSM.
+Learning Outcomes:
+- Communicate statistical reasoning and results effectively, both orally and in writing, and collaborate in small groups to solve problems in time series analysis.
+- Integrate theoretical understanding with practical implementation by applying stochastic models and computational tools to real data problems;
+- Perform time and frequency domain analysis of time series data, applying techniques such as the Kalman filter and using ITSM to interpret and evaluate results;
+- Analyse and evaluate stationary time series models, including autoregressive and moving average processes, and apply projection methods for forecasting;
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH3241 =====
+Subject: Random processes in the sciences and engineering (MTH3241)
+Credit Points: 6
+Overview: This unit introduces the methods of stochastic processes and statistics used in the analysis of biological data, physics, economics and engineering. At the completion of the unit you will understand the application of classical techniques, such as Poisson processes, Markov chains, hidden Markov chains, random walks, martingale theory, birth and death processes, and branching processes in the analysis of DNA sequences, population genetics, dynamics of populations, telecommunications and economic analysis.
+Learning Outcomes:
+- Understand the idea of random variables varying with time;
+- Apply the probability processes to practical situations, including queues, epidemics, servicing machines, networks, financial markets and insurance risk.
+- Understand key processes in probability, including the Poisson process, birth process, birth and death process, branching processes, random walks, martingales;
+- Analyse Markov chains at the elementary level, in discrete and continuous time;
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH3251 =====
+Subject: Financial mathematics (MTH3251)
+Credit Points: 6
+Overview: You will use the concept of random variables and their uses as models of uncertain future payoffs. An important concept for analysis is the conditional expectation. Special attention is given to normal distribution and multivariate normal distribution, in which explicit calculations are possible. Systems evolving in time encorporating uncertainty are modelled as stochastic (random) processes. Examples of such in discrete time are Random Walk and Martingales. As an application we look at the Risk model in insurance and obtain the bound on Ruin probability. Models in continuous time are based on Brownian motion. Stochastic analysis uses the novel concepts of Ito integral and Ito's formula. Applications in finance include the Black-Scholes model and the Ornstein-Uhlenbeck process. Simple stochastic differential equations are introduced. Another application to interest rates is Vasicek's stochastic differential equation. A new mathematical technique Change of probability measure is introduced. Girsanov theorem gives the change of measure for Brownian motion and related processes. To manage financial risks the Fundamental theorems of Asset pricing are stated and applied to various models, such as the . Binomial and Black-Scholes models. Important concepts of arbitrage, replicating portfolios are used for pricing and hedging options and other financial contracts.
+Learning Outcomes:
+- Communicate mathematical reasoning and results effectively through clear oral and written explanations, and collaborate in small groups to solve problems in financial mathematics.
+- Analyse discrete-time models in finance by applying random walks, martingales, conditional expectation, and stopping times, and using these to study applications such as insurance and ruin probabilities;
+- Apply measure-change and asset-pricing frameworks by using the Equivalent Martingale Measure, implementing the Binomial, multi-period models, and the Black–Scholes models, and applying the fundamental theorems of asset pricing to problems of pricing and hedging;
+- Interpret and model continuous-time processes including Brownian motion and diffusions, and use stochastic calculus tools such as Ito’s formula and stochastic differential equations to solve problems in financial mathematics;
+Assessment Tasks:
+- Continuous assessment: 50% (Hurdle: None)
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH3260 =====
+Subject: Statistics of stochastic processes (MTH3260)
+Credit Points: 6
+Overview: Many practical experiments involve repeated measurements made over a period of time, where the individuals or systems being observed are evolving during the study period. Examples of this kind of data arise in signal processing, financial modelling and mathematical biology. For experiments of this kind, standard statistical methods that assume data points are independent and identically distributed (iid) are of limited value, due to dependencies among measurements. This unit will introduce statistical methods for such processes. Topics: Review of fundamental statistics: their distributions, properties and limitations; Stochastic processes: Markov, ARMA, Stationary and diffusion processes; Likelihood models, Graphical models, Bayesian models; Decision theory, Likelihood ratio tests, Bayesian model comparison; Sufficient statistics, Maximum likelihood estimation, Bayesian estimation; Exponential families; Convergence of random variables and measures; Properties of estimators: bias, consistency, efficiency; Laws of large numbers and ergodic theorems, Central limit theorems; Statistics for stationary processes; Statistics for ARMA processes; Statistics for diffusion processes
+Learning Outcomes:
+- Apply likelihood-based methods to construct, estimate, and compare models for stochastic processes, including maximum likelihood and Bayesian approaches;
+- Analyse and evaluate the properties of estimators, including bias, consistency, efficiency, and asymptotic behaviour, with applications to stationary, ARMA, and diffusion processes;
+- Communicate statistical reasoning and results effectively, both orally and in writing, and collaborate in small groups to solve problems in the statistics of stochastic processes.
+- Interpret and apply statistical results from stochastic process models to real-world problems in areas such as signal processing, finance, and mathematical biology;
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Three 1-hour seminars One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH3320 =====
+Subject: Computational linear algebra (MTH3320)
+Credit Points: 6
+Overview: The overall aim of this unit is to study the numerical methods for matrix computations that lie at the core of a wide variety of large-scale computations and innovations in the sciences, engineering, technology and data science. You will receive an introduction to the mathematical theory of numerical methods for linear algebra (with derivations of the methods and some proofs). This will broadly include methods for solving linear systems of equations, least-squares problems, eigenvalue problems, and other matrix decompositions. Special attention will be paid to conditioning and stability, dense versus sparse problems, and direct versus iterative solution techniques. You will learn to implement the computational methods efficiently, and will learn how to thoroughly test their implementations for accuracy and performance. You will work on realistic matrix models for applications in a variety of fields. Applications may include, for example: computation of electrostatic potentials and heat conduction problems; eigenvalue problems for electronic structure calculation; ranking algorithms for webpages; algorithms for movie recommendation, classification of handwritten digits, and document clustering; and principal component analysis in data science.
+Learning Outcomes:
+- Implement advanced computational linear algebra methods, and demonstrate the correctness and efficiency of the implementations in systematic computational tests.
+- Explain and apply notions of conditioning, stability, accuracy, convergence, convergence speed and computational cost.
+- Explain the mathematical theory behind a selection of important numerical methods for linear algebra, including the derivation of the methods and the analysis of their properties.
+- Demonstrate advanced skills in the written and oral presentation of theoretical and applied computational linear algebra problems.
+- Demonstrate proficiency in the main linear algebra algorithms for solving linear systems, least-squares problems, eigenvalue decompositions, and other matrix decompositions, and apply them to problems in science, engineering, technology and big data analytics.
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Three 1-hour seminars; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH3330 =====
+Subject: Optimisation and operations research (MTH3330)
+Credit Points: 6
+Overview: This unit introduces some of the fundamental concepts and algorithms of mathematical optimisation. Optimisation underpins many parts of both data analytics (machine learning) and business analytics (management science/operations research). The concepts and approaches taught in this unit will be illustrated using examples from both types of analytics, such as training ML models and planning models arising in supply chain optimisation. The unit provides an introduction to the mathematics of continuous optimisation with focus on iterative gradient descent methods, linear programming and network optimisation. It covers both the underpinning theory, such as convergence analysis and duality, and the practical implementation of optimisation algorithms.
+Learning Outcomes:
+- Implement and evaluate linear programming and related optimisation algorithms, proving optimality where appropriate and applying them to real-world data and applications;
+- Explain and apply the mathematical theory of optimisation, including optimality conditions, iterative algorithms for nonlinear problems, and the principles of duality and non-smooth optimisation;
+- Communicate optimisation reasoning and results effectively, both orally and in writing, and collaborate in small groups to solve problems.
+- Formulate and analyse optimisation problems arising in machine learning, operations research, and network optimisation, selecting and justifying appropriate algorithms;
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Two 1.5-hour workshops; One 2-hour applied class (in weeks 2-12) and 7 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5010 =====
+Subject: Special topics in advanced mathematics 1 (MTH5010)
+Credit Points: 6
+Overview: This unit enables you to work on specifically-designed mathematical content, not otherwise covered in the other units offered in the masters of the School of Mathematics. This work can be individual or in small groups, and could, for example, correspond to supervised reading based on books/articles, or to more regular coursework based, for example, on subjects offered in the AMSI Summer School or ACE units.
+Learning Outcomes:
+- Apply critical thinking in the field of advanced mathematics and its applications.
+- Assimilate sophisticated concepts from mathematical literature.
+- Undertake problem solving challenges, individually or in a collaborative manner.
+- Communicate complex and specialised content both orally and in writing.
+Assessment Tasks:
+- Summative presentation: 10% (Hurdle: None)
+- Format-based assessment: 90% (Hurdle: None)
+Workload: As determined by the Subject assessment panel in each case; typical workloads could be: For a project-based format: 1 hour meeting with the supervisor and 13 hours of personal/group work per week; For a semester-long unit-based format (e.g. ACE unit): 3 hours of lectures,1-hour of applied class and10-hours of personal work per week; For an intensive format (e.g. Summer School unit, over 4 weeks): 6-hours of lectures, 2-hours of applied class and 34-hours of personal work per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5020 =====
+Subject: Special topics in advanced mathematics 2 (MTH5020)
+Credit Points: 6
+Overview: This unit enables you to work on specifically-designed mathematical content, not otherwise covered in the other units offered in the masters of the School of Mathematics. This work can be individual or in small groups, and could, for example, correspond to supervised reading based on books/articles, or to more regular coursework based, for example, on subjects offered in the AMSI Summer School or ACE units.
+Learning Outcomes:
+- Undertake problem solving challenges, individually or in a collaborative manner.
+- Communicate complex and specialised content both orally and in writing.
+- Apply critical thinking in the field of advanced mathematics and its applications.
+- Assimilate sophisticated concepts from mathematical literature.
+Assessment Tasks:
+- Format-based assessment: 90% (Hurdle: None)
+- Summative presentation: 10% (Hurdle: None)
+Workload: As determined by the Subject assessment panel in each case; typical workloads could be: For a project-based format: 1 hour meeting with the supervisor per week, and 13 hours of personal/group work per week. For a semester-long unit-based format (e.g. ACE unit): 3 hours of lecture per week, 1h of applied class per week, 10h of personal work per week. For an intensive format (e.g. Summer School unit, over 4 weeks): 6h of lecture per week, 2h of applied class per week, 34h of personal work per week. As determined by the Subject Assessment Panel in each case; typical workloads could be:
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5099 =====
+Subject: Measure theory (MTH5099)
+Credit Points: 6
+Overview: Measure theory is one of the few theories which permeates all core mathematical domains (pure, applied and statistics). We develop Lebesgue integration and probability theory from the core elements of measure theory. The initial background will be kept to a minimum. In particular, it is only required knowledge of real analysis and elementary probability theory (prior knowledge of functional analysis is not required, but it is definitely encouraged). On the other hand, the topics covered in this course will be fundamental for the understanding of advanced courses (differential geometry, advanced analysis, partial differential equations), as described above. The unit will cover such pure topics as: semi-rings, algebras, and sigma-algebras of sets, measures, outer measures, the Lebesgue and Borel measures, construction of Vitali sets, construction of non-Borel Lebesgue measurable sets, measurable and integrable functions, the Lebesgue integral and the fundamental theorems, change of variables formula in Euclidean space, the Lebesgue spaces, iterated measures and the Fubini theorem, modes of convergence, signed measures, decomposition of measures and the Radon-Nikodym theorem, approximation results for the Lebesgue measure, Hausdorff measure and dimension, Haar measures, ergodic measures. The unit will also cover topics which are essential for probability theory: such as Borel-Cantelli Lemma, independence, Kolmogorov 0-1 law, exponential bounds, conditional expectation, martingales.
+Learning Outcomes:
+- Identify specific situations to which the fundamental results of measure theory apply, and demonstrate advanced expertise in applying these results to said situations.
+- Communicate complex results and specialised information using the language of measure theory.
+- Use sophisticated tools from measure theory in various areas of Mathematics (e.g. partial differential equations, geometric analysis, dynamical systems, general relativity, probability theory).
+- Formulate complex problems using appropriate measure theory terminology.
+Assessment Tasks:
+- Continuous assessment: 50% (Hurdle: None)
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+Workload: Two 1.5 -hour seminars; One 1-hour applied class (in weeks 2-12) and Eight hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5210 =====
+Subject: Stochastic calculus and mathematical finance (MTH5210)
+Credit Points: 6
+Overview: Variations and quadratic variation of functions. Review of integration and probability. Brownian motion. Ito integrals and Ito's formula. Stochastic differential equations and diffusions. Calculation of expectations and PDE's, Feynman-Kac formula. Martingales and semimartingales. Change of probability measure and Girsanov theorem. Fundamental theorems of asset pricing. Change of numeraire. Application to options.
+Learning Outcomes:
+- Formulate expert solutions to practical financial problems using specialised cognitive and technical skills within the field of stochastic calculus.
+- Communicate complex information in an accessible format to a non-mathematical audience.
+- Apply sophisticated stochastic modelling skills within the context of financial markets.
+- Apply problem solving skills within the finance context.
+- Develop specialised mathematical knowledge and skills within the field of stochastic calculus.
+- Apply critical thinking to problems in stochastic calculus and financial mathematics.
+- Understand the complex connections between financial and probabilistic concepts.
+Assessment Tasks:
+- Continuous assessment: 50% (Hurdle: None)
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+Workload: Two 1.5-hour seminars; One 1-hour applied class (in weeks 2-12) and Eight hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5220 =====
+Subject: The theory of martingales in discrete time (MTH5220)
+Credit Points: 6
+Overview: Doob's convergence theorem. Optional sampling theorem. Discrete Stochastic integral. Martingale inequalities such as Doob and Burkholder-Davis-Gundy inequalities. Bucy-Kalman filter. Applications to finance. Option pricing - discrete Black-Scholes formula. Control theory.
+Learning Outcomes:
+- Develop specialised mathematical knowledge and skills within the theory of martingales.
+- Apply sophisticated stochastic modelling skills within a variety of contexts, from population biology to finance to management science, and more.
+- Apply critical thinking to problems in discrete-time stochastic processes in general, and in the theory of discrete-time martingales in particular.
+- Formulate expert solutions to practical financial, engineering or scientific problems using specialised cognitive and technical skills within the theory of discrete-time martingales.
+Assessment Tasks:
+- Continuous assessment: 50% (Hurdle: None)
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+Workload: Two 1.5-hour seminars; One 1-hour applied class (in weeks 2-12) and 8 hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5230 =====
+Subject: Markov chains and random walks (MTH5230)
+Credit Points: 6
+Overview: Homogeneous Markov chains in finite and countable state space. Foster-Lyapunov criterion for recurrence and transience. Random walks in one and more dimensions. Polya theorem. Limit theorems: law of iterated logarithms, functional central limit theorem. Connections with the Brownian motion and the heat equation. Applications of random walks to finance and insurance.
+Learning Outcomes:
+- Apply sophisticated stochastic modelling skills within a variety of contexts, from a wide range of scientific areas of knowledge.
+- Apply critical thinking to problems in Markov chains in general, and in the theory of random walks in particular.
+- Develop specialised mathematical knowledge and skills within the theories of markov chains and random walks.
+- Formulate expert solutions to practical financial, engineering or scientific problems using specialised cognitive and technical skills within the theories of markov chains and random walks.
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Two 1.5-hour seminars; One 1-hour applied class (in weeks 2-12) and Eight hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5331 =====
+Subject: Nonlinear optimisation (MTH5331)
+Credit Points: 6
+Overview: This unit covers the theory of nonlinear optimisation, numerical methods for solving unconstrained and constrained nonlinear optimisation problems, and the mathematical theory of why these methods work. Their behaviour is explored in programming exercises using Matlab. Topics covered include convexity, necessary and sufficient optimality conditions, gradient descent, Newton’s method, globalised Newton, inexact Newton, quasi Newton, trust-region Newton, projected gradient descent, Newton-Lagrange iteration, penalty methods, and SQP methods.
+Learning Outcomes:
+- Apply mathematical principles and theorems to quantify how fast and in what sense these numerical methods converge;
+- Communicate concepts and arguments related to nonlinear optimisation.
+- Demonstrate an advanced understanding of the uses of common numerical methods for solving unconstrained and constrained optimisation problems, as well as their advantages and disadvantages;
+- Demonstrate an advanced understanding of nonlinear optimisation theory at a conceptual level as well as at a granular level;
+- Select and apply numerical methods for nonlinear optimisation problems in a real-world context;
+- Implement numerical methods for nonlinear optimisation problems in Matlab;
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: One 2-hour applied class (in weeks 2, 4, 6, 8, 10, 12); Two 1.5 -hour seminars and Eight hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5510 =====
+Subject: Quantitative risk management (MTH5510)
+Credit Points: 6
+Overview: Basic concepts of risk management and risk measures. Multivariate models. Copulas and dependence. Financial time series. Volatility models such as ARCH and GARCH processes. Aggregate risk. Extreme value theory. Market, credit, and operational risk models. Regulation and practice.
+Learning Outcomes:
+- Apply different aspects of the theory and practice of risk modelling for financial institutions.
+- Estimate various risk measures such as Value-at-Risk and Expected Shortfall for different type of risks of a financial institution.
+- Understand tail risk concept and quantify it based on either heavy tail distributions approach or extreme value theory.
+- Construct a multivariate model and calibrate its parameters to real financial data either by a multivariate distribution (top-down approach) or copula (bottom-up approach).
+- Understand different types of financial risks such as market, credit, and operational.
+- Construct and estimate various volatility processes such as ARCH and GARCH.
+Assessment Tasks:
+- Continuous assessment: 50% (Hurdle: None)
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+Workload: Two 1.5 -hour seminars; One 1-hour applied class (in weeks 2-12) and 8 hours of independent study per week
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5520 =====
+Subject: Interest rate modelling (MTH5520)
+Credit Points: 6
+Overview: Interest rate curves. Zero-coupon bonds, spot and forward interest rates. Interest rate derivatives. Stochastic differential equations. Change of measures. No arbitrage pricing and change of numeraire. One-factor short rate models, including Vasicek, Hull and White, CIR and affine models. Two-factor short rate models. The HJM framework and models for forward rates. LIBOR models. Pricing of interest rate derivatives: swaps, caps and swaptions.
+Learning Outcomes:
+- Develop specialised mathematical knowledge and skills within the field of stochastic calculus.
+- Communicate complex information in an accessible format to a non-mathematical audience.
+- Understand the complex connections between financial and probabilistic concepts.
+- Apply critical thinking to problems in interest rate modelling.
+- Formulate expert solutions to practical financial problems using specialised cognitive and technical skills within the field of stochastic calculus.
+- Apply sophisticated stochastic modelling skills within the context of interest rate modelling.
+Assessment Tasks:
+- Continuous assessment: 50% (Hurdle: None)
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+Workload: Two 1.5 -hour seminars; One 1-hour applied class (in weeks 2-12) and Eight hours of independent study per week
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5530 =====
+Subject: Computational methods in finance (MTH5530)
+Credit Points: 6
+Overview: The overall aim of this unit is to study the fundamental computational methods for solving problems in financial mathematics. This includes a full overview of finite-difference methods for obtaining numerical solutions of partial differential equations, convergence and stability analysis of finite-difference methods, iterative techniques for solving large-scale linear systems arising from numerical solutions of PDEs, the Black-Scholes equation and stochastic volatility models, option pricing, Monte Carlo computation, and selected topics in mathematical finance.
+Learning Outcomes:
+- Apply computational problem solving skills within the finance context;
+- Formulate expert solutions to practical financial problems using specialised cognitive and technical skills within the fields of partial differential equations and probability theory;
+- Apply critical thinking to problems in partial differential equations that relate to financial derivatives;
+- Communicate complex information in an accessible format to a non-mathematical audience.
+- Develop specialised mathematical knowledge and computational skills within the fields of partial differential equations and probability theory;
+- Develop and understand the complex connections between specialised financial and mathematical concepts;
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Two 1.5 -hour seminars; One 1-hour applied class (in weeks 2-12) and Eight hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5540 =====
+Subject: Statistical learning in finance (MTH5540)
+Credit Points: 6
+Overview: Bayesian inference. Linear Gaussian models. Kalman filter. Maximum likelihood. Fischer information. Cramer-Rao bound. Supervised classification. Tree based methods. Support vector machines. Introduction to R.
+Learning Outcomes:
+- Apply critical thinking to problems in statistical learning that relate to financial models.
+- Understand the complex connections between specialised financial and mathematical concepts.
+- Formulate expert solutions to practical financial problems using specialised cognitive and technical skills within the fields of statistical learning.
+- Develop specialised statistical knowledge and skills within the field of statistical learning.
+- Apply estimation and calibration solving skills within the finance context.
+- Communicate complex information in an accessible format to a non-mathematical audience.
+Assessment Tasks:
+- Continuous assessment: 50% (Hurdle: None)
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+Workload: Two 1.5 -hour seminars; One 1-hour applied class (in weeks 2-12) and Eight hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5550 =====
+Subject: Quantitative trading and market microstructure (MTH5550)
+Credit Points: 6
+Overview: Mathematical formulation of trading strategies; order book modelling; market Impact and optimal execution; efficient market hypothesis; the CAPM model; portfolio optimisation; optimal trading; correlation and covariance estimators; multivariate analysis; co-integration; micro-economy of derivatives pricing.
+Learning Outcomes:
+- Apply problem solving skills within the finance context.
+- Understand the complex connections between specialised financial and mathematical concepts.
+- Develop specialised financial skills within the fields of statistics and probability theory.
+- Communicate complex information in an accessible format to a non-mathematical audience.
+- Apply critical thinking to problems in statistics and probability that relate to financial markets.
+- Formulate expert solutions to practical financial problems using specialised cognitive and technical skills within the fields of statistics and probability.
+Assessment Tasks:
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+- Continuous assessment: 50% (Hurdle: None)
+Workload: Two 1.5 -hour seminars; One 1-hour applied class (in weeks 2-12) and Eight hours of independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5560 =====
+Subject: Partial differential equations for finance (MTH5560)
+Credit Points: 6
+Overview: This unit introduces parabolic partial differential equations (PDEs) with financial applications. Basic solutions concepts and properties will be covered. Connections between PDE and probabilistic formulations will be established via the Feynman-Kac formula. Option pricing theory will be explored via the Black-Scholes equation. The dynamic programming principle and theory of stochastic control will be briefly introduced. You will learn to derive relevant PDEs for financial problems, study their properties, and solve using numerical methods such as finite difference methods, Monte-Carlo methods, and deep learning.
+Learning Outcomes:
+- Demonstrate critical thinking and problem solving skills within the context of financial mathematics;
+- Recognise the complex connections between stochastic analysis and partial differential equations;
+- Articulate specialised mathematical concepts within the field of partial differential equations;
+- Communicate complex information in an accessible format to a non-mathematical audience.
+- Apply sophisticated mathematical modelling skills to problems in partial differential equations that relate to financial markets;
+- Formulate expert solutions, both analytical and numerical, to practical financial problems using specialised cognitive and technical skills within the field of partial differential equations;
+Assessment Tasks:
+- Continuous assessment: 50% (Hurdle: None)
+- Final assessment - Exam (3 hours and 10 minutes): 50% (Hurdle: None)
+Workload: 3 hours of seminars; One hour of applied classes and 8 hours of independent study per week (including working on assessments and revision)
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5810 =====
+Subject: Industry research project (MTH5810)
+Credit Points: 24
+Overview: This unit is designed to provide you with industry research experience and project-based learning. Through the research project, you will be able to apply financial thinking, modelling techniques and mathematical and statistical skills acquired throughout the Masters programme to solve real-life problems in finance and related areas. In the process they will acquire invaluable experience and knowledge working either independently or collaboratively on an applicable industry project. You must complete a 12 week industry research project at the Masters level.
+Learning Outcomes:
+- Analyse financial and/or insurance data using tools developed throughout the programme;
+- Put into practice financial thinking, modelling techniques and mathematical and statistical skills acquired throughout the programme;
+- Construct models and solutions in specific settings relating to financial and/or insurance problems;
+- Design solutions to real-life problems in finance and related areas based on financial thinking, modelling techniques and mathematical and statistical skills acquired throughout the programme;
+- Exhibit effective reporting and writing skills at an industry standard. At the end of this capstone unit, students are expected to gain graduate placements in relevant industries.
+- Recommend solutions to real-life problems in finance and related areas;
+Assessment Tasks:
+- Continuous assessment: 100% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5820 =====
+Subject: Minor industry research project (MTH5820)
+Credit Points: 12
+Overview: This unit is designed to provide you with industry research experience and project-based learning. Through the research project, you will be able to apply financial thinking, modelling techniques and mathematical and statistical skills acquired throughout the Masters programme to solve real-life problems in finance and related areas. In the process they will acquire invaluable experience and knowledge working either independently or collaboratively on an applicable industry project. You must complete a six week industry research project (or 12 weeks if part time) at the Masters level.
+Learning Outcomes:
+- Recommend solutions to real-life problems in finance and related areas.
+- Exhibit effective reporting and writing skills at an industry standard. At the end of this capstone unit, students are expected to gain graduate placements in relevant industries.
+- Analyse financial and/or in.
+- Design solutions to real-life problems in finance and related areas based on financial thinking, modelling techniques and mathematical and statistical skills acquired throughout the programme.
+- Put into practice financial thinking, modelling techniques and mathematical and statistical skills acquired throughout the programme.
+- Construct models and solutions in specific settings relating to financial and/or insurance problems;
+Assessment Tasks:
+- Continuous assessment: 100% (Hurdle: None)
+Workload: The workload in this unit is made up of two components: Research: On average 44 hours per week for 6 weeks (or 22 hours per week for 12 weeks), including meeting and discussion with the supervision team, background research, problem solving, numerical implementation and private study. Reporting and report writing: On average 4 hours per week for 6 weeks (or 2 hours per week for 12 weeks), including minor reports, final thesis and preparation of oral presentation.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5830 =====
+Subject: Industry placement (MTH5830)
+Credit Points: 24
+Overview: This unit is designed to provide you with industry experience and work-based learning. Through the placement, you will be able to apply financial thinking, modelling techniques and mathematical and statistical skills acquired throughout the Masters programme to solve real-life problems in finance and related areas. In the process they will acquire invaluable experience and knowledge on the functioning of a finance-related workplace. You must complete at least 360 hours of placement in a relevant industry.
+Learning Outcomes:
+- Recommend solutions to real-life problems in finance and related areas;
+- Design solutions to real-life problems in finance and related areas based on financial thinking, modelling techniques and mathematical and statistical skills acquired throughout the programme to;
+- Analyse financial and/or insurance data using tools developed throughout the programme;
+- Put into practice financial thinking, modelling techniques and mathematical and statistical skills acquired throughout the programme;
+- Construct models and solutions in specific settings relating to financial and/or insurance problems;
+- Exhibit effective reporting and writing skills in the context of a workplace. At the end of this capstone unit, students are expected to gain graduate placements in relevant industries.
+Assessment Tasks:
+- Continuous assessment: 100% (Hurdle: None)
+Workload: The workload in this unit is made up of two components: 1. Work hours as agreed to by you, the industry partner and the teaching staff. Working hours and conditions may vary from partner to partner. 2. Reporting and report writing: 2 hours per week for the duration of the internship (at least 10 weeks) and 20 hours total for the final report.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MTH5840 =====
+Subject: Minor industry placement (MTH5840)
+Credit Points: 12
+Overview: This unit is designed to provide you with industry experience and work-based learning. Through the placement, you will be able to apply financial thinking, modelling techniques and mathematical and statistical skills acquired throughout the Masters programme to solve real-life problems in finance and related areas. In the process they will acquire invaluable experience and knowledge on the functioning of a finance-related workplace. You must complete at least 180 hours of placement in a relevant industry.
+Learning Outcomes:
+- Construct models and solutions in specific settings relating to financial and/or insurance problems;
+- Analyse financial and/or insurance data using tools developed throughout the programme;
+- Put into practice financial thinking, modelling techniques and mathematical and statistical skills acquired throughout the programme;
+- Recommend solutions to real-life problems in finance and related areas;
+- Exhibit effective reporting and writing skills in the context of a workplace. At the end of this capstone unit, students are expected to gain graduate placements in relevant industries.
+- Design solutions to real-life problems in finance and related areas based on financial thinking, modelling techniques and mathematical and statistical skills acquired throughout the programme;
+Assessment Tasks:
+- Continuous assessment: 100% (Hurdle: None)
+Workload: 
+

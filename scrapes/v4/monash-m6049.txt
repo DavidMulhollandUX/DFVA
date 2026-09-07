@@ -1,0 +1,356 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/M6049 =====
+## Master of Bioinformatics
+##### M6049
+##### 96 credit points
+You are viewing the 2026 version
+
+### Overview
+The Master of Bioinformatics is a coursework/research degree to be undertaken in key research areas in the Monash Biomedicine Discovery Institute in the Faculty of Medicine, Nursing and Health Sciences.
+
+You will gain advanced knowledge in areas of bioinformatics, including integration of different types of biological data. You will develop critical multidisciplinary bioinformatic skills gained by broad foundational studies in key concepts such us biostatistics, computational biology and genomics, and advanced case-based learning and research.
+
+You will be taught theoretical knowledge that underpins bioinformatics and develops critical thinking and research skills. Beginning in the third semester of the course, there are two streams. In the research stream, you will be taught how to develop and communicate a research project and undertake original research in a host laboratory, where you will apply your bioinformatic skills to address important research problems. You will be supported in your research by a supervisory team. In the coursework stream, you will take additional advanced bioinformatic and project management units.
+
+### AQF level
+Level 9 - Master's Degree (Coursework)
+### CRICOS code
+116951M
+### Post-nominals
+MBioInfo
+### Course duration (full time)
+
+
+### Structure
+The course is structured into three parts: Part A. Foundation studies, Part B. Core studies and Part C. Application studies.
+
+Part A. Foundation studies
+
+Part A comprises foundation studies for students with different educational backgrounds to ensure all students have a solid foundational knowledge in order to complete the course. 
+
+Part B. Core studies
+
+In these studies, you will develop skills in core bioinformatics approaches and understand how genomics and other “omic” data can be used in research and clinical contexts.
+
+Part C. Application studies
+
+There are two streams in Part B, a research stream and a coursework stream. In the research stream you will further advance and broaden your understanding and capacity to conduct independent bioinformatic research where you will apply your bioinformatic skills to address important research problems. In the coursework stream you will receive further training in bioinformatics and project management.
+
+Course progression map
+
+The course progression map provides guidance on unit enrolment for each semester of study.
+
+### Requirements
+The course comprises 96 points structured in three parts: Part A. Foundation studies (12 points), Part B. Core studies (54 points), Part C. Application studies (30 points)
+
+Units are 6 points unless otherwise stated.
+
+Part A. Foundation studies (12 points)
+
+Depending on your prior studies you may be required to complete up to 12 credit points of the following:
+
+  * BIO2010 Data science for biologists*
+
+  * EPM5033 Programming principles for health data analytics using Python*
+
+  * MCB2011 Molecular biology and the cell plus 6 points of electives**
+
+  * Students who are not required to complete BIO2010, EPM5033 and MCB2011 must complete 12 credit points of additional elective units.
+
+Note: Elective units can be from MNHS or across the university providing you meet the respective pre-requisites.
+
+*Must be completed by students with science, biology and biomedical science background
+** Must be completed by students with IT/engineering background
+
+Part B. Core studies (54 points)
+
+ You must complete the following units:
+
+  * MPH5041 Introductory biostatistics
+
+  * GNA5022 Sequencing technologies
+
+  * GNA5040 Genomics and its applications
+
+  * BMS5001 Research training: Critical thinking and communication skills
+
+  * BMS5302 Machine learning: AI for bioinformatics
+
+  * BMS5303 Research case studies in bioinformatics
+
+  * BMS5309 Advanced transcriptomics: Bulk, single-cell, and spatial analysis (12 points)
+
+  * FIT9136 Introduction to Python programming
+
+Part C. Application studies (30 points)
+
+You must complete either the Coursework or Research pathway:
+
+a. Coursework pathway
+
+You must complete the following units:
+
+  * BMS5305 High performance computing for bioinformatics
+
+  * BMS5307 Research advanced case studies in bioinformatics (12 points)
+
+  * BMS5308 Integrative bioinformatics and multi-omic bioinformatics research
+
+  * 
+MGF5910 Project management fundamentals
+
+a. Research pathway
+
+You must complete the following units:
+
+  * BMS5304 Bioinformatics research proposal
+
+  * BMS5306 Bioinformatics research project (24 points)
+
+### Course structure
+96 credit points
+**Part A. Foundation studies** **12 credit points**
+Depending on your prior studies you may be required to complete up to 12 credit points of the following:
+
+If you have a science, biology and biomedical science background you must complete BIO2010 and EPM5033.
+
+If you have an IT/engineering background you must complete MCB2011 and 6 points of electives.
+
+Students who are not required to complete BIO2010, EPM5033 and MCB2011 must complete 12 credit points of additional elective units. Note: Elective units can be from MNHS or across the university providing you meet the respective pre-requisites.
+  [ _arrow_forward_ BIO2010 Data science for biologists ](https://handbook.monash.edu/2026/units/BIO2010)
+  [ _arrow_forward_ EPM5033 Programming principles for health data analytics using Python ](https://handbook.monash.edu/2026/units/EPM5033)
+  [ _arrow_forward_ MCB2011 Molecular biology and the cell ](https://handbook.monash.edu/2026/units/MCB2011)
+**Part B. Core studies** **54 credit points**
+You must complete the following units
+  [ _arrow_forward_ MPH5041 Introductory biostatistics ](https://handbook.monash.edu/2026/units/MPH5041)
+  [ _arrow_forward_ GNA5022 Sequencing technologies ](https://handbook.monash.edu/2026/units/GNA5022)
+  [ _arrow_forward_ GNA5040 Genomics and its applications ](https://handbook.monash.edu/2026/units/GNA5040)
+  [ _arrow_forward_ BMS5001 Research training: Critical thinking and communication skills ](https://handbook.monash.edu/2026/units/BMS5001)
+  [ _arrow_forward_ BMS5302 Machine learning: AI for bioinformatics ](https://handbook.monash.edu/2026/units/BMS5302)
+  [ _arrow_forward_ BMS5309 Advanced transcriptomics: Bulk, single-cell, and spatial analysis ](https://handbook.monash.edu/2026/units/BMS5309)
+  [ _arrow_forward_ FIT9136 Introduction to Python programming ](https://handbook.monash.edu/2026/units/FIT9136)
+  **BMS5303 Research case studies in bioinformatics** **6 credit points**
+  The content for this unit is currently under development
+**Part C. Application studies** **30 credit points**
+You must complete either the Coursework or Research pathway:
+  **Coursework pathway** **30 credit points**
+  You must complete the following units
+    [ _arrow_forward_ MGF5910 Project management fundamentals ](https://handbook.monash.edu/2026/units/MGF5910)
+    [ _arrow_forward_ BMS5305 High performance computing for bioinformatics ](https://handbook.monash.edu/2026/units/BMS5305)
+    **BMS5307 Research advanced case studies in bioinformatics** **12 credit points**
+    The content for this unit is currently under development
+    **BMS5308 Integrative bioinformatics and multi-omic bioinformatics research** **6 credit points**
+    The content for this unit is currently under development
+  **Research pathway** **30 credit points**
+  You must complete the following units
+    [ _arrow_forward_ BMS5304 Bioinformatics research proposal ](https://handbook.monash.edu/2026/units/BMS5304)
+    [ _arrow_forward_ BMS5306 Bioinformatics research project ](https://handbook.monash.edu/2026/units/BMS5306)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+design, conduct and report original bioinformatics research under the guidance of a supervisory team.
+**2.**
+employ advanced critical thinking abilities to analyse, and propose innovative solutions to, complex biological and computational problems.
+**3.**
+demonstrate professional and ethical practice required for working in laboratories and/or commercial workplace settings.
+**4.**
+effectively communicate scientific findings and research outcomes to diverse audiences, both orally and in writing.
+**5.**
+evaluate and apply computational methods, statistical techniques, and data analysis tools relevant to bioinformatics.
+**6.**
+integrate knowledge from biology, computer science, statistics, and artificial intelligence (AI) and machine learning (ML)-driven data analysis to systematically approach bioinformatics challenges.
+
+### Progression to further studies
+Successful completion of this course may provide a pathway to a graduate research degree.
+
+### AHEGS
+The Master of Bioinformatics is a postgraduate award. The course is taught in English and normally takes two years of full-time study or four years of part-time study. Graduates have advanced knowledge in areas of bioinformatics, including integration of different types of biological data. Graduates have the critical multidisciplinary bioinformatic skills gained by broad foundational studies in key concepts (biostatistics, computational biology and genomics) and advanced case-based learning and research. The Master of Bioinformatics is a Level 9 Australian Qualifications Framework (AQF) qualification.  The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations.
+
+### Degrees awarded
+Master of Bioinformatics
+
+===== SOURCE: https://handbook.monash.edu/2026/units/BIO2010 =====
+Subject: Data science for biologists (BIO2010)
+Credit Points: 6
+Overview: Professional biologists with the skills to design experiments and analyse data are essential for identifying and responding to society’s urgent environmental, biomedical, and social challenges. This unit provides the approaches and tools that enable curious and creative minds to collect, analyse, and understand complex biological data. Drawing on a variety of examples from biology, genetics, and the biomedical sciences, we focus first on constructing impactful and testable research questions and designing rigorous experiments to match. We then introduce modern data science methods, using the R statistical environment, that make exploring, visualising, and analysing complex biological data as fast and as fluent as possible. Throughout the unit we work in small groups to promote hands-on problem solving and peer-assisted debate. The combination of training in critical thinking, data science using R, communication, and team work, will provide you with a demonstrable skill set that is highly-valued in a variety of traditional and emerging scientific careers, or for further undergraduate and honours study.
+Learning Outcomes:
+- Select and justify the most appropriate analysis for a biological dataset and research question.
+- Construct, test, and evaluate scientific hypotheses in biology.
+- Summarise, visualise and analyse datasets using the programming tools of R.
+- Critically evaluate biological data and make inferences from analyses.
+- Design and optimise sampling programs and experiments for answering biological questions.
+Assessment Tasks:
+- In-semester tests and assignments: 40% (Hurdle: None)
+- Examination - Theory (2 hours and 10 minutes): 50% (Hurdle: None)
+- Laboratory and workshop engagement: 10% (Hurdle: None)
+Workload: One 1.5-hour interactive workshop; One 2.5-hour laboratory; 3 hours of pre-class and post-class activities and 5 hours of independent study or group work per week
+
+===== SOURCE: https://handbook.monash.edu/2026/units/BMS5001 =====
+Subject: Research training: Critical thinking and communication skills (BMS5001)
+Credit Points: 6
+Overview: This is one of two complementary core units in research training in the Masters in Biomedical and Health Sciences. It provides you with the opportunity to build skills in critical thinking and evaluation of biomedical research and how to communicate research. It will be taught through two intertwined streams (modules) of study: (a) Communications skills module for written and oral communications and (b) Critical thinking module using analyses and evaluation in seminars of world-class cutting-edge research.
+Learning Outcomes:
+- Analyse the range of different biomedical science techniques used at the level of tissues, organs and systems, to create models pertinent to human health and disease
+- Evaluate the different types of research designs used in the biomedical sciences at the level of tissues, organs and systems, and justify the use of particular research designs to address specific research questions;
+- Effectively communicate the basis of the scientific method from building a hypothesis, to testing the ideas through experimental methods;
+- Interpret and summarise the purpose and outcomes of current biomedical research papers on studies at the level of tissues, organs and systems;
+- Analyse current, cutting-edge research in biomedical sciences, and effectively communicate these complex ideas to a diverse audience.
+- Critically evaluate the advantages and limitations of different biomedical science techniques in providing information pertinent to human health and disease;
+Assessment Tasks:
+- 4 written critiques of BDI Scientific seminars (each approx. 1,000 words): 40% (Hurdle: Competency)
+- Mid-semester abstract writing test (1 hour writing time): 15% (Hurdle: None)
+- Written report on a hot scientific topic (1,500 words): 30% (Hurdle: None)
+- End of semester abstract exam (1 hour writing time ): 15% (Hurdle: None)
+Workload: 6 hours teacher-directed learning / week on campus (seminars & workshops) 6 hours student-directed learning
+
+===== SOURCE: https://handbook.monash.edu/2026/units/BMS5309 =====
+Subject: Advanced transcriptomics: Bulk, single-cell, and spatial analysis (BMS5309)
+Credit Points: 12
+Overview: This unit will provide you with an in-depth understanding of cutting-edge transcriptomic technologies. The central focus is on the principles and applications of bulk RNA sequencing, single-cell RNA sequencing (scRNA-seq), and spatial transcriptomics. You will explore the methodologies for data generation, processing, and analysis, gaining hands-on experience with state-of-the-art computational tools and techniques, including the use of AI and machine learning. The curriculum covers the interpretation of complex transcriptomic data, emphasising the biological insights that can be gleaned from different scales of analysis. These skills are central to a variety of research questions in genomics, biotechnology, and biomedical sciences.
+Learning Outcomes:
+- Interpret spatial transcriptomics data to map gene expression patterns within tissue architecture and understand the spatial context of cellular processes.
+- Describe and differentiate between bulk RNA sequencing, single-cell RNA sequencing, and spatial transcriptomics techniques.
+- Evaluate single-cell RNA sequencing data to identify cell types, states, and trajectories using clustering, dimensionality reduction, and pseudotime analysis.
+- Utilise appropriate bioinformatics tools, including Artificial intelligence (AI) and Machine Learning, for analysing transcriptomic data, including normalisation, differential expression analysis, and pathway analysis.
+- Translate transcriptomic findings into biological insights and hypotheses, focusing on gene function, regulation, and interaction networks.
+- Demonstrate proficiency in processing raw transcriptomic data from bulk, single-cell, and spatial RNA sequencing experiments.
+Assessment Tasks:
+- Digital Notebook and Q&A: 15% (Hurdle: None)
+- Oral presentation: 30% (Hurdle: None)
+- Poster presentation (equivalent to 1,200 words): 20% (Hurdle: None)
+- Written report (equivalent to 600 words): 10% (Hurdle: None)
+- Research paper and Q&A: 25% (Hurdle: None)
+Workload: 12 hours of teacher directed study per week, including 2-4 hours of on-line lectures and 6-8 hours of workshops. 12 hours per week of self-directed study. Total per week = 24 hours
+
+===== SOURCE: https://handbook.monash.edu/2026/units/EPM5033 =====
+Subject: Programming principles for health data analytics using Python (EPM5033)
+Credit Points: 6
+Overview: You will gain the skills in the Python programming language regularly used in health data analytics. You will be equipped to implement several commonly used Python libraries specifically designed for data manipulation, exploration, visualisation, and machine learning. You will develop the knowledge and skills of programming in Python, including foundational skills such as programming syntax, functions, data and file management and an introduction to linear and binary regression. The common Python library packages such as Numpy, Matplotlib and Pandas will be introduced to enable you to describe, visualise, analyse and interpret health data. Using these industry standard packages, you will investigate contemporary case studies and engage in weekly programming exercises to build your applied skills throughout the unit.
+Learning Outcomes:
+- Illustrate appropriate data wrangling, visualisation and basic regression techniques in Python for health data analytics
+- Describe and implement basic elements and various data types in Python
+- Critically assess and effectively use artificial intelligence (AI) tools responsibly, with transparency and specific to health data analytics
+- Investigate and apply relevant Python packages for health data analytics
+- Reflect on your learning, and how it might relate to future learning experiences.
+- Apply foundational programming principles using the Python language
+- Solve problems in a variety of health-related contexts using the Python programming language
+Assessment Tasks:
+- Reflection (600 words): 10% (Hurdle: None)
+- Report: Data frames and visualisations: 35% (Hurdle: None)
+- Report: Regression and classification (2,100 words): 35% (Hurdle: None)
+- 4 x quizzes: 20% (Hurdle: None)
+Workload: Twelve hours per week, consisting of (on average): 4 hours per week for reading and working through core learning material 1-hour online lecture materials (multiple videos) 2-hour face-to-face tutorial 2 hours per week for online communication via online moderated discussions, and 3 hours per week for self-directed study (assignment and quiz preparation) No residential component is required.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/FIT9136 =====
+Subject: Introduction to Python programming (FIT9136)
+Credit Points: 6
+Overview: This unit introduces programming fundamentals using the Python language. It will present fundamental programming control structures, built-in and complex datatypes, mechanisms for modularity, and the use of basic libraries. You will also be introduced to good programming practices and programming in teams.
+Learning Outcomes:
+- Design, construct and test simple programs that include user-defined functions and data structures;
+- Write programs efficiently by discovering and leveraging libraries;
+- Implement good programming practices in a team, including unit testing, basic documentation and readability.
+- Effectively use variables, conditionals and loops in computer programs;
+Assessment Tasks:
+- Assignment 1 Project: 25% (Hurdle: None)
+- Assignment 3 Project: 15% (Hurdle: None)
+- Assignment 2 Project: 30% (Hurdle: None)
+- Assignment 1 In-class test: 10% (Hurdle: None)
+- Assignment 2 In-class test: 10% (Hurdle: None)
+- Assignment 3 In-class test: 10% (Hurdle: None)
+- Discussion 2: 10% (Hurdle: None)
+- Assignment 1 Project: 20% (Hurdle: None)
+- In-class test 1: 5% (Hurdle: None)
+- Discussion 1: 5% (Hurdle: None)
+- Assignment 2 Project: 30% (Hurdle: None)
+- In-class test 2: 15% (Hurdle: None)
+- In-class test 3: 15% (Hurdle: None)
+Workload: This unit has a requirement of 1-2 hours per week of asynchronous learning. Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/GNA5022 =====
+Subject: Sequencing technologies (GNA5022)
+Credit Points: 6
+Overview: This unit will cover the theory behind the commonly used sequencing platforms. You will gain a detailed understanding of how sequence data is generated. You will learn about the many different methodologies for sample and library preparation, and their influence on the data generated. You will gain experience in working with different sequence formats and develop skills to critically assess the quality of next generation sequencing data. You will learn how to perform variant calling for several different classes of genomic variation, and critically evaluate which methods are best suited to particular tasks. You will gain experience in identifying errors in sequence data and integrating your knowledge to allow you to troubleshoot the process of sequence generation.
+Learning Outcomes:
+- Perform basic genomic analyses associated with functional characterization of variants.
+- Compare common techniques used for library preparation and explain which library preparation methods are used for a particular task;
+- Contrast the data types generated by all commonly used sequencing platforms;
+- Assess data quality and perform error correction for different types of sequence data;
+- Manipulate sequence data from commonly used sequencing techniques and identify suitable variant calling approaches;
+Assessment Tasks:
+- Written report: 35% (Hurdle: None)
+- Practical assessment: 50% (Hurdle: None)
+- Oral assessment: 15% (Hurdle: None)
+Workload: One three-hour face-to-face workshop and Nine hours of independent study, including pre-recorded material and interactive online sessions per week
+
+===== SOURCE: https://handbook.monash.edu/2026/units/GNA5040 =====
+Subject: Genomics and its applications (GNA5040)
+Credit Points: 6
+Overview: Recent technological advances in DNA analysis now allow the rapid and relatively cheap sequencing of entire genomes of individual organisms. These developments have the potential to revolutionize how we identify genes that control both simple and complex traits. Bioinformatic analysis of genomic data will also be highly influential in shaping our view of how organisms adapt to changes in their environment and how over a longer time-scale, traits such as body size and pattern and physiological and behavioural responses can evolve, leading to the rich diversity of life forms seen today. This unit will explore the use of whole-genome techniques to examine gene regulation, identify the genes controlling both simple and complex traits, determine how individuals and populations adapt to selective pressure and piece together the evolutionary changes that have given rise to complex multicellular life. Such information will increasingly be important in the 21st century for sustainable development of human civilisation in concert with a healthy planetary environment. You will acquire relevant laboratory and computer-based skills including genetic database analysis and bioinformatics, forward genetic approaches and mapping and identification of genes controlling complex quantitative traits.
+Learning Outcomes:
+- Explain the philosophy of forward and reverse genetics including genome editing techniques;
+- Illustrate the processes required to map and identify genes controlling complex biological traits and articulate how forward genetics approaches can be used to determine gene function;
+- Critique applications of genomic techniques in the areas of medical research, agriculture, biotechnology and environmental management;
+- Develop biological hypotheses and justify experimental approaches to evaluate them using genomic techniques and bioinformatic tools.
+- Synthesise and critique new discoveries from the scientific literature in genomics;
+- Evaluate recent advances in genetic knowledge gained from genomic analysis of species ranging from unicellular to multicellular organisms;
+- Collect, analyse, interpret and present genetic data effectively in the preparation of scientific reports;
+- Utilise and appraise bioinformatic tools to compare DNA and protein sequences, search for genetic variants controlling complex traits, analyse transcriptome data and search for genomic signatures for adaptation;
+Assessment Tasks:
+- Practical related assignments: 45% (Hurdle: None)
+- In-semester tests: 30% (Hurdle: None)
+- Workshop related assessments: 25% (Hurdle: None)
+Workload: 1 hour workshop; 2 hours applied session; 1.75 hours directed online activities; 2.25 hours laboratories and 5 hours independent study per week.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MCB2011 =====
+Subject: Molecular biology and the cell (MCB2011)
+Credit Points: 6
+Overview: This unit explores the molecular mechanisms that underpin cellular life. You will examine how genetic information is stored and expressed, how protein function is regulated, how cells divide, communicate, differentiate and die, and how disruptions in these processes can cause dysfunction and disease. You will also learn about the tools and technologies that are used to study the genome, transcriptome and proteome, driving scientific discovery and innovation. This flexible unit combines online learning activities with hands-on experiences in our world-class molecular biosciences laboratory to support your learning. This multidisciplinary unit builds a strong foundation for further studies in biochemistry, developmental biology, genetics, immunology, microbiology, and pharmacology. If you’re curious about the molecular and cellular basis of life, this unit is for you. MCB2011 is offered in the summer semester (5 weeks) and in semester one (12 weeks).
+Learning Outcomes:
+- Explain how proteins are folded, modified and transported within cells;
+- Describe and evaluate the regulatory mechanisms that control gene expression;
+- Assess the strengths, limitations and applications of molecular tools and technologies;
+- Relate the structure and composition of cells and organelles to their biological function;
+- Apply your knowledge of molecular and cellular biology to real-world scenarios;
+- Collect, analyse, interpret and communicate scientific data in a professional format.
+- Compare and contrast genome structure and organisation in prokaryotes and eukaryotes;
+- Discuss the processes by which cells divide, communicate, differentiate and die;
+Assessment Tasks:
+- Theme tests: 50% (Hurdle: None)
+- Laboratory Assessments: 10% (Hurdle: None)
+- Final project: 40% (Hurdle: None)
+Workload: A total of 144 hours per semester, inclusive of both directed learning activities (e.g. online learning modules, laboratory classes) and independent self-directed study.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MGF5910 =====
+Subject: Project management fundamentals (MGF5910)
+Credit Points: 6
+Overview: This unit introduces the fundamentals of project management applicable to all projects and examines the core concepts and applied techniques for effective management of projects. It provides an introduction to the importance of project management, organisational strategy, and project selection and prioritisation. Organisational capabilities are explored within the context of projects, including structure, culture and roles, project life cycle and organisation, and developing project-related product or service descriptions to charter a project.
+Learning Outcomes:
+- summarise the essential components of a project and the processes that are considered essential to its successful implementation
+- analyse the importance of project management in the context of various organisational cultures and strategies
+- evaluate factors important to project selection and prioritisation as evidenced by organisational capability and available resource capacity
+- evaluate and recommend an appropriate project management strategy for a new project to meet stakeholder expectations in a given organisational context.
+Assessment Tasks:
+- 4 - Presentation: 20% (Hurdle: None)
+- 3 - Written: 30% (Hurdle: None)
+- 1 - Quiz / Test: 10% (Hurdle: None)
+- 2 - Project: 40% (Hurdle: None)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled learning activities and independent study. Independent study may include associated readings, assessment and preparation for scheduled activities. You are expected to complete all pre-class activities prior to your scheduled class, and post-class activities should be completed after your scheduled class. Learning activities may include a combination of teacher directed, peer directed and online engagement activities.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MPH5041 =====
+Subject: Introductory biostatistics (MPH5041)
+Credit Points: 6
+Overview: This unit introduces you to biostatistics as applied to public health and management studies. Biostatistics is the science of describing, summarising, and analysing health-related data. It is essential to understand biostatistics in order to design, conduct, and interpret health-related research. The basic principles and methods used in biostatistics are covered in this unit. This includes the technical qualifications necessary for analysing and interpreting data on a descriptive and bivariate level. Topics include classifying health data; summarising data using simple statistical methods and graphical presentation; sampling distributions; quantifying uncertainty in results from a sample; working with statistical distributions; comparing two or more groups/methods using confidence intervals and hypothesis tests (p - values); assessing the association between an outcome and an exposure using the chi-squared test; using risk comparisons (RR and OR); predicting an event or identifying risk factors for an event of interest where the event is measured on a continuous scale or a binary scale (yes/no).
+Learning Outcomes:
+- Analyse data using a specific software package.
+- Present data using relevant tables, graphical displays, and summary statistics, quantify uncertainty in study results.
+- Classify data into appropriate measurement types.
+- Formulate research hypotheses into a statistical context in public health studies.
+- Accurately interpret statistical methods and results reported in health publications.
+- Estimate quantities of interest and evaluate hypothesis with appropriate statistical methods.
+Assessment Tasks:
+- Structured written report 3 (2500 words): 45% (Hurdle: Threshold)
+- Structured written report 1 (1,500 words): 15% (Hurdle: None)
+- Online test (MCQ) (30 minutes): 10% (Hurdle: None)
+- Structured written report 2 (2,000 words): 30% (Hurdle: None)
+Workload: ONLINE mode: 2 hours online seminar (recorded), 2 hours online live tutorial, 2 hours online guided discussion, and 6 hours independent study per week. ON-CAMPUS mode: 4 face-to-face contact hours (2 hours seminar and 2 hours tutorial), + 2 hours online guided discussion, + 6 hours independent study per week.
+

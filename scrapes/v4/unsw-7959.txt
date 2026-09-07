@@ -1,0 +1,189 @@
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/programs/2026/7959 =====
+# Data Science and Decisions (7959)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 7959
+- **Academic Year**: 2026
+- **Study Level**: Postgraduate
+- **AQF Level**: Level 8
+- **Total Units / Units of Credit (UOC)**: 24
+- **Delivery Mode**: Face-to-face (includes blended)
+- **CRICOS Code**: 0100702
+- **Academic Organisation**: Faculty of Science
+- **Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/7959
+
+## Description
+This program aims to produce professionals who are skilled in the manipulation and interpretation of large amounts of data. It has been developed to train scientists to meet the current, and future, strong demand for Data Scientists and Data Analysts. Graduates will have broad and advanced knowledge and skills in Data Science across the three areas of mathematics and statistics, computer science, and economics.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+5. Be able to apply the highest ethical standards to their professional and personal lives
+4. Be able to apply advanced mathematical and computational techniques and business sensibilities to real-world problems involving complex data sets.
+1. Be able to analyse information critically in a mathematical setting.
+8. Demonstrate a high level understanding of the significance of science, technology, economics and social factors in modern society, and of the contributions they can make in improving material conditions.
+3. Demonstrate knowledge and skills in formulating problems involving both qualitative and quantitative data.
+9. Apply in depth knowledge of statistics, computer science, applied mathematics, and business strategies, in data preparation, manipulation, analysis and interpretation.
+2. Demonstrate an understanding of the role of speculation in the selection and solution of problems, the construction of hypotheses, and the design of experiments.
+6. Be able to prepare, process interpret and present data using appropriate qualitative and quantitative techniques
+7. Be able to read critically and with understanding, to think logically, and to communicate clearly by written and oral means.
+
+## Career Opportunities & Employment Areas
+Database and Systems Administrators, and ICT Security Specialists, Statistician, Business and Systems Analysts, and Programmers, Computer Network Professionals
+
+## Program Structure & Degree Requirements
+Students must complete 24 Units of Credit (UOC) structured across the following academic components:
+
+### Core Courses (24 UOC)
+Students must take 24 UOC of the following courses.
+
+#### One of the following:
+- **COMP9020**: Foundations of Computer Science [6 UOC]
+- **COMP9021**: Principles of Programming [6 UOC]
+
+#### Core Courses (0 UOC)
+- **DATA9001**: Fundamentals of Data Science [6 UOC]
+
+#### One of the following:
+- **MATH5905**: Statistical Inference [6 UOC]
+- **MATH5846**: Introduction to Probability and Stochastic Processes [6 UOC]
+
+#### One of the following:
+- **ECON5103**: Business Economics [6 UOC]
+- **ECON5111**: Economics of Strategy [6 UOC]
+
+## Progression & Academic Rules
+Students who have completed 24 UoC in the Graduate Certificate of Data Science and Decisions program (7959) and have a WAM of 65 or higher may apply to transfer into the Graduate Diploma of Data Science and Decisions (5959) or the Master of Data Science and Decisions (8959).
+
+For more information on university policy on progression requirements, please visit Academic Progression.
+
+## Admission Requirements
+**Minimum Entry Requirements**:
+The entry requirement for the Graduate Certificate in Data Science and Decisions is both of the following:
+
+- A recognised bachelor degree (or equivalent qualification) with a substantial quantitative component in a cognate discipline; and
+
+- An overall average of 65 or higher as determined by the UNSW Postgraduate Coursework Entry Calculator.
+
+Notes
+
+Assumed knowledge: A mathematical background of a minimum of one course in several variable calculus and one course in linear algebra at the university undergraduate level.
+
+International students: Prospective international students need to meet the University's English language requirements.
+
+**Limitations on Recognition of Prior Learning**:
+Recognition of Prior Learning (RPL) is the transfer of credit towards a program from another degree. The following policy applies to students with degrees from other institutions and students with an undergraduate degree from UNSW.
+
+In limited cases, students with previous postgraduate or honours-level coursework, including Honours graduates from UNSW, may receive advanced standing/recognition of prior learning. Advanced standing is limited to a maximum of 6 UoC.
+
+Advanced standing will only be granted for courses at the honours or postgraduate level, not courses at the undergraduate level. Students must apply for advanced standing and the School of Mathematics and Statistics will determine if the student’s completed coursework is deemed equivalent to UNSW counterparts. Advanced standing is not guaranteed.
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/COMP9020 =====
+Subject: Foundations of Computer Science (COMP9020)
+Credit Points: 6
+Overview: The official scope is: mathematical methods for designing correct and efficient programs; mathematics for algorithm analysis; logic for proving and verification. The actual content is taken from a list of subjects that constitute the basis of the tool box of every serious practitioner of computing: set and relation theory; induction, recursion and recurrence relations; order of growth of functions; structured counting (combinatorics); discrete probability; graph theory and trees for algorithmic applications; propositional logic and boolean algebras.
+Learning Outcomes:
+- Explain basic number theory concepts and definitions.
+- Explain simple combinatorics, probability and statistics.
+- Explain Boolean and propositional logic.
+- Explain the fundamental Computer Science concepts of recursion and induction.
+- Explain the foundational structures used in discrete mathematics.
+- Explore additional approaches to problem solving by identifying broader abstract connections between concepts.
+- Analyze the correctness and efficiency of algorithms.
+- Apply mathematical tools to formulate and prove problems in Computer Science.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/COMP9021 =====
+Subject: Principles of Programming (COMP9021)
+Credit Points: 6
+Overview: This course provides students with solid conceptual knowledge and practical skills of both generic programming techniques and Python programming, to be used effectively in the many specialised courses that expect students to have acquired strong enough programming skills and well mastered the Python language. The features of the language are covered to a significant depth, and there is a strong emphasis on problem solving, from a broad base of application domains, with quite a few that involve mathematical notions. Like all foundation courses for postgraduate students, there is a lot of contents to study in limited time and the learning curve is not gentle. Still the course does not assume any prior knowledge of programming in general, or of Python programming in particular, as its content is self-contained for students with the expected mathematical background.
+Learning Outcomes:
+- Apply appropriate tools, in particular for editing, testing and debugging.
+- Apply Python language, including advanced syntax and programming techniques.
+- Design, implement and test programs written in a language with procedural, object-oriented, and functional constructs.
+- Create clear, reliable, well-structured, well-tested, well-documented programs.
+- Analyse what happens behind the scene when operating on Python data types, with an understanding of efficiency and memory use.
+- Use fundamental data structures and algorithms.
+- Design programs to solve small to medium scale problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/DATA9001 =====
+Subject: Fundamentals of Data Science (DATA9001)
+Credit Points: 6
+Overview: This course provides a broad overview of Data Science as a platform for further studies in Data Science and an understanding and appreciation of Data Science in the modern world. Students will study the fundamentals of Data Science as it is applied in Computer Science, Economics, and Mathematics and Statistics. They will be introduced to topics such as databases, data analytics, data mining, Bayesian statistics, statistical software, econometrics, machine learning and business forecasting. The content of this course will be delivered via weekly live lectures with academics from three different Schools: The School of Mathematics and Statistics, the School of Economics and the School of Computer Science and Engineering. These concepts will be further explored through a series of tutorials/workshops.
+Learning Outcomes:
+- Apply fundamental data science techniques and tools, including machine learning, Naïve Bayes classification, Decision trees, K-NN, unsupervised learning and neural networks.
+- Apply key methods of statistical inference in applied settings.
+- Use R/RStudio to perform statistical computations and simulations.
+- Use key theoretical tools to explore the properties of random variables.
+- Apply various data visualisation tools, perform regression analysis and draw causal inference from data.
+- Apply probability rules in a given setting to calculate key quantities.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+- In-person -: N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ECON5103 =====
+Subject: Business Economics (ECON5103)
+Credit Points: 6
+Overview: How do markets operate, how do firms and consumers respond to incentives, and how do government policies affect business strategy and performance? This course introduces key economic principles and their application to business decision making in a dynamic and uncertain environment. Students will develop a foundational understanding of economic principles and receive practical training in decision making, within the economic contexts which influence business activities. By the end of the course, students will be able to apply economic reasoning to strategic and operational decisions, assess policy impacts on business outcomes, and think critically about the broader economic forces shaping modern organisations.
+Learning Outcomes:
+- Construct economic arguments in terms of these concepts.
+- Implement economic models to analyse relevant issues, incorporating environmental and sustainability considerations in international macroeconomics.
+- Explain key micro- and macro-economic concepts.
+- Synthesise ideas through succinct and clear work that communicates ideas in a logical, professional manner.
+- Critically read and evaluate economic stories in the media.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/ECON5111 =====
+Subject: Economics of Strategy (ECON5111)
+Credit Points: 6
+Overview: Strategic interaction is central to modern economics and business decisions. This course introduces the core tools of game theory and applies them to competition, contracting, auctions, bargaining, and related strategic settings. You will study simultaneous and sequential games, imperfect information, and repeated interaction, and apply these tools across mean cases and contexts. The result is a practical framework for analysing strategic behaviour. By the end of this course, you will be able apply core game theoretic concepts to analyse strategic behaviour, market structure, and policy design with precision and confidence.​
+Learning Outcomes:
+- Interpret and communicate insights derived from game-theoretic analysis to a non-technical audience.
+- Analyse real-world strategic situations using game-theoretic tools, assess the incentives faced by players, and evaluate resulting behavioural outcomes.
+- Critically apply game-theoretical tools and solution concepts, and clearly justify their use in strategic analysis.
+- Synthesise ideas through succinct and clear work that communicates ideas in a logical, professional manner.
+Assessment Tasks:
+- Fully online - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5846 =====
+Subject: Introduction to Probability and Stochastic Processes (MATH5846)
+Credit Points: 6
+Overview: This course covers probabilistic concepts which are necessary to study various complex phenomena arising in Engineering, Biology, Medicine and Economics. This course introduces basic concepts which are needed to analyse different phenomena. In particular, we discuss the concepts of random events, random variables, structures of dependence, computation of probabilities using the Central Limit Theorem, simple Markov chains, and Brownian motion.
+Learning Outcomes:
+- Use key theoretical tools to explore properties of random variables.
+- Apply principles of Markov Chains and Brownian motion to practical and theoretical problems.
+- Derive fundamental results in the theory of probability and random variables.
+- Apply the principles of probability to practical and theoretical problems.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/courses/2026/MATH5905 =====
+Subject: Statistical Inference (MATH5905)
+Credit Points: 6
+Overview: This postgraduate course presents general inference theory based on maximum likelihood and on Bayes methods. Estimation, confidence set construction, and hypothesis testing are discussed within decision-theoretic framework. Computationally intensive methods such as bootstrap are also discussed and are compared to asymptotic approximations such as saddlepoint and empirical likelihood.
+Learning Outcomes:
+- Use computer packages to generate output for common Inference procedures and for computer-intensive calculations such as bootstrapping and robust estimation.
+- Apply concepts of finite-sample and asymptotic efficiency of inference procedure to appropriate problems.
+- Explain how statistical inference arises from the first principles of probability theory.
+- Use parametric, nonparametric, Bayes and robust inference methods.
+- Apply the fundamental principles of inference: sufficiency, likelihood, ancillarity, and equivariance.
+- Estimate key population parameters of interest, test hypotheses about them and construct confidence regions.
+- Apply the parametric and non-parametric delta method, asymptotic normality, Edgeworth expansions and saddlepoint method to solve appropriate problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+Workload: 
+

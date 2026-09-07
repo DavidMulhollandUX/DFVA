@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in communication and media studies.",
+    "evidenceLines": [
+      "**Institution**: The University of Adelaide",
+      "**Program Identifier / Slug**: gcimt_gcimedtech",
+      "- **Institution**: The University of Adelaide"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in communication and media studies.",
+    "evidenceLines": [
+      "**Academic Calendar Year**: 2025/2026",
+      "**Faculty**: Faculty of Arts, Business, Law and Economics (ABLE)",
+      "- **Program Identifier / Slug**: gcimt_gcimedtech"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within communication and media studies.",
+    "evidenceLines": [
+      "Subject: Immersive Media Design (MDIA5011)",
+      "Subject: Immersive Media Business (MDIA5013)",
+      "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/gcimt_gcimedtech"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in communication and media studies.",
+    "evidenceLines": [
+      "Identify and analyse physiological response characteristics associated with design paradigm implementation.",
+      "Demonstrate comprehension via the application of context specific design terminology within immersive media technology frameworks.",
+      "- **Academic Calendar Year**: 2025/2026"
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in communication and media studies.",
+    "evidenceLines": [
+      "Subject: Immersive Media Design (MDIA5011)",
+      "Subject: Immersive Media Design (MDIA5011)",
+      "Critically differentiate between HMD (Head Mounted Display/Device) technologies and software in relation to design implementation."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in communication and media studies.",
+    "evidenceLines": [
+      "Develop and formulate a feasible design brief incorporating design paradigm understanding.",
+      "- **Institution**: The University of Adelaide",
+      "- **Program Identifier / Slug**: gcimt_gcimedtech"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in communication and media studies.",
+    "evidenceLines": [
+      "Categorise the benefits/shortcomings of immersive media technology platforms from a design understanding perspective.",
+      "Subject: Immersive Media Business (MDIA5013)",
+      "- **Academic Calendar Year**: 2025/2026"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "The Graduate Certificate in Immersive Media Technologies is an AQF Level 8 qualification with a standard full-time duration of 0.5 years.",
+      "- **Institution**: The University of Adelaide"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate in Immersive Media Technologies.",
+      "evidenceLines": [
+        "The Graduate Certificate in Immersive Media Technologies is an AQF Level 8 qualification with a standard full-time duration of 0.5 years.",
+        "Program Maximum Duration"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in communication and media studies.",
+      "evidenceLines": [
+        "Subject: Immersive Media Design (MDIA5011)",
+        "**Institution**: The University of Adelaide"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

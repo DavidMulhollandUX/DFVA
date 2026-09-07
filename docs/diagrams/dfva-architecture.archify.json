@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Evidura / DFVA system architecture",
+    "quality_profile": "showcase",
+    "repository": {
+      "url": "https://github.com/DavidMulhollandUX/DFVA",
+      "revision": "46ef0f4067227387532c25727e097c8030193704"
+    },
+    "views": [
+      {
+        "id": "runtime",
+        "label": "Runtime request path",
+        "focus": [
+          "users",
+          "client",
+          "server",
+          "db",
+          "llm"
+        ],
+        "note": "A user request from the browser through Wasp RPC to Postgres and the optional LLM pipeline."
+      },
+      {
+        "id": "content",
+        "label": "Content pipeline",
+        "focus": [
+          "handbook",
+          "sources",
+          "pipeline",
+          "generated",
+          "client"
+        ],
+        "note": "Handbook evidence and report markdown compile into generated TypeScript that ships in the client bundle."
+      },
+      {
+        "id": "agents",
+        "label": "Agent-first access",
+        "focus": [
+          "agents",
+          "mcp",
+          "generated"
+        ],
+        "note": "AI agents read assessments through the MCP server instead of the website."
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "handbook",
+      "type": "external",
+      "label": "UoM Handbook",
+      "sublabel": "handbook.unimelb.edu.au",
+      "tag": "browser capture only",
+      "pos": [
+        40,
+        110
+      ],
+      "size": [
+        150,
+        64
+      ],
+      "sources": [
+        {
+          "path": "scripts/v4-capture-queue.py",
+          "label": "capture queue"
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "type": "database",
+      "label": "Canonical sources",
+      "sublabel": "reports/*.md · dfva/source/",
+      "pos": [
+        270,
+        110
+      ],
+      "size": [
+        170,
+        64
+      ],
+      "sources": [
+        {
+          "path": "dfva/source/rubric.ts",
+          "label": "rubric"
+        },
+        {
+          "path": "reports/dfva-080cl.md",
+          "label": "a report body"
+        }
+      ]
+    },
+    {
+      "id": "pipeline",
+      "type": "backend",
+      "label": "Generation pipeline",
+      "sublabel": "scripts/ (tsx)",
+      "tag": "dfva:gen-content · dfva:gen-v4",
+      "pos": [
+        520,
+        110
+      ],
+      "size": [
+        170,
+        64
+      ],
+      "sources": [
+        {
+          "path": "scripts/package.json",
+          "label": "npm scripts"
+        }
+      ]
+    },
+    {
+      "id": "generated",
+      "type": "database",
+      "label": "Generated artefacts",
+      "sublabel": "TS modules + assessments.json",
+      "tag": "guarded by dfva:check",
+      "pos": [
+        770,
+        110
+      ],
+      "size": [
+        190,
+        64
+      ],
+      "sources": [
+        {
+          "path": "compass/app/src/compass/reportContent/index.ts",
+          "label": "report loaders"
+        },
+        {
+          "path": "dfva/source/assessments.json",
+          "label": "assessments"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "backend",
+      "label": "dfva-mcp server",
+      "sublabel": "compass/mcp",
+      "pos": [
+        1090,
+        110
+      ],
+      "size": [
+        150,
+        64
+      ],
+      "sources": [
+        {
+          "path": "compass/mcp/src/index.ts",
+          "label": "MCP tools"
+        }
+      ]
+    },
+    {
+      "id": "users",
+      "type": "external",
+      "label": "Program leads",
+      "sublabel": "Browser",
+      "pos": [
+        40,
+        300
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "client",
+      "type": "frontend",
+      "label": "Web client",
+      "sublabel": "React 19 · Vercel",
+      "pos": [
+        270,
+        300
+      ],
+      "size": [
+        170,
+        64
+      ],
+      "sources": [
+        {
+          "path": "compass/app/src/compass/v4/V4ReportPage.tsx",
+          "label": "report page"
+        }
+      ]
+    },
+    {
+      "id": "server",
+      "type": "backend",
+      "label": "Wasp server",
+      "sublabel": "Node · Fly.io · :3001",
+      "tag": "operations · API keys · PgBoss jobs",
+      "pos": [
+        520,
+        300
+      ],
+      "size": [
+        170,
+        64
+      ],
+      "sources": [
+        {
+          "path": "compass/app/main.wasp.ts",
+          "label": "declarations"
+        },
+        {
+          "path": "compass/app/src/compass/operations.ts",
+          "label": "operations"
+        }
+      ]
+    },
+    {
+      "id": "db",
+      "type": "database",
+      "label": "PostgreSQL",
+      "sublabel": "Prisma 5",
+      "pos": [
+        770,
+        300
+      ],
+      "size": [
+        190,
+        64
+      ],
+      "sources": [
+        {
+          "path": "compass/app/schema.prisma",
+          "label": "schema"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "external",
+      "label": "AI agents",
+      "sublabel": "Claude, Cursor, Codex",
+      "pos": [
+        1090,
+        300
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "external",
+      "label": "OpenAI",
+      "sublabel": "assessment pipeline",
+      "tag": "DFVA_MOCK=true in dev",
+      "pos": [
+        520,
+        480
+      ],
+      "size": [
+        170,
+        64
+      ],
+      "sources": [
+        {
+          "path": "compass/app/src/env.ts",
+          "label": "env schema"
+        }
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "Content pipeline (build time)",
+      "wraps": [
+        "sources",
+        "pipeline",
+        "generated"
+      ]
+    },
+    {
+      "kind": "region",
+      "label": "Wasp app: compass/app (runtime)",
+      "wraps": [
+        "client",
+        "server",
+        "db"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "capture",
+      "from": "handbook",
+      "to": "sources",
+      "label": "paced capture",
+      "variant": "dashed"
+    },
+    {
+      "id": "generate",
+      "from": "sources",
+      "to": "pipeline",
+      "label": "read"
+    },
+    {
+      "id": "emit",
+      "from": "pipeline",
+      "to": "generated",
+      "label": "regenerate"
+    },
+    {
+      "id": "assessments",
+      "from": "generated",
+      "to": "mcp",
+      "label": "assessments.json"
+    },
+    {
+      "id": "bundle",
+      "from": "generated",
+      "to": "client",
+      "label": "bundled at build",
+      "variant": "dashed",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "https",
+      "from": "users",
+      "to": "client",
+      "label": "HTTPS",
+      "variant": "emphasis"
+    },
+    {
+      "id": "rpc",
+      "from": "client",
+      "to": "server",
+      "label": "Wasp RPC"
+    },
+    {
+      "id": "sql",
+      "from": "server",
+      "to": "db",
+      "label": "Prisma SQL"
+    },
+    {
+      "id": "assess",
+      "from": "server",
+      "to": "llm",
+      "label": "assessProgram",
+      "variant": "dashed",
+      "labelDy": 24
+    },
+    {
+      "id": "mcp-tools",
+      "from": "agents",
+      "to": "mcp",
+      "label": "MCP tools",
+      "variant": "emphasis"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Runtime",
+      "items": [
+        "Wasp 0.24 client on Vercel, server on Fly.io",
+        "Operations, public API keys and PgBoss jobs (hourly stats, weekly market drift) live in the server",
+        "OpenAI is called only with DFVA_MOCK=false"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "Content pipeline",
+      "items": [
+        "reports/*.md and dfva/source/ are canonical; generated files are never hand-edited",
+        "dfva:check fails CI on drift",
+        "Handbook evidence is captured through a real browser, paced at one page per 20–30 s"
+      ]
+    },
+    {
+      "dot": "violet",
+      "title": "Agent-first",
+      "items": [
+        "dfva-mcp exposes get_assessment, query_assessments, get_report and more",
+        "Agents consume assessments.json without visiting the site"
+      ]
+    }
+  ]
+}

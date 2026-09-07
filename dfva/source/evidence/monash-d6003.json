@@ -1,0 +1,102 @@
+{
+  "code": "monash-d6003",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in counselling.",
+      "evidenceLines": [
+        "design evidence-based counselling intervention strategies informed by relevant lifespan research.",
+        "apply the fundamental principles of lifespan development to the solutions of current issues and problems",
+        "This course provides you with a professional qualification and specialised knowledge and skills in professional counselling practice, which you will be able to apply to diverse settings and contexts."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in counselling.",
+      "evidenceLines": [
+        "evaluate, integrate, and apply relevant evidence-based research to assess client presentation",
+        "describe and differentiate major developmental theories and frameworks across the lifespan",
+        "You will engage with highly qualified and dedicated teaching staff who will use their extensive experience working as professional counsellors or psychologists to illustrate theoretical material and will help you apply this to real-world counselling practice in a variety of settings."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within counselling.",
+      "evidenceLines": [
+        "Subject: Lifespan development and counselling (EDF5000)",
+        "Subject: Counselling for change and transition (EDF5001)",
+        "identify key physical and psychosocial stages of development"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in counselling.",
+      "evidenceLines": [
+        "Case study (2000 words or equivalent): 50% (Hurdle: None)",
+        "Essay (2000 words or equivalent): 50% (Hurdle: None)",
+        "You will consolidate and expand your knowledge through applied and experiential learning."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in counselling.",
+      "evidenceLines": [
+        "Subject: Introduction to ethics and professional issues in counselling (EDF5002)",
+        "Subject: Foundations in counselling: Evidence-based practice (EDF5003)",
+        "analyse principles of sociocultural diversity and inclusion using an intersectionality framework."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in counselling.",
+      "evidenceLines": [
+        "develop and apply stress management strategies and facilitate the enhancement of coping skills and mental wellbeing",
+        "This course provides you with a professional qualification and specialised knowledge and skills in professional counselling practice, which you will be able to apply to diverse settings and contexts.",
+        "You will engage with highly qualified and dedicated teaching staff who will use their extensive experience working as professional counsellors or psychologists to illustrate theoretical material and will help you apply this to real-world counselling practice in a variety of settings."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in counselling.",
+      "evidenceLines": [
+        "analyse principles of cognitive, behavioural and interpersonal change and apply them in diverse counselling settings",
+        "Subject: Counselling in the school years (EDF5004)",
+        "You will consolidate and expand your knowledge through applied and experiential learning."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course is structured in three parts. Part A. Foundation studies, Part B. Core studies and Part C. Applied studies.",
+        "This course provides you with a professional qualification and specialised knowledge and skills in professional counselling practice, which you will be able to apply to diverse settings and contexts."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Counselling.",
+        "evidenceLines": [
+          "The course is structured in three parts. Part A. Foundation studies, Part B. Core studies and Part C. Applied studies.",
+          "Part B.\u00a0Core studies"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in counselling.",
+        "evidenceLines": [
+          "Subject: Lifespan development and counselling (EDF5000)",
+          "design evidence-based counselling intervention strategies informed by relevant lifespan research."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

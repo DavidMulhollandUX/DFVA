@@ -1,0 +1,777 @@
+===== SOURCE: https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/digital-health-data-science.html =====
+# Digital Health and Data Science (digital-health-data-science)
+
+## Program Overview
+- **Institution**: The University of Sydney (USYD)
+- **Course / Program Identifier**: digital-health-data-science
+- **Academic Year**: 2026
+- **Faculty**: medicine-health-pg
+- **Handbook URL**: https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/digital-health-data-science.html
+
+## Overview
+2026 Handbooks
+Medicine and Health Postgraduate
+Coursework
+Digital Health and Data Science
+Course resolutions
+Unit of study table
+
+Course resolutions
+Unit of study table
+
+## Unit of Study Table & Curriculum Structure
+Digital Health and Data Science - Unit of study table - The University of Sydney
+Handbooks
+Medicine and Health Postgraduate
+/
+Coursework
+/
+Digital Health and Data Science
+/
+Unit of study table
+2026 Handbooks
+Medicine and Health Postgraduate
+Coursework
+Digital Health and Data Science
+Course resolutions
+Unit of study table
+Digital Health and Data Science
+Unit of study table
+Master of Digital Health and Data Science
+Students complete 48 credit points, comprising:
+(i) 24 credit points of Core units of study;
+(ii) 6 credit points of Data Science Elective units of study;
+(iii) 6 credit points of Digital Health Elective units of study;
+(iv) 12 credit points of Capstone Project units of study;
+Graduate Certificate in Digital Health and Data Science
+Students complete 24 credit points, comprising:
+(i) 6 credit points of Data Science Selective units of study;
+(ii) 6 credit points of Digital Health Selective units of study;
+(iv) 6 credit points of Data Science Elective units of study or 6 credit points of Data Science Selective units of study; and
+(iv) 6 credit points of Digital Health Elective units of study or 6 credit points of Digital Health Selective units of study.
+Unit of study
+Credit points
+A: Assumed knowledge P: Prerequisites
+C: Corequisites N: Prohibition
+Core units
+HTIN5006
+Foundations of Healthcare Data Science
+6
+N
+HTIN4006
+HTIN5005
+Applied Healthcare Data Science
+6
+N
+HTIN4005
+BIDH5003
+Foundations of Digital Health
+6
+N
+HSBH5003
+or
+HSBH3008
+or
+BIDH3008
+BIDH5000
+Digital Health Innovation and Implementation
+6
+A
+Assumed basic knowledge of health, health care and associated systems are required. Students who have not completed an undergraduate or postgraduate degree in a health profession will be asked to complete the Open Learning Environment module 'Preparation for learning in the Hospital Environment', which is openly available to all University of Sydney students via Canvas. Please check the Canvas site for this unit for any information on further recommended resources
+Selective units of study (Graduate Certificate)
+For Graduate Certificate, Selective units are the same as the Core units offered in MDHDS
+Data Science Selectives
+HTIN5006
+Foundations of Healthcare Data Science
+6
+N
+HTIN4006
+HTIN5005
+Applied Healthcare Data Science
+6
+N
+HTIN4005
+Digital Health Selectives
+BIDH5003
+Foundations of Digital Health
+6
+N
+HSBH5003
+or
+HSBH3008
+or
+BIDH3008
+BIDH5000
+Digital Health Innovation and Implementation
+6
+A
+Assumed basic knowledge of health, health care and associated systems are required. Students who have not completed an undergraduate or postgraduate degree in a health profession will be asked to complete the Open Learning Environment module 'Preparation for learning in the Hospital Environment', which is openly available to all University of Sydney students via Canvas. Please check the Canvas site for this unit for any information on further recommended resources
+Elective units of study
+Data Science Electives
+INFO5306
+Enterprise Healthcare Information Systems
+6
+A
+The unit is expected to be taken after introductory courses in related units such as
+COMP5206
+Information Technologies and Systems (or
+COMP5138
+/
+COMP9120
+Database Management Systems)
+N
+INFO4406
+HTIN5003
+Health Technology Evaluation
+6
+N
+HTIN4003
+COMP9001
+Introduction to Programming
+6
+N
+INFO1110
+or
+INFO1910
+or
+INFO1103
+or
+INFO1903
+or
+INFO1105
+or
+INFO1905
+or
+ENGG1810
+COMP9003
+Object-Oriented Programming
+6
+A
+COMP9001
+or
+INFO1110
+or
+INFO1910
+N
+INFO1113
+or
+INFO1103
+or
+COMP9103
+COMP5046
+Natural Language Processing
+6
+A
+Knowledge of an OO programming language
+N
+COMP4446
+COMP5048
+Visual Analytics
+6
+A
+Experience with data structures and algorithms as covered in
+COMP9103
+or
+COMP9003
+or
+COMP2123
+or
+COMP2823
+or
+INFO1105
+or
+INFO1905
+(or equivalent UoS from different institutions)
+N
+COMP4448
+or
+OCMP5048
+COMP5318
+Machine Learning and Data Mining
+6
+A
+Experience with programming and data structures as covered in
+COMP2123
+or
+COMP2823
+or
+COMP9123
+(or equivalent unit of study from different institutions). Discrete mathematics and probability (e.g.
+MATH1064
+or equivalent); linear algebra and calculus (e.g.
+MATH1061
+or equivalent)
+N
+COMP4318
+or
+OCMP5318
+COMP5424
+Information Technology in Biomedicine
+6
+A
+Experience with software development as covered in
+SOFT2412
+or
+COMP9103
+or
+COMP9003
+(or equivalent UoS from different institutions)
+N
+COMP4424
+STAT5002
+Introduction to Statistics
+6
+A
+HSC Mathematics
+STAT5003
+Computational Statistical Methods
+6
+A
+STAT5002
+or equivalent introductory statistics course with a statistical computing component
+BMET9925
+AI, Data, and Society in Health
+6
+A
+Familiarity with general mathematical and statistical concepts. Online learning modules will be provided to support obtaining this knowledge
+N
+BMET2925
+BMET5933
+Biomedical Image Analysis
+6
+A
+An understanding of biology (1000-level), experience with programming (
+ENGG1801
+,
+ENGG1810
+,
+INFO1110
+,
+BMET2922
+or
+BMET9922
+)
+Digital Health Electives
+BMET5992
+Regulatory Affairs in the Medical Industry
+6
+A
+MECH3921
+or
+BMET3921
+or
+AMME5921
+or
+BMET5921
+and 6 credit points of 1000-level Chemistry and 6 credit points of Biology units
+N
+AMME4992
+or
+AMME5992
+IDEA9106
+Design Thinking
+6
+CEPI5100
+Introduction to Clinical Epidemiology
+6
+BETH5204
+Clinical Ethics
+6
+HPOL5014
+Foundations of Health Technology Assessment
+6
+A
+Basic understanding of human biology and the Australian health system
+N
+HTIN5003
+HPOL5012
+Leadership for Health
+6
+A
+Students are expected to have at least 3 years work experience in a health practice, policy or administrative role
+COMP5427
+Usability Engineering
+6
+N
+COMP4427
+Capstone Project units of study
+BIDH5001
+Digital Health and Data Science Project A
+6
+A
+Assumed library information systems research skills and basic knowledge of health, health care and associated ethics and governance systems are required. Students must complete a pre-capstone knowledge screening quiz or interview which will identify recommended modules for their capstone. Please check the Canvas site for this unit for any information on further recommended resources, mandatory sessions and modules
+P
+12 credit points of (
+HTIN5006
+or
+HTIN5005
+or
+BIDH5003
+or
+BIDH5000
+) and 12 credit points of (
+COMP9001
+or
+INFO5306
+or
+HTIN5003
+or
+COMP9103
+or
+COMP5046
+or
+COMP5048
+or
+COMP5318
+or
+COMP5424
+or
+STAT5002
+or
+STAT5003
+or
+BMET9925
+or
+BMET5933
+or
+BMET5992
+or
+IDEA9106
+or
+CEPI5100
+or
+BETH5204
+or
+HPOL5014
+or
+HPOL5012
+or
+COMP5427
+)
+BIDH5002
+Digital Health and Data Science Project B
+6
+A
+Assumed library information systems research skills and basic knowledge of health, health care and associated ethics and governance systems are required. Students must complete a pre-capstone knowledge screening quiz or interview which will identify recommended modules for their capstone. Please check the Canvas site for this unit for any information on further recommended resources, mandatory sessions and modules
+P
+12 credit points of (
+HTIN5006
+or
+HTIN5005
+or
+BIDH5003
+or
+BIDH5000
+) and 12 credit points of (
+COMP9001
+or
+INFO5306
+or
+HTIN5003
+or
+COMP9103
+or
+COMP5046
+or
+COMP5048
+or
+COMP5318
+or
+COMP5424
+or
+STAT5002
+or
+STAT5003
+or
+BMET9925
+or
+BMET5933
+or
+BMET5992
+or
+IDEA9106
+or
+CEPI5100
+or
+BETH5204
+or
+HPOL5014
+or
+HPOL5012
+or
+COMP5427
+)
+
+## Course Resolutions & Academic Rules
+Digital Health and Data Science - Course Resolutions - The University of Sydney
+Handbooks
+Medicine and Health Postgraduate
+/
+Coursework
+/
+Digital Health and Data Science
+/
+Course resolutions
+2026 Handbooks
+Medicine and Health Postgraduate
+Coursework
+Digital Health and Data Science
+Course resolutions
+Unit of study table
+Digital Health and Data Science
+Course resolutions
+The course resolutions detailed in this page apply to all courses included in the table below under section 1 (course codes).
+These resolutions must be read in conjunction with applicable University By-laws, Rules and policies including (but not limited to) the University of Sydney (Coursework) Rule 2014 (the 'Coursework Rule'), the Coursework Policy 2021 (the 'Coursework Policy'), the Learning and Teaching Policy 2024, the Resolutions of the Faculty, University of Sydney (Student Academic Appeals) Rule 2021, the Academic Integrity Policy 2022 and the Academic Integrity Procedures 2022. Current versions of all policies are available from the Policy Register:
+http://www.sydney.edu.au/policies
+1  Course codes
+Code
+Course title
+GCDIHDSC-01
+Graduate Certificate in Digital Health and Data Science
+MAHLTCIN-01
+Master of Digital Health and Data Science
+2  Attendance pattern
+(1)  The attendance pattern for this course is full-time or part-time according to candidate choice.
+3  Master's type
+(1)  The master’s degree in these resolutions is a professional master’s course.
+4  Embedded courses in this sequence
+(1)  The embedded courses in this sequence are:
+(a) the Graduate Certificate in Digital Health and Data Science
+(b) the Master of Digital Health and Data Science
+(2)  Providing candidates satisfy the admission requirements for each stage, a candidate may progress to the award of any of the courses in this sequence and receive full credit for work completed in the prior award. Only the highest award completed will be conferred.
+5  Admission to candidature
+(1)  Available places will be offered to qualified applicants based on merit, according to the following admissions criteria.
+(2)  Admission to the Graduate Certificate in Digital Health and Data Science requires:
+(a) A minimum of an AQF level 7 degree in a cognate discipline, or an AQF level 8 degree in a non-cognate discipline.
+(3)  Admission to the Master of Digital Health and Data Science requires:
+(a) A minimum of an AQF level 8 degree in a cognate discipline with at least a credit average; or
+(b) An AQF level 7-equivalent qualification in a cognate discipline with at least a credit average and two years relevant work experience; or
+(c) Completion of the requirements of the embedded Graduate Certificate in Digital Health and Data Science with a credit average, or qualifications deemed by the faculty to be equivalent.
+(4)  In exceptional circumstances the relevant delegate may admit applicants without these qualifications who, in the opinion of the faculty, have qualifications and evidence of experience and achievement sufficient to successfully undertake the award.
+(5)  A cognate discipline includes Data Science, Computer Science, Mathematics, Statistics, Engineering, Physics, Economics, Finance, Health Sciences, Medical Sciences, or a related Health Profession or other disciplines that are deemed cognate by the Steering Committee.
+6  Cross-faculty management
+(1)  The Faculty of Engineering is the administering faculty for the course. Candidates in this degree program will be under the general supervision of Faculty of Engineering.
+(2)  The course is overseen by a cross-faculty Steering Committee with core membership from Faculty of Engineering and Faculty of Medicine and Health, chaired by the Deputy Vice Chancellor (Education) or nominee. It makes recommendations to participating faculties and reports to the University Executive Education Committee.
+7  Requirements for award
+(1)  The units of study that may be taken for the courses are set out in Table A for the Graduate Certificate and Master Digital Health and Data Science.
+(2)  To qualify for the award of the Graduate Certificate in Digital Health and Data Science, a candidate must complete 24 credit points of units of study including:
+(a) 6 credit points of Data Science Selective units of study;
+(b) 6 credit points of Digital Health Selective units of study;
+(c) 6 credit points of Data Science Elective units of study or 6 credit points of Data Science Selective units of study; and
+(d) 6 credit points of Digital Health Elective units of study or 6 credit points of Digital Health Selective units of study.
+(3)  To qualify for the award of the Master of Digital Health and Data Science candidates must complete 48 credit points of units of study including:
+(a) 24 credit points of Core units of study;
+(b) 6 credit points of Data Science Elective units of study;
+(c) 6 credit points of Digital Health Elective units of study;
+(d) 12 credit points of Capstone Project units.
+8  Progression Rules
+(1)  A candidate for the Master of Digital Health and Data Science must complete 24 credit points from Core and Elective units of study before taking Capstone Project Units, at least 12 of these credit points must comprise Core units of study.
+9  Cross-institutional study
+(1) Cross-institutional study is not available in these courses except where the University of Sydney has a formal cooperation agreement with another university.
+10  Course transfer
+(1)  A candidate for the Master of Digital Health and Data Science degree may elect to discontinue study and graduate with the Graduate Certificate in Digital Health and Data Science, with the approval of the relevant delegate, and provided the requirements of the Graduate Certificate have been met.
+11  Transitional provisions
+(1)  These resolutions apply to students who commenced their candidature after 1 January 2023 and students who commenced their candidature prior to 1 January 2023 who formally elect to proceed under these resolutions.
+(2) Students who commenced prior to 1 January 2023 may complete the requirements in accordance with the resolutions in force at the time of their commencement.
+
+## Course resolutions
+The course resolutions detailed in this page apply to all courses included in the table below under section 1 (course codes).
+
+These resolutions must be read in conjunction with applicable University By-laws, Rules and policies including (but not limited to) the University of Sydney (Coursework) Rule 2014 (the 'Coursework Rule'), the Coursework Policy 2021 (the 'Coursework Policy'), the Learning and Teaching Policy 2024, the Resolutions of the Faculty, University of Sydney (Student Academic Appeals) Rule 2021, the Academic Integrity Policy 2022 and the Academic Integrity Procedures 2022. Current versions of all policies are available from the Policy Register:
+http://www.sydney.edu.au/policies
+
+(1)  The attendance pattern for this course is full-time or part-time according to candidate choice.
+
+(1)  The master’s degree in these resolutions is a professional master’s course.
+
+(1)  The embedded courses in this sequence are:
+
+(a) the Graduate Certificate in Digital Health and Data Science
+
+(b) the Master of Digital Health and Data Science
+
+(2)  Providing candidates satisfy the admission requirements for each stage, a candidate may progress to the award of any of the courses in this sequence and receive full credit for work completed in the prior award. Only the highest award completed will be conferred.
+
+(1)  Available places will be offered to qualified applicants based on merit, according to the following admissions criteria.
+
+(2)  Admission to the Graduate Certificate in Digital Health and Data Science requires:
+
+(a) A minimum of an AQF level 7 degree in a cognate discipline, or an AQF level 8 degree in a non-cognate discipline.
+
+(3)  Admission to the Master of Digital Health and Data Science requires:
+
+(a) A minimum of an AQF level 8 degree in a cognate discipline with at least a credit average; or
+
+(b) An AQF level 7-equivalent qualification in a cognate discipline with at least a credit average and two years relevant work experience; or
+
+(c) Completion of the requirements of the embedded Graduate Certificate in Digital Health and Data Science with a credit average, or qualifications deemed by the faculty to be equivalent.
+
+(4)  In exceptional circumstances the relevant delegate may admit applicants without these qualifications who, in the opinion of the faculty, have qualifications and evidence of experience and achievement sufficient to successfully undertake the award.
+
+(5)  A cognate discipline includes Data Science, Computer Science, Mathematics, Statistics, Engineering, Physics, Economics, Finance, Health Sciences, Medical Sciences, or a related Health Profession or other disciplines that are deemed cognate by the Steering Committee.
+
+(1)  The Faculty of Engineering is the administering faculty for the course. Candidates in this degree program will be under the general supervision of Faculty of Engineering.
+
+(2)  The course is overseen by a cross-faculty Steering Committee with core membership from Faculty of Engineering and Faculty of Medicine and Health, chaired by the Deputy Vice Chancellor (Education) or nominee. It makes recommendations to participating faculties and reports to the University Executive Education Committee.
+
+(1)  The units of study that may be taken for the courses are set out in Table A for the Graduate Certificate and Master Digital Health and Data Science.
+
+(2)  To qualify for the award of the Graduate Certificate in Digital Health and Data Science, a candidate must complete 24 credit points of units of study including:
+
+(a) 6 credit points of Data Science Selective units of study;
+
+(b) 6 credit points of Digital Health Selective units of study;
+
+(c) 6 credit points of Data Science Elective units of study or 6 credit points of Data Science Selective units of study; and
+
+(d) 6 credit points of Digital Health Elective units of study or 6 credit points of Digital Health Selective units of study.
+
+(3)  To qualify for the award of the Master of Digital Health and Data Science candidates must complete 48 credit points of units of study including:
+
+(a) 24 credit points of Core units of study;
+
+(b) 6 credit points of Data Science Elective units of study;
+
+(c) 6 credit points of Digital Health Elective units of study;
+
+(d) 12 credit points of Capstone Project units.
+
+(1)  A candidate for the Master of Digital Health and Data Science must complete 24 credit points from Core and Elective units of study before taking Capstone Project Units, at least 12 of these credit points must comprise Core units of study.
+
+(1) Cross-institutional study is not available in these courses except where the University of Sydney has a formal cooperation agreement with another university.
+
+(1)  A candidate for the Master of Digital Health and Data Science degree may elect to discontinue study and graduate with the Graduate Certificate in Digital Health and Data Science, with the approval of the relevant delegate, and provided the requirements of the Graduate Certificate have been met.
+
+(1)  These resolutions apply to students who commenced their candidature after 1 January 2023 and students who commenced their candidature prior to 1 January 2023 who formally elect to proceed under these resolutions.
+
+(2) Students who commenced prior to 1 January 2023 may complete the requirements in accordance with the resolutions in force at the time of their commencement.
+
+===== SOURCE: https://www.sydney.edu.au/units/BIDH5001 =====
+Subject: Digital Health and Data Science Project A (BIDH5001)
+Credit Points: 6
+Overview: Digital health interventions and data science are increasingly used to address health challenges through a myriad of solutions from apps, augmented interfaces, clinician-facing decision-support systems, and new models of care such as telehealth. Candidates will work on a substantial research project in an area of specific interest applicable to digital health, health, or clinical data science. The project may include the analysis of an existing health related data set, a systematic review, a case study, health technology evaluation, clinical re-design, survey, or other projects deemed acceptable to the project partner and supervisor. Listed projects may be available for students to select if they fulfill the skills, pre-requisites, and interview requirements. Candidates with a current workplace-based project may apply for project partner approval if learning outcomes criteria are met. The candidate will enter a group or individual learning contract. The development of suitable methodologies and a substantive literature review will be the primary focus for Project A. This supports the focus for Project B; a scholarly work which may be a paper for publication or industry report, culminating in a presentation or seminar suitable for academic and/or professional audiences. Implementation science and modern project management techniques should be used where appropriate in projects.
+Learning Outcomes:
+- LO1 . Initiate, formulate and plan a research/ development project and objectives that addresses individual, organisational and systemic factors in complex health challenges
+- LO2 . Demonstrate the application of critical inquiry and research skills by synthesising the relevant literature and results into a publication or industry report, and presentation
+- LO3 . Critically reflect and evaluate the research outcomes, iterative and collaborative processes of the interdisciplinary project.
+- LO4 . Develop, substantiate and articulate professional responsibilities by applying modern project management and implementation science frameworks.
+Assessment Tasks:
+- Projects, Skills, and Interests Online short answer questions describing background skills, expertise, goals, and nominating projects of interest: 0%: Week 01 Due date : 27 Feb 2026 at 23:00% (Hurdle: False)
+- Project Proposal Written project proposal document: 30%: Week 03 Due date : 13 Mar 2026 at 23:00% (Hurdle: False)
+- Project Details Confirmation Online short answer quiz confirming selected project and supervision: 0%: Week 03 Due date : 09 Mar 2026 at 23:00% (Hurdle: False)
+- Project Progress Report 1 Project Progress Report 1: 20%: Week 06 Due date : 30 Mar 2026 at 23:00% (Hurdle: False)
+- Literature Review A literature review demonstrating critical appraisal and evidence synthesis: 50%: Week 12 Due date : 18 May 2026 at 23:00% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/BIDH5002 =====
+Subject: Digital Health and Data Science Project B (BIDH5002)
+Credit Points: 6
+Overview: Digital health interventions and data science are increasingly used to address health challenges through a myriad of solutions from apps, augmented interfaces, clinician-facing decision-support systems, and new models of care such as telehealth. Candidates will work on a substantial research project in an area of specific interest applicable to digital health, health, or clinical data science. The project may include the analysis of an existing health related data set, a systematic review, a case study, health technology evaluation, clinical re-design, survey, or other projects deemed acceptable to the project partner and supervisor. Listed projects may be available for students to select if they fulfill the skills, pre-requisites, and interview requirements. Candidates with a current workplace-based project may apply for project partner approval if learning outcomes criteria are met. The candidate will enter a group or individual learning contract. The development of suitable methodologies and a substantive literature review will be the primary focus for Project A. This supports the focus for Project B; a scholarly work which may be a paper for publication or industry report, culminating in a presentation or seminar suitable for academic and/or professional audiences. Implementation science and modern project management techniques should be used where appropriate in projects.
+Learning Outcomes:
+- LO1 . Initiate, formulate, and plan a research or development project in digital health
+- LO2 . Demonstrate the application of critical inquiry and research skills by synthesising relevant literature and a research or development project into a report and presentation
+- LO3 . Critically reflect and evaluate research outcomes, learning, and collaborative aspects of a research or development project
+- LO4 . Develop, substantiate, and articulate professional responsibilities by applying modern project management frameworks
+- LO5 . Adhere to agreed timelines and conditions of a learning contract, follow a research plan, and incorporate risk mitigation strategies
+Assessment Tasks:
+- Final Thesis Dissertation - Final report in a publication format: word limit per journal requirements. - Personal Reflection: 2000 words maximum. - Peer review participation of reflection tasks and in-class interactive oral. See specific guidance on the BIDH5002 Canvas site.: 47%: Formal exam period Due date : 09 Jun 2026 at 23:59% (Hurdle: False)
+- Project Progress Report 2 Project Progress Report 2: 10%: Week 08 Due date : 20 Apr 2026 at 23:59% (Hurdle: False)
+- Presentation Assignment The presentation assignment is a multi-media content draft presentation (12 minutes). This assignment is demonstrate a draft of the actual presentation, >75% complete including slide deck to be uploaded.: 0%: Week 10 Due date : 05 May 2026 at 23:59% (Hurdle: False)
+- Seminar Presentation Mandatory in-person presentation day. Oral question and answer session. Peer review in-person participation required.: 33%: Week 11 Due date : 14 May 2026 at 23:59% (Hurdle: False)
+- Reflection Reflection in-person interactive oral with peer review feedback post seminar. Peer review in-class written and oral feedback. See Canvas for further details and requirements.: 10%: Week 12 Due date : 22 May 2026 at 23:59% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/HTIN4003 =====
+Subject: Health Technology Evaluation (HTIN4003)
+Credit Points: 6
+Overview: Many issues have been identified that are of potential relevance for planning, implementation and execution of an evaluation study in the health and technology innovations. This unit aims to address issues covering all phases of an evaluation study: Preliminary outline, study design, operationalization of methods, planning, execution and completion of the evaluation study. Students completing this unit will have better insights leading to a higher quality of evaluation studies for health technology solutions. This unit is an important component towards building stronger evidence and thus to progress towards evidence-based health solutions and technology innovations. Graduates of this unit of study will have a strong interdisciplinary knowledge base, covering diverse areas such as health, economics, health technologies, health informatics, social science and information systems. Topics areas covered: 1. Economic Aspects of Health Technology Evaluation; 2. The Development of Health Technologies and Health Informatics Evaluation; 3. The Role of Evaluation in the Use and Diffusion of Health Technology.
+Learning Outcomes:
+- LO1 . understand economic evaluation methods used to measure the benefits of health technology
+- LO2 . understand the factors in technology evaluation that affect health technology development and use
+- LO3 . understand the social and organisational impacts associated with the use and diffusion of health technology
+- LO4 . use evaluation techniques to build an evidence-based understanding of the quality and efficacy of technology innovations implemented in health care settings
+- LO5 . discuss the social and economic impacts of a health technology
+- LO6 . understand the development of health technologies, and the integration of quality and professional standards
+- LO7 . understand approaches to evaluate health informatics interventions used to measure the impact it has on the delivery of health services.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/HTIN4005 =====
+Subject: Applied Healthcare Data Science (HTIN4005)
+Credit Points: 6
+Overview: The current health data revolution promises transformative advancements in healthcare services and delivery. However, the data generated are vast and complex. Extracting actionable understanding requires cross-disciplinary engagement between data science with healthcare. This unit explores the computational technologies involved in integrating and making sense of the breath of health data, and their use in better understanding the patient. Students will understand the data challenges presented by the various assays in which patients are quantified, spanning genetic testing to organ imaging. Students will explore how computational and machine learning models can span health data to derive integrated understanding of the links and patterns across them. They will employ such models in performing diagnosis and forecasting disease progression and intervention outcomes, thus enabling personalised medicine and supporting clinical decision making. This unit will develop students' understanding of current healthcare challenges, how these can be framed as data science questions, and how they can engage and apply their knowledge in cross-disciplinary ventures to improve healthcare.
+Learning Outcomes:
+- LO1 . Demonstrate knowledge of the broad range of computational problems in healthcare.
+- LO2 . Use machine learning tools to address the needs in healthcare data science.
+- LO3 . Evaluate the performance of machine learning tools in computational healthcare problems.
+- LO4 . Apply and tailor known machine learning tools for solving new challenging healthcare problems.
+- LO5 . Present the design and evaluation of a machine learning prototype for healthcare data science problems, defining the requirements and describing the design processes and evaluation.
+- LO6 . Communicate and collaborate effectively across technological and healthcare/medicine disciplinary boundaries.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/HTIN5003 =====
+Subject: Health Technology Evaluation (HTIN5003)
+Credit Points: 6
+Overview: Many issues have been identified that are of potential relevance for planning, implementation and execution of an evaluation study in the health and technology innovations. This unit aims to address issues covering all phases of an evaluation study: Preliminary outline, study design, operationalization of methods, planning, execution and completion of the evaluation study. Students completing this unit will have better insights leading to a higher quality of evaluation studies for health technology solutions. This unit is an important component towards building stronger evidence and thus to progress towards evidence-based health solutions and technology innovations. Graduates of this unit of study will have a strong interdisciplinary knowledge base, covering diverse areas such as health, economics, health technologies, health informatics, social science and information systems. Topics areas covered: 1. Economic Aspects of Health Technology Evaluation; 2. The Development of Health Technologies and Health Informatics Evaluation; 3. The Role of Evaluation in the Use and Diffusion of Health Technology.
+Learning Outcomes:
+- LO1 . understand economic evaluation methods used to measure the benefits of health technology
+- LO2 . understand the factors in technology evaluation that affect health technology development and use
+- LO3 . understand the social and organisational impacts associated with the use and diffusion of health technology
+- LO4 . use evaluation techniques to build an evidence-based understanding of the quality and efficacy of technology innovations implemented in health care settings
+- LO5 . discuss the social and economic impacts of a health technology
+- LO6 . understand the development of health technologies, and the integration of quality and professional standards
+- LO7 . understand approaches to evaluate health informatics interventions used to measure the impact it has on the delivery of health services.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/INFO1113 =====
+Subject: Object-Oriented Programming (INFO1113)
+Credit Points: 6
+Overview: Object-oriented (OO) programming is a technique that arranges code into classes, each encapsulating in one place related data and the operations on that data. Inheritance is used to reuse code from a more general class, in specialised situations. Most modern programming languages provide OO features. Understanding and using these are an essential skill to software developers in industry. This unit provides the student with the concepts and individual programming skills in OO programming, starting from their previous mastery of procedural programming.
+Learning Outcomes:
+- LO1 . Demonstrate an understanding of the concept of Object-Orientation: understand and explain key concepts of object-oriented programming, including classes as encapsulating data, object instances, memory model of references, methods and calling them across objects.
+- LO2 . Demonstrate an understanding of Object-Oriented programming language : reading, tracing and writing competence with the following elements of Java programming language: classes, methods, object creation; instance and local variables, parameters and scope; basic types; simple I/O; control flow primitives and understand, modify and add functionality to Java programs
+- LO3 . Read and interpret object-oriented design documents, including basic UML diagrams.
+- LO4 . Create appropriate class/data structure including the data types and methods for simple problems
+- LO5 . Derive a computer program from a design document that uses concepts of OO and memory model, trace and write small examples of code including the following elements: inheritance, polymorphism, abstract classes and interfaces, variables and their type and the relationship between static and dynamic type, exception
+- LO6 . Demonstrate experience in testing Object-Oriented programs, write tests for standalone objects, be able to generate and handle exceptions, create invariants for classes, methods and objects, pre- and post-conditions for methods, and assertions
+- LO7 . Demonstrate experience in testing and debugging Object-Oriented programs, write tests for stand-alone object code, to be run automatically.
+- LO8 . Demonstrate experience with common interfaces and collections in Java.
+Assessment Tasks:
+- Written Final Exam Pen-and-paper based exam: 55%: Formal exam period% (Hurdle: False)
+- Task 1 Write code from specifications: 4%: Week 02 Due date : 06 Mar 2026 at 23:59% (Hurdle: False)
+- Coding Challenge Invigilated coding test during the tutorial.: 4%: Week 03% (Hurdle: False)
+- Task 2 Write code from specifications: 4%: Week 04 Due date : 13 Mar 2026 at 23:59% (Hurdle: False)
+- Task 3 Write code from specifications: 4%: Week 05 Due date : 20 Mar 2026 at 23:59% (Hurdle: False)
+- In-tutorial Quiz Small Pen and Paper based quiz during tutorial: 3%: Week 06% (Hurdle: False)
+- In-tutorial Quiz Small Pen and Paper based quiz during tutorial: 3%: Week 07% (Hurdle: False)
+- In-tutorial Quiz Small Pen and Paper based quiz during tutorial: 3%: Week 08% (Hurdle: False)
+- Assignment Implement an OOP project from the specification. There will be an in-person viva, during which students must demonstrate their understanding of the submitted code, without reference to generative AI or other materials, as per the Assessment Summary above: 20%: Week 12 Due date : 18 May 2026 at 23:59% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/INFO1910 =====
+Subject: Introduction to Programming (Advanced) (INFO1910)
+Credit Points: 6
+Overview: The focus of this unit will cover the ground up programming components necessary for study in the computer science discipline. Students will engage with procedural programming using two related programming languages. Students will further their understanding of internal operations as well as reasoning about processing, memory model and conventional programming practices. As an advanced offering, all the course contents of INFO1110 will be covered and there will be additional teaching materials and assessments.
+Learning Outcomes:
+- LO1 . employ programming style conventions for writing consistently readable code
+- LO2 . design and construct new functionality to existing procedural program or function
+- LO3 . compose a structured algorithmic design to solve the descriptive problem specification
+- LO4 . compose an entire procedural program from descriptive problem specification
+- LO5 . translate general programming problems between two distinctly differing procedural programming languages
+- LO6 . demonstrate an understanding of programming principles, data types, variables and operators, control-flow: simple statement, sequence, if-then-else, while, functions: stack, input/output, reference memory model
+- LO7 . compose, analyse and trace procedural code, scoping/variable lifetime, memory of the stack, references and globals, data types, operations on data types
+- LO8 . construct code cliches for input and manipulating arrays, including maximum, minimum, search or traverse, with actions on each element for counting or summation
+- LO9 . construct and assess code for recursively-defined numerical functions, and for recursively described array manipulations
+- LO10 . apply testing methods and assess programs through debugging, write a set of tests for a small program or function
+- LO11 . explain compilation process and debugging mechanism
+- LO12 . use standard library functions
+- LO13 . explain processing, memory and internal operations of procedural programming
+Assessment Tasks:
+- Final examination Pen and paper examination: 50%: Formal exam period% (Hurdle: False)
+- In class tasks Solve programming problems. Weeks 4, 6, 8,10, 12: 8%: Multiple weeks% (Hurdle: False)
+- Out of class tasks Solve programming problems. Weeks: 3, 5, 7, 9,11: 8%: Multiple weeks% (Hurdle: False)
+- Tutorial quiz Quiz to be completed in tutorial. #earlyfeedbacktask: 4%: Week 02% (Hurdle: False)
+- Assignment 1 Write a computer program from problem description: 10%: Week 07 Due date : 11 Apr 2025 at 23:59% (Hurdle: False)
+- Assignment 2 Write a complete program from problem description: 20%: Week 13 Due date : 30 May 2025 at 23:59% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/INFO4406 =====
+Subject: Enterprise Healthcare Information Systems (INFO4406)
+Credit Points: 6
+Overview: Healthcare systems intimately coupled to ICT have been at the forefront of many of the medical advances in modern society in the past decade. As is already the case in many other service-driven sectors, it is widely recognised that a key approach to solve some of the healthcare challenges is to harness and further ICT innovations. This unit is designed to help fill a massive technology talent gap where one of the biggest IT challenges in history is in the technology transformation of healthcare. The unit will consist of weekly lectures, a set of group discussions (tutorials) and practical lab sessions. The contents will offer students the opportunity to develop IT knowledge and skills related to all aspects of Enterprise Healthcare Information Systems. Key Topics covered include: Health Information System e. g. , Picture Archiving and Communication Systems (PACS) and Radiology IS; Electronic Health Records / Personal Health Records; Health data management; Healthcare Transactions; Health Statistics and Research; Decision Support Systems including Image-based systems; Cost Assessments and Ethics / Privacy; TeleHealth / eHealth; Cases studies with Australian Hospitals. Guest lecturers from the healthcare industry will be invited. The core of student's assessments will be based on individual research reports (topics related to the current industry IT needs), software / practical assignment and quizzes.
+Learning Outcomes:
+- LO1 . understand the practices and principles of current health information systems (HIS) used in the healthcare sector
+- LO2 . design and analyse HIS in the hospital and also in research studies
+- LO3 . demonstrate awareness of evolving HIS technologies including Telehealth and Cloud PACS
+- LO4 . ability to use library databases (hardcopy and electronic) of books, journals, conference proceedings, research reports, etc., related to health information systems
+- LO5 . present ideas and make arguments effectively
+- LO6 . obtain knowledge associated with the use of technology in healthcare that impacts the society.
+- LO7 . Understand how to use evidence based medicine to evaluate clinical evidences from literature
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/INFO5306 =====
+Subject: Enterprise Healthcare Information Systems (INFO5306)
+Credit Points: 6
+Overview: Healthcare systems intimately coupled to ICT have been at the forefront of many of the medical advances in modern society in the past decade. As is already the case in many other service-driven sectors, it is widely recognised that a key approach to solve some of the healthcare challenges is to harness and further ICT innovations. This unit is designed to help fill a massive technology talent gap where one of the biggest IT challenges in history is in the technology transformation of healthcare. The unit will consist of weekly lectures, a set of group discussions (tutorials) and practical lab sessions. The contents will offer students the opportunity to develop IT knowledge and skills related to all aspects of Enterprise Healthcare Information Systems. Key Topics covered include: Health Information System e. g. , Picture Archiving and Communication Systems (PACS) and Radiology IS; Electronic Health Records / Personal Health Records; Health data management; Healthcare Transactions; Health Statistics and Research; Decision Support Systems including Image-based systems; Cost Assessments and Ethics / Privacy; TeleHealth / eHealth; Cases studies with Australian Hospitals. Guest lecturers from the healthcare industry will be invited. The core of student's assessments will be based on individual research reports (topics related to the current industry IT needs), software / practical assignment and quizzes.
+Learning Outcomes:
+- LO1 . understand the practices and principles of current health information systems (HIS) used in the healthcare sector
+- LO2 . design and analyse HIS in the hospital and also in research studies
+- LO3 . demonstrate awareness of evolving HIS technologies including Telehealth and Cloud PACS
+- LO4 . ability to use library databases (hardcopy and electronic) of books, journals, conference proceedings, research reports, etc., related to health information systems
+- LO5 . present ideas and make arguments effectively
+- LO6 . obtain knowledge associated with the use of technology in healthcare that impacts the society.
+- LO7 . Understand how to use evidence based medicine to evaluate clinical evidences from literature
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/OCMP5318 =====
+Subject: Machine Learning and Data Mining (OCMP5318)
+Credit Points: 6
+Overview: Machine learning is the process of automatically building mathematical models that explain and generalise datasets. It integrates elements of statistics and algorithm development into the same discipline. Data mining is a discipline within knowledge discovery that seeks to facilitate the exploration and analysis of large quantities for data, by automatic and semiautomatic means. This subject provides a practical and technical introduction to machine learning and data mining. Topics to be covered include problems of discovering patterns in the data, classification, regression, feature extraction and data visualisation. Also covered are analysis, comparison and usage of various types of machine learning techniques and statistical techniques.
+Learning Outcomes:
+- LO1 . Students will be able to describe the basic principles, strengths, weaknesses and applicability of machine learning algorithms for solving classification, regression, clustering and reinforcement learning tasks.
+- LO2 . Students will be able to design machine learning algorithms through practical experience in designing, implementing and evaluation machine learning algorithms.
+- LO3 . Students will be able to design machine learning algorithms for solving classification, regression, clustering, and reinforcement learning tasks using machine learning software and libraries.
+- LO4 . Students will be able to present and interpret data and information in verbal and written form.
+Assessment Tasks:
+- Mid-Term Quiz Mid-Term Quiz: 10%: Week 04% (Hurdle: False)
+- Assignment 1 Assignment 1: 10%: Week 04 Due date : 22 Mar 2026 at 23:59% (Hurdle: False)
+- Assignment 2 Assignment 2: 20%: Week 06 Due date : 02 Apr 2026 at 23:59% (Hurdle: False)
+- Final Exam Final Exam (Proctored Exam in Canvas): 60%: Week 08 Due date : 15 Apr 2026 at 18:30% (Hurdle: False)
+- Weekly Knowledge Check Quiz Weekly Knowledge Check Quiz: 0%: Weekly% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/STAT5002 =====
+Subject: Introduction to Statistics (STAT5002)
+Credit Points: 6
+Overview: The aim of the unit is to introduce students to basic statistical concepts and methods for further studies. Particular attention will be paid to the development of methodologies related to statistical data analysis and Data Mining. A number of useful statistical models will be discussed and computer oriented estimation procedures will be developed. Smoothing and nonparametric concepts for the analysis of large data sets will also be discussed. Students will be exposed to the R computing language to handle all relevant computational aspects in the course.
+Learning Outcomes:
+- LO1 . use the R statistical computing environment to obtain numerical and graphical summaries of data, and for performing various statistical calculations
+- LO2 . explain univariate and bivariate data by means of the five number summary, mean, variance and standard deviation, correlation coefficient, boxplot, histogram and scatterplot
+- LO3 . use methods derived from the three axioms of probability to calculate the probabilities of simple events
+- LO4 . understand the concept of a random variable and the meaning of the expected value and variance
+- LO5 . apply the Binomial distribution as a model for discrete data
+- LO6 . use the Normal distribution as a model for continuous data
+- LO7 . understand the central limit theorem
+- LO8 . understand the concept of hypotheses tests and p-values for finding evidence for or against simple null hypotheses, in particular using the binomial test for testing proportions, one- or two-sided z-, t- or sign-test for making inference about the population mean
+- LO9 . use the Chi-squared test for simple goodness of fit problems
+- LO10 . understand the concept of a confidence interval
+- LO11 . understand the fundamental difference between frequentist based inference and bayesian inference
+- LO12 . find the least squares regression line as a way of describing a linear relationship in bivariate data
+- LO13 . use R to analyse multivariate data
+- LO14 . use of the general F-test as the main tool to choose between two nested regression models
+- LO15 . assess model assumptions and outlier detection in regression models through standard diagnostic plots (box plot, scatterplot, Q-Q-plot, Cook’s distance plot, leverage vs residual plot), through influence measures (leverage values, Cook’s distance)
+- LO16 . apply multiple linear regression and in the understanding of R2 and the adjusted R2
+- LO17 . calculate and interpret confidence intervals for all parameters in linear regression
+- LO18 . use model selection through using the F-test, t-test, AIC or BIC through full searches or by using step-wise procedures (backward, forward, stepwise)
+- LO19 . apply polynomial regression models
+- LO20 . apply logistic and non-parametric regression.
+Assessment Tasks:
+- Final Exam Multiple choice questions (MCQ) and extended answer questions (EAQ): 60%: Formal exam period% (Hurdle: False)
+- Mid-semester quiz Multiple choice questions (MCQs): 20%: Week 08 Due date : 20 Apr 2026 at 20:00 Closing date : 24 Apr 2026% (Hurdle: False)
+- Assignment Individual: 10%: Week 12 Due date : 24 May 2026 at 23:59 Closing date : 03 Jun 2026% (Hurdle: False)
+- Online revision quizzes 1-10 Weekly revision quizzes. Except Weeks 1, 8, and 13: 10%: Weekly% (Hurdle: False)
+Workload: 
+
+===== SOURCE: https://www.sydney.edu.au/units/STAT5003 =====
+Subject: Computational Statistical Methods (STAT5003)
+Credit Points: 6
+Overview: The objectives of this unit of study are to develop an understanding of modern computationally intensive methods for statistical learning, inference, exploratory data analysis and data mining. Advanced computational methods for statistical learning will be introduced, including clustering, density estimation, smoothing, predictive models, model selection, combinatorial optimisation methods, sampling methods, the Bootstrap and Monte Carlo approach. In addition, the unit will demonstrate how to apply the above techniques effectively for use on large data sets in practice.
+Learning Outcomes:
+- LO1 . Formulate domain/context specific questions and identify appropriate statistical analysis.
+- LO2 . Formulate, evaluate and interpret appropriate statistical models to describe the relationships between multiple factors.
+- LO3 . Perform statistical machine learning using a given classifier and create a cross-validation scheme to calculate the prediction accuracy.
+- LO4 . Understand, perform and interpret various unsupervised machine learning methods
+- LO5 . Construct and implement resampling techniques to understand the behaviour of statistical models.
+- LO6 . Create a reproducible report to communicate outcomes using a programming language.
+Assessment Tasks:
+- Final Exam Final written exam: 60%: Formal exam period% (Hurdle: False)
+- Project: Plan and EDA Group project plan and exploratory data analysis: 10%: Week 07 Due date : 19 Apr 2026 at 23:59 Closing date : 29 Apr 2026% (Hurdle: False)
+- Project: Report Written group project report: 15%: Week 12 Due date : 24 May 2026 at 23:59 Closing date : 03 Jun 2026% (Hurdle: False)
+- Project: Presentation Oral group presentation delivered during your tutorial in week 12: 10%: Week 12 Due date : 18 May 2026 at 23:59 Closing date : 28 May 2026% (Hurdle: False)
+- Workshop Contribution Active participation to all workshop activities: 5%: Weekly% (Hurdle: False)
+Workload: 
+

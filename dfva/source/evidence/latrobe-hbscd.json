@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-hbscd",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+      "evidenceLines": [
+        "Reflect critically on your own cultural attitudes, values and beliefs",
+        "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+        "The Bachelor of Sport Coaching and Development prepares students for employment in coaching, coach education, sport science and sport development."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+      "evidenceLines": [
+        "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+        "Understand the need for and value of appropriate and effective intercultural communication",
+        "Students will learn to apply a range of skills in the areas of athlete performance, sport management, fundamental sport science and advanced coaching sciences."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Subject: HUMAN BIOSCIENCES B (HBS1HBB)",
+        "Describe the anatomical structure and function of major body systems."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+      "evidenceLines": [
+        "Use appropriate anatomical terminology to describe anatomical structures and events.",
+        "Apply observational and communication skills to make accurate observations of anatomical structures or events and infer their relationship to function using various anatomical resources, the living body or medical imaging.",
+        "The course places a focus on sport management subjects along with subjects addressing more advanced aspects of sport coaching and performance analysis."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+      "evidenceLines": [
+        "Subject: RESEARCH AND EVIDENCE IN PRACTICE (HLT1RAE)",
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "Critically appraise some components of the validity of health research evidence"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+      "evidenceLines": [
+        "Explain the relative merits and uses of the different types of evidence used in practice",
+        "The Bachelor of Sport Coaching and Development prepares students for employment in coaching, coach education, sport science and sport development.",
+        "Students will learn to apply a range of skills in the areas of athlete performance, sport management, fundamental sport science and advanced coaching sciences."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+      "evidenceLines": [
+        "Communicate research outcomes appropriate to peers",
+        "Subject: SPORT MANAGEMENT (MGT1ISM)",
+        "The course places a focus on sport management subjects along with subjects addressing more advanced aspects of sport coaching and performance analysis."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "Students will also complete core subjects in:",
+        "The Bachelor of Sport Coaching and Development prepares students for employment in coaching, coach education, sport science and sport development."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Sport Coaching and Development.",
+        "evidenceLines": [
+          "Students will also complete core subjects in:",
+          "To qualify for the award of Bachelor of Sport Coaching and Development, students must compete 360 credit points consisting of:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+        "evidenceLines": [
+          "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+          "Reflect critically on your own cultural attitudes, values and beliefs"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

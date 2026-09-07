@@ -1,0 +1,102 @@
+{
+  "code": "adelaide-hscia_hbsciadv",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in natural and physical sciences.",
+      "evidenceLines": [
+        "**Institution**: The University of Adelaide",
+        "**Program Identifier / Slug**: hscia_hbsciadv",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in natural and physical sciences.",
+      "evidenceLines": [
+        "**Academic Calendar Year**: 2025/2026",
+        "**Faculty**: Faculty of Sciences, Engineering and Technology (SET)",
+        "- **Program Identifier / Slug**: hscia_hbsciadv"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within natural and physical sciences.",
+      "evidenceLines": [
+        "Subject: Infection and Immunity 3B (BIOL3010)",
+        "Subject: Leadership in Terrestrial Environments (HLTH3009)",
+        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/hscia_hbsciadv"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in natural and physical sciences.",
+      "evidenceLines": [
+        "Articulate specific cellular and molecular processes involved in the function of the immune system in health and disease",
+        "Integrate concepts in immunology and microbial pathogenesis to demonstrate understanding of complex human disease",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in natural and physical sciences.",
+      "evidenceLines": [
+        "Subject: Outdoor, Wilderness and Adventure Education (HLTH3010)",
+        "Subject: Infection and Immunity 3B (BIOL3010)",
+        "Explain fundamental concepts of how viruses interact with the host cell, replicate and evade immune responses"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in natural and physical sciences.",
+      "evidenceLines": [
+        "Demonstrate understanding of vaccine design and application as it applies to microbial pathogens",
+        "- **Institution**: The University of Adelaide",
+        "- **Program Identifier / Slug**: hscia_hbsciadv"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in natural and physical sciences.",
+      "evidenceLines": [
+        "Work in small teams and effectively communicate concepts related to recent advances in immunology and viral pathogenesis",
+        "Subject: Outdoor, Wilderness and Adventure Education (HLTH3010)",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The Bachelor of Science (Advanced) (Honours) [4 Years] is an AQF Level 8 qualification with a standard full-time duration of 4 years.",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Science.",
+        "evidenceLines": [
+          "The Bachelor of Science (Advanced) (Honours) [4 Years] is an AQF Level 8 qualification with a standard full-time duration of 4 years.",
+          "Be effective communicators of science by: 4.1 communicating scientific results, information, or arguments, to a range of audiences, for a range of purposes, and using a variety of modes 4.2 presenting results of their final year project in both written format (including graphical formats where appropriate) and oral formats using appropriate scientific conventions, industry requirements and cultural contexts."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in natural and physical sciences.",
+        "evidenceLines": [
+          "Subject: Infection and Immunity 3B (BIOL3010)",
+          "**Institution**: The University of Adelaide"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

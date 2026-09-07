@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Criminological policy briefs, justice advocacy presentations, and stakeholder communication.",
+    "evidenceLines": [
+      "better understand the social conditions, forces and relations influencing crime and deviance, criminal justice system processes, and crime control interventions;",
+      "develop analytical techniques and research skills for applied use in the fields of criminology and in social research;",
+      "A single three year undergraduate award offered by theANU College of Arts and Social Sciences"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical critique of criminalisation, policing strategies, correctional policies, and systemic inequality.",
+    "evidenceLines": [
+      "develop analytical techniques and research skills for applied use in the fields of criminology and in social research;",
+      "critically evaluate scholarly theories, concepts and methodological approaches relating to all aspects of contemporary criminological inquiry;",
+      "A single three year undergraduate award offered by theANU College of Arts and Social Sciences"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Applied crime data analysis, quantitative and qualitative social research methods, and victimization surveys.",
+    "evidenceLines": [
+      "critically evaluate scholarly theories, concepts and methodological approaches relating to all aspects of contemporary criminological inquiry;",
+      "Subject: Criminological Imaginations: Understanding Criminality (CRIM1001)",
+      "Subject: Criminological Perspectives: Understanding Crime (CRIM1002)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Comprehensive synthesis uniting criminal law, sociological theory, psychology, and justice administration.",
+    "evidenceLines": [
+      "better understand the social conditions, forces and relations influencing crime and deviance, criminal justice system processes, and crime control interventions;",
+      "critically evaluate scholarly theories, concepts and methodological approaches relating to all aspects of contemporary criminological inquiry;",
+      "A single three year undergraduate award offered by theANU College of Arts and Social Sciences"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied social research projects, crime prevention policy designs, and justice reform analyses.",
+    "evidenceLines": [
+      "critically evaluate criminal justice policies and practices from an informed interdisciplinary perspective; and",
+      "Subject: Professional Perspectives on Crime and Prevention (CRIM3001)",
+      "Subject: Diversity and Crime: Equality in the Criminal Justice System (CRIM3005)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Alignment with justice system conventions, statutory procedures, and ethical standards in crime research.",
+    "evidenceLines": [
+      "develop analytical techniques and research skills for applied use in the fields of criminology and in social research;",
+      "A single three year undergraduate award offered by theANU College of Arts and Social Sciences",
+      "Applicants with an ANU selection rank of80or above are guaranteed admission (subject to meeting any prerequisites)."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic crime analysis case studies, policing policy scenarios, and justice system reform projects.",
+    "evidenceLines": [
+      "better understand the social conditions, forces and relations influencing crime and deviance, criminal justice system processes, and crime control interventions;",
+      "develop analytical techniques and research skills for applied use in the fields of criminology and in social research;",
+      "A single three year undergraduate award offered by theANU College of Arts and Social Sciences"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic undergraduate degree without compulsory industry workplace placement.",
+    "evidenceLines": [
+      "A single three year undergraduate award offered by theANU College of Arts and Social Sciences",
+      "A single three year undergraduate award offered by theANU College of Arts and Social Sciences"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "A three-year undergraduate degree providing comprehensive criminological education.",
+      "evidenceLines": [
+        "A single three year undergraduate award offered by theANU College of Arts and Social Sciences",
+        "A single three year undergraduate award offered by theANU College of Arts and Social Sciences"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist criminology program structured through core criminal justice study.",
+      "evidenceLines": [
+        "A single three year undergraduate award offered by theANU College of Arts and Social Sciences",
+        "Subject: Criminological Imaginations: Understanding Criminality (CRIM1001)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied criminological research methods.",
+    "W3: Scored at Level 1 as external placement is elective."
+  ],
+  "notScoreable": []
+};
+
+export default record;

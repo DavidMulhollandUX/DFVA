@@ -1,0 +1,328 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/C5003 =====
+## Graduate Diploma of Applied Data Science
+##### C5003
+##### 48 credit points
+You are viewing the 2026 version
+
+### Overview
+The Graduate Diploma of Applied Data Science will prepare you for a career in data science giving you the skills needed to deal effectively within the areas of data analysis, data management or big data processing. The course includes topics in statistical and exploratory analysis, data formats and languages, processing of massive data sets, management of data and its role and impact in an organisation and society.
+
+### AQF level
+Level 8 - Graduate Diploma
+### Post-nominals
+GradDipAppDataSci
+
+
+### Structure
+This course is structured in four consecutive parts: Part A: Foundation studies, Part B: Core studies, Part C: Specialist studies and Part D: Applied studies
+
+Part A. Foundation studies
+
+These studies will provide a foundation for applied data science.
+
+Part B. Core studies
+
+These studies will provide an orientation and draw on best practices within the broad field of data science practice and research. Your studies will focus on fundamentals and core knowledge.
+
+Part C. Specialist studies
+
+The focus of these studies is specialising in the area of data science.
+
+Part D. Applied studies
+
+The focus of these studies is professional or scholarly work that can contribute to the portfolio of professional development.
+
+Entry points
+
+Depending on prior qualifications you may receive entry level credit (a form of block credit) which determines your point of entry to the course:
+
+  * If you are admitted at entry level 1 you complete 48 credit points, comprising Parts A, B, C and D 
+  * If you are admitted at entry level 2 you complete 24 credit points, comprising Parts C and D and two units that have not been completed in Part B.
+
+### Requirements
+This course comprised 48 points. Unit are 6 points unless otherwise stated.
+
+Part A. Foundation studies (18 points)
+
+You must complete:
+
+  * ITO4132 Introduction to databases
+
+  * ITO4133 Introduction to Python
+
+  * MAT9004 Mathematical foundations for data science
+
+Part B. Core studies (18 points)
+
+You must complete:
+
+  * ITO5145 Introduction to data science
+
+  * ITO5196 Data wrangling
+
+  * ITO5197 Statistical data modelling
+
+Part C. Specialist studies (6 points)
+
+You must complete one unit (6 points) from:
+
+  * ITO5147 Data exploration and visualisation
+
+  * ITO5149 Applied data analysis
+
+  * ITO5201 Machine learning
+
+  * ITO5202 Data processing for big data
+
+  * ITO5212 Data analysis for semi-structured data
+
+Part D. Applied studies (6 points)
+
+You must complete:
+
+  * ITO5001 Applied practice 1
+
+### Course structure
+48 credit points
+**Part C. Specialist studies** **6 credit points**
+You must complete one of the following units
+  [ _arrow_forward_ ITO5201 Machine learning ](https://handbook.monash.edu/2026/units/ITO5201)
+  [ _arrow_forward_ ITO5212 Data analysis for semi-structured data ](https://handbook.monash.edu/2026/units/ITO5212)
+  [ _arrow_forward_ ITO5149 Applied data analysis ](https://handbook.monash.edu/2026/units/ITO5149)
+  [ _arrow_forward_ ITO5147 Data exploration and visualisation ](https://handbook.monash.edu/2026/units/ITO5147)
+  [ _arrow_forward_ ITO5202 Data processing for big data ](https://handbook.monash.edu/2026/units/ITO5202)
+**Part A. Foundation studies** **18 credit points**
+You may complete the following units
+  [ _arrow_forward_ MAT9004 Mathematical foundations for data science and AI ](https://handbook.monash.edu/2026/units/MAT9004)
+  [ _arrow_forward_ ITO4133 Introduction to Python ](https://handbook.monash.edu/2026/units/ITO4133)
+  [ _arrow_forward_ ITO4132 Introduction to databases ](https://handbook.monash.edu/2026/units/ITO4132)
+**Part D. Applied studies** **6 credit points**
+You must complete the following unit
+  [ _arrow_forward_ ITO5001 Applied practice 1 ](https://handbook.monash.edu/2026/units/ITO5001)
+**Part B. Core studies** **18 credit points**
+You must complete the following units
+  [ _arrow_forward_ ITO5145 Introduction to data science ](https://handbook.monash.edu/2026/units/ITO5145)
+  [ _arrow_forward_ ITO5196 Data wrangling ](https://handbook.monash.edu/2026/units/ITO5196)
+  [ _arrow_forward_ ITO5197 Statistical data modelling ](https://handbook.monash.edu/2026/units/ITO5197)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+apply contemporary data exploration, data mining, and machine learning tools and methods to real-world data science problems;
+**2.**
+investigate and analyse the core issues and requirements critically in developing data analysis capability in a global organisation;
+**3.**
+document ethical and legal issues, norms in privacy, and other areas of community impact regarding the practice of data science;
+**4.**
+apply knowledge of the data science lifecycle to projects in new application areas in accordance with professional best practice;
+**5.**
+communicate data science-related tasks to various stakeholders perceptively and effectively.
+
+### Progression to further studies
+Students who successfully complete the Graduate Diploma of Applied Data Science (C5003) may be eligible for admission at entry point 3 into the Master of Applied Data Science (C6011).
+
+### Entry requirements
+Graduate Certificate of Applied Data Science (C4012)
+
+### AHEGS
+The Graduate Diploma of Applied Data Science is a postgraduate award. The course is taught in English and is the equivalent of one year of full-time study. Graduates develop knowledge and an understanding of the management and analysis of data, and of key standards, software and theories in data science. Graduates are prepared for a career in data science giving the skills needed to deal effectively within the areas of data analysis, data management or big data processing. The Graduate Diploma of Applied Data Science is a Level 8 Australian Qualifications Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations.
+
+### Degrees awarded
+Graduate Diploma of Applied Data Science
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO4132 =====
+Subject: Introduction to databases (ITO4132)
+Credit Points: 6
+Overview: This unit will introduce the concept of data management in an organisation through relational database technology. Theoretical foundation of relational model, analysis and design, implementation of relational database using SQL will be covered.
+Learning Outcomes:
+- Apply the theories of the relational database model;
+- Implement a relational database based on a sound database design;
+- Manage data that meets user requirements, including queries and transactions;
+- Contrast the differences between non-relational database models and the relational database model.
+- Develop a sound relational database design;
+Assessment Tasks:
+- Assessment 2: Relational and Non Relational Database Manipulation: 50% (Hurdle: None)
+- Assessment 1: Database Design: 50% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO4133 =====
+Subject: Introduction to Python (ITO4133)
+Credit Points: 6
+Overview: This unit introduces programming fundamentals and the Python language to students. The unit provides a foundational understanding of program design and implementation of algorithms to solve computational problems. Fundamental programming control structures, built in and complex data types and mechanisms for modularity will be presented in Python. Topics covered will include basic input and output, program control structures, basic data structures and modular program structures, problem solving strategies and techniques for algorithm development, iteration and recursion.
+Learning Outcomes:
+- Write programs efficiently by discovering and leveraging libraries;
+- Implement good programming practices in a team, including unit testing, basic documentation and readability.
+- Design, construct and test simple programs that include user-defined functions and data structures;
+- Effectively use variables, conditionals and loops in computer programs;
+Assessment Tasks:
+- Assessment 1: 30% (Hurdle: None)
+- Assessment 3: 20% (Hurdle: None)
+- Assessment 2: 50% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO5001 =====
+Subject: Applied practice 1 (ITO5001)
+Credit Points: 6
+Overview: This unit provides a practical and theoretical understanding to what it means to be an IT professional today, and will involve engaging with proprietary tools. Students will encounter a range of issues relevant to professional practice in the workplace, including ethical and legal challenges caused by technology use.
+Learning Outcomes:
+- compare and contrast IT professional roles, assessing the necessity and rationale for constant review and change;
+- critically evaluate the deployment of state of the art industry solutions;
+- identify and analyse the ethical dimensions associated with IT-related decisions, use and quality and their possible impacts on organisations and society.
+Assessment Tasks:
+- Discussion forum participation: 10% (Hurdle: None)
+- Presentation of an IT ethical dilemma: 30% (Hurdle: None)
+- Industrial tech analysis: 30% (Hurdle: None)
+- The future of the IT profession: 30% (Hurdle: None)
+Workload: A minimum of 122 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO5145 =====
+Subject: Introduction to data science (ITO5145)
+Credit Points: 6
+Overview: This unit looks at processes, case studies and simple tools to understand the many facets of working with data, and the significant effort in Data Science over and above the core task of Data Analysis. Working with data as part of a business model and the lifecycle in an organisation is considered, as well as business processes and case studies. Data and its handling is also introduced: characteristic kinds of data and its collection, data storage and basic kinds of data preparation, data cleaning and data stream processing. Styles of data analysis and outcomes of successful data exploration and analysis are reviewed. Standards, tools and resources are also reviewed. Basic curation and management are reviewed: archival and architectural practice, policy, legal and ethical issues.
+Learning Outcomes:
+- Apply basic predictive modeling and data analysis methods;
+- Analyse the role of data in organisations, including curation and management issues;
+- Apply basic tools for performing exploratory data analysis and visualisation;
+- Apply basic tools for managing and processing big data;
+- Identify data resources and standards.
+- Determine data storage and processing requirements for a data science project;
+Assessment Tasks:
+- Data science project: 60% (Hurdle: None)
+- Business and data case study: 40% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO5147 =====
+Subject: Data exploration and visualisation (ITO5147)
+Credit Points: 6
+Overview: This unit introduces statistical and visualisation techniques for the exploratory analysis of data. It will cover the role of data visualisation in data science and its limitations. Visualisation of qualitative, quantitative, temporal and spatial data will be presented. What makes an effective data visualisation, interactive data visualisation, and creating data visualisations with R and other tools will also be presented.
+Learning Outcomes:
+- Describe the role of data visualisation in data science and its limitations;
+- Distinguish standard visualisations for qualitative, quantitative, temporal and spatial data;
+- Implement static and interactive data visualisations using R and other tools.
+- Choose an appropriate and effective data visualisation;
+- Perform exploratory data analysis using a range of visualisation tools;
+- Critically evaluate and interpret a data visualisation;
+Assessment Tasks:
+- Data Exploration and Visualisation Proposal: 5% (Hurdle: None)
+- Data Exploration and Visualisation Project: 60% (Hurdle: None)
+- DataVis Design and Reflection: 15% (Hurdle: None)
+- Quiz: 20% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO5149 =====
+Subject: Applied data analysis (ITO5149)
+Credit Points: 6
+Overview: This unit aims to provide you with the necessary analytical and data modelling skills for the roles of a data scientist or business analyst. You will be introduced to established and contemporary Machine Learning techniques for data analysis and presentation using widely available analysis software. You will look at a number of characteristic problems/data sets and analyse them with appropriate machine learning and statistical algorithms. Those algorithms include regression, classification, clustering and so on. The unit focuses on understanding the analytical problems, machine learning models, and the basic modelling theory. You will need to interpret the results and the suitability of the algorithms.
+Learning Outcomes:
+- Communicate the results of an analysis for both specific and broad audiences.
+- Analyse data sets with a range of statistical, graphical and machine-learning tools;
+- Assess the results of an analysis;
+- Design solutions to real world problems with data analytics techniques;
+- Evaluate the limitations, appropriateness and benefits of data analytics methods for given tasks;
+Assessment Tasks:
+- Assessment 2 Data analysis challenge: 60% (Hurdle: None)
+- Assignment 1 Basic regression analysis and classification: 40% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO5196 =====
+Subject: Data wrangling (ITO5196)
+Credit Points: 6
+Overview: This unit introduces tools and techniques for data wrangling. It will cover the problems that prevent raw data from being effectively used in analysis and the data cleansing and pre-processing tasks that prepare it for analytics. These include, for example, the handling of bad and missing data, data integration and initial feature selection. It will also introduce text mining and web analytics. Python and the Pandas environment will be used for implementation.
+Learning Outcomes:
+- Integrate data sources for data enrichment;
+- Resolve data quality issues ready for the data analysis process;
+- Parse data in the required format;
+- Assess the quality of data for problem identification;
+- Write program scripts for data wrangling processes.
+- TP03 - Document the wrangling process for professional reporting;TP06 - Communicate data wrangling processes, decisions, and outcomes effectively in written and oral forms.
+Assessment Tasks:
+- Assessment 2: 60% (Hurdle: None)
+- Assessment 1: 40% (Hurdle: None)
+Workload: A minimum of 122 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO5197 =====
+Subject: Statistical data modelling (ITO5197)
+Credit Points: 6
+Overview: This unit explores the statistical modelling foundations that underlie the analytic aspects of Data Science. Motivated by case studies and working through examples, this unit covers the mathematical and statistical basis with an emphasis on using the techniques in practice. It introduces data collection, sampling and quality. It considers analytic tasks such as statistical hypothesis testing and exploratory versus confirmatory analysis. It presents basic probability distributions, random number generation and simulation as well as estimation methods and effects such as maximum likelihood estimators, Monte Carlo estimators, Bayes theorem, bias versus variance and cross validation. Basic information theory and dependence models such as regression and log-linear models are also presented, as well as the role of general modelling such as inference and decision making, and predictive models.
+Learning Outcomes:
+- Perform fundamental random sampling, simulation and hypothesis testing for required scenarios;
+- Construct models for inferential statistical analysis;
+- Perform exploratory data analysis with descriptive statistics on given datasets;
+- Implement a model for data analysis through programming and scripting;
+- Interpret results for a variety of models.
+- Produce models for predictive statistical analysis;
+Assessment Tasks:
+- Assessment 1 - Probability, Bayes’ Theorem, and correlation analysis: 25% (Hurdle: None)
+- Assessment 2 - Parameter estimation, confidence interval, hypothesis testing and data mining models: 40% (Hurdle: None)
+- Final quiz: 35% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO5201 =====
+Subject: Machine learning (ITO5201)
+Credit Points: 6
+Overview: This unit introduces machine learning and the major kinds of statistical learning models and algorithms used in data analysis. Learning and the different kinds of learning will be covered and their usage will be discussed. The unit presents foundational concepts in machine learning and statistical learning theory, e.g. bias-variance, model selection, and how model complexity interplays with model's performance on unobserved data. A series of different models and algorithms will be presented and interpreted based on the foundational concepts: linear models for regression and classification (e.g. linear basis function models, logistic regression, Bayesian classifiers, generalised linear models), discriminative and generative models, k-means and latent variable models (e.g. Gaussian mixture model), expectation-maximisation, neural networks and deep learning, and principles in scaling typical supervised and unsupervised learning algorithms to big data using distributed computing.
+Learning Outcomes:
+- Develop, and apply major models and algorithms for statistical learning;
+- Scale typical statistical learning algorithms to learn from big data.
+- Assess a typical machine learning model and algorithm;
+- Describe what statistical machine learning and its theoretical concepts are;
+Assessment Tasks:
+- Challenge 2: 20% (Hurdle: None)
+- Quiz: 50% (Hurdle: None)
+- Challenge 1: 30% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO5202 =====
+Subject: Data processing for big data (ITO5202)
+Credit Points: 6
+Overview: This unit focuses on big data processing, including volume, complexity, and velocity using the latest big data technologies. In big data volume, it covers large volume data processing using parallel technologies. In large dimensionality (or complexity), it covers various data analytics methods for parallel processing. For the velocity, it covers data streaming processing.
+Learning Outcomes:
+- identify and explain big data concepts and technologies;
+- use and evaluate streaming methods in big data processing;
+- write and interpret parallel database processing algorithms and methods;
+- apply common data analytics and machine learning algorithms in a big data environment;
+- use big data streaming technologies.
+Assessment Tasks:
+- End of term quiz: 15% (Hurdle: None)
+- Group Assignment: 55% (Hurdle: None)
+- Fortnightly quiz: 30% (Hurdle: None)
+- Assignment 1: Large-Scale Data Processing: 40% (Hurdle: None)
+- Assignment 2: Machine Learning and Streaming Analytics: 50% (Hurdle: None)
+- Final Quiz: 10% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO5212 =====
+Subject: Data analysis for semi-structured data (ITO5212)
+Credit Points: 6
+Overview: Semi-structured data is one of the fastest growing kinds of data in both the public and private sector, for instance in health. Email collections with sender-recipient graphs, metadata and text content is one example. This unit will explore basic forms of semi-structured data: text, time-sequence data, graphs and multiple relations in a database. Basic machine learning algorithms for these kinds of data will be analysed and applied. Some characteristic industry problems for the application of semi-structured data will also be investigated.
+Learning Outcomes:
+- Analyse different kinds of algorithms for different kinds of semi-structured data;
+- Examine some characteristic industry problems involving semi-structured data, and analyse the suitability of different algorithms.
+- Appraise what kinds of semi-structured data exist and the problems they present for analysis;
+- Develop and modify some standard algorithms for semi-structured data;
+Assessment Tasks:
+- Recommender System Challenge: 35% (Hurdle: None)
+- Text Classification: 35% (Hurdle: None)
+- Quiz 1: 15% (Hurdle: None)
+- Quiz 2: 15% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/MAT9004 =====
+Subject: Mathematical foundations for data science and AI (MAT9004)
+Credit Points: 6
+Overview: Mathematical topics fundamental to computing and statistics including trees and other graphs, counting in combinatorics, principles of elementary probability theory, linear algebra, and fundamental concepts of calculus in one and several variables.
+Learning Outcomes:
+- Explain fundamental concepts in calculus including basic differentiation and integration, and composite, inverse and parametric functions;
+- Use trees and graphs to solve problems in computer science;
+- Demonstrate basic knowledge and skills of linear algebra, including the manipulation of matrices, solution of linear systems, and evaluate and apply determinants;
+- Describe the principles of elementary probability theory, evaluate conditional probabilities and use Bayes' Theorem;
+- Apply counting principles in combinatorics;
+- Perform key skills in the calculus of functions of several variables including the calculation of partial derivatives, find tangent planes and identify stationary points, root findings and convexity for optimisation.
+Assessment Tasks:
+- Continuous assessment: 40% (Hurdle: None)
+- Assignment 1: 30% (Hurdle: None)
+- Mathematical challenge: 40% (Hurdle: None)
+- Assignment 2: 30% (Hurdle: None)
+- Scheduled final assessment (3 hours and 10 minutes): 60% (Hurdle: Threshold)
+Workload: Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled activities. Scheduled activities may include a combination of teacher directed learning and online engagement.
+

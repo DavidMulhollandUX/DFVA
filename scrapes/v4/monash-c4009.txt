@@ -1,0 +1,146 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/C4009 =====
+## Graduate Certificate of Computer Science
+##### C4009
+##### 24 credit points
+You are viewing the 2026 version
+
+### Overview
+The Graduate Certificate of Computer Science will develop core knowledge in computer science and you will be able to keep up with advances in the area. It provides you with the knowledge, understanding and skills to enable you to deal effectively with issues involving the application of computer science in various domains.
+
+These studies are intended for students whose previous qualification is not in a cognate field, and builds on existing professional work experience
+
+### AQF level
+Level 8 - Graduate Certificate
+### Post-nominals
+GradCertCompSc
+
+### Structure
+The course comprises four units where you will develop an understanding of the principles and techniques in the broad field of computer science.
+
+These studies are intended for students whose previous qualification is not in a cognate field, and builds on existing professional work experience.
+
+### Requirements
+The course comprises 24 points.
+
+You must complete the following units :
+
+  * ITO4001 Foundations of computing
+
+  * ITO4131 Java programming or ITO4133 Introduction to Python
+
+  * ITO4132 Introduction to databases
+
+  * ITO4137 Architecture and networks
+
+### Course structure
+24 credit points
+**Core studies** **24 credit points**
+You must complete four of the following units. You must complete either ITO4131 or ITO4133.
+  [ _arrow_forward_ ITO4131 Java programming ](https://handbook.monash.edu/2026/units/ITO4131)
+  [ _arrow_forward_ ITO4001 Foundations of computing ](https://handbook.monash.edu/2026/units/ITO4001)
+  [ _arrow_forward_ ITO4133 Introduction to Python ](https://handbook.monash.edu/2026/units/ITO4133)
+  [ _arrow_forward_ ITO4137 Architecture and networks ](https://handbook.monash.edu/2026/units/ITO4137)
+  [ _arrow_forward_ ITO4132 Introduction to databases ](https://handbook.monash.edu/2026/units/ITO4132)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+assess and apply industry standard tools and techniques for building software systems;
+**2.**
+systematically evaluate the application of theories and techniques from the field of computer science;
+**3.**
+analyse, critically review and synthesise theories and techniques from the field of computer science;
+**4.**
+apply problem solving skills and theoretical knowledge to innovate design and construction of computational solutions;
+**5.**
+critically evaluate, document and communicate ethical, legal and social issues affecting the use of technologies.
+
+### Progression to further studies
+Students who successfully complete the Graduate Certificate of Computer Science (C4009) may be eligible for admission at entry point 2 into either the Graduate Diploma of Computer Science (C5008) or the Master of Computer Science (C6008).
+
+### AHEGS
+The Graduate Certificate of Computer Science is a postgraduate award. The course is taught in English and normally takes the equivalent of six months (one semester) of full-time study to complete. Graduates gain fundamental knowledge of the applications of computer science. The Graduate Certificate of Computer Science is a Level 8 Australian Qualifications Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations.
+
+### Degrees awarded
+Graduate Certificate of Computer Science
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO4001 =====
+Subject: Foundations of computing (ITO4001)
+Credit Points: 6
+Overview: Mathematics and Computer Science cannot be untangled. Most of the problems found in computer science are often formalized and solved with mathematical foundations. Many important problems addressed by computer scientists need the skills in logical thinking, algebraic operations, probability theory and statistical tests and optimization techniques. This unit is designed to explore various mathematical methods required to work in the area of computer science. You will learn the fundamental concepts in tree and graph data structures, set theory and logic which include predicate and propositional logic, probability and statistics as well as linear algebra, data encoding and calculus. While learning the fundamentals, the unit offers a variety of problem solving activities concentrating on areas where mathematical foundations pave a path to computing problems. It offers an opportunity to understand how to solve computer science problems using mathematical foundations that are relevant to the program the students follow.
+Learning Outcomes:
+- apply discrete mathematical structures, especially graphs and trees to solve problems in computer science.
+- demonstrate understanding on the fundamental concepts in information theory such as entropy, encoding, decoding and data compression.
+- demonstrate skills and understanding on calculus, partial derivatives, differentiation, integration, gradients and gradient algorithms.
+- apply propositional logic and predicate logic to problem-solving and set theory to represent collections of data to solve real-life problems.
+- describe the fundamental concepts relating to linear algebra such as linear functions, vectors, and matrices.
+- demonstrate an understanding of the fundamentals of continuous probability and statistics, including common Probability Distributions, Bayes’ Theorem and parameter estimation.
+Assessment Tasks:
+- Assessment 2: 20% (Hurdle: None)
+- Assessment 1: 30% (Hurdle: None)
+- Assessment 3: 50% (Hurdle: None)
+Workload: 
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO4131 =====
+Subject: Java programming (ITO4131)
+Credit Points: 6
+Overview: This unit aims to provide you with the basic concepts involved in the development of well structured software using a programming language. It concentrates on the development of problem solving skills applicable to all stages of the development process. You will gain experience with the translation of a problem specification into a program design, and the implementation of that design into a programming language. The unit introduces software engineering topics such as maintainability, readability, testing, documentation, modularisation, and reasoning about correctness of programs. You are expected to read and understand existing code as well as develop new code.
+Learning Outcomes:
+- Document code according to specific programming standards
+- Explain and apply software engineering principles of maintainability, readability and modularisation
+- Identify and apply the "object-oriented" concepts of encapsulation, abstraction and polymorphism
+- Apply and demonstrate debugging processes to Java applications
+- Develop strategies for efficient and effective program testing
+- Design and construct Java programs according to standard object-oriented principles
+Assessment Tasks:
+- Assignment: 55% (Hurdle: None)
+- Quizzes: 45% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO4132 =====
+Subject: Introduction to databases (ITO4132)
+Credit Points: 6
+Overview: This unit will introduce the concept of data management in an organisation through relational database technology. Theoretical foundation of relational model, analysis and design, implementation of relational database using SQL will be covered.
+Learning Outcomes:
+- Apply the theories of the relational database model;
+- Implement a relational database based on a sound database design;
+- Manage data that meets user requirements, including queries and transactions;
+- Contrast the differences between non-relational database models and the relational database model.
+- Develop a sound relational database design;
+Assessment Tasks:
+- Assessment 2: Relational and Non Relational Database Manipulation: 50% (Hurdle: None)
+- Assessment 1: Database Design: 50% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO4133 =====
+Subject: Introduction to Python (ITO4133)
+Credit Points: 6
+Overview: This unit introduces programming fundamentals and the Python language to students. The unit provides a foundational understanding of program design and implementation of algorithms to solve computational problems. Fundamental programming control structures, built in and complex data types and mechanisms for modularity will be presented in Python. Topics covered will include basic input and output, program control structures, basic data structures and modular program structures, problem solving strategies and techniques for algorithm development, iteration and recursion.
+Learning Outcomes:
+- Write programs efficiently by discovering and leveraging libraries;
+- Implement good programming practices in a team, including unit testing, basic documentation and readability.
+- Design, construct and test simple programs that include user-defined functions and data structures;
+- Effectively use variables, conditionals and loops in computer programs;
+Assessment Tasks:
+- Assessment 1: 30% (Hurdle: None)
+- Assessment 3: 20% (Hurdle: None)
+- Assessment 2: 50% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO4137 =====
+Subject: Architecture and networks (ITO4137)
+Credit Points: 6
+Overview: This unit will introduce you to fundamentals of computer systems, with a focus on modern operating systems and networking technology. It covers: CPU, memory, storage and peripherals; Operating System basics; TCP/IP layered protocols; WAN and LAN networking fundamentals; internetworking and transport protocols; and basic concepts of computer and network security.
+Learning Outcomes:
+- Analyse and formulate the functions and architectures of (wireless) local area networks, wide area networks and the Internet;
+- Apply and implement cybersecurity enabling techniques and countermeasures such as virtual private networks (VPN).
+- Examine networks using the underlying fundamental theories, models and protocols for data transmission;
+- Identify security and privacy threats in the Internet,
+- Explain the three major functions of an operating system (OS), namely, process management, memory management, and file management;
+- Describe basic concepts of computer hardware and software architectures;
+Assessment Tasks:
+- Assessment 1: 15% (Hurdle: None)
+- Assessment 3: 50% (Hurdle: None)
+- Assessment 2: 35% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+

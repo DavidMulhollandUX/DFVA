@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+    "evidenceLines": [
+      "Reflect on the United Nations Convention on the Rights of Persons with Disability (UNCRPD and the National Disability Insurance Scheme (NDIS and their impact on the lived experience of people with disabilities and their support network.",
+      "Interpret and transmit information about support for decision making frameworks for people with cognitive disabilities.",
+      "Make a difference in the lives of people with a disability"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+    "evidenceLines": [
+      "Demonstrate the ability to advocate for people with a disability and their families.",
+      "Critically analyse the different levels at which people with disabilities, with and without cognitive impairment, might exercise choice and control over their life.",
+      "The disability services landscape is changing."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+    "evidenceLines": [
+      "Subject: ADVOCACY IN CONTEMPORARY DISABILITY PRACTICE (ADP5ADP)",
+      "Subject: SUPPORT PLANNING WITH PEOPLE WITH DISABILITIES (ADP5SPD)",
+      "Critically evaluate specialist disability and mainstream service systems available to people with a disability."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+    "evidenceLines": [
+      "Reflect on how to work with a person with cognitive disability to develop a person centred support plan.",
+      "Differentiate the elements of an effective individualised support plan.",
+      "New reforms, techniques and technologies are transforming the sector and creating great opportunities for those with an interest in leading disability care and practice."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+    "evidenceLines": [
+      "Subject: DISABILITY AND THE LAW (LAW5DAL)",
+      "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+      "Communicate effectively and sensitively a support plan to a person with cognitive disability, their family and carers."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+    "evidenceLines": [
+      "Work autonomously and as part of a team to develop an individualised support plan for a person with cognitive disability.",
+      "Make a difference in the lives of people with a disability",
+      "The disability services landscape is changing."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+    "evidenceLines": [
+      "Critically evaluate various individualised support plans for people with cognitive disabilities.",
+      "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+      "New reforms, techniques and technologies are transforming the sector and creating great opportunities for those with an interest in leading disability care and practice."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "To qualify for the award of Graduate Certificate in Disability Practice students must complete 60 credit points consisting of:",
+      "Make a difference in the lives of people with a disability"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate in Disability Practice.",
+      "evidenceLines": [
+        "To qualify for the award of Graduate Certificate in Disability Practice students must complete 60 credit points consisting of:",
+        "45 core credit points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+      "evidenceLines": [
+        "Subject: ADVOCACY IN CONTEMPORARY DISABILITY PRACTICE (ADP5ADP)",
+        "Reflect on the United Nations Convention on the Rights of Persons with Disability (UNCRPD and the National Disability Insurance Scheme (NDIS and their impact on the lived experience of people with disabilities and their support network."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

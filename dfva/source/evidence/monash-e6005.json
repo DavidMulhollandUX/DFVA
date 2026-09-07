@@ -1,0 +1,102 @@
+{
+  "code": "monash-e6005",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+      "evidenceLines": [
+        "Describe and critique the principles and practice of traffic management.",
+        "Critically reflect on contemporary issues and challenges in transport management.",
+        "This international double master's enables you to complete the requirements of the Monash Master of Transportation Systems as well as the second degree with Southeast University, China."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+      "evidenceLines": [
+        "Discuss the role of the community and stakeholders in contemporary traffic management.",
+        "Interpret collected and pre-existing traffic survey data.",
+        "The course is a response to the growing need for engineers with a broad awareness of the characteristics and significance of transport, including its technological, environmental, economic and social impact."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+      "evidenceLines": [
+        "Subject: Traffic engineering and management (CIV5302)",
+        "Subject: Intelligent transport systems (CIV5304)",
+        "Design and conduct an assessment of a local traffic network."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+      "evidenceLines": [
+        "Demonstrate skills in the critical assessment of alternative solutions and trade-offs in the traffic system.",
+        "Critical assessment of contemporary traffic issue: 10% (Hurdle: None)",
+        "At the same time, the course outlines the state-of-the-art of transport engineering, as it may be applied to the solution of real problems in the planning, design, management and operation of transport facilities."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+      "evidenceLines": [
+        "Subject: Travel demand modelling (CIV5305)",
+        "Subject: Planning urban mobility futures (CIV5314)",
+        "Final assessment: 50% (Hurdle: None)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+      "evidenceLines": [
+        "Risk assessment: 0% (Hurdle: Competency)",
+        "This international double master's enables you to complete the requirements of the Monash Master of Transportation Systems as well as the second degree with Southeast University, China.",
+        "The course is a response to the growing need for engineers with a broad awareness of the characteristics and significance of transport, including its technological, environmental, economic and social impact."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+      "evidenceLines": [
+        "Weekly quiz: 5% (Hurdle: None)",
+        "Subject: Fundamentals of urban public transport (CIV5316)",
+        "At the same time, the course outlines the state-of-the-art of transport engineering, as it may be applied to the solution of real problems in the planning, design, management and operation of transport facilities."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The advanced expertise units are completed at Southeast University in Suzhou as part of the joint Master\u2019s program. To receive 24 credit points of block credit towards this course, you must provide your Southeast University Master\u2019s transcript showing the relevant completed engineering units.",
+        "This international double master's enables you to complete the requirements of the Monash Master of Transportation Systems as well as the second degree with Southeast University, China."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Transportation Systems.",
+        "evidenceLines": [
+          "The advanced expertise units are completed at Southeast University in Suzhou as part of the joint Master\u2019s program. To receive 24 credit points of block credit towards this course, you must provide your Southeast University Master\u2019s transcript showing the relevant completed engineering units.",
+          "The advanced expertise units are completed at Southeast University in Suzhou as part of the joint Master\u2019s program. To receive 24 credit points of block credit towards this course, you must provide your Southeast University Master\u2019s transcript showing the relevant completed engineering units."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+        "evidenceLines": [
+          "Subject: Traffic engineering and management (CIV5302)",
+          "Describe and critique the principles and practice of traffic management."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

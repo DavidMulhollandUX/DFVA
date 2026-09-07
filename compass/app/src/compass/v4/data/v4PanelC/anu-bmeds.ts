@@ -1,0 +1,94 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 10,
+  "workplace": 6,
+  "C1": {
+    "score": 2,
+    "rationale": "Emphasises collaborative laboratory experimentation and multidisciplinary teamwork across biomedical cohort environments (CILOs, MEDN2001).",
+    "evidenceLines": [
+      "work in both independent and collaborative ways with others to encompass diverse abilities and perspectives; and",
+      "Collect experimental data and work collaboratively towards understanding and applying health and medical physiological principles."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Requires intellectual creativity and hypothesis formulation to design controlled scientific investigations excluding alternative biological explanations (BIOL2202, CILOs).",
+    "evidenceLines": [
+      "Science is fundamentally about testing ideas, not collecting facts. But how do we test ideas? We do so by analysing numbers to reveal patterns, and then by designing experiments to exclude competing ideas that might explain what causes these patterns. In this course, you will discover how to design experiments and analyse data.",
+      "develop, apply, integrate and generate scientific knowledge in educational and professional contexts;"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Rigorous mechanistic reasoning across molecular genetics, cellular signaling pathways, and multi-organ physiological interactions under perturbation (BIOL2161, MEDN2001).",
+    "evidenceLines": [
+      "Predict outcomes when DNA replication; DNA repair; mRNA transcription and processing; gene regulation; protein synthesis; genome structure and evolution are perturbed by mutation (genetic disease) or the use of inhibitors and drugs.",
+      "Discuss the relationship between structure and function in organ systems, with an emphasis on the musculoskeletal, cardiovascular, respiratory, renal, circulatory, gastrointestinal and endocrine systems."
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Adapts analytical frameworks to dynamic biological stressors and critically evaluates ambiguous or misleading empirical claims in medical literature (MEDN2001, BIOL2202).",
+    "evidenceLines": [
+      "Describe the integrated physiological responses that occur locally within working muscles, and the changes that occur within the blood, cardiovascular and respiratory systems in response to different stressors.",
+      "We want to help you to sift out fake news, identify misleading ways to describe data and allow you to assess the importance of different factors in explaining the patterns we see in the world."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Requires physical laboratory presence, precision aseptic pipetting, microbiological culture handling, and physiological measurement execution (BIOL2142, MEDN2001).",
+    "evidenceLines": [
+      "The laboratory classes in this course aim: (1) to teach and develop basic microbiological techniques and experimental skills; (2) to illustrate some of the concepts presented in the lectures.",
+      "Collect experimental data and work collaboratively towards understanding and applying health and medical physiological principles."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Executes authentic laboratory problem solving, empirical data gathering, and statistical hypothesis testing reflecting professional biomedical science work (MEDN2001, BIOL2202).",
+    "evidenceLines": [
+      "Collect experimental data and work collaboratively towards understanding and applying health and medical physiological principles.",
+      "This course will explore the ways biologists design experiments, generate data and assess evidence using a variety of statistical techniques."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Grounds students in biosafety standards, ethical scientific practice, and professional bio-responsibility as medical science practitioners (CILOs, BIOL2142).",
+    "evidenceLines": [
+      "exercise personal, professional and social responsibility as a global citizen.",
+      "The laboratory classes in this course aim: (1) to teach and develop basic microbiological techniques and experimental skills; (2) to illustrate some of the concepts presented in the lectures."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Applies modern computational statistical tooling (R programming) alongside microbiological surveillance and food/medical safety standards (BIOL2202, BIOL2142).",
+    "evidenceLines": [
+      "The R programming language will be taught and used throughout the course. Students will be required to use their laptop computers.",
+      "Explain the role of microorganisms in food production and preservation, and their ability to cause food-borne infections"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Program satisfies foundational discipline depth requirements.",
+      "evidenceLines": [
+        "develop, apply, integrate and generate scientific knowledge in educational and professional contexts;"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Program satisfies contextual professional and analytical practice requirements.",
+      "evidenceLines": [
+        "This course will explore the ways biologists design experiments, generate data and assess evidence using a variety of statistical techniques. We will discuss the value of different scientific approaches, including hypothesis-driven experiments and exploration of large-scale data generation–such as genome and transcriptome sequencing projects."
+      ]
+    }
+  },
+  "ambiguities": [],
+  "notScoreable": []
+};
+
+export default record;

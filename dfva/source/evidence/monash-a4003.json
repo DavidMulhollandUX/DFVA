@@ -1,0 +1,102 @@
+{
+  "code": "monash-a4003",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+      "evidenceLines": [
+        "Use ethical principles and reasoning to arrive at well-argued conclusions about ethical dilemmas in biomedical research;",
+        "Critically engage with the research ethics literature;",
+        "This course is particularly well suited if you are a health care professional or scientist who faces complex ethical issues in your working life."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+      "evidenceLines": [
+        "Identify and critically evaluate key ethical concepts and principles used to address issues in research involving humans;",
+        "Construct arguments for novel conclusions in relation to that literature.",
+        "The course is also valuable if you are involved in the development of public policy and law, or simply wish to explore issues of public concern."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+      "evidenceLines": [
+        "Subject: Research ethics (APG5079)",
+        "Subject: Public health ethics (APG5081)",
+        "Essay: 45% (Hurdle: None)"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+      "evidenceLines": [
+        "Research task: 10% (Hurdle: None)",
+        "Participation: 45% (Hurdle: None)",
+        "The course is designed in ways to suit you with little or no prior educational background in ethics or philosophy, and is also suitable for philosophy graduates with an interest in further studies of bioethics."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+      "evidenceLines": [
+        "Subject: Policy analysis (APG5103)",
+        "Subject: Ethical issues in human genomics (APG5110)",
+        "Critically engage with the public health ethics literature and construct arguments for novel conclusions in relation to that literature."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+      "evidenceLines": [
+        "Explain and evaluate the ethical frameworks and principles specific to public health practice and policy making;",
+        "This course is particularly well suited if you are a health care professional or scientist who faces complex ethical issues in your working life.",
+        "The course is also valuable if you are involved in the development of public policy and law, or simply wish to explore issues of public concern."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+      "evidenceLines": [
+        "Use public health ethics frameworks and principles to arrive at well-argued conclusions about particular dilemmas in public health practice and policy making;",
+        "Subject: Global health  (APG5164)",
+        "The course is designed in ways to suit you with little or no prior educational background in ethics or philosophy, and is also suitable for philosophy graduates with an interest in further studies of bioethics."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course comprises 24 credit points of study which provide knowledge, skills, attitudes and values required of skilled practitioners working in a range of fields addressing bioethics.",
+        "This course is particularly well suited if you are a health care professional or scientist who faces complex ethical issues in your working life."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate of Bioethics.",
+        "evidenceLines": [
+          "The course comprises 24 credit points of study which provide knowledge, skills, attitudes and values required of skilled practitioners working in a range of fields addressing bioethics.",
+          "You must complete 24 credit points from the following units."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+        "evidenceLines": [
+          "Subject: Research ethics (APG5079)",
+          "Use ethical principles and reasoning to arrive at well-argued conclusions about ethical dilemmas in biomedical research;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

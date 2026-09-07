@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+    "evidenceLines": [
+      "Monash University Medication Management Review Training Program (MUMTP)",
+      "Monash University Aged Care On-site Pharmacist Training Program (MUATP)",
+      "The course equips pharmacists to progress into advanced health care practice roles in acute care, primary care, aged care or research."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+    "evidenceLines": [
+      "Pharmacy Administration and Leadership",
+      "Developing a research protocol",
+      "It is designed to advance your knowledge and skills in therapeutic decision-making, evidence-based practice and person-centred care to improve the quality use of medicines."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+    "evidenceLines": [
+      "Subject: Evidence based practice (PGC5101)",
+      "Subject: Advanced therapeutic decision-making: Acute care (PGC5102)",
+      "Demonstrate attributes of a life-long learner by reflecting on gaps in knowledge and skills relating to the practice of EBP."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+    "evidenceLines": [
+      "Develop clinical questions which can be answered using literature evidence.",
+      "Prepare and execute an appropriate search strategy (of relevant electronic databases and resources) to find evidence to answer clinical questions.",
+      "The course equips pharmacists to progress into advanced health care practice roles in acute care, primary care, aged care or research."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+    "evidenceLines": [
+      "Subject: Infectious diseases pharmacotherapy (PGC5110)",
+      "Subject: Geriatric disease state management (PGC5116)",
+      "Evaluate the validity and relevance of literature evidence when answering clinical questions."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+    "evidenceLines": [
+      "Interpret and synthesise the evidence to provide an answer to the clinical question posed.",
+      "The course equips pharmacists to progress into advanced health care practice roles in acute care, primary care, aged care or research.",
+      "It is designed to advance your knowledge and skills in therapeutic decision-making, evidence-based practice and person-centred care to improve the quality use of medicines."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+    "evidenceLines": [
+      "Effectively communicate evidence based findings to peers and relevant health professionals to support clinical decisions.",
+      "Subject: Mental health (PGC5117)",
+      "The course equips pharmacists to progress into advanced health care practice roles in acute care, primary care, aged care or research."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "This course comprises 24 credit points structured into two parts: Part A. Core studies, Part B. Specified elective studies",
+      "The course equips pharmacists to progress into advanced health care practice roles in acute care, primary care, aged care or research."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate of Advanced Pharmacy Practice.",
+      "evidenceLines": [
+        "This course comprises 24 credit points structured into two parts: Part A. Core studies, Part B. Specified elective studies",
+        "Part A. Core studies"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+      "evidenceLines": [
+        "Subject: Evidence based practice (PGC5101)",
+        "Monash University Medication Management Review Training Program (MUMTP)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

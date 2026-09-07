@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-lgemt",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Construct, interpret, analyse and communicate information contained in a firms financial statements using appropriate digital and information tools.",
+        "Examine and apply financial mathematics tools and techniques to determine cash flows, cost of capital, capital investments.",
+        "If you\u2019re determined to create sustainable change in the world of engineering, La Trobe\u2019s Graduate Diploma in Engineering Management will give you the advanced skills and experience to take the next step in your career."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Prepare budgets, manage working capital, and make appropriate pricing and production decisions.",
+        "Examine the importance of basic accounting and finance principles, and differentiate the appropriate sources of finance for a firm.",
+        "Develop the commercial expertise to set yourself apart in this evolving industry."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: ACCOUNTING AND FINANCE FOR MANAGERS (BUA4002)",
+        "Subject: ECONOMICS FOR GLOBAL LEADERS (BUA4003)",
+        "Apply economic frameworks to business and social problems for policy and decision-making."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Construct and present logical and persuasive economic arguments and communicate concepts professionally.",
+        "Research and apply economic concepts to predict how changes in economic conditions may impact individuals, businesses and industries within market structures.",
+        "Update your core knowledge in modern engineering practice and advance your career as a leader in a wide range of engineering disciplines."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: STATISTICS FOR BUSINESS AND FINANCE (BUA4004)",
+        "Subject: AUSTRALIAN ENGINEERING ENVIRONMENT SUSTAINABILITY AND PRACTICE (EMS5AEE)",
+        "Critically analyse economic data to explain relationships between economic variables and their impacts on policy, business and individuals."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Ability to present work in a professional manner and to communicate effectively to a professional audience",
+        "If you\u2019re determined to create sustainable change in the world of engineering, La Trobe\u2019s Graduate Diploma in Engineering Management will give you the advanced skills and experience to take the next step in your career.",
+        "Develop the commercial expertise to set yourself apart in this evolving industry."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Use statistical principles and research skills in a collaborative team environment to solve practical problems and communicate the findings to people with various viewpoints",
+        "Subject: ADVANCED ENGINEERING INNOVATION (EMS5AEI)",
+        "Update your core knowledge in modern engineering practice and advance your career as a leader in a wide range of engineering disciplines."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "Update your core knowledge in modern engineering practice and advance your career as a leader in a wide range of engineering disciplines. Delve into specialist subjects in management, innovation and sustainability \u2013 designed specifically for engineers \u2013 while you develop your understanding of core business principles in marketing, finance, organisational behaviour and business statistics.",
+        "If you\u2019re determined to create sustainable change in the world of engineering, La Trobe\u2019s Graduate Diploma in Engineering Management will give you the advanced skills and experience to take the next step in your career."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Diploma in Engineering Management.",
+        "evidenceLines": [
+          "Update your core knowledge in modern engineering practice and advance your career as a leader in a wide range of engineering disciplines. Delve into specialist subjects in management, innovation and sustainability \u2013 designed specifically for engineers \u2013 while you develop your understanding of core business principles in marketing, finance, organisational behaviour and business statistics.",
+          "To qualify for the award of Graduate Diploma in in Engineering Management, students must complete 120 credit points consisting of:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in engineering and related technologies, n.e.c..",
+        "evidenceLines": [
+          "Subject: ACCOUNTING AND FINANCE FOR MANAGERS (BUA4002)",
+          "Construct, interpret, analyse and communicate information contained in a firms financial statements using appropriate digital and information tools."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

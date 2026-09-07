@@ -1,0 +1,145 @@
+===== SOURCE: https://handbook.monash.edu/2026/courses/C4015 =====
+## Graduate Certificate of Artificial Intelligence
+##### C4015
+##### 24 credit points
+You are viewing the 2026 version
+
+### Overview
+The Graduate Certificate of Artificial Intelligence prepares you for entry level professional practice in the area of Artificial Intelligence (AI) across sectors such as industry, academia, research and development (R&D), government, defence, medicine and finance. This degree introduces you to topics in fundamental AI, statistical data analysis and your choice of machine learning, deep learning, modern optimisation techniques and natural language processing.
+
+### AQF level
+Level 8 - Graduate Certificate
+### Post-nominals
+GradCertAI
+
+### Structure
+The course comprises 24 credit points which includes a 6 credit point core artificial intelligence unit and 18 credit points of elective artificial intelligence units.
+
+### Requirements
+You must complete the following unit (6 points):
+
+  * ITO5047 Fundamentals of artificial intelligence
+
+and complete three units (18 points) from the following:
+
+  * ITO5201 Machine learning
+
+  * ITO5216 Discrete optimisation
+
+  * ITO5217 Natural language processing
+
+  * ITO5221 Intelligent image and video analysis
+
+### Course structure
+24 credit points
+**Core studies** **6 credit points**
+You must complete the following unit
+  [ _arrow_forward_ ITO5047 Fundamentals of artificial intelligence ](https://handbook.monash.edu/2026/units/ITO5047)
+**Specified elective studies** **18 credit points**
+You must complete 18 credit points from the following units
+  [ _arrow_forward_ ITO5201 Machine learning ](https://handbook.monash.edu/2026/units/ITO5201)
+  [ _arrow_forward_ ITO5216 Discrete optimisation ](https://handbook.monash.edu/2026/units/ITO5216)
+  [ _arrow_forward_ ITO5221 Intelligent image and video analysis ](https://handbook.monash.edu/2026/units/ITO5221)
+  [ _arrow_forward_ ITO5217 Natural language processing ](https://handbook.monash.edu/2026/units/ITO5217)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+apply problem solving skills and theoretical knowledge to the design and construction of innovative solutions in the area of artificial intelligence;
+**2.**
+systematically evaluate the application of theories and techniques from the field of artificial intelligence;
+**3.**
+critically evaluate, document and communicate ethical, legal and social issues affecting the use of technologies;
+**4.**
+analyse, critically review and synthesise theories and techniques from the field of artificial intelligence;
+**5.**
+evaluate and respond to social and ethical issues arising from the application of artificial intelligence technologies in the global economy.
+
+### AHEGS
+The Graduate Certificate of Artificial Intelligence is a postgraduate award. The course is taught in English and is the equivalent of six months of full-time study. Graduates gain an understanding of artificial intelligence applications and will be able to evaluate of AI projects, and understand key standards, software and theories in artificial intelligence. The Graduate Certificate of Artificial Intelligence is a Level 8 Australian Qualifications Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations.
+
+### Degrees awarded
+Graduate Certificate of Artificial Intelligence
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO5047 =====
+Subject: Fundamentals of artificial intelligence (ITO5047)
+Credit Points: 6
+Overview: This unit introduces the main problems and approaches to designing intelligent software systems including automated search methods, knowledge representation and reasoning, reasoning under uncertainty, neural networks and machine learning paradigms.
+Learning Outcomes:
+- Explain the theoretical foundations of Artificial Intelligence (AI) that underpin the application to information technology and society;
+- Critically explain, evaluate and apply appropriate AI theories, models and/or techniques in practice - including formal reasoning techniques, heuristic search, neural network based reasoning, supervised and unsupervised machine learning and Bayesian inference;
+- Utilise appropriate software tools to develop AI models or software; and
+- Utilise and explain evaluation criteria to measure the correctness and/or suitability of models.
+Assessment Tasks:
+- Assignment 2: 20% (Hurdle: None)
+- Assignment 1: 30% (Hurdle: None)
+- Assignment 4: 15% (Hurdle: None)
+- Assignment 3: 35% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO5201 =====
+Subject: Machine learning (ITO5201)
+Credit Points: 6
+Overview: This unit introduces machine learning and the major kinds of statistical learning models and algorithms used in data analysis. Learning and the different kinds of learning will be covered and their usage will be discussed. The unit presents foundational concepts in machine learning and statistical learning theory, e.g. bias-variance, model selection, and how model complexity interplays with model's performance on unobserved data. A series of different models and algorithms will be presented and interpreted based on the foundational concepts: linear models for regression and classification (e.g. linear basis function models, logistic regression, Bayesian classifiers, generalised linear models), discriminative and generative models, k-means and latent variable models (e.g. Gaussian mixture model), expectation-maximisation, neural networks and deep learning, and principles in scaling typical supervised and unsupervised learning algorithms to big data using distributed computing.
+Learning Outcomes:
+- Develop, and apply major models and algorithms for statistical learning;
+- Scale typical statistical learning algorithms to learn from big data.
+- Assess a typical machine learning model and algorithm;
+- Describe what statistical machine learning and its theoretical concepts are;
+Assessment Tasks:
+- Challenge 2: 20% (Hurdle: None)
+- Quiz: 50% (Hurdle: None)
+- Challenge 1: 30% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO5216 =====
+Subject: Discrete optimisation (ITO5216)
+Credit Points: 6
+Overview: This unit introduces the fundamentals of modelling for discrete optimisation, focusing on how to rigorously express a discrete optimisation problem in a manner that can be solved. Some topics covered will include decision variables, basic constraints, modelling with sets, modelling with functions, multiple modelling viewpoints, debugging discrete optimisation models as well as the fundamental algorithms for solving discrete optimization problems.
+Learning Outcomes:
+- evaluate the limitations, appropriateness and benefits of different modelling patterns for common problem classes;
+- interpret and explain models written by others;
+- evaluate and improve the efficiency of models by applying different model transformations.
+- model a discrete optimisation problem using a mix of basic and more advanced modelling techniques in a high level modelling language;
+- identify and fix errors in models;
+- explain how models are solved with different solving technologies;
+Assessment Tasks:
+- Pipe routing: 40% (Hurdle: None)
+- Rostering: 45% (Hurdle: None)
+- Peer feedback: 15% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO5217 =====
+Subject: Natural language processing (ITO5217)
+Credit Points: 6
+Overview: Natural language processing is a vital piece of technology in the information age. This unit will cover essential techniques for analysing words, sentences, documents and applications. In this unit you will gain an understanding in fundamental and cutting-edge aspects of language processing techniques, from building neural translation systems, to using the recent Transformer models in downstream applications. In addition to applied aspects, you will learn all the technical details underpinnig these systems.
+Learning Outcomes:
+- design systems to tackle NLP problems.
+- evaluate NLP systems.
+- organise core problems and applications in NLP.
+- assess various approaches to NLP.
+Assessment Tasks:
+- Quiz 3: 20% (Hurdle: None)
+- Quiz 1: 30% (Hurdle: None)
+- Quiz 2: 50% (Hurdle: None)
+- Assignment 1: 20% (Hurdle: None)
+- Quiz / Test: 20% (Hurdle: None)
+- Assignment 2: 60% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+
+===== SOURCE: https://handbook.monash.edu/2026/units/ITO5221 =====
+Subject: Intelligent image and video analysis (ITO5221)
+Credit Points: 6
+Overview: This unit will discuss the fundamental and modern concepts in image and video analysis. You will be introduced to the basics of image processing and low-level vision. The topics related to image formation, operations, features and segmentation will enable you with the understanding for developing vision enabled systems. Concepts related to convolutional neural networks (CNN) will be introduced and recent examples will be thoroughly analysed. Recent computer vision concepts will be discussed from a deep learning perspective. The unit will be balanced between the theoretical and the practical implementation aspects of computer vision.
+Learning Outcomes:
+- describe semantic image and video understanding techniques.
+- implement and extend existing computer vision algorithms.
+- describe image analysis and low-level vision.
+- evaluate and compare techniques suitable for adding vision capability to unimodal and multimodal intelligent systems.
+- describe CNN and their applications.
+Assessment Tasks:
+- Neural networks for image classification: 30% (Hurdle: None)
+- Collage and cross correlation: 30% (Hurdle: None)
+- Coding problem: 40% (Hurdle: None)
+Workload: A minimum of 144 hours over the 6 week teaching period should be used to complete assignments, participating in discussions, private study and revision.
+

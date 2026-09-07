@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 15,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Advanced quantum scientific communication, quantum algorithm presentations, and technical research thesis.",
+    "evidenceLines": [
+      "Demonstrate high level knowledge of quantum technologies.",
+      "Apply their knowledge of quantum technology to new problems.",
+      "A single two year graduate award offered by theANU College of Science and Medicine"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical appraisal of quantum noise, decoherence mechanisms, quantum computational complexity, and fault tolerance.",
+    "evidenceLines": [
+      "Apply their knowledge of quantum technology to new problems.",
+      "Interpret, synthesize and critically analyse published literature of relevance to quantum technology.",
+      "A single two year graduate award offered by theANU College of Science and Medicine"
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Advanced quantum mechanics: Hilbert spaces, quantum information theory, quantum optics, and quantum algorithms.",
+    "evidenceLines": [
+      "Interpret, synthesize and critically analyse published literature of relevance to quantum technology.",
+      "Subject: Advanced Quantum Mechanics (PHYS6101)",
+      "Subject: Physics for Future Leaders (PHYS6205)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Deep theoretical and technological synthesis across quantum hardware, quantum cryptography, and quantum algorithms.",
+    "evidenceLines": [
+      "Demonstrate high level knowledge of quantum technologies.",
+      "Interpret, synthesize and critically analyse published literature of relevance to quantum technology.",
+      "A single two year graduate award offered by theANU College of Science and Medicine"
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Experimental quantum optics investigation, quantum circuit simulations, and completion of an advanced research thesis.",
+    "evidenceLines": [
+      "Demonstrate theoretical and practical skills relevant to techniques and research methodology in quantum technology.",
+      "Subject: Optical Physics (PHYS6500)",
+      "Subject: Rapid Prototyping (PHYS6701)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Alignment with emerging quantum industry engineering standards, optical lab safety, and cryogenic protocols.",
+    "evidenceLines": [
+      "Apply their knowledge of quantum technology to new problems.",
+      "A single two year graduate award offered by theANU College of Science and Medicine",
+      "A single two year graduate award offered by theANU College of Science and Medicine"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic quantum circuit programming (Qiskit/Cirq), optical interferometer alignment, and quantum simulation projects.",
+    "evidenceLines": [
+      "Demonstrate high level knowledge of quantum technologies.",
+      "Apply their knowledge of quantum technology to new problems.",
+      "A single two year graduate award offered by theANU College of Science and Medicine"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic research master degree without compulsory industry workplace placement.",
+    "evidenceLines": [
+      "A single two year graduate award offered by theANU College of Science and Medicine",
+      "A single two year graduate award offered by theANU College of Science and Medicine"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "A two-year advanced master degree in quantum technology.",
+      "evidenceLines": [
+        "A single two year graduate award offered by theANU College of Science and Medicine",
+        "A single two year graduate award offered by theANU College of Science and Medicine"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist degree structured through advanced quantum physics and research.",
+      "evidenceLines": [
+        "A single two year graduate award offered by theANU College of Science and Medicine",
+        "Subject: Advanced Quantum Mechanics (PHYS6101)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced quantum mechanics and quantum information theory.",
+    "W3: Scored at Level 1 as program is research-focused."
+  ],
+  "notScoreable": []
+};
+
+export default record;

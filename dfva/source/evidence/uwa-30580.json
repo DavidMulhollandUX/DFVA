@@ -1,0 +1,102 @@
+{
+  "code": "uwa-30580",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education.",
+      "evidenceLines": [
+        "**Institution**: The University of Western Australia (UWA)",
+        "**Course Code**: 30580",
+        "- **Institution**: The University of Western Australia (UWA)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Study Level**: Postgraduate",
+        "- **Study Level**: Postgraduate"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education.",
+      "evidenceLines": [
+        "Subject: Educational Research Design (EDUC5631)",
+        "Subject: Educational Research Design (EDUC5631)",
+        "**Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=30580"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education.",
+      "evidenceLines": [
+        "**Institution**: The University of Western Australia (UWA)",
+        "**Course Code**: 30580",
+        "- **Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=30580"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education.",
+      "evidenceLines": [
+        "Subject: Educational Research Design (EDUC5631)",
+        "Subject: Educational Research Design (EDUC5631)",
+        "**Academic Year**: 2026"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education.",
+      "evidenceLines": [
+        "**Study Level**: Postgraduate",
+        "- **Institution**: The University of Western Australia (UWA)",
+        "- **Study Level**: Postgraduate"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education.",
+      "evidenceLines": [
+        "**Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=30580",
+        "Subject: Educational Research Design (EDUC5631)",
+        "- **Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=30580"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "website for details on admission requirements, intake periods, fees, availability to international students, careers information etc.",
+        "- **Institution**: The University of Western Australia (UWA)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Education.",
+        "evidenceLines": [
+          "website for details on admission requirements, intake periods, fees, availability to international students, careers information etc.",
+          "Admission Schedule A: English Language Competence Requirements."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in teacher education.",
+        "evidenceLines": [
+          "Subject: Educational Research Design (EDUC5631)",
+          "**Institution**: The University of Western Australia (UWA)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

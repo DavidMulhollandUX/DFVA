@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education.",
+    "evidenceLines": [
+      "critically read academic texts related to education research and identify the main theories and concepts which underpin these texts",
+      "demonstrate familiarity with academic practices and conventions that support academic engagement in the field of education.",
+      "Designed for students with a first qualification in a discipline other than education, this course orientates you to the education discipline and provides you with an understanding of concepts and contemporary issues in education and of educational contexts and systems, locally and globally."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education.",
+    "evidenceLines": [
+      "build a convincing argument using education research and present this argument in both spoken and written form",
+      "identify a range of standpoints that characterise some key ideas in the field of education",
+      "You will have the opportunity to draw on a range of support mechanisms as you develop your knowledge and understanding of the major theoretical and professional debates in specialist areas within the field of education, and locate these within contemporary research."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education.",
+    "evidenceLines": [
+      "Subject: Interacting with research in education contexts (EDF5610)",
+      "Subject: Investigating education issues in global contexts (EDF5611)",
+      "conduct a review of academic literature in response to a thematic issue or question"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education.",
+    "evidenceLines": [
+      "Oral presentation (1500 words or equivalent) leading to a critical essay (3000 words or equivalent): 70% (Hurdle: None)",
+      "Annotated bibliography (2000 words or equivalent): 20% (Hurdle: None)",
+      "Completion of this course will position you to pursue education-related careers and/or further study in education."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education.",
+    "evidenceLines": [
+      "Subject: Interacting with research in education contexts (EDF5610)",
+      "Subject: Investigating education issues in global contexts (EDF5611)",
+      "Online learning activities (1500 words equivalent): 10% (Hurdle: None)"
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education.",
+    "evidenceLines": [
+      "broaden your understanding of education debates through appropriate resources and shared peer learning",
+      "Designed for students with a first qualification in a discipline other than education, this course orientates you to the education discipline and provides you with an understanding of concepts and contemporary issues in education and of educational contexts and systems, locally and globally.",
+      "You will have the opportunity to draw on a range of support mechanisms as you develop your knowledge and understanding of the major theoretical and professional debates in specialist areas within the field of education, and locate these within contemporary research."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education.",
+    "evidenceLines": [
+      "identify, investigate and understand contemporary issues in education relevant to your roles and interests and work",
+      "Subject: Investigating education issues in global contexts (EDF5611)",
+      "Completion of this course will position you to pursue education-related careers and/or further study in education."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "24 credit points",
+      "Designed for students with a first qualification in a discipline other than education, this course orientates you to the education discipline and provides you with an understanding of concepts and contemporary issues in education and of educational contexts and systems, locally and globally."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate of Education Studies.",
+      "evidenceLines": [
+        "24 credit points",
+        "**Orientation units** **24 credit points**"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in teacher education.",
+      "evidenceLines": [
+        "Subject: Interacting with research in education contexts (EDF5610)",
+        "critically read academic texts related to education research and identify the main theories and concepts which underpin these texts"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

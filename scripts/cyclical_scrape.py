@@ -19,7 +19,8 @@ cache. A capture that only exists locally cannot be re-examined or re-scored, an
 
 Universities:
     - unimelb: handbook.unimelb.edu.au/2026/courses/{mc-XXXX} + /course-structure/ sub-page
-    - latrobe: handbook.latrobe.edu.au/courses/2026/{CODE} (structure embedded in main page)
+    - latrobe: handbook.latrobe.edu.au/courses/2026/{CODE} (structure embedded in main page;
+               preferred fast ingest: python3 scripts/latrobe-handbook-scrape.py)
 """
 import json, asyncio, sys, os
 from datetime import datetime, timezone

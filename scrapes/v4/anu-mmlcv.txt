@@ -1,0 +1,465 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/MMLCV =====
+# Master of Machine Learning and Computer Vision (MMLCV)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: MMLCV
+- **Academic Year**: 2027
+- **Career / Study Level**: Postgraduate
+- **Program Duration**: 2 year full-time
+- **Minimum Units Required**: 96 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal MMaLeCompV
+- **CRICOS Code**: code 099247C
+- **UAC Code**: N/A
+- **Field of Education**: of Education Computer Engineering
+- **Academic Contact**: contact Miaomiao Liu
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/MMLCV
+
+## Program Description
+A single two year graduate award offered by theANU College of Systems and Society
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Propose and develop novel solutions based on current research literature and state-of-the-art computer vision techniques.
+2. Research and apply development tools for solving computer vision and machine learning problems.
+3. Interpret and present the methodologies and implementation details?relevant to computer vision and machine learning technologies?with audience-?tailored communications.
+4. Conduct Machine Learning and/or Computer Vision research (applied or pure) project workflows consistent with current practice.
+5. Synthesize advanced knowledge, techniques and tools for computer vision and machine learning applications.
+
+## Program Requirements & Study Options
+### Program Requirements
+The Master of Machine Learning and Computer Vision requires the completion of 96 units.
+
+### Admission Requirements
+Applicants must present one of the following:
+
+### Inherent Requirements
+Information on inherent requirement is currently not available for this program.
+
+### Electives
+You should read the appropriate enrolment patterns mentioned below to see how many electives you may choose and where they fit in your program.
+When choosing elective courses, check the course listing on
+Programs and Courses
+to ensure that you have the required and assumed knowledge before enrolling. If you don't, consider changing your planned enrolment to make sure you take the pre-requisite course.
+Check the pre-requisites for the MMLCV elective course list you wish to take, 8000-level courses normally require specific 6000-level courses to have been completed. Many courses only run once per year.
+
+### Program Structure & Prescribed Units of Study
+The following 23 units of study are prescribed for this academic program:
+  * [ COMP6250 Professional Practice: Holistic Thinking and Communication ](https://programsandcourses.anu.edu.au/course/COMP6250)
+  * [ COMP6261 Information Theory ](https://programsandcourses.anu.edu.au/course/COMP6261)
+  * [ COMP6262 Logic ](https://programsandcourses.anu.edu.au/course/COMP6262)
+  * [ COMP6320 Artificial Intelligence ](https://programsandcourses.anu.edu.au/course/COMP6320)
+  * [ COMP6445 Computing Research Methods ](https://programsandcourses.anu.edu.au/course/COMP6445)
+  * [ COMP6490 Document Analysis ](https://programsandcourses.anu.edu.au/course/COMP6490)
+  * [ COMP6528 Computer Vision ](https://programsandcourses.anu.edu.au/course/COMP6528)
+  * [ COMP6670 Introduction to Machine Learning ](https://programsandcourses.anu.edu.au/course/COMP6670)
+  * [ COMP6710 Structured Programming ](https://programsandcourses.anu.edu.au/course/COMP6710)
+  * [ COMP8260 Professional Practice: Responsible Innovation and Leadership ](https://programsandcourses.anu.edu.au/course/COMP8260)
+  * [ COMP8280 Responsible Practice, Innovation and Leadership ](https://programsandcourses.anu.edu.au/course/COMP8280)
+  * [ COMP8535 Engineering Data Analytics ](https://programsandcourses.anu.edu.au/course/COMP8535)
+  * [ COMP8536 Advanced Topics in Deep Learning for Computer Vision ](https://programsandcourses.anu.edu.au/course/COMP8536)
+  * [ COMP8539 Advanced Topics in Computer Vision ](https://programsandcourses.anu.edu.au/course/COMP8539)
+  * [ COMP8600 Statistical Machine Learning ](https://programsandcourses.anu.edu.au/course/COMP8600)
+  * [ COMP8610 Computer Graphics ](https://programsandcourses.anu.edu.au/course/COMP8610)
+  * [ COMP8620 Advanced Topics in Artificial intelligence ](https://programsandcourses.anu.edu.au/course/COMP8620)
+  * [ COMP8650 Advanced Topics in Machine Learning ](https://programsandcourses.anu.edu.au/course/COMP8650)
+  * [ COMP8691 Optimisation ](https://programsandcourses.anu.edu.au/course/COMP8691)
+  * [ COMP8715 Advanced Computing Team Project ](https://programsandcourses.anu.edu.au/course/COMP8715)
+  * [ COMP8800 Advanced Computing Research Project ](https://programsandcourses.anu.edu.au/course/COMP8800)
+  * [ COMP8830 Computing Internship ](https://programsandcourses.anu.edu.au/course/COMP8830)
+  * [ ENGN6627 Robotics ](https://programsandcourses.anu.edu.au/course/ENGN6627)
+
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6250 =====
+Subject: Professional Practice: Holistic Thinking and Communication (COMP6250)
+Credit Points: 6 units
+Overview: This is one of two professional practice courses (the other isCOMP8260: Professional Practice: Responsible Innovation and Leadership) for engineering and computing graduate students that focus on developing professional and communication skills for the 21st century workplace. Industry bodies and employers of engineering and computing graduates consistently rank communication skills as one of the most important selection criteria when hiring.
+
+This course aims to heighten students’ awareness of ethical professional practice, and to develop new interpersonal and communication skills, leading to students becoming more competent professionals in their field.
+
+Based on Engineers Australia and Australian Computer Society professional competencies, students will develop and practice fundamental skills required by industry to better equip them for the workforce.
+Learning Outcomes:
+- Communicate effectively in a professional setting in written and spoken formats to transfer complex knowledge and ideas to technical and non-technical audiences.
+- Identify, critique and use appropriate sources of information when developing professional documents.
+- Maintain and develop appropriate, effective and professional forms of documentation.
+- Demonstrate effective team membership skills and contribute collaboratively within diverse team environments.
+- Articulate and reflect on the industry expectations of competence and ethical conduct in engineering and computing professions.
+Assessment Tasks:
+- Group assignments Marks for group tasks will include components for group performance and individual contribution of each student.: 60% (Hurdle: False)
+- Individual Assignments and Tutorial contributions Weighting of assessment items will be confirmed by the course convener at the start of semester and published in the class summary.: 40% (Hurdle: False)
+Workload: Inherent Requirements
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6261 =====
+Subject: Information Theory (COMP6261)
+Credit Points: 6 units
+Overview: Information theory studies the fundamental limits of the representation and transmission of information. This course provides an introduction to information theory, studying fundamental concepts such as probability, information, and entropy and examining their applications in the areas of data compression, coding, communications, pattern recognition and probabilistic inference.
+Learning Outcomes:
+- Understand and apply fundamental concepts in information theory such as probability, entropy, information content and their inter-relationships.
+- Understand the principles of data compression.
+- Compute entropy and mutual information of random variables.
+- Implement and analyse basic coding and compression algorithms.
+- Understand the relationship of information theoretical principles and Bayesian inference in data modelling and pattern recognition.
+- Understand some key theorems and inequalities that quantify essential limitations on compression, communication and inference.
+- Know the basic concepts regarding communications over noisy channels.
+Assessment Tasks:
+- Assignment 1: 10% (Hurdle: False)
+- Assignment 2: 20% (Hurdle: False)
+- Assignment 3: 20% (Hurdle: False)
+- Final Exam: 50% (Hurdle: False)
+Workload: Lectures and tutorial sessions plus self study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6262 =====
+Subject: Logic (COMP6262)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6320 =====
+Subject: Artificial Intelligence (COMP6320)
+Credit Points: 6 units
+Overview: Artificial intelligence is the science that studies and develops methods of making computers more intelligent. The focus of this course is on core AI techniques for search, knowledge representation and reasoning, planning, and designing intelligent agents. The course also aims to give an overview of the historical, philosophical, and logical foundations of AI.
+Learning Outcomes:
+- Identify problems that are amenable to solution by AI methods, and which AI methods may be suited to solving a given problem.
+- Formalise a given problem in the language/framework of different AI methods (e.g., as a search problem, as a constraint satisfaction problem, as a planning problem, etc).
+- Implement basic AI algorithms (e.g., standard search or constraint propagation algorithms).
+- Design and perform an empirical evaluation of different algorithms on a problem formalisation, and relate the conclusions that the evaluation supports.
+Assessment Tasks:
+- Assignments: 38% (Hurdle: False)
+- Quizzes: 12% (Hurdle: False)
+- Final Exam: 50% (Hurdle: False)
+Workload: Lectures, tutorials, labs and self-study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6445 =====
+Subject: Computing Research Methods (COMP6445)
+Credit Points: 6 units
+Overview: The course introduces students to some fundamentals of research methodology. The course comprises a series of lectures which cover the following topics: Philosophy of Science, Quantitative Research Methods, Qualitative Research Methods, Basic Machine Learning Methods, Theoretical Research Methods, How to find a Research Topic, Literature Analysis, Reading and Reviewing Papers, Research Ethics and Commercialising Research.
+
+The lectures will be complemented by a series of workshops, labs and assignments that require students to do some small research-focused tasks that help them get a hands-on experience of research, both individually and in teams of students. This includes different tasks such as topic modelling, statistical analysis, applying different machine learning techniques to solve a problem in a team, proving theorems, complexity analysis, designing a research project, reviewing papers and presenting papers.
+
+Workshops cover topics such as research integrity, time management and project management, teamwork, reading strategies, report writing, and presenting research. At the end of the course, students will be confident to start working on their own research projects.
+Learning Outcomes:
+- Effectively communicate research questions, methods and outcomes in oral, written and graphical forms to a broad audience using appropriate tools.
+- Justify and apply appropriate ethical technological choices based on an advanced consideration of the research question and methods.
+- Explain the process of identifying, composing and formulating ethical research questions.
+- Apply effective literature search and critical evaluation skills.
+- Explain the role of academic integrity and the importance of building upon and correctly attributing the work of others.
+Assessment Tasks:
+- Research Proposal: 20% (Hurdle: False)
+- Literature Review: 60% (Hurdle: False)
+- Individual Presentation and Presentation Reviews: 20% (Hurdle: False)
+Workload: 130 hours from a combination of lectures, workshops/tutorials, assessments and individual study.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6490 =====
+Subject: Document Analysis (COMP6490)
+Credit Points: 6 units
+Overview: Processing of semi-structured documents such as internet pages, Really Simple Syndication (RSS) feeds and their accompanying news items, and Portable Document Format (PDF) brochures is considered from the perspective of interpreting the content. This course considers the document and its various genres as a fundamental object for business, government and community. For this, the course covers four broad areas:
+
+1.	Information Retrieval (IR),
+
+2.	Natural Language Processing (NLP),
+
+3.	Machine/Deep Learning (M/DL) for documents, and
+
+4.	relevant tools for the Web.
+
+Basic tasks here are covered, including content collection and extraction, formal and informal NLP, Information Extraction (IE), IR, classification, and analysis. Fundamental probabilistic techniques for performing these tasks and some common software systems will be covered, though no area will be covered in any depth.
+
+(The older version: This course considers the “document” and its various genres as a fundamental object for business, government and community, such as web pages, social media feeds, news items, and PDF brochures. The goal is to introduce concepts and hands-on tools for automated understanding of large amounts of text. For this, the course covers four broad areas: (A) information retrieval, (B) natural language processing, (C) machine learning for documents, and (D) relevant tools for the web. Tasks include content collection and extraction, formal and informal natural language processing, information extraction, information retrieval, classification and analysis. Fundamental probabilistic techniques for performing these tasks, and some common software systems will be covered, though no area will be covered in great depth.)
+Learning Outcomes:
+- Differentiate between the probabilistic theories of language, document structure, and their applications to text generation and analysis, from the pioneering papers to the current advances in research and practice.
+- Apply, analyse, evaluate, and extend methods for natural language processing, word representation, document feature engineering, information retrieval, text classification, text clustering, and language modelling.
+- Create automated workflows for document analysis, information retrieval, and text classification tasks by developing and deploying typical algorithms, code libraries, and software (e.g., for natural language processing and machine/deep learning).
+- Demonstrate advanced proficiency at designing, justifying, conducting, and reporting on such analysis and evaluation experiments at document and corpus levels.
+Assessment Tasks:
+- Assignments: 45% (Hurdle: False)
+- Written Final Exam: 55% (Hurdle: False)
+Workload: Lectures and tutorial/laboratory sessions plus self study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6528 =====
+Subject: Computer Vision (COMP6528)
+Credit Points: 6 units
+Overview: Computer Vision is an important field of Artificial Intelligence concerned with automatically extracting useful information from images or videos. The explosive growth in digital imaging technologies, vision datasets and deep learning makes the problems of automated image interpretation even more exciting and more relevant than ever. This course introduces students to fundamental problems in computer vision and foundational techniques for solving them. Topics covered in detail include: image formation, image filtering, camera geometry, thresholding and image segmentation, edge, point and feature detection, geometric frameworks for vision, single view and two views geometry, 3D visual reconstruction, camera calibration, stereo vision, image classification, object recognition, deep learning and neural networks. The course features extensive practical components including computer labs that provide students with the opportunity to practice and refine their skills in computer vision.
+Learning Outcomes:
+- Understand and proficiently apply specialised knowledge, methods and skills in image processing and computer vision applications, research and development.
+- Identify, formulate and innovatively solve problems in image processing and computer vision.
+- Critically analyse, evaluate and examine existing practical computer vision systems.
+- Design and develop practical and innovative image processing and computer vision applications or systems using advanced knowledge and research techniques.
+- Communicate effectively to both specialist and non-specialist audiences, explaining and synthesising complex concepts related to visual information processing systems.
+- Conduct themselves professionally and responsibly in the areas of computer vision, image processing and deep learning.
+- Critically read, review and assess scientific literature in the field and apply theoretical knowledge to identify the novelty and practicality of proposed methods.
+Assessment Tasks:
+- Assignment 1: 15% (Hurdle: False)
+- Assignment 2: 15% (Hurdle: False)
+- Assignment 3: 15% (Hurdle: False)
+- Final Exam: 55% (Hurdle: False)
+Workload: 130 hours including lectures, tutorials, laboratories and self-study.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6670 =====
+Subject: Introduction to Machine Learning (COMP6670)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP6710 =====
+Subject: Structured Programming (COMP6710)
+Credit Points: 6 units
+Overview: This is an introductory programming course that teaches basic concepts in imperative and object-oriented programming and corresponding data structures for students with some previous programming experience.
+
+Students will learn to use an industrial-strength object-oriented programming language and form basic mental models of how computer programs execute and interact with their environment. The course focuses on key aspects of solving programming problems: reasoning about a problem description to design appropriate data representations and function/method descriptions, to find examples, to write, test, debug, and otherwise evaluate the relevant code, and to present and defend their approach.
+
+Students will learn to effectively use a large standard library and key standard data structures, including lists, trees, hash tables, and graphs. The course also introduces the basics of reasoning about the time and space complexity of algorithms, in particular as related to the above data structures.
+Learning Outcomes:
+- Internalize computational thinking
+- Apply fundamental programming concepts, using an object-oriented programming language, to solve practical programming problems
+- Implement, debug, and evaluate algorithms for solving substantial problems; implement an abstract data type
+- Apply basic algorithmic analysis to simple algorithms; use appropriate algorithmic approaches to solve problems
+- Design, implement, and test data structures and code
+- Present, explain, evaluate, and defend choices in design and implementations of programs and algorithms
+- Independently write programs that address given programming problems
+- Understand their ethical responsibilities as a programmer with respect to Academic integrity, the use of Artificial Intelligence and authorship of code
+Assessment Tasks:
+- Assignments and in-Person Activities: 20% (Hurdle: False)
+- Final Exam and in-term test: 80% (Hurdle: False)
+Workload: Lectures, tutorials/laboratory sessions, presentations, assessments and self-study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP8260 =====
+Subject: Professional Practice: Responsible Innovation and Leadership (COMP8260)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP8280 =====
+Subject: Responsible Practice, Innovation and Leadership (COMP8280)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP8535 =====
+Subject: Engineering Data Analytics (COMP8535)
+Credit Points: 6 units
+Overview: Data-driven decision-making is an essential component of emerging systems that generate and consume very large amounts of sensing data from autonomous vehicles to digital pathology. This course covers technologies and methodologies necessary for inferring useful information and identifying underlying patterns from often raw, incomplete, noisy and corrupted data that is present in real-life applications. It will also give students the opportunity to explore advanced solutions of data analytics such as dimensionality reduction, sparse encoding, compressive sensing, nonlinear filtering, manifold learning, and generative data modelling.
+Learning Outcomes:
+- Describe a number of models for inference from data
+- Assess the strength and weakness of each of these models
+- Interpret the mathematical equations from Linear Algebra, Statistics, and Probability Theory used in the learning models
+- Implement efficient data analysis algorithms on a computer
+- Design test procedures in order to evaluate a model
+- Combine several models in order to gain better results
+Assessment Tasks:
+- Assignments: 40% (Hurdle: False)
+- Group research project: 30% (Hurdle: False)
+- Final Exam: 30% (Hurdle: False)
+Workload: Total 130 hours from Lectures, Tutorials, Homework assignments and a Research project.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP8536 =====
+Subject: Advanced Topics in Deep Learning for Computer Vision (COMP8536)
+Credit Points: 6 units
+Overview: The course covers the theory and practice of deep learning with a focus on applications in computer vision. Students will learn the foundational mathematics behind deep learning and explore topics such as multi-layer perceptrons (MLPs), back-propagation and automatic differentiation, convolutional neural networks (CNNs), recurrent neural networks (RNNs), and Transformers. These techniques play a crucial role in modern AI systems, including image and video understanding, natural language processing, generative AI, and robotics. The various practical assessments will enhance student's understanding and intuition of deep learning and its application in computer vision.
+Learning Outcomes:
+- Describe and apply the theory of convolutional neural networks and the universal approximation theorem.
+- Apply the theory of training a convolutional neural network.
+- Write programs to design, train and test neural networks to solve problems in computer vision.
+- Competently apply programming and software tools to write programs to solve realistic problems of computer vision using deep neural networks.
+- Understand the principals of testing and evaluating the performance of deep neural networks, and apply these principals in practice.
+- Research an area of computer vision and apply deep neural network methods to a problem in that area.
+Assessment Tasks:
+- Lab Assignments: 30% (Hurdle: False)
+- Project Proposal and Presentation: 30% (Hurdle: False)
+- Major Project report: 40% (Hurdle: False)
+Workload: 130 hours, including Lectures, Labs and Self Study
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP8539 =====
+Subject: Advanced Topics in Computer Vision (COMP8539)
+Credit Points: 6 units
+Overview: The goal of Computer Vision is to enable the computer or AI agent to ‘see’ and ‘understand’ the world like if not better than human beings. To that end, the computer needs to use sensors such as RGB or depth sensors to interact with the world. It mainly includes the understanding of the environment (scene understanding), humans, and further interaction with humans. Mapping to specific computer vision problems, this course will cover advanced topics in computer vision, such as 1) Scene Understanding, 2)Graphical Models, 3)3D visual perception , 4) Human Analysis and modeling. This course will review current research literature in the above fields and update students with state-of-the-art techniques. Students will work on group projects related to concrete research problems and present their research results in the form of seminars.
+Learning Outcomes:
+- Describe and analyze the main research challenges in the field of computer vision.
+- Summarize research literature and state-of-the-art techniques for solving the challenging research problems in those areas.
+- Model and formulate problems, propose effective solutions to the problem and implement algorithms using suitable programming languages.
+- Design network structure and loss functions in cases where problems need to be solved using deep learning techniques.
+- Analyze the results and effectively evaluate the results on benchmark datasets.
+Assessment Tasks:
+- Literature Reading Reports: 50% (Hurdle: False)
+- Research/Design Project: 30% (Hurdle: False)
+- Seminar Presentation: 20% (Hurdle: False)
+Workload: A total of 130 hours including lectures, tutorials and self-study
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP8600 =====
+Subject: Statistical Machine Learning (COMP8600)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP8610 =====
+Subject: Computer Graphics (COMP8610)
+Credit Points: 6 units
+Overview: Computer graphics are an essential part of modern software. In this course, students will learn about fundamental algorithms, data structures and programming models used in 3D graphics applications. These key concepts in computer graphics programming will be covered from their mathematical foundations through to their application in domains such as data visualisation, virtual reality, computer games and film animation/VFX. In this course students will explore these concepts through practical implementation in a modern computer graphics software context.
+Learning Outcomes:
+- Explain the stages of a modern, hardware-accelerated 3D rendering pipeline
+- Construct and manipulate complex models, geometries and scene graphs in both 2D and 3D
+- Implement computer graphics algorithms in a shader language
+- Compare and evaluate different computer graphics techniques based on performance, aesthetic and implementation difficulty
+Assessment Tasks:
+- Weekly lab portfolio: 10% (Hurdle: False)
+- Group project: 20% (Hurdle: False)
+- Individual project: 40% (Hurdle: False)
+- Final exam: 30% (Hurdle: False)
+Workload: Approximately 130 hours of study consisting of lectorials, labs and self directed study.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP8620 =====
+Subject: Advanced Topics in Artificial intelligence (COMP8620)
+Credit Points: 6 units
+Overview: This is an advanced postgraduate course that offers students the opportunity to study a special thematic area within the discipline of Artificial Intelligence.
+
+The topics will vary from year to year in response to emerging theoretical and practical issues in the discipline, as well as the research interests and expertise of academics and sessional staff. They will be drawn from the broad areas of Artificial Intelligence, and could include (but not limited to) the following topics: Planning, Scheduling, Games, Search, Reasoning (constraint-based, model-based, spatial, temporal), Knowledge representation, Decision-making under uncertainty, Integrated planning and learning, Reinforcement learning, and Robotics.
+
+Please see theclass websitefor the specific topics covered in a particular semester.
+Learning Outcomes:
+- Gain both a wide and a deep knowledge of the topic(s) taught in the current instance of the course.
+- Navigate through, and critically examine, the scientific literature on the taught topic(s).
+- Plan and execute project work and/or a piece of research and scholarship in the advanced topic(s)
+- Reflect on current approaches of the advanced topic(s) and evaluate their limitations
+Assessment Tasks:
+- Assignments: 55% (Hurdle: False)
+- Final Exam and/or Project: 45% (Hurdle: False)
+Workload: A total of 130 hours including lectures, tutorials and self study.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP8650 =====
+Subject: Advanced Topics in Machine Learning (COMP8650)
+Credit Points: 6 units
+Overview: This course explores a selected area relevant to statistical machine learning in depth, and will be taught by an SML staff member of internationally recognised standing and research interest in that area. Based on current SML staffing, this will be one of:
+
+kernel methods
+
+structured probabilistic models
+
+reinforcement learning
+
+convex analysis and optimisation
+
+topics in information theory
+
+decision theory
+
+deep learning
+
+differentiable optimisation in deep learning
+
+Over the past several years the content has alternated between “convex analysis and optimisation” and “differentiable optimisation in deep learning". Students should contact the course convenor to find out what topic is planned for the coming semester.
+Learning Outcomes:
+- Distinguish definitions of key concepts in convex analysis, including convexity of sets and functions, subgradients, and the convex dual
+- Produce a formal optimization problem from a high-level description and determine whether the problem is convex
+- Recognize standard convex optimization problems such as linear programs and quadratic programs
+- Derive results about convex functions such as Jensen’s inequality
+- Derive the standard (dual) quadratic program for support vector machines and understand the extension to max-margin methods for structured prediction
+- Implement and analyse gradient descent algorithms such as stochastic gradient descent and mirror descent
+- Understanding advanced concepts in deep learning and relate them to principles from convex optimisation
+- Implement a simple algorithms and differentiable models using a common deep learning framework (such as PyTorch)
+Assessment Tasks:
+- Regular homework assignments: 40% (Hurdle: False)
+- Open-book final exam: 60% (Hurdle: False)
+Workload: Lectures, Tutorials and self study to a total of 130 hours.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP8691 =====
+Subject: Optimisation (COMP8691)
+Credit Points: 6 units
+Overview: This course provides foundations and plenty of exercises in practical optimisation problems, while covering all basic elements of optimisation including forms of constraint programming as well as variations on linear programming and convex optimisation.
+Learning Outcomes:
+- Be able to apply Linear Programming and Mixed-Integer Programming model to solve real-world problems.
+- Be able to recognize and formulate convex optimization problems arising in practice.
+- Demonstrate an understanding of theoretical foundations of convex optimization and be able to use it to characterize optimal solutions to general problems.
+- Be able to define an appropriate local search neighbourhood for a given problem.
+- Be able to use and reflect on a variety of meta-heuristics to escape local minima in a neighbourhood.
+- Demonstrate an understanding and reflect on of the propagation of a global constraint in a Constraint programming system.
+Assessment Tasks:
+- Student Seminar: 10% (Hurdle: False)
+- Assignments: 40% (Hurdle: False)
+- Exam: 50% (Hurdle: True)
+Workload: 130 hours including face-time, which includes interactions with lectures and tutors as well as assignment and practical exercise time.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP8715 =====
+Subject: Advanced Computing Team Project (COMP8715)
+Credit Points: 6 units
+Overview: COMP8715is an annual course (6+6) that must be completed twice, in consecutive semesters.
+
+Students will conduct a project, under supervision, that will act as a capstone to their degree program, and increase the depth of their knowledge in the computing area. The project will be undertaken in small teams. The activities in the course will normally include some combination of reading, writing, artefact construction and presentation, as appropriate to the project's topic. Application of research methodologies in literature review and evaluation will also be undertaken. Topic-specific learning objectives, project overview and assessment arrangements will be specified at the outset of the course.
+
+To enrol in this course you must meet the eligibility criteria, which includes membership of a student project group before the end of week 1, where the project has been approved by the convener.
+Learning Outcomes:
+- Apply the student's knowledge and implementation skills in the computer science, and apply this to an advanced and specific project topic in that area.
+- Deepen their knowledge of computing principles and practice through undertaking the project.
+- Learn any specific technical skills required by their topic, and apply them to project work.
+- Apply and deepen skills in oral and written communication, and apply these in a project context.
+- Apply relevant project-related skills, including project management, teamwork, ethics in research, knowledge of relevant research, evaluation and production of project artifacts.
+Assessment Tasks:
+- Three group project reviews: 75% (Hurdle: False)
+- Group Poster and Showcase: 10% (Hurdle: False)
+- Individual Reflection: 15% (Hurdle: False)
+Workload: Annual course. Student enrolls in COMP8715 in 2 consecutive semesters. Around 260 hours of work across lectures, group work, individual study and client meetings.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP8800 =====
+Subject: Advanced Computing Research Project (COMP8800)
+Credit Points: 12 units
+Overview: COMP8800is an Annual course (12+12) that must be completed twice, in consecutive semesters.
+
+This course requires students to conduct a substantial individual research project under academic supervision, with a formal thesis being submitted and presentation of a seminar or poster.
+
+This course will allow you to apply your Computer Science knowledge and skills in the planning and execution of your research project. This course provides you with the opportunity to deeply engage with the course content, drive your leaning, build skills and confidence in undertaking a research project.
+Learning Outcomes:
+- Identify a question/problem in a particular field of computing and devise a plan for a research project to investigate the topic.
+- Implement effective literature search and critical evaluation skills to complete a literature survey in the project topic area.
+- Select and apply appropriate research methods, tools, techniques to develop research findings and insights.
+- Effectively communicate research questions, methods and outcomes in oral, written and graphical forms to a broad audience using appropriate tools.
+- Produce a structured written thesis demonstrating an advanced understanding of the chosen research area.
+Assessment Tasks:
+- Presentation: 10% (Hurdle: False)
+- Thesis: 90% (Hurdle: False)
+Workload: Annual Course. Student enrol in Semester 1 and Semester 2 in consecutive semesters. No formal classtime is required in this course. Students will meet regularly with their supervisor throughout the semester.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/COMP8830 =====
+Subject: Computing Internship (COMP8830)
+Credit Points: 12 units
+Overview: This course will enable computer science students to develop competencies expected of professionals working in business, government or the broader community. A list of available internship opportunities will be maintained for which students can apply. A holistic selection process will be used to select the best applicant for each opportunity. Students can also propose internships, but these will always be established following negotiations between the ANU and the potential host organisations, before being offered to students along with other opportunities.
+Learning Outcomes:
+- Demonstrate a personal commitment to ethical behaviour, competent practice, meeting legal and regulatory requirements, taking responsibility for their own work and acknowledging the work of others.
+- Demonstrate autonomy, adaptability, a commitment to safety and sustainability, appropriate engagement with relevant stakeholders, and an ability to identify, assess and manage risk.
+- Communicate effectively and work productively in a trans-disciplinary team, using initiative and sound judgement, to achieve defined workplace objectives.
+- Apply their knowledge and skills in computer science to explore and critically analyse a real-world problem; using creativity and innovation, identify and critically evaluate potential solutions to the problem; choose and implement a particular solution; and critically evaluate and analyse the outcomes and impact of this solution.
+- Demonstrate an understanding of lifelong learning processes, and clarification of their personal and professional goals, through critical reflection on their internship experience.
+Assessment Tasks:
+- Statement of Work: 25% (Hurdle: False)
+- Poster and showcase: 25% (Hurdle: False)
+- Feedback and Reflection: 50% (Hurdle: False)
+Workload: 260 hours of student learning time, consisting of a combination of contributions at the internship placement, attendance at and participation in assessment and learning activities, and writing reflective reports.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/ENGN6627 =====
+Subject: Robotics (ENGN6627)
+Credit Points: 6 units
+Overview: This course provides an introduction to modern robotics. The focus is on robot kinematics, sensing techniques, localization, and mapping. Topics to be covered include robot spatial configuration, homogeneous coordinate transformation, mobile robot locomotion, mobile robot kinematics, robot motion control, sensors and perception, robot localization, simultaneous localization and mapping SLAM, robotic system architecture.
+
+The applied component of the course includes experimental work with a programmable mobile robotic platform equipped with sensors. This applied component is aimed at integrating sensor measurements to build a representation of the environment and perform a robotic task.
+Learning Outcomes:
+- Discuss the history, concepts and key components of robotics technologies.
+- Describe and compare various robot sensors and their perception principles that enable a robot to analyse their environment, reason and take appropriate actions toward the given goal.
+- Analyse and solve problems in spatial coordinate representation and spatial transformation, robot locomotion, kinematics, motion control, and localization and mapping.
+- Apply and demonstrate the learned knowledge and skills in practical robotics applications.
+- Critically appraise current research literature and conduct experiments with state of the art robotic algorithms on a robotic platform.
+- Effectively communicate engineering concepts and design decisions using a range of media.
+Assessment Tasks:
+- Practical Labs: 40% (Hurdle: False)
+- Assignments: 20% (Hurdle: False)
+- Final Exam: 40% (Hurdle: False)
+Workload: Approximately 10 hours per week is expected with a total of 130 hours for the entire course. The workload covers the learning activities of lecture content, practical labs, and assignments, as well as adequate self-study and completion of assessments.
+

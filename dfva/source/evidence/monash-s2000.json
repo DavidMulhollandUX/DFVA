@@ -1,0 +1,104 @@
+{
+  "code": "monash-s2000",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 10,
+    "workplace": 6,
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2: Team collaboration and multi-format stakeholder communication embedded in core science communication (SCI1000), including group vodcasts (30%) and collaborative problem solving in statistical reasoning (SCI1020).",
+      "evidenceLines": [
+        "In this unit you will choose an issue of interest to you, and conduct a project to find, explore and communicate relevant science to non-specialist audiences. You will have opportunities to work both independently and in collaboration with other students.",
+        "Group vodcast: 30% (Hurdle: None)",
+        "You will develop skills during applied classes including collaborative problem solving and using Microsoft Excel for statistical analysis of real world problems."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Evaluative judgment required across data collection principles, statistical model evaluation, hypothesis testing, and critical evaluation of scientific claims for public dissemination.",
+      "evidenceLines": [
+        "Select, justify, and apply appropriate statistical methods to solve real-world scientific problems, including hypothesis testing, estimation, and model evaluation;",
+        "Evaluate, synthesise, and communicate statistical findings clearly and effectively in written scientific reports and presentations, demonstrating critical thinking and data-driven decision-making.",
+        "However, scientific insights and solutions are only effective if it they can be shared effectively with other stakeholders \u2013 including those with limited scientific training."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Mandatory statistical and computational reasoning foundation (SCI1020/STA1010/SCI1022) developing deep understanding of data production, inferential statistics, and scientific coding in Python/R.",
+      "evidenceLines": [
+        "This unit will introduce to you the principles of data production and the practical application of descriptive and inferential statistical techniques to real-world problems in various scientific fields.",
+        "Demonstrate a deep conceptual understanding of the principles of data collection, analysis and interpretation using descriptive and inferential statistical techniques;",
+        "This unit will teach the fundamental principles of the writing and development of scientific computing code through the completion of practical modules. You will initially complete a compulsory introductory module in which you will learn coding skills using Python."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving across a structured science major, integrating theoretical frameworks and empirical methods to solve complex scientific challenges.",
+      "evidenceLines": [
+        "You will learn to develop, apply and communicate an advanced level of understanding of the concepts and theoretical frameworks that constitute the knowledge base of the discipline.",
+        "You will receive training in generic competencies - critical thinking, problem solving, quantitative and information literacy, communication and presentation skills, and the capacity to work in teams - and will develop knowledge and skills in at least one science discipline.",
+        "Apply appropriate descriptive and inferential statistical techniques to real problems in the science disciplines;"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Substantial data analysis projects (30% in SCI1020) and empirical problem solving requiring data-driven decision-making and systematic hypothesis testing.",
+      "evidenceLines": [
+        "Statistical analysis projects: 30% (Hurdle: None)",
+        "Make statistical decisions and communicate findings in a meaningful scientific way.",
+        "This will expose you to several science disciplines contributing breadth to your understanding of science and giving you the opportunity to learn more about several disciplines before finalising your choice of major."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Assessed authentic science communication formats tailored to public and stakeholder audiences, including professional infographics, popular media articles, and video presentations.",
+      "evidenceLines": [
+        "SCI1000 will equip you with the skills you need to communicate your thinking, knowledge and findings to others, whether you aim to be a mathematician modelling data, a physicist exploring techniques behind new superconductor",
+        "Popular media article: 25% (Hurdle: None)",
+        "Infographic: 20% (Hurdle: None)"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic assessment tasks representing contemporary science practice, including media translation, data visualization infographics, and empirical statistical projects.",
+      "evidenceLines": [
+        "Popular media article: 25% (Hurdle: None)",
+        "Infographic: 20% (Hurdle: None)",
+        "Group vodcast: 30% (Hurdle: None)",
+        "Statistical analysis projects: 30% (Hurdle: None)"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2: Structured applied opportunities via Flagship Rich Educational Experiences (FREE), Monash Innovation Guarantee, and undergraduate research units.",
+      "evidenceLines": [
+        "In this unit you will undertake a science based internship of three full-time weeks (or part-time equivalent hours), where you will put into practice the knowledge and skills developed in your course. The internship experience will give you hands-on, real world exposure to the workplace environment and will supplement your academic growth to develop your graduate attributes and employability skills.",
+        "A pre-placement workshop run by the Industry Engagement team will support your preparation for the placement and develop an understanding of science-based professions, the work culture, and the skills and attributes required for the workplace.",
+        "The Bachelor of Science course will provide you with a broad, general science education, as well as specialist training in one or more science disciplines."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A 144 credit point comprehensive degree comprising science specified core, a disciplinary major, and free electives.",
+        "evidenceLines": [
+          "This is a comprehensive course, structured in three equal parts: ",
+          "You must complete units as specified in Parts A, B and C (144 points): a minimum of 96 points of Bachelor of Science listed study over Part A and Part B\u00a0and 48 points of free electives in Part C."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Requires an approved science major of at least 8 units, including at least 18 points at level 3.",
+        "evidenceLines": [
+          "This will provide you with a focused program of study that will develop your expertise in one discipline area. You will learn to develop, apply and communicate an advanced level of understanding of the concepts and theoretical frameworks that constitute the knowledge base of the discipline.",
+          "A major requires eight units with no more than two units at level 1 (12 points) and at least three units (18 points) at level 3."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: Assessed group vodcast (30%) and presentations in SCI1000 support strong Level 2 communication, but do not mandate individual formal oral thesis defense.",
+      "W3: Scored at Level 2 as rich experiential/WIL opportunities (FREE/MIG) are available but not mandatory across all majors."
+    ],
+    "notScoreable": []
+  }
+}

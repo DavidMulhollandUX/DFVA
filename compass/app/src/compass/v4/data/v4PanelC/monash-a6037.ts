@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in political science and policy studies.",
+    "evidenceLines": [
+      "in the decision making context, apply management accounting techniques relating to full and relevant costing, cost volume profit analysis, budgeting, capital management and accounting for sustainability",
+      "informed by an introductory understanding of the accounting process and the presentation of financial statements, critically use financial accounting information to make decisions about financial and other aspects of business performance",
+      "This international double master's program enables you to complete the requirements of the Monash Master of Public Policy as well as a second degree with O.P Jindal Global University (JGU)."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in political science and policy studies.",
+    "evidenceLines": [
+      "demonstrate the application of judgement, problem solving, critical thinking and analytical skills.",
+      "describe the merits, and regulatory and financial reporting implications of various forms of business structure",
+      "You will study at Monash University in Australia and at the partner university."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within political science and policy studies.",
+    "evidenceLines": [
+      "Subject: Accounting for business (ACX5903)",
+      "Subject: Gender, family violence and criminal justice system responses (APG4224)",
+      "1 - Quiz / Test: 10% (Hurdle: None)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in political science and policy studies.",
+    "evidenceLines": [
+      "3 - Presentation: 12.5% (Hurdle: None)",
+      "4 - Examination: 50% (Hurdle: Threshold)",
+      "On successful completion of the academic program at Monash and the academic program at the partner university, students will be eligible to graduate with the degrees from both institutions, awarded separately."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in political science and policy studies.",
+    "evidenceLines": [
+      "Subject: Professional internship (APG5044)",
+      "Subject: Gender and development (APG5045)",
+      "2 - Written: 27.5% (Hurdle: None)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in political science and policy studies.",
+    "evidenceLines": [
+      "Devise, prepare and complete a research project.",
+      "This international double master's program enables you to complete the requirements of the Monash Master of Public Policy as well as a second degree with O.P Jindal Global University (JGU).",
+      "You will study at Monash University in Australia and at the partner university."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in political science and policy studies.",
+    "evidenceLines": [
+      "Identify and critically evaluate the extant literature about this issue;",
+      "Subject: Sustainable cultural development (APG5067)",
+      "On successful completion of the academic program at Monash and the academic program at the partner university, students will be eligible to graduate with the degrees from both institutions, awarded separately."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "This international double master's program enables you to complete the requirements of the Monash Master of Public Policy as well as a second degree with O.P Jindal Global University (JGU).",
+      "This international double master's program enables you to complete the requirements of the Monash Master of Public Policy as well as a second degree with O.P Jindal Global University (JGU)."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Public Policy.",
+      "evidenceLines": [
+        "This international double master's program enables you to complete the requirements of the Monash Master of Public Policy as well as a second degree with O.P Jindal Global University (JGU).",
+        "You will study at Monash University in Australia and at the partner university. On successful completion of the academic program at Monash and the academic program at the partner university, students will be eligible to graduate with the degrees from both institutions, awarded separately."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in political science and policy studies.",
+      "evidenceLines": [
+        "Subject: Accounting for business (ACX5903)",
+        "in the decision making context, apply management accounting techniques relating to full and relevant costing, cost volume profit analysis, budgeting, capital management and accounting for sustainability"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

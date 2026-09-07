@@ -1,0 +1,102 @@
+{
+  "code": "adelaide-mcmgt_mconmgt",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+      "evidenceLines": [
+        "**Institution**: The University of Adelaide",
+        "**Program Identifier / Slug**: mcmgt_mconmgt",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+      "evidenceLines": [
+        "**Academic Calendar Year**: 2025/2026",
+        "**Faculty**: Faculty of Sciences, Engineering and Technology (SET)",
+        "- **Program Identifier / Slug**: mcmgt_mconmgt"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+      "evidenceLines": [
+        "Subject: Building Services and Environment (BLDG6002)",
+        "Subject: Construction Management and Technology 1 (BLDG5000)",
+        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/mcmgt_mconmgt"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+      "evidenceLines": [
+        "Explain the operational dynamics of building service systems, encompassing water, power, and drainage systems, and analyse the factors influencing their integration with public infrastructure",
+        "Analyse the factors influencing building performance, such as lighting, acoustics, thermal comfort, and indoor air quality, to optimise occupants\u2019 satisfaction and operational efficiency",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+      "evidenceLines": [
+        "Subject: Cost Planning and Management (BLDG5003)",
+        "Subject: Construction Management and Technology 2 (BLDG5004)",
+        "Analyse the interactions between various building services, considering their environmental implications and the potential for sustainable integration"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+      "evidenceLines": [
+        "Explore the implications of building services on construction planning and project management, considering diverse project types and delivery methods, and integrating environmental considerations into decision-making processes",
+        "- **Institution**: The University of Adelaide",
+        "- **Program Identifier / Slug**: mcmgt_mconmgt"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+      "evidenceLines": [
+        "Identify key cost drivers in building service delivery and assess their impact on Total Building Performance, integrating cost-effective and environmentally sustainable solutions",
+        "Subject: Risk Assessment and Management (PROJ5004)",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The Master of Construction Management is an AQF Level 9 qualification with a standard full-time duration of 2 years.",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Construction Management.",
+        "evidenceLines": [
+          "The Master of Construction Management is an AQF Level 9 qualification with a standard full-time duration of 2 years.",
+          "Program Maximum Duration:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in business and management.",
+        "evidenceLines": [
+          "Subject: Building Services and Environment (BLDG6002)",
+          "**Institution**: The University of Adelaide"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

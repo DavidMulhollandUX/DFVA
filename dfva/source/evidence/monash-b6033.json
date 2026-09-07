@@ -1,0 +1,102 @@
+{
+  "code": "monash-b6033",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+      "evidenceLines": [
+        "demonstrate effective communication skills through individual and/or group activities related to digital accounting systems, and convey a clear and comprehensive understanding of ACM5260 topics in an individual summative assessment task",
+        "examine the role and design of digital accounting systems in analysing and providing decision support to managers",
+        "The Master of Digital Business program introduces you to the digital technology and management competencies needed to become digital leaders and lead technological change in an organisation."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+      "evidenceLines": [
+        "assess and recommend improvements to enhance the efficiency of accounting information systems' processes and controls in the context business environment",
+        "demonstrate effective collaboration in team settings to enhance performance during group activities related to ACM5260 Digital Accounting Systems.",
+        "You will develop advanced and vital, specialised digital business knowledge and tools to move from theory to real-world applications needed for a graduate to stay at the forefront of the digital world."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+      "evidenceLines": [
+        "Subject: Digital accounting (ACM5260)",
+        "Subject: Financial technology (FinTech) (BFM5120)",
+        "1 - Written: 40% (Hurdle: None)"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+      "evidenceLines": [
+        "2 - Project: 40% (Hurdle: None)",
+        "3 - Presentation: 20% (Hurdle: None)",
+        "The programme will integrate real-world applications in each unit, and you will learn through authentic assignments that are highly relevant to the real workplace."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+      "evidenceLines": [
+        "Subject: Cyber law (BTM5330)",
+        "Subject: Ethics and global corporate governance (BTM5909)",
+        "analyse the impact of emerging financial technologies on traditional financial systems and business models"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+      "evidenceLines": [
+        "evaluate the role of big data, artificial intelligence, blockchain, and decentralisation in driving innovation within the financial sector",
+        "The Master of Digital Business program introduces you to the digital technology and management competencies needed to become digital leaders and lead technological change in an organisation.",
+        "You will develop advanced and vital, specialised digital business knowledge and tools to move from theory to real-world applications needed for a graduate to stay at the forefront of the digital world."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+      "evidenceLines": [
+        "develop a thorough understanding of fintech solutions in payments, lending, wealth management, insurance, and regulatory compliance",
+        "Subject: Text analytics for business (ETM5800)",
+        "The programme will integrate real-world applications in each unit, and you will learn through authentic assignments that are highly relevant to the real workplace."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course is structured in three parts: Part A. Advanced preparatory studies, Part B. Core studies and Part C. Discipline studies.",
+        "The Master of Digital Business program introduces you to the digital technology and management competencies needed to become digital leaders and lead technological change in an organisation."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Digital Business.",
+        "evidenceLines": [
+          "The course is structured in three parts: Part A. Advanced preparatory studies, Part B. Core studies and Part C. Discipline studies.",
+          "Part B. Core studies"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in business and management.",
+        "evidenceLines": [
+          "Subject: Digital accounting (ACM5260)",
+          "demonstrate effective communication skills through individual and/or group activities related to digital accounting systems, and convey a clear and comprehensive understanding of ACM5260 topics in an individual summative assessment task"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

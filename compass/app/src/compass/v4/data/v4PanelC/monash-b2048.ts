@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 15,
+  "workplace": 6,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science.",
+    "evidenceLines": [
+      "examine the determinants of interest rates and foreign currency exchange rates in the global market.",
+      "employ the principles of demand and supply to determine equilibrium prices, quantities and profits across various market structures",
+      "Data analytics and business intelligence are indispensable facets of modern businesses."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science.",
+    "evidenceLines": [
+      "collect and analyse secondary data on macroeconomics variables to examine the effects of government policy changes on an economy",
+      "analyse the effects of changes in exogenous factors on prices and quantities, market efficiency, and international trade",
+      "Industry need for data is increasing, as organizations harvest information from datasets for strategic decision-making."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science.",
+    "evidenceLines": [
+      "Subject: Principles of economics (ECM1953)",
+      "Subject: Principles of economics (ECM1953)",
+      "3 - Quiz / Test: 15% (Hurdle: None)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science.",
+    "evidenceLines": [
+      "2 - Written: 35% (Hurdle: None)",
+      "1 - Artefact: 10% (Hurdle: None)",
+      "The combination of business and computer science equips you with the skills to harness big data, apply analytical tools and provide innovative solutions to the ever-evolving business challenges."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science.",
+    "evidenceLines": [
+      "Subject: Principles of economics (ECM1953)",
+      "Subject: Principles of economics (ECM1953)",
+      "4 - Examination: 40% (Hurdle: None)"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science.",
+    "evidenceLines": [
+      "examine the determinants of interest rates and foreign currency exchange rates in the global market.",
+      "Data analytics and business intelligence are indispensable facets of modern businesses.",
+      "Industry need for data is increasing, as organizations harvest information from datasets for strategic decision-making."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science.",
+    "evidenceLines": [
+      "employ the principles of demand and supply to determine equilibrium prices, quantities and profits across various market structures",
+      "Subject: Principles of economics (ECM1953)",
+      "The combination of business and computer science equips you with the skills to harness big data, apply analytical tools and provide innovative solutions to the ever-evolving business challenges."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "Refer to each partner course for the post nominals for the degree awarded",
+      "Data analytics and business intelligence are indispensable facets of modern businesses."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Business and Commerce and Bachelor of Computer Science.",
+      "evidenceLines": [
+        "Refer to each partner course for the post nominals for the degree awarded",
+        "Part A. Core studies"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in computer science.",
+      "evidenceLines": [
+        "Subject: Principles of economics (ECM1953)",
+        "examine the determinants of interest rates and foreign currency exchange rates in the global market."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

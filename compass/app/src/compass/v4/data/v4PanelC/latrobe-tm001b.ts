@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 6,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Apply the three basic programming constructs of sequence, selection, and iteration to design computational solutions, and reason about which construct is most suitable when multiple approaches are possible.",
+      "Implement understandable and maintainable code in Python programming language to solve computational problems, making effective use of functions, objects, and comments.",
+      "Prepare for the rich opportunities of the future workforce with La Trobe’s accredited Master of Engineering."
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Use basic data structures such as lists and dictionaries to solve batch data processing problems, and correct identify which problems need to be solved in this way.",
+      "Analyse a data processing problem to correctly identify both the data and high-level processing involved.",
+      "Developed in consultation with industry leaders, our Master's gives you advanced skills for a successful career, including design, engineering management, research and innovation."
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Subject: PROGRAMMING FOR ENGINEERS AND SCIENTISTS (PG) (CSE5CES)",
+      "Subject: DESIGN FOR MANUFACTURE (ELE4DFM)",
+      "Analyse a complex domain-specific task definition in order to design and communicate an effective algorithmic solution."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Evaluate and specify standards, quality systems and product compliance.",
+      "Apply knowledge and skills that demonstrate best practices in product Design for Manufacture and Design for Assembly.",
+      "You'll learn how to adapt to the emerging technologies that are changing the engineering landscape like artificial intelligence and robotics."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Subject: ENGINEERING RESEARCH METHODOLOGY AND APPLICATION (ELE5ERM)",
+      "Subject: AUSTRALIAN ENGINEERING ENVIRONMENT SUSTAINABILITY AND PRACTICE (EMS5AEE)",
+      "Plan projects that address complex issues including costing, timing and delivery."
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Develop and implement intellectual property strategies based on value and return on investment.",
+      "Prepare for the rich opportunities of the future workforce with La Trobe’s accredited Master of Engineering.",
+      "Developed in consultation with industry leaders, our Master's gives you advanced skills for a successful career, including design, engineering management, research and innovation."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in engineering and related technologies, n.e.c..",
+    "evidenceLines": [
+      "Understand the importance of prototyping and opportunities to save cost and time.",
+      "Subject: ADVANCED ENGINEERING INNOVATION (EMS5AEI)",
+      "You'll learn how to adapt to the emerging technologies that are changing the engineering landscape like artificial intelligence and robotics."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Level 2: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "To qualify for the award of Master of Engineering, students must complete 240 credit points",
+      "Prepare for the rich opportunities of the future workforce with La Trobe’s accredited Master of Engineering."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Engineering.",
+      "evidenceLines": [
+        "To qualify for the award of Master of Engineering, students must complete 240 credit points",
+        "120 core credit points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: PROGRAMMING FOR ENGINEERS AND SCIENTISTS (PG) (CSE5CES)",
+        "Apply the three basic programming constructs of sequence, selection, and iteration to design computational solutions, and reason about which construct is most suitable when multiple approaches are possible."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

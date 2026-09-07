@@ -1,0 +1,102 @@
+{
+  "code": "monash-e6014",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "understand the importance of being both a leader and a team player.",
+        "demonstrate a sound understanding of what profitability looks like and how this differs from cash flow",
+        "The Master of Engineering is designed for graduates who already have an undergraduate degree in engineering in a cognate discipline."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "nurture critical problem-solving skills informed by sound financial acumen",
+        "facilitate understanding of firm valuation approaches",
+        "This course is designed to extend your knowledge in your chosen specialisation area and advance your leadership and complex problem-solving skills in a cross-cultural environment."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: Value creation and start-up capital optimisation for founders (BEX5114)",
+        "Subject: Startup fundamentals: From setting up to securing investment (BEX5120)",
+        "enable effective analysis and understanding of the implications of various sources of start-up capital"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "develop the required abilities to source and read relevant financial information and to use this capability to inform strategic and operational decision making",
+        "1 - Exercise: 10% (Hurdle: None)",
+        "It is available in the following specialisations:"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: Creativity and entrepreneurship (BEX5411)",
+        "Subject: Technology and innovation for start-ups (BEX5413)",
+        "2 - Quiz / Test: 20% (Hurdle: None)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "3 - Presentation: 30% (Hurdle: None)",
+        "The Master of Engineering is designed for graduates who already have an undergraduate degree in engineering in a cognate discipline.",
+        "This course is designed to extend your knowledge in your chosen specialisation area and advance your leadership and complex problem-solving skills in a cross-cultural environment."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "4 - Artefact: 40% (Hurdle: None)",
+        "Subject: Advanced bioprocess technology (CHE5321)",
+        "It is available in the following specialisations:"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "The course comprises 48 points structured into three parts: Part A. Core studies, Part B. Specialist studies, and Part C. Specialist elective studies.",
+        "The Master of Engineering is designed for graduates who already have an undergraduate degree in engineering in a cognate discipline."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Engineering.",
+        "evidenceLines": [
+          "The course comprises 48 points structured into three parts: Part A. Core studies, Part B. Specialist studies, and Part C. Specialist elective studies.",
+          "Part A. Core studies"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in engineering and related technologies, n.e.c..",
+        "evidenceLines": [
+          "Subject: Value creation and start-up capital optimisation for founders (BEX5114)",
+          "understand the importance of being both a leader and a team player."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

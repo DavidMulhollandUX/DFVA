@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in fine arts.",
+    "evidenceLines": [
+      "96 credit points of study from your chosen specialisation, either Fine art or Art history and curating; and",
+      "48 credit points of free electives.",
+      "This course will educate you in all aspects of creative visual practices and cultures and will also enable you to build a high level of expertise in one of two specialisations:"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in fine arts.",
+    "evidenceLines": [
+      "Part A. Critical contexts (24 credit points);",
+      "Part B. Disciplinary practices (6 credit points);",
+      "You will engage directly with professional artists as well as with practitioners from allied creative fields including art theory, administration, management, education, writing, design and the curatorial."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within fine arts.",
+    "evidenceLines": [
+      "Subject: Art, Design and Architecture internship (ADA3406)",
+      "Subject: Introduction to the history and theory of art (AHT1101)",
+      "Part C. Applied disciplinary practices (36 credit points); and"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in fine arts.",
+    "evidenceLines": [
+      "Part D. Discipline electives (30 credit points).",
+      "Part A. Critical contexts (24 credit points);",
+      "Art history and curating will prepare you to operate effectively within the expanded field of art history, criticism, curating and cultural production more generally."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in fine arts.",
+    "evidenceLines": [
+      "Subject: Modernism and the avant-garde (AHT1102)",
+      "Subject: Curating: Introduction (AHT1202)",
+      "Part B. Disciplinary practices (6 credit points);"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in fine arts.",
+    "evidenceLines": [
+      "Part C. Studio practices (54 credit points); and",
+      "This course will educate you in all aspects of creative visual practices and cultures and will also enable you to build a high level of expertise in one of two specialisations:",
+      "You will engage directly with professional artists as well as with practitioners from allied creative fields including art theory, administration, management, education, writing, design and the curatorial."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in fine arts.",
+    "evidenceLines": [
+      "Part D. Discipline electives (12 credit points).",
+      "Subject: World wide: Art beyond the Western canon (AHT2031)",
+      "Art history and curating will prepare you to operate effectively within the expanded field of art history, criticism, curating and cultural production more generally."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "Units are 6 credit points unless otherwise stated.",
+      "This course will educate you in all aspects of creative visual practices and cultures and will also enable you to build a high level of expertise in one of two specialisations:"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Fine Art.",
+      "evidenceLines": [
+        "Units are 6 credit points unless otherwise stated.",
+        "Art history and curating specialisation (96 credit points)"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in fine arts.",
+      "evidenceLines": [
+        "Subject: Art, Design and Architecture internship (ADA3406)",
+        "96 credit points of study from your chosen specialisation, either Fine art or Art history and curating; and"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

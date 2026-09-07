@@ -1,0 +1,102 @@
+{
+  "code": "usyd-clinical-epidemiology",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in medical studies.",
+      "evidenceLines": [
+        "**Institution**: The University of Sydney (USYD)",
+        "**Course / Program Identifier**: clinical-epidemiology",
+        "- **Institution**: The University of Sydney (USYD)"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in medical studies.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Faculty**: medicine-health-pg",
+        "- **Course / Program Identifier**: clinical-epidemiology"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within medical studies.",
+      "evidenceLines": [
+        "Subject: Health Technology Evaluation (HTIN5003)",
+        "Subject: Epidemiology Methods and Uses (PUBH5010)",
+        "**Handbook URL**: https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/clinical-epidemiology.html"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in medical studies.",
+      "evidenceLines": [
+        "Controlled trials (2CP)",
+        "LO1 . understand economic evaluation methods used to measure the benefits of health technology",
+        "- **Faculty**: medicine-health-pg"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in medical studies.",
+      "evidenceLines": [
+        "Subject: Introductory Biostatistics (PUBH5018)",
+        "Subject: Chronic Disease Prevention (PUBH5020)",
+        "LO2 . understand the factors in technology evaluation that affect health technology development and use"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in medical studies.",
+      "evidenceLines": [
+        "LO3 . understand the social and organisational impacts associated with the use and diffusion of health technology",
+        "- **Institution**: The University of Sydney (USYD)",
+        "- **Course / Program Identifier**: clinical-epidemiology"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in medical studies.",
+      "evidenceLines": [
+        "LO4 . use evaluation techniques to build an evidence-based understanding of the quality and efficacy of technology innovations implemented in health care settings",
+        "Subject: Aboriginal/Torres Strait Islander Health (PUBH5120)",
+        "- **Faculty**: medicine-health-pg"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "Students must complete 48 credit points, including:",
+        "- **Institution**: The University of Sydney (USYD)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Clinical Epidemiology.",
+        "evidenceLines": [
+          "Students must complete 48 credit points, including:",
+          "(a) 12 credit points of core units of study; and"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in medical studies.",
+        "evidenceLines": [
+          "Subject: Health Technology Evaluation (HTIN5003)",
+          "**Institution**: The University of Sydney (USYD)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

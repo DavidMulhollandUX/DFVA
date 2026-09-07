@@ -1,0 +1,102 @@
+{
+  "code": "adelaide-bhms_bhlthmsc",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in health, n.e.c..",
+      "evidenceLines": [
+        "**Institution**: The University of Adelaide",
+        "**Program Identifier / Slug**: bhms_bhlthmsc",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in health, n.e.c..",
+      "evidenceLines": [
+        "**Academic Calendar Year**: 2025/2026",
+        "**Faculty**: Faculty of Health and Medical Sciences",
+        "- **Program Identifier / Slug**: bhms_bhlthmsc"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within health, n.e.c..",
+      "evidenceLines": [
+        "Subject: Introduction to Health Ethics (HLTH1001)",
+        "Subject: Physical Activity and Health (HLTH1003)",
+        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/bhms_bhlthmsc"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in health, n.e.c..",
+      "evidenceLines": [
+        "Analyse ethical problems in health care practice and policy",
+        "Explain relevant ethical theories and concepts",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in health, n.e.c..",
+      "evidenceLines": [
+        "Subject: Fitness and Lifestyle Management (HLTH1004)",
+        "Subject: Medical Radiation Human Anatomy (HLTH1006)",
+        "Propose an ethically appropriate course of action through synthesising and critiquing relevant evidence and theories"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in health, n.e.c..",
+      "evidenceLines": [
+        "Report: 15%% (Hurdle: False)",
+        "- **Institution**: The University of Adelaide",
+        "- **Program Identifier / Slug**: bhms_bhlthmsc"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in health, n.e.c..",
+      "evidenceLines": [
+        "Case Study: 25%% (Hurdle: False)",
+        "Subject: Societal Issues in Clinical Exercise Physiology (HLTH2007)",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "The Bachelor of Health and Medical Sciences is an AQF Level 7 qualification with a standard full-time duration of 3 years.",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Health and Medical Sciences.",
+        "evidenceLines": [
+          "The Bachelor of Health and Medical Sciences is an AQF Level 7 qualification with a standard full-time duration of 3 years.",
+          "Program Maximum Duration"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in health, n.e.c..",
+        "evidenceLines": [
+          "Subject: Introduction to Health Ethics (HLTH1001)",
+          "**Institution**: The University of Adelaide"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

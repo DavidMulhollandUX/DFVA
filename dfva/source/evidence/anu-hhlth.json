@@ -1,0 +1,102 @@
+{
+  "code": "anu-hhlth",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in health, n.e.c..",
+      "evidenceLines": [
+        "**Institution**: The Australian National University (ANU)",
+        "**Academic Plan Code**: HHLTH",
+        "- **Institution**: The Australian National University (ANU)"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in health, n.e.c..",
+      "evidenceLines": [
+        "**Academic Year**: 2027",
+        "**Career / Study Level**: Undergraduate",
+        "- **Academic Plan Code**: HHLTH"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within health, n.e.c..",
+      "evidenceLines": [
+        "Subject: Archaeology and Biological Anthropology Honours Writing Seminar (ARCH4003)",
+        "Subject: Research Design and Analysis in Biological Anthropology (BIAN3014)",
+        "**Program Duration**: 1 year full-time"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in health, n.e.c..",
+      "evidenceLines": [
+        "**Minimum Units Required**: 48 Units",
+        "**Mode of Delivery**: of delivery In Person",
+        "- **Career / Study Level**: Undergraduate"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in health, n.e.c..",
+      "evidenceLines": [
+        "Subject: Theory Seminar in Biological Anthropology and Archaeology (BIAN4010)",
+        "Subject: Data Analysis and Methods in Biological Anthropology (BIAN4011)",
+        "**Post Nominal**: Nominal BHealthSciHons"
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in health, n.e.c..",
+      "evidenceLines": [
+        "**CRICOS Code**: code 099244F",
+        "- **Institution**: The Australian National University (ANU)",
+        "- **Academic Plan Code**: HHLTH"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in health, n.e.c..",
+      "evidenceLines": [
+        "**Field of Education**: of Education Public Health",
+        "Subject: Biology IV Honours (BIOL4001)",
+        "- **Career / Study Level**: Undergraduate"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "- **Program Duration**: 1 year full-time",
+        "- **Institution**: The Australian National University (ANU)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Health Science.",
+        "evidenceLines": [
+          "- **Program Duration**: 1 year full-time",
+          "- **Minimum Units Required**: 48 Units"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in health, n.e.c..",
+        "evidenceLines": [
+          "Subject: Archaeology and Biological Anthropology Honours Writing Seminar (ARCH4003)",
+          "**Institution**: The Australian National University (ANU)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

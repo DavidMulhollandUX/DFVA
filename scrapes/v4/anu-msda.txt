@@ -1,0 +1,115 @@
+===== SOURCE: https://programsandcourses.anu.edu.au/program/MSDA =====
+# Master of Statistical Data Analysis (MSDA)
+
+## Program Overview
+- **Institution**: The Australian National University (ANU)
+- **Academic Plan Code**: MSDA
+- **Academic Year**: 2027
+- **Career / Study Level**: Postgraduate
+- **Program Duration**: 1 year full-time
+- **Minimum Units Required**: 48 Units
+- **Mode of Delivery**: of delivery In Person
+- **Post Nominal**: Nominal MStatsDatAn
+- **CRICOS Code**: code 111568C
+- **UAC Code**: N/A
+- **Field of Education**: of Education Statistics
+- **Academic Contact**: contact Le Chang
+- **Handbook URL**: https://programsandcourses.anu.edu.au/program/MSDA
+
+## Program Description
+A single one year graduate award offered by theANU College of Business and Economics
+
+## Program Learning Outcomes (CILOs)
+Upon successful completion of this program, graduates will possess the skills and knowledge to:
+
+1. Apply statistical computing skills for use in quantitative and data-based problem solving.
+2. Understand and utilise the processes and applications of mathematical statistics, multiple linear regression and the principles of data representation, summarisation and presentation.
+3. Analyse and interpret complex data in various contexts using appropriate methodology.
+4. Demonstrate in detail the ability to collect, process, interpret and communicate the outcomes of fundamental research questions in applied statistics.
+
+## Program Requirements & Study Options
+### Program Requirements
+The Masters of Statistical Data Analysis requires completion of 48 units which must consist of:
+
+### Study Options
+Year 1
+48 units
+STAT7038
+Regression Modelling
+6 units
+STAT7039
+Principles of Mathematical Statistics
+6 units
+Course from STAT list
+Course from STAT list or third list
+STAT7004
+Introduction to Stochastic Processes
+6 units
+STAT8130
+Generalised Linear Modelling
+6 units
+Course from STAT list
+Course from STAT list or third list
+
+### Admission Requirements
+Applicants must present the following:
+
+## Faculty Governance & Academic Quality
+Programs at The Australian National University (ANU) are governed under the Australian National University Act 1991, the Higher Education Standards Framework (Threshold Standards) 2021, and the Australian Qualifications Framework (AQF). Academic oversight is maintained by the Academic Board and responsible ANU Academic Colleges to ensure rigorous curriculum alignment, constructive alignment of learning outcomes, and assessment integrity.
+
+### Research-Led Education & Disciplinary Training
+As Australia's national university and a core member of the Group of Eight (Go8), ANU programs integrate active research methodologies into core undergraduate and postgraduate curricula. Students engage directly with primary source scholarship, quantitative and qualitative inquiry, ethical deliberation, and advanced capstone investigations prepared for industry transition or higher degree research.
+
+Official program specifications verified against the ANU Programs and Courses handbook register for the 2027 academic year.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT7004 =====
+Subject: Introduction to Stochastic Processes (STAT7004)
+Credit Points: 6 units
+Overview: An introduction to stochastic processes, which are random processes occurring in time or space.
+
+They are used to model dynamic relationships involving random events in a wide variety of disciplines including the natural and social sciences, and in financial, managerial and actuarial settings.
+
+The course consists of a short review of basic probability concepts and a discussion of conditional probability and conditional expectation, followed by an introduction to the basic concepts and an investigation of the long-run behaviour of Markov chains in discrete time, countable state space. The course also covers some important continuous-time stochastic processes including Poisson processes and other Markov pure jump processes, as well as Brownian motion and other related Gaussian processes as time permits.
+Learning Outcomes:
+- Describe in detail the basic concepts of stochastic processes in discrete time, especially concerning Markov chains, their classifications and long-run behaviour.
+- Explain in detail continuous-time stochastic processes, with topics drawn from Poisson processes, other Markov pure jump processes, Brownian motion and other related Gaussian processes.
+Assessment Tasks:
+- Typical assessment may include, but is not restricted to: exams, assignments, quizzes, presentations and other assessment as appropriate.: 100% (Hurdle: False)
+Workload: Students are expected to commit 130 hours of work in completing this course. This includes time spent in scheduled classes and self-directed study time.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT7038 =====
+Subject: Regression Modelling (STAT7038)
+Credit Points: 6.0 units
+Overview: 
+Learning Outcomes:
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT7039 =====
+Subject: Principles of Mathematical Statistics (STAT7039)
+Credit Points: 6 units
+Overview: A first course in mathematical statistics with emphasis on applications; probability, random variables, moment generating functions and correlation, sampling distributions, estimation of parameters by the methods of moments and maximum likelihood, hypothesis testing, the central limit theorem, and Bayesian statistics.
+Learning Outcomes:
+- Calculate probabilities using set theory and combinatorics;
+- Use and describe discrete, continuous and multivariate random variables and their probability distributions in simple and complex cases;
+- Define sampling distributions and use the central limit theorem;
+- Explain in detail and use the method of moments and maximum likelihood estimation;
+- Perform confidence estimation and hypothesis testing in a variety of contexts; and
+- Use and describe in detail the fundamental concepts of Bayesian statistics and Bayesian estimators.
+Assessment Tasks:
+- Typical assessment may include, but is not restricted to: exams, assignments, quizzes, presentations and other assessment as appropriate.: 100% (Hurdle: False)
+Workload: Students are expected to commit 130 hours of work in completing this course. This includes time spent in scheduled classes and self-directed study time.
+
+===== SOURCE: https://programsandcourses.anu.edu.au/course/STAT8130 =====
+Subject: Generalised Linear Modelling (STAT8130)
+Credit Points: 6 units
+Overview: This course is intended to introduce students to generalised linear modelling methods, with emphasis on, but not limited to, common methods for analysing categorical data. Topics covered include a review of multiple linear regression and the analysis of variance, log-linear models for contingency tables, logistic regression for binary response data, Poisson regression, model selection and model checking , mixed effects models. Additional topics may include Bayesian analysis for generalized linear models and generalized mixed effect models.
+Learning Outcomes:
+- Explain in detail the role of generalised linear modelling techniques (GLMs) in modern applied statistics and implement methodology.
+- Demonstrate an in-depth understanding of the underlying assumptions for GLMs and perform diagnostic checks whilst identifying potential problems.
+- Perform statistical analyses using statistical software, incorporating underlying theory and methodologies.
+Assessment Tasks:
+- The research-based assessment will consist of assignments.: 50% (Hurdle: False)
+- The other assessment may include but is not restricted to: exams, quizzes, presentations and other assessments as appropriate.: 50% (Hurdle: False)
+Workload: Students are expected to commit 130 hours of work in completing this course. This includes time spent in scheduled classes and self-directed study time.
+

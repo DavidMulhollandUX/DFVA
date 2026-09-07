@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 5,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in agriculture.",
+    "evidenceLines": [
+      "Reflect critically on your own cultural attitudes, values and beliefs",
+      "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+      "Prepare for a successful career tackling the big issues in farming, food production and farming systems."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in agriculture.",
+    "evidenceLines": [
+      "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+      "Understand the need for and value of appropriate and effective intercultural communication",
+      "with La Trobe's Bachelor of Agriculture."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within agriculture.",
+    "evidenceLines": [
+      "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+      "Subject: AGRICULTURE AND FOOD SECURITY (AGR1001)",
+      "Demonstrate an understanding of how global trade and regulatory issues influence farming practices"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in agriculture.",
+    "evidenceLines": [
+      "Describe the importance of the interplay between natural capital and farming systems",
+      "Work collaboratively with peers to present a solution to an agricultural problem",
+      "Build foundational skills and knowledge in plant and animal sciences, agricultural systems, agribusiness, land and soil management, and sustainable agricultural practice."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in agriculture.",
+    "evidenceLines": [
+      "Subject: BIOCHEMISTRY FOR AGRICULTURE AND ANIMAL SCIENCES (AGR2BAA)",
+      "Subject: WORK INTEGRATED LEARNING PROGRAM (AGR2WIL)",
+      "Demonstrate critical thinking in an understanding of agriculture"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in agriculture.",
+    "evidenceLines": [
+      "Define the constraints that limit food production locally, nationally and globally",
+      "Prepare for a successful career tackling the big issues in farming, food production and farming systems.",
+      "with La Trobe's Bachelor of Agriculture."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in agriculture.",
+    "evidenceLines": [
+      "Describe the drivers regulating the diversity of current and future agricultural systems",
+      "Subject: MOLECULES, GENES AND CELLS (BIO1MGC)",
+      "Build foundational skills and knowledge in plant and animal sciences, agricultural systems, agribusiness, land and soil management, and sustainable agricultural practice."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+    "evidenceLines": [
+      "To qualify for the award of Bachelor of Agriculture, students must complete 360 credit points consisting of:",
+      "Prepare for a successful career tackling the big issues in farming, food production and farming systems."
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Agriculture.",
+      "evidenceLines": [
+        "To qualify for the award of Bachelor of Agriculture, students must complete 360 credit points consisting of:",
+        "105 core credit points"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in agriculture.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Reflect critically on your own cultural attitudes, values and beliefs"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+  ],
+  "notScoreable": []
+};
+
+export default record;

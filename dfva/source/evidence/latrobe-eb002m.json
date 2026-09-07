@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-eb002m",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education.",
+      "evidenceLines": [
+        "Reflect critically on your own cultural attitudes, values and beliefs",
+        "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+        "Get the skills, experience and confidence you need to make a real impact as a qualified teacher from your first day with La Trobe's accredited Bachelor of Education."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education.",
+      "evidenceLines": [
+        "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+        "Understand the need for and value of appropriate and effective intercultural communication",
+        "Offered at every campus in Victoria, our flexible degree lets you explore your options before deciding what you'll teach \u2013 early childhood and primary, primary, or secondary \u2013 at the end of your first year."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education.",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Subject: INTRODUCTION TO LANGUAGE AND LITERACY (EDU1001)",
+        "Define the components and conventions of spoken language and literacy at an introductory level."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education.",
+      "evidenceLines": [
+        "Demonstrate proficiency in speaking and writing in English for formal academic purposes at tertiary level.",
+        "Critically appraise academic texts at an introductory level.",
+        "You'll learn how to manage classrooms, design class plans and guide students by spending at least 80 days in schools and education centres across metropolitan, regional and rural Victoria."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education.",
+      "evidenceLines": [
+        "Subject: HOW HUMANS DEVELOP (EDU1002)",
+        "Subject: DIGITAL LITERACIES (EDU1003)",
+        "Explain the processes of language development and proficiency in literacy and identify key differences between them."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education.",
+      "evidenceLines": [
+        "Demonstrate an emerging understanding of the brain\u2019s information processing and memory systems and their role in learning.",
+        "Get the skills, experience and confidence you need to make a real impact as a qualified teacher from your first day with La Trobe's accredited Bachelor of Education.",
+        "Offered at every campus in Victoria, our flexible degree lets you explore your options before deciding what you'll teach \u2013 early childhood and primary, primary, or secondary \u2013 at the end of your first year."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education.",
+      "evidenceLines": [
+        "Describe the influence of socio-ecological factors on infant, child, and adolescent development, and the implications for educational practice.",
+        "Subject: FRAMING CULTURAL IDENTITIES (EDU1004)",
+        "You'll learn how to manage classrooms, design class plans and guide students by spending at least 80 days in schools and education centres across metropolitan, regional and rural Victoria."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "To qualify for the award of Bachelor of Education, students\u00a0must complete 480 credit points of study in total, consisting of:",
+        "Get the skills, experience and confidence you need to make a real impact as a qualified teacher from your first day with La Trobe's accredited Bachelor of Education."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Education.",
+        "evidenceLines": [
+          "To qualify for the award of Bachelor of Education, students\u00a0must complete 480 credit points of study in total, consisting of:",
+          "120 core credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in teacher education.",
+        "evidenceLines": [
+          "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+          "Reflect critically on your own cultural attitudes, values and beliefs"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

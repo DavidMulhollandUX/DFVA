@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 14,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: High-stakes clinical interviewing, therapeutic rapport, psychological report writing, and case formulation.",
+    "evidenceLines": [
+      "Advanced knowledge of and the ability to critically evaluate theory in clinical psychology including a deep understanding of theories underlying assessment, diagnosis, case formulation, and the treatment of psychopathology across the lifespan.",
+      "An advanced level of skill in the application of psychological knowledge to a wide range of psychological problems and disorders across the lifespan.",
+      "A single two year graduate award offered by theANU College of Science and Medicine"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical appraisal of psychopathology, diagnostic manuals (DSM/ICD), evidence-based therapies, and clinical ethics.",
+    "evidenceLines": [
+      "An advanced level of skill in the application of psychological knowledge to a wide range of psychological problems and disorders across the lifespan.",
+      "An advanced level of skill in diagnostic interviewing and counselling and a high level of competence in the principles and practice of clinical assessment, diagnosis, case formulation, and psychological therapy.",
+      "A single two year graduate award offered by theANU College of Science and Medicine"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Applied psychometric evaluation, clinical assessment inventories, and advanced psychological statistics.",
+    "evidenceLines": [
+      "An advanced level of skill in diagnostic interviewing and counselling and a high level of competence in the principles and practice of clinical assessment, diagnosis, case formulation, and psychological therapy.",
+      "Subject: Clinical Coursework I (PSYC8101)",
+      "Subject: Clinical Coursework II (PSYC8102)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Complex clinical synthesis uniting psychopathology, neuropsychology, cognitive-behavioural therapies, and systemic interventions.",
+    "evidenceLines": [
+      "Advanced knowledge of and the ability to critically evaluate theory in clinical psychology including a deep understanding of theories underlying assessment, diagnosis, case formulation, and the treatment of psychopathology across the lifespan.",
+      "An advanced level of skill in diagnostic interviewing and counselling and a high level of competence in the principles and practice of clinical assessment, diagnosis, case formulation, and psychological therapy.",
+      "A single two year graduate award offered by theANU College of Science and Medicine"
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3: Clinical psychological research dissertation, single-case experimental designs, and therapeutic outcome monitoring.",
+    "evidenceLines": [
+      "An advanced level of skills in psychological testing and test data interpretation and in the writing of psychological reports.",
+      "Subject: Clinical Coursework III (PSYC8103)",
+      "Subject: Clinical Coursework IV (PSYC8104)"
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Accredited by APAC leading to general and clinical psychologist endorsement with AHPRA.",
+    "evidenceLines": [
+      "An advanced level of skill in the application of psychological knowledge to a wide range of psychological problems and disorders across the lifespan.",
+      "A single two year graduate award offered by theANU College of Science and Medicine",
+      "A single two year graduate award offered by theANU College of Science and Medicine"
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic clinical psychological assessment, psychotherapy delivery, and direct patient management in clinical settings.",
+    "evidenceLines": [
+      "Advanced knowledge of and the ability to critically evaluate theory in clinical psychology including a deep understanding of theories underlying assessment, diagnosis, case formulation, and the treatment of psychopathology across the lifespan.",
+      "An advanced level of skill in the application of psychological knowledge to a wide range of psychological problems and disorders across the lifespan.",
+      "A single two year graduate award offered by theANU College of Science and Medicine"
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Mandatory extensive external clinical psychology practicum placements accumulating 1000+ supervised hours.",
+    "evidenceLines": [
+      "A single two year graduate award offered by theANU College of Science and Medicine",
+      "A single two year graduate award offered by theANU College of Science and Medicine"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "An APAC-accredited professional master degree delivering clinical psychology training.",
+      "evidenceLines": [
+        "A single two year graduate award offered by theANU College of Science and Medicine",
+        "A single two year graduate award offered by theANU College of Science and Medicine"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist postgraduate degree structured through clinical practicums and advanced coursework.",
+      "evidenceLines": [
+        "A single two year graduate award offered by theANU College of Science and Medicine",
+        "Subject: Clinical Coursework I (PSYC8101)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied clinical psychometrics without low-level computer science.",
+    "W3: Scored at Level 3 due to mandatory supervised clinical placements."
+  ],
+  "notScoreable": []
+};
+
+export default record;

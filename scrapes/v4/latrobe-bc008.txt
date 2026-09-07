@@ -1,0 +1,133 @@
+===== SOURCE: https://handbook.latrobe.edu.au/courses/2026/BC008 =====
+## Graduate Certificate in Business Information Systems - Melbourne (Bundoora)
+##### BC008
+##### 60 credit points
+You are viewing the 2026 version
+
+### Overview
+Learn how to build stronger businesses with La Trobe’s Graduate Certificate in Business Information Systems and advance your career in this growing field. Designed in collaboration with industry experts, our Graduate Certificate in Business Information Systems will give you valuable skills and the ability to understand the rapidly evolving world of business.
+
+Discover trends and tell stories using data wrangling techniques. Learn how to process and present data so it’s understandable to others. Use the latest tools to analyse data, turn it into insights, then use this information to drive real business value. You'll learn through practical, team-based business intelligence projects and use industry tools such as R Studio.
+
+Understand how customers behave and find out how your business is really operating. You’ll learn how to design, operate and analyse business information systems, while exploring the latest techniques.
+
+Through guest lectures, you’ll connect with business leaders at companies such as SAS, IBM, Microsoft, PwC and Coles, and gain their insights.
+
+After successfully completing the Graduate Certificate in Business Information Systems, you could receive up to one semester of advanced standing. This lets you transfer directly into the second semester of La Trobe’s Master of Business Information Systems, should you decide to further your studies.
+
+Graduate ready to pursue an exciting career in this burgeoning field.
+
+You’ll learn:
+
+  * Data wrangling and R  * Process complex data to solve problems for businesses and organisations. Learn how to use R and SQL to perform a wide variety of data wrangling tasks.
+
+  * Sustainable management and marketing  * Learn how to use a variety of frameworks to understand how customers behave and businesses function. Use this information to make sustainable business decisions.
+
+  * Business analytics  * Understand the unique needs of businesses and learn how to improve their processes. Explore the latest theories, frameworks, applications and technologies that support data-driven decision-making.
+
+  * Statistics for business and finance  * Learn how to use statistics to solve practical problems in business and finance using Microsoft Excel.
+
+### Location(s)
+Melbourne (Bundoora)
+### Course duration (full time)
+0.5 years
+### Study level
+Postgraduate
+### AQF level
+Level 8 - Graduate Certificate
+### Available only as an exit award
+Yes
+
+### Completion requirements
+To qualify for the award of Graduate Certificate in Business Information Systems, students must complete 60 credit points consisting of: 
+
+60 core credit points
+
+### Course structure
+60 credit points
+**Level one** **60 credit points**
+  [ _arrow_forward_ BUA4001 SUSTAINABLE MANAGEMENT AND MARKETING ](https://handbook.latrobe.edu.au/subjects/2026/BUA4001)
+  [ _arrow_forward_ BUS5PB PRINCIPLES OF BUSINESS ANALYTICS ](https://handbook.latrobe.edu.au/subjects/2026/BUS5PB)
+  [ _arrow_forward_ BUA4004 STATISTICS FOR BUSINESS AND FINANCE ](https://handbook.latrobe.edu.au/subjects/2026/BUA4004)
+  [ _arrow_forward_ LTU0AIM ACADEMIC INTEGRITY MODULE ](https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM)
+  [ _arrow_forward_ BUS5DWR DATA WRANGLING ](https://handbook.latrobe.edu.au/subjects/2026/BUS5DWR)
+
+### Course intended learning outcomes
+On successful completion you will be able to:
+**1.**
+Employ a range of theoretical frameworks and data analysis to address business issues and create appropriate solutions
+**2.**
+Suggest appropriate  methods to prepare, collect, and analyse data to support effective decision making for businesses
+**3.**
+Evaluate and apply enterprise tools, including SAS, R and Python Graduate to business issues.
+
+### Course features
+### Career outcomes
+Skilled business information specialists can gain employment in many industries, including finance, health and medicine, cybersecurity, defence and agriculture. With further study and experience, you could work across a wide range of sectors in roles such as:
+
+  * Business analyst
+  * Understand how businesses run and use data to solve problems and improve processes.
+
+  * Business-IT strategy consultant
+  * Work with both senior management and business units to create business-IT solutions.
+
+  * Enterprise resource planning (ERP) analyst
+  * Help organisations to use ERP solutions to solve their business problems.
+
+  * Data scientist
+  * Understand complex data and leverage it to the advantage of businesses and organisations.
+
+  * ICT entrepreneurial and innovation manager
+  * Create robust business-IT strategies. Implement ICT products and services and manage their ongoing development.
+
+### Internal course relationships
+
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/BUA4001 =====
+Subject: SUSTAINABLE MANAGEMENT AND MARKETING (BUA4001)
+Credit Points: 15
+Overview: You will be introduced to key dimensions of management and marketing in diverse organisational contexts. Informed by the need for sustainable value creation in contemporary organisations, you will be able to explore how external and internal environments influence management, sustainability and marketing behaviour and practice. You will engage with these issues by considering and analysing real world examples, informed by theoretical and analytical frameworks.
+Learning Outcomes:
+- Work collaboratively to assess marketing problems and solutions from a value exchange perspective to promote sustainable value creation in real-life business situations.
+- Conduct a business environmental analysis and communicate findings effectively in writing for a variety of stakeholders.
+- Integrate sustainable management and marketing ideas and apply the conventions of attribution and citation accurately.
+- Critically analyse key management concepts and trends for use in contemporary business decision making.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/BUA4004 =====
+Subject: STATISTICS FOR BUSINESS AND FINANCE (BUA4004)
+Credit Points: 15
+Overview: In this subject, you will develop basic data-analysis skills to investigate real-life problems in business and finance. You will focus on basic concepts in statistics and probability theory, methods of statistical inference, measures of linear relationship between variables including linear regression analysis. There is a strong emphasis on the application of these techniques to practical problems in business and finance using Microsoft Excel. The contents of the subject are in line with the Chartered Financial Analyst (CFA) quantitative analysis curriculum. Successful completion of this subject will lay a solid foundation for the further study of data analysis in business and finance.
+Learning Outcomes:
+- Ability to present work in a professional manner and to communicate effectively to a professional audience
+- Use statistical principles and research skills in a collaborative team environment to solve practical problems and communicate the findings to people with various viewpoints
+- Apply probability theory in business and financial decision making
+- Apply and interpret concepts of descriptive statistics to real life data and interpretation of results
+- Conduct estimating linear regression models and testing hypothesis to aid decision-making
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/BUS5DWR =====
+Subject: DATA WRANGLING (BUS5DWR)
+Credit Points: 15
+Overview: This subject introduces you to the various techniques of data wrangling with a strong focus on hands-on experience in programming using Structured Query Language (SQL) and the Python programming language. It will cover the basic concepts in relational database design including Entity Relationship (ER) modelling and SQL as a tool for basic data wrangling. You will also learn various types of data sources and common data formats. The subject equips you with skills in data wrangling, including data import and export, basic data integration, assessment and transformation. Upon completion, you will be able to perform a variety of data wrangling tasks using SQL and a programming language for different kinds of data types.
+Learning Outcomes:
+- Design and implement database models that meet business requirements using advanced data modelling and querying techniques to enable analytics initiatives.
+- Analyse data by developing SQL queries and data wrangling scripts using programming tools with responsible use of generative AI to support data transformation and insight generation for data-driven business decisions.
+- Evaluate and compare data sources, formats, and structures to prepare and transform data for analysis, considering ethical, legal, and cybersecurity risks in business analytics.
+- Formulate data and data-wrangling requirements that address the technical challenges of analytics tasks, incorporating data governance, ethical principles, and cybersecurity constraints.
+Assessment Tasks:
+Workload: 
+
+===== SOURCE: https://handbook.latrobe.edu.au/subjects/2026/LTU0AIM =====
+Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)
+Credit Points: 0
+Overview: The academic integrity module introduces academic integrity standards to inform and support students in avoiding plagiarism and academic misconduct. Students complete four parts that encompass academic misconduct and academic integrity decisions, including cheating, plagiarism, and collusion. Students learn about Turnitin (the text-matching tool) used at La Trobe University, and how to get help and support their development of referencing skills.
+Learning Outcomes:
+- Understand the importance of the acknowledgment and the referencing of sources
+- Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.
+- Recognise and understand academic integrity responsibilities.
+Assessment Tasks:
+Workload: 
+

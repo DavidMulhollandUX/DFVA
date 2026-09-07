@@ -1,0 +1,106 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in medical studies.",
+    "evidenceLines": [
+      "**Institution**: The University of Western Australia (UWA)",
+      "**Course Code**: CM030",
+      "- **Institution**: The University of Western Australia (UWA)"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in medical studies.",
+    "evidenceLines": [
+      "**Academic Year**: 2026",
+      "**Study Level**: Undergraduate",
+      "- **Study Level**: Undergraduate"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within medical studies.",
+    "evidenceLines": [
+      "Subject: Human Biology I: Becoming Human (ANHB1101)",
+      "Subject: Human Biology II: Being Human (ANHB1102)",
+      "**Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=CM030"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in medical studies.",
+    "evidenceLines": [
+      "**Institution**: The University of Western Australia (UWA)",
+      "**Course Code**: CM030",
+      "- **Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=CM030"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in medical studies.",
+    "evidenceLines": [
+      "Subject: Human Structure and Development (ANHB2212)",
+      "Subject: Human Organs and Systems (ANHB2214)",
+      "**Academic Year**: 2026"
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in medical studies.",
+    "evidenceLines": [
+      "**Study Level**: Undergraduate",
+      "- **Institution**: The University of Western Australia (UWA)",
+      "- **Study Level**: Undergraduate"
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in medical studies.",
+    "evidenceLines": [
+      "**Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=CM030",
+      "Subject: Biological Anthropology: Human Adaptation and Variation (ANHB2215)",
+      "- **Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=CM030"
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "Students completing this double packaged award course will graduate with both a Bachelor of Human Sciences majoring in Human Science and Neuroscience, and a Master of Biomedical Science.",
+      "- **Institution**: The University of Western Australia (UWA)"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Human Sciences and Master of Biomedical Science.",
+      "evidenceLines": [
+        "Students completing this double packaged award course will graduate with both a Bachelor of Human Sciences majoring in Human Science and Neuroscience, and a Master of Biomedical Science.",
+        "The units at Master's level offer in depth focus on applying Neuroscience in the context of human health. The unit sequence integrates genetics and public health, which are highly relevant to understanding the impact and management of the genetic and environmental risk factors of the devastating neurological conditions that disproportionately contribute to the health challenges in our ageing population."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in medical studies.",
+      "evidenceLines": [
+        "Subject: Human Biology I: Becoming Human (ANHB1101)",
+        "**Institution**: The University of Western Australia (UWA)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

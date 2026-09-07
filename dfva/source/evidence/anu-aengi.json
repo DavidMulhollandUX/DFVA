@@ -1,0 +1,92 @@
+{
+  "code": "anu-aengi",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 7,
+    "C1": {
+      "score": 2,
+      "rationale": "Multi-stakeholder team engineering, combining varied technical specialisations, negotiating with clients, and managing external stakeholder expectations (ENGN2300, ENGN3300).",
+      "evidenceLines": [
+        "Draw on the strengths of a diverse and interdisciplinary team for an external stakeholder",
+        "Operate as an effective member of an engineering team combining different disciplinary perspectives"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Extensive open-ended engineering design innovation, requiring original physical and cyber-physical systems architecture, iterative prototyping, and autonomous robotic problem solving (ENGN1211, ENGN2300, ENGN4300).",
+      "evidenceLines": [
+        "The major project for the course is to work in teams to design and build a robot rover that can autonomously navigate around a maze.",
+        "You will undertake a project using a systems approach to design, which is a formal process for generating robust and relevant engineering designs, applicable to all areas of engineering.",
+        "Synthesise technical knowledge and approaches to generate solutions to an open-ended engineering problem"
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Advanced quantitative systems modelling and transdisciplinary constraint balancing under trade-offs between physical, financial, and environmental performance (ENGN2301, ENGN4300).",
+      "evidenceLines": [
+        "Make predictions about the performance of a system based on engineering models, understanding that engineering design will depend on the context for which it is being developed",
+        "Synthesise technical knowledge and approaches to generate solutions to an open-ended engineering problem",
+        "Navigate constraints and balance multiple design factors"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Adapts engineering design choices dynamically in scenarios marked by scarce resources, conflicting requirements, and imperfect environmental information (ENGN2300, ENGN2301).",
+      "evidenceLines": [
+        "You will apply research and design techniques to visualise, prototype and evaluate alternatives, in situations limited by available resources and imperfect information.",
+        "Navigate constraints and balance multiple design factors"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Demands hands-on hardware fabrication, electronic prototyping, component assembly, and physical rover testing in laboratory settings (ENGN1211, ENGN2300).",
+      "evidenceLines": [
+        "The major project for the course is to work in teams to design and build a robot rover that can autonomously navigate around a maze.",
+        "You will develop skills for life-long learning by completing modules in a range of prototyping and modelling methods including visualisation, electronics and fabrication."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Immerses student teams in an engineering consultancy simulation executing live commercial capstones scoped with external industry hosts across full project lifecycles (ENGN4300).",
+      "evidenceLines": [
+        "In Capstone Design Project, you will work as an independent group to deliver value on a real-world project. Teams will work to define and scope their project in consultation with project hosts, and tailor and manage system life-cycle processes to the delivery of the project.",
+        "During the project, you will be situated with other teams to simulate an engineering firm working on multiple projects, and will take a lead in reviewing the output and processes of other projects."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Instills professional engineering ethics, safety accountability, reflective practice, and governance integrity consistent with Engineers Australia standards (ENGN1211, ENGN3300).",
+      "evidenceLines": [
+        "Uphold professional integrity and ethical behaviour in a management context",
+        "Students work in teams, allowing them to develop their collaboration and communication skills, as well as their project management skills. This is complemented by learning about the importance of reflective and ethical professional practice."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Applies formal systems engineering methodologies, architectural modeling tools, and engineering analysis software across system life-cycles (ENGN1211, ENGN2300).",
+      "evidenceLines": [
+        "During the early stages of the course, you will become fluent in the language of systems engineering for the purposes of describing a design problem space. This includes how to research and systematically generate requirements, undertake a functional analysis of a system, and create and communicate the architecture of an engineering design.",
+        "Select and use appropriate engineering tools to model and analyse engineering components."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Program satisfies foundational discipline depth requirements.",
+        "evidenceLines": [
+          "Discovering Engineering is the foundation course for engineering. The course invites students to discover engineering by tackling an open-ended design project, as well as learning a variety of essential technical and non-technical skills."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Program satisfies contextual professional and analytical practice requirements.",
+        "evidenceLines": [
+          "In Capstone Design Project, you will work as an independent group to deliver value on a real-world project. Teams will work to define and scope their project in consultation with project hosts, and tailor and manage system life-cycle processes to the delivery of the project."
+        ]
+      }
+    },
+    "ambiguities": [],
+    "notScoreable": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "code": "monash-m5017",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in statistics.",
+      "evidenceLines": [
+        "a minimum of 6 credit points (one unit) from the list of Specified elective studies",
+        "a maximum of 6 credit points (one unit) from the list of Additional elective studies",
+        "This course, offered by the School of Public Health and Preventive Medicine, will provide you with a broad range of theory and techniques especially designed for health professionals wishing extensive upskilling in biostatistical methods."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in statistics.",
+      "evidenceLines": [
+        "a minimum of 6 credit points (one unit) from the list of Specified elective studies",
+        "a maximum of 6 credit points (one unit) from the list of Additional elective studies",
+        "The course will assist you in understanding the mathematical background, theory and application of the principles of epidemiology and biostatistics in health and medical research."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within statistics.",
+      "evidenceLines": [
+        "Subject: Introduction to Bioinformatics (BMS5021)",
+        "Subject: Health indicators and health surveys (EPM5001)",
+        "Explain the health data life cycle and the relevance of computation in modern life sciences research."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in statistics.",
+      "evidenceLines": [
+        "Evaluate the merits and limitations of the major bioinformatics databases to solve specific computational biomedical problems.",
+        "Perform elementary statistical analysis on biomolecular and \u201comics\u201d datasets and represent the outcomes in informative graphical displays and data summaries.",
+        "It will also enable you to develop the analytical skills to become statistically self-sufficient."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in statistics.",
+      "evidenceLines": [
+        "Subject: Principles of statistical inference (EPM5003)",
+        "Subject: Data management and statistical computing (EPM5005)",
+        "Explain how nucleotide and protein sequence and structure data are represented and processed in computational biology."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in statistics.",
+      "evidenceLines": [
+        "Use bioinformatic tools and databases to analyse nucleotide or protein sequences.",
+        "This course, offered by the School of Public Health and Preventive Medicine, will provide you with a broad range of theory and techniques especially designed for health professionals wishing extensive upskilling in biostatistical methods.",
+        "The course will assist you in understanding the mathematical background, theory and application of the principles of epidemiology and biostatistics in health and medical research."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in statistics.",
+      "evidenceLines": [
+        "Describe the relationships between DNA, RNA, and proteins and their roles in cell functioning.",
+        "Subject: Clinical biostatistics (EPM5006)",
+        "It will also enable you to develop the analytical skills to become statistically self-sufficient."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The course comprises 48 credit points of study, consisting of 36 points of Core studies plus 12 credit points of Elective studies.",
+        "This course, offered by the School of Public Health and Preventive Medicine, will provide you with a broad range of theory and techniques especially designed for health professionals wishing extensive upskilling in biostatistical methods."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Diploma of Biostatistics.",
+        "evidenceLines": [
+          "The course comprises 48 credit points of study, consisting of 36 points of Core studies plus 12 credit points of Elective studies.",
+          "These studies will provide you with the core epidemiological, mathematical and statistical foundations required for biostatistical practice and study of advanced biostatistical methods. The units provide theoretical and practical experience in calculus, probability distributions, computing and statistical inference and are followed by applications of these principles to regression modelling fundamental for the practice of biostatistics. The elective choices allow you to obtain more detailed study in the area of clinical trials, clinical research or survey/observational data analyses."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in statistics.",
+        "evidenceLines": [
+          "Subject: Introduction to Bioinformatics (BMS5021)",
+          "a minimum of 6 credit points (one unit) from the list of Specified elective studies"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

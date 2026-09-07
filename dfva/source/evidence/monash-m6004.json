@@ -1,0 +1,102 @@
+{
+  "code": "monash-m6004",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in management and commerce.",
+      "evidenceLines": [
+        "Describe the importance of radiation safety and analyse the techniques and engineering controls used in radiation protection;",
+        "Describe the principles and practice of Radiation Treatment Planning.",
+        "This course provides you with the advanced knowledge and skills required to obtain a professional entry level qualification to work in the field of radiation therapy, if you are a\u00a0graduate with a background in science or health care."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in management and commerce.",
+      "evidenceLines": [
+        "Define and calculate radioactivity, and describe in detail radioactive decay processes;",
+        "Recognise and describe the basic design features, operating principles and the quality assurance checks for medical radiation equipment;",
+        "It provides a professional qualification at a postgraduate level of study."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within management and commerce.",
+      "evidenceLines": [
+        "Subject: Radiation therapy science 1 (RTS4101)",
+        "Subject: Radiation therapy science 2 (RTS4102)",
+        "Discuss the principles of, and equipment used for, radiation detection and measurement;"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in management and commerce.",
+      "evidenceLines": [
+        "Explain the scientific concepts involving the production and properties of ionising and non-ionising radiation, and the physical processes involved in the interactions of ionising and non-ionising radiation with matter;",
+        "Narrated infographic (50cm x50cm - narration/audio maximum 3 mins): 30% (Hurdle: None)",
+        "Employment opportunities for graduates exist in both public and private health sectors, in metropolitan and regional Australia."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in management and commerce.",
+      "evidenceLines": [
+        "Subject: Radiation therapy science 3 (RTS4103)",
+        "Subject: Radiation therapy science 4 (RTS5101)",
+        "Recorded oral presentation (Equivalent 8 mins presentation, maximum 20 slides): 30% (Hurdle: None)"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in management and commerce.",
+      "evidenceLines": [
+        "Quiz series (4 x 20 mins Moodle quizzes): 40% (Hurdle: Competency)",
+        "This course provides you with the advanced knowledge and skills required to obtain a professional entry level qualification to work in the field of radiation therapy, if you are a\u00a0graduate with a background in science or health care.",
+        "It provides a professional qualification at a postgraduate level of study."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in management and commerce.",
+      "evidenceLines": [
+        "Describe and apply the principles of patient safety, quality management, occupational health and safety and organisational policy related to radiation therapy practice.",
+        "Subject: Radiation therapy science 5 (RTS5102)",
+        "Employment opportunities for graduates exist in both public and private health sectors, in metropolitan and regional Australia."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "96 credit points",
+        "This course provides you with the advanced knowledge and skills required to obtain a professional entry level qualification to work in the field of radiation therapy, if you are a\u00a0graduate with a background in science or health care."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Radiation Therapy.",
+        "evidenceLines": [
+          "96 credit points",
+          "**Part A. Foundation studies** **24 credit points**"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in management and commerce.",
+        "evidenceLines": [
+          "Subject: Radiation therapy science 1 (RTS4101)",
+          "Describe the importance of radiation safety and analyse the techniques and engineering controls used in radiation protection;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

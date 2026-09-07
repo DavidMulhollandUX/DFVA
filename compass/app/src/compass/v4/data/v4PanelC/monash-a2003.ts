@@ -1,0 +1,94 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 13,
+  "workplace": 7,
+  "C1": {
+    "score": 2,
+    "rationale": "Inclusive ensemble collaboration, public performance communication, and inspiring and motivating diverse musical audiences (CILOs).",
+    "evidenceLines": [
+      "develop and apply highly effective collaborative skills that are inclusive, interdisciplinary and ethical;",
+      "inspire, motivate and influence others through the communication of complex musical ideas using written and verbal means, and artistic and music-specific forms of representation;"
+    ]
+  },
+  "C2": {
+    "score": 3,
+    "rationale": "Exceptional artistic creativity and original acoustic composition, improvisation, and musical performance interpretation (CILOs).",
+    "evidenceLines": [
+      "demonstrate a high level of technical and musical artistry in your chosen music specialisation through sustained, self-directed learning, resolving musical and conceptual problems with creativity and critical judgment;",
+      "critically reflect on your creative practice and articulate your role within broader disciplinary, cultural, and ecological contexts;"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Rigorous musicological analysis, formal score interpretation, and harmonic and structural theory critique (CILOs).",
+    "evidenceLines": [
+      "develop and apply robust research skills to investigate music-related questions, demonstrating appropriate research methodologies and analytical approaches;",
+      "demonstrate a high level of technical and musical artistry in your chosen music specialisation through sustained, self-directed learning, resolving musical and conceptual problems with creativity and critical judgment;"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Real-time musical improvisation, rapid auditory adaptation in live acoustic performance, and navigating dynamic creative industry shifts (CILOs).",
+    "evidenceLines": [
+      "prepare for a career in music and demonstrate the ability to navigate a dynamic industry and adjust to changing situations;",
+      "approach creative work in holistically healthy ways that support well-being and sustainable practice."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Intensive fine-motor manual dexterity, instrument technique, acoustic tactile control, and physical stage performance (Overview, CILOs).",
+    "evidenceLines": [
+      "The Bachelor of Music is a specialist undergraduate degree designed to provide you with practical performance skills in combination with an intellectual grounding in the discipline of music. ",
+      "demonstrate a high level of technical and musical artistry in your chosen music specialisation through sustained, self-directed learning, resolving musical and conceptual problems with creativity and critical judgment;"
+    ]
+  },
+  "W1": {
+    "score": 2,
+    "rationale": "Authentic creative industry problem solving, resolving musical and conceptual challenges for public performance and recordings (CILOs).",
+    "evidenceLines": [
+      "engage actively as a creative citizen with diverse communities, using your artistic practice to address global civic, social, cultural, political and environmental issues;",
+      "demonstrate a high level of technical and musical artistry in your chosen music specialisation through sustained, self-directed learning, resolving musical and conceptual problems with creativity and critical judgment;"
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Exemplary artistic ethics, First Nations cultural protocols, healthy sustainable creative practices, and ethical technological adoption (CILOs).",
+    "evidenceLines": [
+      "critically engage with and ethically employ emerging technologies in music practice;",
+      "thoughtfully and appropriately engage with Australian First Nations perspectives in relation to artistic practices;"
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Professional music production software, digital audio workstations, acoustic recording hardware, and music industry standard practices (CILOs).",
+    "evidenceLines": [
+      "critically engage with and ethically employ emerging technologies in music practice;",
+      "prepare for a career in music and demonstrate the ability to navigate a dynamic industry and adjust to changing situations;"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Specialist undergraduate music degree with rigorous performance and musicological foundations.",
+      "evidenceLines": [
+        "The Bachelor of Music is a specialist undergraduate degree designed to provide you with practical performance skills in combination with an intellectual grounding in the discipline of music. "
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Demonstrated technical artistry, live performance execution, and musicological research methodologies.",
+      "evidenceLines": [
+        "demonstrate a high level of technical and musical artistry in your chosen music specialisation through sustained, self-directed learning, resolving musical and conceptual problems with creativity and critical judgment;"
+      ]
+    }
+  },
+  "ambiguities": [],
+  "notScoreable": []
+};
+
+export default record;

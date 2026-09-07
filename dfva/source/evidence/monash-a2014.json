@@ -1,0 +1,90 @@
+{
+  "code": "monash-a2014",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 8,
+    "C1": {
+      "score": 2,
+      "rationale": "Teamwork, de-escalation communication, stakeholder engagement, and communicating socially just responses to crime to diverse community audiences (CILOs).",
+      "evidenceLines": [
+        "work independently and as part of a team to compare and contrast a number of approaches to crime across different cultural, historical and geographical settings;",
+        "apply skills to construct and communicate effectively, a variety of socially just responses to crime to different audiences;"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Requires intellectual originality to formulate innovative crime prevention frameworks and policy responses addressing complex local and global criminality (CILOs).",
+      "evidenceLines": [
+        "demonstrate sophisticated knowledge of models of engaging government and wider society to improve responses to crime and criminality;",
+        "apply knowledge of contemporary criminological concerns to understand and examine crime and responses to crime at the local, national and international level;"
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Critical analysis of criminal etiology, statutory criminal law provisions, evidentiary standards, and systemic limits of criminal justice interventions (Overview, CILOs).",
+      "evidenceLines": [
+        "Through core units\u00a0you will develop a critical understanding of crime,\u00a0the broader context in which crime occurs, the drivers of criminal behaviour, and the limits of formal and informal responses to crime.\u00a0",
+        "apply practical skills and knowledge of law curriculum acquired at the police academy;"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Adapts policing and criminological frameworks dynamically in high-stakes operational environments, crisis situations, and changing community contexts (Overview, CILOs).",
+      "evidenceLines": [
+        "Through core units\u00a0you will develop a critical understanding of crime,\u00a0the broader context in which crime occurs, the drivers of criminal behaviour, and the limits of formal and informal responses to crime.\u00a0",
+        "identify, define and describe key global challenges to crime and responses to crime;"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Intensive physical presence, tactical field training, physical restraint/defense skills, and operational exercises at the Victoria Police Academy (Overview, CILOs).",
+      "evidenceLines": [
+        "apply practical skills and knowledge of law curriculum acquired at the police academy;",
+        "In a joint-venture with Victoria Police, the Bachelor of Criminology and Policing is the only course of its kind in Victoria."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Direct workplace integration through the Victoria Police Academy, operational police mentoring, and concurrent Diploma of Policing studies (Overview).",
+      "evidenceLines": [
+        "If accepted, during the third year of your course, you will undertake studies which will allow you to complete your bachelor degree and concurrently commence a Diploma of Policing with Victoria Police.\u00a0You will also be allocated a Victoria Police mentor who will support and guide you during your Diploma studies and your journey into the police force .",
+        "apply practical skills and knowledge of law curriculum acquired at the police academy;"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Rigorous professional policing ethics, procedural justice, statutory accountability, and integrity standards governing sworn officers (CILOs, Overview).",
+      "evidenceLines": [
+        "apply skills to construct and communicate effectively, a variety of socially just responses to crime to different audiences;",
+        "engage in the scholarship of professional practice to effectively respond to crime prevention and issues of crime."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Direct training in statutory police powers, law enforcement databases, criminal procedure legislation, and operational police equipment (CILOs, Overview).",
+      "evidenceLines": [
+        "apply practical skills and knowledge of law curriculum acquired at the police academy;",
+        "In a joint-venture with Victoria Police, the Bachelor of Criminology and Policing is the only course of its kind in Victoria."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Rigorous criminological theory and criminal justice foundations.",
+        "evidenceLines": [
+          "Through core units\u00a0you will develop a critical understanding of crime,\u00a0the broader context in which crime occurs, the drivers of criminal behaviour, and the limits of formal and informal responses to crime.\u00a0"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Direct Victoria Police joint-venture partnership ensuring authentic workplace immersion and operational training.",
+        "evidenceLines": [
+          "In a joint-venture with Victoria Police, the Bachelor of Criminology and Policing is the only course of its kind in Victoria."
+        ]
+      }
+    },
+    "ambiguities": [],
+    "notScoreable": []
+  }
+}

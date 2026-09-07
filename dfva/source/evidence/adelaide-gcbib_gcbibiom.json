@@ -1,0 +1,102 @@
+{
+  "code": "adelaide-gcbib_gcbibiom",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 15,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in biological sciences.",
+      "evidenceLines": [
+        "**Institution**: The University of Adelaide",
+        "**Program Identifier / Slug**: gcbib_gcbibiom",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in biological sciences.",
+      "evidenceLines": [
+        "**Academic Calendar Year**: 2025/2026",
+        "**Faculty**: Faculty of Sciences, Engineering and Technology (SET)",
+        "- **Program Identifier / Slug**: gcbib_gcbibiom"
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within biological sciences.",
+      "evidenceLines": [
+        "Subject: Advanced Research Platforms (BIOL5048)",
+        "Subject: Advanced Drug Discovery and Development (PHAR5000)",
+        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/gcbib_gcbibiom"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in biological sciences.",
+      "evidenceLines": [
+        "Apply knowledge of current and key biomedical research platforms to real life scenarios and experimental data",
+        "Identify and interpret appropriate sources of information relating to biomedical science",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in biological sciences.",
+      "evidenceLines": [
+        "Subject: Drug Discovery and Development (PHAR3023)",
+        "Subject: Advanced Research Techniques (BIOL5049)",
+        "Effectively communicate the principles and processes of key research platforms in biomedical biotechnology, both individually and through collaboration"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in biological sciences.",
+      "evidenceLines": [
+        "Reflect on the relevance of biomedical science to the Biotechnology industry and career opportunities",
+        "- **Institution**: The University of Adelaide",
+        "- **Program Identifier / Slug**: gcbib_gcbibiom"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in biological sciences.",
+      "evidenceLines": [
+        "Proposal: 25%% (Hurdle: False)",
+        "Subject: Molecular Microbiology and Vaccines (UoA) (BIOL5038)",
+        "- **Academic Calendar Year**: 2025/2026"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "The Graduate Certificate in Biotechnology (Biomedical) is an AQF Level 8 program with a standard full-time duration of 0.5 years.",
+        "- **Institution**: The University of Adelaide"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Graduate Certificate in Biotechnology.",
+        "evidenceLines": [
+          "The Graduate Certificate in Biotechnology (Biomedical) is an AQF Level 8 program with a standard full-time duration of 0.5 years.",
+          "Program Maximum Duration:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in biological sciences.",
+        "evidenceLines": [
+          "Subject: Advanced Research Platforms (BIOL5048)",
+          "**Institution**: The University of Adelaide"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

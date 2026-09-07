@@ -1,0 +1,102 @@
+{
+  "code": "latrobe-hbhs",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in health, n.e.c..",
+      "evidenceLines": [
+        "Reflect critically on your own cultural attitudes, values and beliefs",
+        "Demonstrate knowledge of and respect for Indigenous Australian perspectives and experiences, history, culture and customs, including an appreciation of the local people and country",
+        "Create a rewarding career in Australia's fastest-growing sector by changing the lives of individual people and whole populations with La Trobe's Bachelor of Health Sciences."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in health, n.e.c..",
+      "evidenceLines": [
+        "Recall important details regarding the history, culture, customs and people of Indigenous Australia",
+        "Understand the need for and value of appropriate and effective intercultural communication",
+        "Examine the way our minds, society, environment and political structures affects the health of individuals, families and communities at local, national and international levels."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within health, n.e.c..",
+      "evidenceLines": [
+        "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+        "Subject: UNDERSTANDING DIGITAL HEALTH (HIM1UDH)",
+        "Explore the impact of digital health on the experience of health consumers."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in health, n.e.c..",
+      "evidenceLines": [
+        "Describe the current national and international digital landscape in healthcare.",
+        "Identify the implications of digitising health for health professionals working in the Australian Healthcare System, including technologies currently in use.",
+        "Broaden your expertise with a choice of nine majors and the option of second majors and minors in health sciences or a range of other disciplines."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in health, n.e.c..",
+      "evidenceLines": [
+        "Subject: ACADEMIC INTEGRITY MODULE (LTU0AIM)",
+        "Subject: HUMAN STRUCTURE AND FUNCTION (PAM1HSF)",
+        "Identify the technological, clinical, social, legal, and ethical impacts of the digitisation of health care."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in health, n.e.c..",
+      "evidenceLines": [
+        "Understand the importance of the acknowledgment and the referencing of sources",
+        "Create a rewarding career in Australia's fastest-growing sector by changing the lives of individual people and whole populations with La Trobe's Bachelor of Health Sciences.",
+        "Examine the way our minds, society, environment and political structures affects the health of individuals, families and communities at local, national and international levels."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in health, n.e.c..",
+      "evidenceLines": [
+        "Locate, select, and utilise information about La Trobe's approach to academic integrity to support appropriate acknowledgement of references used.",
+        "Subject: UNDERSTANDING HEALTH AND WELLBEING (PHE1UHW)",
+        "Broaden your expertise with a choice of nine majors and the option of second majors and minors in health sciences or a range of other disciplines."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "*Please be aware that the digital health, health promotion and public health majors in this course include mandatory in-person placement requirements. Students are expected to complete these placements in Australia.",
+        "Create a rewarding career in Australia's fastest-growing sector by changing the lives of individual people and whole populations with La Trobe's Bachelor of Health Sciences."
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Health Sciences.",
+        "evidenceLines": [
+          "*Please be aware that the digital health, health promotion and public health majors in this course include mandatory in-person placement requirements. Students are expected to complete these placements in Australia.",
+          "To qualify for the award of\u00a0Bachelor of Health Sciences, students must complete 360 credit points as follows:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in health, n.e.c..",
+        "evidenceLines": [
+          "Subject: WOMINJEKA LA TROBE: INDIGENOUS CULTURAL LITERACY FOR HIGHER EDUCATION (ABS0WOM)",
+          "Reflect critically on your own cultural attitudes, values and beliefs"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}
