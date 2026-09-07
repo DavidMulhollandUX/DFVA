@@ -28,6 +28,14 @@ Measured across `dfva/source/evidence/*.json`, grouped by code prefix:
 | UWA | 240 | 1,021 | 2.00 | 0 |
 | Sydney | 184 | 1,010 | 2.00 | 0 |
 
+Not quite all of them: **2,827 of the 2,838 are templated, and 11 Monash programs are genuinely
+scored** — the ones whose `scrapes/v4/pending/*.scored.json` files survive from a real
+`v4-score-cohort.js` run before the batch templating replaced it. `monash-f2010` cites unit codes
+(COL3001, COL3002, DGN1000) and quotes real handbook text, and its committed record matches its
+pending file exactly. That is what the pipeline produces when it is actually run, and it is the
+standard the re-score restores. An institution is still published as a unit, so Monash's 372
+templated records keep it quarantined.
+
 Four signatures of template output, each independently checkable:
 
 1. **Rationale repetition.** 2,742 of the 2,838 records (96.6%) share one C1 rationale, opening
