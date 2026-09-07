@@ -1,0 +1,132 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: collaboration appears in learning outcomes but no core unit assesses it. The program states team working is optional and explicitly individually assessed ('may work independently or as part of a team ... though all students will submit individual assessment'), and the only teamwork wording sits in a course learning outcome (ZGEN2215, itself one of two General Education alternatives). Level 2 needs at least one core unit that assesses collaborative practice; the extract documents no assessed group project, client or interprofessional task, and every course assessment row is contentless. No evidence of coordinating work across people AND tools/AI systems, so level 3 is not reachable.",
+    "evidenceLines": [
+      "Students in the research courses may work independently or as part of a team, depending on the nature of the project undertaken, though all students will submit individual assessment.",
+      "Through leadership and teamwork, engage and enable others to collaboratively develop a common, integrated understanding of law, force and legitimacy.",
+      "Final assessment will be based on a written paper or report and oral presentations."
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: reflection appears in outcomes but no core unit assesses it against criteria. The only reflective wording is a ZGEN2215 learning outcome, and the one assessment described anywhere with reflective content (the ZGEN2215 ePortfolio 'short reflective analysis') sits in a course that is one of two General Education alternatives rather than the core, and the extract states no standards, exemplars or criteria against which quality is appraised. Level 2 requires criterion-referenced appraisal of quality (peer review, structured critique, portfolio with standards) in core assessment; the assessment tables carry no task detail at all. No documented reliance or override decisions, so level 3 is not reachable.",
+    "evidenceLines": [
+      "Critically reflect on independent and collaborative learning about law, force and legitimacy to identify professional application and learning goals beyond the course.",
+      "Tailored actionable formative feedback is provided throughout the course and used to scaffold your final ePortofolio assignment. This final assignment will culminate in a strategic appraisal of an authentic command problem and a short reflective analysis.",
+      "- In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: digital tools appear as tool operation/training. Core ZPEM2312 teaches Excel operation, and core ZINT2100 covers cybersecurity policy and the 'legal, ethical and normative context' but is framed as skills to defend an organisation and personal computers. Level 2 requires core units to address AI capabilities AND limitations/ethics, discussed and assessed: no AI or generative-AI content appears anywhere in the extract, and no assessment task is described for either course, so the 'assessed' half of the anchor is unmet. Level 3 (critique or governance of AI systems in the discipline's own context) has no evidence.",
+    "evidenceLines": [
+      "- **ZINT2100**: Introduction to Cyber-Security: Policy & Operations [6 UOC]",
+      "Identify organisational responsibility for elements of cybersecurity and evaluate the evolving legal, ethical and normative context in which cybersecurity is being discussed internationally;",
+      "It introduces a computer software package, Excel, which is used for data exploration, presentation and analysis.",
+      "This course provides an indepth introduction to the strategic and national security challenges of cybersecurity, and provides students with the skills to defend their organisation and their personal computers from the most common forms of attack."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3 anchor: the program documents structured progression toward independent learning through a self-scoped research project. The compulsory 24 UOC CDF block is a staged sequence (Special Topic 1, Research Project 1 at Level 2, then Research Projects 2 and 3 at Level 3) in which the student defines the topic ('enable students to define a related research topic', 'chosen after discussion between the student and the supervisor') and the outcome is 'define, plan and execute a research project with some independence'. R2 is satisfied by quoted assessment evidence rather than an outcome alone: 'Final assessment will be based on a written paper and an oral presentation.' This exceeds level 2, which asks only for one assessment applying methods to novel problems.",
+    "evidenceLines": [
+      "Students must complete 24 UOC of the following courses in place of 24 UOC of Level 2 or Level 3 electives in the following HASS specialisations: AHISA1, AHISB2, APOLA1, APOLC2, AINDB1, AINDB2.",
+      "- **ZHSS2902**: Humanities and Social Sciences Research Project 1 [6 UOC]",
+      "- **ZHSS3901**: Humanities & Social Sciences Research Project 2 [6 UOC]",
+      "- **ZHSS3902**: Humanities & Social Sciences Research Project 3 [6 UOC]",
+      "The course will be structured to introduce ideas and methodologies pertinent to a course that they have studied in first year or are currently studying and will enable students to define a related research topic on which they will complete an extented essay or project.",
+      "The research project will be chosen after discussion between the student and the supervisor.",
+      "On completion of this course students will have shown an ability to define, plan and execute a research project with some independence.",
+      "Final assessment will be based on a written paper and an oral presentation."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 anchor: students design and conduct an inquiry, assessed. The compulsory CDF sequence pairs specialist courses in critical analysis and/or research methods with supervised discipline-specific research projects involving 'hands-on' research experience, assessed by a written paper and an oral presentation. Level 3 requires the project to generate primary evidence with methodology defended under scrutiny: the extract never says the project produces primary data (the Special Topic route ends in an 'extented essay or project', and the stated outcomes are about scholarly literature), and the week-4 introductory seminar and final oral presentation are not documented as a defence of methodology. Resolved down per the ambiguity rule.",
+    "evidenceLines": [
+      "The range of CDFS Programs, described in detail in the following sections, is characterised by the inclusion of specialist courses in critical analysis and/or research methods appropriate to the area of study. All programs also include discipline-specific research projects. The research projects will be supervised by academic staff from the relevant discipline.",
+      "the project will involve 'hands-on' research experience in collaboration with a staff member or their research team. A supervisor, who will work closely with the student, will manage each project.",
+      "Students will be expected to present a short introductory seminar on the topic by week 4 of Session. Final assessment will be based on a written paper and an oral presentation.",
+      "Select, understand and utilise relevant discipline skills and scholarly literature."
+    ]
+  },
+  "adaptiveness": 8,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: communication appears in program learning outcomes and core assessment adds presentation to peers and staff, but no professional genre and no audience beyond the teaching team. The core research sequence assesses an introductory seminar plus a written paper and oral presentation - academic genres delivered inside the school. Level 2 needs a recognised professional genre or an external audience judged against criteria drawn from practice; the closest candidate, the ZGEN2215 'strategic appraisal of an authentic command problem', is one of two General Education alternatives, its audience is unstated, and R4 forbids scoring up on the word 'authentic'. No professional conduct criteria are documented, so level 3 is not reachable.",
+    "evidenceLines": [
+      "3. Demonstrate high skill levels in written and oral presentation, analysis and argument.",
+      "6. Communicate and debate complex ideas, lucidly and ethically, capably using a variety of different media.",
+      "Students will be expected to present a short introductory seminar on the topic by week 4 of Session.",
+      "Final assessment will be based on a written paper or report and oral presentations."
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: contextualised or scenario-framed tasks appear, but the artefact and criteria remain academic. Case studies frame the content in core ZHSS1201 and in ZGEN2240, and core ZPEM2312 uses data from real-life situations, yet every documented artefact across the core is a written paper, report, essay or oral presentation. Level 2 requires at least one core assessment that reproduces a professional task end to end and is judged against criteria drawn from practice; no core assessment task, artefact or criterion set is described anywhere in the extract, and the assessment rows carry no detail. Resolved down per the ambiguity rule.",
+    "evidenceLines": [
+      "In order to maintain a practical approach, case studies will be used to introduce the problems to be examined in the course.",
+      "It will explore the processes through which the world became more interconnected and interdependent by drawing on local and global case studies throughout history to the present day.",
+      "It teaches the fundamentals of data analysis with emphasis on the analysis of data arising from real-life situations across the disciplines.",
+      "Final assessment will be based on a written paper or report and oral presentations."
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0 anchor: no work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure. The 144 UOC structure lists Level 1 electives, a disciplinary component of majors/minors and the CDF research block, Level 1 and Level 2 core courses and General Education - no placement, practicum, internship or live client project. The only extracurricular element documented is cohort activities (invited lectures, seminars, general reading and social events), which is not work-situated learning, so even level 1 is unmet. The in-practice route added in v4.2 does not apply: the extract does not document this cohort as already practising in a profession, and no core unit assesses activity conducted in a student's own workplace.",
+    "evidenceLines": [
+      "Students must complete 144 Units of Credit (UOC) structured across the following academic components:",
+      "Students must complete 24 UOC of the following courses in place of 24 UOC of Level 2 or Level 3 electives in the following HASS specialisations: AHISA1, AHISB2, APOLA1, APOLC2, AINDB1, AINDB2.",
+      "Throughout the program, and in addition to completing the courses given in the following schedules, students will be engaged with cohort activities so as to develop and maintain their interest and continuing involvement in the program via invited lectures, seminars, general reading and social events."
+    ]
+  },
+  "workplace": 2,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS condition: a coherent specialist core with progressive depth via a staged prerequisite chain. The program sets maturity rules gating Level 2 and Level 3 study on completed prior UOC, requires at least one HASS major, and adds a compulsory CDF block of specialist critical-analysis and research-methods courses staged from Level 2 to Level 3. This is disciplinary identity plus staged progression, not generic interchangeable content.",
+      "evidenceLines": [
+        "Students must complete 36 UOC of Level 1 courses before undertaking Level 2 courses.",
+        "Student must complete 72 UOC of Level 1/2 courses before undertaking Level 3 courses.",
+        "Students must complete two of the following specialisations, including at least one HASS major (AHISA1, AINDB1, or APOLA1).",
+        "The range of CDFS Programs, described in detail in the following sections, is characterised by the inclusion of specialist courses in critical analysis and/or research methods appropriate to the area of study."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS condition: capstone or project work with real uncertainty and accountability, rather than recall or scripted responses. The compulsory research-project sequence has students define, plan and execute a project on a self-nominated topic under a supervisor, assessed by written paper and oral presentation - an open-ended task whose problem is not scripted. Noted limitation: no assessment is documented as requiring a defended trade-off decision, so the PASS rests on the required research-project route rather than on the trade-off route.",
+      "evidenceLines": [
+        "Students will undertake a research project on a nominated topic in a specific discipline area commensurate with their year of study.",
+        "On completion of this course students will have shown an ability to define, plan and execute a research project with some independence.",
+        "Final assessment will be based on a written paper and an oral presentation.",
+        "Analyse legitimacy in novel or complex scenarios and propose ethical solutions to achieve positive strategic outcomes."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1 straddled 0 and 1: teamwork is named only in a ZGEN2215 learning outcome (one of two General Education alternatives) and in a program sentence that makes team work optional with individual assessment. Scored 1 because the level-1 anchor asks only that collaboration appear in learning outcomes; it cannot rise to 2 because no core unit assesses it.",
+    "C2 straddled 1 and 2: the ZGEN2215 ePortfolio with a 'short reflective analysis' is the only described assessment carrying appraisal of one's own work. Resolved down to 1 by the never-resolve-upward rule, because ZGEN2215 is an alternative rather than core and no criteria or standards are documented.",
+    "C3 straddled 1 and 2: core ZINT2100 addresses the legal, ethical and normative context of cybersecurity, which is more than tool operation, but the level-2 anchor is about AI capabilities and limitations and requires assessment. No AI content and no assessment detail exist in the extract, so resolved down to 1.",
+    "C5 straddled 2 and 3: three required supervised research-project courses look like the level-3 'substantial project ... required' route, but neither primary-evidence generation nor a methodology defence under scrutiny is documented. Resolved down to 2.",
+    "W1 and W2 both straddled 1 and 2 on the same ZGEN2215 evidence ('strategic appraisal of an authentic command problem'). Both resolved down: the course is one of two General Education options, and R4 bars scoring up on the label 'authentic' absent documented task features, audience or practice-drawn criteria.",
+    "One construct, one home: the ZGEN2215 reflective outcome was scored in C2 (appraisal of quality) and not in W1; the research project's oral presentation was scored in W1 (communication) and its inquiry design in C5, with its self-scoping in C4."
+  ],
+  "notScoreable": [
+    "Assessment task detail is absent for every course in the extract: each course's Assessment Tasks block reads only as a delivery mode with 'N/A%' and 'Hurdle: None', with no task description, artefact, audience or criteria. The only assessment content anywhere is the program-level sentence about the research courses and the ZHSS2902 and ZGEN2215 overviews, so C1, C2, C3, W1 and W2 could not be tested against their level-2 and level-3 anchors, which all require documented assessment.",
+    "C3 has no AI or generative-AI evidence of any kind in the extract - no core unit, elective or program outcome mentions artificial intelligence - so the AI half of the C3 construct is unevidenced rather than evidenced as absent from the curriculum."
+  ],
+  "instrument": "4.2-draft",
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-07"
+  }
+};
+
+export default record;

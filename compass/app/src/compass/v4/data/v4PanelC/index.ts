@@ -41,6 +41,7 @@ export const V4_PANEL_C_LOADERS: Record<
   "841ac": () => import("./841ac"),
   "872bb": () => import("./872bb"),
   "991aa": () => import("./991aa"),
+  "anu-barts": () => import("./anu-barts"),
   "b-agr": () => import("./b-agr"),
   "b-arts": () => import("./b-arts"),
   "b-bmed": () => import("./b-bmed"),
@@ -230,10 +231,14 @@ export const V4_PANEL_C_LOADERS: Record<
   "mc-ymhmo": () => import("./mc-ymhmo"),
   "me-dcd": () => import("./me-dcd"),
   "n01aa": () => import("./n01aa"),
+  "unsw-4461": () => import("./unsw-4461"),
+  "uq-2000": () => import("./uq-2000"),
   "usyd-advanced-computing-commerce": () => import("./usyd-advanced-computing-commerce"),
+  "usyd-arts-extended": () => import("./usyd-arts-extended"),
   "usyd-education": () => import("./usyd-education"),
   "usyd-juris-doctor": () => import("./usyd-juris-doctor"),
   "usyd-psychology-coaching": () => import("./usyd-psychology-coaching"),
+  "uwa-bp001": () => import("./uwa-bp001"),
 };
 
 export const hasV4PanelC = (code: string): boolean =>

@@ -21,6 +21,7 @@ import {
   POSITION_ORDER,
   ITEM_IDS,
   facultyRows,
+  institutionRows,
   gateFailures,
   itemAverages,
   lastVerifiedAt,
@@ -156,6 +157,7 @@ export default function V4InsightsPage() {
       quickWins: quickWins(rows),
       attentionList: needsAttention(rows),
       faculties: facultyRows(rows),
+      institutions: institutionRows(rows),
       gates: gateFailures(rows),
       atThreshold: thresholdTieCount(rows),
       verified: lastVerifiedAt(rows),
@@ -602,11 +604,109 @@ export default function V4InsightsPage() {
           </CardContent>
         </Card>
 
+        {/* ---------- Institution comparison ---------- */}
+        {stats.institutions.length > 1 && (
+          <>
+            <SectionHeading
+              id="institutions"
+              title="How universities compare"
+              blurb="The same disciplines scored at each university, on one instrument and one set of handbook evidence."
+            />
+            <Card className="mb-6">
+              <CardContent className="pt-6">
+                <div className="overflow-x-auto">
+                  <table className="w-full border-collapse text-sm">
+                    <thead>
+                      <tr>
+                        {[
+                          "University",
+                          "Programs",
+                          "Avg. exposure",
+                          "Avg. adaptiveness",
+                          "Needing attention",
+                          "Gate failures",
+                          "Weakest capability",
+                        ].map((h) => (
+                          <th key={h} className={thClass()}>
+                            {h}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {stats.institutions.map((i) => (
+                        <tr
+                          key={i.name}
+                          data-testid="institution-row"
+                          className="border-border hover:bg-card-accent border-b"
+                        >
+                          <td className="px-3 py-2 font-medium">{i.name}</td>
+                          <td className="text-muted-foreground px-3 py-2">
+                            {i.total}
+                            {i.assessed < i.total && (
+                              <span className="text-xs">
+                                {" "}
+                                ({i.assessed} assessed)
+                              </span>
+                            )}
+                          </td>
+                          <td className="px-3 py-2 tabular-nums">
+                            {i.avgExposure === null
+                              ? "—"
+                              : i.avgExposure.toFixed(1)}
+                          </td>
+                          <td className="px-3 py-2 tabular-nums">
+                            {i.avgAdaptiveness === null
+                              ? "—"
+                              : `${i.avgAdaptiveness.toFixed(
+                                  1,
+                                )}/${V4_ADAPTIVENESS_MAX}`}
+                          </td>
+                          <td className="px-3 py-2">
+                            {i.positions.attention > 0 ? (
+                              <span
+                                className={`rounded-full px-2 py-0.5 text-xs font-medium ${QUADRANTS.attention.badgeClass}`}
+                              >
+                                {i.positions.attention}
+                              </span>
+                            ) : (
+                              <span className="text-muted-foreground">—</span>
+                            )}
+                          </td>
+                          <td className="px-3 py-2">
+                            {i.gateFailures > 0 ? (
+                              <span className="text-band-critical font-medium">
+                                {i.gateFailures}
+                              </span>
+                            ) : (
+                              <span className="text-muted-foreground">—</span>
+                            )}
+                          </td>
+                          <td className="text-muted-foreground px-3 py-2">
+                            {i.weakestItem ?? "—"}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+                <p className="text-muted-foreground mt-4 text-xs">
+                  Programs outside the University of Melbourne are published one
+                  at a time, as each is re-scored and verified, so a university
+                  with few programs here is showing a sample and not its
+                  portfolio. Averages over a handful of programs move a long way
+                  on one score; read the counts before the columns.
+                </p>
+              </CardContent>
+            </Card>
+          </>
+        )}
+
         {/* ---------- Faculty comparison ---------- */}
         <SectionHeading
           id="faculties"
           title="How faculties compare"
-          blurb="Each faculty's average position and its weakest shared capability. Select a faculty for its graduate-outcome detail."
+          blurb="Each University of Melbourne faculty's average position and its weakest shared capability. Select a faculty for its graduate-outcome detail."
         />
         <Card className="mb-6">
           <CardContent className="pt-6">

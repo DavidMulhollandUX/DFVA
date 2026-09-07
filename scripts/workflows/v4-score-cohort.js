@@ -245,6 +245,10 @@ const results = await pipeline(
         `and do not touch dfva/source/evidence/ yourself — the script is the only writer.`,
       { label: `persist:${r.code}`, phase: 'Persist', effort: 'low', model: 'haiku', schema: PERSIST_RESULT },
     ).then((res) => {
+      // A blocked or empty agent returns null. Without this the next line reads
+      // `.ok` off null and the whole pipeline dies with "null is not an object",
+      // which says nothing about which program failed or why.
+      if (!res) throw new Error(`persist:${r.code} returned nothing — the agent was blocked or produced no result; re-run this code`)
       if (!res.ok || !res.report) throw new Error(`persist:${r.code} refused — ${res.error ?? 'no report'}`)
       const persisted = res.report
       // H3, kept as a cross-check on the script's own output: `before` must be

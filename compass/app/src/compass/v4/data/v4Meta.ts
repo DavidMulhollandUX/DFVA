@@ -978,6 +978,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-08-16"
   },
+  "anu-barts": {
+    "code": "anu-barts",
+    "name": "Bachelor of Arts",
+    "institution": "The Australian National University",
+    "institutionSlug": "anu",
+    "level": "bachelor",
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "exposureTier": "pooled",
+    "adaptiveness": 5,
+    "workplace": 3,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 1,
+    "gates": {
+      "G1": "FAIL",
+      "G2": "FAIL"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "b-agr": {
     "code": "b-agr",
     "name": "Bachelor of Agriculture",
@@ -5703,6 +5728,56 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-08-30"
   },
+  "unsw-4461": {
+    "code": "unsw-4461",
+    "name": "Arts",
+    "institution": "UNSW Sydney",
+    "institutionSlug": "unsw",
+    "level": "other",
+    "exposure": 81.93,
+    "entryExposure": 77.94,
+    "exposureTier": "field",
+    "adaptiveness": 8,
+    "workplace": 2,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 3,
+    "C5": 2,
+    "W1": 1,
+    "W2": 1,
+    "W3": 0,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "uq-2000": {
+    "code": "uq-2000",
+    "name": "Bachelor of Arts",
+    "institution": "The University of Queensland",
+    "institutionSlug": "uq",
+    "level": "bachelor",
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "exposureTier": "pooled",
+    "adaptiveness": 3,
+    "workplace": 0,
+    "C1": 2,
+    "C2": 0,
+    "C3": 0,
+    "C4": 1,
+    "C5": 0,
+    "W1": 0,
+    "W2": 0,
+    "W3": 0,
+    "gates": {
+      "G1": "FAIL",
+      "G2": "FAIL"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "usyd-advanced-computing-commerce": {
     "code": "usyd-advanced-computing-commerce",
     "name": "Bachelor of Advanced Computing and Bachelor of Commerce",
@@ -5725,6 +5800,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "gates": {
       "G1": "PASS",
       "G2": "FAIL"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "usyd-arts-extended": {
+    "code": "usyd-arts-extended",
+    "name": "Bachelor of Arts",
+    "institution": "The University of Sydney",
+    "institutionSlug": "usyd",
+    "level": "bachelor",
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "exposureTier": "pooled",
+    "adaptiveness": 5,
+    "workplace": 2,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 0,
+    "gates": {
+      "G1": "FAIL",
+      "G2": "PASS"
     },
     "verifiedAt": "2026-09-07"
   },
@@ -5800,6 +5900,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "gates": {
       "G1": "PASS",
       "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "uwa-bp001": {
+    "code": "uwa-bp001",
+    "name": "Bachelor of Arts",
+    "institution": "The University of Western Australia",
+    "institutionSlug": "uwa",
+    "level": "bachelor",
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "exposureTier": "pooled",
+    "adaptiveness": 5,
+    "workplace": 3,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "FAIL"
     },
     "verifiedAt": "2026-09-07"
   }

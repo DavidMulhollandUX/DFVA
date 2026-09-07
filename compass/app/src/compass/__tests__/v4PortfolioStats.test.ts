@@ -12,6 +12,7 @@ import {
   facultyRows,
   failsAGate,
   gateFailures,
+  institutionRows,
   itemAverages,
   lastVerifiedAt,
   needsAttention,
@@ -202,10 +203,19 @@ describe("portfolio aggregates", () => {
 });
 
 describe("facultyRows — the chip invariant", () => {
-  it("sums to the spine totals", () => {
+  // The faculty table is Melbourne's nine faculties, so it accounts for the
+  // Melbourne rows rather than the whole spine: a program at any other
+  // university carries no faculty and is compared by institution instead.
+  const melbourne = rows.filter(
+    (r) => r.institution === "The University of Melbourne",
+  );
+
+  it("sums to the Melbourne totals", () => {
     const faculties = facultyRows(rows);
-    expect(faculties.reduce((s, f) => s + f.total, 0)).toBe(rows.length);
-    expect(faculties.reduce((s, f) => s + f.assessed, 0)).toBe(assessed.length);
+    expect(faculties.reduce((s, f) => s + f.total, 0)).toBe(melbourne.length);
+    expect(faculties.reduce((s, f) => s + f.assessed, 0)).toBe(
+      melbourne.filter((r) => r.assessed).length,
+    );
   });
 
   it("never averages over an unassessed row", () => {
@@ -230,7 +240,7 @@ describe("facultyRows — the chip invariant", () => {
   it("counts gate failures per faculty consistently with gateFailures()", () => {
     const faculties = facultyRows(rows);
     expect(faculties.reduce((s, f) => s + f.gateFailures, 0)).toBe(
-      gateFailures(rows).length,
+      gateFailures(melbourne).length,
     );
   });
 });
@@ -327,5 +337,47 @@ describe("failsAGate and POSITION_ORDER", () => {
     expect(new Set(POSITION_ORDER).size).toBe(4);
     const seen = new Set(rows.map((r) => r.position).filter(Boolean));
     for (const pos of seen) expect(POSITION_ORDER).toContain(pos);
+  });
+});
+
+describe("grouping — faculties stay Melbourne's, institutions span the corpus", () => {
+  const faculties = facultyRows(rows);
+  const institutions = institutionRows(rows);
+
+  it("gives every row an institution", () => {
+    for (const r of rows) expect(r.institution).not.toBe("");
+  });
+
+  it("never groups under an empty name", () => {
+    // An empty faculty produced a nameless row linking to /insights/faculty/
+    // the moment the first non-Melbourne program published.
+    for (const f of faculties) expect(f.name).not.toBe("");
+    for (const i of institutions) expect(i.name).not.toBe("");
+  });
+
+  it("keeps the faculty table to Melbourne programs only", () => {
+    const inFaculties = faculties.reduce((n, f) => n + f.total, 0);
+    const melbourne = rows.filter(
+      (r) => r.institution === "The University of Melbourne",
+    );
+    expect(inFaculties).toBe(melbourne.length);
+  });
+
+  it("accounts for every row exactly once across institutions", () => {
+    expect(institutions.reduce((n, i) => n + i.total, 0)).toBe(rows.length);
+  });
+
+  it("orders both tables by average adaptiveness, strongest first", () => {
+    for (const table of [faculties, institutions]) {
+      const avgs = table.map((g) => g.avgAdaptiveness ?? 0);
+      expect([...avgs].sort((a, b) => b - a)).toEqual(avgs);
+    }
+  });
+
+  it("averages adaptiveness over assessed rows only", () => {
+    for (const i of institutions) {
+      if (i.assessed === 0) expect(i.avgAdaptiveness).toBeNull();
+      else expect(Number.isNaN(i.avgAdaptiveness)).toBe(false);
+    }
   });
 });

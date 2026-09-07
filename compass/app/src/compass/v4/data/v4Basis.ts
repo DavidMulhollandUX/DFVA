@@ -628,6 +628,119 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 94.97
     }
   },
+  "anu-barts": {
+    "code": "anu-barts",
+    "name": "Bachelor of Arts",
+    "hasMarketReport": false,
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "jirN": 2381,
+    "nTitles": 97,
+    "nMedium": 48,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Arts (Anthropology)",
+          "n": 153
+        },
+        {
+          "name": "Bachelor of Arts (Asian Studies)",
+          "n": 43
+        },
+        {
+          "name": "Bachelor of Arts (Economics)",
+          "n": 196
+        },
+        {
+          "name": "Bachelor of Arts (Gender Studies)",
+          "n": 100
+        },
+        {
+          "name": "Bachelor of Arts (Geography)",
+          "n": 108
+        },
+        {
+          "name": "Bachelor of Arts (History)",
+          "n": 524
+        },
+        {
+          "name": "Bachelor of Arts (Politics and International",
+          "n": 339
+        },
+        {
+          "name": "Bachelor of Arts (Psychology)",
+          "n": 859
+        },
+        {
+          "name": "Bachelor of Arts (Screen And Cultural Studies)",
+          "n": 59
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 18 \"Bachelor of Arts (…)\" records",
+      "excludedSources": [
+        {
+          "name": "Bachelor of Arts (Ancient World Studies)",
+          "refusedTitles": [
+            "Collections Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Art History)",
+          "refusedTitles": [
+            "Gallery Attendant",
+            "Researcher",
+            "Art Consultant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Creative Writing)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Criminology)",
+          "refusedTitles": [
+            "Justice Officer",
+            "Senior Intelligence Analyst Team Leader"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (English and Theatre Studies)",
+          "refusedTitles": [
+            "Publishing Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Indigenous Studies)",
+          "refusedTitles": [
+            "Indigenous Education Officer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Media and Communications)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Philosophy)",
+          "refusedTitles": [
+            "University Lecturer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Sociology)",
+          "refusedTitles": [
+            "Youth Advisor"
+          ]
+        }
+      ]
+    }
+  },
   "b-agr": {
     "code": "b-agr",
     "name": "Bachelor of Agriculture",
@@ -4660,6 +4773,144 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 71.99
     }
   },
+  "unsw-4461": {
+    "code": "unsw-4461",
+    "name": "Arts",
+    "hasMarketReport": false,
+    "exposure": 81.93,
+    "entryExposure": 77.94,
+    "jirN": null,
+    "nTitles": 15,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0009 Society and Culture",
+          "n": null
+        }
+      ],
+      "field": "0009",
+      "indexVariant": "AIOE-2021",
+      "coverage": 26.8,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 80.97
+    }
+  },
+  "uq-2000": {
+    "code": "uq-2000",
+    "name": "Bachelor of Arts",
+    "hasMarketReport": false,
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "jirN": 2381,
+    "nTitles": 97,
+    "nMedium": 48,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Arts (Anthropology)",
+          "n": 153
+        },
+        {
+          "name": "Bachelor of Arts (Asian Studies)",
+          "n": 43
+        },
+        {
+          "name": "Bachelor of Arts (Economics)",
+          "n": 196
+        },
+        {
+          "name": "Bachelor of Arts (Gender Studies)",
+          "n": 100
+        },
+        {
+          "name": "Bachelor of Arts (Geography)",
+          "n": 108
+        },
+        {
+          "name": "Bachelor of Arts (History)",
+          "n": 524
+        },
+        {
+          "name": "Bachelor of Arts (Politics and International",
+          "n": 339
+        },
+        {
+          "name": "Bachelor of Arts (Psychology)",
+          "n": 859
+        },
+        {
+          "name": "Bachelor of Arts (Screen And Cultural Studies)",
+          "n": 59
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 18 \"Bachelor of Arts (…)\" records",
+      "excludedSources": [
+        {
+          "name": "Bachelor of Arts (Ancient World Studies)",
+          "refusedTitles": [
+            "Collections Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Art History)",
+          "refusedTitles": [
+            "Gallery Attendant",
+            "Researcher",
+            "Art Consultant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Creative Writing)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Criminology)",
+          "refusedTitles": [
+            "Justice Officer",
+            "Senior Intelligence Analyst Team Leader"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (English and Theatre Studies)",
+          "refusedTitles": [
+            "Publishing Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Indigenous Studies)",
+          "refusedTitles": [
+            "Indigenous Education Officer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Media and Communications)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Philosophy)",
+          "refusedTitles": [
+            "University Lecturer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Sociology)",
+          "refusedTitles": [
+            "Youth Advisor"
+          ]
+        }
+      ]
+    }
+  },
   "usyd-advanced-computing-commerce": {
     "code": "usyd-advanced-computing-commerce",
     "name": "Bachelor of Advanced Computing and Bachelor of Commerce",
@@ -4683,6 +4934,119 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 52.1,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 87.21
+    }
+  },
+  "usyd-arts-extended": {
+    "code": "usyd-arts-extended",
+    "name": "Bachelor of Arts",
+    "hasMarketReport": false,
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "jirN": 2381,
+    "nTitles": 97,
+    "nMedium": 48,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Arts (Anthropology)",
+          "n": 153
+        },
+        {
+          "name": "Bachelor of Arts (Asian Studies)",
+          "n": 43
+        },
+        {
+          "name": "Bachelor of Arts (Economics)",
+          "n": 196
+        },
+        {
+          "name": "Bachelor of Arts (Gender Studies)",
+          "n": 100
+        },
+        {
+          "name": "Bachelor of Arts (Geography)",
+          "n": 108
+        },
+        {
+          "name": "Bachelor of Arts (History)",
+          "n": 524
+        },
+        {
+          "name": "Bachelor of Arts (Politics and International",
+          "n": 339
+        },
+        {
+          "name": "Bachelor of Arts (Psychology)",
+          "n": 859
+        },
+        {
+          "name": "Bachelor of Arts (Screen And Cultural Studies)",
+          "n": 59
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 18 \"Bachelor of Arts (…)\" records",
+      "excludedSources": [
+        {
+          "name": "Bachelor of Arts (Ancient World Studies)",
+          "refusedTitles": [
+            "Collections Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Art History)",
+          "refusedTitles": [
+            "Gallery Attendant",
+            "Researcher",
+            "Art Consultant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Creative Writing)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Criminology)",
+          "refusedTitles": [
+            "Justice Officer",
+            "Senior Intelligence Analyst Team Leader"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (English and Theatre Studies)",
+          "refusedTitles": [
+            "Publishing Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Indigenous Studies)",
+          "refusedTitles": [
+            "Indigenous Education Officer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Media and Communications)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Philosophy)",
+          "refusedTitles": [
+            "University Lecturer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Sociology)",
+          "refusedTitles": [
+            "Youth Advisor"
+          ]
+        }
+      ]
     }
   },
   "usyd-education": {
@@ -4764,6 +5128,119 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 36.6,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 91.5
+    }
+  },
+  "uwa-bp001": {
+    "code": "uwa-bp001",
+    "name": "Bachelor of Arts",
+    "hasMarketReport": false,
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "jirN": 2381,
+    "nTitles": 97,
+    "nMedium": 48,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Arts (Anthropology)",
+          "n": 153
+        },
+        {
+          "name": "Bachelor of Arts (Asian Studies)",
+          "n": 43
+        },
+        {
+          "name": "Bachelor of Arts (Economics)",
+          "n": 196
+        },
+        {
+          "name": "Bachelor of Arts (Gender Studies)",
+          "n": 100
+        },
+        {
+          "name": "Bachelor of Arts (Geography)",
+          "n": 108
+        },
+        {
+          "name": "Bachelor of Arts (History)",
+          "n": 524
+        },
+        {
+          "name": "Bachelor of Arts (Politics and International",
+          "n": 339
+        },
+        {
+          "name": "Bachelor of Arts (Psychology)",
+          "n": 859
+        },
+        {
+          "name": "Bachelor of Arts (Screen And Cultural Studies)",
+          "n": 59
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 18 \"Bachelor of Arts (…)\" records",
+      "excludedSources": [
+        {
+          "name": "Bachelor of Arts (Ancient World Studies)",
+          "refusedTitles": [
+            "Collections Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Art History)",
+          "refusedTitles": [
+            "Gallery Attendant",
+            "Researcher",
+            "Art Consultant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Creative Writing)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Criminology)",
+          "refusedTitles": [
+            "Justice Officer",
+            "Senior Intelligence Analyst Team Leader"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (English and Theatre Studies)",
+          "refusedTitles": [
+            "Publishing Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Indigenous Studies)",
+          "refusedTitles": [
+            "Indigenous Education Officer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Media and Communications)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Philosophy)",
+          "refusedTitles": [
+            "University Lecturer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Sociology)",
+          "refusedTitles": [
+            "Youth Advisor"
+          ]
+        }
+      ]
     }
   }
 };
@@ -5145,6 +5622,109 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 39.1,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 94.97
+  },
+  "anu-barts": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Arts (Anthropology)",
+        "n": 153
+      },
+      {
+        "name": "Bachelor of Arts (Asian Studies)",
+        "n": 43
+      },
+      {
+        "name": "Bachelor of Arts (Economics)",
+        "n": 196
+      },
+      {
+        "name": "Bachelor of Arts (Gender Studies)",
+        "n": 100
+      },
+      {
+        "name": "Bachelor of Arts (Geography)",
+        "n": 108
+      },
+      {
+        "name": "Bachelor of Arts (History)",
+        "n": 524
+      },
+      {
+        "name": "Bachelor of Arts (Politics and International",
+        "n": 339
+      },
+      {
+        "name": "Bachelor of Arts (Psychology)",
+        "n": 859
+      },
+      {
+        "name": "Bachelor of Arts (Screen And Cultural Studies)",
+        "n": 59
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 18 \"Bachelor of Arts (…)\" records",
+    "excludedSources": [
+      {
+        "name": "Bachelor of Arts (Ancient World Studies)",
+        "refusedTitles": [
+          "Collections Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Art History)",
+        "refusedTitles": [
+          "Gallery Attendant",
+          "Researcher",
+          "Art Consultant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Creative Writing)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Criminology)",
+        "refusedTitles": [
+          "Justice Officer",
+          "Senior Intelligence Analyst Team Leader"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (English and Theatre Studies)",
+        "refusedTitles": [
+          "Publishing Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Indigenous Studies)",
+        "refusedTitles": [
+          "Indigenous Education Officer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Media and Communications)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Philosophy)",
+        "refusedTitles": [
+          "University Lecturer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Sociology)",
+        "refusedTitles": [
+          "Youth Advisor"
+        ]
+      }
+    ]
   },
   "b-agr": {
     "tier": "field",
@@ -8123,6 +8703,124 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 71.99
   },
+  "unsw-4461": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0009 Society and Culture",
+        "n": null
+      }
+    ],
+    "field": "0009",
+    "indexVariant": "AIOE-2021",
+    "coverage": 26.8,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 80.97
+  },
+  "uq-2000": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Arts (Anthropology)",
+        "n": 153
+      },
+      {
+        "name": "Bachelor of Arts (Asian Studies)",
+        "n": 43
+      },
+      {
+        "name": "Bachelor of Arts (Economics)",
+        "n": 196
+      },
+      {
+        "name": "Bachelor of Arts (Gender Studies)",
+        "n": 100
+      },
+      {
+        "name": "Bachelor of Arts (Geography)",
+        "n": 108
+      },
+      {
+        "name": "Bachelor of Arts (History)",
+        "n": 524
+      },
+      {
+        "name": "Bachelor of Arts (Politics and International",
+        "n": 339
+      },
+      {
+        "name": "Bachelor of Arts (Psychology)",
+        "n": 859
+      },
+      {
+        "name": "Bachelor of Arts (Screen And Cultural Studies)",
+        "n": 59
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 18 \"Bachelor of Arts (…)\" records",
+    "excludedSources": [
+      {
+        "name": "Bachelor of Arts (Ancient World Studies)",
+        "refusedTitles": [
+          "Collections Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Art History)",
+        "refusedTitles": [
+          "Gallery Attendant",
+          "Researcher",
+          "Art Consultant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Creative Writing)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Criminology)",
+        "refusedTitles": [
+          "Justice Officer",
+          "Senior Intelligence Analyst Team Leader"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (English and Theatre Studies)",
+        "refusedTitles": [
+          "Publishing Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Indigenous Studies)",
+        "refusedTitles": [
+          "Indigenous Education Officer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Media and Communications)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Philosophy)",
+        "refusedTitles": [
+          "University Lecturer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Sociology)",
+        "refusedTitles": [
+          "Youth Advisor"
+        ]
+      }
+    ]
+  },
   "usyd-advanced-computing-commerce": {
     "tier": "field",
     "grain": "field",
@@ -8137,6 +8835,109 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 52.1,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 87.21
+  },
+  "usyd-arts-extended": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Arts (Anthropology)",
+        "n": 153
+      },
+      {
+        "name": "Bachelor of Arts (Asian Studies)",
+        "n": 43
+      },
+      {
+        "name": "Bachelor of Arts (Economics)",
+        "n": 196
+      },
+      {
+        "name": "Bachelor of Arts (Gender Studies)",
+        "n": 100
+      },
+      {
+        "name": "Bachelor of Arts (Geography)",
+        "n": 108
+      },
+      {
+        "name": "Bachelor of Arts (History)",
+        "n": 524
+      },
+      {
+        "name": "Bachelor of Arts (Politics and International",
+        "n": 339
+      },
+      {
+        "name": "Bachelor of Arts (Psychology)",
+        "n": 859
+      },
+      {
+        "name": "Bachelor of Arts (Screen And Cultural Studies)",
+        "n": 59
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 18 \"Bachelor of Arts (…)\" records",
+    "excludedSources": [
+      {
+        "name": "Bachelor of Arts (Ancient World Studies)",
+        "refusedTitles": [
+          "Collections Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Art History)",
+        "refusedTitles": [
+          "Gallery Attendant",
+          "Researcher",
+          "Art Consultant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Creative Writing)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Criminology)",
+        "refusedTitles": [
+          "Justice Officer",
+          "Senior Intelligence Analyst Team Leader"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (English and Theatre Studies)",
+        "refusedTitles": [
+          "Publishing Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Indigenous Studies)",
+        "refusedTitles": [
+          "Indigenous Education Officer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Media and Communications)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Philosophy)",
+        "refusedTitles": [
+          "University Lecturer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Sociology)",
+        "refusedTitles": [
+          "Youth Advisor"
+        ]
+      }
+    ]
   },
   "usyd-education": {
     "tier": "field",
@@ -8188,6 +8989,109 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 36.6,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 91.5
+  },
+  "uwa-bp001": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Arts (Anthropology)",
+        "n": 153
+      },
+      {
+        "name": "Bachelor of Arts (Asian Studies)",
+        "n": 43
+      },
+      {
+        "name": "Bachelor of Arts (Economics)",
+        "n": 196
+      },
+      {
+        "name": "Bachelor of Arts (Gender Studies)",
+        "n": 100
+      },
+      {
+        "name": "Bachelor of Arts (Geography)",
+        "n": 108
+      },
+      {
+        "name": "Bachelor of Arts (History)",
+        "n": 524
+      },
+      {
+        "name": "Bachelor of Arts (Politics and International",
+        "n": 339
+      },
+      {
+        "name": "Bachelor of Arts (Psychology)",
+        "n": 859
+      },
+      {
+        "name": "Bachelor of Arts (Screen And Cultural Studies)",
+        "n": 59
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 18 \"Bachelor of Arts (…)\" records",
+    "excludedSources": [
+      {
+        "name": "Bachelor of Arts (Ancient World Studies)",
+        "refusedTitles": [
+          "Collections Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Art History)",
+        "refusedTitles": [
+          "Gallery Attendant",
+          "Researcher",
+          "Art Consultant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Creative Writing)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Criminology)",
+        "refusedTitles": [
+          "Justice Officer",
+          "Senior Intelligence Analyst Team Leader"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (English and Theatre Studies)",
+        "refusedTitles": [
+          "Publishing Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Indigenous Studies)",
+        "refusedTitles": [
+          "Indigenous Education Officer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Media and Communications)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Philosophy)",
+        "refusedTitles": [
+          "University Lecturer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Sociology)",
+        "refusedTitles": [
+          "Youth Advisor"
+        ]
+      }
+    ]
   }
 };
 

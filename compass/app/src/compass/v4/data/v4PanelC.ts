@@ -57,6 +57,7 @@ import p_761em from "./v4PanelC/761em";
 import p_841ac from "./v4PanelC/841ac";
 import p_872bb from "./v4PanelC/872bb";
 import p_991aa from "./v4PanelC/991aa";
+import p_anu_barts from "./v4PanelC/anu-barts";
 import p_b_agr from "./v4PanelC/b-agr";
 import p_b_arts from "./v4PanelC/b-arts";
 import p_b_bmed from "./v4PanelC/b-bmed";
@@ -246,10 +247,14 @@ import p_mc_vetstdr from "./v4PanelC/mc-vetstdr";
 import p_mc_ymhmo from "./v4PanelC/mc-ymhmo";
 import p_me_dcd from "./v4PanelC/me-dcd";
 import p_n01aa from "./v4PanelC/n01aa";
+import p_unsw_4461 from "./v4PanelC/unsw-4461";
+import p_uq_2000 from "./v4PanelC/uq-2000";
 import p_usyd_advanced_computing_commerce from "./v4PanelC/usyd-advanced-computing-commerce";
+import p_usyd_arts_extended from "./v4PanelC/usyd-arts-extended";
 import p_usyd_education from "./v4PanelC/usyd-education";
 import p_usyd_juris_doctor from "./v4PanelC/usyd-juris-doctor";
 import p_usyd_psychology_coaching from "./v4PanelC/usyd-psychology-coaching";
+import p_uwa_bp001 from "./v4PanelC/uwa-bp001";
 
 export const V4_PANEL_C: Record<string, V4PanelC> = {
   "038ab": p_038ab,
@@ -284,6 +289,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "841ac": p_841ac,
   "872bb": p_872bb,
   "991aa": p_991aa,
+  "anu-barts": p_anu_barts,
   "b-agr": p_b_agr,
   "b-arts": p_b_arts,
   "b-bmed": p_b_bmed,
@@ -473,10 +479,14 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "mc-ymhmo": p_mc_ymhmo,
   "me-dcd": p_me_dcd,
   "n01aa": p_n01aa,
+  "unsw-4461": p_unsw_4461,
+  "uq-2000": p_uq_2000,
   "usyd-advanced-computing-commerce": p_usyd_advanced_computing_commerce,
+  "usyd-arts-extended": p_usyd_arts_extended,
   "usyd-education": p_usyd_education,
   "usyd-juris-doctor": p_usyd_juris_doctor,
   "usyd-psychology-coaching": p_usyd_psychology_coaching,
+  "uwa-bp001": p_uwa_bp001,
 };
 
 export const v4PanelCByCode = (code: string): V4PanelC | undefined =>
