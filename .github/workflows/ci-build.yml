@@ -170,5 +170,7 @@ jobs:
       # `npm test` globs *.test.ts only, so these two suites had never run in
       # CI. Both were green when first executed on 2026-09-07 — the gap was the
       # wiring, not the code.
+      - name: Install pytest
+        run: python3 -m pip install --quiet pytest
       - name: Python script tests
         run: python3 -m pytest scripts/ -q
