@@ -34,6 +34,7 @@ import {
   titlesOf,
   type PanelABasis,
 } from './dfva-panela-basis'
+import { isPublished } from './lib-institution'
 
 const ROOT = path.resolve(__dirname, '..')
 const ctx = loadPanelAContext()
@@ -88,6 +89,10 @@ for (const p of refNames) {
 let fieldTier = 0
 for (const code of scored.sort()) {
   if (v3Codes.has(code)) continue // Panel A comes from the v3 generator, guarded above
+  // A quarantined institution is deliberately absent from the generated modules
+  // (scripts/lib-institution.ts). Its Panel A basis is re-resolved when it is
+  // re-scored and republished, not now.
+  if (!isPublished(code)) continue
   const entry = v4Only[code]
   if (!entry) {
     errors.push(`${code}: has a panelCv4 block but no V4_ONLY_PROGRAMS entry — run dfva:gen-v4`)
