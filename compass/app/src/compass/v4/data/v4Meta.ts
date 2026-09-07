@@ -1028,6 +1028,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "adelaide-bcomp_bcmpsci": {
+    "code": "adelaide-bcomp_bcmpsci",
+    "name": "Bachelor of Computer Science",
+    "institution": "The University of Adelaide",
+    "institutionSlug": "adelaide",
+    "level": "bachelor",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 4,
+    "workplace": 3,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 0,
+    "W1": 1,
+    "W2": 1,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "adelaide-bengh_behcivs1": {
     "code": "adelaide-bengh_behcivs1",
     "name": "Bachelor of Engineering",
@@ -1100,6 +1125,56 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "gates": {
       "G1": "PASS",
       "G2": "FAIL"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "adelaide-mbusa_mbusad": {
+    "code": "adelaide-mbusa_mbusad",
+    "name": "Master of Business Administration",
+    "institution": "The University of Adelaide",
+    "institutionSlug": "adelaide",
+    "level": "master",
+    "exposure": 91.73,
+    "entryExposure": 95.09,
+    "exposureTier": "exact",
+    "adaptiveness": 6,
+    "workplace": 3,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 2,
+    "C5": 1,
+    "W1": 1,
+    "W2": 2,
+    "W3": 0,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "adelaide-mph_mpubhlt": {
+    "code": "adelaide-mph_mpubhlt",
+    "name": "Master of Public Health",
+    "institution": "The University of Adelaide",
+    "institutionSlug": "adelaide",
+    "level": "master",
+    "exposure": 89.46,
+    "entryExposure": 84.77,
+    "exposureTier": "exact",
+    "adaptiveness": 8,
+    "workplace": 6,
+    "C1": 1,
+    "C2": 2,
+    "C3": 1,
+    "C4": 2,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 2,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
     },
     "verifiedAt": "2026-09-07"
   },
@@ -1250,6 +1325,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "gates": {
       "G1": "FAIL",
       "G2": "FAIL"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "anu-mbusa": {
+    "code": "anu-mbusa",
+    "name": "Master of Business Administration",
+    "institution": "The Australian National University",
+    "institutionSlug": "anu",
+    "level": "master",
+    "exposure": 91.73,
+    "entryExposure": 95.09,
+    "exposureTier": "exact",
+    "adaptiveness": 6,
+    "workplace": 6,
+    "C1": 1,
+    "C2": 1,
+    "C3": 0,
+    "C4": 3,
+    "C5": 1,
+    "W1": 2,
+    "W2": 2,
+    "W3": 2,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
     },
     "verifiedAt": "2026-09-07"
   },
@@ -6078,6 +6178,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "monash-m6024": {
+    "code": "monash-m6024",
+    "name": "Master of Public Health",
+    "institution": "Monash University",
+    "institutionSlug": "monash",
+    "level": "master",
+    "exposure": 89.46,
+    "entryExposure": 84.77,
+    "exposureTier": "exact",
+    "adaptiveness": 8,
+    "workplace": 5,
+    "C1": 2,
+    "C2": 2,
+    "C3": 1,
+    "C4": 2,
+    "C5": 1,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "monash-s2000": {
     "code": "monash-s2000",
     "name": "Bachelor of Science",
@@ -6303,6 +6428,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "unsw-9045": {
+    "code": "unsw-9045",
+    "name": "Public Health",
+    "institution": "UNSW Sydney",
+    "institutionSlug": "unsw",
+    "level": "other",
+    "exposure": 76.5,
+    "entryExposure": 76.42,
+    "exposureTier": "field",
+    "adaptiveness": 5,
+    "workplace": 3,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "FAIL"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "uq-2000": {
     "code": "uq-2000",
     "name": "Bachelor of Arts",
@@ -6446,6 +6596,56 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "C5": 2,
     "W1": 2,
     "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "uq-5760": {
+    "code": "uq-5760",
+    "name": "Master of Public Health",
+    "institution": "The University of Queensland",
+    "institutionSlug": "uq",
+    "level": "master",
+    "exposure": 89.46,
+    "entryExposure": 84.77,
+    "exposureTier": "exact",
+    "adaptiveness": 9,
+    "workplace": 5,
+    "C1": 2,
+    "C2": 2,
+    "C3": 1,
+    "C4": 2,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "uq-5770": {
+    "code": "uq-5770",
+    "name": "Master of Business Administration",
+    "institution": "The University of Queensland",
+    "institutionSlug": "uq",
+    "level": "master",
+    "exposure": 91.73,
+    "entryExposure": 95.09,
+    "exposureTier": "exact",
+    "adaptiveness": 11,
+    "workplace": 6,
+    "C1": 2,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 3,
     "W3": 1,
     "gates": {
       "G1": "PASS",
@@ -6620,6 +6820,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "C4": 2,
     "C5": 1,
     "W1": 1,
+    "W2": 1,
+    "W3": 0,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "uwa-42520": {
+    "code": "uwa-42520",
+    "name": "Master of Business Administration",
+    "institution": "The University of Western Australia",
+    "institutionSlug": "uwa",
+    "level": "master",
+    "exposure": 91.73,
+    "entryExposure": 95.09,
+    "exposureTier": "exact",
+    "adaptiveness": 4,
+    "workplace": 1,
+    "C1": 2,
+    "C2": 1,
+    "C3": 0,
+    "C4": 1,
+    "C5": 0,
+    "W1": 0,
     "W2": 1,
     "W3": 0,
     "gates": {

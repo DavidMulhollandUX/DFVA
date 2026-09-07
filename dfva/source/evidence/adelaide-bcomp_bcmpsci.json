@@ -1,102 +1,132 @@
 {
   "code": "adelaide-bcomp_bcmpsci",
   "panelCv4": {
-    "instrument": "4.2-draft",
-    "adaptiveness": 15,
-    "workplace": 6,
     "C1": {
-      "score": 3,
-      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science.",
+      "score": 1,
+      "rationale": "Level 1 anchor: collaboration/teamwork appears in learning outcomes but no core unit is documented as assessing it. Teamwork is a program learning outcome, a learning outcome of core COMP SCI 2103, and the core Software Engineering & Project course is delivered as a semester-long group-based project — but that course page lists no assessment tasks at all, so the level-2 anchor ('at least one core unit assesses collaborative practice') is not documented. No core assessment allocates roles across people AND tools/AI systems, so level 3 is not reached either. Ambiguity between 1 and 2 resolved downward per the scoring-direction rule and R2.",
       "evidenceLines": [
-        "**Institution**: The University of Adelaide",
-        "**Program Identifier / Slug**: bcomp_bcmpsci",
-        "- **Institution**: The University of Adelaide"
+        "Demonstrate presentation, communication, reflection and teamwork skills appropriate for working as members of multi-disciplinary and multi-cultural team environments, with the capacity to be leaders or managers as well as effective team members.",
+        "- Work competently in a group to learn software concepts",
+        "Overview: Within the context of a semester-long, group-based software engineering project, this course provides an introduction to the production of high quality software solutions to large tasks.",
+        "- Apply in group-based software developmen"
       ]
     },
     "C2": {
-      "score": 3,
-      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science.",
+      "score": 1,
+      "rationale": "Level 1 anchor: reflection appears in the program learning outcomes but no core unit is documented as assessing appraisal of quality against criteria. The only candidate for level 2 is a 50% portfolio in core COMP SCI 1102, but the extract records only its weighting — nothing documenting standards, exemplars, peer review or structured critique, which the level-2 anchor requires ('portfolio with standards'). The one course documenting reflection on one's own performance is an elective, not core. No assessment requires documenting or justifying reliance on a tool or source, so level 3 is not reached.",
       "evidenceLines": [
-        "**Academic Calendar Year**: 2025/2026",
-        "**Faculty**: Faculty of Sciences, Engineering and Technology (SET)",
-        "- **Program Identifier / Slug**: bcomp_bcmpsci"
+        "Demonstrate presentation, communication, reflection and teamwork skills appropriate for working as members of multi-disciplinary and multi-cultural team environments, with the capacity to be leaders or managers as well as effective team members.",
+        "- Portfolio, Portfolio: 50%% (Hurdle: False)",
+        "- Demonstrate the ability to reflect in detail on your own programming performance and software development processes in a frequent, timely and useful manner"
       ]
     },
     "C3": {
-      "score": 3,
-      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science.",
+      "score": 1,
+      "rationale": "Level 1 anchor: AI appears only as elective or major-option content, not in the compulsory core. The core is digital-technique and tool content (programming, systems, databases, operating systems, networks); the AI courses that document AI ethics and societal implications sit in the majors and elective lists, not the core. The level-2 anchor requires core units to address AI capabilities AND limitations/ethics; the core carries data and cyber-security ethics (a core course titled 'Databases and Ethical Data', and assessed privacy/ethics outcomes in core Advanced Cyber Security), but not AI. Ambiguity between 1 and 2 — created by reading C3 broadly as digital governance rather than AI — resolved downward per the scoring-direction rule.",
       "evidenceLines": [
-        "Subject: Object-Oriented Programming (COMP1005)",
-        "Subject: Introduction to Software Engineering (COMP1035)",
-        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/bcomp_bcmpsci"
+        "Databases and Ethical Data",
+        "- Identify cyber-security-related privacy issues and ethical considerations.",
+        "- Explain the ethical and cultural considerations and societal implications of deploying artificial intelligence",
+        "Level III Computer Science Courses (9 units)"
       ]
     },
     "C4": {
-      "score": 3,
-      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science.",
+      "score": 1,
+      "rationale": "Level 1 anchor: transfer and independent self-directed learning are claimed in the program learning outcomes but are not documented as assessed. Core COMP SCI 2201 states an outcome of solving new analytic and algorithmic problems, but its assessment is recorded only as an assignment and exams with no description tying them to novel or unfamiliar problems, so the level-2 anchor is not documented. The one course that assesses identification of one's own performance gaps and a plan to close them is an elective, not part of the required core, so the level-3 route is unavailable. Ambiguity between 1 and 2 resolved downward.",
       "evidenceLines": [
-        "Convert a problem statement into an object-oriented design",
-        "Apply object-oriented principles and techniques to solve problems",
-        "- **Academic Calendar Year**: 2025/2026"
+        "Critically analyse and solve problems as independent self-directed learners by: 3.1 gathering, synthesising and critically evaluating information from a range of sources 3.2 analysing, selecting and applying appropriate Computer Science techniques and principles relevant to the problem solving context.",
+        "- Ability to solve new analytic and algorithmic problems.",
+        "- Assignment: 40%% (Hurdle: False)",
+        "- Designing and/or selecting new practice exercises in to address gaps in performance highlighted by your reflections"
       ]
     },
     "C5": {
-      "score": 3,
-      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science.",
+      "score": 0,
+      "rationale": "Level 0 anchor: no research-methods training appears in the core. The 36 units of core are programming, software engineering, computer systems, algorithms, web and database computing, operating systems, cyber security, project management and mathematics — there is no introductory methods course and no literature-review assessment, so even level 1 is not documented. The two courses whose outcomes mention conducting and reporting experiments are Level III elective or major-option courses, each one route among several, and neither records any assessment task, so the level-2 anchor (inquiry designed and conducted, with methodology selection and data collection, assessed) is not met.",
       "evidenceLines": [
-        "Subject: Computer Systems (COMP2000)",
-        "Subject: Algorithm Design & Data Structures (COMP2036)",
-        "Analyse the behaviour of object-oriented programs"
+        "To satisfy the requirements for Core Courses students must complete courses to the value of 36 units.",
+        "Only one of these courses can be presented toward the degree.",
+        "- Conduct computer vision experiments and report results systematically",
+        "- Experimentally evaluate heuristic search methods."
       ]
     },
+    "adaptiveness": 4,
     "W1": {
-      "score": 2,
-      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science.",
+      "score": 1,
+      "rationale": "Level 1 anchor: communication and professional conduct appear in the program learning outcomes and in a core course outcome, and core assessment adds within-cohort communication (a 30% discussion component in core Advanced Cyber Security), but no core assessment is documented as a recognised professional genre or as reaching an audience beyond the teaching team. The 50% report in that same core course is recorded only as 'Report', which the level-0 anchor treats as an academic genre addressed to the marker; nothing documents criteria drawn from professional practice, so the level-2 anchor is not met. R2 applies with full force here: the stated graduate attributes cannot lift the score.",
       "evidenceLines": [
-        "Develop programs using Model Driven Development",
-        "- **Institution**: The University of Adelaide",
-        "- **Program Identifier / Slug**: bcomp_bcmpsci"
+        "Be effective communicators, not only with other Computer Scientists, but with the community more broadly in the representation of ICT issues.",
+        "Demonstrate an awareness of professional practice, and professional, social and ethical concerns within the ICT domain.",
+        "- tDemonstrate appropriate professional conduct",
+        "- Discussion: 30%% (Hurdle: False)",
+        "- Report: 50%% (Hurdle: False)"
       ]
     },
     "W2": {
-      "score": 3,
-      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science.",
+      "score": 1,
+      "rationale": "Level 1 anchor: scenario-framed tasks appear in the core — the core project-management course is assessed entirely by three case studies — but the artefacts and criteria documented for core assessment stay academic (skills demonstrations, a portfolio, problem-solving tasks, short-response questions, assignments and exams). The core Software Engineering & Project course is the level-2 candidate, since it runs a semester-long project across the full software life-cycle, but its page records no assessment tasks and no criteria drawn from practice, so 'reproduces a professional task end to end ... judged against criteria drawn from practice' is not documented. Per R4 the industry-standards wording in the core programming outcome is a label, not a documented feature of the task. Ambiguity between 1 and 2 resolved downward.",
       "evidenceLines": [
-        "Test and debug to correct code defects",
-        "Subject: Algorithm & Data Structure Analysis (COMP2037)",
-        "- **Academic Calendar Year**: 2025/2026"
+        "- Case Study: 30%% (Hurdle: False)",
+        "- Case Study: 40%% (Hurdle: False)",
+        "- Skills Demonstration: 50%% (Hurdle: False)",
+        "- Apply industry programming standards for software development",
+        "Overview: Within the context of a semester-long, group-based software engineering project, this course provides an introduction to the production of high quality software solutions to large tasks."
       ]
     },
     "W3": {
       "score": 1,
-      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "rationale": "Level 1 anchor: work-situated learning exists only as an elective. Two STEM Internship courses appear in the Level III Computer Science course list inside the Electives requirement; no placement, practicum, live client project or community-based project appears anywhere in the 36 units of core, so the level-2 anchor (a core unit placing students in a real workplace with practitioner supervision and assessment) is not met. The cohort is not documented as already practising in the profession, so the in-practice route does not apply.",
       "evidenceLines": [
-        "The Bachelor of Computer Science caters for people with specific interests in computer science and / or information technology. It has a core of compulsory computer science courses and a wide range of elective choices according to their interests and strengths, including the selection of mathematics, commerce, economics, engineering, finance, arts, and sciences. In the third year students have the opportunity to choose at least one area of computer science to major in, which involves developing an in-depth understanding of the field. Graduates should be highly skilled in the design of computer-based solutions to the problems of information management and processing in industry, commerce, science, entertainment, and the public sector.",
-        "- **Institution**: The University of Adelaide"
+        "STEM 3700",
+        "STEM Internship",
+        "To satisfy the requirements for Electives students must complete courses to the value of 36 units:",
+        "Level III Computer Science Courses (9 units)"
       ]
     },
+    "workplace": 3,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Computer Science.",
+        "rationale": "PASS condition: a coherent specialist core with progressive technical depth. The program documents 36 units of compulsory computer science core, a staged Level I to Level III structure with minimum computer science unit values at each level, and a required third-year major giving in-depth specialisation. This is a specialist disciplinary sequence, not generic or interchangeable content.",
         "evidenceLines": [
-          "The Bachelor of Computer Science caters for people with specific interests in computer science and / or information technology. It has a core of compulsory computer science courses and a wide range of elective choices according to their interests and strengths, including the selection of mathematics, commerce, economics, engineering, finance, arts, and sciences. In the third year students have the opportunity to choose at least one area of computer science to major in, which involves developing an in-depth understanding of the field. Graduates should be highly skilled in the design of computer-based solutions to the problems of information management and processing in industry, commerce, science, entertainment, and the public sector.",
-          "The Bachelor of Computer Science is an AQF Level 7 qualification with a standard full-time duration of 3 years."
+          "It has a core of compulsory computer science courses and a wide range of elective choices according to their interests and strengths, including the selection of mathematics, commerce, economics, engineering, finance, arts, and sciences.",
+          "In the third year students have the opportunity to choose at least one area of computer science to major in, which involves developing an in-depth understanding of the field.",
+          "To satisfy the requirements for Core Courses students must complete courses to the value of 36 units.",
+          "Level II courses to the value of at least 18 units including Computer Science courses to the value of at least 12 units.",
+          "Level III courses to the value of at least 24 units including Computer Science courses to the value of at least 18 units."
         ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "Specialist academic program structured through sequential study in computer science.",
+        "rationale": "PASS condition: assessments require defended trade-off decisions, or projects with real uncertainty and accountability. Core Computer Systems states an outcome of comparing approaches and deciding which is best for a particular problem, and is assessed through graded problem-solving tasks rather than recall alone; the core Software Engineering & Project course runs a semester-long project covering requirements analysis, quality assurance and risk analysis; the core project-management course is assessed wholly by case studies. The FAIL condition — recall or scripted responses only — does not hold.",
         "evidenceLines": [
-          "Subject: Object-Oriented Programming (COMP1005)",
-          "**Institution**: The University of Adelaide"
+          "- Compare and contrast the different approaches to programming languages and make decisions on what approach is best for a particular problem",
+          "- Problem Solving Task: 25%% (Hurdle: False)",
+          "models of the software life-cycle, requirements analysis and specification, program design techniques and paradigms, software specification techniques, configuration management and version control, quality assurance, integration and testing, project management, risk analysis, case study of ethical considerations in Software Engineering.",
+          "- Case Study: 40%% (Hurdle: False)"
         ]
       }
     },
     "ambiguities": [
-      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
-      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+      "C1 straddled levels 1 and 2: the core Software Engineering & Project course is documented as a semester-long group-based project, which reads as level 2, but its page lists no assessment tasks, so 'a core unit assesses collaborative practice' is not documented. Resolved down to 1 by the scoring-direction rule and R2.",
+      "C2 straddled levels 1 and 2 on the 50% portfolio in core COMP SCI 1102: a portfolio is a level-2 exemplar only when it carries standards, and the extract records the weighting alone. Resolved down to 1.",
+      "C3 straddled levels 1 and 2 depending on whether the item is read as AI-specific or as digital governance broadly: the core carries data ethics (a course titled 'Databases and Ethical Data') and assessed cyber-security privacy and ethics, but AI capabilities and limitations sit in major-option and elective courses. Resolved down to 1 by the scoring-direction rule; the level-2 anchor names AI.",
+      "C4 straddled levels 1 and 2: core COMP SCI 2201 claims an outcome of solving new analytic and algorithmic problems, but its assignment and exams are not described, so application to novel or unfamiliar problems is not documented as assessed. Resolved down to 1.",
+      "W1 straddled levels 0 and 1: the 30% 'Discussion' component in core Advanced Cyber Security is not described, so whether it is spoken communication to peers and staff is unknown. Scored 1 because R2's uniform rule places a capability that appears in learning outcomes without documented professional-genre assessment at level 1.",
+      "W2 straddled levels 1 and 2 on the core Software Engineering & Project course: building software across the full life-cycle is the practitioner's own task, but with no assessment tasks and no practice-drawn criteria documented, the level-2 anchor is unmet. Resolved down to 1; R4 also bars scoring up on the 'industry programming standards' label.",
+      "The extract contains a page for ICT Capstone Project 2 (INFO3902), which documents a client project, an oral defence, a learning journal and product handover — evidence that would bear on C1, C2, W1 and W2. That course does not appear in this program's core, major or elective lists in the Academic Program Rules, so it was not scored. If it is in fact a required course for this program, C1, W1 and W2 would need re-scoring.",
+      "Assessment evidence for the alternative Software Engineering & Project variants (COMP SCI 3310, 3311, 3312, 3313) is absent as well: their pages carry neither learning outcomes nor assessment tasks, so no core-project assessment could be read from any of the five permitted options."
     ],
-    "notScoreable": []
+    "notScoreable": [
+      "No core course page in the extract documents the assessment of the capstone-equivalent Software Engineering & Project course (COMP SCI 3006 and its four variants): every one lists an empty 'Assessment Tasks' section. This is the evidence C1 levels 2-3 and W2 levels 2-3 require, so both items are scored at the level the remaining evidence supports rather than at the level the course description suggests.",
+      "Core COMP SCI 2208 'Databases and Ethical Data' has no course page in the extract — only the title in the core course table — so what it teaches and assesses about data ethics could not be read, which limits C3.",
+      "Core courses COMP SCI 1106 (Introduction to Software Engineering), COMP SCI 2103 (Algorithm Design & Data Structures) and COMP SCI 2207 (Web & Database Computing) list learning outcomes but no assessment tasks, so their outcomes could not be converted into assessment evidence for any item."
+    ],
+    "instrument": "4.2-draft",
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-09-07"
+    }
   }
 }
