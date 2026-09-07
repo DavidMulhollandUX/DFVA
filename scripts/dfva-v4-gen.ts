@@ -6,7 +6,7 @@
 import { promises as fs, existsSync, readFileSync } from 'node:fs'
 import * as path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { institutionOf, isPublished, levelOf, type V4Level } from './lib-institution'
+import { institutionOf, isPublishedRecord, levelOf, type V4Level } from './lib-institution'
 import {
   ALL_V4_ITEMS,
   GATES_V4,
@@ -529,10 +529,11 @@ export async function appV4DataModules(): Promise<{
     if (!data.panelCv4 || !data.code) continue
 
     // Quarantine: an institution that has not cleared the re-score guards does
-    // not reach the generated app data. The evidence file stays on disk — this
-    // narrows what is published, it does not discard anything. See
-    // scripts/lib-institution.ts for why, and which institutions are published.
-    if (!isPublished(data.code)) {
+    // not reach the generated app data, unless this particular record has been
+    // re-scored and verified in its own right. The evidence file stays on disk
+    // either way — this narrows what is published, it does not discard
+    // anything. See scripts/lib-institution.ts for both routes.
+    if (!isPublishedRecord(data.code, data.panelCv4.verified)) {
       quarantined.push(data.code)
       continue
     }

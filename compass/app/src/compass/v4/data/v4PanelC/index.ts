@@ -230,6 +230,10 @@ export const V4_PANEL_C_LOADERS: Record<
   "mc-ymhmo": () => import("./mc-ymhmo"),
   "me-dcd": () => import("./me-dcd"),
   "n01aa": () => import("./n01aa"),
+  "usyd-advanced-computing-commerce": () => import("./usyd-advanced-computing-commerce"),
+  "usyd-education": () => import("./usyd-education"),
+  "usyd-juris-doctor": () => import("./usyd-juris-doctor"),
+  "usyd-psychology-coaching": () => import("./usyd-psychology-coaching"),
 };
 
 export const hasV4PanelC = (code: string): boolean =>

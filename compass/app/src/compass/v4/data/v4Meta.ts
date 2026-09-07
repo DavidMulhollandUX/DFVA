@@ -5702,6 +5702,106 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
       "G2": "PASS"
     },
     "verifiedAt": "2026-08-30"
+  },
+  "usyd-advanced-computing-commerce": {
+    "code": "usyd-advanced-computing-commerce",
+    "name": "Bachelor of Advanced Computing and Bachelor of Commerce",
+    "institution": "The University of Sydney",
+    "institutionSlug": "usyd",
+    "level": "bachelor",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 3,
+    "workplace": 1,
+    "C1": 0,
+    "C2": 0,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 0,
+    "W3": 0,
+    "gates": {
+      "G1": "PASS",
+      "G2": "FAIL"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "usyd-education": {
+    "code": "usyd-education",
+    "name": "Education",
+    "institution": "The University of Sydney",
+    "institutionSlug": "usyd",
+    "level": "other",
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "exposureTier": "field",
+    "adaptiveness": 7,
+    "workplace": 1,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 3,
+    "C5": 1,
+    "W1": 1,
+    "W2": 0,
+    "W3": 0,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "usyd-juris-doctor": {
+    "code": "usyd-juris-doctor",
+    "name": "Juris Doctor",
+    "institution": "The University of Sydney",
+    "institutionSlug": "usyd",
+    "level": "doctorate",
+    "exposure": 94.43,
+    "entryExposure": 93.12,
+    "exposureTier": "exact",
+    "adaptiveness": 6,
+    "workplace": 3,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 2,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "usyd-psychology-coaching": {
+    "code": "usyd-psychology-coaching",
+    "name": "Coaching Psychology",
+    "institution": "The University of Sydney",
+    "institutionSlug": "usyd",
+    "level": "other",
+    "exposure": 89.85,
+    "entryExposure": 88.29,
+    "exposureTier": "field",
+    "adaptiveness": 5,
+    "workplace": 3,
+    "C1": 2,
+    "C2": 1,
+    "C3": 0,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 2,
+    "W3": 0,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
   }
 };
 

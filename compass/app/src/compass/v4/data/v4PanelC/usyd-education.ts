@@ -1,0 +1,134 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: collaboration appears in learning outcomes but no core unit assesses it. CILO 4 names leading inclusive and collaborative educational practice, so level 0 ('no collaborative, stakeholder or team-based work is assessed anywhere in the core') is falsified only at the outcome layer. Level 2 requires at least one core unit to ASSESS collaborative practice; the four core units (EDPU5001, EDPU5002, EDPU5003, EDPD5001) carry only boilerplate outcomes and an empty 'Assessment Tasks:' field, so no assessed group project, client or interprofessional work is documented, and R2 fixes the score at 1.",
+    "evidenceLines": [
+      "Demonstrate understanding theory and practice in relation to ethical education practice and cultural and intercultural competence by challenging deficit discourses, demonstrating how to lead inclusive and collaborative educational practice and demonstrating change in professional and personal identities.",
+      "Core units",
+      "Assessment Tasks:"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: appraisal and reflection appear in outcomes but no core unit assesses them against criteria. CILO 2 claims review, evaluation and critique of research, theory and policy and CILO 3 claims critical reflection on theory and professional practice; both are course learning outcomes. Level 2 requires core assessment containing criterion-referenced appraisal (peer review, structured critique, portfolio against standards) — the unit pages document no assessment tasks at all, so no peer review, exemplar-referenced marking or reliance-decision task can be quoted, and R2 holds the score at 1.",
+    "evidenceLines": [
+      "Review, evaluate and critique research, theory and policy through a range of tasks relevant to specific educational stream disciplines such as critical thinking, problem solving, evaluating differentiating, inventiveness, and information and digital literacy skills.",
+      "Demonstrate key oral and written communication skills and evaluative skills, to demonstrate mastery of theoretical knowledge and to reflect critically on theory and professional practice, demonstrated in academic scholarship.",
+      "Assessment Tasks:"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 0 ('no digital/AI content in any core unit or program-level outcome') is falsified: CILO 2 lists information and digital literacy skills as a program-level outcome. Level 2 requires core units to address AI capabilities AND limitations or ethics with use-with-limits assessed; the extract carries no AI content anywhere — the core unit 'Future Learning and Teaching' page shows only boilerplate outcomes and an empty assessment field, and no unit description mentions gen AI, data governance or algorithmic accountability. The evidence is a bare outcome-level mention of digital literacy, which cannot rise above the non-durable operational level TEQSA identifies, so 1.",
+    "evidenceLines": [
+      "Review, evaluate and critique research, theory and policy through a range of tasks relevant to specific educational stream disciplines such as critical thinking, problem solving, evaluating differentiating, inventiveness, and information and digital literacy skills.",
+      "Future Learning and Teaching",
+      "Assessment Tasks:"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3 anchor: 'the program documents structured progression toward independent learning: a self-scoped capstone or research project'. The award rules make capstone credit compulsory (6-12 cp of a 72 cp degree), and the capstone units named in the unit-of-study table are a Dissertation or Special Project, with a staged prerequisite chain from Dissertation Part 1 to Dissertation Part 2. This is a curriculum-structure requirement (the analogue of a placement requirement under R2), not an outcome claim; CILO 7 is cited only as corroboration since an outcome statement alone would be insufficient. Level 2 is not the fit: no core assessment applying methods to novel or unfamiliar problems is documented anywhere, so the level-2 anchor is unevidenced while the level-3 structural anchor is directly quotable.",
+    "evidenceLines": [
+      "Students must complete 72 credit points, including:",
+      "(c) a minimum of 6 and a maximum of 12 credit points of capstone units of study.",
+      "Capstone units",
+      "Dissertation Part 2",
+      "Plan and execute a substantial capstone experience and/or piece of scholarship in the form of a Special Project or Dissertation with high level of autonomy and personal accountability."
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1 anchor: an introductory methods unit. Research Methodology in Education is a core unit and Qualitative Methods and Quantitative Methods sit in the selective list. Level 2 requires students to design and conduct an inquiry with methodology selection AND data collection, assessed: the extract documents neither — the methods unit page carries only boilerplate outcomes and an empty 'Assessment Tasks:' field. Level 3 additionally requires a substantial primary-evidence project that is not one route among several with methodology defended under scrutiny; the capstone allows a Special Project alternative and no viva, defence or staged supervised review is documented. Per 'one construct, one home', the required capstone is scored in C4 (self-scoped independent learning) and is not re-used here.",
+    "evidenceLines": [
+      "Research Methodology in Education",
+      "Qualitative Methods",
+      "Quantitative Methods",
+      "Critically evaluate foundational principles, evidence bases, and contemporary methodologies in research methodology in education.",
+      "Assessment Tasks:"
+    ]
+  },
+  "adaptiveness": 7,
+  "W1": {
+    "score": 1,
+    "rationale": "Communication appears in outcomes — CILO 3 claims oral and written communication skills, and every unit page repeats a boilerplate outcome about communicating to technical and professional stakeholders — but no core assessment is documented, so R2's uniform floor of 1 applies. Level 2 requires at least one core assessment in a recognised professional genre or to an audience beyond the teaching team, judged against criteria drawn from practice: no such task is quotable, and CILO 3 explicitly locates the communication 'in academic scholarship' (the marker-facing genre of level 0). Barrie's prohibition on scoring stated attributes prevents the boilerplate stakeholder-communication outcome from lifting this to 2.",
+    "evidenceLines": [
+      "Demonstrate key oral and written communication skills and evaluative skills, to demonstrate mastery of theoretical knowledge and to reflect critically on theory and professional practice, demonstrated in academic scholarship.",
+      "Communicate evidence-based findings effectively to technical and professional stakeholders.",
+      "Assessment Tasks:"
+    ]
+  },
+  "W2": {
+    "score": 0,
+    "rationale": "No assessment task of any kind is documented: all 42 unit pages in the extract end with an empty 'Assessment Tasks:' field, so no scenario framing, no practitioner artefact and no practice-drawn criteria can be quoted for level 1 or level 2. The only candidate text is the boilerplate unit outcome about resolving complex real-world challenges, and R4 forbids scoring a program up on the 'real-world' label rather than documented task features. The score records absent evidence of contextualised task design rather than verified decontextualisation, so W2 is also listed in notScoreable.",
+    "evidenceLines": [
+      "Assessment Tasks:",
+      "Synthesise disciplinary knowledge to resolve complex real-world challenges.",
+      "Apply ethical frameworks and professional standards in practice."
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0 anchor: no work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure. The unit-of-study table lists four core units, a selective list and capstone units only — no practicum, internship or placement unit — and the overview states the program does not lead to a professional teaching qualification, so no registration-driven professional experience requirement attaches. The v4.2 in-practice route does not apply either: although the program is intended for trained teachers, no core unit is documented as assessing activity conducted in the student's own practice with real recipients and an outcome measure.",
+    "evidenceLines": [
+      "does not lead to a professional teaching qualification.",
+      "It is intended for trained teachers or those who wish to better understand educational theory and research.",
+      "Core units",
+      "Capstone units",
+      "Assessment Tasks:"
+    ]
+  },
+  "workplace": 1,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS condition: a coherent specialist core with progressive depth. The award requires 24 credit points of compulsory core units, all within education (Research Methodology in Education, Critical Issues in Education, Future Learning and Teaching, Students with Disability), plus compulsory capstone credit; the capstone sequence carries a staged prerequisite chain from Dissertation Part 1 to Dissertation Part 2. The content is disciplinary rather than generic or interchangeable, so the FAIL condition is not met, though the large selective allowance (36-42 cp) and the fact that a stream is optional mean the depth beyond the core is candidate-chosen.",
+      "evidenceLines": [
+        "(a) 24 credit points of core units of study; AND",
+        "Core units",
+        "Research Methodology in Education",
+        "Dissertation Part 2",
+        "(2) Completion of a stream is not a requirement of the degree."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS condition includes capstones or live projects with real uncertainty and accountability. Compulsory capstone credit is a rule of the award and the capstone units are a Dissertation or Special Project, which the course outcomes describe as executed with a high level of autonomy and personal accountability. The extract documents no defended trade-off assessment task, so the PASS rests solely on the required capstone route; the FAIL condition (recall or scripted responses only) is not evidenced.",
+      "evidenceLines": [
+        "(c) a minimum of 6 and a maximum of 12 credit points of capstone units of study.",
+        "Capstone units",
+        "Subject: Dissertation (EDPZ6720)",
+        "Plan and execute a substantial capstone experience and/or piece of scholarship in the form of a Special Project or Dissertation with high level of autonomy and personal accountability."
+      ]
+    }
+  },
+  "ambiguities": [
+    "Whole extract: every one of the 42 unit-of-study pages ends with an empty 'Assessment Tasks:' field and an empty 'Workload:' field, and the unit learning outcomes are identical boilerplate. R2 therefore caps C1, C2, C3, W1 and W2 at the outcome layer regardless of what the units may in fact assess.",
+    "C1 straddled 0 and 1: no collaborative work is documented as assessed (level 0 wording), but collaborative practice does appear in CILO 4 (level 1 wording). Scored 1 because R2 states a capability that appears in outcomes but is never assessed scores 1 uniformly.",
+    "C3 straddled 0 and 1: the level-1 wording (AI or digital tools as electives or tool operation) is not literally matched, but level 0 is falsified by the program-level digital-literacy outcome. Scored 1 as the lower level available on the evidence.",
+    "C4 versus C5: the required capstone (Dissertation or Special Project) is named by both the C4 level-3 anchor and the C5 level-3 anchor. Under 'one construct, one home' it is scored once, in C4, whose anchor names a self-scoped capstone as the marker of progression to independent learning; C5's level-3 route additionally demands primary evidence generation and a documented defence, neither of which the extract carries.",
+    "C4 straddled the R2 rule: the autonomy language sits in CILO 7, an outcome statement that would be insufficient alone. The level-3 score rests on the compulsory capstone credit and the named capstone units in the structure, which are curriculum requirements rather than outcome claims; no assessment task description exists for those units.",
+    "C5 straddled 1 and 2: a required capstone implies conducting an inquiry, but methodology selection and data collection are nowhere documented and the Special Project alternative need not be empirical. Resolved to the lower level, 1.",
+    "W1 straddled 0 and 1: the level-1 wording also expects assessed presentation to peers or staff, which is not documented, while CILO 3 places the communication 'in academic scholarship' (level-0 wording). Scored 1 because R2's uniform floor applies to an outcome-only capability.",
+    "W3 in-practice route: the cohort is described as intended for trained teachers, which is close to 'documented as already practising', but the route also requires a core unit assessing own-practice activity with real recipients and an outcome measure, which is absent. Scored 0 rather than 2.",
+    "The selective unit EDPL6002 Aboriginal Community Collaboration has a title suggesting community-based work, but its page carries only boilerplate outcomes and no assessment; it is a selective, not a core unit, so it was not scored in W3 or C1."
+  ],
+  "notScoreable": [
+    "W2 — the extract contains no assessment task descriptions for any unit (every 'Assessment Tasks:' field is empty), so the fidelity of core assessment to the criterion situation of educational practice cannot be assessed from this evidence; the 0 records absent evidence, not verified decontextualisation.",
+    "Core unit content generally — the four core unit pages (EDPU5001, EDPU5002, EDPU5003, EDPD5001) carry only auto-generated boilerplate overviews and outcomes identical to every other unit in the extract, so no unit-level content evidence was available for C1, C2, C3 or W1.",
+    "Capstone unit requirements — the Dissertation, Dissertation Part 1/2 and Special Project 1 pages document no supervision arrangement, no data-collection requirement and no defence or examination, so the depth of the capstone could not be scored for C5 level 2 or 3."
+  ],
+  "instrument": "4.2-draft",
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-07"
+  }
+};
+
+export default record;

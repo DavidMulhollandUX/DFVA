@@ -4659,6 +4659,112 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 71.99
     }
+  },
+  "usyd-advanced-computing-commerce": {
+    "code": "usyd-advanced-computing-commerce",
+    "name": "Bachelor of Advanced Computing and Bachelor of Commerce",
+    "hasMarketReport": false,
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0201 Computer Science",
+          "n": null
+        }
+      ],
+      "field": "0201",
+      "indexVariant": "AIOE-2021",
+      "coverage": 52.1,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 87.21
+    }
+  },
+  "usyd-education": {
+    "code": "usyd-education",
+    "name": "Education",
+    "hasMarketReport": false,
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "jirN": null,
+    "nTitles": 10,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0701 Teacher Education",
+          "n": null
+        }
+      ],
+      "field": "0701",
+      "indexVariant": "AIOE-2021",
+      "coverage": 71.9,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "School Teachers nfd",
+          "share": 3.74
+        },
+        {
+          "title": "University Lecturer",
+          "share": 0.631
+        }
+      ],
+      "exposureWeighted": 85.86
+    }
+  },
+  "usyd-juris-doctor": {
+    "code": "usyd-juris-doctor",
+    "name": "Juris Doctor",
+    "hasMarketReport": false,
+    "exposure": 94.43,
+    "entryExposure": 93.12,
+    "jirN": 1277,
+    "nTitles": 15,
+    "nMedium": 7,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Juris Doctor",
+          "n": 1277
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
+  },
+  "usyd-psychology-coaching": {
+    "code": "usyd-psychology-coaching",
+    "name": "Coaching Psychology",
+    "hasMarketReport": false,
+    "exposure": 89.85,
+    "entryExposure": 88.29,
+    "jirN": null,
+    "nTitles": 12,
+    "nMedium": 2,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 090701 Psychology",
+          "n": null
+        }
+      ],
+      "field": "090701",
+      "indexVariant": "AIOE-2021",
+      "coverage": 36.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 91.5
+    }
   }
 };
 
@@ -8016,6 +8122,72 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 38,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 71.99
+  },
+  "usyd-advanced-computing-commerce": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0201 Computer Science",
+        "n": null
+      }
+    ],
+    "field": "0201",
+    "indexVariant": "AIOE-2021",
+    "coverage": 52.1,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 87.21
+  },
+  "usyd-education": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0701 Teacher Education",
+        "n": null
+      }
+    ],
+    "field": "0701",
+    "indexVariant": "AIOE-2021",
+    "coverage": 71.9,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "School Teachers nfd",
+        "share": 3.74
+      },
+      {
+        "title": "University Lecturer",
+        "share": 0.631
+      }
+    ],
+    "exposureWeighted": 85.86
+  },
+  "usyd-juris-doctor": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Juris Doctor",
+        "n": 1277
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "usyd-psychology-coaching": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 090701 Psychology",
+        "n": null
+      }
+    ],
+    "field": "090701",
+    "indexVariant": "AIOE-2021",
+    "coverage": 36.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 91.5
   }
 };
 

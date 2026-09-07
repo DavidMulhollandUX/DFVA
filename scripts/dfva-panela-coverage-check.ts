@@ -34,7 +34,7 @@ import {
   titlesOf,
   type PanelABasis,
 } from './dfva-panela-basis'
-import { isPublished } from './lib-institution'
+import { isPublishedRecord } from './lib-institution'
 
 const ROOT = path.resolve(__dirname, '..')
 const ctx = loadPanelAContext()
@@ -62,10 +62,16 @@ const meta = metaBlock ? (JSON.parse(metaBlock[1]) as { expMedianField: number |
 // --- every program carrying a v4 score --------------------------------------
 const evidenceDir = path.join(ROOT, 'dfva/source/evidence')
 const scored: string[] = []
+const publishedCodes = new Set<string>()
 for (const f of readdirSync(evidenceDir)) {
   if (!f.endsWith('.json')) continue
-  const d = JSON.parse(readFileSync(path.join(evidenceDir, f), 'utf8')) as { code?: string; panelCv4?: unknown }
-  if (d.panelCv4 && d.code) scored.push(d.code)
+  const d = JSON.parse(readFileSync(path.join(evidenceDir, f), 'utf8')) as {
+    code?: string
+    panelCv4?: { verified?: { date?: string } | null }
+  }
+  if (!d.panelCv4 || !d.code) continue
+  scored.push(d.code)
+  if (isPublishedRecord(d.code, d.panelCv4.verified)) publishedCodes.add(d.code)
 }
 
 // --- 1. reference cohort: the resolver must reproduce the published v3 values -
@@ -89,10 +95,10 @@ for (const p of refNames) {
 let fieldTier = 0
 for (const code of scored.sort()) {
   if (v3Codes.has(code)) continue // Panel A comes from the v3 generator, guarded above
-  // A quarantined institution is deliberately absent from the generated modules
+  // A quarantined record is deliberately absent from the generated modules
   // (scripts/lib-institution.ts). Its Panel A basis is re-resolved when it is
   // re-scored and republished, not now.
-  if (!isPublished(code)) continue
+  if (!publishedCodes.has(code)) continue
   const entry = v4Only[code]
   if (!entry) {
     errors.push(`${code}: has a panelCv4 block but no V4_ONLY_PROGRAMS entry — run dfva:gen-v4`)

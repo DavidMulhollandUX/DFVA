@@ -22,7 +22,7 @@
  */
 import { readdirSync, readFileSync } from 'node:fs'
 import * as path from 'node:path'
-import { institutionOf, isPublished } from './lib-institution'
+import { institutionOf, isPublishedRecord } from './lib-institution'
 
 const ROOT = path.resolve(__dirname, '..')
 const ALL = process.argv.includes('--all')
@@ -40,6 +40,7 @@ interface Rec {
   code: string
   adaptiveness: number
   rationales: Record<string, string>
+  published: boolean
 }
 
 const byInstitution = new Map<string, Rec[]>()
@@ -48,7 +49,10 @@ for (const f of readdirSync(evidenceDir)) {
   if (!f.endsWith('.json')) continue
   const d = JSON.parse(readFileSync(path.join(evidenceDir, f), 'utf8')) as {
     code?: string
-    panelCv4?: Record<string, { score?: number; rationale?: string }> & { adaptiveness?: number }
+    panelCv4?: Record<string, { score?: number; rationale?: string }> & {
+      adaptiveness?: number
+      verified?: { date?: string } | null
+    }
   }
   const p = d.panelCv4
   if (!p || !d.code || typeof p.adaptiveness !== 'number') continue
@@ -56,7 +60,12 @@ for (const f of readdirSync(evidenceDir)) {
   for (const it of ITEMS) if (p[it]?.rationale) rationales[it] = p[it]!.rationale!
   const slug = institutionOf(d.code).slug
   const list = byInstitution.get(slug) ?? []
-  list.push({ code: d.code, adaptiveness: p.adaptiveness, rationales })
+  list.push({
+    code: d.code,
+    adaptiveness: p.adaptiveness,
+    rationales,
+    published: isPublishedRecord(d.code, p.verified),
+  })
   byInstitution.set(slug, list)
 }
 
@@ -71,12 +80,10 @@ const adaptMedian = medianMatch ? parseFloat(medianMatch[1]) : null
 const errors: string[] = []
 const rows: string[] = []
 
-for (const [slug, recs] of [...byInstitution.entries()].sort()) {
-  const name = institutionOf(recs[0].code).name
-  const published = isPublished(recs[0].code)
-  const fatal = published || ALL
-
-  // 6. Distinctness: no single rationale may cover more than MAX_SHARE of the cohort.
+/** The two cohort-shape numbers: the most-repeated rationale's share of the
+ *  cohort, and how many of its programs fall below the reference median. */
+function shapeOf(recs: Rec[]): { worstItem: string; worstShare: number; below: number | null } {
+  // 6. Distinctness: no single rationale may cover more than MAX_SHARE.
   let worstItem = ''
   let worstShare = 0
   for (const it of ITEMS) {
@@ -89,38 +96,63 @@ for (const [slug, recs] of [...byInstitution.entries()].sort()) {
       counts.set(t, (counts.get(t) ?? 0) + 1)
     }
     if (!n) continue
-    const top = Math.max(...counts.values())
-    const share = top / n
+    const share = Math.max(...counts.values()) / n
     if (share > worstShare) {
       worstShare = share
       worstItem = it
     }
   }
-
   // 7. Range: the cohort must span below the median it is placed against.
   const below =
     adaptMedian === null ? null : recs.filter((r) => r.adaptiveness < adaptMedian).length
+  return { worstItem, worstShare, below }
+}
+
+for (const [slug, recs] of [...byInstitution.entries()].sort()) {
+  const name = institutionOf(recs[0].code).name
+  // What reaches /reports is the published SUBSET, not the institution. Since
+  // the Go8 cross-section publishes individual verified records out of otherwise
+  // quarantined universities, judging the whole institution would fail a site
+  // that is showing only good records — and judging nothing would let a
+  // templated cohort through. So the cohort under test is what is published.
+  const pub = recs.filter((r) => r.published)
+  const cohort = ALL ? recs : pub
+  const fatal = cohort.length > 0
+
+  const shape = shapeOf(cohort)
+  // The printed row describes the WHOLE institution even when only a sample of
+  // it publishes: that whole-cohort shape is the diagnostic that exposed the
+  // templating in the first place, and it stays visible while the institution
+  // is being re-scored program by program.
+  const whole = shapeOf(recs)
+  const { worstItem, worstShare, below } = shape
 
   rows.push(
     `${name.padEnd(38)} n=${String(recs.length).padStart(5)}  ` +
-      `top-${worstItem || '--'} ${(worstShare * 100).toFixed(1).padStart(5)}%  ` +
-      `below median ${below === null ? '  ?' : String(below).padStart(4)}  ` +
-      (published ? 'published' : 'quarantined'),
+      `top-${whole.worstItem || '--'} ${(whole.worstShare * 100).toFixed(1).padStart(5)}%  ` +
+      `below median ${whole.below === null ? '  ?' : String(whole.below).padStart(4)}  ` +
+      (pub.length === recs.length
+        ? 'published'
+        : pub.length === 0
+          ? 'quarantined'
+          : `${pub.length} of ${recs.length} published`),
   )
 
-  if (recs.length < MIN_COHORT) continue
+  // Below this size the cohort tests say nothing, so a sample neither passes nor
+  // fails them — it publishes on its per-record verification alone.
+  if (cohort.length < MIN_COHORT) continue
 
   if (worstShare > MAX_SHARE) {
     const msg =
       `${name}: one ${worstItem} rationale covers ${(worstShare * 100).toFixed(1)}% of ` +
-      `${recs.length} programs (limit ${(MAX_SHARE * 100).toFixed(0)}%) — this is template ` +
+      `${cohort.length} programs (limit ${(MAX_SHARE * 100).toFixed(0)}%) — this is template ` +
       `output, not scoring. See docs/dfva-national-expansion-spec.md.`
     if (fatal) errors.push(msg)
   }
 
   if (below === 0 && adaptMedian !== null) {
     const msg =
-      `${name}: no program of ${recs.length} scores below the reference median ` +
+      `${name}: no program of ${cohort.length} scores below the reference median ` +
       `(${adaptMedian}) on adaptiveness — the cohort has not been discriminated, and every ` +
       `program would publish in the high-adaptiveness half.`
     if (fatal) errors.push(msg)

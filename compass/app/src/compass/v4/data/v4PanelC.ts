@@ -246,6 +246,10 @@ import p_mc_vetstdr from "./v4PanelC/mc-vetstdr";
 import p_mc_ymhmo from "./v4PanelC/mc-ymhmo";
 import p_me_dcd from "./v4PanelC/me-dcd";
 import p_n01aa from "./v4PanelC/n01aa";
+import p_usyd_advanced_computing_commerce from "./v4PanelC/usyd-advanced-computing-commerce";
+import p_usyd_education from "./v4PanelC/usyd-education";
+import p_usyd_juris_doctor from "./v4PanelC/usyd-juris-doctor";
+import p_usyd_psychology_coaching from "./v4PanelC/usyd-psychology-coaching";
 
 export const V4_PANEL_C: Record<string, V4PanelC> = {
   "038ab": p_038ab,
@@ -469,6 +473,10 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "mc-ymhmo": p_mc_ymhmo,
   "me-dcd": p_me_dcd,
   "n01aa": p_n01aa,
+  "usyd-advanced-computing-commerce": p_usyd_advanced_computing_commerce,
+  "usyd-education": p_usyd_education,
+  "usyd-juris-doctor": p_usyd_juris_doctor,
+  "usyd-psychology-coaching": p_usyd_psychology_coaching,
 };
 
 export const v4PanelCByCode = (code: string): V4PanelC | undefined =>
