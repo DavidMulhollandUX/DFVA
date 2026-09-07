@@ -38643,26 +38643,22 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-li": {
     "code": "mc-li",
     "name": "Master of Learning Intervention",
-    "hasMarketReport": false,
-    "exposure": 80.01,
-    "entryExposure": 80.01,
-    "jirN": null,
-    "nTitles": 14,
-    "nMedium": 4,
+    "hasMarketReport": true,
+    "exposure": 85.7,
+    "entryExposure": 84.78,
+    "jirN": 45,
+    "nTitles": 15,
+    "nMedium": 7,
     "exposureBasis": {
-      "tier": "field",
-      "grain": "field",
+      "tier": "exact",
+      "grain": "program",
       "sources": [
         {
-          "name": "JSA HEO · 070113 Teacher Education: Special Education",
-          "n": null
+          "name": "Master of Learning Intervention",
+          "n": 45
         }
       ],
-      "field": "070113",
-      "indexVariant": "AIOE-2021",
-      "coverage": 82.8,
-      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
-      "exposureWeighted": 83.66
+      "indexVariant": "AIOE-2021"
     }
   },
   "mc-mecheng": {
@@ -109075,19 +109071,15 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ]
   },
   "mc-li": {
-    "tier": "field",
-    "grain": "field",
+    "tier": "exact",
+    "grain": "program",
     "sources": [
       {
-        "name": "JSA HEO · 070113 Teacher Education: Special Education",
-        "n": null
+        "name": "Master of Learning Intervention",
+        "n": 45
       }
     ],
-    "field": "070113",
-    "indexVariant": "AIOE-2021",
-    "coverage": 82.8,
-    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
-    "exposureWeighted": 83.66
+    "indexVariant": "AIOE-2021"
   },
   "mc-mecheng": {
     "tier": "exact",

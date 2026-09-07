@@ -30272,9 +30272,9 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
   "mc-li": {
     "code": "mc-li",
     "name": "Master of Learning Intervention",
-    "exposure": 80.01,
-    "entryExposure": 80.01,
-    "exposureTier": "field",
+    "exposure": 85.7,
+    "entryExposure": 84.78,
+    "exposureTier": "exact",
     "adaptiveness": 6,
     "workplace": 5,
     "C1": 1,
