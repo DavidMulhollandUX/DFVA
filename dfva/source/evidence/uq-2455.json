@@ -1,102 +1,140 @@
 {
   "code": "uq-2455",
   "panelCv4": {
-    "instrument": "4.2-draft",
-    "adaptiveness": 14,
-    "workplace": 6,
     "C1": {
-      "score": 3,
-      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in engineering and related technologies, n.e.c..",
+      "score": 2,
+      "rationale": "Level 2 anchor met: core-listed prescribed units assess collaborative practice as group projects with individual accountability - ENGG1100 Professional Engineering carries team oral presentation, team design demonstration and team final report alongside separately weighted individual components. Not level 3: although assessed group work recurs across many prescribed units, no assessment in the extract requires coordinating work across people AND tools/AI systems, and no team capstone with documented role and tool allocation appears. The nearest human-plus-tool coordination evidence (DECO2801 Human-Centred AI) is a learning outcome, and R2 forbids scoring an unassessed outcome at level 3.",
       "evidenceLines": [
-        "**Institution**: The University of Queensland (UQ)",
-        "**Program Code**: 2455",
-        "- **Institution**: The University of Queensland (UQ)"
+        "- Work effectively in an engineering team, identify the characteristics of effective team work and critically evaluate personal and peer contributions to team processes. [Team Work]",
+        "- Concept Report (Individual): 20%% (Hurdle: False)",
+        "- Oral Presentation (Team) Identity Verified Team or group-based In-person: 15%% (Hurdle: False)",
+        "- Design Project: Final Report (Team) Hurdle Team or group-based: 30% Hurdle% (Hurdle: True)",
+        "- Evaluate the role of human-AI collaboration in enhancing decision-making, productivity, and creativity."
       ]
     },
     "C2": {
-      "score": 3,
-      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in engineering and related technologies, n.e.c..",
+      "score": 2,
+      "rationale": "Level 2 anchor met: criterion-referenced appraisal of quality is embedded in marked assessment - peer assessment forms part of a 30% team assignment in ENGG4103, carries 5% of a FOOD2000 group presentation, and is compulsory in CIVL3390. Not level 3: no assessment in the extract requires students to document and justify reliance decisions on a tool, source or collaborator, or to defend judgements of AI-output quality. INFS4205's AI-assisted reflective inquiry is the closest process-focused instance but its description states only that five short reflective submissions are made, not that reliance or override decisions are documented and justified.",
       "evidenceLines": [
-        "**Academic Year**: 2026",
-        "**Program Level**: Undergraduate",
-        "- **Program Level**: Undergraduate"
+        "- Assignment 1: Maintenance Strategy Formulation Team or group-based: 30% Includes Peer Assessment% (Hurdle: False)",
+        "- Sequential FOOD2000 Mini-Conference - Next-Gen Foods Symposium (Group Presentation on Next-Gen Foods) Team or group-based In-person: 25% Each assessment task is weighted as follows: 8% for pdf of Presentation Slide & 12% of Oral Presentation. 5% for Peer Assessment.% (Hurdle: False)",
+        "- Peer Assessment of Group Work: Formative Compulsory - Online submission via Blackboard% (Hurdle: False)",
+        "- Reflective Inquiry (AI-Assisted) Online: 25% Five short reflective inquiry submissions across the semester% (Hurdle: False)"
       ]
     },
     "C3": {
-      "score": 3,
-      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within engineering and related technologies, n.e.c..",
+      "score": 1,
+      "rationale": "Level 1 anchor met: AI appears as an elective structure (an Artificial Intelligence Minor alongside Computing and Data Science minors) and as tool operation in the computational units, which is the operational level TEQSA identifies as non-durable. Not level 2: the one unit that pairs AI capabilities with limitations, ethics and governance (DECO2801 Human-Centred AI) is a minor-level offering in a 21-major program, and the extract nowhere designates it a core unit; its assessment is named only as an assignment and an exam, so no governance or critique task is documented either, which independently blocks level 3 under R2.",
       "evidenceLines": [
-        "Subject: Aerospace Composites (AERO4300)",
-        "Subject: Aerospace Propulsion (AERO4450)",
-        "**AQF Level**: AQF level 8"
+        "Artificial Intelligence Minor",
+        "Computing Minor",
+        "- Identify potential ethical issues in AI systems, including bias, fairness, privacy, and transparency.",
+        "- Assignment Hurdle: 34%% (Hurdle: True)",
+        "- Compose computer programs to implement numerical methods and understand basic software development, testing and maintenance practices in a Python environment.",
+        "- Critically integrate AI into web applications, applying effective prompting strategies and principles of responsible AI."
       ]
     },
     "C4": {
-      "score": 3,
-      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in engineering and related technologies, n.e.c..",
+      "score": 2,
+      "rationale": "Level 2 anchor met: prescribed units assess application to novel and open-ended problems, including a self-arranged research project and a first-year complex, realistic design task. Not level 3: the level-3 anchor requires the program to document structured progression toward independent learning, and the extract presents a flat list of 144 prescribed units with no year level, no core designation and no staged sequence, so a research project or thesis is documented as available rather than as a documented progression. No assessment requires students to identify their own knowledge gaps together with a plan to close them.",
       "evidenceLines": [
-        "**Duration**: Not specified",
-        "**Faculty**: of Engineering, Architecture and Information Technology",
-        "- **Faculty**: of Engineering, Architecture and Information Technology"
+        "Overview: Self-directed learning under supervision by an academic staff member. Students arrange topic with supervisor & prepare an outline of proposed work, which must be accepted by the course coordinator prior to semester start.",
+        "- Seminar Abstract and Thesis Report: 70%% (Hurdle: False)",
+        "- Demonstrate ability to approach a complex and realistic engineering design task using a structured engineering design process. [Engineering Design]",
+        "The following 144 units of study are prescribed for this academic program:"
       ]
     },
     "C5": {
       "score": 2,
-      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in engineering and related technologies, n.e.c..",
+      "rationale": "Level 2 anchor met: students design and conduct inquiry with methodology selection and data collection under assessment - STAT1201 assesses a planned research project, CIVL4340 assesses an analysed wind-tunnel experiment reported as a team, and AERO4450 assesses an experimental propulsion investigation. Not level 3: the anchor requires a substantial primary-evidence project that is REQUIRED rather than one route among several, and the research theses appear only as entries in the 144 prescribed units, with the extract showing thesis courses for a subset of specialisations only. Methodology defence is documented in the thesis seminar assessment, but the requirement condition is not met.",
       "evidenceLines": [
-        "Subject: Hypersonics (AERO4470)",
-        "Subject: Principles of Biomedical and Bioprocess Engineering (BIOE1001)",
-        "**Teaching Location**: St Lucia"
+        "- Plan and carry out a research project, and analyse and communicate the results.",
+        "- Research Project: 20%% (Hurdle: False)",
+        "- Experimentally investigate propulsion system performance as a team and present findings as a professional engineering report.",
+        "- Asbtract and Thesis Report: 60%% (Hurdle: False)"
       ]
     },
+    "adaptiveness": 9,
     "W1": {
       "score": 2,
-      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in engineering and related technologies, n.e.c..",
+      "rationale": "Level 2 anchor met: recognised professional genres are assessed - a professional engineering report in AERO4450, an environmental modelling report and oral seminar to a professional standard in CIVL4145, and a team oral presentation and design report in ENGG1100 whose outcome names professional engineering-standard communication. Not level 3: the anchor additionally requires an assessment delivered to or judged by a real external audience or practitioner with professional conduct explicitly among the assessed criteria, and the extract documents neither a repeated, progressive core communication sequence nor an externally judged core assessment. CIVL6111 does assess professional participation, but as a field-trip hurdle within one prescribed unit rather than an external-audience assessment.",
       "evidenceLines": [
-        "**Attendance Mode**: Internal",
-        "- **Institution**: The University of Queensland (UQ)",
-        "- **Program Level**: Undergraduate"
+        "- Demonstrate professional engineering-standard written, oral and graphical communication skills through appropriate use of software where relevant. [Communication]",
+        "- Experimentally investigate propulsion system performance as a team and present findings as a professional engineering report.",
+        "- Effectively interpret, summarise and communicate the results of an environmental modelling project, to a professional standard, in the form of a written report and an oral seminar.",
+        "- Oral Presentation (Team) Identity Verified Team or group-based In-person: 15%% (Hurdle: False)",
+        "- Report and present design choices, and articulate design tradeoffs and decisions, to the public",
+        "- Project: 60%% (Hurdle: False)",
+        "- Attendance and professional participation in field (group) Hurdle Team or group-based In-person: 15% Individual, identifiable% (Hurdle: True)"
       ]
     },
     "W2": {
       "score": 2,
-      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in engineering and related technologies, n.e.c..",
+      "rationale": "Level 2 anchor met: CIVL3390 reproduces a professional task end to end - a carpark structural design taken from concept report through detailed concrete and steel design reports, producing the artefacts a structural engineer would produce and judged by interpretation of the National Construction Code and Australian Standards, which are criteria drawn from practice. Scored on documented task features, not on any authenticity label (R4). Not level 3: the anchor requires such tasks to be the program's assessment spine, and the extract lists 144 prescribed units flat, with design courses distributed across 21 majors and no documented capstone-plus-scaffolding sequence or one-per-stage pattern for any single student path.",
       "evidenceLines": [
-        "**Handbook URL**: https://my.uq.edu.au/programs-courses/program.html?acad_prog=2455",
-        "Subject: Quantitative Methods in Biomedical Engineering (BIOE3001)",
-        "- **Faculty**: of Engineering, Architecture and Information Technology"
+        "- Conceive and then execute in detail the design of a functional, practical and efficient structural system applicable to a design brief. Interpret the National Construction Code and the most common Australian Standards relating to structural design in steel and reinforced concrete.",
+        "- Carpark Concept Design Report - Group Work Team or group-based: 25%% (Hurdle: False)",
+        "- Carpark Detailed Design Report - Concrete - Group Work Team or group-based: 25%% (Hurdle: False)",
+        "- Carpark Detailed Design Report - Steel - Group Work Team or group-based: 20%% (Hurdle: False)",
+        "- Design steel elements in tension, compression, bending and combined actions using AS4100 (Australian Standards for the Design of Steel Structures) and be able to explain the theories behind the design methods in simple terms using visual models.",
+        "- Group presentations of building design project Hurdle Identity Verified Team or group-based: 40%% (Hurdle: True)",
+        "The following 144 units of study are prescribed for this academic program:"
       ]
     },
     "W3": {
-      "score": 2,
-      "rationale": "Level 2: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "score": 1,
+      "rationale": "Level 1 anchor met: work-situated learning appears only in optional form. Work experience is named as an optional student-funded activity, the live-client project (COMP3820, a FHIR application built for real-world clients) is a computing offering with no core designation, and the in-workplace international units require an application to enrol and are offered on an occasional basis. Not level 2: the anchor requires a core unit placing students in a real workplace with practitioner supervision and assessment, and no unit in the extract is documented as core placement or practicum. Fieldwork and simulation-type activity is excluded from this item by construction and scores in W2.",
       "evidenceLines": [
-        "- **Duration**: Not specified",
-        "- **Institution**: The University of Queensland (UQ)"
+        "Students who undertake vacation work, fieldwork or work experience will be required to fund their own travel and living expenses.",
+        "Overview: This course will help you learn the basic fundamentals of digital health technology through hands-on experience, and through exposure to the real-world use of data and informatics in the health industry. The course includes a MOOC component that provides a broad introduction to healthcare informatics. There will also be a number of guest lecturers from industry talking about the current digital health landscape. A major part of the course is composed of a group software development project building a FHIR app for use in a clinical (or clinical education) setting, with real-world clients. FHIR (Fast Healthcare Interoperability Resources) is the new standard for sharing health data that is revolutionising how clinicians and patients are interacting with digital technology and has been adopted by major global IT companies (e.g., Apple, Google, Microsoft, etc.) and digital health vendors (e.g., Cerner, EPIC, etc.). Be at the forefront of healthcare application development by learning about and developing new FHIR and SMART-on-FHIR applications.",
+        "- Team FHIR Project Team or group-based: 55% (Team)% (Hurdle: False)",
+        "Overview: The information technology (IT) industry is globally interconnected. In many large software development projects work is distributed across sites in different countries. IT professionals are expected to be able to work collaboratively in team environments that have members from many different language and cultural backgrounds. In this course students will gain experience of the work practices in another country. They will be exposed to work styles, ethics, language, and cultural issues that will help them to be more effective in global software development projects. This course is offered on an occasional basis. The course availability, and details of the program, will be advertised to students early in the semester prior to the planned trip. Students will be required to submit an application for approval to enrol in this course. For information about how to enrol in this course, please email; studentenquiries@eecs.uq.edu.au",
+        "Overview: This course is offered on an occasional basis. Topics and content to be determined by student interest and availability of visiting staff. For details, consult course coordinator. For information about how to enrol in this course, please email studentenquiries@mechmining.uq.edu.au.",
+        "Workload: Approximately 65 hours, including four (4) weeks in country participation and pre-departure requirements."
       ]
     },
+    "workplace": 5,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Engineering.",
+        "rationale": "PASS condition met by an accredited sequence: the program records accreditation by Engineers Australia, awards honours to all graduates, and organises study into named specialist majors, with prescribed units documenting assumed background on named prior courses and extension of named earlier course material - a staged prerequisite chain rather than generic, interchangeable content.",
         "evidenceLines": [
-          "- **Duration**: Not specified",
-          "To graduate with a Bachelor of Engineering (Honours) a student must have successfully completed all requirements of the program as"
+          "This program has been accredited by:",
+          "ENGINEERS AUSTRALIA",
+          "Aerospace Engineering Major",
+          "Honours will be awarded to all graduates of this program.",
+          "Overview: Systems based analysis and design of biological systems for the production of valuable products. Assumed background: (i) understanding of biochemistry and microbiology equivalent to BIOE1001/CHEE1001, (ii) understanding of bioprocesses equivalent to BIOE4020/CHEE4020, (iii) basic computer skills.",
+          "Overview: Traffic flow theory is the foundation of daily traffic operation and controls. Transport Engineering is also rapidly changing as a result of emerging and disruptive technologies, such as connected and automated vehicles, car sharing and electric vehicles, which make transportation systems more dynamic and complex. This course provides future transport planners and traffic engineers with the capacity to develop and implement effective and efficient traffic management strategies. Students will gain essential knowledge of advanced and emerging issues in Transport Engineering so they can contribute to the design and management of future transport systems. The course focuses on advanced traffic flow theories and modelling as well as emerging topics such as automated vehicles, cooperative driving. The opportunities and challenges in the era of connected and automated vehicles are also explored. The course compliments other transport courses offered at the University of Queensland and extends material from courses such as CIVL2410/CIVL2420 and CIVL3420/CIVL3430. This course also prepares students for more advanced study in CIVL6415."
         ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "Specialist academic program structured through sequential study in engineering and related technologies, n.e.c..",
+        "rationale": "PASS condition met: assessments require defended trade-off decisions and design projects with real uncertainty and accountability - materials selection applies trade-off analysis using compound objectives, the highway design project requires design choices and tradeoffs to be articulated to the public, control units assess open-ended problems with justified trade-offs, and the first-year design project carries a hurdle team demonstration. This is more than recall or scripted response.",
         "evidenceLines": [
-          "Subject: Aerospace Composites (AERO4300)",
-          "**Institution**: The University of Queensland (UQ)"
+          "- Understand what exchange constants and penalty functions are and apply trade-off analysis using Compound Objectives/Materials Substitution.",
+          "- Report and present design choices, and articulate design tradeoffs and decisions, to the public",
+          "- Project: 60%% (Hurdle: False)",
+          "- Integrated design & evaluation - Apply state-space modelling, LQR feedback and LQG synthesis to open-ended control problems, comparing robustness, evaluating performance, justifying trade-offs and communicating professional findings for engineering decisions.",
+          "- Design Project: Demonstration (Team) Hurdle Identity Verified Team or group-based In-person: 20%% (Hurdle: True)"
         ]
       }
     },
     "ambiguities": [
-      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
-      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+      "The extract lists the program's courses as a single flat set - 'The following 144 units of study are prescribed for this academic program' - with no core/elective designation, no year level and no major-by-major structure, and it contains no program-level learning outcomes. Every anchor that turns on the phrase 'core unit' or 'core assessment' was therefore resolved downward under the lower-level rule.",
+      "C1 straddled 2 and 3: assessed collaborative practice plainly recurs across the prescribed units, but the second level-3 condition (an assessment coordinating work across people AND tools/AI systems) is supported only by a DECO2801 learning outcome, so R2 and the lower-level rule fixed it at 2.",
+      "C3 straddled 1 and 2: DECO2801 Human-Centred AI addresses AI capabilities together with limitations, ethics and governance and is assessed, which would satisfy level 2 if it were core; it sits under an Artificial Intelligence Minor in a program with 21 majors and is not designated core, so the level-1 anchor 'only as electives' governs.",
+      "C4 straddled 2 and 3: a self-scoped, supervised, staged-assessed research project is documented verbatim, but the level-3 head condition is documented structured progression, which the flat prescribed list does not establish; resolved down to 2.",
+      "C5 straddled 2 and 3: thesis assessment includes a seminar examination that could serve as staged supervised methodology defence, but level 3 requires the primary-evidence project to be REQUIRED rather than one route among several, which the extract does not establish; resolved down to 2.",
+      "W2 straddled 2 and 3: the level-3 'genuine constraint of practice' condition is met by design judged against the National Construction Code and Australian Standards, but the 'assessment spine' condition is not documented for any single student path; resolved down to 2.",
+      "W1 and W3 both drew on COMP3820's real-world clients. Per one-construct-one-home, the live-client workplace exposure was considered in W3 (where it failed the core test) and W1 was scored on professional genre and audience evidence from other units.",
+      "The program page carries two statements about accreditation status that sit uneasily together - a note that the University 'will be seeking provisional accreditation from Engineers Australia for the new program' and a statement that the program 'has been accredited by: ENGINEERS AUSTRALIA'. G1 also passes on the specialist-major and prerequisite-chain evidence independently of that conflict."
     ],
-    "notScoreable": []
+    "notScoreable": [],
+    "instrument": "4.2-draft",
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-09-07"
+    }
   }
 }

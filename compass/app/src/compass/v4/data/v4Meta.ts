@@ -1028,6 +1028,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "adelaide-bengh_behcivs1": {
+    "code": "adelaide-bengh_behcivs1",
+    "name": "Bachelor of Engineering",
+    "institution": "The University of Adelaide",
+    "institutionSlug": "adelaide",
+    "level": "bachelor",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 9,
+    "workplace": 4,
+    "C1": 2,
+    "C2": 1,
+    "C3": 1,
+    "C4": 2,
+    "C5": 3,
+    "W1": 1,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "adelaide-bsc_bsci": {
     "code": "adelaide-bsc_bsci",
     "name": "Bachelor of Science",
@@ -1050,6 +1075,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "gates": {
       "G1": "PASS",
       "G2": "FAIL"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "anu-aengi": {
+    "code": "anu-aengi",
+    "name": "Bachelor of Engineering (Honours)",
+    "institution": "The Australian National University",
+    "institutionSlug": "anu",
+    "level": "bachelor",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 10,
+    "workplace": 6,
+    "C1": 2,
+    "C2": 2,
+    "C3": 1,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 3,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
     },
     "verifiedAt": "2026-09-07"
   },
@@ -5878,6 +5928,56 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "monash-e3001": {
+    "code": "monash-e3001",
+    "name": "Bachelor of Engineering (Honours)",
+    "institution": "Monash University",
+    "institutionSlug": "monash",
+    "level": "bachelor",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 6,
+    "workplace": 4,
+    "C1": 2,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "monash-l3001": {
+    "code": "monash-l3001",
+    "name": "Bachelor of Laws",
+    "institution": "Monash University",
+    "institutionSlug": "monash",
+    "level": "bachelor",
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "exposureTier": "field",
+    "adaptiveness": 7,
+    "workplace": 5,
+    "C1": 2,
+    "C2": 1,
+    "C3": 1,
+    "C4": 2,
+    "C5": 1,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "monash-s2000": {
     "code": "monash-s2000",
     "name": "Bachelor of Science",
@@ -6003,6 +6103,56 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "unsw-4701": {
+    "code": "unsw-4701",
+    "name": "Law",
+    "institution": "UNSW Sydney",
+    "institutionSlug": "unsw",
+    "level": "other",
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "exposureTier": "field",
+    "adaptiveness": 6,
+    "workplace": 4,
+    "C1": 2,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 2,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "unsw-7002": {
+    "code": "unsw-7002",
+    "name": "Engineering",
+    "institution": "UNSW Sydney",
+    "institutionSlug": "unsw",
+    "level": "other",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 5,
+    "workplace": 2,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 0,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "uq-2000": {
     "code": "uq-2000",
     "name": "Bachelor of Arts",
@@ -6053,6 +6203,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "uq-2455": {
+    "code": "uq-2455",
+    "name": "Bachelor of Engineering",
+    "institution": "The University of Queensland",
+    "institutionSlug": "uq",
+    "level": "bachelor",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 9,
+    "workplace": 5,
+    "C1": 2,
+    "C2": 2,
+    "C3": 1,
+    "C4": 2,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "uq-2461": {
     "code": "uq-2461",
     "name": "Bachelor of Science",
@@ -6074,6 +6249,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W3": 1,
     "gates": {
       "G1": "FAIL",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "uq-2471": {
+    "code": "uq-2471",
+    "name": "Bachelor of Laws",
+    "institution": "The University of Queensland",
+    "institutionSlug": "uq",
+    "level": "bachelor",
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "exposureTier": "field",
+    "adaptiveness": 3,
+    "workplace": 2,
+    "C1": 0,
+    "C2": 1,
+    "C3": 0,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 0,
+    "gates": {
+      "G1": "PASS",
       "G2": "PASS"
     },
     "verifiedAt": "2026-09-07"
@@ -6222,6 +6422,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W1": 1,
     "W2": 1,
     "W3": 0,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "uwa-bh011": {
+    "code": "uwa-bh011",
+    "name": "Bachelor of Engineering",
+    "institution": "The University of Western Australia",
+    "institutionSlug": "uwa",
+    "level": "bachelor",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 9,
+    "workplace": 7,
+    "C1": 2,
+    "C2": 2,
+    "C3": 0,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 3,
     "gates": {
       "G1": "PASS",
       "G2": "PASS"

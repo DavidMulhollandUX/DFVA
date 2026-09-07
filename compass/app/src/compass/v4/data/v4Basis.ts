@@ -783,6 +783,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "note": "union of 6 \"Bachelor of Commerce (…)\" records"
     }
   },
+  "adelaide-bengh_behcivs1": {
+    "code": "adelaide-bengh_behcivs1",
+    "name": "Bachelor of Engineering",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
+    }
+  },
   "adelaide-bsc_bsci": {
     "code": "adelaide-bsc_bsci",
     "name": "Bachelor of Science",
@@ -891,6 +916,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       ],
       "indexVariant": "AIOE-2021",
       "note": "union of 23 \"Bachelor of Science (…)\" records"
+    }
+  },
+  "anu-aengi": {
+    "code": "anu-aengi",
+    "name": "Bachelor of Engineering (Honours)",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
     }
   },
   "anu-barts": {
@@ -5320,6 +5370,56 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "note": "union of 6 \"Bachelor of Commerce (…)\" records"
     }
   },
+  "monash-e3001": {
+    "code": "monash-e3001",
+    "name": "Bachelor of Engineering (Honours)",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
+    }
+  },
+  "monash-l3001": {
+    "code": "monash-l3001",
+    "name": "Bachelor of Laws",
+    "hasMarketReport": false,
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 4,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0909 Law",
+          "n": null
+        }
+      ],
+      "field": "0909",
+      "indexVariant": "AIOE-2021",
+      "coverage": 58.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 93.74
+    }
+  },
   "monash-s2000": {
     "code": "monash-s2000",
     "name": "Bachelor of Science",
@@ -5530,6 +5630,56 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 80.97
     }
   },
+  "unsw-4701": {
+    "code": "unsw-4701",
+    "name": "Law",
+    "hasMarketReport": false,
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 4,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0909 Law",
+          "n": null
+        }
+      ],
+      "field": "0909",
+      "indexVariant": "AIOE-2021",
+      "coverage": 58.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 93.74
+    }
+  },
+  "unsw-7002": {
+    "code": "unsw-7002",
+    "name": "Engineering",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
+    }
+  },
   "uq-2000": {
     "code": "uq-2000",
     "name": "Bachelor of Arts",
@@ -5685,6 +5835,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "note": "union of 6 \"Bachelor of Commerce (…)\" records"
     }
   },
+  "uq-2455": {
+    "code": "uq-2455",
+    "name": "Bachelor of Engineering",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
+    }
+  },
   "uq-2461": {
     "code": "uq-2461",
     "name": "Bachelor of Science",
@@ -5793,6 +5968,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       ],
       "indexVariant": "AIOE-2021",
       "note": "union of 23 \"Bachelor of Science (…)\" records"
+    }
+  },
+  "uq-2471": {
+    "code": "uq-2471",
+    "name": "Bachelor of Laws",
+    "hasMarketReport": false,
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 4,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0909 Law",
+          "n": null
+        }
+      ],
+      "field": "0909",
+      "indexVariant": "AIOE-2021",
+      "coverage": 58.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 93.74
     }
   },
   "usyd-advanced-computing-commerce": {
@@ -6122,6 +6322,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       ],
       "indexVariant": "AIOE-2021",
       "note": "union of 23 \"Bachelor of Science (…)\" records"
+    }
+  },
+  "uwa-bh011": {
+    "code": "uwa-bh011",
+    "name": "Bachelor of Engineering",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
     }
   },
   "uwa-bp001": {
@@ -6904,6 +7129,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "indexVariant": "AIOE-2021",
     "note": "union of 6 \"Bachelor of Commerce (…)\" records"
   },
+  "adelaide-bengh_behcivs1": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
+  },
   "adelaide-bsc_bsci": {
     "tier": "pooled",
     "grain": "program-family",
@@ -7003,6 +7243,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021",
     "note": "union of 23 \"Bachelor of Science (…)\" records"
+  },
+  "anu-aengi": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
   },
   "anu-barts": {
     "tier": "pooled",
@@ -10336,6 +10591,36 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "indexVariant": "AIOE-2021",
     "note": "union of 6 \"Bachelor of Commerce (…)\" records"
   },
+  "monash-e3001": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
+  },
+  "monash-l3001": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0909 Law",
+        "n": null
+      }
+    ],
+    "field": "0909",
+    "indexVariant": "AIOE-2021",
+    "coverage": 58.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 93.74
+  },
   "monash-s2000": {
     "tier": "pooled",
     "grain": "program-family",
@@ -10496,6 +10781,36 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 80.97
   },
+  "unsw-4701": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0909 Law",
+        "n": null
+      }
+    ],
+    "field": "0909",
+    "indexVariant": "AIOE-2021",
+    "coverage": 58.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 93.74
+  },
+  "unsw-7002": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
+  },
   "uq-2000": {
     "tier": "pooled",
     "grain": "program-family",
@@ -10631,6 +10946,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "indexVariant": "AIOE-2021",
     "note": "union of 6 \"Bachelor of Commerce (…)\" records"
   },
+  "uq-2455": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
+  },
   "uq-2461": {
     "tier": "pooled",
     "grain": "program-family",
@@ -10730,6 +11060,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021",
     "note": "union of 23 \"Bachelor of Science (…)\" records"
+  },
+  "uq-2471": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0909 Law",
+        "n": null
+      }
+    ],
+    "field": "0909",
+    "indexVariant": "AIOE-2021",
+    "coverage": 58.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 93.74
   },
   "usyd-advanced-computing-commerce": {
     "tier": "field",
@@ -10999,6 +11344,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021",
     "note": "union of 23 \"Bachelor of Science (…)\" records"
+  },
+  "uwa-bh011": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
   },
   "uwa-bp001": {
     "tier": "pooled",

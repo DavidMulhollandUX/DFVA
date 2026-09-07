@@ -1,102 +1,133 @@
 {
   "code": "monash-l3001",
   "panelCv4": {
-    "instrument": "4.2-draft",
-    "adaptiveness": 13,
-    "workplace": 5,
     "C1": {
-      "score": 3,
-      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in law.",
+      "score": 2,
+      "rationale": "Level 2's anchor - at least one core unit assesses collaborative practice - is met many times over: collaborative or group assessment carries marks in Foundations of law, Criminal law 1, Property A, Corporations law and Administrative law, all Part A core units. Level 3 is not reached: it additionally requires at least one assessment where work is coordinated across people AND tools/AI systems, with role and tool allocation or the human-system division of work itself assessed. Nothing in the extract documents any tool or AI component in a collaborative task, so the recurrence half of level 3 is satisfied but the human-plus-tool half is absent.",
       "evidenceLines": [
-        "Law research electives may be selected from either the Academic Research or Applied Research elective lists.",
-        "The research elective requirement can also be met by completing a research-integrated postgraduate elective approved for undergraduate enrolment.",
-        "The Bachelor of Laws (Honours) is a professional degree which satisfies the academic requirements for admission to practise as an Australian lawyer."
+        "- Collaborative assessment: 30% (Hurdle: None)",
+        "- Group written assignment: 20% (Hurdle: None)",
+        "- Collaborative problem based assessment: 30% (Hurdle: None)",
+        "- Collaborative problem solving assignment: 30% (Hurdle: None)",
+        "- Ability to problem solve effectively working as a member of a team."
       ]
     },
     "C2": {
-      "score": 3,
-      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in law.",
+      "score": 1,
+      "rationale": "Level 1's anchor - reflection or self-assessment appears in outcomes, but no core unit assesses it against criteria - is the highest level the extract documents. Reflective tasks do carry marks in core units (Foundations of law 5%, Administrative law 10%, Criminal law and procedure 2 20%), which is why level 0 is excluded. But level 2 requires criterion-referenced appraisal of quality - peer review, structured critique, portfolio with standards, or marking against exemplars - and no such standard, exemplar set or peer-review mechanism is documented for any core assessment; the only peer critique named anywhere is in an elective mooting unit. Level 3 is far off: no assessment requires documenting or justifying reliance decisions about a tool, source or collaborator.",
       "evidenceLines": [
-        "Reflect on the role and responsibilities of lawyers in the administration of justice.",
-        "Find the statutes and related extrinsic materials relevant to answering a legal question.",
-        "It is also a preparation for diverse careers in and beyond the law, and offers pathways to graduate studies."
+        "- Reflect on and self-evaluate your performance of administrative law related activities.",
+        "- Reflective assignment: 10% (Hurdle: None)",
+        "- Individual reflective analysis: 20% (Hurdle: None)",
+        "- Reflective assignment: 5% (Hurdle: None)",
+        "- Identify the hallmarks of good legal writing and use them to edit and improve their own writing."
       ]
     },
     "C3": {
-      "score": 2,
-      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within law.",
+      "score": 1,
+      "rationale": "Level 1's anchor - digital tools appear as tool operation/training, the operational level - fits exactly: the core unit Foundations of law assesses use of online legal research tools through a library research quiz and a research-strategy outcome. Level 0 is excluded because that digital content sits in a core unit, not nowhere. Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed; the extract contains no mention of artificial intelligence, generative AI, automation or algorithms in any core unit, elective or program outcome, so neither level 2 nor the governance-critique anchor at level 3 has any evidence at all.",
       "evidenceLines": [
-        "Subject: Foundations of law (LAW1111)",
-        "Subject: Public law and statutory interpretation (LAW1112)",
-        "Identify the hallmarks of good legal writing and use them to edit and improve their own writing."
+        "- Design and implement an efficient research strategy to answer a legal research question using the most appropriate online and paper-based research tools.",
+        "- Library research online quiz: 5% (Hurdle: None)",
+        "- Locate efficiently the current law on a legal issue using library resources and critically evaluate the relevance, quality, authority and currency of the located materials."
       ]
     },
     "C4": {
-      "score": 3,
-      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in law.",
+      "score": 2,
+      "rationale": "Level 2's anchor - at least one core assessment requires application to novel or unfamiliar problems - is documented by the problem-based and problem-solving assessments in core Property A and Administrative law, whose outcomes require generating responses to unseen problem scenarios and simulated legal problems rather than reproducing taught material. Level 3 requires the program to document structured progression toward independent learning through a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps with a plan to close them. A self-scoped research project does exist and a research elective is mandatory, but that requirement can equally be discharged through the applied research list (mooting or a clinical placement), so a self-scoped project is not documented as the path every student takes; the ambiguity is resolved to the lower level.",
       "evidenceLines": [
-        "Make a legal argument or provide an opinion and do so clearly, accurately and concisely.",
-        "Locate efficiently the current law on a legal issue using library resources and critically evaluate the relevance, quality, authority and currency of the located materials.",
-        "The course provides advanced and integrated knowledge of the principal areas of legal practice, legal concepts and broader perspectives about the law."
+        "- Research, interpret and apply property law principles to generate appropriate responses to problem scenarios and legal issues.",
+        "- Collaborative problem based assessment: 30% (Hurdle: None)",
+        "- Select, analyse, interpret and apply criminal law doctrines and principles to generate appropriate responses to simulated legal problems.",
+        "- Creatively resolve complex issues pertaining to administrative law, make reasoned choices and formulate appropriate responses to issues as they arise.",
+        "- Collaborative problem solving assignment: 30% (Hurdle: None)"
       ]
     },
     "C5": {
-      "score": 2,
-      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in law.",
+      "score": 1,
+      "rationale": "Level 2's anchor - students design and conduct an inquiry with methodology selection, assessed - is documented: the degree rule mandates at least one law research elective, and the academic research route assesses a research plan and an independent research project whose outcomes require identifying and applying appropriate research methods, or a 5,000-6,000 word supervised research piece. That exceeds level 1's introductory-methods-and-literature-review anchor. Level 3 is excluded on its own wording: it requires the substantial primary-evidence project to be REQUIRED and not one route among several, whereas here the research-elective requirement can be met from either the academic or the applied list, and no viva, defence or staged supervised review of methodology is documented beyond an assessed project plan.",
       "evidenceLines": [
-        "Subject: Torts (LAW1113)",
-        "Subject: Criminal law 1 (LAW1114)",
-        "Extract and formulate legal propositions from judicial decisions and assess their scope, legal validity and weight."
+        "You must complete between 66 and 102 credit points of law electives which must include at least one law research elective:",
+        "You must complete at least 6 credit points of law research electives. You may choose from either the academic research electives or the applied research electives.",
+        "- Identify and apply appropriate research methods to address complex legal research issues.",
+        "- Develop a research plan to complete complex and original research.",
+        "- Project plan: 15% (Hurdle: None)",
+        "- Research project paper: 80% (Hurdle: None)",
+        "- Research paper: 100% (Hurdle: None)"
       ]
     },
+    "adaptiveness": 7,
     "W1": {
       "score": 2,
-      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in law.",
+      "rationale": "Level 2's anchor - at least one core assessment requires a recognised professional genre or a public-facing artefact - is met by the assessed group written submission in core Evidence, whose outcome names written and oral submissions, and by the collaborative podcast in core Criminal law and procedure 2, a public-facing artefact; core Criminal law 1 supplies the practice-drawn criterion, requiring communication in a format appropriate to criminal law practice. Level 3 additionally requires at least one core assessment delivered to or judged by a real external audience or practitioner, with professional conduct explicitly among the assessed criteria. No external judge, client or panel appears in any Part A core unit; external guest judges and host-organisation performance assessment appear only in elective mooting and clinical units.",
       "evidenceLines": [
-        "Explain how the institutions of the Australian legal system shape the content and administration of the law.",
-        "The Bachelor of Laws (Honours) is a professional degree which satisfies the academic requirements for admission to practise as an Australian lawyer.",
-        "It is also a preparation for diverse careers in and beyond the law, and offers pathways to graduate studies."
+        "- Group written submission: 30% (Hurdle: None)",
+        "- Evaluate legal cases and formulate argumentation in written and oral submissions.",
+        "- Collaborative podcast: 30% (Hurdle: None)",
+        "- Communicate and present criminal law ideas effectively and persuasively to specified audiences in a format appropriate to criminal law practice."
       ]
     },
     "W2": {
       "score": 2,
-      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in law.",
+      "rationale": "Level 2's anchor - at least one core assessment reproduces a professional task end to end, producing the artefact a practitioner would produce - is met by the legal opinion task in core Trusts, whose outcome requires interpreting trust documents and professional decisions to advise on the problem, and by the written assignment in core Litigation and dispute resolution, which applies the Supreme Court rules to a civil proceeding. Level 3 requires such tasks to be the assessment spine rather than single instances, plus a genuine constraint of practice. They are not the spine: every core unit in the extract is weighted 50-60% to a final exam with quizzes alongside, so decontextualised academic assessment dominates the core, and no ambiguous or externally supplied problem, real resource limit or consequential audience is documented.",
       "evidenceLines": [
-        "Collaborate and communicate effectively to a range of audiences.",
-        "Subject: Contract A (LAW2101)",
-        "The course provides advanced and integrated knowledge of the principal areas of legal practice, legal concepts and broader perspectives about the law."
+        "- Legal opinion task: 30% (Hurdle: None)",
+        "- Demonstrate the intellectual and practical skills needed to interpret trust documents, legal conclusions and professional decisions as well as to identify, research and evaluate relevant factual legal and policy issues.",
+        "- Written assignment: 30% (Hurdle: None)",
+        "- Final exam: 60% (Hurdle: None)"
       ]
     },
     "W3": {
       "score": 1,
-      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "rationale": "Level 1's anchor - work-situated learning exists only as an elective - is exactly what the structure documents. Clinical placements, professional practice and the in-house and international clinics all sit in the applied research elective list, and the handbook states those units are available via application to eligible students. Level 2 requires a CORE unit to place students in a real workplace with practitioner supervision and assessment; Part A core is 102 credit points of doctrinal law units with no placement, practicum or community-based project among them. The in-practice alternative route at level 2 does not apply either: nothing documents this cohort as already practising in the profession.",
       "evidenceLines": [
-        "The Bachelor of Laws (Honours) is a professional degree which satisfies the academic requirements for admission to practise as an Australian lawyer. It is also a preparation for diverse careers in and beyond the law, and offers pathways to graduate studies. The course provides advanced and integrated knowledge of the principal areas of legal practice, legal concepts and broader perspectives about the law. It develops professional skills in problem-solving, critical thinking, research, communication, collaboration, self-management, ethical awareness and professional judgement. The elective component of the degree provides the flexibility to choose from a wide range of specialist units, to study overseas, and to undertake clinical learning.",
-        "The Bachelor of Laws (Honours) is a professional degree which satisfies the academic requirements for admission to practise as an Australian lawyer."
+        "Applied research electives*:",
+        "  * LAW4803 Clinical placement",
+        "*These units are available via application to eligible students. Please refer to the Handbook for units for further information.",
+        "**Part A. Core studies** **102 credit points**"
       ]
     },
+    "workplace": 5,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Laws.",
+        "rationale": "The PASS condition - an all-compulsory specialist core with progressive technical or methodological depth - is documented directly: 102 credit points of compulsory core law units, sequenced across year levels and explicitly cumulative, with Contract B building upon Contract A and the Property and Criminal law units stating that they build on advanced and integrated knowledge from previous units. This is a staged disciplinary chain, not generic or interchangeable content.",
         "evidenceLines": [
-          "The Bachelor of Laws (Honours) is a professional degree which satisfies the academic requirements for admission to practise as an Australian lawyer. It is also a preparation for diverse careers in and beyond the law, and offers pathways to graduate studies. The course provides advanced and integrated knowledge of the principal areas of legal practice, legal concepts and broader perspectives about the law. It develops professional skills in problem-solving, critical thinking, research, communication, collaboration, self-management, ethical awareness and professional judgement. The elective component of the degree provides the flexibility to choose from a wide range of specialist units, to study overseas, and to undertake clinical learning.",
-          "Part A. Core studies"
+          "**Part A. Core studies** **102 credit points**",
+          "You must complete 204 credit points, comprising 102 credit points of core law units and 102 credit points of electives which may include up to 36 credit points of non-law units outside the Faculty of Law or the 48 credit points of non-law units required to be cross credited towards a double degree course.",
+          "Overview: Contract law addresses the concepts, principles and rules used to determine the existence and content of binding promises and their enforcement or defeasibility in a market economy. It also addresses the underlying policy considerations. Contract B builds upon Contract A, which covers the formation and terms of a contract. Contract B covers the performance of contracts, the discharge of contracts by termination or frustration, legal and equitable remedies for breach of contract, and vitiating factors under the unwritten law and statute.",
+          "- Demonstrate advanced and integrated knowledge of criminal law and procedure, building upon learning in previous units.",
+          "- Demonstrate advanced and integrated knowledge of property law, building upon learning in previous units."
         ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "Specialist academic program structured through sequential study in law.",
+        "rationale": "The PASS condition - assessments require defended trade-off decisions - is documented rather than merely claimed. Core Lawyers ethics in practice assesses a group ethics analysis and a written assessment against an outcome requiring reasoned choices among competing ethical approaches; core Property A and core Trusts assess problem-based and legal opinion tasks against outcomes requiring professional judgement to choose among alternative interpretations and actions. This is reasoned choice under competing alternatives, not recall or scripted response.",
         "evidenceLines": [
-          "Subject: Foundations of law (LAW1111)",
-          "Law research electives may be selected from either the Academic Research or Applied Research elective lists."
+          "- Use critical analysis to make reasoned choices and demonstrate creativity in applying these to specific ethical issues.",
+          "- Group ethics analysis: 30% (Hurdle: None)",
+          "- Engage in critical analysis and use professional judgment to make reasoned choices among alternative interpretation and actions.",
+          "- Engage in critical analysis and make reasoned and appropriate choices among alternatives.",
+          "- Legal opinion task: 30% (Hurdle: None)"
         ]
       }
     },
     "ambiguities": [
-      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
-      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+      "C2 straddled levels 1 and 2: core units do assess reflective tasks for marks (5%, 10%, 20%), which reads toward level 2, but level 2 requires criterion-referenced appraisal of quality and no standards, exemplars, portfolio criteria or peer-review mechanism is documented for any core task. Resolved DOWN to 1 under the never-resolve-upward rule.",
+      "C3 straddled levels 0 and 1: no AI content of any kind appears anywhere in the extract, which reads toward 0, but a core unit assesses use of online legal research tools, which is documented digital content at the operational level. Level 0's anchor is factually excluded by that core evidence, so 1 stands; levels 2 and 3 have no evidence whatsoever.",
+      "C4 straddled levels 2 and 3: the degree rule mandates a law research elective and the academic route is a self-scoped, supervised research project, which would satisfy level 3's structured progression toward independent learning, but the same requirement can be discharged by an applied research elective (a moot or a clinic), so the self-scoped project is one route among several. Resolved DOWN to 2.",
+      "C5 straddled levels 2 and 3: the assessed research plan and independent research project meet level 2 comfortably, but level 3's own wording demands the project be REQUIRED and not one route among several, and no viva, defence or staged supervised review of methodology is documented. Resolved DOWN to 2. Note also that the inquiry is doctrinal, so no empirical data collection is documented.",
+      "W3 straddled levels 1 and 2: because at least one law research elective is mandatory and clinical placements sit on the applied research list, some students will complete a supervised, assessed placement under a degree rule. But the academic research list satisfies the same rule, and no placement sits in Part A core, so work-situated learning remains elective. Resolved DOWN to 1.",
+      "C1 versus W1: the collaborative and group assessments could be read as communication evidence. Under one construct, one home, coordination of work across people is scored in C1, while the collaborative podcast and the group written submission are scored in W1 for genre and audience.",
+      "W1 versus W2: the Trusts legal opinion task is both a recognised professional genre and the artefact a practitioner would produce. It is scored in W2, whose construct names task fidelity; W1 rests instead on the group written submission and the collaborative podcast.",
+      "W3 versus C1 and C4: all placement and clinical evidence (LAW4328, LAW4330, LAW4803, LAW4811, LAW4813, LAW4814, LAW4815) is scored only in W3 per the v4.1 migration note, and is excluded from C1 level 3 and C4 level 3."
     ],
-    "notScoreable": []
+    "notScoreable": [],
+    "instrument": "4.2-draft",
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-09-07"
+    }
   }
 }
