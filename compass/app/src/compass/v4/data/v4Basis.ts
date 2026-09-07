@@ -6735,6 +6735,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 76.38
     }
   },
+  "adelaide-hfsct_hbfsct": {
+    "code": "adelaide-hfsct_hbfsct",
+    "name": "Bachelor of Food and Nutrition Science (Honours)",
+    "hasMarketReport": false,
+    "exposure": 75.93,
+    "entryExposure": 76.18,
+    "jirN": null,
+    "nTitles": 19,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 069901 Nutrition and Dietetics",
+          "n": null
+        }
+      ],
+      "field": "069901",
+      "indexVariant": "AIOE-2021",
+      "coverage": 50.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.33
+    }
+  },
   "adelaide-hhmsc_hbhlthmeds": {
     "code": "adelaide-hhmsc_hbhlthmeds",
     "name": "Bachelor of Health and Medical Sciences",
@@ -8737,6 +8762,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 68.38
     }
   },
+  "adelaide-mnp_mnurprac": {
+    "code": "adelaide-mnp_mnurprac",
+    "name": "Master of Nurse Practitioner",
+    "hasMarketReport": false,
+    "exposure": 66.46,
+    "entryExposure": 66.2,
+    "jirN": null,
+    "nTitles": 11,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 060301 General Nursing",
+          "n": null
+        }
+      ],
+      "field": "060301",
+      "indexVariant": "AIOE-2021",
+      "coverage": 75.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 68.22
+    }
+  },
   "adelaide-mnusc_mnurscacmnurscarmnurscenmnurscic": {
     "code": "adelaide-mnusc_mnurscacmnurscarmnurscenmnurscic",
     "name": "Master of Nursing Science",
@@ -9258,6 +9308,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 58.6,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 93.74
+    }
+  },
+  "adelaide-pcdil_pcdefinl": {
+    "code": "adelaide-pcdil_pcdefinl",
+    "name": "Professional Certificate in Defence Industry Leadership",
+    "hasMarketReport": false,
+    "exposure": 91.34,
+    "entryExposure": 90.05,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0008 Management and Commerce",
+          "n": null
+        }
+      ],
+      "field": "0008",
+      "indexVariant": "AIOE-2021",
+      "coverage": 41.7,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 93.16
     }
   },
   "adelaide-pced_pceduc": {
@@ -49779,6 +49854,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 93.16
     }
   },
+  "monash-u0401": {
+    "code": "monash-u0401",
+    "name": "Monash Advanced Preparation Program",
+    "hasMarketReport": false,
+    "exposure": 91.34,
+    "entryExposure": 90.05,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0008 Management and Commerce",
+          "n": null
+        }
+      ],
+      "field": "0008",
+      "indexVariant": "AIOE-2021",
+      "coverage": 41.7,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 93.16
+    }
+  },
   "monash-u0601": {
     "code": "monash-u0601",
     "name": "Diploma of Arts",
@@ -49902,6 +50002,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 52.1,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 87.21
+    }
+  },
+  "monash-u0606": {
+    "code": "monash-u0606",
+    "name": "Diploma of Science",
+    "hasMarketReport": false,
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0001 Natural and Physical Sciences",
+          "n": null
+        }
+      ],
+      "field": "0001",
+      "indexVariant": "AIOE-2021",
+      "coverage": 21.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 76.38
     }
   },
   "n01aa": {
@@ -54385,6 +54510,119 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 90.69
     }
   },
+  "unsw-4504": {
+    "code": "unsw-4504",
+    "name": "Bachelor of Arts (Honours)",
+    "hasMarketReport": false,
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "jirN": 2381,
+    "nTitles": 97,
+    "nMedium": 48,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Arts (Anthropology)",
+          "n": 153
+        },
+        {
+          "name": "Bachelor of Arts (Asian Studies)",
+          "n": 43
+        },
+        {
+          "name": "Bachelor of Arts (Economics)",
+          "n": 196
+        },
+        {
+          "name": "Bachelor of Arts (Gender Studies)",
+          "n": 100
+        },
+        {
+          "name": "Bachelor of Arts (Geography)",
+          "n": 108
+        },
+        {
+          "name": "Bachelor of Arts (History)",
+          "n": 524
+        },
+        {
+          "name": "Bachelor of Arts (Politics and International",
+          "n": 339
+        },
+        {
+          "name": "Bachelor of Arts (Psychology)",
+          "n": 859
+        },
+        {
+          "name": "Bachelor of Arts (Screen And Cultural Studies)",
+          "n": 59
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 18 \"Bachelor of Arts (…)\" records",
+      "excludedSources": [
+        {
+          "name": "Bachelor of Arts (Ancient World Studies)",
+          "refusedTitles": [
+            "Collections Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Art History)",
+          "refusedTitles": [
+            "Gallery Attendant",
+            "Researcher",
+            "Art Consultant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Creative Writing)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Criminology)",
+          "refusedTitles": [
+            "Justice Officer",
+            "Senior Intelligence Analyst Team Leader"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (English and Theatre Studies)",
+          "refusedTitles": [
+            "Publishing Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Indigenous Studies)",
+          "refusedTitles": [
+            "Indigenous Education Officer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Media and Communications)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Philosophy)",
+          "refusedTitles": [
+            "University Lecturer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Sociology)",
+          "refusedTitles": [
+            "Youth Advisor"
+          ]
+        }
+      ]
+    }
+  },
   "unsw-4505": {
     "code": "unsw-4505",
     "name": "Criminology",
@@ -54468,6 +54706,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
         }
       ],
       "exposureWeighted": 85.86
+    }
+  },
+  "unsw-4510": {
+    "code": "unsw-4510",
+    "name": "Bachelor of Media (Honours)",
+    "hasMarketReport": false,
+    "exposure": 80.6,
+    "entryExposure": 78.35,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 1007 Communication and Media Studies",
+          "n": null
+        }
+      ],
+      "field": "1007",
+      "indexVariant": "AIOE-2021",
+      "coverage": 35.7,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 82.82
     }
   },
   "unsw-4511": {
@@ -62499,6 +62762,37 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 85.44
     }
   },
+  "uq-1602": {
+    "code": "uq-1602",
+    "name": "Diploma in Languages",
+    "hasMarketReport": false,
+    "exposure": 89.14,
+    "entryExposure": 88.69,
+    "jirN": null,
+    "nTitles": 16,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0915 Language and Literature",
+          "n": null
+        }
+      ],
+      "field": "0915",
+      "indexVariant": "AIOE-2021",
+      "coverage": 27,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "University Lecturer",
+          "share": 1.258
+        }
+      ],
+      "exposureWeighted": 87.75
+    }
+  },
   "uq-2000": {
     "code": "uq-2000",
     "name": "Bachelor of Arts",
@@ -62637,6 +62931,116 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 89.99
     }
   },
+  "uq-2031": {
+    "code": "uq-2031",
+    "name": "Bachelor of Science (Honours)",
+    "hasMarketReport": false,
+    "exposure": 82.72,
+    "entryExposure": 78.11,
+    "jirN": 3650,
+    "nTitles": 215,
+    "nMedium": 112,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Science (Animal Health And Disease)",
+          "n": 68
+        },
+        {
+          "name": "Bachelor of Science (Biochemistry and Molecular",
+          "n": 141
+        },
+        {
+          "name": "Bachelor of Science (Biotechnology)",
+          "n": 113
+        },
+        {
+          "name": "Bachelor of Science (Chemistry)",
+          "n": 318
+        },
+        {
+          "name": "Bachelor of Science (Computing And Software",
+          "n": 328
+        },
+        {
+          "name": "Bachelor of Science (Data Science)",
+          "n": 212
+        },
+        {
+          "name": "Bachelor of Science (Ecology And Evolutionary",
+          "n": 48
+        },
+        {
+          "name": "Bachelor of Science (Environmental Science)",
+          "n": 90
+        },
+        {
+          "name": "Bachelor of Science (Food Science)",
+          "n": 99
+        },
+        {
+          "name": "Bachelor of Science (Genetics)",
+          "n": 112
+        },
+        {
+          "name": "Bachelor of Science (Geology)",
+          "n": 46
+        },
+        {
+          "name": "Bachelor of Science (Human Structure and",
+          "n": 154
+        },
+        {
+          "name": "Bachelor of Science (Mathematical Physics)",
+          "n": 56
+        },
+        {
+          "name": "Bachelor of Science (Mathematics and Statistics)",
+          "n": 122
+        },
+        {
+          "name": "Bachelor of Science (Microbiology)",
+          "n": 54
+        },
+        {
+          "name": "Bachelor of Science (Neuroscience)",
+          "n": 373
+        },
+        {
+          "name": "Bachelor of Science (Pathology)",
+          "n": 57
+        },
+        {
+          "name": "Bachelor of Science (Pharmacology)",
+          "n": 154
+        },
+        {
+          "name": "Bachelor of Science (Physics)",
+          "n": 189
+        },
+        {
+          "name": "Bachelor of Science (Physiology)",
+          "n": 439
+        },
+        {
+          "name": "Bachelor of Science (Psychology)",
+          "n": 351
+        },
+        {
+          "name": "Bachelor of Science (Veterinary Bioscience)",
+          "n": 34
+        },
+        {
+          "name": "Bachelor of Science (Zoology)",
+          "n": 92
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 23 \"Bachelor of Science (…)\" records"
+    }
+  },
   "uq-2033": {
     "code": "uq-2033",
     "name": "Bachelor of Social Science",
@@ -62685,6 +63089,119 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 46.6,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 89.06
+    }
+  },
+  "uq-2052": {
+    "code": "uq-2052",
+    "name": "Bachelor of Arts (Honours)",
+    "hasMarketReport": false,
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "jirN": 2381,
+    "nTitles": 97,
+    "nMedium": 48,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Arts (Anthropology)",
+          "n": 153
+        },
+        {
+          "name": "Bachelor of Arts (Asian Studies)",
+          "n": 43
+        },
+        {
+          "name": "Bachelor of Arts (Economics)",
+          "n": 196
+        },
+        {
+          "name": "Bachelor of Arts (Gender Studies)",
+          "n": 100
+        },
+        {
+          "name": "Bachelor of Arts (Geography)",
+          "n": 108
+        },
+        {
+          "name": "Bachelor of Arts (History)",
+          "n": 524
+        },
+        {
+          "name": "Bachelor of Arts (Politics and International",
+          "n": 339
+        },
+        {
+          "name": "Bachelor of Arts (Psychology)",
+          "n": 859
+        },
+        {
+          "name": "Bachelor of Arts (Screen And Cultural Studies)",
+          "n": 59
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 18 \"Bachelor of Arts (…)\" records",
+      "excludedSources": [
+        {
+          "name": "Bachelor of Arts (Ancient World Studies)",
+          "refusedTitles": [
+            "Collections Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Art History)",
+          "refusedTitles": [
+            "Gallery Attendant",
+            "Researcher",
+            "Art Consultant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Creative Writing)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Criminology)",
+          "refusedTitles": [
+            "Justice Officer",
+            "Senior Intelligence Analyst Team Leader"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (English and Theatre Studies)",
+          "refusedTitles": [
+            "Publishing Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Indigenous Studies)",
+          "refusedTitles": [
+            "Indigenous Education Officer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Media and Communications)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Philosophy)",
+          "refusedTitles": [
+            "University Lecturer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Sociology)",
+          "refusedTitles": [
+            "Youth Advisor"
+          ]
+        }
+      ]
     }
   },
   "uq-2066": {
@@ -62812,6 +63329,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       ],
       "indexVariant": "AIOE-2021",
       "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+    }
+  },
+  "uq-2132": {
+    "code": "uq-2132",
+    "name": "Bachelor of Economics (Honours)",
+    "hasMarketReport": false,
+    "exposure": 90.57,
+    "entryExposure": 88.97,
+    "jirN": null,
+    "nTitles": 15,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 091901 Economics",
+          "n": null
+        }
+      ],
+      "field": "091901",
+      "indexVariant": "AIOE-2021",
+      "coverage": 35.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 90.69
     }
   },
   "uq-2139": {
@@ -63349,6 +63891,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 87.53
     }
   },
+  "uq-2320": {
+    "code": "uq-2320",
+    "name": "Diploma in Arts",
+    "hasMarketReport": false,
+    "exposure": 81.93,
+    "entryExposure": 77.94,
+    "jirN": null,
+    "nTitles": 15,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0009 Society and Culture",
+          "n": null
+        }
+      ],
+      "field": "0009",
+      "indexVariant": "AIOE-2021",
+      "coverage": 26.8,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 80.97
+    }
+  },
   "uq-2334": {
     "code": "uq-2334",
     "name": "Bachelors of Business Management / Laws",
@@ -63514,6 +64081,116 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 45.5,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 86.88
+    }
+  },
+  "uq-2354": {
+    "code": "uq-2354",
+    "name": "Bachelor of Science (Honours)",
+    "hasMarketReport": false,
+    "exposure": 82.72,
+    "entryExposure": 78.11,
+    "jirN": 3650,
+    "nTitles": 215,
+    "nMedium": 112,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Science (Animal Health And Disease)",
+          "n": 68
+        },
+        {
+          "name": "Bachelor of Science (Biochemistry and Molecular",
+          "n": 141
+        },
+        {
+          "name": "Bachelor of Science (Biotechnology)",
+          "n": 113
+        },
+        {
+          "name": "Bachelor of Science (Chemistry)",
+          "n": 318
+        },
+        {
+          "name": "Bachelor of Science (Computing And Software",
+          "n": 328
+        },
+        {
+          "name": "Bachelor of Science (Data Science)",
+          "n": 212
+        },
+        {
+          "name": "Bachelor of Science (Ecology And Evolutionary",
+          "n": 48
+        },
+        {
+          "name": "Bachelor of Science (Environmental Science)",
+          "n": 90
+        },
+        {
+          "name": "Bachelor of Science (Food Science)",
+          "n": 99
+        },
+        {
+          "name": "Bachelor of Science (Genetics)",
+          "n": 112
+        },
+        {
+          "name": "Bachelor of Science (Geology)",
+          "n": 46
+        },
+        {
+          "name": "Bachelor of Science (Human Structure and",
+          "n": 154
+        },
+        {
+          "name": "Bachelor of Science (Mathematical Physics)",
+          "n": 56
+        },
+        {
+          "name": "Bachelor of Science (Mathematics and Statistics)",
+          "n": 122
+        },
+        {
+          "name": "Bachelor of Science (Microbiology)",
+          "n": 54
+        },
+        {
+          "name": "Bachelor of Science (Neuroscience)",
+          "n": 373
+        },
+        {
+          "name": "Bachelor of Science (Pathology)",
+          "n": 57
+        },
+        {
+          "name": "Bachelor of Science (Pharmacology)",
+          "n": 154
+        },
+        {
+          "name": "Bachelor of Science (Physics)",
+          "n": 189
+        },
+        {
+          "name": "Bachelor of Science (Physiology)",
+          "n": 439
+        },
+        {
+          "name": "Bachelor of Science (Psychology)",
+          "n": 351
+        },
+        {
+          "name": "Bachelor of Science (Veterinary Bioscience)",
+          "n": 34
+        },
+        {
+          "name": "Bachelor of Science (Zoology)",
+          "n": 92
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 23 \"Bachelor of Science (…)\" records"
     }
   },
   "uq-2367": {
@@ -64222,6 +64899,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "uq-2456": {
     "code": "uq-2456",
     "name": "Bachelor of Biotechnology",
+    "hasMarketReport": false,
+    "exposure": 82.77,
+    "entryExposure": 82.19,
+    "jirN": null,
+    "nTitles": 11,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0109 Biological Sciences",
+          "n": null
+        }
+      ],
+      "field": "0109",
+      "indexVariant": "AIOE-2021",
+      "coverage": 25.4,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 81.58
+    }
+  },
+  "uq-2457": {
+    "code": "uq-2457",
+    "name": "Bachelor of Biotechnology (Honours)",
     "hasMarketReport": false,
     "exposure": 82.77,
     "entryExposure": 82.19,
@@ -67485,6 +68187,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 75.28
     }
   },
+  "uq-5240": {
+    "code": "uq-5240",
+    "name": "Graduate Diploma in Science",
+    "hasMarketReport": false,
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0001 Natural and Physical Sciences",
+          "n": null
+        }
+      ],
+      "field": "0001",
+      "indexVariant": "AIOE-2021",
+      "coverage": 21.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 76.38
+    }
+  },
   "uq-5248": {
     "code": "uq-5248",
     "name": "Graduate Certificate in Business",
@@ -68291,6 +69018,81 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "indexVariant": "AIOE-2021"
     }
   },
+  "uq-5527": {
+    "code": "uq-5527",
+    "name": "Graduate Certificate in Engineering Science",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
+    }
+  },
+  "uq-5528": {
+    "code": "uq-5528",
+    "name": "Master of Engineering Science",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
+    }
+  },
+  "uq-5530": {
+    "code": "uq-5530",
+    "name": "Master of Engineering Science (Management)",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
+    }
+  },
   "uq-5533": {
     "code": "uq-5533",
     "name": "Graduate Certificate in Pharmacy Practice",
@@ -68736,6 +69538,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 21.5,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 76.38
+    }
+  },
+  "uq-5578": {
+    "code": "uq-5578",
+    "name": "Doctor of Medicine",
+    "hasMarketReport": false,
+    "exposure": 80.58,
+    "entryExposure": 73.78,
+    "jirN": 762,
+    "nTitles": 15,
+    "nMedium": 12,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Doctor of Medicine",
+          "n": 762
+        }
+      ],
+      "indexVariant": "AIOE-2021"
     }
   },
   "uq-5580": {
@@ -70860,6 +71683,56 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
         }
       ],
       "exposureWeighted": 87.75
+    }
+  },
+  "uq-5773": {
+    "code": "uq-5773",
+    "name": "Graduate Certificate in Resource Development",
+    "hasMarketReport": false,
+    "exposure": 91.34,
+    "entryExposure": 90.05,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0008 Management and Commerce",
+          "n": null
+        }
+      ],
+      "field": "0008",
+      "indexVariant": "AIOE-2021",
+      "coverage": 41.7,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 93.16
+    }
+  },
+  "uq-5774": {
+    "code": "uq-5774",
+    "name": "Graduate Diploma in Resource Development",
+    "hasMarketReport": false,
+    "exposure": 91.34,
+    "entryExposure": 90.05,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0008 Management and Commerce",
+          "n": null
+        }
+      ],
+      "field": "0008",
+      "indexVariant": "AIOE-2021",
+      "coverage": 41.7,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 93.16
     }
   },
   "uq-5775": {
@@ -87149,6 +88022,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 76.38
   },
+  "adelaide-hfsct_hbfsct": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 069901 Nutrition and Dietetics",
+        "n": null
+      }
+    ],
+    "field": "069901",
+    "indexVariant": "AIOE-2021",
+    "coverage": 50.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.33
+  },
   "adelaide-hhmsc_hbhlthmeds": {
     "tier": "field",
     "grain": "field",
@@ -88481,6 +89369,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 68.38
   },
+  "adelaide-mnp_mnurprac": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 060301 General Nursing",
+        "n": null
+      }
+    ],
+    "field": "060301",
+    "indexVariant": "AIOE-2021",
+    "coverage": 75.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 68.22
+  },
   "adelaide-mnusc_mnurscacmnurscarmnurscenmnurscic": {
     "tier": "exact",
     "grain": "program",
@@ -88793,6 +89696,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 58.6,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 93.74
+  },
+  "adelaide-pcdil_pcdefinl": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0008 Management and Commerce",
+        "n": null
+      }
+    ],
+    "field": "0008",
+    "indexVariant": "AIOE-2021",
+    "coverage": 41.7,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 93.16
   },
   "adelaide-pced_pceduc": {
     "tier": "field",
@@ -115258,6 +116176,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 93.16
   },
+  "monash-u0401": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0008 Management and Commerce",
+        "n": null
+      }
+    ],
+    "field": "0008",
+    "indexVariant": "AIOE-2021",
+    "coverage": 41.7,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 93.16
+  },
   "monash-u0601": {
     "tier": "field",
     "grain": "field",
@@ -115332,6 +116265,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 52.1,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 87.21
+  },
+  "monash-u0606": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0001 Natural and Physical Sciences",
+        "n": null
+      }
+    ],
+    "field": "0001",
+    "indexVariant": "AIOE-2021",
+    "coverage": 21.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 76.38
   },
   "n01aa": {
     "tier": "field",
@@ -118084,6 +119032,109 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 90.69
   },
+  "unsw-4504": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Arts (Anthropology)",
+        "n": 153
+      },
+      {
+        "name": "Bachelor of Arts (Asian Studies)",
+        "n": 43
+      },
+      {
+        "name": "Bachelor of Arts (Economics)",
+        "n": 196
+      },
+      {
+        "name": "Bachelor of Arts (Gender Studies)",
+        "n": 100
+      },
+      {
+        "name": "Bachelor of Arts (Geography)",
+        "n": 108
+      },
+      {
+        "name": "Bachelor of Arts (History)",
+        "n": 524
+      },
+      {
+        "name": "Bachelor of Arts (Politics and International",
+        "n": 339
+      },
+      {
+        "name": "Bachelor of Arts (Psychology)",
+        "n": 859
+      },
+      {
+        "name": "Bachelor of Arts (Screen And Cultural Studies)",
+        "n": 59
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 18 \"Bachelor of Arts (…)\" records",
+    "excludedSources": [
+      {
+        "name": "Bachelor of Arts (Ancient World Studies)",
+        "refusedTitles": [
+          "Collections Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Art History)",
+        "refusedTitles": [
+          "Gallery Attendant",
+          "Researcher",
+          "Art Consultant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Creative Writing)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Criminology)",
+        "refusedTitles": [
+          "Justice Officer",
+          "Senior Intelligence Analyst Team Leader"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (English and Theatre Studies)",
+        "refusedTitles": [
+          "Publishing Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Indigenous Studies)",
+        "refusedTitles": [
+          "Indigenous Education Officer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Media and Communications)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Philosophy)",
+        "refusedTitles": [
+          "University Lecturer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Sociology)",
+        "refusedTitles": [
+          "Youth Advisor"
+        ]
+      }
+    ]
+  },
   "unsw-4505": {
     "tier": "field",
     "grain": "field",
@@ -118138,6 +119189,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
       }
     ],
     "exposureWeighted": 85.86
+  },
+  "unsw-4510": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 1007 Communication and Media Studies",
+        "n": null
+      }
+    ],
+    "field": "1007",
+    "indexVariant": "AIOE-2021",
+    "coverage": 35.7,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 82.82
   },
   "unsw-4511": {
     "tier": "field",
@@ -123078,6 +124144,27 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 85.44
   },
+  "uq-1602": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0915 Language and Literature",
+        "n": null
+      }
+    ],
+    "field": "0915",
+    "indexVariant": "AIOE-2021",
+    "coverage": 27,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "University Lecturer",
+        "share": 1.258
+      }
+    ],
+    "exposureWeighted": 87.75
+  },
   "uq-2000": {
     "tier": "pooled",
     "grain": "program-family",
@@ -123196,6 +124283,106 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 89.99
   },
+  "uq-2031": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Science (Animal Health And Disease)",
+        "n": 68
+      },
+      {
+        "name": "Bachelor of Science (Biochemistry and Molecular",
+        "n": 141
+      },
+      {
+        "name": "Bachelor of Science (Biotechnology)",
+        "n": 113
+      },
+      {
+        "name": "Bachelor of Science (Chemistry)",
+        "n": 318
+      },
+      {
+        "name": "Bachelor of Science (Computing And Software",
+        "n": 328
+      },
+      {
+        "name": "Bachelor of Science (Data Science)",
+        "n": 212
+      },
+      {
+        "name": "Bachelor of Science (Ecology And Evolutionary",
+        "n": 48
+      },
+      {
+        "name": "Bachelor of Science (Environmental Science)",
+        "n": 90
+      },
+      {
+        "name": "Bachelor of Science (Food Science)",
+        "n": 99
+      },
+      {
+        "name": "Bachelor of Science (Genetics)",
+        "n": 112
+      },
+      {
+        "name": "Bachelor of Science (Geology)",
+        "n": 46
+      },
+      {
+        "name": "Bachelor of Science (Human Structure and",
+        "n": 154
+      },
+      {
+        "name": "Bachelor of Science (Mathematical Physics)",
+        "n": 56
+      },
+      {
+        "name": "Bachelor of Science (Mathematics and Statistics)",
+        "n": 122
+      },
+      {
+        "name": "Bachelor of Science (Microbiology)",
+        "n": 54
+      },
+      {
+        "name": "Bachelor of Science (Neuroscience)",
+        "n": 373
+      },
+      {
+        "name": "Bachelor of Science (Pathology)",
+        "n": 57
+      },
+      {
+        "name": "Bachelor of Science (Pharmacology)",
+        "n": 154
+      },
+      {
+        "name": "Bachelor of Science (Physics)",
+        "n": 189
+      },
+      {
+        "name": "Bachelor of Science (Physiology)",
+        "n": 439
+      },
+      {
+        "name": "Bachelor of Science (Psychology)",
+        "n": 351
+      },
+      {
+        "name": "Bachelor of Science (Veterinary Bioscience)",
+        "n": 34
+      },
+      {
+        "name": "Bachelor of Science (Zoology)",
+        "n": 92
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 23 \"Bachelor of Science (…)\" records"
+  },
   "uq-2033": {
     "tier": "field",
     "grain": "field",
@@ -123225,6 +124412,109 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 46.6,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 89.06
+  },
+  "uq-2052": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Arts (Anthropology)",
+        "n": 153
+      },
+      {
+        "name": "Bachelor of Arts (Asian Studies)",
+        "n": 43
+      },
+      {
+        "name": "Bachelor of Arts (Economics)",
+        "n": 196
+      },
+      {
+        "name": "Bachelor of Arts (Gender Studies)",
+        "n": 100
+      },
+      {
+        "name": "Bachelor of Arts (Geography)",
+        "n": 108
+      },
+      {
+        "name": "Bachelor of Arts (History)",
+        "n": 524
+      },
+      {
+        "name": "Bachelor of Arts (Politics and International",
+        "n": 339
+      },
+      {
+        "name": "Bachelor of Arts (Psychology)",
+        "n": 859
+      },
+      {
+        "name": "Bachelor of Arts (Screen And Cultural Studies)",
+        "n": 59
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 18 \"Bachelor of Arts (…)\" records",
+    "excludedSources": [
+      {
+        "name": "Bachelor of Arts (Ancient World Studies)",
+        "refusedTitles": [
+          "Collections Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Art History)",
+        "refusedTitles": [
+          "Gallery Attendant",
+          "Researcher",
+          "Art Consultant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Creative Writing)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Criminology)",
+        "refusedTitles": [
+          "Justice Officer",
+          "Senior Intelligence Analyst Team Leader"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (English and Theatre Studies)",
+        "refusedTitles": [
+          "Publishing Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Indigenous Studies)",
+        "refusedTitles": [
+          "Indigenous Education Officer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Media and Communications)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Philosophy)",
+        "refusedTitles": [
+          "University Lecturer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Sociology)",
+        "refusedTitles": [
+          "Youth Advisor"
+        ]
+      }
+    ]
   },
   "uq-2066": {
     "tier": "field",
@@ -123312,6 +124602,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021",
     "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+  },
+  "uq-2132": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 091901 Economics",
+        "n": null
+      }
+    ],
+    "field": "091901",
+    "indexVariant": "AIOE-2021",
+    "coverage": 35.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 90.69
   },
   "uq-2139": {
     "tier": "field",
@@ -123658,6 +124963,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 87.53
   },
+  "uq-2320": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0009 Society and Culture",
+        "n": null
+      }
+    ],
+    "field": "0009",
+    "indexVariant": "AIOE-2021",
+    "coverage": 26.8,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 80.97
+  },
   "uq-2334": {
     "tier": "field",
     "grain": "field",
@@ -123764,6 +125084,106 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 45.5,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 86.88
+  },
+  "uq-2354": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Science (Animal Health And Disease)",
+        "n": 68
+      },
+      {
+        "name": "Bachelor of Science (Biochemistry and Molecular",
+        "n": 141
+      },
+      {
+        "name": "Bachelor of Science (Biotechnology)",
+        "n": 113
+      },
+      {
+        "name": "Bachelor of Science (Chemistry)",
+        "n": 318
+      },
+      {
+        "name": "Bachelor of Science (Computing And Software",
+        "n": 328
+      },
+      {
+        "name": "Bachelor of Science (Data Science)",
+        "n": 212
+      },
+      {
+        "name": "Bachelor of Science (Ecology And Evolutionary",
+        "n": 48
+      },
+      {
+        "name": "Bachelor of Science (Environmental Science)",
+        "n": 90
+      },
+      {
+        "name": "Bachelor of Science (Food Science)",
+        "n": 99
+      },
+      {
+        "name": "Bachelor of Science (Genetics)",
+        "n": 112
+      },
+      {
+        "name": "Bachelor of Science (Geology)",
+        "n": 46
+      },
+      {
+        "name": "Bachelor of Science (Human Structure and",
+        "n": 154
+      },
+      {
+        "name": "Bachelor of Science (Mathematical Physics)",
+        "n": 56
+      },
+      {
+        "name": "Bachelor of Science (Mathematics and Statistics)",
+        "n": 122
+      },
+      {
+        "name": "Bachelor of Science (Microbiology)",
+        "n": 54
+      },
+      {
+        "name": "Bachelor of Science (Neuroscience)",
+        "n": 373
+      },
+      {
+        "name": "Bachelor of Science (Pathology)",
+        "n": 57
+      },
+      {
+        "name": "Bachelor of Science (Pharmacology)",
+        "n": 154
+      },
+      {
+        "name": "Bachelor of Science (Physics)",
+        "n": 189
+      },
+      {
+        "name": "Bachelor of Science (Physiology)",
+        "n": 439
+      },
+      {
+        "name": "Bachelor of Science (Psychology)",
+        "n": 351
+      },
+      {
+        "name": "Bachelor of Science (Veterinary Bioscience)",
+        "n": 34
+      },
+      {
+        "name": "Bachelor of Science (Zoology)",
+        "n": 92
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 23 \"Bachelor of Science (…)\" records"
   },
   "uq-2367": {
     "tier": "field",
@@ -124199,6 +125619,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "exposureWeighted": 86.88
   },
   "uq-2456": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0109 Biological Sciences",
+        "n": null
+      }
+    ],
+    "field": "0109",
+    "indexVariant": "AIOE-2021",
+    "coverage": 25.4,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 81.58
+  },
+  "uq-2457": {
     "tier": "field",
     "grain": "field",
     "sources": [
@@ -126244,6 +127679,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "exposureWeighted": 75.28
   },
+  "uq-5240": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0001 Natural and Physical Sciences",
+        "n": null
+      }
+    ],
+    "field": "0001",
+    "indexVariant": "AIOE-2021",
+    "coverage": 21.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 76.38
+  },
   "uq-5248": {
     "tier": "field",
     "grain": "field",
@@ -126730,6 +128180,51 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021"
   },
+  "uq-5527": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
+  },
+  "uq-5528": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
+  },
+  "uq-5530": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
+  },
   "uq-5533": {
     "tier": "field",
     "grain": "field",
@@ -127006,6 +128501,17 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 21.5,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 76.38
+  },
+  "uq-5578": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Doctor of Medicine",
+        "n": 762
+      }
+    ],
+    "indexVariant": "AIOE-2021"
   },
   "uq-5580": {
     "tier": "field",
@@ -128290,6 +129796,36 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
       }
     ],
     "exposureWeighted": 87.75
+  },
+  "uq-5773": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0008 Management and Commerce",
+        "n": null
+      }
+    ],
+    "field": "0008",
+    "indexVariant": "AIOE-2021",
+    "coverage": 41.7,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 93.16
+  },
+  "uq-5774": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0008 Management and Commerce",
+        "n": null
+      }
+    ],
+    "field": "0008",
+    "indexVariant": "AIOE-2021",
+    "coverage": 41.7,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 93.16
   },
   "uq-5775": {
     "tier": "field",

@@ -21278,6 +21278,153 @@
       "fieldName": "Management and Commerce",
       "confidence": "high",
       "rationale": "Master of Development Studies -> ASCED 0008 Management and Commerce"
+    },
+    "adelaide-mnp_mnurprac": {
+      "name": "Master of Nurse Practitioner",
+      "field": "060301",
+      "fieldName": "General Nursing",
+      "confidence": "high",
+      "rationale": "Master of Nurse Practitioner -> ASCED 060301 General Nursing"
+    },
+    "adelaide-pcdil_pcdefinl": {
+      "name": "Professional Certificate in Defence Industry Leadership",
+      "field": "0008",
+      "fieldName": "Management and Commerce",
+      "confidence": "high",
+      "rationale": "Professional Certificate in Defence Industry Leadership -> ASCED 0008 Management and Commerce"
+    },
+    "adelaide-hfsct_hbfsct": {
+      "name": "Bachelor of Food and Nutrition Science (Honours)",
+      "field": "069901",
+      "fieldName": "Nutrition and Dietetics",
+      "confidence": "high",
+      "rationale": "Bachelor of Food and Nutrition Science (Honours) -> ASCED 069901 Nutrition and Dietetics"
+    },
+    "monash-u0606": {
+      "name": "Diploma of Science",
+      "field": "0001",
+      "fieldName": "Natural and Physical Sciences",
+      "confidence": "high",
+      "rationale": "Diploma of Science -> ASCED 0001 Natural and Physical Sciences"
+    },
+    "monash-u0401": {
+      "name": "Monash Advanced Preparation Program",
+      "field": "0008",
+      "fieldName": "Management and Commerce",
+      "confidence": "high",
+      "rationale": "Monash Advanced Preparation Program -> ASCED 0008 Management and Commerce"
+    },
+    "unsw-4504": {
+      "name": "Bachelor of Arts (Honours)",
+      "field": "0009",
+      "fieldName": "Society and Culture",
+      "confidence": "high",
+      "rationale": "Bachelor of Arts (Honours) -> ASCED 0009 Society and Culture"
+    },
+    "unsw-4510": {
+      "name": "Bachelor of Media (Honours)",
+      "field": "1007",
+      "fieldName": "Communication and Media Studies",
+      "confidence": "high",
+      "rationale": "Bachelor of Media (Honours) -> ASCED 1007 Communication and Media Studies"
+    },
+    "uq-5578": {
+      "name": "Doctor of Medicine",
+      "field": "0601",
+      "fieldName": "Medical Studies",
+      "confidence": "high",
+      "rationale": "Doctor of Medicine -> ASCED 0601 Medical Studies"
+    },
+    "uq-5527": {
+      "name": "Graduate Certificate in Engineering Science",
+      "field": "039999",
+      "fieldName": "Engineering and Related Technologies, n.e.c.",
+      "confidence": "high",
+      "rationale": "Graduate Certificate in Engineering Science -> ASCED 039999 Engineering and Related Technologies, n.e.c."
+    },
+    "uq-5528": {
+      "name": "Master of Engineering Science",
+      "field": "039999",
+      "fieldName": "Engineering and Related Technologies, n.e.c.",
+      "confidence": "high",
+      "rationale": "Master of Engineering Science -> ASCED 039999 Engineering and Related Technologies, n.e.c."
+    },
+    "uq-5530": {
+      "name": "Master of Engineering Science (Management)",
+      "field": "039999",
+      "fieldName": "Engineering and Related Technologies, n.e.c.",
+      "confidence": "high",
+      "rationale": "Master of Engineering Science (Management) -> ASCED 039999 Engineering and Related Technologies, n.e.c."
+    },
+    "uq-5773": {
+      "name": "Graduate Certificate in Resource Development",
+      "field": "0008",
+      "fieldName": "Management and Commerce",
+      "confidence": "high",
+      "rationale": "Graduate Certificate in Resource Development -> ASCED 0008 Management and Commerce"
+    },
+    "uq-5774": {
+      "name": "Graduate Diploma in Resource Development",
+      "field": "0008",
+      "fieldName": "Management and Commerce",
+      "confidence": "high",
+      "rationale": "Graduate Diploma in Resource Development -> ASCED 0008 Management and Commerce"
+    },
+    "uq-5240": {
+      "name": "Graduate Diploma in Science",
+      "field": "0001",
+      "fieldName": "Natural and Physical Sciences",
+      "confidence": "high",
+      "rationale": "Graduate Diploma in Science -> ASCED 0001 Natural and Physical Sciences"
+    },
+    "uq-2052": {
+      "name": "Bachelor of Arts (Honours)",
+      "field": "0009",
+      "fieldName": "Society and Culture",
+      "confidence": "high",
+      "rationale": "Bachelor of Arts (Honours) -> ASCED 0009 Society and Culture"
+    },
+    "uq-2457": {
+      "name": "Bachelor of Biotechnology (Honours)",
+      "field": "0109",
+      "fieldName": "Biological Sciences",
+      "confidence": "high",
+      "rationale": "Bachelor of Biotechnology (Honours) -> ASCED 0109 Biological Sciences"
+    },
+    "uq-2132": {
+      "name": "Bachelor of Economics (Honours)",
+      "field": "091901",
+      "fieldName": "Economics",
+      "confidence": "high",
+      "rationale": "Bachelor of Economics (Honours) -> ASCED 091901 Economics"
+    },
+    "uq-2031": {
+      "name": "Bachelor of Science (Honours)",
+      "field": "0001",
+      "fieldName": "Natural and Physical Sciences",
+      "confidence": "high",
+      "rationale": "Bachelor of Science (Honours) -> ASCED 0001 Natural and Physical Sciences"
+    },
+    "uq-2354": {
+      "name": "Bachelor of Science (Honours)",
+      "field": "0001",
+      "fieldName": "Natural and Physical Sciences",
+      "confidence": "high",
+      "rationale": "Bachelor of Science (Honours) -> ASCED 0001 Natural and Physical Sciences"
+    },
+    "uq-2320": {
+      "name": "Diploma in Arts",
+      "field": "0009",
+      "fieldName": "Society and Culture",
+      "confidence": "high",
+      "rationale": "Diploma in Arts -> ASCED 0009 Society and Culture"
+    },
+    "uq-1602": {
+      "name": "Diploma in Languages",
+      "field": "0915",
+      "fieldName": "Language and Literature",
+      "confidence": "high",
+      "rationale": "Diploma in Languages -> ASCED 0915 Language and Literature"
     }
   }
 }

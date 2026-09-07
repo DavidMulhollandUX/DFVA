@@ -5123,6 +5123,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "adelaide-hfsct_hbfsct": {
+    "code": "adelaide-hfsct_hbfsct",
+    "name": "Bachelor of Food and Nutrition Science (Honours)",
+    "exposure": 75.93,
+    "entryExposure": 76.18,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "adelaide-hhmsc_hbhlthmeds": {
     "code": "adelaide-hhmsc_hbhlthmeds",
     "name": "Bachelor of Health and Medical Sciences",
@@ -6597,6 +6619,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "adelaide-mnp_mnurprac": {
+    "code": "adelaide-mnp_mnurprac",
+    "name": "Master of Nurse Practitioner",
+    "exposure": 66.46,
+    "entryExposure": 66.2,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "adelaide-mnusc_mnurscacmnurscarmnurscenmnurscic": {
     "code": "adelaide-mnusc_mnurscacmnurscarmnurscenmnurscic",
     "name": "Master of Nursing Science",
@@ -7047,6 +7091,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "workplace": 5,
     "C1": 3,
     "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "adelaide-pcdil_pcdefinl": {
+    "code": "adelaide-pcdil_pcdefinl",
+    "name": "Professional Certificate in Defence Industry Leadership",
+    "exposure": 91.34,
+    "entryExposure": 90.05,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
     "C3": 2,
     "C4": 3,
     "C5": 2,
@@ -39817,6 +39883,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "monash-u0401": {
+    "code": "monash-u0401",
+    "name": "Monash Advanced Preparation Program",
+    "exposure": 91.34,
+    "entryExposure": 90.05,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "monash-u0601": {
     "code": "monash-u0601",
     "name": "Diploma of Arts",
@@ -39920,6 +40008,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "C5": 3,
     "W1": 2,
     "W2": 3,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "monash-u0606": {
+    "code": "monash-u0606",
+    "name": "Diploma of Science",
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
     "W3": 1,
     "gates": {
       "G1": "PASS",
@@ -43733,6 +43843,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "unsw-4504": {
+    "code": "unsw-4504",
+    "name": "Bachelor of Arts (Honours)",
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "exposureTier": "pooled",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "unsw-4505": {
     "code": "unsw-4505",
     "name": "Criminology",
@@ -43793,6 +43925,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W1": 3,
     "W2": 3,
     "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-4510": {
+    "code": "unsw-4510",
+    "name": "Bachelor of Media (Honours)",
+    "exposure": 80.6,
+    "entryExposure": 78.35,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
     "gates": {
       "G1": "PASS",
       "G2": "PASS"
@@ -50597,6 +50751,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "uq-1602": {
+    "code": "uq-1602",
+    "name": "Diploma in Languages",
+    "exposure": 89.14,
+    "entryExposure": 88.69,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "uq-2000": {
     "code": "uq-2000",
     "name": "Bachelor of Arts",
@@ -50625,6 +50801,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "exposure": 88.71,
     "entryExposure": 88.85,
     "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "uq-2031": {
+    "code": "uq-2031",
+    "name": "Bachelor of Science (Honours)",
+    "exposure": 82.72,
+    "entryExposure": 78.11,
+    "exposureTier": "pooled",
     "adaptiveness": 12,
     "workplace": 5,
     "C1": 3,
@@ -50676,6 +50874,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "C3": 2,
     "C4": 3,
     "C5": 3,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "uq-2052": {
+    "code": "uq-2052",
+    "name": "Bachelor of Arts (Honours)",
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "exposureTier": "pooled",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
     "W1": 2,
     "W2": 2,
     "W3": 1,
@@ -50757,6 +50977,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "exposure": 97.01,
     "entryExposure": 96.82,
     "exposureTier": "pooled",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "uq-2132": {
+    "code": "uq-2132",
+    "name": "Bachelor of Economics (Honours)",
+    "exposure": 90.57,
+    "entryExposure": 88.97,
+    "exposureTier": "field",
     "adaptiveness": 12,
     "workplace": 5,
     "C1": 3,
@@ -51191,6 +51433,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "uq-2320": {
+    "code": "uq-2320",
+    "name": "Diploma in Arts",
+    "exposure": 81.93,
+    "entryExposure": 77.94,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "uq-2334": {
     "code": "uq-2334",
     "name": "Bachelors of Business Management / Laws",
@@ -51317,6 +51581,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W1": 2,
     "W2": 2,
     "W3": 2,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "uq-2354": {
+    "code": "uq-2354",
+    "name": "Bachelor of Science (Honours)",
+    "exposure": 82.72,
+    "entryExposure": 78.11,
+    "exposureTier": "pooled",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
     "gates": {
       "G1": "PASS",
       "G2": "PASS"
@@ -51920,6 +52206,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
   "uq-2456": {
     "code": "uq-2456",
     "name": "Bachelor of Biotechnology",
+    "exposure": 82.77,
+    "entryExposure": 82.19,
+    "exposureTier": "field",
+    "adaptiveness": 15,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "uq-2457": {
+    "code": "uq-2457",
+    "name": "Bachelor of Biotechnology (Honours)",
     "exposure": 82.77,
     "entryExposure": 82.19,
     "exposureTier": "field",
@@ -54601,6 +54909,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "uq-5240": {
+    "code": "uq-5240",
+    "name": "Graduate Diploma in Science",
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "uq-5248": {
     "code": "uq-5248",
     "name": "Graduate Certificate in Business",
@@ -55305,6 +55635,72 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "uq-5527": {
+    "code": "uq-5527",
+    "name": "Graduate Certificate in Engineering Science",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 2,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "uq-5528": {
+    "code": "uq-5528",
+    "name": "Master of Engineering Science",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 2,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "uq-5530": {
+    "code": "uq-5530",
+    "name": "Master of Engineering Science (Management)",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 2,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "uq-5533": {
     "code": "uq-5533",
     "name": "Graduate Certificate in Pharmacy Practice",
@@ -55673,6 +56069,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W1": 2,
     "W2": 2,
     "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "uq-5578": {
+    "code": "uq-5578",
+    "name": "Doctor of Medicine",
+    "exposure": 80.58,
+    "entryExposure": 73.78,
+    "exposureTier": "exact",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
     "gates": {
       "G1": "PASS",
       "G2": "PASS"
@@ -57510,6 +57928,50 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "name": "Graduate Certificate in Indigenous Language Revitalisation",
     "exposure": 89.14,
     "entryExposure": 88.69,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "uq-5773": {
+    "code": "uq-5773",
+    "name": "Graduate Certificate in Resource Development",
+    "exposure": 91.34,
+    "entryExposure": 90.05,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "uq-5774": {
+    "code": "uq-5774",
+    "name": "Graduate Diploma in Resource Development",
+    "exposure": 91.34,
+    "entryExposure": 90.05,
     "exposureTier": "field",
     "adaptiveness": 12,
     "workplace": 5,

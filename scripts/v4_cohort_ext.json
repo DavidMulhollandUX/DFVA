@@ -21012,5 +21012,152 @@
     "url": "https://handbook.unsw.edu.au/postgraduate/programs/2026/8942",
     "cohort": "unswsydney",
     "faculty": "UNSW Sydney"
+  },
+  {
+    "code": "adelaide-mnp_mnurprac",
+    "name": "Master of Nurse Practitioner",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/mnp_mnurprac",
+    "cohort": "universityofadelaide",
+    "faculty": "University of Adelaide"
+  },
+  {
+    "code": "adelaide-pcdil_pcdefinl",
+    "name": "Professional Certificate in Defence Industry Leadership",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/pcdil_pcdefinl",
+    "cohort": "universityofadelaide",
+    "faculty": "University of Adelaide"
+  },
+  {
+    "code": "adelaide-hfsct_hbfsct",
+    "name": "Bachelor of Food and Nutrition Science (Honours)",
+    "url": "https://calendar.adelaide.edu.au/aprcw/2025/hfsct_hbfsct",
+    "cohort": "universityofadelaide",
+    "faculty": "University of Adelaide"
+  },
+  {
+    "code": "monash-u0606",
+    "name": "Diploma of Science",
+    "url": "https://handbook.monash.edu/2026/courses/U0606",
+    "cohort": "monashuniversity",
+    "faculty": "Monash University"
+  },
+  {
+    "code": "monash-u0401",
+    "name": "Monash Advanced Preparation Program",
+    "url": "https://handbook.monash.edu/2026/courses/U0401",
+    "cohort": "monashuniversity",
+    "faculty": "Monash University"
+  },
+  {
+    "code": "unsw-4504",
+    "name": "Bachelor of Arts (Honours)",
+    "url": "https://handbook.unsw.edu.au/undergraduate/programs/2026/4504",
+    "cohort": "unswsydney",
+    "faculty": "UNSW Sydney"
+  },
+  {
+    "code": "unsw-4510",
+    "name": "Bachelor of Media (Honours)",
+    "url": "https://handbook.unsw.edu.au/undergraduate/programs/2026/4510",
+    "cohort": "unswsydney",
+    "faculty": "UNSW Sydney"
+  },
+  {
+    "code": "uq-5578",
+    "name": "Doctor of Medicine",
+    "url": "https://my.uq.edu.au/programs-courses/program.html?acad_prog=5578",
+    "cohort": "theuniversityofqueensland",
+    "faculty": "The University of Queensland"
+  },
+  {
+    "code": "uq-5527",
+    "name": "Graduate Certificate in Engineering Science",
+    "url": "https://my.uq.edu.au/programs-courses/program.html?acad_prog=5527",
+    "cohort": "theuniversityofqueensland",
+    "faculty": "The University of Queensland"
+  },
+  {
+    "code": "uq-5528",
+    "name": "Master of Engineering Science",
+    "url": "https://my.uq.edu.au/programs-courses/program.html?acad_prog=5528",
+    "cohort": "theuniversityofqueensland",
+    "faculty": "The University of Queensland"
+  },
+  {
+    "code": "uq-5530",
+    "name": "Master of Engineering Science (Management)",
+    "url": "https://my.uq.edu.au/programs-courses/program.html?acad_prog=5530",
+    "cohort": "theuniversityofqueensland",
+    "faculty": "The University of Queensland"
+  },
+  {
+    "code": "uq-5773",
+    "name": "Graduate Certificate in Resource Development",
+    "url": "https://my.uq.edu.au/programs-courses/program.html?acad_prog=5773",
+    "cohort": "theuniversityofqueensland",
+    "faculty": "The University of Queensland"
+  },
+  {
+    "code": "uq-5774",
+    "name": "Graduate Diploma in Resource Development",
+    "url": "https://my.uq.edu.au/programs-courses/program.html?acad_prog=5774",
+    "cohort": "theuniversityofqueensland",
+    "faculty": "The University of Queensland"
+  },
+  {
+    "code": "uq-5240",
+    "name": "Graduate Diploma in Science",
+    "url": "https://my.uq.edu.au/programs-courses/program.html?acad_prog=5240",
+    "cohort": "theuniversityofqueensland",
+    "faculty": "The University of Queensland"
+  },
+  {
+    "code": "uq-2052",
+    "name": "Bachelor of Arts (Honours)",
+    "url": "https://my.uq.edu.au/programs-courses/program.html?acad_prog=2052",
+    "cohort": "theuniversityofqueensland",
+    "faculty": "The University of Queensland"
+  },
+  {
+    "code": "uq-2457",
+    "name": "Bachelor of Biotechnology (Honours)",
+    "url": "https://my.uq.edu.au/programs-courses/program.html?acad_prog=2457",
+    "cohort": "theuniversityofqueensland",
+    "faculty": "The University of Queensland"
+  },
+  {
+    "code": "uq-2132",
+    "name": "Bachelor of Economics (Honours)",
+    "url": "https://my.uq.edu.au/programs-courses/program.html?acad_prog=2132",
+    "cohort": "theuniversityofqueensland",
+    "faculty": "The University of Queensland"
+  },
+  {
+    "code": "uq-2031",
+    "name": "Bachelor of Science (Honours)",
+    "url": "https://my.uq.edu.au/programs-courses/program.html?acad_prog=2031",
+    "cohort": "theuniversityofqueensland",
+    "faculty": "The University of Queensland"
+  },
+  {
+    "code": "uq-2354",
+    "name": "Bachelor of Science (Honours)",
+    "url": "https://my.uq.edu.au/programs-courses/program.html?acad_prog=2354",
+    "cohort": "theuniversityofqueensland",
+    "faculty": "The University of Queensland"
+  },
+  {
+    "code": "uq-2320",
+    "name": "Diploma in Arts",
+    "url": "https://my.uq.edu.au/programs-courses/program.html?acad_prog=2320",
+    "cohort": "theuniversityofqueensland",
+    "faculty": "The University of Queensland"
+  },
+  {
+    "code": "uq-1602",
+    "name": "Diploma in Languages",
+    "url": "https://my.uq.edu.au/programs-courses/program.html?acad_prog=1602",
+    "cohort": "theuniversityofqueensland",
+    "faculty": "The University of Queensland"
   }
 ]
