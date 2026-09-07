@@ -35,6 +35,7 @@ import {
   type PanelABasis,
 } from './dfva-panela-basis'
 import { isPublishedRecord } from './lib-institution'
+import { V4_ONLY_PROGRAMS } from '../compass/app/src/compass/v4/data/v4Basis'
 
 const ROOT = path.resolve(__dirname, '..')
 const ctx = loadPanelAContext()
@@ -50,10 +51,10 @@ const v3Exposure = new Map(
 )
 
 // --- the v4-only programs and the exposure the generator gave them -----------
-const v4Src = readFileSync(path.join(ROOT, 'compass/app/src/compass/v4/data/v4Basis.ts'), 'utf8')
-const v4OnlyBlock = v4Src.match(/export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = (\{[\s\S]*?\n\});/)
+// Read as a module. v4Basis.ts is an aggregation over per-program chunks since
+// the split, so there is no literal for a regex to find.
 interface V4Only { code: string; name: string; exposure: number | null; nTitles: number | null; exposureBasis: PanelABasis | null }
-const v4Only: Record<string, V4Only> = v4OnlyBlock ? JSON.parse(v4OnlyBlock[1]) : {}
+const v4Only = V4_ONLY_PROGRAMS as unknown as Record<string, V4Only>
 // V4_META moved to the light v4Meta.ts module in the v4PanelC.ts/v4Meta.ts split.
 const v4MetaSrc = readFileSync(path.join(ROOT, 'compass/app/src/compass/v4/data/v4Meta.ts'), 'utf8')
 const metaBlock = v4MetaSrc.match(/export const V4_META: V4Meta = (\{[\s\S]*?\n\});/)

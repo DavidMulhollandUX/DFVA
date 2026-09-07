@@ -7,21 +7,17 @@
  * compass/app/src/compass/sharedProgramData.ts is NOT the source — it holds 65
  * entries against 104 v4-scored programs.
  */
-import { readFileSync } from 'node:fs'
-import path from 'node:path'
-import { fileURLToPath } from 'node:url'
-
-const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+import { V4_ONLY_PROGRAMS } from '../compass/app/src/compass/v4/data/v4Basis'
 
 export function loadV4Names(): Map<string, string> {
-  const panelSrc = readFileSync(
-    path.join(ROOT, 'compass/app/src/compass/v4/data/v4Basis.ts'),
-    'utf8',
-  )
+  // Read as a module, not as text. v4Basis.ts stopped being one big literal
+  // when the per-program chunks landed, and a regex over its source now finds
+  // nothing at all — silently, which is the worst way for a name lookup to
+  // fail.
   const names = new Map<string, string>()
-  const re = /"code":\s*"([^"]+)",\s*\n\s*"name":\s*"([^"]+)"/g
-  let m: RegExpExecArray | null
-  while ((m = re.exec(panelSrc))) if (!names.has(m[1])) names.set(m[1], m[2])
+  for (const [code, p] of Object.entries(V4_ONLY_PROGRAMS)) {
+    if (!names.has(code)) names.set(code, p.name)
+  }
   return names
 }
 
