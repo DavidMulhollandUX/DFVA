@@ -135,7 +135,13 @@ def select_claims(ledgers, max_themes=6, per_ledger=2):
     """Deterministic §3 selection: unrefuted, URL-bearing, sourced/scoped/corrected claims
     from lanes L1–L3, ranked by lane then date, capped per ledger and overall, deduplicated
     on text. L5 claims with a URL fill in only when fewer than three survive — the lint
-    needs three attributions and a discourse sample is a weaker source than a study."""
+    needs three attributions and a discourse sample is a weaker source than a study.
+
+    Ledgers are visited in destination-share order, which `resolve_professions`
+    already establishes; the sort here makes the dependency explicit so a
+    caller that builds its own list cannot silently reorder the themes.
+    """
+    ledgers = sorted(ledgers, key=lambda d: -(d.get('_weight') or 0))
     seen, chosen = set(), []
 
     def eligible(c, lanes):

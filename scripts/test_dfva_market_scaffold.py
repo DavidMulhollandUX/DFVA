@@ -178,3 +178,26 @@ def test_a_non_melbourne_report_never_cites_a_unimelb_handbook_url():
     assert 'handbook.unimelb.edu.au' in scaffold.handbook_url('244cw')
     for code in ('uq-5760', 'anu-mpubh', 'uwa-92550'):
         assert 'unimelb' not in scaffold.handbook_url(code), code
+
+
+def test_market_path_reads_every_crosswalk_the_exposure_path_reads():
+    """professions-of.py read only v31_extension_crosswalk.csv while
+    dfva-panela-basis.ts read three sources, so titles mapped authoritatively —
+    "Health Promotion Officer", the largest destination for public health
+    graduates — were dropped from the market report's job-family map and its
+    themes came from the residual buckets that survived."""
+    professions_of = importlib.import_module('professions-of')
+    ts = (Path(__file__).resolve().parent / 'dfva-panela-basis.ts').read_text()
+    for rel in professions_of.CROSSWALK_SOURCES:
+        assert rel in ts, f'{rel} is not one of the TypeScript resolver sources'
+    glob_map, _ = professions_of.load_crosswalk()
+    for title in ('health promotion officer', 'management consultant', 'solicitor',
+                  'software engineer', 'physiotherapist', 'general practitioner'):
+        assert title in glob_map, title
+
+
+def test_a_field_grain_program_resolves_every_top_destination():
+    """A dropped title is silent: the share it carried simply leaves the map."""
+    scaffold = importlib.import_module('dfva-market-scaffold')
+    for code in ('monash-m6024', 'uq-5760', 'usyd-public-health'):
+        assert scaffold.resolve_professions(code)['unresolved'] == [], code
