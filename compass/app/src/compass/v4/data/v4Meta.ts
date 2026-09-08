@@ -6503,6 +6503,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "unsw-8646": {
+    "code": "unsw-8646",
+    "name": "Data Science",
+    "institution": "UNSW Sydney",
+    "institutionSlug": "unsw",
+    "level": "other",
+    "exposure": 81.84,
+    "entryExposure": 81.93,
+    "exposureTier": "field",
+    "adaptiveness": 6,
+    "workplace": 2,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 2,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 0,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-08"
+  },
   "unsw-9045": {
     "code": "unsw-9045",
     "name": "Public Health",

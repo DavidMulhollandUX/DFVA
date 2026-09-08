@@ -271,6 +271,7 @@ export const V4_BASIS_LOADERS: Record<
   "unsw-7002": () => import("./unsw-7002"),
   "unsw-7003": () => import("./unsw-7003"),
   "unsw-8351": () => import("./unsw-8351"),
+  "unsw-8646": () => import("./unsw-8646"),
   "unsw-9045": () => import("./unsw-9045"),
   "uq-2000": () => import("./uq-2000"),
   "uq-2336": () => import("./uq-2336"),

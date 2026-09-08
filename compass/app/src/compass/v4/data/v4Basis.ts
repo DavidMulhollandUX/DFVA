@@ -272,6 +272,7 @@ import b_unsw_4701 from "./v4Basis/unsw-4701";
 import b_unsw_7002 from "./v4Basis/unsw-7002";
 import b_unsw_7003 from "./v4Basis/unsw-7003";
 import b_unsw_8351 from "./v4Basis/unsw-8351";
+import b_unsw_8646 from "./v4Basis/unsw-8646";
 import b_unsw_9045 from "./v4Basis/unsw-9045";
 import b_uq_2000 from "./v4Basis/uq-2000";
 import b_uq_2336 from "./v4Basis/uq-2336";
@@ -555,6 +556,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = Object.fromEntrie
     ["unsw-7002", b_unsw_7002.onlyProgram],
     ["unsw-7003", b_unsw_7003.onlyProgram],
     ["unsw-8351", b_unsw_8351.onlyProgram],
+    ["unsw-8646", b_unsw_8646.onlyProgram],
     ["unsw-9045", b_unsw_9045.onlyProgram],
     ["uq-2000", b_uq_2000.onlyProgram],
     ["uq-2336", b_uq_2336.onlyProgram],
@@ -841,6 +843,7 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = Object.fromEntrie
     ["unsw-7002", b_unsw_7002.panelABasis],
     ["unsw-7003", b_unsw_7003.panelABasis],
     ["unsw-8351", b_unsw_8351.panelABasis],
+    ["unsw-8646", b_unsw_8646.panelABasis],
     ["unsw-9045", b_unsw_9045.panelABasis],
     ["uq-2000", b_uq_2000.panelABasis],
     ["uq-2336", b_uq_2336.panelABasis],

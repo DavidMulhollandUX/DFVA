@@ -278,6 +278,7 @@ import p_unsw_4701 from "./v4PanelC/unsw-4701";
 import p_unsw_7002 from "./v4PanelC/unsw-7002";
 import p_unsw_7003 from "./v4PanelC/unsw-7003";
 import p_unsw_8351 from "./v4PanelC/unsw-8351";
+import p_unsw_8646 from "./v4PanelC/unsw-8646";
 import p_unsw_9045 from "./v4PanelC/unsw-9045";
 import p_uq_2000 from "./v4PanelC/uq-2000";
 import p_uq_2336 from "./v4PanelC/uq-2336";
@@ -557,6 +558,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-7002": p_unsw_7002,
   "unsw-7003": p_unsw_7003,
   "unsw-8351": p_unsw_8351,
+  "unsw-8646": p_unsw_8646,
   "unsw-9045": p_unsw_9045,
   "uq-2000": p_uq_2000,
   "uq-2336": p_uq_2336,
