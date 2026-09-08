@@ -1,102 +1,134 @@
 {
   "code": "uq-5760",
   "panelCv4": {
-    "instrument": "4.2-draft",
-    "adaptiveness": 13,
-    "workplace": 9,
     "C1": {
-      "score": 3,
-      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in public health.",
+      "score": 2,
+      "rationale": "Meets the level-2 anchor: several prescribed units assess collaborative practice, and one carries explicit individual accountability inside the group task (PUBH7618 splits an individual report from a group plan). Not level 3: level 3 additionally requires at least one assessment in which work is coordinated across people AND tools/AI systems, with the division of work between people and systems itself assessed. The extract documents no such task — the digital-health unit's assessments are MCQs, a policy brief and a video presentation, none of which assess human-plus-tool allocation.",
       "evidenceLines": [
-        "**Institution**: The University of Queensland (UQ)",
-        "**Program Code**: 5760",
-        "- **Institution**: The University of Queensland (UQ)"
+        "- Group presentation Identity Verified Team or group-based In-person: 40%% (Hurdle: False)",
+        "- Health Program Evaluation Proposal Team or group-based: 40%% (Hurdle: False)",
+        "- Group Work and Seminar Presentation: Evaluating Performance of Health Systems to Improve Health Team or group-based: 30%% (Hurdle: False)",
+        "- Digital Knowledge Translation Hurdle Team or group-based: 25%% (Hurdle: True)",
+        "- Health Economic Evaluation Plan Hurdle Team or group-based In-person Online: 40% Part 1: 20% individual report; Part 2: 20% viva voce% (Hurdle: True)"
       ]
     },
     "C2": {
-      "score": 3,
-      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in public health.",
+      "score": 2,
+      "rationale": "Meets the level-2 anchor: core assessment includes criterion-referenced appraisal of quality — an assessed peer-feedback stage on a draft research proposal, article critique and critical-appraisal tasks, and a reflexivity portfolio. Not level 3: level 3 requires assessment in which students document and justify reliance decisions (relying on or overriding a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time. The audit-trail and meta-reflection tasks appear only as assessment titles with no documented requirement to justify reliance decisions, and R1 forbids inferring the requirement from the title.",
       "evidenceLines": [
-        "**Academic Year**: 2026",
-        "**Program Level**: Postgraduate Coursework",
-        "- **Program Level**: Postgraduate Coursework"
+        "- Draft Research Proposal - Introduction and Research Question + Peer Feedback: 5%% (Hurdle: False)",
+        "- One Health Article Critique Online: 20%% (Hurdle: False)",
+        "- Critical appraisal: 30%% (Hurdle: False)",
+        "- Critical Reflexivity Portfolio Through Decolonising Lens: 30% VLog 1 is 15%; VLog 2 is 15%% (Hurdle: False)",
+        "- Audit Trail of Qualitative Research and Learning: 10%% (Hurdle: False)"
       ]
     },
     "C3": {
-      "score": 2,
-      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within public health.",
+      "score": 1,
+      "rationale": "Level 1 is the highest anchor the extract supports: digital content is present but sits at the describe/explain/understand level of information systems and clinical workflows, which is the operational level the anchor caps at 1. Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed; the word AI, and any treatment of AI capability or limitation, is absent from every course page in the extract, so the level-2 condition is not documented. Elsewhere 'digital capabilities' appears only inside communication-skills outcomes, which R2 excludes from level 2 and above.",
       "evidenceLines": [
         "Subject: Foundations of Digital Health and Clinical Informatics (CIDH7301)",
-        "Subject: First Nations Health and Wellbeing (INDH7002)",
-        "**AQF Level**: AQF level 9"
+        "Overview: This course introduces you to the fundamental aspects relating to the use of information and communication technologies (ICT) and digital data in modern healthcare practices. Over 4 modules, you will learn about the key concepts relating to digital health and clinical informatics, technical foundations and architectures, clinical workflows and a variety of health information systems. You will learn how these innovations have impacted on modern healthcare systems to provide effective multidisciplinary care services. Examples from both developed and developing countries will be examined. Finally, you will learn about the cost and economic aspects of the implementation and clinical utility of digital health in health care services.",
+        "- Explain the technical foundations and architectures, terminologies, and evidence based care used in clinical informatics and digital health",
+        "- Online MCQs Online: 30% MCQ 1 - 10% / MCQ 2 - 10% / MCQ 3 - 10%% (Hurdle: False)",
+        "- Demonstrate skills in written and oral communication, reflection and digital capabilities"
       ]
     },
     "C4": {
-      "score": 3,
-      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in public health.",
+      "score": 2,
+      "rationale": "Meets the level-2 anchor: core assessment requires application to novel or unfamiliar problems — a hurdle case analysis of environmental health interventions, and units whose assessed work applies methods to scenarios outside the taught case. Not level 3: level 3 requires documented structured progression toward independent learning, and the self-scoped research Project is gated by coordinator permission and a minimum GPA of 5.5, so the extract documents it as an access-restricted route rather than a progression the program requires of its students.",
       "evidenceLines": [
-        "**Duration**: Not specified",
-        "**Faculty**: The University of Queensland",
-        "- **Faculty**: The University of Queensland"
+        "- Case analysis of environmental health interventions: Part A (pre-prepared) Hurdle: 25%% (Hurdle: True)",
+        "- Critically apply wastewater surveillance methods to different scenarios in Australia and around the world.",
+        "- Synthesise information and apply to a future scenario for public health in the post-pandemic era",
+        "Overview: Students engage in a guided research activity in a selected area of population health. The Project (#4 units of research) is designed to be flexible, with the specific setting, activities and outcomes which include a comprehensive written report, negotiated between the student and supervisor(s). Students must obtain permission from the course coordinator before they can enrol and have achieved a minimum GPA of 5.5 across at least 16 units of coursework, including a minimum of 4 units from core courses. Students enrolling into the Project course and completing in one semester must enrol in PUBH7900. Students enrolling part time over two semesters must enrol as follows: - when commencing in Semester 1, PUBH7903 Semester 1 and 2 of the same year or - when commencing in Semester 2, PUBH7902 Semester 2 and Semester 1 of the following year. PUBH7902 and PUBH7903 are not offered in Summer Semester."
       ]
     },
     "C5": {
       "score": 2,
-      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in public health.",
+      "rationale": "Meets the level-2 anchor: students design and conduct an inquiry with methodology selection and data collection, and it is assessed — a qualitative research proposal plus an assessed in-depth interview and analysis, with a hurdle research proposal and ethics task and a hurdle biostatistics project alongside. Not level 3: level 3 requires a substantial primary-evidence project that is REQUIRED rather than one route among several, defended under scrutiny. The Project courses are permission- and GPA-gated, and no viva, defence or staged supervised review of methodology is documented for the inquiry tasks that all students meet.",
       "evidenceLines": [
-        "Subject: Evidence in Public Health Nutrition (NUTR7002)",
-        "Subject: Qualitative Research: Public Health Applications (PUBH7003)",
-        "**Teaching Location**: External, Herston"
+        "- Design and undertake a qualitative research project to answer a public health question, including devising research questions, selecting methods, sample, recruitment, data collection and analyses.",
+        "- Qualitative research proposal: 35%% (Hurdle: False)",
+        "- In-depth interview and data analysis: 55%% (Hurdle: False)",
+        "- Research Proposal + Ethics Hurdle: 45%% (Hurdle: True)",
+        "- Project Hurdle: 55%% (Hurdle: True)"
       ]
     },
+    "adaptiveness": 9,
     "W1": {
-      "score": 3,
-      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in public health.",
+      "score": 2,
+      "rationale": "Meets the level-2 anchor: multiple core assessments require recognised professional genres of public health practice — an analytical policy brief, an advocacy letter, an implementation briefing paper, an elevator pitch with a public engagement strategy, and a mock senate hearing. Not level 3: level 3 additionally requires at least one core assessment delivered to, or judged by, a real external audience or practitioner, with professional conduct or accountability explicitly among the assessed criteria. The only tasks with a documented external recipient sit in the placement and consultancy courses, which the extract documents as restricted or optional, and no assessment criterion naming professional conduct or accountability is documented for any unit.",
       "evidenceLines": [
-        "**Attendance Mode**: Internal",
-        "- **Institution**: The University of Queensland (UQ)",
-        "- **Program Level**: Postgraduate Coursework"
+        "- Analytical Policy brief Online: 30%% (Hurdle: False)",
+        "- Advocacy Letter: 35%% (Hurdle: False)",
+        "- Health Program Implementation Briefing Paper: 40%% (Hurdle: False)",
+        "- Elevator pitch + public engagement strategy: 40%% (Hurdle: False)",
+        "- Mock Senate Hearing Online: 30%% (Hurdle: False)",
+        "- Health Equity Pitch: 40%% (Hurdle: False)"
       ]
     },
     "W2": {
-      "score": 3,
-      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in public health.",
+      "score": 2,
+      "rationale": "Meets the level-2 anchor: core assessment reproduces professional public health tasks end to end, producing the artefacts a practitioner produces — a health risk assessment (hurdle), an outbreak management plan, a surveillance implementation plan, an advocacy campaign plan and an economic evaluation report. Not level 3: level 3 requires both that such tasks form the assessment spine AND that at least one carries a genuine constraint of practice. The externally supplied problem and consequential audience appear only in the consultancy course the extract frames as an 'opportunity', and per R4 the course overviews' 'real-world' framing is not scored as a task feature, so the constraint condition is not documented for assessment all students meet.",
       "evidenceLines": [
-        "**Handbook URL**: https://my.uq.edu.au/programs-courses/program.html?acad_prog=5760",
-        "Subject: Preventing Disease through Healthy Environments (PUBH7027)",
-        "- **Faculty**: The University of Queensland"
+        "- Health Risk Assessment Hurdle: 35%% (Hurdle: True)",
+        "- Outbreak management plan: 25%% (Hurdle: False)",
+        "- Implementation plan: 50%% (Hurdle: False)",
+        "- Advocacy Campaign Plan: 45%% (Hurdle: False)",
+        "- Report on the economic evaluation of a public health programme Online: 40%% (Hurdle: False)",
+        "- Synthesising the findings of the Needs Assessment: 45%% (Hurdle: False)"
       ]
     },
     "W3": {
-      "score": 3,
-      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "score": 1,
+      "rationale": "Level 1 is the highest anchor the extract supports: work-situated learning exists, and is assessed, but is documented as an access-restricted option rather than a core requirement — the placement is available only in the final semester, in restricted numbers, by expression of interest and CV subject to coordinator approval, and the consultancy alternative is described as a project 'opportunity'. Level 2 requires a CORE unit that places students in a real workplace or professional-community setting; the extract documents no such requirement, and the cohort is not documented as already practising in the profession, so the v4.2 in-practice route does not apply either.",
       "evidenceLines": [
-        "- **Duration**: Not specified",
-        "- **Institution**: The University of Queensland (UQ)"
+        "Overview: This course involves a supervised industry placement in organisations where the School of Public Health graduates may work including health services, universities and non-government agencies. The course gives students the opportunity to apply the knowledge and skills they have obtained in the first few semesters of their program and gain invaluable experience in working in a public health setting. The placement is only available in a student's final semester of study. There will be a restricted number available, therefore, students will need to apply by submitting an expression of interest and their CV. These will be assessed by the Course Coordinator, and students will not be able to enrol in PUBH7044 until his/her approval has been obtained. Special features: Students will be placed in a Public Health workplace two days per week for one semester.",
+        "Workload: Placement 15 Hours/ Week Workshop 2 Hours/ Ad Hoc Seminar 3 Hours/ One Off",
+        "- Placement Presentation: Pass/Fail% (Hurdle: False)",
+        "Overview: A team-based consultancy project opportunity where students will work in partnership with industry and community stakeholders to address a real-world problem. Students will experience entrepreneurial education in the classroom and be given opportunities to apply innovation and co-design solutions to pressing public health challenges."
       ]
     },
+    "workplace": 5,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Public Health.",
+        "rationale": "Satisfies the PASS condition through a staged prerequisite chain and a coherent specialist core: the prescribed list is entirely public health coded, running from a foundations unit through epidemiology, biostatistics and research methods, and the second epidemiology unit names a completed prerequisite as a condition of enrolment. The program's own rules also refer to a set of core courses, so the content carries disciplinary identity rather than being generic or interchangeable.",
         "evidenceLines": [
-          "- **Duration**: Not specified",
-          "To graduate with a Master of Public Health a student must have successfully completed all requirements of the program as"
+          "The following 26 units of study are prescribed for this academic program:",
+          "  * [ PUBH7033 Foundations of Public Health ](https://my.uq.edu.au/programs-courses/course.html?course_code=PUBH7033)",
+          "Overview: This course will provide in-depth exposure to the fundamental concepts, research designs and analytic strategies of epidemiology. It aims to develop a coherent understanding of the principles of epidemiology. This course has prerequisite of PUBH7600 Introduction to Epidemiology and students must have successfully completed this course before enrolling in PUBH7611.",
+          "- Understand and apply appropriate research design and methods to address answerable and critical population health research questions"
         ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "Specialist academic program structured through sequential study in public health.",
+        "rationale": "Satisfies the PASS condition: assessment requires defended trade-off decisions rather than recall or scripted responses. The economic evaluation unit runs resource-allocation simulations of the trade-offs decision-makers face under limited resources and assesses a hurdle evaluation plan whose second part is a viva voce defence; the program-planning unit assesses a plan and logic model that must account for feasibility, risks and enablers; and a hurdle health risk assessment requires judgement under uncertainty about hazards and exposure.",
         "evidenceLines": [
-          "Subject: Foundations of Digital Health and Clinical Informatics (CIDH7301)",
-          "**Institution**: The University of Queensland (UQ)"
+          "- Health Economic Evaluation Plan Hurdle Team or group-based In-person Online: 40% Part 1: 20% individual report; Part 2: 20% viva voce% (Hurdle: True)",
+          "- Create a detailed plan and program logic model for a public health action (including meaningful aims and objectives), with an understanding of its feasibility and sustainability (risks and enablers)",
+          "- Health Risk Assessment Hurdle: 35%% (Hurdle: True)",
+          "- Understand the role of health risk assessment in the identification and management of environmental health issues."
         ]
       }
     },
     "ambiguities": [
-      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
-      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+      "Program-wide: the extract lists 26 prescribed courses for a 32-unit program, and the listed courses total well over 32 units, so which courses are compulsory core cannot be established from the extract. Every anchor above level 1 is worded in terms of core units or core assessment, so wherever a level depended on compulsoriness the lower level was taken.",
+      "C2 between 2 and 3: 'Audit Trail of Qualitative Research and Learning' and 'Written personal meta-reflection' are process-focused titles that could carry the level-3 requirement to evidence strategy adjustment over time, but the extract documents no task requirement to that effect. R1 (score documented evidence, not plausible capability) resolved it to 2.",
+      "C4 between 2 and 3: the Project courses are self-scoped and negotiated with a supervisor, which reads as level-3 structured progression toward independent learning, but enrolment requires coordinator permission and a minimum GPA of 5.5. The lower-level rule resolved it to 2.",
+      "C5 between 2 and 3: PUBH7003 has students collect and analyse primary interview data, and PUBH7618 assesses a viva voce, but no single assessment combines required primary-evidence generation with methodology defended under scrutiny, and the Project route is gated. The lower-level rule resolved it to 2.",
+      "W1 between 2 and 3: professional genres do recur across the prescribed units, which is half of the level-3 condition, but the external-audience half rests on the restricted placement and the optional consultancy course, and no assessed criterion of professional conduct or accountability is documented. The lower-level rule resolved it to 2.",
+      "W2 between 2 and 3: practitioner artefacts recur widely enough to read as an assessment spine, but the level-3 genuine-constraint condition rests on the consultancy course's externally supplied problem, which is optional, and on 'real-world' overview prose that R4 forbids scoring. The lower-level rule resolved it to 2.",
+      "W3 between 1 and 2: PUBH7044 is a supervised, assessed industry placement at 15 hours per week and PUBH7045 is an assessed live client consultancy, either of which would meet level 2 if it were core; the documented restriction (final semester only, restricted numbers, expression of interest and CV, coordinator approval) and the word 'opportunity' resolved it to 1.",
+      "One construct, one home: the placement evidence (PUBH7044) is scored in W3 only, and is not counted toward C1 collaboration or C4 transfer; the consultancy course's client deliverable was considered for W1 and W2 but its optionality prevented it lifting either item."
     ],
-    "notScoreable": []
+    "notScoreable": [],
+    "instrument": "4.2-draft",
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-09-07"
+    }
   }
 }

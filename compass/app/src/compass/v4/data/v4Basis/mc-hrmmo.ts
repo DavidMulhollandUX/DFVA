@@ -1,0 +1,48 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelABasis, V4OnlyProgram } from "../v4Meta";
+
+export interface V4BasisRecord {
+  onlyProgram: V4OnlyProgram | null;
+  panelABasis: V4PanelABasis | null;
+}
+
+const record: V4BasisRecord = {
+  "onlyProgram": {
+    "code": "mc-hrmmo",
+    "name": "Master of Human Resource Management",
+    "hasMarketReport": true,
+    "exposure": 94.14,
+    "entryExposure": 91.75,
+    "jirN": 28,
+    "nTitles": 15,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "cognate",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Master of Management (Human Resources)",
+          "n": 28
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "Discipline-matched HR master."
+    }
+  },
+  "panelABasis": {
+    "tier": "cognate",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Management (Human Resources)",
+        "n": 28
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Discipline-matched HR master."
+  }
+};
+
+export default record;

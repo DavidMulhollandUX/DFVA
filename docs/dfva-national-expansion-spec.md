@@ -158,6 +158,77 @@ records quote real handbook lines; they just quote them under the wrong construc
 Verification of a re-scored record is clean: `usyd-advanced-computing-commerce` returns 36 of 36
 evidence lines verbatim, 0 unmatched.
 
+## The Go8 cross-section
+
+Re-scoring all 2,827 quarantined programs costs roughly 155M input tokens. A cross-section buys
+what the insights pages actually need — the same discipline compared across institutions — for
+about 2% of that, and it is the route taken from 2026-09-08.
+
+`scripts/dfva-go8-crosssection.ts` picks one program per flagship discipline per Group of Eight
+university: 56 picks across 9 disciplines, 53 of them outside Melbourne. Run it with `--codes`
+for the list to score, `--json` for the full pick list.
+
+**What "top" means here.** The repo carries no enrolment or ranking figures, so "top" cannot be
+read as largest or best. What the data does carry is which disciplines every Go8 runs, so the
+selection is flagship-and-comparable: a named degree most of the eight offer, chosen so every row
+compares like with like and no institution's position is an artifact of which of its programs got
+sampled.
+
+**A sample cannot make an institution publishable.** Six to nine programs is far below the 25
+`dfva-v4-distinctness-check.ts` needs to judge cohort shape, so the guard's tests neither pass nor
+fail for them. Those programs publish on their own verification instead, through
+`isPublishedRecord` in `scripts/lib-institution.ts`. The distinctness guard judges the published
+subset rather than the whole institution, but still prints the whole-institution shape — that
+number is the diagnostic that exposed the templating, and it stays useful while a university is
+re-scored program by program.
+
+### Program identity is not reliable outside Melbourne
+
+Three defects surfaced while selecting, all of which would corrupt a naive sample:
+
+- **UNSW names the field, not the award.** 316 of its 486 manifest entries read "Commerce" or
+  "Built Environment" because that is how the UNSW handbook heads its pages. The capture heading
+  cannot supply the award either. Those entries are disambiguated on the capture's `Study Level`
+  line.
+- **Sydney names handbook sub-pages after programs.** Three unit-of-study tables are called
+  "Bachelor of Laws"; an MBA specialisation stream is called "Master of Business Administration".
+  Sydney has no canonical Arts, Laws or MBA program page in this corpus at all. Table pages are
+  excluded by URL and code shape, and the remaining variant pages are labelled by their real page
+  title.
+- **Adelaide calls a single and a double degree the same thing.** Both `barts_bart` and
+  `haala_hbaadvblaw` are "Bachelor of Arts" in the manifest, while their pages are titled
+  "Bachelor of Arts (BA)" and "Bachelor of Arts (Advanced) with Bachelor of Laws (Honours)".
+  Ranking therefore reads each capture's own title, which is the only source that separates a
+  flagship from a variant.
+
+Name collision is not confined to the sample. Melbourne has 185 distinct names for 185 programs;
+every other institution reuses names across codes — 330 La Trobe codes, 307 UNSW, 156 ANU, 114
+Adelaide. Treat the manifest name as a label, never as an identity.
+
+### What the Arts row showed (2026-09-08)
+
+| Institution | adaptiveness | workplace |
+| --- | --- | --- |
+| Melbourne (`b-arts`) | 5/15 | 2/9 |
+| Sydney (`usyd-arts-extended`) | 5/15 | 2/9 |
+| UNSW (`unsw-4461`) | 8/15 | 2/9 |
+| UQ (`uq-2000`) | 3/15 | 0/9 |
+| ANU (`anu-barts`) | 5/15 | 3/9 |
+| UWA (`uwa-bp001`) | 5/15 | 3/9 |
+
+A 3-to-8 spread on one discipline, against templated data in which no program anywhere scored
+below the median. That spread is the whole point of the cross-section.
+
+### Operational notes
+
+- The persist stage runs through an agent that writes the verdict JSON and calls
+  `dfva-v4-persist.ts`. A safety classifier blocks it occasionally; when it does, no verdict file
+  is written and the program must be re-run from the Score stage. The runner now names the code
+  that returned nothing rather than dying on `null is not an object`.
+- Never start two `wasp start` processes at once. Concurrent runs corrupt `.wasp/out/sdk`, and
+  deleting that directory does not help — Wasp expects it to exist and will not recreate it. The
+  repair is `wasp clean` then `wasp install` and `wasp compile`.
+
 ## Profession ledgers
 
 `data/professions/*.json` has a parallel problem that gates market reports rather than scores:

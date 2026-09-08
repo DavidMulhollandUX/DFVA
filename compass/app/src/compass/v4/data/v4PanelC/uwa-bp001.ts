@@ -1,0 +1,145 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1 ('Collaboration/teamwork appears in learning outcomes, but no core unit assesses it') rather than level 2 ('At least one core unit assesses collaborative practice'). Teamwork is stated in unit outcomes (ANHB1101 outcome 2; GEOG1107 outcome 4) and collaborative assessment is documented in units labelled core within particular major sequences (GEOG1107 collaborative project, POLS1102 team presentation, the MUSC collaborative music project). But BP001's own course rules compel only 144 credit points, a level distribution, and 'a degree-specific major chosen from the list below' of 49 majors drawn from 512 prescribed units; no unit is core to BP001 itself, so no collaborative assessment is guaranteed to any BP001 student. Level 3 is additionally excluded: nothing in the extract assesses the division of work between people and tools or AI systems.",
+    "evidenceLines": [
+      "a degree-specific major chosen from the list below:",
+      "The following 512 units of study are prescribed for this academic program:",
+      "(2) cooperate with other students to complete tasks and solve problems, use the language of human biology appropriately, and present clear and reasoned arguments",
+      "(4) collaborate effectively to address a defined brief and communicate geographic concepts to a non-expert audience",
+      "Level 1 core unit in the Applied Human Geography; Geographical and Spatial Science; Social and Environmental Sustainability major sequences",
+      "Assessment Indicative assessments in this unit are as follows: (1) skills challenges; (2) collaborative project; and (3) quizzes.",
+      "Assessment Indicative assessments in this unit are as follows: (1) tutorial participation; (2) team presentation; and (3) research essay."
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 ('Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria') rather than level 2 ('Core assessment includes criterion-referenced appraisal of quality'). Reflective and portfolio assessment is widespread and one unit assesses peer review (HART3030), but that unit is core only to the Art History and Curatorial Studies major sequence and is a Level 3 elective for BP001; the degree compels no unit, so no criterion-referenced appraisal of quality is guaranteed. Level 3 is excluded outright: no assessment anywhere in the extract requires students to document or justify reliance decisions on a tool, source or collaborator, and the single occurrence of 'generative AI' is subject matter in a Level 3 Fine Arts option, not an assessed appraisal of AI output.",
+    "evidenceLines": [
+      "Level 3 core unit in the Art History and Curatorial Studies major sequence Level 3 option in the History of Art major sequence Level 3 elective",
+      "Assessment Indicative assessments in this unit are as follows: (1) discursive learning (oral presentation, tutorial participation, group discussion, peer review); (2) short institutional report; and (3) curatorial proposal.",
+      "a degree-specific major chosen from the list below:",
+      "Level 3 option in the Fine Arts major sequence Level 3 elective"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Exact match to the level-1 anchor: 'AI or digital tools appear only as electives or as tool operation/training'. The two AI-titled units in the prescribed list are LING2000 and PHIL2008, and both are labelled Level 2 elective for this degree (each is core only inside another major's sequence). LING2000's outcome 4 does reach ethics and bias, which is level-2 content, but level 2 requires 'Core units address AI capabilities AND limitations/ethics' and BP001 compels neither unit. No core assessment requires critique or governance of AI systems, so level 3 does not arise.",
+    "evidenceLines": [
+      "Level 2 core unit in the Linguistics major sequence Level 2 elective",
+      "(4) critically reflect on the ethical, social, and cultural implications of language-based AI systems, with particular attention to bias, inclusion, and accessibility",
+      "Level 2 core unit in the Artificial Intelligence major sequence Level 2 option in the Philosophy major sequence Level 2 elective",
+      "a degree-specific major chosen from the list below:"
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Level 1 ('Transfer is claimed in outcomes ... but not assessed'). The course overview claims transferable skills at program level and unit outcomes claim transfer of academic knowledge to new settings (ANTH3401), but the course rules attach no assessment to either claim. R4 forbids scoring the program up on the 'transferable skills that employers are seeking' phrasing itself. Level 2 would need a core assessment requiring application to novel or unfamiliar problems, and level 3 a documented structured progression to independent learning; self-scoped projects exist (ARTF3050 Advanced Major Project, ARCY3100's independently designed research project) but each sits inside one major's sequence and is an elective for BP001, so neither is required of the cohort.",
+    "evidenceLines": [
+      "The Bachelor of Arts features diverse majors from music and design to law, humanities and social sciences. This degree provides students with the lifelong, transferable skills that employers are seeking, giving an immediate competitive edge in the employment market.",
+      "students develop analytical and practical skills to transfer academic knowledge to contemporary issues in community building in an increasingly globalised world.",
+      "Level 3 core unit in the Fine Arts major sequence Level 3 elective",
+      "Assessment Indicative assessments in this unit are as follows: (1) creative work and (2) written component.",
+      "(5) independently design and undertake a research project",
+      "Level 3 core unit in the Archaeology major sequence"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1 ('Introductory methods unit; literature-review assessment') rather than level 0, because the prescribed list contains research-methods units with assessed research writing (ANTH3001 Ethnography, INDG3300 Indigenous Research, ANTH2225's research essay). Level 2 ('Students design and conduct an inquiry with methodology selection and data collection, assessed') is documented only inside particular major sequences — ANTH3001's ethnographic project, ARCY2220's fieldschool research design — and BP001 requires no specific major, so no student is guaranteed to design and conduct an inquiry. Level 3 fails on its own terms: the course rules require no substantial primary-evidence project and no viva, defence or staged supervised review.",
+    "evidenceLines": [
+      "Level 3 core unit in the Anthropology major sequence Level 3 option in the Criminology and Criminal Justice major sequence Level 3 elective",
+      "Assessment Indicative assessments in this unit are as follows: (1) ethnographic essay; (2) fieldnotes assignment; and (3) ethnographic project.",
+      "Level 3 core unit in the Indigenous Knowledge, History and Heritage",
+      "Assessment Indicative assessments in this unit are as follows: (1) participation; (2) case study essay; and (3) research essay.",
+      "a degree-specific major chosen from the list below:"
+    ]
+  },
+  "adaptiveness": 5,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1: communication appears in outcomes and a compulsory Communication and Research Skills module, and spoken assessment to peers and staff is common (ANTH1001 presentation, POLS1102 team presentation), which rules out level 0's 'no professional-genre or spoken communication is assessed'. Level 2 requires at least one core assessment in a recognised professional genre or to an audience beyond the teaching team; genres of that kind exist (HART3030's curatorial proposal, GEOG1106's policy brief, ANTH3401's policy analysis) but every one is core only to a named major sequence and elective for BP001, so none is required of the cohort. Per Barrie, the stated 'transferable skills' claim in the course overview is not scored.",
+    "evidenceLines": [
+      "must undertake the Academic Conduct Essentials module (the ACE module), Communication and Research Skills (the CARS module) and Indigenous Studies Essentials (the ISE module) in the teaching period in which they are first enrolled.",
+      "(5) demonstrate an ability to communicate anthropological ideas, principles and knowledge.",
+      "Assessment Indicative assessments in this unit are as follows: (1) knowledge assessment; (2) presentation; and (3) research essay.",
+      "Assessment Indicative assessments in this unit are as follows: (1) policy brief; (2) report; and (3) practical class portfolio.",
+      "Assessment Indicative assessments in this unit are as follows: (1) tutorial activities; (2) policy analysis; and (3) research paper.",
+      "a degree-specific major chosen from the list below:"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 ('Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic'). Case-study and scenario assessment is documented (ANTH2225 case study essay). Level 2 would need at least one core assessment reproducing a professional task end to end with criteria drawn from practice; ARCY2220 does exactly that — a final trip report and field journals 'to professional standards' — but it is a Level 2 core unit of the Archaeology major sequence only, quota-limited, and not required of BP001 students. Under R4 the degree-level 'employment market' framing in the course overview is not evidence of task fidelity.",
+    "evidenceLines": [
+      "Assessment Indicative assessments in this unit are as follows: (1) participation; (2) case study essay; and (3) research essay.",
+      "Level 2 core unit in the Archaeology major sequence Outcomes",
+      "(4) create recording forms and field journals to professional standards.",
+      "Assessment Indicative assessments in this unit are as follows: (1) technical assignments; (2) final trip report; and (3) field journal.",
+      "a degree-specific major chosen from the list below:"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Exact match to the level-1 anchor: 'Work-situated learning exists only as an elective, an optional internship'. The two internship units in the prescribed list are labelled Level 2 elective and Level 3 elective respectively, are not available for self-enrolment, run a competitive application, and WILG2201's prerequisite is enrolment in a different degree (BP002 Bachelor of Commerce). PARL3399's Parliament research internship is likewise a Level 3 option or elective. The one placement-assessed unit, ARCY3100, is core only to the Archaeology major sequence. Level 2 needs a core unit placing students in a workplace with practitioner supervision and assessment; no BP001 student is required to take any of these. The in-practice route does not apply — the extract documents no cohort already practising in a profession.",
+    "evidenceLines": [
+      "WILG2201 Work Integrated Learning Internship Program",
+      "Details for undergraduate courses Level 2 elective Outcomes Students are able to (1) apply communication and interpersonal skills to a working situation",
+      "Prerequisites Successful completion of 48 points and Enrolment in BP002 Bachelor of Commerce and a successful application for the WIL Placement Program",
+      "Level 3 option in the Economics; Linguistics; Political Science and International Relations; Business Management; Enterprise and Innovation; Global Business; Financial Economics; Business Analytics; Media and Communication major sequences Level 3 elective",
+      "This service?learning unit provides students with the opportunity to undertake a research internship through the WA Parliament.",
+      "Level 3 option in the Political Science and International Relations; Philosophy, Politics and Economics; Geographical and Spatial Science major sequences Level 3 elective",
+      "Assessment Indicative assessments in this unit are as follows: (1) placement assessment (confirmed after hours met); (2) journal; and (3) report."
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The FAIL anchor is 'Generic or interchangeable content without disciplinary identity', and the course rules do not permit that: every student must complete a degree-specific major, and the unit pages document those majors as staged, prerequisite-gated Level 1 to Level 3 core sequences (ARCY1001 and ARCY1002 gate the Level 2 Archaeology core unit; Level 2 points gate the Level 3 Anthropology core unit). Rule 10 adds a compulsory depth distribution — no more than 12 Level 1 units and at least 12 Level 2 or 3 units including 3 at Level 3. That is the PASS anchor's 'staged prerequisite chain'. The gate passes on the guarantee that some coherent specialist core is completed, not on any particular one; which core it is remains undetermined, which is what holds C1 to W3 down.",
+      "evidenceLines": [
+        "a degree-specific major chosen from the list below:",
+        "no more than 72 credit points (normally 12 units) of Level 1 units; and",
+        "at least 72 credit points (normally 12 units) of Level 2 or Level 3 units, including at least 18 credit points (normally 3 units) of Level 3 units; and",
+        "Level 2 core unit in the Archaeology major sequence",
+        "Prerequisites ARCY1001 Think Like an Archaeologist and ARCY1002 Experimenting with Archaeology",
+        "Level 3 core unit in the Anthropology major sequence Level 3 option in the Social and Environmental Sustainability major sequence Level 3 elective"
+      ]
+    },
+    "G2": {
+      "result": "FAIL",
+      "rationale": "The PASS anchor needs assessments that require defended trade-off decisions, or simulations, capstones or live projects with real uncertainty and accountability. Nothing BP001 requires meets it: the course rules compel 144 credit points, a level distribution, a major of unspecified identity and the ACE, CARS and ISE modules, and prescribe no capstone, no live project and no assessment type at all. The tasks that would satisfy the anchor — the WA Parliament research internship, the archaeology fieldschool, curatorial proposals, policy briefs — are electives or sit inside a single major sequence. Recorded as an ambiguity: the FAIL anchor's wording, 'Recall or scripted responses only', does not describe the 512 prescribed units, but the gate has no third state and the instrument forbids resolving upward on absent evidence.",
+      "evidenceLines": [
+        "a degree-specific major chosen from the list below:",
+        "The following 512 units of study are prescribed for this academic program:",
+        "Students may choose to undertake an additional major and/or up to two minors from any undergraduate degree, provided the student will be able to complete all nominated majors and minors within 144 credit points.",
+        "Level 3 option in the Political Science and International Relations; Philosophy, Politics and Economics; Geographical and Spatial Science major sequences Level 3 elective"
+      ]
+    }
+  },
+  "ambiguities": [
+    "Program-wide, the decisive ambiguity is the meaning of 'core' for a degree whose only compulsory content is 'a degree-specific major chosen from the list below' of 49 majors plus the ACE, CARS and ISE modules. Read one way, the 312 units labelled 'core unit in the ... major sequence' are core evidence and C1, C2, C5, W1 and W2 would each reach level 2; read the other way, no unit is core to BP001 and none of those capabilities is guaranteed to any student. The scoring-direction rule was applied and the lower level taken in every one of those five items.",
+    "C1 level 2 versus level 1: GEOG1107, POLS1102 and the MUSC sequence assess collaborative projects and are Level 1 to Level 3 core units of named majors. Resolved down because BP001 requires no particular major.",
+    "C2 level 2 versus level 1: HART3030 assesses peer review against a curatorial brief, which is criterion-referenced appraisal of quality, but it is core only to the Art History and Curatorial Studies major and is a Level 3 elective here. Resolved down.",
+    "C3 level 2 versus level 1: LING2000 pairs AI capability content with assessed ethical critique of bias, inclusion and accessibility, and is a Level 2 core unit of the Linguistics major. For BP001 it is labelled a Level 2 elective, which is the level-1 anchor verbatim. Resolved down.",
+    "C5 level 2 versus level 1: ANTH3001's ethnographic project and ARCY2220's research design are assessed inquiry with methodology selection and data collection, inside single major sequences. Resolved down.",
+    "W2 level 2 versus level 1: ARCY2220's final trip report and field journals judged 'to professional standards', with an Australian Archaeology Skills Passport note, reproduce a professional task end to end, but the unit is quota-limited and core only to the Archaeology major. Resolved down.",
+    "G2 PASS versus FAIL: neither anchor fits cleanly. The extract is plainly not 'recall or scripted responses only', but no program-required assessment satisfies the PASS anchor either. FAIL recorded because the gate is binary and ambiguity is never resolved upward.",
+    "G1 was passed on a different basis from the item scores: the course rules guarantee that some staged specialist core is completed, which is what the gate asks, while the items ask whether a specific capability is assessed in that core, which the rules leave undetermined.",
+    "The extract carries no course-level learning outcomes or graduate attributes for BP001 and no major-level pages, so every outcome quoted is unit-level. The compulsory ACE, CARS and ISE modules appear only in the course rules; no page for them is in the extract, so their assessment could not be inspected beyond the Ungraded Pass requirement."
+  ],
+  "notScoreable": [],
+  "instrument": "4.2-draft",
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-07"
+  }
+};
+
+export default record;

@@ -6,7 +6,9 @@
  *
  *   - v4Meta.ts (light — types, V4_META, V4_RESEARCH_DEGREES, V4_INDEX) —
  *     imported by the landing page, /reports and /insights.
- *   - v4Basis.ts (V4_ONLY_PROGRAMS, V4_PANEL_A_BASIS) — the report page.
+ *   - v4Basis/<code>.ts — one program's Panel A basis per lazy chunk, plus
+ *     v4Basis/index.ts with the loaders the report page uses.
+ *   - v4Basis.ts — the eager maps over those modules (scripts and tests).
  *   - v4PanelC/<code>.ts — one program's Panel C record per lazy chunk, plus
  *     v4PanelC/index.ts with the loaders the report page uses.
  *   - v4PanelC.ts — the eager map over the per-program modules (scripts and
@@ -103,8 +105,12 @@ async function main(): Promise<void> {
     ['v4Basis.ts', rendered.basis],
     ['v4PanelC.ts', rendered.panelC],
     ['v4PanelC/index.ts', rendered.loaders],
+    ['v4Basis/index.ts', rendered.basisLoaders],
     ...Object.entries(rendered.programs).map(
       ([code, text]) => [`v4PanelC/${code}.ts`, text] as [string, string],
+    ),
+    ...Object.entries(rendered.basisPrograms).map(
+      ([code, text]) => [`v4Basis/${code}.ts`, text] as [string, string],
     ),
   ])
   const issues: string[] = []
@@ -116,11 +122,14 @@ async function main(): Promise<void> {
     }
     issues.push(...parityIssues(readFileSync(abs, 'utf8'), text, rel))
   }
-  for (const f of existsSync(PROGRAM_DIR) ? readdirSync(PROGRAM_DIR) : []) {
-    if (f.endsWith('.ts') && !expected.has(`v4PanelC/${f}`)) {
-      issues.push(
-        `v4PanelC/${f} has no program in dfva/source/evidence/*.json. Fix: npm --prefix scripts run dfva:gen-v4`,
-      )
+  for (const dir of ['v4PanelC', 'v4Basis']) {
+    const abs = path.join(DATA_DIR, dir)
+    for (const f of existsSync(abs) ? readdirSync(abs) : []) {
+      if (f.endsWith('.ts') && !expected.has(`${dir}/${f}`)) {
+        issues.push(
+          `${dir}/${f} has no program in dfva/source/evidence/*.json. Fix: npm --prefix scripts run dfva:gen-v4`,
+        )
+      }
     }
   }
 

@@ -1,102 +1,132 @@
 {
   "code": "uwa-62530",
   "panelCv4": {
-    "instrument": "4.2-draft",
-    "adaptiveness": 15,
-    "workplace": 6,
     "C1": {
-      "score": 3,
-      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science, n.e.c..",
+      "score": 2,
+      "rationale": "Level 2 anchor met: the Data Science Capstone Project is a core-positioned unit that assesses collaborative practice with individual accountability - teams of four to six, a group project deliverable and a separate individual project assessment. Not level 3: the extract documents no recurrence of assessed collaborative practice across the program (the compulsory 30-point group is not enumerated, and every other unit's named assessment is dominated by tests, examinations and labs), and no assessment requires coordinating work across people AND tools or AI systems - the division of work between people and systems is nowhere itself assessed.",
       "evidenceLines": [
-        "**Institution**: The University of Western Australia (UWA)",
-        "**Course Code**: 62530",
-        "- **Institution**: The University of Western Australia (UWA)"
+        "Students work in teams of typically four to six members, supervised by an academic and/or industry mentor.",
+        "Assessment Indicative assessments in this unit are as follows: (1) individual essay; (2) group project deliverable; and (3) individual project assessment.",
+        "(6) perform professionally as an individual and as part of a multidisciplinary and multicultural team.",
+        "before taking the capstone unit CITS5553 Data Science Capstone Project in their final semester."
       ]
     },
     "C2": {
-      "score": 3,
-      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science, n.e.c..",
+      "score": 1,
+      "rationale": "Level 1 anchor: appraisal of quality appears in outcomes - evaluating model performance against community-recognised metrics, critically assessing the outcomes of data analysis, and reflecting on one's contribution to the team - but no named core assessment item is a criterion-referenced appraisal task. The capstone's three assessment items are an individual essay, a group project deliverable and an individual project assessment; none is documented as peer review, structured critique, portfolio against standards or marking against exemplars, so the level-2 requirement that core assessment INCLUDE criterion-referenced appraisal is not met. Level 3 is nowhere close: nothing requires students to document or justify reliance decisions on a tool, source or collaborator, defend judgements of AI-output quality, or evidence strategy adjustment over time.",
       "evidenceLines": [
-        "**Academic Year**: 2026",
-        "**Study Level**: Postgraduate",
-        "- **Study Level**: Postgraduate"
+        "(4) evaluate model performance against a set of standard metrics recognised by the data science community;",
+        "Individuals are expected to perform professionally in a team-based environment and reflect on their contributions to the team.",
+        "(4) critically assess the outcomes of data analysis;",
+        "Assessment Indicative assessments in this unit are as follows: (1) individual essay; (2) group project deliverable; and (3) individual project assessment."
       ]
     },
     "C3": {
-      "score": 3,
-      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science, n.e.c..",
+      "score": 1,
+      "rationale": "Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits discussed AND assessed. Ethics and data-risk content is documented only as unit outcomes (CITS4009, CITS2402) and as capstone lecture content; no named assessment item in any unit covers AI limitations, ethics or governance, and the extract never enumerates the compulsory 30-point group, so none of these units is shown to be core. The units that carry explicit AI ethics and critique (PHIL1001, PHIL2008, SCIE2100) appear in the prescribed list as electives. That leaves the level-1 anchor: digital and AI content present as electives and as tool operation. Level 3 fails outright - no core assessment requires critique or governance of AI systems (bias, accountability, transparency, regulation, data governance) in the data-science context.",
       "evidenceLines": [
-        "Subject: Fundamentals of Business Analytics (BUSN5002)",
-        "Subject: Data Storytelling (BUSN5003)",
-        "**Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=62530"
+        "(2) recognise and discuss the ethical responsibilities of a data scientist;",
+        "(3) demonstrate an understanding of the risks of data breaches and technologies for safeguarding data and privacy;",
+        "(5) understand the power of data used well or used poorly, and critically assess the way data is used and presented in business, science, the media and the wider community;",
+        "A number of lectures are given to teach communication skills, principles of project management and the fundamental ethical and social principles involved in large-scale data science projects.",
+        "Assessment Indicative assessments in this unit are as follows: (1) individual essay; (2) group project deliverable; and (3) individual project assessment."
       ]
     },
     "C4": {
-      "score": 3,
-      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science, n.e.c..",
+      "score": 2,
+      "rationale": "Level 2 anchor met: the capstone requires application of methods acquired in earlier units to a substantial project outside the taught context, including scoping effort and indicative costs and choosing the processes to follow - a cross-context project, assessed. Not level 3: the anchor needs documented structured progression toward independent learning through a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps with a plan to close them. The capstone's scope is set through mentor and client meetings rather than by the student, and the one self-scoped route in the extract, the Data and Information Technologies Research Project, is gated on a weighted average mark of at least 70 per cent, so it is not documented as a progression the program requires.",
       "evidenceLines": [
-        "**Institution**: The University of Western Australia (UWA)",
-        "**Course Code**: 62530",
-        "- **Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=62530"
+        "This unit provides a capstone experience where students integrate and apply knowledge and skills acquired in earlier units to a substantial real-world information technology project.",
+        "(1) assess the scope, dimensions, scale of effort and indicative costs of a complex data science project;",
+        "Each team is responsible for managing their project through group meetings and mentor/client meetings, submitting group deliverables against milestones, preparing the necessary design documentation, and choosing and following appropriate software processes.",
+        "UWA weighted average mark (WAM) of at least 70 percent across ALL completed level 4 / level 5 CITS/STAT/PHIL units"
       ]
     },
     "C5": {
-      "score": 3,
-      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science, n.e.c..",
+      "score": 2,
+      "rationale": "Level 2 anchor met: the two-part Data and Information Technologies Research Project has students formulate research questions, execute research investigations to answer them and justify conclusions, assessed through a proposal and literature review, a seminar and poster, and a final research project report - inquiry designed and conducted, with methodology selection, assessed. The C5 anchors at level 2 do not require the unit to be core. Not level 3: that anchor demands a substantial primary-evidence project REQUIRED rather than one route among several, and this route is restricted to students with a weighted average mark of at least 70 per cent; the extract also documents a seminar and poster rather than a viva, defence or staged supervised review of methodology under scrutiny.",
       "evidenceLines": [
-        "Subject: Programming for Business (BUSN5101)",
-        "Subject: Introduction to Cybersecurity (CITS1003)",
-        "**Academic Year**: 2026"
+        "(2) identify research gaps and position one's own study in literature; and (3) formulate research questions with assistance from supervisor(s).",
+        "(1) execute research investigations to answer the research questions;",
+        "Assessment Indicative assessments in this unit are as follows: (1) research project proposal and literature review (submitted in Part 1); (2) seminar presentation and poster; and (3) final research project report.",
+        "UWA weighted average mark (WAM) of at least 70 percent across ALL completed level 4 / level 5 CITS/STAT/PHIL units",
+        "(2) apply the fundamentals of designing random experiments in different situations;"
       ]
     },
+    "adaptiveness": 8,
     "W1": {
-      "score": 2,
-      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science, n.e.c..",
+      "score": 1,
+      "rationale": "Level 1 anchor: communication and professional conduct appear in outcomes - communicating model results to stakeholders in written, oral and visual form, and performing professionally in a team - and communication skills are taught in capstone lectures. Level 2 needs at least one core assessment in a recognised professional genre or addressed to an audience beyond the teaching team, judged against criteria drawn from practice. The capstone's named assessment items are an individual essay, a group project deliverable and an individual project assessment, none identified as a client brief, consultancy advice, pitch or public-facing artefact; the external party is optional in the handbook's own wording ('an academic and/or industry mentor'), and no criterion drawn from professional practice is documented as applied by that party. Per R2 and Barrie, stated attributes do not lift the score.",
       "evidenceLines": [
-        "**Study Level**: Postgraduate",
-        "- **Institution**: The University of Western Australia (UWA)",
-        "- **Study Level**: Postgraduate"
+        "(5) interpret model results meaningfully for effective communication with all stakeholders via written, oral and visual means;",
+        "(6) perform professionally as an individual and as part of a multidisciplinary and multicultural team.",
+        "A number of lectures are given to teach communication skills, principles of project management and the fundamental ethical and social principles involved in large-scale data science projects.",
+        "Students work in teams of typically four to six members, supervised by an academic and/or industry mentor.",
+        "Assessment Indicative assessments in this unit are as follows: (1) individual essay; (2) group project deliverable; and (3) individual project assessment."
       ]
     },
     "W2": {
-      "score": 3,
-      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science, n.e.c..",
+      "score": 2,
+      "rationale": "Level 2 anchor met on documented task features rather than on any 'real-world' label (R4): the capstone runs the full data science practice life cycle from design through synthesis and development to deployment, producing the artefacts a practitioner produces - design documentation and deliverables against milestones, exploratory analysis and predictive models - and judges the result against standard metrics recognised by the data science community, which are criteria drawn from practice. Not level 3: such tasks are not documented as the program's assessment spine. The extract does not enumerate the compulsory 30-point group and shows no earlier scaffolding of end-to-end professional tasks; the assessment patterns visible across the prescribed units are mid-semester tests, laboratories, quizzes and final examinations.",
       "evidenceLines": [
-        "**Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=62530",
-        "Subject: Computational Thinking with Python (CITS1401)",
-        "- **Handbook URL**: https://www.handbooks.uwa.edu.au/coursedetails?code=62530"
+        "The academic objectives of this unit are to lead students through a sizeable team-based effort to go through design, synthesis, development and deployment, the full data science practice life cycle, to better prepare them as professional data scientists.",
+        "Each team is responsible for managing their project through group meetings and mentor/client meetings, submitting group deliverables against milestones, preparing the necessary design documentation, and choosing and following appropriate software processes.",
+        "(2) analyse data by carrying out exploratory data analysis;",
+        "(3) build predictive or other suitable computational models for data-driven business decision making;",
+        "(4) evaluate model performance against a set of standard metrics recognised by the data science community;"
       ]
     },
     "W3": {
       "score": 1,
-      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "rationale": "Level 1 anchor: work-situated learning exists in the prescribed unit list only as an optional internship. The McCusker Centre for Citizenship Internship carries 100 hours of work with supervisor evaluation and assessed reflection, but the handbook records it as awarded through a competitive application process, and the course structure places compulsory study in a 30-point 'Take all units' group with the remainder in elective groups. The other internship units in the prescribed list restrict entry to other courses - the Computer Science WIL Internship to the Bachelor of Advanced Computer Science or the Computer Science major, and the Work Integrated Learning Internship Program to Bachelor of Commerce, Business, Economics and named majors. Level 2 therefore fails: no core unit is documented as placing students in a real workplace or professional-community setting with practitioner supervision and assessment, and no in-practice route applies because the cohort is not documented as already practising. Not level 0, because work-integrated learning does appear in the course structure. The capstone is scored in W2, not here: it is an on-campus project unit, and simulation is excluded from W3.",
       "evidenceLines": [
-        "website for details on admission requirements, intake periods, fees, availability to international students, careers information etc.",
-        "- **Institution**: The University of Western Australia (UWA)"
+        "Internships involve 100 hours of work, and students' applied experience is supplemented with classes and assessments that contextualise and prompt critical reflection about civic engagement, delivering a broad and rich educational experience.",
+        "Note McCusker Centre for Citizenship Internships are awarded through a competitive application process.",
+        "Prerequisites Enrolment in BH008 Bachelor of Advanced Computer Science [Honours] or Enrolment in MJD-CMPSC Computer Science and Successful completion of 96 points",
+        "Students enrolled in the Bachelor of Commerce, who have completed 48 credit points, can apply to take the WIL Internship Program.",
+        "Take all units (30 points):"
       ]
     },
+    "workplace": 4,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Data Science.",
+        "rationale": "The PASS condition is satisfied on two of its three named routes. The course is an accredited sequence, benchmarked to the Australian Computer Society and the international Seoul Accord graduate standards, and it documents a staged prerequisite chain with progressive technical depth - foundational programming and database units gate later units, machine learning gates deep learning, and the capstone requires 66 completed points within the course. A compulsory specialist group is declared in the course structure ('Take all units (30 points)'), even though the extract does not enumerate its members. The content is specialist data science, not generic or interchangeable.",
         "evidenceLines": [
-          "website for details on admission requirements, intake periods, fees, availability to international students, careers information etc.",
-          "All units have a value of six points unless otherwise stated."
+          "This program is accredited by ACS for quality,",
+          "international Seoul Accord graduate standards.",
+          "Take all units (30 points):",
+          "Prerequisites Successful completion of CITS5508 Machine Learning",
+          "Prerequisites Enrolment in 62530 Master of Data Science and Successful completion of 66 points"
         ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "Specialist academic program structured through sequential study in computer science, n.e.c..",
+        "rationale": "The PASS condition names capstones and live projects with real uncertainty and accountability. The capstone requires teams to judge the scope, scale of effort and indicative costs of a complex project, to choose and follow appropriate processes, and to deliver against milestones to a mentor or client - trade-off decisions taken under uncertainty with accountability attached, not recall or scripted response.",
         "evidenceLines": [
-          "Subject: Fundamentals of Business Analytics (BUSN5002)",
-          "**Institution**: The University of Western Australia (UWA)"
+          "(1) assess the scope, dimensions, scale of effort and indicative costs of a complex data science project;",
+          "Each team is responsible for managing their project through group meetings and mentor/client meetings, submitting group deliverables against milestones, preparing the necessary design documentation, and choosing and following appropriate software processes.",
+          "This unit provides a capstone experience where students integrate and apply knowledge and skills acquired in earlier units to a substantial real-world information technology project."
         ]
       }
     },
     "ambiguities": [
-      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
-      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+      "Core membership is unresolvable from the extract. The course structure declares a compulsory group ('Take all units (30 points):') and three elective groups, but the capture returned the group headings with no unit lists, so the extract never says which of the 112 prescribed units are core. Every level-2 and level-3 anchor in C1-C4 and W1-W3 turns on the phrase 'core unit' or 'core assessment'. Resolved by accepting exactly one premise - that CITS5553 Data Science Capstone Project is required, because the handbook calls it 'the capstone unit CITS5553 Data Science Capstone Project in their final semester' for this course and gates it on enrolment in 62530 plus 66 points - and by treating every other unit's core status as unproven, which resolves each remaining item downward.",
+      "C1 straddled 1 and 2. The capstone's group project deliverable with separate individual project assessment satisfies level 2 only if the capstone is core; otherwise level 1 applies. Resolved to 2 on the single accepted premise above, and recorded here rather than propagated to other items.",
+      "C2 straddled 1 and 2. Evaluating model performance against metrics recognised by the data science community is criterion-referenced appraisal, but it is stated as an outcome and no named assessment item is an appraisal task. Resolved downward to 1 under the never-resolve-upward rule and R2.",
+      "C3 straddled 1 and 2. Ethics of data practice, data-breach risk and the social principles of large-scale data science projects are documented, satisfying the 'limitations/ethics' half of level 2, but only in outcomes and lecture content; level 2 also requires that use with limits be assessed, which no named assessment item shows. Resolved downward to 1.",
+      "C5 straddled 2 and 3. The research project pair documents inquiry design, execution and a staged supervised sequence, but level 3 requires the project to be REQUIRED rather than one route among several, and it is gated on a weighted average mark of at least 70 per cent. Resolved downward to 2.",
+      "W1 straddled 1 and 2. 'mentor/client meetings' suggests an audience beyond the teaching team, but the supervisor is documented as 'an academic and/or industry mentor', so an external party is optional, and no assessment item is named as a professional genre judged against practice criteria. Resolved downward to 1.",
+      "W3 versus W2 for the capstone. The capstone's client meetings could read as a live client project under the W3 level-2 anchor, but the unit is an on-campus project unit with no documented workplace placement or practitioner supervision in a workplace, and the one-construct-one-home rule puts task fidelity in W2. Scored in W2 only."
     ],
-    "notScoreable": []
+    "notScoreable": [
+      "No item could be verified against the program's compulsory core. The extract's course-structure section returned the group headings without their unit lists, so the 30-point 'Take all units' group is unidentified. Confirming C1, C2, C3, C4, W1, W2 and W3 at level 2 or above requires the core unit lists (or the linked study plans, which appear in the extract only as filenames: '62530 MDS - 1.5 year plan - 2026 [docx]'). Every score above rests on the units the extract does document, resolved downward wherever core status was unproven."
+    ],
+    "instrument": "4.2-draft",
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-09-07"
+    }
   }
 }

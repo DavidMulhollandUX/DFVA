@@ -67,9 +67,32 @@ export function institutionOf(code: string): Institution {
  */
 export const PUBLISHED_INSTITUTIONS: ReadonlySet<string> = new Set([MELBOURNE.slug])
 
-/** True when a program code may reach the generated app data. */
+/** True when a program code's whole institution may reach the generated app
+ *  data. Prefer `isPublishedRecord`, which also admits a single verified
+ *  program from a quarantined institution. */
 export const isPublished = (code: string): boolean =>
   PUBLISHED_INSTITUTIONS.has(institutionOf(code).slug)
+
+/**
+ * True when one program's score may reach the generated app data.
+ *
+ * Two routes. Its institution is published, or the record itself carries a
+ * verification date. The second route is what lets a cross-section publish
+ * while its institution stays quarantined: the Go8 sample
+ * (`scripts/dfva-go8-crosssection.ts`) is 6-9 programs per university, far too
+ * few for `dfva-v4-distinctness-check.ts` to judge cohort shape, so those
+ * programs cannot make their institution publishable — but each one has been
+ * re-scored, adversarially reviewed and stamped in its own right.
+ *
+ * The route is safe precisely because the templated records have no `verified`
+ * block at all, and the only writer that can create one is
+ * `dfva-v4-verify-evidence.ts --stamp --adversarial`, which refuses to run
+ * without an explicit list of the programs it is vouching for.
+ */
+export const isPublishedRecord = (
+  code: string,
+  verified?: { date?: string } | null,
+): boolean => isPublished(code) || Boolean(verified?.date)
 
 /** Award level, for the /reports level facet. Derived from the program name in
  *  the generator so the component never parses titles. Order matters: "Master of

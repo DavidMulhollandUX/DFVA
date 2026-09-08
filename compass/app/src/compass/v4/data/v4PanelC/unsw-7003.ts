@@ -1,0 +1,132 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: teamwork appears in learning outcomes but no core unit is documented as assessing it. The compulsory 30 UOC core carries one collaborative element - DPST1093 Software Engineering Fundamentals, whose outcome names functioning teams and whose overview describes a group project as the vehicle of delivery. Level 2 requires that a core unit ASSESSES collaborative practice, and DPST1093's assessment record in the extract is a single undescribed mode with no percentage, so no assessed group task, and no individual accountability, is documented. Evidence consistent with both levels; the lower level is taken per the scoring direction. Level 3 fails additionally because collaboration does not recur across the core and no assessment allocates work between people and tools or AI systems.",
+    "evidenceLines": [
+      "- Understand key characteristics of a functioning team in terms of understanding professional expectations, maintaining healthy relationships, and managing conflict.",
+      "Students will be exposed to agile software practices, team collaboration and effective communication through implementing a group project based on agile software methodologies that requires them to analyse, design, build and deploy a web-based application.",
+      "Subject: Software Engineering Fundamentals (DPST1093)",
+      "- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor met exactly: reflection and self-assessment appear in the outcomes of the compulsory Communication and Academic Literacy component and in the core mathematics overviews, but no core unit is documented as assessing appraisal of quality against criteria. Level 2 requires criterion-referenced appraisal in core assessment - peer review, structured critique, portfolio with standards or marking against exemplars - and none of these appears anywhere in the extract; the assessment records carry modes only. No reliance-decision or process-focused assessment appears, so level 3 is not in question.",
+    "evidenceLines": [
+      "- demonstrate a reflective and self-directed approach to learning and proactively incorporate feedback.",
+      "- select, analyse, and evaluate information, ideas, and academic sources;",
+      "The course will also engage you in independent and reflective learning through your homework problems and the Maple computing package.",
+      "- In-person -: N/A% (Hurdle: None)"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: the digital content in the core is tool operation and training - an operating system and C compiler, version-control and deployment tooling, and the Maple symbolic computing package - which the anchor identifies as the non-durable operational level. Level 0 does not hold because digital content is present in core units. Level 2 requires core units to address AI capabilities AND limitations or ethics: the extract contains no reference to artificial intelligence, machine learning or generative tools in any program outcome, core unit or elective, so neither level 2 nor the governance route at level 3 has any evidence.",
+    "evidenceLines": [
+      "- Use Linux and Unix-like operating systems to develop and test software.",
+      "- Demonstrate an understanding of how to use version control, continuous integration, and deployment tooling to sustainably integrate code from multiple parties.",
+      "- Use mathematical and other terminology appropriately to communicate information and understanding (and use symbolic computing package Maple, where appropriate).",
+      "6. Describe the significance of science and technology in modern society."
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Level 1 anchor: transfer is claimed in outcomes and course overviews - problem-solving described as generic skills applicable in multidisciplinary work, and calculus applied in interdisciplinary contexts - but no core assessment is documented as requiring application to novel or unfamiliar problems, which level 2 needs. The single line that names unexpected contexts belongs to MATH1231, a Bachelor course reached only after the diploma, not to the diploma core. Level 3 fails outright: the program is a fixed eight-course sequence with no capstone, no self-scoped project and no assessed identification of one's own knowledge gaps.",
+    "evidenceLines": [
+      "1. Demonstrate skill in approaching and solving problems and in treating data.",
+      "This course will enhance your ability to solve problems using logical arguments and techniques, which are generic skills that can be applied in multidisciplinary work.",
+      "- Given a problem, solve it by proficiently constructing (designing, testing, debugging) a secure, reliable reliable and correct C program.",
+      "Students must complete eight courses. Successful completion of a course means that a student must achieve a Pass or better in the course."
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Methods of investigation and practical experiments appear in the program outcomes, so R2's uniform rule places the item at 1 rather than at level 0's 'no research-methods training'. Level 1's fuller anchor is only partly met: no core unit is a methods unit and no literature-review assessment is documented. Level 2 requires students to design and conduct an assessed inquiry with methodology selection and data collection; the only courses whose outcomes describe planning and conducting experiments - the physics and biomolecular courses - sit in the Additional Courses list students choose two courses from, not in the compulsory 30 UOC core, and their assessment records carry modes only. Evidence straddled 0 and 1; R2 fixes it at 1.",
+    "evidenceLines": [
+      "2. Apply a working knowledge of fundamental scientific principles, methods of investigation, and an appreciation for objectivity and precision.",
+      "3. Interpret technical instructions to enable successful completion of practical experiments.",
+      "Students must take 30 UOC of the following courses.",
+      "Students must take 12 UOC (2 courses) from the following course list."
+    ]
+  },
+  "adaptiveness": 5,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1 anchor met on its own terms: communication appears in the program outcomes, and the compulsory Communication and Academic Literacy component adds oral presentations and tutorial discussion, but the audience the handbook names is explicitly an academic one within a university context and the correspondents are peers and university staff. Level 2 requires a recognised professional genre or an audience beyond the teaching team judged against criteria drawn from professional practice; the extract documents no client brief, pitch, public artefact or external judge, and no professional-conduct criterion in any core assessment. The professional-conduct outcomes that do exist - the roles and responsibilities of a professional engineer - belong to DPST1071, an elective.",
+    "evidenceLines": [
+      "4. Communicate clearly by written and oral means.",
+      "- engage proactively in tutorial style group discussions and deliver oral presentations suitable for an academic audience within a university context;",
+      "- communicate effectively with peers and university staff using a variety of media in both academic and social domains.",
+      "- In-person -: N/A% (Hurdle: None)"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: tasks are contextualised - calculus applied in interdisciplinary contexts, physics concepts learned in context and developed through problem solving - but the artefacts and criteria documented remain academic, delivered through lectures, laboratories and problem-solving workshops. Level 2 requires at least one CORE ASSESSMENT that reproduces a professional task end to end and is judged against criteria drawn from practice; every core assessment record in the extract gives a mode and 'N/A%' with no task description, so no such task is documented. Per R4 the phrase 'Authentic tertiary input and resources' in the Communication and Academic Literacy courses is a label and is not scored up.",
+    "evidenceLines": [
+      "The course structure allows students to get accustomed to University learning styles - in Lectures, Laboratories, and Problem-Solving Workshops - while receiving additional support, as required, for the duration of the diploma program.",
+      "This course will provide you with a good working knowledge of Calculus and Linear Algebra, and will show you how these topics can be applied in interdisciplinary contexts.",
+      "It is a calculus based course where concepts and principles are learned in context, by example, and then developed through problem solving.",
+      "Authentic tertiary input and resources are used where appropriate to ensure that learning activities are relevant and meaningful."
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0 anchor met: no work-integrated learning, placement, practicum, internship or community-based project appears anywhere in the course structure. The 48 UOC is eight taught courses delivered through lectures, laboratories and problem-solving workshops; the program's stated destination is articulation into second year of a bachelor degree, not a workplace. Level 1 is not reached because no optional internship or extracurricular work-situated activity is listed either. The cohort is not documented as already practising in the profession, so the v4.2 in-practice route does not apply.",
+    "evidenceLines": [
+      "Students must complete 48 Units of Credit (UOC) structured across the following academic components:",
+      "The course structure allows students to get accustomed to University learning styles - in Lectures, Laboratories, and Problem-Solving Workshops - while receiving additional support, as required, for the duration of the diploma program.",
+      "Students must complete and receive a minimum of a Pass grade in 8 courses (including the Communication and Academic Literacy course) to be eligible for a Diploma and to be guaranteed articulation into second year of the Bachelor of Computer Science program (3778) at UNSW."
+    ]
+  },
+  "workplace": 2,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS on the all-compulsory specialist core plus staged prerequisite chain route: 30 of the 48 UOC are a compulsory computer-science and mathematics core, and the handbook documents the chain - Computer Systems Fundamentals assumes the prior C programming course, Software Engineering Fundamentals follows it, and Mathematics 1B follows 1A. The content carries clear disciplinary identity rather than being generic or interchangeable, and the sequence is credited as equivalent to first-year Bachelor of Computer Science study. The depth is first-year foundational, which the gate does not exclude.",
+      "evidenceLines": [
+        "Students must take 30 UOC of the following courses.",
+        "- **DPST1091**: Introduction to Programming [6 UOC]",
+        "The course assumes that students have completed the first course in programming in the C programming language, course DPST1091.",
+        "Credit will be granted towards the Bachelor of Computer Science for each of the seven science and engineering courses which are all equivalent to First-Year UNSW courses and for the Communication and Academic Literacy courses."
+      ]
+    },
+    "G2": {
+      "result": "FAIL",
+      "rationale": "FAIL: no core assessment is documented as requiring defended trade-off decisions, and no capstone, simulation or live project with real uncertainty and accountability appears in the compulsory core. The core mathematics outcomes are statement, proof and application of syllabus techniques to appropriate problems - the scripted-response side of the anchor - and the programming outcomes are construction of a correct program to a given specification. The one course whose overview does describe budget, time and resource constraints on a poorly specified, open-ended problem is DPST1071, which sits in the Additional Courses list rather than the core, and its assessment record is an undescribed mode.",
+      "evidenceLines": [
+        "- State and prove appropriate theorems (and use symbolic computing package Maple, where appropriate).",
+        "- Apply the concepts and techniques of the syllabus to solve appropriate problems (and use symbolic computing package Maple, where appropriate).",
+        "This will help them to appreciate the central ideas of engineering design as an on-time, on-budget and fit for purpose solution to a poorly specified, open-ended problem.",
+        "Students must take 12 UOC (2 courses) from the following course list."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1 straddled levels 1 and 2. DPST1093 is a compulsory core unit and its overview documents a required group project that students analyse, design, build and deploy, which reads as level 2 collaborative practice; but the unit's assessment record is 'Multimodal - Standard (usually weekly or fortnightly): N/A%' with no task description, so the anchor verb 'assesses' is not evidenced and no individual accountability is documented. Resolved DOWN to 1 by the scoring direction.",
+    "W2 straddled levels 1 and 2 on the same DPST1093 project: building and deploying a web application with agile methods, version control and CI is the artefact a practitioner would produce, but level 2 requires it to be a core ASSESSMENT judged against criteria drawn from practice, and neither the assessment status nor any criteria are documented. Resolved DOWN to 1. Under 'one construct, one home' the project text is cited in C1 (coordination) and referenced only in this note for W2 (task fidelity).",
+    "C5 straddled levels 0 and 1. No core unit delivers research methods and the experiment-based outcomes belong to elective physics and biomolecular courses, which points at level 0; but 'methods of investigation' and 'practical experiments' appear in the program outcomes, and R2 fixes an outcome-only capability at 1 uniformly. Scored 1 on R2.",
+    "Program structure is ambiguous about whether physics is compulsory. 'Students must take 12 UOC (2 courses) from the following course list' is followed by a Prescribed Electives block of four courses AND two 'One of the following' physics pairs. Because the 12 UOC can be satisfied from the prescribed electives, the physics courses were treated as elective, not core, for every item that requires core evidence (C5, W1, W2, G2).",
+    "MATH1231 appears in the extract but is a Bachelor of Computer Science course reached after the diploma, mentioned only in a note about students who take Fundamentals of Mathematics B first. Its outcome 'Apply concepts in Algebra and Calculus to unexpected contexts' was therefore NOT counted as diploma-core transfer evidence in C4.",
+    "G2 was weighed as PASS on the DPST1093 group project as a live project and on DPST1071's open-ended, resource-constrained design brief. Resolved to FAIL because the first is not documented as assessed and the second is not core."
+  ],
+  "notScoreable": [
+    "Assessment task content is absent from the entire extract. Every course page lists assessment as a bare mode with no description, weighting or hurdle - 'In-person -: N/A% (Hurdle: None)' and 'Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)'. No item could therefore be tested against a level-3 anchor, all of which require quoted assessment evidence under R2, and level 2 could only be tested against course-overview and outcome text.",
+    "C3 levels 2 and 3 are unscoreable rather than refuted: the extract contains no mention of artificial intelligence, machine learning or generative tools in any program outcome, core unit, elective or assessment record, so there is no evidence either way about AI capabilities, limitations, ethics or governance in this curriculum.",
+    "W1 level 3 and W2 level 3 have no testable evidence: the extract documents no external audience, industry panel, client or practitioner judge, and no professional-practice criteria, anywhere in the eight courses.",
+    "The DPGE1001/1002/1003 sequence and DPGE1004 are alternative routes to the same compulsory 6 UOC; the extract does not say which cohort takes which, so communication evidence was read as common to both routes, their shared outcomes being identical."
+  ],
+  "instrument": "4.2-draft",
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-07"
+  }
+};
+
+export default record;

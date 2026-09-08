@@ -1,0 +1,141 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1 anchor exactly: collaboration and teamwork appear in the program learning outcomes (CILO 3 names working in teams and multidisciplinary ways of working), but no core unit documents an assessed collaborative task. The four core courses list only an unspecified delivery-mode assessment line with no weighting and no task description, so the level-2 requirement that at least one core unit assesses collaborative practice cannot be met. PHCM9041 mentions peer discussion as an opportunity, not an assessed group project with individual accountability. Nothing documents coordination of work across people AND tools/AI systems, so level 3 is not in range.",
+    "evidenceLines": [
+      "3. Demonstrate multidisciplinary ways of working and high level skills in communicating, working in teams and advocacy to enhance public health outcomes.",
+      "### Core Courses (24 UOC)",
+      "- **PHCM9041**: Foundations in Public Health and Health Care Systems [6 UOC]",
+      "Students will have the opportunity to discuss contemporary issues in public health with their peers and hear from a range of experts.",
+      "- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "R2 applies: critical appraisal and reflective practice appear in outcomes (CILO 5 names critical reflective practice; PHCM9794 states students critically appraise epidemiological studies and assess study design for error and bias) but the extract documents no assessment against criteria. The level-2 anchor requires core assessment to include criterion-referenced appraisal of quality — peer review, structured critique, portfolio with standards — and every core course carries the same undifferentiated assessment line with no task, no criteria and no weighting. No evidence at all of documenting or justifying reliance decisions on a tool or source, so level 3 is out of range.",
+    "evidenceLines": [
+      "5. Demonstrate capacity to engage in scholarly inquiry, ethical commitment and critical reflective practice for informing professional practice in public health.",
+      "- Critically appraise epidemiological studies, demonstrating the ability to assess study design, interpret study methods, results and conclusions for error and bias.",
+      "A major focus of the course is the design principles and critical appraisal of common intervention and observational studies and identification of study limitations and sources of bias, essential for the translation of quality evidence into public health practice and policy.",
+      "- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: digital content in the core is confined to tool operation — PHCM9795 gives hands-on experience analysing health data using statistical software and its outcome is to summarise and visualise data using that software. This is exactly the operational level the anchor caps at 1. Level 2 requires core units to address capabilities AND limitations or ethics of AI with use-with-limits discussed and assessed; the extract contains no mention of AI, generative AI, automation, algorithms or data governance anywhere in the program outcomes or any course, so level 2 and level 3 are unreachable. Not level 0, because digital tool content is present in a core unit.",
+    "evidenceLines": [
+      "You will be introduced to basic statistical analysis methods, with hands-on experience analysing health data using statistical software.",
+      "- Summarise and visualise data using statistical software.",
+      "- **PHCM9795**: Foundations of Biostatistics [6 UOC]"
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Level 1 anchor verbatim in form: transfer is claimed in a program outcome (CILO 1, applying research-based methods across a diverse set of contexts) but no assessment of it is documented. Level 2 needs at least one core assessment applying methods to novel or unfamiliar problems — case variation, unseen datasets — and no core assessment task is described. The level-3 route (self-scoped capstone or research project) fails on requirement, not on existence: the Project, Independent Study and Minor Project are elective substitutions the student must apply to the Program Director to take, gated on a WAM of 75, so they are not documented structured progression for the cohort.",
+    "evidenceLines": [
+      "1. Interpret and apply relevant research and research-based methods to inform public health questions, priorities, policy and practice across a diverse set of contexts.",
+      "### Project, Independent Study or Internship",
+      "Students may apply to their Program Director to be allowed to replace a maximum of 12 UOC of prescribed electives with the following courses.",
+      "This course is available to students enrolled in the MPH, MGH, MHLM or MIDI or associated dual and extension postgraduate coursework programs, who achieve a WAM of 75 or above after completion of at least 18UOC of their program.",
+      "- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1 anchor: the core carries introductory methods units — PHCM9794 Foundations of Epidemiology and PHCM9795 Foundations of Biostatistics — whose documented work is appraising and interpreting existing studies and planning parameters such as sample size. Level 2 requires students to design AND conduct an inquiry with methodology selection and data collection, assessed; no core course documents data collection or an assessed inquiry. Level 3 is explicitly barred because the substantial primary-evidence route (PHCM9144 Project, supervised independent research) is one route among several elective replacements, WAM-gated and permission-gated, not required, and no viva or staged defence is documented.",
+    "evidenceLines": [
+      "- **PHCM9794**: Foundations of Epidemiology [6 UOC]",
+      "- **PHCM9795**: Foundations of Biostatistics [6 UOC]",
+      "- Determine the appropriate sample size when planning a research study.",
+      "- **PHCM9144**: Project [12 UOC]",
+      "The overall learning experience for students is independent research with individual supervision by an academic supervisor/s.",
+      "Students may apply to their Program Director to be allowed to replace a maximum of 12 UOC of prescribed electives with the following courses."
+    ]
+  },
+  "adaptiveness": 5,
+  "W1": {
+    "score": 1,
+    "rationale": "R2 governs: communication and advocacy appear in a program outcome and in core course outcomes (presenting statistical findings to a public health audience; presenting convincing arguments about health promotion), but the extract documents no assessment task in any genre. Level 2 requires at least one core assessment in a recognised professional genre or to an audience beyond the teaching team, judged against criteria drawn from professional practice — the audience phrasing in PHCM9795 is an outcome statement, not an assessed brief, and R4 forbids reading a stated framing as task evidence. Not level 0, because communication appears in outcomes and R2 fixes an unassessed capability at 1.",
+    "evidenceLines": [
+      "3. Demonstrate multidisciplinary ways of working and high level skills in communicating, working in teams and advocacy to enhance public health outcomes.",
+      "- Present and interpret statistical findings appropriate for a public health audience.",
+      "- Present convincing arguments for the relevance of health promotion for addressing current global and public health problems.",
+      "- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: contextualised, role-framed work is documented in the core — PHCM9012 casts the student in the role of a practitioner and uses root cause mapping on health problems, and its outcome is planning health promotion interventions across settings. That is scenario framing. Level 2 needs at least one core assessment reproducing a professional task end to end and judged against criteria drawn from practice; the extract gives no assessment task, artefact or criteria for any core course, so the fidelity of the produced artefact cannot be established. Under R4 the practitioner-role wording in the course overview is a description, not documented task features.",
+    "evidenceLines": [
+      "You will adopt the role of a practitioner who, before developing public health action, first asks the right questions with the aim of avoiding exclusion or discrimination.",
+      "You will be challenged to use tools such as root cause mapping to critically and systematically analyze health problems and identify priority health needs that go beyond individual responsibility.",
+      "- Demonstrate best practice health promotion principles in the planning of health promotion interventions across a range of settings.",
+      "- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1 anchor names this case exactly — work-situated learning exists only as an optional internship. PHCM9143 Internship is one of the courses a student may apply to substitute for prescribed electives, is merit based and awarded on a written application, so it is not in the core. Level 2 on the placement route requires a core unit placing students with practitioner supervision and assessment. The in-practice route also fails: professional experience is required only on the first of three admission pathways (the second admits on honours or a postgraduate degree), so the cohort is not documented as already practising, and no core unit assesses activity in a student's own practice.",
+    "evidenceLines": [
+      "- **PHCM9143**: Internship [6 UOC]",
+      "Students may apply to their Program Director to be allowed to replace a maximum of 12 UOC of prescribed electives with the following courses.",
+      "This is a merit based course and placements will be awarded based on the outcomes of a written application.",
+      "b) Two years of full-time professional or volunteer experience in a relevant field (see list below)**. The professional experience may include experience in health or public health services acquired as part of a degree of 4 or more years duration, e.g. MBBS, MD.",
+      "2. Applicants must have",
+      "### Core Courses (24 UOC)"
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The PASS condition for an all-compulsory specialist core is met: 24 of 48 UOC are four named, compulsory public health courses covering the discipline's own method base — epidemiology, biostatistics, health promotion and health systems — and the remaining load runs through named disciplinary specialisations of 24 UOC each. This is specialist content with disciplinary identity, not generic or interchangeable material.",
+      "evidenceLines": [
+        "### Core Courses (24 UOC)",
+        "Students must take 24 UOC of the following courses.",
+        "- **PHCM9041**: Foundations in Public Health and Health Care Systems [6 UOC]",
+        "- **PHCM9795**: Foundations of Biostatistics [6 UOC]",
+        "- **PHCM9012**: Health Promotion and Social Perspectives of Health [6 UOC]",
+        "- **PHCM9794**: Foundations of Epidemiology [6 UOC]",
+        "- **PHCMAS**: Public Health [24 UOC]",
+        "- **PHCMUS**: Epidemiology [24 UOC]"
+      ]
+    },
+    "G2": {
+      "result": "FAIL",
+      "rationale": "The PASS condition requires assessments that demand defended trade-off decisions, or simulations, capstones or live projects with real uncertainty and accountability. The extract documents no assessment task for any core course — each lists only a delivery mode with an N/A weighting and no hurdle — so no defended decision can be evidenced. The capstone-type routes that would carry uncertainty and accountability (Project, Internship) are optional elective substitutions requiring Program Director approval and a WAM gate, not core. What the core documents is appraisal, interpretation and planning stated as outcomes, which the FAIL side treats as scripted rather than defended decision-making.",
+      "evidenceLines": [
+        "- Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)",
+        "### Project, Independent Study or Internship",
+        "Students may apply to their Program Director to be allowed to replace a maximum of 12 UOC of prescribed electives with the following courses.",
+        "This course is available to students enrolled in the MPH, MGH, MHLM or MIDI or associated dual and extension postgraduate coursework programs, who achieve a WAM of 75 or above after completion of at least 18UOC of their program."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2 straddled 1 and 2: PHCM9794's critical appraisal of study design, method and bias reads as structured critique against methodological criteria, which would be level 2 if it were shown to be assessed. The extract gives the course no assessment task, so R2 and the lower-level rule fix it at 1.",
+    "C5 straddled 1 and 2: two of four core courses are methods courses and PHCM9795 covers planning a study including sample size, but designing AND conducting an inquiry with data collection is not documented as assessed in the core. Resolved down to 1 by the lower-level rule.",
+    "W1 straddled 1 and 2: 'Present and interpret statistical findings appropriate for a public health audience' names an audience beyond the marker, but it is a learning outcome with no matching assessment task or practice-drawn criteria. R2 and R4 hold it at 1.",
+    "W2 straddled 1 and 2: PHCM9012's practitioner role plus intervention planning could be a level-2 end-to-end professional task (a health promotion plan is the artefact a practitioner produces), but with no assessment task, artefact or criteria documented, the lower-level rule fixes it at 1.",
+    "C1 and W1 both had a claim on CILO 3, which bundles teamwork with communication and advocacy. Under one-construct-one-home the teamwork clause is cited for C1 and the communicating/advocacy clause for W1; neither reaches an assessed level, so the split does not move a score.",
+    "W3 and C4: the Internship carries reflective and self-monitoring outcomes that could read toward C4's independent-learning route. Placement evidence scores in W3 only, per the one-construct-one-home rule, and it is elective in any case.",
+    "G2 was ambiguous between a PASS read (epidemiological appraisal and intervention planning imply trade-off reasoning) and FAIL (no assessment documented). Resolved to FAIL by the rule against resolving ambiguity upward, since the gate's PASS side is stated in terms of what assessments require."
+  ],
+  "notScoreable": [
+    "Assessment-task detail is absent program-wide: every course page in the extract renders its assessment as a single delivery-mode line — for example 'Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: None)' — with no task description, weighting or criteria. No item could therefore be tested against a level-2 or level-3 anchor on assessment evidence, and all eight scores rest on outcome-level and structural evidence only. A recapture that includes UNSW course-outline assessment tables would be needed to score this program above 1 on any item.",
+    "C3 AI-specific evidence is absent entirely: the extract contains no mention of artificial intelligence, generative AI, automation, algorithmic tools or data governance in any program outcome or course, so the level-2 and level-3 anchors have nothing to test against; the score of 1 rests only on the statistical-software content in PHCM9795."
+  ],
+  "instrument": "4.2-draft",
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-07"
+  }
+};
+
+export default record;

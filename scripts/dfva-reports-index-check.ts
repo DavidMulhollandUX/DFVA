@@ -37,7 +37,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { V4_PANEL_C } from '../compass/app/src/compass/v4/data/v4PanelC'
 import { V4_RESEARCH_DEGREES } from '../compass/app/src/compass/v4/data/v4Meta'
-import { institutionOf, isPublished } from './lib-institution'
+import { institutionOf, isPublishedRecord } from './lib-institution'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const evidenceDir = path.join(ROOT, 'dfva/source/evidence')
@@ -141,13 +141,16 @@ if (STATUS || INCOMPLETE) {
 }
 
 const scored: string[] = []
+const publishedCodes = new Set<string>()
 for (const f of readdirSync(evidenceDir)) {
   if (!f.endsWith('.json')) continue
   const d = JSON.parse(readFileSync(path.join(evidenceDir, f), 'utf8')) as {
     code?: string
-    panelCv4?: unknown
+    panelCv4?: { verified?: { date?: string } | null }
   }
-  if (d.panelCv4 && d.code) scored.push(d.code)
+  if (!d.panelCv4 || !d.code) continue
+  scored.push(d.code)
+  if (isPublishedRecord(d.code, d.panelCv4.verified)) publishedCodes.add(d.code)
 }
 
 const errors: string[] = []
@@ -156,8 +159,8 @@ const published = new Set(Object.keys(V4_PANEL_C))
 // A quarantined institution is absent from the generated map on purpose, so it
 // is not a drift error. Report it as a separate count instead of failing: the
 // state is "scored, not yet publishable", and lib-institution.ts owns the list.
-const quarantined = scored.filter((c) => !isPublished(c))
-const publishable = scored.filter((c) => isPublished(c))
+const quarantined = scored.filter((c) => !publishedCodes.has(c))
+const publishable = scored.filter((c) => publishedCodes.has(c))
 
 // 1. Scored but absent from the generated map: /reports still calls it archived.
 const stale = publishable.filter((c) => !published.has(c)).sort()

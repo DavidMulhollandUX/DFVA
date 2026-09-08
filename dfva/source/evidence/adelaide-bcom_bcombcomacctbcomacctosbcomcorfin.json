@@ -1,102 +1,130 @@
 {
   "code": "adelaide-bcom_bcombcomacctbcomacctosbcomcorfin",
   "panelCv4": {
-    "instrument": "4.2-draft",
-    "adaptiveness": 12,
-    "workplace": 5,
     "C1": {
-      "score": 3,
-      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+      "score": 1,
+      "rationale": "Level 1 anchor: collaboration appears in learning outcomes but no core unit assesses it. Teamwork is named only in program learning outcome 5. The two core course pages in the extract (ECON1008, ECON1012) list assessment tasks that are individual problem-solving, critical-analysis and case-study items with no group, client or stakeholder component, so the level-2 requirement that at least one core unit assess collaborative practice is not documented, and no task allocating work across people AND tools is documented for level 3.",
       "evidenceLines": [
-        "**Institution**: The University of Adelaide",
-        "**Program Identifier / Slug**: bcom_bcombcomacctbcomacctosbcomcorfin",
-        "- **Institution**: The University of Adelaide"
+        "Communicate effectively both individually and within teams, and have the ability to self-reflect.",
+        "- Problem Solving Task: 25%% (Hurdle: False)",
+        "- Critical Analysis: 35%% (Hurdle: False)",
+        "- Case Study: 10%% (Hurdle: False)"
       ]
     },
     "C2": {
-      "score": 2,
-      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+      "score": 1,
+      "rationale": "Level 1 anchor: reflection appears in outcomes but no core unit assesses appraisal of quality against criteria. Reflection is stated twice at program level. The nearest level-2 candidate is an ECON1008 outcome about evaluating an issue against a predetermined set of criteria, but that appraises an economic issue rather than the quality of work (own, peer or tool), and it is an outcome statement, not a documented assessment task — R2 bars scoring it at 3 and the anchor's 'appraisal of quality' wording is not met at 2. No task requires documenting or justifying reliance decisions.",
       "evidenceLines": [
-        "**Academic Calendar Year**: 2025/2026",
-        "**Faculty**: Faculty of Arts, Business, Law and Economics (ABLE)",
-        "- **Program Identifier / Slug**: bcom_bcombcomacctbcomacctosbcomcorfin"
+        "Formulate, explain and reflect upon solutions utilising evidence-based principles, concepts and theories to create and/or transform business.",
+        "Communicate effectively both individually and within teams, and have the ability to self-reflect.",
+        "- Evaluate and present a national economic issue or a personal financial issue based on a predetermined set of criteria",
+        "- Discuss the implications of statistical decisions, recognising potential biases, errors, and the consequences of using inappropriate methods."
       ]
     },
     "C3": {
-      "score": 2,
-      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+      "score": 1,
+      "rationale": "Level 1 anchor: digital tools appear as tool operation/training only — the operational level TEQSA identifies as non-durable. The only documented digital content is an ECON1012 outcome on driving statistical software, plus analytics course titles in the majors. Nothing in the extract addresses AI capabilities, limitations or ethics in a core unit (level 2), and no assessment requires critique or governance of AI systems (level 3); gen AI is absent from the extract entirely.",
       "evidenceLines": [
-        "Subject: Introductory Economics and Personal Finance (ECON1008)",
-        "Subject: Data Analytics (ECON1012)",
-        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/bcom_bcombcomacctbcomacctosbcomcorfin"
+        "- Use statistical software to input data, generate descriptive statistics, conduct inferential statistical procedures, and produce graphical representations of data.",
+        "Accounting Systems and Data Analytics",
+        "Business Data Analytics",
+        "Marketing Analytics"
       ]
     },
     "C4": {
-      "score": 3,
-      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+      "score": 1,
+      "rationale": "Level 1 anchor: transfer is claimed in outcomes but not assessed. Program outcome 2 claims analysis of diverse problems in contemporary business situations. The extract documents case-study and problem-solving tasks in two core courses but never states that the cases are novel, unseen or drawn from outside the taught context, so the level-2 requirement of assessed application to novel or unfamiliar problems is not documented. A capstone is required, but the extract carries no course page for any capstone option, so there is no assessment evidence that it is self-scoped or that students identify and close their own knowledge gaps (level 3, R2).",
       "evidenceLines": [
-        "Explain the principles of economics, including the economic way of thinking, market demand and supply, the elasticity of demand and supply, market structures, measurement of the size of the economy, inflation, and unemployment",
-        "Apply microeconomic and macroeconomic knowledge and skills to make informed decisions in today's world",
-        "- **Academic Calendar Year**: 2025/2026"
+        "Analyse diverse problems in contemporary business situations by employing relevant quantitative and qualitative skills.",
+        "Capstone course to the value of at least 3 units",
+        "- Case Study: 20%% (Hurdle: False)",
+        "- Problem Solving Task: 20%% (Hurdle: False)"
       ]
     },
     "C5": {
-      "score": 2,
-      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+      "score": 1,
+      "rationale": "Level 1 anchor: introductory methods unit. ECON1012 is a core statistics/methods course covering descriptive and inferential technique selection, and its outcomes require analysing business questions as statistical problems. The extract does not document students designing and conducting their own inquiry with methodology selection and data collection assessed (level 2), and no substantial required primary-evidence project with methodology defended under scrutiny appears anywhere (level 3).",
       "evidenceLines": [
-        "Subject: Introductory Economics and Personal Finance (ECON1008)",
-        "Subject: Data Analytics (ECON1012)",
-        "Explain the principles of personal finance, including the financial planning process, financial statements, income taxes, cash and savings, credit cards, and consumer loans"
+        "Inferential statistics includes the selection and application of correct and suitable statistical techniques to make estimates or test claims about economic and business data based on a sample.",
+        "- Analyse economic and business questions as statistical problems by identifying key variables and assumptions and solve them using appropriate statistical methods, demonstrating logical reasoning and accuracy.",
+        "- Execute correctly a variety of statistical techniques, both descriptive and inferential, with economic and business data."
       ]
     },
+    "adaptiveness": 5,
     "W1": {
-      "score": 2,
-      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+      "score": 0,
+      "rationale": "Level 0 anchor: all documented core assessment is in academic genres addressed to the marker — problem-solving tasks, critical analysis and case studies — and no professional-genre or spoken communication is assessed. Communication does appear in program outcome 5 and the verb 'present' appears in an ECON1008 outcome, which is the first clause of level 1, but level 1 also requires core assessment to add a presentation to peers or staff, and no assessment task in the extract is a presentation. Barrie's rule as carried by R2 forbids scoring the stated attribute.",
       "evidenceLines": [
-        "Apply personal financial knowledge and skills to make informed decisions in today's world",
-        "- **Institution**: The University of Adelaide",
-        "- **Program Identifier / Slug**: bcom_bcombcomacctbcomacctosbcomcorfin"
+        "Communicate effectively both individually and within teams, and have the ability to self-reflect.",
+        "- Evaluate and present a national economic issue or a personal financial issue based on a predetermined set of criteria",
+        "- Problem Solving Task: 40%% (Hurdle: False)",
+        "- Critical Analysis: 35%% (Hurdle: False)"
       ]
     },
     "W2": {
-      "score": 2,
-      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+      "score": 1,
+      "rationale": "Level 1 anchor: contextualised or scenario-framed tasks appear, but the artefact produced and the criteria applied remain academic. Both documented core courses assess case studies and a critical analysis framed on economic or personal-finance issues, which is situational framing beyond a bare exam or problem set, so level 0 does not hold. Level 2 requires a core assessment that reproduces a professional task end to end, producing the artefact a practitioner would produce against criteria drawn from practice; the extract documents no such task descriptor, and per R4 the program's 'work integrated learning' and 'real-world contexts' wording cannot substitute for documented task features.",
       "evidenceLines": [
-        "Evaluate and present a national economic issue or a personal financial issue based on a predetermined set of criteria",
-        "Subject: Data Analytics (ECON1012)",
-        "- **Academic Calendar Year**: 2025/2026"
+        "- Case Study: 10%% (Hurdle: False)",
+        "- Case Study: 20%% (Hurdle: False)",
+        "- Critical Analysis: 35%% (Hurdle: False)",
+        "with applications extending to various real-world contexts"
       ]
     },
     "W3": {
       "score": 1,
-      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "rationale": "Level 1 anchor: work-situated learning exists as an optional internship. The program describes WIL as an opportunity, and the two internship courses sit as two of four alternatives in the capstone list for accounting and finance majors, so no core unit necessarily places a student in a workplace — the level-2 requirement of a core unit with practitioner supervision and assessment is not met. The alternative marketing-major capstone is a planning project with no course page in the extract, so no workplace setting, supervision or host accountability is documented. This cohort is not documented as already practising, so the in-practice route does not apply.",
       "evidenceLines": [
-        "The Bachelor of Commerce is designed to prepare students for professional accreditation in accounting, finance or marketing. Students completing an accounting major will be entitled to join the CPA Australia (Certified Practising Accountants) and CA ANZ (Chartered Accountants Australia and New Zealand); the finance major meets the entrance requirements of the CFA Institute (Chartered Financial Analyst); and the marketing major is accredited with the AMI (Australian Marketing Institute).",
-        "- **Institution**: The University of Adelaide"
+        "opportunities to engage in work integrated learning;",
+        "Students completing a major in either Accounting, Accounting and Corporate Finance, or Corporate Finance must complete at least one course from the following:",
+        "ABLE Internship Level III",
+        "Deloitte Internship",
+        "eChallenge"
       ]
     },
+    "workplace": 2,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Commerce.",
+        "rationale": "PASS condition: a coherent specialist core with progressive technical depth — an accredited sequence and an all-compulsory specialist core. Every major lists an all-compulsory course set that runs level I to level III within the discipline (introductory accounting through corporate accounting and auditing; business finance through portfolio theory and topics in corporate finance), and the program is built for professional accreditation with CPA Australia, CA ANZ, the CFA Institute and the AMI. This is not generic or interchangeable content.",
         "evidenceLines": [
           "The Bachelor of Commerce is designed to prepare students for professional accreditation in accounting, finance or marketing. Students completing an accounting major will be entitled to join the CPA Australia (Certified Practising Accountants) and CA ANZ (Chartered Accountants Australia and New Zealand); the finance major meets the entrance requirements of the CFA Institute (Chartered Financial Analyst); and the marketing major is accredited with the AMI (Australian Marketing Institute).",
-          "The Bachelor of Commerce is an AQF level 7 program with a standard full-time duration of 3 years."
+          "broad and coherent procedural and declarative knowledge of contemporary business issues and skills, with specialist discipline-specific depth in their respective discipline;",
+          "All of the following courses must be completed:",
+          "Introductory Accounting",
+          "Corporate Accounting",
+          "Auditing"
         ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "Specialist academic program structured through sequential study in business and management.",
+        "rationale": "FAIL condition is recall or scripted responses only, and that does not hold: the documented core assessment is critical analysis, case studies and problem-solving tasks, and the core statistics course requires students to weigh statistical decisions against biases, errors and the consequences of inappropriate methods — inference from a sample is decision-making under uncertainty. A capstone is a qualification requirement for every major, with live-project and internship options. The evidence sits close to the bar because no assessment task descriptor in the extract names a defended trade-off, so the pass rests on the ECON1012 outcome and the required capstone rather than on a documented trade-off task.",
         "evidenceLines": [
-          "Subject: Introductory Economics and Personal Finance (ECON1008)",
-          "**Institution**: The University of Adelaide"
+          "- Discuss the implications of statistical decisions, recognising potential biases, errors, and the consequences of using inappropriate methods.",
+          "Inferential statistics includes the selection and application of correct and suitable statistical techniques to make estimates or test claims about economic and business data based on a sample.",
+          "- Critical Analysis: 35%% (Hurdle: False)",
+          "Capstone course to the value of at least 3 units",
+          "Evaluate ethical considerations for routine and evolving business tasks."
         ]
       }
     },
     "ambiguities": [
-      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
-      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+      "C2 straddled 1 and 2: the ECON1008 outcome 'Evaluate and present a national economic issue or a personal financial issue based on a predetermined set of criteria' reads as criterion-referenced appraisal, but it appraises an issue rather than the quality of work and is an outcome, not a listed assessment task. Resolved DOWN to 1 by the lower-level rule and R2.",
+      "C4 straddled 1 and 2: ECON1012 lists two 'Case Study' assessments, which could be read as the anchor's 'case variation', but the extract never documents the cases as novel or unfamiliar. Resolved DOWN to 1 by the lower-level rule.",
+      "C5 straddled 1 and 2: ECON1012 outcomes cover selecting suitable statistical techniques and data collection is named in the course overview, but no assessment task is documented as a student-designed inquiry. Resolved DOWN to 1 by the lower-level rule.",
+      "W1 straddled 0 and 1: communication is in program outcome 5 and 'present' appears in an ECON1008 outcome, satisfying the first clause of level 1, but no listed assessment task is a presentation, so the second clause fails. Resolved DOWN to 0 by the lower-level rule and R2.",
+      "W3 straddled 1 and 2: the capstone block is compulsory and contains two internship courses, so a student may complete a workplace placement inside the core, but the internships are alternatives to eChallenge and Tech eChallenge rather than required. Resolved DOWN to 1 by the lower-level rule.",
+      "W2 versus W3: the internship capstone options could be read as authentic task design, but per 'one construct, one home' workplace immersion is scored in W3 only.",
+      "The extract's ECON1008 course page is titled 'Introductory Economics and Personal Finance (ECON1008)' while the program rules list ECON 1008 as 'Data Analytics I', and the ECON1012 page is titled 'Data Analytics' while the rules list ECON 1012 as 'Principles of Economics I'. The two course pages were still treated as core-course evidence because both codes appear in the compulsory course lists."
     ],
-    "notScoreable": []
+    "notScoreable": [
+      "The extract contains only two core course pages (ECON1008 and ECON1012). No page is present for ENTREP 1011, any ACCTING, CORPFIN, COMMLAW or MARKETNG course, or any capstone option (ABLEINT 3001, BUSINESS 3002, ENTREP 3900, ENTREP 3901, MARKETNG 3004), so level-2 and level-3 assessment evidence in the disciplinary core and the capstone could not be checked for C1, C2, C4, C5, W1, W2 or W3. Every score above rests on the program rules page plus those two course pages; a fuller capture could raise C4, W1, W2 or W3."
+    ],
+    "instrument": "4.2-draft",
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-09-07"
+    }
   }
 }

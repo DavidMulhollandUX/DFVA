@@ -1,0 +1,138 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: at least one core unit assesses collaborative practice with individual accountability. GENG3000 is a Level 3 core unit in all nine major sequences, sets a group desktop project, and its indicative assessment separates 'contribution to project' from the 'group presentation', which is the individual-accountability feature the level-2 anchor names. Level 3 is not reached: the extract documents no assessment in which work is coordinated across people AND tools or AI systems, and the earlier Engineering Practice units (GENG1000, GENG2000) appear only as prerequisite names, so recurrence of assessed collaboration across the program is not documented. The program outcome on teamwork is an outcome statement only and cannot lift the score (R2).",
+    "evidenceLines": [
+      "Work effectively and cooperatively in a team as a member or leader.",
+      "Students undertake a group desktop project as part of the unit to further develop their professional skills.",
+      "Assessment is based on active participation in the modules and the group project.",
+      "Indicative assessments in this unit are as follows: (1) participation in learning modules and panel sessions; (2) contribution to project; and (3) group presentation.",
+      "Level 3 core unit in the Automation and Robotics Engineering; Biomedical Engineering; Chemical Engineering; Civil Engineering; Electrical and Electronic Engineering; Environmental Engineering; Mechanical Engineering; Mining Engineering; Software Engineering major sequences"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 anchor met by the 'portfolio with standards' route: GENG5010 is required of every student by course rule 16(4) and its assessed portfolio requires critical reflective pieces judged against an external criterion set, the sixteen Elements of Competency of the Engineers Australia Stage 1 Competency Standard, with resubmission until the standard is met. Level 3 is not reached: no assessment in the extract requires students to document and justify a reliance decision (when a tool, source or collaborator was relied on or overridden), to defend judgements of AI-output quality, or to evidence strategy adjustment over time. The GENG3000 reflection outcome is an outcome statement assessed only by participation, which is level 1 on its own.",
+    "evidenceLines": [
+      "(3) reflect on personal knowledge, skills and attributes in preparation for professional recruiting processes;",
+      "(5) demonstrate attainment of specialisation competencies and the 16 Elements of Competency outlined in the Engineers Australia Stage 1 Competency Standard for Professional Engineer;",
+      "the portfolio requires students to write a small number of critical reflective pieces. These must demonstrate how a student's practicum and coursework experiences have contributed to their attainment of the Engineers Australia Stage 1 competencies for professional engineers.",
+      "An unsatisfactory portfolio must be revised and resubmitted until a grade of UP is awarded."
+    ]
+  },
+  "C3": {
+    "score": 0,
+    "rationale": "Scored at the level-0 floor because the extract carries no digital or AI content in any documented core unit or program-level outcome: the nine program outcomes reference engineering techniques, tools and resources generically, and GENG4411's 'apply appropriate technical tools' is the only tool reference, with no capability, limitation, ethics or governance content anywhere. This is a floor, not a census: see notScoreable. The level-1 anchor is not positively satisfied either, because no unit is documented as delivering AI or digital tool operation.",
+    "evidenceLines": [
+      "Solve complex engineering problems using appropriate engineering techniques, tools and resources and established engineering methods;",
+      "(5) apply appropriate technical tools;",
+      "This course comprises 168-180 points of engineering foundation and major units and 12-24 points of free electives."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3 anchor met: the program documents structured progression toward independent learning through a self-scoped research project, and the honours component rule makes a dissertation or equivalent a universal requirement, so this is structured progression rather than an optional route. GENG4411 develops the capability to conduct independent research, students negotiate or scope their own topic and aim, and the requirement is assessment-backed as required by R2, through a written project proposal, progress reports, an oral defence and a final report. Entry is itself staged behind 144 points including 24 points of Level 3 units.",
+    "evidenceLines": [
+      "at least 12 credit points (normally 2 units) of Dissertation or equivalent units at Level 4 and/or Level 5; and",
+      "The academic objectives of the project are to improve students' understanding of the research process and to develop their capability to conduct independent research.",
+      "Students are able to (1) develop an engineering research question or project aim;",
+      "Students may choose a project from a list of advertised topics, negotiate a topic with an academic supervisor, or apply for an industry Co-operative Education for Enterprise Development (CEED) project.",
+      "(2) written project proposal; (3) oral presentation (oral defence); and (4) written final report."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: students design and conduct an inquiry with methodology selection and data collection, assessed through a proposal, staged progress reports, an oral defence and a final report. Level 3 is refused on its own wording, which requires the substantial primary-evidence project to be REQUIRED and not one route among several. The handbook documents the opposite: GENG4411/12 is a Level 4 option rather than a core unit in the Mechanical Engineering major, and the honours classification note states that students who do not complete it remain eligible for H2B and H3, so a student can complete the degree without it. The unit's own methodology outcome also offers 'solve an engineering problem' as an alternative to testing a hypothesis, so primary evidence generation is not guaranteed even within the unit.",
+    "evidenceLines": [
+      "This unit is part of a 12-pt research project. Parts 1 and 2 must be taken over two successive semesters and both parts must be completed to fulfil the requirements of the project.",
+      "(4) follow appropriate methodology to test a research hypothesis or theory or solve an engineering problem;",
+      "Indicative assessments in this unit are as follows: (1) written progress reports; (2) written project proposal; (3) oral presentation (oral defence); and (4) written final report.",
+      "Level 4 option in the Mechanical Engineering major sequence",
+      "Students who do not complete GENG4411/12 will not be eligible for H1 or H2A. They will be eligible for H2B and H3."
+    ]
+  },
+  "adaptiveness": 9,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: GENG3000, a core unit in all nine majors, requires groups to present their work to industry sponsors, an audience beyond the teaching team, alongside industry panels that supply practice-based feedback, and its outcomes name engineering reports prepared for a professional audience. Level 3 is not reached on two counts. Professional communication is not documented as assessed repeatedly and progressively across the program: the extract contains no content for GENG1000 or GENG2000, and GENG4411's oral defence and reports address a technical or academic audience. Nor is professional conduct or accountability documented among the assessed criteria for the industry-facing presentation, which is graded ungraded pass on participation and contribution. The program-level communication and conduct statements are graduate attributes and cannot be scored (R2).",
+    "evidenceLines": [
+      "Communicate effectively and persuasively in lay and professional domains;",
+      "Demonstrate professional and ethical conduct in their work and interactions with others; and",
+      "These modules will be complemented by 3-4 industry panels providing industry feedback on preparation for the recruiting process, types of engineering work and organisations, and experiences of recent graduates.",
+      "Groups present their work to industry sponsors towards the end of the unit.",
+      "(4) prepare Engineering reports for presentation to a professional audience; and"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: GENG3000's core project reproduces a professional engineering task rather than a worked scenario, because students develop a new engineering project against diverse stakeholder needs and business objectives and the result is put to industry sponsors, so neither the artefact nor the audience remains academic, which is what level 1 requires. GENG4411 adds a project managed to professional deadlines. Level 3 is not reached: the extract does not establish such tasks as the program's assessment spine, since the degree-specific major units carrying the discipline's design and project sequence are absent from the extract, leaving two documented instances at Levels 3 and 4 rather than one per stage. Scored on documented task features only, never on the handbook's 'work integrated learning' and 'professional skills' framing (R4).",
+    "evidenceLines": [
+      "Apply design principles, codes and standards relevant to their discipline;",
+      "Students develop a new engineering project, taking into account the need of diverse stakeholders and the successful accomplishment of business objectives.",
+      "(8) manage a project in a professional manner to meet outcomes and deadlines; and (9) demonstrate initiative."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3 anchor met on the placement route, with every element documented: the work-situated learning is required by course rule and substantial at 450 hours or 12 weeks, not short and not elective; it is assessed in a core capstone unit that every student enrols in during their final semester; accountability to the host is explicit, since a Certificate of Work Performed must be submitted for each placement and the employer or supervisor comments on the student's conduct and contribution to determine satisfactory participation; and structured reflection on professional practice is required through Career Episode Reports and the reflection outcome. Level 2's limiting condition, that the placement is short or stands alone, does not hold.",
+    "evidenceLines": [
+      "Students are required to complete at least 450 hours of suitable practical experience as approved by the School.",
+      "The Professional Engineering Portfolio is a capstone unit that requires engineering students to demonstrate (i) the successful completion of at least 450 hours (12 weeks) of exposure to professional practice, including work experience relevant to their chosen engineering discipline;",
+      "Assessment for this unit comprises a log of practicum hours, Certificate(s) of Work Performed, and a portfolio of Career Episode Reports.",
+      "a Certificate of Work Performed must be submitted for each practicum experience. The certificate allows the employer or supervisor to comment on the student's conduct and contribution during the practicum experience, and is used to determine satisfactory participation by the student",
+      "(4) reflect on practicum and coursework experiences and articulate professional benefits;",
+      "Contact hours 450 hours (12 weeks)"
+    ]
+  },
+  "workplace": 7,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS on both the accredited-sequence and staged-prerequisite-chain routes. The course is a specialist degree built around the Engineers Australia Stage 1 Competencies, every student takes a degree-specific engineering major from a closed list of nine, the structure mandates depth by level rather than breadth alone, and the Engineering Practice units form an explicit staged chain with the Level 4 research project gated behind 144 points including 24 points of Level 3 units. This is not generic or interchangeable content.",
+      "evidenceLines": [
+        "The Bachelor of Engineering (Honours) is a specialist 4-year degree designed to produce graduates who demonstrate the knowledge, technical capability and practical skills relevant to the contemporary world of engineering.",
+        "The program is built around the Engineers Australia Stage 1 Competencies for Professional Engineers and integrates course content with work integrated learning, co-curricular activities, and professional skills development.",
+        "a degree-specific major chosen from the list below:",
+        "at least 72 credit points (normally 12 units) at Level 2 and Level 3, including at least 18 credit points (normally 3 units) at Level 3; and",
+        "Prerequisites Enrolment in Bachelor of Engineering (Honours) or an associated Combined Degree and Successful completion of GENG1000 Engineering Practice 1 and Successful completion of GENG2000 Engineering Practice 2"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS. Assessment is not confined to recall or scripted responses: the Level 4 research project carries genuine uncertainty, since students formulate the framework and follow a methodology to test a hypothesis or solve an open engineering problem, and must defend it in an oral defence with a graded final report. GENG3000's core project requires trade-off decisions among diverse stakeholder needs and business objectives, with accountability to the industry sponsors it is presented to, and the program outcomes require the competing sustainability, social, legal and economic constraints to be reconciled in engineering work.",
+      "evidenceLines": [
+        "Incorporate sustainability, social, cultural, environmental, legal and economic factors and constraints in their engineering work;",
+        "Students develop a new engineering project, taking into account the need of diverse stakeholders and the successful accomplishment of business objectives.",
+        "(2) formulate a framework to answer a research question or meet project aims;",
+        "(4) follow appropriate methodology to test a research hypothesis or theory or solve an engineering problem;",
+        "(3) oral presentation (oral defence); and (4) written final report."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2 straddled 2 and 3. The GENG5010 portfolio records a 'learning journey supported by evidence' and reflection across the whole degree, which could be read as level 3's process-focused evidence of strategy adjustment over time; but no assessment requires a reliance decision to be documented or justified, so the ambiguity was resolved to the lower level per the scoring-direction rule.",
+    "C2 and W3 both draw on GENG5010. Applying 'one construct, one home', the placement participation evidence (450 hours, Certificate of Work Performed, supervisor sign-off) scores only in W3, and only the criterion-referenced self-appraisal against the sixteen Elements of Competency scores in C2, since the prompt assigns appraisal of the quality of work to C2.",
+    "C4 straddled 2 and 3 because GENG4411/12 is core in eight of nine majors but a Level 4 option in Mechanical Engineering. Resolved upward only because course rule 10(1)(b)(ii) makes at least 12 credit points of Dissertation or equivalent units compulsory in the honours component for every student, so the structured progression toward independent learning is documented program-wide rather than as one route among several.",
+    "C5 straddled 2 and 3 on the same unit. Here the level-3 anchor's explicit 'REQUIRED (not one route among several)' clause is decisive against the upper level, because the honours classification note documents that a student who does not complete GENG4411/12 still graduates, eligible for H2B and H3. C4 and C5 therefore diverge on the same evidence by design, since only C5's anchor carries the universality requirement.",
+    "W1 straddled 2 and 3. Level 3's external-audience limb is satisfied by the industry-sponsor presentation and the industry panels, but its other two limbs are not documented: assessment across the program is not shown, because GENG1000 and GENG2000 appear only as prerequisite names with no content in the extract, and professional conduct is not named among the assessed criteria for that presentation. Resolved to the lower level.",
+    "W2 straddled 2 and 3. Level 3's 'genuine constraint of practice' limb is arguably met by the industry sponsors and the professional deadlines, but its 'assessment spine' limb cannot be tested from this extract, which captures no degree-specific major unit. Resolved to the lower level.",
+    "W3 carries a limitation short of ambiguity: course rule 16(2) makes students arrange their own practical experience and rule 16(3) allows work completed before admission to count toward the 450 hours, so the placement is not program-brokered. The level-3 anchor's requirements (extended, in the core, practitioner-supervised, assessed, accountable to the host, structured reflection) are each documented regardless, so the score holds at 3."
+  ],
+  "notScoreable": [
+    "C3 — the extract contains no evidence of the kind this item scores. It captures the course page plus seven unit pages, of which four are Level 1 bridging electives (CHEM1003, MATH1721, MATH1722, PHYS1030) and three are general engineering units (GENG3000, GENG4411, GENG5010). Not one degree-specific major unit is present: the 'Course structure' section reaches 'Take all units (18 points):' and the unit lists do not follow. Digital and AI content in this program would sit in those major sequences, including the Software Engineering major. The 0 recorded is the floor implied by the extract, not a finding that the core lacks digital or AI content.",
+    "C1 level-3 test, W1 level-3 test and W2 level-3 test are limited by the same gap: all three upper anchors ask whether something recurs across the program, which cannot be established when the major sequences and the GENG1000/GENG2000 unit pages are absent from the extract."
+  ],
+  "instrument": "4.2-draft",
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-07"
+  }
+};
+
+export default record;

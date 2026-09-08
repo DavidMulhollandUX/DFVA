@@ -1,0 +1,143 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: collaboration appears in learning outcomes but no core unit assesses it. Program learning outcome 3 requires graduates to 'contribute productively to group-based outcomes', and course outcomes across the listed disciplines name collaboration and teamwork, but no assessment task in the extract is documented as group or stakeholder work. Level 2 needs at least one CORE unit that assesses collaborative practice; the only program-wide core is a 3-unit ARTS Core Competency course chosen from three alternative category lists, and no assessment table for it (or for any designated capstone) is in the extract. Nothing documents coordination of work across people AND tools/AI systems, so level 3 is not in play.",
+    "evidenceLines": [
+      "Communicate effectively in a range of spoken and written modes and formats within discipline and professional contexts in a variety of social, cultural and linguistic situations and contribute productively to group-based outcomes.",
+      "ARTS Core Competency course to the value of 3 units.",
+      "- Work effectively to create outputs involving individual and group participation",
+      "- Collaborate and communicate effectively with peers to both give and receive feedback",
+      "- Enhance skills in research, analysis, oral and written communication, and teamwork."
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: self-appraisal appears in the program outcomes but no core unit assesses it against criteria. Program learning outcome 6 names 'processes of self-appraisal'. Level 2 requires criterion-referenced appraisal of quality in CORE assessment; peer review is documented as an assessment component in two captured course pages, but both are elective options inside majors rather than units every student takes, and the extract carries no marking criteria or exemplar standards. No task requires documenting or justifying reliance on a tool, source or collaborator, so level 3 is not reached.",
+    "evidenceLines": [
+      "Appreciate and manage their own personal capabilities through processes of self-appraisal, and demonstrate respect and mutual responsibility in sustaining productive relationships.",
+      "- Peer Review, Portfolio, Multiple Choice Questions: 50%% (Hurdle: False)",
+      "- Peer Review: 10%% (Hurdle: False)",
+      "ARTS Core Competency course to the value of 3 units."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: AI and digital tools appear only as electives or as tool operation. 'Artificial Intelligence Technologies' is one of sixteen options in Category A of the Core Competency requirement, itself one of three alternative categories, and 'AI and Human Life: Ethics, Politics, Subjectivity.' appears in Level II elective lists. Program learning outcome 4.1 states information technology skills, which rules out level 0. Level 2 requires CORE units that address AI capabilities AND limitations or ethics with that use assessed; no unit every student takes does so, and no assessment of AI critique or governance is documented, so level 3 is not reached.",
+    "evidenceLines": [
+      "Artificial Intelligence Technologies",
+      "COMP SCI 1400",
+      "Category A: Science, Technology, Engineering & Maths",
+      "Courses to the value of 3 units from the following:",
+      "AI and Human Life: Ethics, Politics, Subjectivity.",
+      "Demonstrate career readiness and leadership skills appropriate for beginning professional practice including:  4.1 information technology skills to access, store, manage, analyse and present discipline-based information and data, and to communicate effectively with others 4.2 lifelong learning skills characterised by academic rigour, self-direction and intellectual independence."
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Level 1 anchor: transfer and independent learning are claimed in outcomes but not assessed. Program learning outcome 4.2 names 'lifelong learning skills characterised by academic rigour, self-direction and intellectual independence'. The evidence straddles level 3, because the rules require a designated capstone in every Arts major behind a staged prerequisite chain, and some designated capstones are named as projects. Level 3 was not taken: no assessment task, hurdle or requirement is quotable for any capstone (R2 bars an outcome or structural statement alone), and several majors' designated capstones are ordinary coursework subjects rather than self-scoped projects. Level 2 is separately unmet, since no core assessment is documented as applying methods to novel or unfamiliar problems. Ambiguity resolved downward per the scoring direction rule.",
+    "evidenceLines": [
+      "Demonstrate career readiness and leadership skills appropriate for beginning professional practice including:  4.1 information technology skills to access, store, manage, analyse and present discipline-based information and data, and to communicate effectively with others 4.2 lifelong learning skills characterised by academic rigour, self-direction and intellectual independence.",
+      "At least one major to the value of 24 units in Arts, including a capstone course; or a major to the value of 33 units in Psychology; or a major to the value of 27 units in Mathematical Sciences.",
+      "6 units must be completed at Level I, a minimum of 3 units of Level II and at least 12 units at Level III, including 6 units of the designated capstone course. Students must complete at least 3 units in the major of Level I before undertaking courses at Level II, 3 units at Level II before undertaking courses at Level III, and 15 units in the major before undertaking the capstone.",
+      "Education Project: Self-Directed Study",
+      "Sociological Research Project"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1 anchor: introductory methods units and literature-review assessment. Research-methods courses appear in the major lists and a captured methods page assesses a literature review and a proposal. Level 2 requires students to design AND conduct an inquiry with methodology selection and data collection, assessed; the captured methods assessment stops at a proposal, and the one captured 'Data Collection and/or Analysis' task sits in a course that is an option within a major, not a program requirement. Level 3 requires a substantial primary-evidence project REQUIRED of all students with methodology defended under scrutiny; the required capstone differs by major and no viva, defence or staged supervised review is documented.",
+    "evidenceLines": [
+      "Apply creative and critical thinking to identify and solve problems within complex social contexts using rigorous techniques of inquiry involving a variety of primary and secondary sources.",
+      "- Critical Analysis: 40%% (Hurdle: False)",
+      "- Proposal: 60%% (Hurdle: False)",
+      "- Data Collection and/or Analysis: 30%% (Hurdle: False)"
+    ]
+  },
+  "adaptiveness": 5,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: communication and professional conduct appear in the program outcomes, and assessment adds spoken forms, but no professional genre and no audience beyond the teaching team. Program learning outcomes 3, 4 and 5 name spoken and written communication in professional contexts, career readiness and professional integrity. Level 0 is falsified because spoken communication is assessed in the documented curriculum, including an oral defence. Level 2 requires a core assessment in a recognised professional genre or to an audience beyond the teaching team, judged against criteria drawn from professional practice; no captured assessment names an external audience or practice-drawn criteria, so 2 and 3 are not reached.",
+    "evidenceLines": [
+      "Communicate effectively in a range of spoken and written modes and formats within discipline and professional contexts in a variety of social, cultural and linguistic situations and contribute productively to group-based outcomes.",
+      "Demonstrate career readiness and leadership skills appropriate for beginning professional practice including:  4.1 information technology skills to access, store, manage, analyse and present discipline-based information and data, and to communicate effectively with others 4.2 lifelong learning skills characterised by academic rigour, self-direction and intellectual independence.",
+      "Identify social and cultural global issues and their ethical implications, and demonstrate the capacity to operate with personal and professional integrity in a range of social, cultural and linguistic contexts.",
+      "- Oral Defence: 30%% (Hurdle: False)",
+      "- Discussion: 10%% (Hurdle: False)"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: contextualised or scenario-framed tasks appear, but the artefact and criteria remain academic. Case-study assessment is documented repeatedly across the captured course pages. Level 2 requires at least one CORE assessment that reproduces a professional task end to end, judged against criteria drawn from practice; the closest evidence is a course whose outcome names simulated crime events, assessed by report and multiple-choice questions, and a design project, but neither is a unit every student takes and neither documents practice-drawn criteria. R4 forbids scoring up on situational framing alone, so the ambiguity is resolved down.",
+    "evidenceLines": [
+      "- Case Study: 45%% (Hurdle: False)",
+      "- Apply knowledge of crime scene identification and management processes to simulated crime events",
+      "- Design Project: 50%% (Hurdle: False)",
+      "Apply creative and critical thinking to identify and solve problems within complex social contexts using rigorous techniques of inquiry involving a variety of primary and secondary sources."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: work-situated learning exists only as an elective or optional internship. Work Integrated Learning is Category C, one of three alternative lists satisfying the 3-unit Core Competency requirement, offering a single careers course; internship courses appear inside 'courses to the value of ... from the following' elective lists within majors. Level 0 is falsified because these options exist in the course structure. Level 2 requires a CORE unit placing students in a real workplace with practitioner supervision and assessment; no placement is required of any student, and the cohort is not documented as already practising, so the in-practice route does not apply.",
+    "evidenceLines": [
+      "Category C: Work Integrated Learning",
+      "ABLEINT 1001",
+      "Crafting Careers",
+      "ABLE Internship Level III",
+      "South Australian Parliamentary Internship",
+      "ARTS Core Competency course to the value of 3 units."
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS clause 'a staged prerequisite chain' is documented literally: every student must complete an Arts major of 24 units including a designated capstone, with level-by-level prerequisites inside the major and 15 units of the major required before the capstone, on top of program-level level-I-before-level-II and level-II-before-level-III rules. The FAIL clause, generic or interchangeable content without disciplinary identity, is falsified by the compulsory single-discipline major and its discipline-specific capstone, although the degree itself is documented as flexible with up to 27 units of electives and only 3 units of program-wide core.",
+      "evidenceLines": [
+        "At least one major to the value of 24 units in Arts, including a capstone course; or a major to the value of 33 units in Psychology; or a major to the value of 27 units in Mathematical Sciences.",
+        "6 units must be completed at Level I, a minimum of 3 units of Level II and at least 12 units at Level III, including 6 units of the designated capstone course. Students must complete at least 3 units in the major of Level I before undertaking courses at Level II, 3 units at Level II before undertaking courses at Level III, and 15 units in the major before undertaking the capstone.",
+        "Level I courses to a minimum of 12 units must be presented before undertaking courses at Level II.",
+        "Level II courses to a minimum of 6 units must be presented before undertaking courses at Level III.",
+        "Level II and III courses to the value of at least 48 units, with at least 24 units at Level III."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The FAIL clause, recall or scripted responses only, is falsified: a designated capstone is required in every major, and the captured assessment tables are dominated by case studies, critical analyses, reports, proposals and an oral defence rather than recall tasks. Program learning outcome 2 requires students to identify and solve problems within complex social contexts using rigorous techniques of inquiry, and one course outcome applies knowledge to simulated events.",
+      "evidenceLines": [
+        "At least one major to the value of 24 units in Arts, including a capstone course; or a major to the value of 33 units in Psychology; or a major to the value of 27 units in Mathematical Sciences.",
+        "Apply creative and critical thinking to identify and solve problems within complex social contexts using rigorous techniques of inquiry involving a variety of primary and secondary sources.",
+        "- Oral Defence: 30%% (Hurdle: False)",
+        "- Case Study: 45%% (Hurdle: False)",
+        "- Apply knowledge of crime scene identification and management processes to simulated crime events"
+      ]
+    }
+  },
+  "ambiguities": [
+    "Capture fidelity: the 44 captured course pages carry course codes that do not match the 2025 program rules, so no captured assessment table can be attached to a named program requirement. The rules list 'EDUC 2001 / Issues in Contemporary Education' while the captured page reads 'Subject: Arts Education (EDUC2001)'; the rules list 'CRIM 3001 / Contemporary Issues in Criminology' while the captured page reads 'Subject: Cybercrime (CRIM3001)'. Every item was therefore scored on the program rules first and the captured assessment used only to falsify level-0 anchors.",
+    "C1 straddled 1 and 2: peer review and collaboration outcomes are documented in captured courses, but the level-2 anchor names a CORE unit and the only program-wide core is a 3-unit Core Competency course chosen from three alternative lists. Resolved to 1 by the scoring-direction rule.",
+    "C2 straddled 1 and 2: 'Peer Review, Portfolio, Multiple Choice Questions: 50%%' and 'Peer Review: 10%%' would satisfy the level-2 anchor if those courses were core; they are options inside majors. Resolved to 1.",
+    "C4 straddled 1 and 3: the compulsory designated capstone behind a staged prerequisite chain reads onto the level-3 anchor 'structured progression toward independent learning', but R2 requires quoted assessment evidence for a 3 and no capstone assessment task is in the extract, while several designated capstones are ordinary coursework subjects rather than self-scoped projects. Resolved to 1.",
+    "C5 straddled 1 and 2: some majors' designated capstones are named as research projects and one captured course assesses 'Data Collection and/or Analysis: 30%%', which would reach level 2 on those pathways, but neither is required program-wide. Resolved to 1.",
+    "W1 straddled 0 and 1: no core assessment table is documented at all, which leaves level 1's second clause only partly evidenced, but level 0's declarative that no spoken communication is assessed is falsified by 'Oral Defence: 30%%'. Scored 1 on that falsification rather than 0.",
+    "W2 straddled 1 and 2: simulated crime events and a design project point at a professional task, but neither course is core and no practice-drawn criteria are documented. R4 bars scoring up on situational framing, so resolved to 1.",
+    "G1 straddled PASS and FAIL: the program is documented as 'a flexible degree program that offers a wide choice of fields to study' with 33 majors, up to 27 units of electives and 3 units of program-wide core, which reads toward the FAIL clause, while the compulsory 24-unit major with its staged prerequisite chain satisfies the PASS clause as written. PASS recorded with the tension noted."
+  ],
+  "notScoreable": [
+    "No assessment task is documented for any designated capstone course. The capstone is the only discipline-specific unit every student must take, so C1, C2, C4, C5, W1 and W2 could not be tested above level 1 on capstone evidence.",
+    "No assessment task is documented for the compulsory ARTS Core Competency course or for any of the courses that satisfy it, so the program's only program-wide core requirement supplies no assessment evidence to any item.",
+    "The extract carries no assessment criteria, rubrics or marking standards for any course, so the criterion-referenced clauses in the C2, W1 and W2 level-2 and level-3 anchors could not be tested."
+  ],
+  "instrument": "4.2-draft",
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-07"
+  }
+};
+
+export default record;

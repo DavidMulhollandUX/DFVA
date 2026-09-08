@@ -1,102 +1,136 @@
 {
   "code": "adelaide-bengh_behcivs1",
   "panelCv4": {
-    "instrument": "4.2-draft",
-    "adaptiveness": 14,
-    "workplace": 6,
     "C1": {
-      "score": 3,
-      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in engineering and related technologies, n.e.c..",
+      "score": 2,
+      "rationale": "Level 2 anchor met: core units run assessed group projects. The required capstone ENG 4002A/B (ENGI4022) is delivered as small-group work and its assessed deliverables (Report 55%, Report 20%, two Oral Defences) are the products of that group work, and the Level I core Introduction to Infrastructure is built on small-group analyses, designs and drawings. Not level 3: the only evidence of coordinating work across people AND tools/systems is a learning outcome in the Level III core Computer Analysis of Structures (group development and checking of a computer program plus analysis using commercial software), and that course's captured Assessment Tasks list is empty, so R2 bars a 3 - no core assessment documents the division of work between people and systems as itself assessed.",
       "evidenceLines": [
-        "**Institution**: The University of Adelaide",
-        "**Program Identifier / Slug**: bengh_behcivs1",
-        "- **Institution**: The University of Adelaide"
+        "Students work in small groups to create civil engineering analyses, designs and drawings. The group work will develop the key engineering attributes of working together in a team and professional communication skills.",
+        "The Research Project is the capstone experience for the Bachelor of Engineering (Honours). In this two-semester course, students work in small groups to solve authentic engineering problems with an emphasis on professional project management and communication.",
+        "- Demonstrate the ability to work cooperatively and flexibly as a member of a team, contributing to team leadership as the situation requires",
+        "- Report: 55%% (Hurdle: False)",
+        "- Demonstrate ability to work professionally with other student members for group projects on 1) development and validation/checking of a generalised computer program, 2) analysis of structures using commercially available software."
       ]
     },
     "C2": {
-      "score": 3,
-      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in engineering and related technologies, n.e.c..",
+      "score": 1,
+      "rationale": "Level 1 anchor met exactly: appraisal of quality appears in core learning outcomes - peer critique in the Level III core Research Methods and Project Management, and self-appraisal in the Level III core Systems Engineering and Industry Practice - but both courses' captured Assessment Tasks lists are empty, so no core unit is documented as assessing appraisal against criteria. Not level 2: the only criterion-referenced appraisal task in the extract is a Peer Review worth 30% in Construction Materials, which the program rules list as a Level I Civil Elective, not core, and the level-2 anchor requires core assessment.",
       "evidenceLines": [
-        "**Academic Calendar Year**: 2025/2026",
-        "**Faculty**: Faculty of Sciences, Engineering and Technology (SET)",
-        "- **Program Identifier / Slug**: bengh_behcivs1"
+        "- Critique, review and differentiate the work of peers in an objective and constructive manner",
+        "- Demonstrate an ability for self-appraisal of strengths and weaknesses in cognitive and affective domains",
+        "Subject: Construction Materials (ENGC1000)",
+        "- Peer Review: 30%% (Hurdle: False)"
       ]
     },
     "C3": {
-      "score": 3,
-      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within engineering and related technologies, n.e.c..",
+      "score": 1,
+      "rationale": "Level 1 anchor met: digital content in the core is tool operation and training - MATLAB and Excel programming, Matlab for statistical and numerical methods, and operating commercial structural-analysis software used in Australian industry - which is the operational level the anchor caps at 1. Not level 2: no core unit in the extract addresses AI or digital-tool capabilities together with their limitations or ethics. The single machine-learning treatment with critical evaluation of model types sits in Climate & Environmental Impact Modelling, a major/elective course, not the 66-unit core, and the anchor's level 1 explicitly covers AI appearing only in electives.",
       "evidenceLines": [
-        "Subject: Introduction to Infrastructure (ENGC1008)",
-        "Subject: Engineering Mechanics - Statics (ENGC1005)",
-        "**Handbook / Calendar URL**: https://calendar.adelaide.edu.au/aprcw/2025/bengh_behcivs1"
+        "Demonstrate a conceptual understanding of the computer and information sciences that underpin engineering practice.",
+        "This course introduces the fundamental concepts of procedural programming using the MATLAB programming environment.",
+        "- Apply standard statistical and numerical methods using Matlab",
+        "- Employ commercially available computer software used in Australian industry for analysing different types of skeletal structures.",
+        "- Recognise, discuss, apply, test and critically evaluate different model types (e.g. data-driven (machine learning), process-driven)."
       ]
     },
     "C4": {
-      "score": 3,
-      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in engineering and related technologies, n.e.c..",
+      "score": 2,
+      "rationale": "Level 2 anchor met: the Level III core Hydrology and Flood Management assesses independent identification and application of the most appropriate flood-estimation technique to a catchment of interest through Design Project tasks worth 27% each - application to an unfamiliar problem, assessed. Held at 2 rather than 3 because the level-3 anchor's routes are not documented: the required Honours Research Project is scoped by supervisors, who provide the offerings, so the extract contradicts rather than supports 'self-scoped'; and no core assessment requires students to identify their own knowledge gaps together with a plan to close them. The self-directed-learning outcome in the Civil and Environmental Design Project cannot carry a 3 either, because that course's identity as the Level IV core CIVILENG 4050 Design Practice is not established by the extract.",
       "evidenceLines": [
-        "Identify elements of infrastructure, both locally and globally at a range of scales and their interactions with one another",
-        "Understand and evaluate the environmental, economic, social and sustainability constraints of infrastructure projects",
-        "- **Academic Calendar Year**: 2025/2026"
+        "- Critically analyse, independently identify and apply the most appropriate flood estimation techniques to generate innovative solutions to complex engineering problems in flood estimation and management of a catchment of interest",
+        "- Interactive Questions, Design Project, Design Project: 27%% (Hurdle: False)",
+        "Academic supervisors in each engineering school provide offerings ranging in style from detailed design-build-test projects, industry-focused projects, or research-orientated projects.",
+        "Students will work in groups to develop a project plan and literature review for a research project as a precursor to the engineering honours project.",
+        "- Undertake self-directed learning in an ethical and timely manner while maintaining ongoing document control."
       ]
     },
     "C5": {
-      "score": 2,
-      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in engineering and related technologies, n.e.c..",
+      "score": 3,
+      "rationale": "Level 3 anchor met on all three clauses. Required, not one route among several: the program rules make the Research Project a 6-unit requirement and list ENG 4002A and ENG 4002B under 'All of the following courses must be completed'. Substantial and generating primary evidence: a two-semester capstone whose projects carry theoretical analyses, simulations and experiments. Methodology defended under scrutiny: two assessed Oral Defence tasks, plus a staged supervised review in which acceptable progress in Part A is required before continuing in Part B. Methodology selection is taught and required in the Level III core Research Methods and Project Management, which feeds the honours project.",
       "evidenceLines": [
-        "Subject: Environmental Systems and Sustainability (ENGV3003)",
-        "Subject: Introduction to Engineering (ENGI1018)",
-        "Apply problem solving, teamwork and communication strategies to real life scenarios"
+        "To satisfy the requirements for Research Project students must complete courses to the value of 6 units.",
+        "Honours Engineering Research Project - Part B",
+        "Projects involve technical components including theoretical analyses, simulations, and experiments. Assessments include formal oral and written deliverables at a graduate standard. Research Project Part A and Part B must be undertaken in consecutive semesters and acceptable progress is required in Part A before continuing in Part B.",
+        "- Oral Defence: 10%% (Hurdle: False)",
+        "- Identify, select and apply appropriate research methodologies"
       ]
     },
+    "adaptiveness": 9,
     "W1": {
-      "score": 2,
-      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in engineering and related technologies, n.e.c..",
+      "score": 1,
+      "rationale": "Level 1 anchor met: professional communication and conduct are stated at program level (written and oral forms to lay and expert audiences; professional and ethical conduct) and in core course outcomes, and core assessment adds spoken communication to staff in the form of two assessed Oral Defence tasks in the capstone. Not level 2: no core assessment in the extract is documented as being in a recognised professional genre judged against criteria drawn from practice, or as reaching an audience beyond the teaching team. The Systems Engineering and Industry Practice outcomes about communicating to the broader community and to a generalist audience sit in a course whose captured Assessment Tasks list is empty, and R2 bars scoring an unassessed outcome; the professional-standard laboratory reporting outcome in Introduction to Geo-engineering is likewise unassessed in the extract.",
       "evidenceLines": [
-        "Interpret existing and develop new engineering drawings of infrastructure",
-        "- **Institution**: The University of Adelaide",
-        "- **Program Identifier / Slug**: bengh_behcivs1"
+        "Communicate objectively and effectively, in written and oral forms, to lay and expert audiences.",
+        "- Oral Defence: 10%% (Hurdle: False)",
+        "- Demonstrate the ability to formally communicate, in both oral and written formats, advanced concepts of the engineering discipline to both technical and nontechnical audiences",
+        "- Communicate professionally and effectively through written, oral, and graphical means with others in the engineering profession and broader community, including conveying deep discipline knowledge to a generalist audience",
+        "- Report the results of laboratory experiments to a professional standard."
       ]
     },
     "W2": {
       "score": 2,
-      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in engineering and related technologies, n.e.c..",
+      "rationale": "Level 3 anchor met on both clauses, scored on documented task features rather than any 'authentic' label (R4). Spine rather than a single instance: an assessed computer-based analysis project using commercial software used in Australian industry at Level II core Structural Mechanics (Assignment 35%), a Design Project worth 40% producing a reinforced-concrete design at Level III core Reinforced Concrete Design, Design Projects worth 27% each drawn from real world case studies at Level III core Hydrology and Flood Management, and the Level IV capstone Research Project assessed by report and oral defence - a capstone plus earlier scaffolding. Genuine constraint of practice: the profession's own standards of performance are the judging criteria (AS3600 for concrete, AS4100 for steel, the Australian Rainfall and Runoff national guidelines with industry-standard software), and the capstone problems are open ended.",
       "evidenceLines": [
-        "Analyse and evaluate the current condition of the nation's infrastructure",
-        "Subject: Programming (Matlab and Excel) (COMP1026)",
-        "- **Academic Calendar Year**: 2025/2026"
+        "- Demonstrate application of AS3600 to the design of reinforced concrete elements",
+        "- Design Project: 40%% (Hurdle: False)",
+        "The course is offered in a hybrid of project-based and problem-based approaches using design projects from real world case studies",
+        "- Interactive Questions, Design Project, Design Project: 27%% (Hurdle: False)",
+        "- Undertake a computer-based project to analyse statically determinate and indeterminate beams, trusses and frames using a commercially available computer software used in Australian industry.",
+        "- Assignment: 35%% (Hurdle: False)",
+        "- Analyse and design members subjected to the single and combined actions of axial loading, bending and shear according to AS4100",
+        "- Apply project management techniques to devise and synthesise engineering solutions to complex, open ended problems"
       ]
     },
     "W3": {
-      "score": 2,
-      "rationale": "Level 2: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "score": 1,
+      "rationale": "Held at level 1. The program does require 8 weeks of approved engineering work placement, which is stronger than the level-1 anchor's 'elective' or 'optional internship' framing, but the placement is carried by a 0-unit enrolment shell (ENG 3100 Engineering Internship UG) for which the extract captures no course page, and therefore documents none of the three features the level-2 anchor requires: practitioner supervision, assessment, and placement in a named workplace setting under those conditions. Level 1's 'unassessed' route is the closest documented state, and the scoring direction resolves the straddle downward. The in-practice route is not applicable: this is an undergraduate program with no cohort documented as already practising.",
       "evidenceLines": [
-        "The Bachelor of Engineering (Honours) (Civil) is an AQF Level 8 qualification with a standard full-time duration of 4 years.",
-        "- **Institution**: The University of Adelaide"
+        "## Work Based Learning",
+        "To satisfy the requirements for Work Based Learning students must adhere to the following:",
+        "A total of 8 weeks of approved engineering work placement is required. Students will need to enrol into the ENG 3100 Engineering Internship UG (0 units) course to complete this requirement."
       ]
     },
+    "workplace": 4,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Engineering.",
+        "rationale": "PASS on the anchor's all-compulsory specialist core and accredited sequence, with progressive technical depth. The core is 66 units of named civil engineering courses compulsory at each of Levels I to IV, the program is accredited by Engineers Australia with graduates qualifying for professional membership, and depth is staged - Structural Mechanics precedes Reinforced Concrete Design and Structural Steel Design, and Civil Engineering Hydraulics precedes Advanced Civil Engineering Hydraulics. Content is disciplinary, not interchangeable.",
         "evidenceLines": [
-          "The Bachelor of Engineering (Honours) (Civil) is an AQF Level 8 qualification with a standard full-time duration of 4 years.",
-          "Program Maximum Duration"
+          "Core courses to the value of 66 units.",
+          "This program is accredited by Engineers Australia and graduates of the program qualify for professional membership of Engineers Australia.",
+          "The first and second years of the program develop mathematics and science skills, with fundamental engineering and design courses. Third and fourth years enable students to specialise and focuses on project based learning."
         ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "Specialist academic program structured through sequential study in engineering and related technologies, n.e.c..",
+        "rationale": "PASS on the anchor's capstone-with-real-uncertainty route and its defended trade-off route. The required capstone assesses engineering solutions to complex, open ended problems through reports and two oral defences, and the Level III core Reinforced Concrete Design assesses design decisions informed by environmental impact through a 40% Design Project - a defended trade-off rather than recall. Recognising uncertainty and the limits of engineering approaches is an explicit outcome of the Level II core hydraulics course.",
         "evidenceLines": [
-          "Subject: Introduction to Infrastructure (ENGC1008)",
-          "**Institution**: The University of Adelaide"
+          "- Apply project management techniques to devise and synthesise engineering solutions to complex, open ended problems",
+          "- Oral Defence: 10%% (Hurdle: False)",
+          "- Make decisions informed by an understanding of the environmental impact of reinforced concrete construction and apply this knowledge to the design of concrete structures",
+          "- Design Project: 40%% (Hurdle: False)",
+          "- Recognise uncertainty and limitations of engineering approaches and systems"
         ]
       }
     },
     "ambiguities": [
-      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
-      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+      "C1 straddled 1 and 2: the capstone's assessed items are reports and oral defences, and the extract does not state that collaboration itself is marked, only that the project is done in small groups. Resolved to 2 because the level-2 anchor names 'group projects' as the qualifying form and the group project's deliverables carry documented assessment weights; the level-1 anchor's 'no core unit assesses it' would be false here.",
+      "C4 straddled 2 and 3: a required two-semester honours research project preceded by a dedicated Level III research-methods course reads as structured progression toward independent learning, but the level-3 exemplar is a SELF-SCOPED capstone and the extract states supervisors provide the project offerings. Resolved DOWN to 2 under the lower-level rule.",
+      "W1 straddled 1 and 2: design reports and design documentation produced against AS3600, AS4100 and the Australian Rainfall and Runoff national guidelines are arguably recognised professional genres. Resolved DOWN to 1 because the extract documents neither the assessment criteria for those reports nor any audience beyond the teaching team, and because the fidelity of the design task is scored in W2 under the one-construct-one-home rule.",
+      "Course-page identity for the Level IV core: program rules list CIVILENG 4050 Design Practice as the sole Level IV core, and the extract carries two candidate pages - Civil and Environmental Design Project (ENGIX403, an industry-led capstone design with Concept Design and Design Project tasks worth 65%, an Interview worth 30% and a Portfolio worth 5%) and Design Practice (ENGM2015, a mechanical design introduction with an empty assessment list). Neither is confirmable as CIVILENG 4050, so ENGIX403 was not used to lift C2 (its Portfolio), C4 (its self-directed-learning outcome), W1 (its diverse-audience communication) or W2 above the level its other evidence already supports.",
+      "W3 straddled 1 and 2: the 8-week placement is compulsory, unlike the level-1 anchor's elective or optional framing, but level 2 additionally requires practitioner supervision and assessment, and the 0-unit enrolment shell documents neither. Resolved DOWN to 1.",
+      "C5: the capstone's project styles range across design-build-test, industry-focused and research-orientated work, so not every student's project is research-shaped. Scored 3 regardless because every listed style generates primary evidence (theoretical analyses, simulations and experiments) and the defence and staged Part A review apply to all of them."
     ],
-    "notScoreable": []
+    "notScoreable": [
+      "ENG 3100 Engineering Internship UG - no course page was captured for the 0-unit placement shell, so its supervision arrangements, assessment (if any) and reflective requirements could not be scored; W3 was scored on the program-rules text alone.",
+      "CIVILENG 3006 Geotechnical Engineering (Level III core) - no matching course page appears in the extract, so its assessment contributed to no item.",
+      "Assessment tables are empty for a large share of the core: Introduction to Infrastructure, Engineering Mechanics - Statics, Introduction to Engineering, Programming (Matlab and Excel), Mathematics IA, Strength of Materials, Civil Engineering Hydraulics, Introduction to Geo-engineering, Transportation Engineering & Survey, Statistics & Numerical Methods II, Computer Analysis of Structures and Structural Dynamics, Advanced Civil Engineering Hydraulics, Systems Engineering and Industry Practice, and Research Methods and Project Management. Every level-2 and level-3 judgement above therefore rests only on the subset of core courses whose assessment weights were captured, and C1, C2 and W1 in particular could move up if those tables were captured."
+    ],
+    "instrument": "4.2-draft",
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-09-07"
+    }
   }
 }

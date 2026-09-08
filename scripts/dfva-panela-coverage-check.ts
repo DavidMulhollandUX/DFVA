@@ -34,7 +34,8 @@ import {
   titlesOf,
   type PanelABasis,
 } from './dfva-panela-basis'
-import { isPublished } from './lib-institution'
+import { isPublishedRecord } from './lib-institution'
+import { V4_ONLY_PROGRAMS } from '../compass/app/src/compass/v4/data/v4Basis'
 
 const ROOT = path.resolve(__dirname, '..')
 const ctx = loadPanelAContext()
@@ -50,10 +51,10 @@ const v3Exposure = new Map(
 )
 
 // --- the v4-only programs and the exposure the generator gave them -----------
-const v4Src = readFileSync(path.join(ROOT, 'compass/app/src/compass/v4/data/v4Basis.ts'), 'utf8')
-const v4OnlyBlock = v4Src.match(/export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = (\{[\s\S]*?\n\});/)
+// Read as a module. v4Basis.ts is an aggregation over per-program chunks since
+// the split, so there is no literal for a regex to find.
 interface V4Only { code: string; name: string; exposure: number | null; nTitles: number | null; exposureBasis: PanelABasis | null }
-const v4Only: Record<string, V4Only> = v4OnlyBlock ? JSON.parse(v4OnlyBlock[1]) : {}
+const v4Only = V4_ONLY_PROGRAMS as unknown as Record<string, V4Only>
 // V4_META moved to the light v4Meta.ts module in the v4PanelC.ts/v4Meta.ts split.
 const v4MetaSrc = readFileSync(path.join(ROOT, 'compass/app/src/compass/v4/data/v4Meta.ts'), 'utf8')
 const metaBlock = v4MetaSrc.match(/export const V4_META: V4Meta = (\{[\s\S]*?\n\});/)
@@ -62,10 +63,16 @@ const meta = metaBlock ? (JSON.parse(metaBlock[1]) as { expMedianField: number |
 // --- every program carrying a v4 score --------------------------------------
 const evidenceDir = path.join(ROOT, 'dfva/source/evidence')
 const scored: string[] = []
+const publishedCodes = new Set<string>()
 for (const f of readdirSync(evidenceDir)) {
   if (!f.endsWith('.json')) continue
-  const d = JSON.parse(readFileSync(path.join(evidenceDir, f), 'utf8')) as { code?: string; panelCv4?: unknown }
-  if (d.panelCv4 && d.code) scored.push(d.code)
+  const d = JSON.parse(readFileSync(path.join(evidenceDir, f), 'utf8')) as {
+    code?: string
+    panelCv4?: { verified?: { date?: string } | null }
+  }
+  if (!d.panelCv4 || !d.code) continue
+  scored.push(d.code)
+  if (isPublishedRecord(d.code, d.panelCv4.verified)) publishedCodes.add(d.code)
 }
 
 // --- 1. reference cohort: the resolver must reproduce the published v3 values -
@@ -89,10 +96,10 @@ for (const p of refNames) {
 let fieldTier = 0
 for (const code of scored.sort()) {
   if (v3Codes.has(code)) continue // Panel A comes from the v3 generator, guarded above
-  // A quarantined institution is deliberately absent from the generated modules
+  // A quarantined record is deliberately absent from the generated modules
   // (scripts/lib-institution.ts). Its Panel A basis is re-resolved when it is
   // re-scored and republished, not now.
-  if (!isPublished(code)) continue
+  if (!publishedCodes.has(code)) continue
   const entry = v4Only[code]
   if (!entry) {
     errors.push(`${code}: has a panelCv4 block but no V4_ONLY_PROGRAMS entry — run dfva:gen-v4`)

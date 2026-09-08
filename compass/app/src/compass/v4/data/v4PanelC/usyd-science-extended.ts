@@ -1,0 +1,135 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: collaboration appears in learning outcomes but no core unit assesses it. Course learning outcome 11 claims teamwork and INLI1001 LO8 claims collaborative learning, but every assessment task documented in the two core Foundation units is individual — reflective writing, an individual note-taking task, an oral presentation with submitted work, a written report, an individual reflection, weekly quizzes, and in INLI3000 a multimedia project and a portfolio. Level 2 is not reached because no core unit assessment is documented as group, client or interprofessional work, and no task documents coordination across people and tools or AI systems (R2: an outcome that is never assessed scores 1).",
+    "evidenceLines": [
+      "Work effectively, responsibly and safely in an individual or team context.",
+      "- LO8 . Develop communication and interpersonal skills to engage in collaborative learning",
+      "- Task 2a: Oral presentation Oral presentation and submitted work. All assessment tasks must be submitted to pass this unit.: 30%: Week 07 Due date : 17 Apr 2026 at 17:00% (Hurdle: False)",
+      "- Task 3: Written Report Written report on the topic of the presentation. All assessment tasks must be submitted to pass this unit.: 20%: Week 12 Due date : 22 May 2026 at 17:00% (Hurdle: False)",
+      "- Aboriginal Cultural Astronomy Multimedia project that explores Aboriginal Cultural Astronomy: 40%: Week 05 Due date : 04 Sep 2026 at 23:59% (Hurdle: False)"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: reflection and self-assessment appear in outcomes, with no documented criterion-referenced appraisal of quality. Reflection is graded (Task 1 at 20%, Task 2b at 5%) and INLI3000's portfolio lists reflection and comparative critique, but the extract documents no criteria, standards, exemplars or peer review against which quality is appraised, and the critique named is a comparison of two knowledge paradigms rather than appraisal of work — their own, peers' or a tool's. Ambiguity between levels 1 and 2 resolved downward per the lower-level rule. No assessment requires documenting or defending reliance on a tool, source or collaborator, so level 3 is not in question.",
+    "evidenceLines": [
+      "- LO2 . Develop awareness of individual learning, learning styles and perspectives through process of self-reflection",
+      "- Task 1: Reflective writing task Reflective writing task. All assessment tasks must be submitted to pass this unit.: 20%: Week -01 Due date : 20 Feb 2026 at 17:00% (Hurdle: False)",
+      "- Task 2b: Reflection on Presentation -: 5%: Week 12 Due date : 22 Jan 2026 at 17:00% (Hurdle: False)",
+      "- Aboriginal Cultural Astronomy Portfolio Portfolio to demonstrate a comprehensive and interdisciplinary understanding of Aboriginal Cultural Astronomy through research, reflection, visual analysis, comparative critique, and first-hand sky observation.: 60%: Week 13 Due date : 02 Nov 2026 at 23:59% (Hurdle: False)",
+      "- LO4 . Compare Indigenous astronomy with Western scientific paradigms."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: digital tools appear as tool operation. Digital literacy is carried as a graduate quality against course learning outcome 5, and INLI1001 LO3 is fluency in online learning and multi-modal communication using a variety of tools — the operational level the anchor names as non-durable — with the INLI3000 multimedia project as the assessed artefact. Level 2 is not reached: no core unit in the extract addresses AI capabilities together with limitations or ethics, and the word AI does not appear in the extract at all. Level 0 is excluded because digital content is present in both a program-level outcome and a core unit.",
+    "evidenceLines": [
+      "Critically analyse and solve problems by gathering, synthesising and critically evaluating information from a range of sources.",
+      "Information and Digital literacy",
+      "- LO3 . Develop fluency in online learning and engage in creative use of multi-modal communication using a variety of tools and strategies",
+      "- Aboriginal Cultural Astronomy Multimedia project that explores Aboriginal Cultural Astronomy: 40%: Week 05 Due date : 04 Sep 2026 at 23:59% (Hurdle: False)"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2 anchor: at least one core assessment requires application in a cross-context project. The required 6 credit point Cultural Capstone Project unit is assessed by a portfolio demanding interdisciplinary work, comparative critique across Indigenous and Western scientific paradigms, and first-hand sky observation — application outside the taught single context. Level 3 is not taken: self-directed learning is claimed only in course learning outcome 10, and the extract nowhere documents that the capstone is self-scoped, nor any assessed identification of one's own knowledge gaps with a plan to close them. Ambiguity between levels 2 and 3 resolved downward.",
+    "evidenceLines": [
+      "(ii) A 6 credit point Cultural Capstone Project unit; and",
+      "- LO4 . Compare Indigenous astronomy with Western scientific paradigms.",
+      "- LO5 . Apply interdisciplinary and ethical research practices in Indigenous astronomy.",
+      "- Aboriginal Cultural Astronomy Portfolio Portfolio to demonstrate a comprehensive and interdisciplinary understanding of Aboriginal Cultural Astronomy through research, reflection, visual analysis, comparative critique, and first-hand sky observation.: 60%: Week 13 Due date : 02 Nov 2026 at 23:59% (Hurdle: False)"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1 anchor: literature-review style assessment and information-location training. INLI1001 assesses locating, referencing and synthesising source material through a written report; the capstone portfolio adds first-hand sky observation, which is primary data collection. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed — the design and methodology-selection half is claimed only in course learning outcomes 6, 7 and 8 and is not documented in any assessment task in the extract, so the ambiguity between levels 1 and 2 resolves downward. Research-methods units belonging to the Table A major are not in the extract.",
+    "evidenceLines": [
+      "- LO1 . Locate relevant information, identify the range of source materials used at university, and acknowledge and reference appropriately.",
+      "- Task 3: Written Report Written report on the topic of the presentation. All assessment tasks must be submitted to pass this unit.: 20%: Week 12 Due date : 22 May 2026 at 17:00% (Hurdle: False)",
+      "Design and plan an investigation.",
+      "Collect, accurately record, interpret and draw conclusions from data.",
+      "- Aboriginal Cultural Astronomy Portfolio Portfolio to demonstrate a comprehensive and interdisciplinary understanding of Aboriginal Cultural Astronomy through research, reflection, visual analysis, comparative critique, and first-hand sky observation.: 60%: Week 13 Due date : 02 Nov 2026 at 23:59% (Hurdle: False)"
+    ]
+  },
+  "adaptiveness": 6,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1 anchor exactly: communication and professional conduct appear in outcomes (course learning outcomes 9 and 12, INLI3000 LO6), and core assessment adds an oral presentation, but no professional genre and no audience beyond the teaching team is documented. Level 2 is not reached because no core assessment is documented as a client brief, policy advice, handover, pitch or public-facing artefact judged against criteria drawn from professional practice — the multimedia project's audience and criteria are not stated, and per R2 and R4 the stated graduate qualities cannot be scored as evidence.",
+    "evidenceLines": [
+      "Demonstrate knowledge of the regulatory frameworks relevant to their disciplinary area and personally practise ethical conduct.",
+      "- LO6 . Communicate effectively about Indigenous cosmological systems to diverse audiences.",
+      "- Task 2a: Oral presentation Oral presentation and submitted work. All assessment tasks must be submitted to pass this unit.: 30%: Week 07 Due date : 17 Apr 2026 at 17:00% (Hurdle: False)",
+      "- Aboriginal Cultural Astronomy Multimedia project that explores Aboriginal Cultural Astronomy: 40%: Week 05 Due date : 04 Sep 2026 at 23:59% (Hurdle: False)"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: contextualised tasks appear, but the artefacts and criteria remain academic. INLI1001 situates work in site visits and responses to Indigenous speakers while assessing reflective writing, an oral presentation, a written report and weekly quizzes; INLI3000 situates a multimedia project and portfolio in Aboriginal cultural astronomy with first-hand observation. Level 2 is not reached: no core assessment is documented as reproducing a professional task end to end, producing the artefact a practitioner would produce, judged against criteria drawn from practice. Level 0 is excluded because the tasks carry situational framing rather than being wholly decontextualised.",
+    "evidenceLines": [
+      "Students will respond to a range of views presented by Aboriginal and Torres Strait Islander lecturers and speakers, and visit culturally relevant, contemporary sites.",
+      "- Weekly Quizzes Weekly homework tasks across the Semester. All assessment tasks must be submitted to pass this unit.: 20%: Weekly% (Hurdle: False)",
+      "- Task 3: Written Report Written report on the topic of the presentation. All assessment tasks must be submitted to pass this unit.: 20%: Week 12 Due date : 22 May 2026 at 17:00% (Hurdle: False)",
+      "- Aboriginal Cultural Astronomy Multimedia project that explores Aboriginal Cultural Astronomy: 40%: Week 05 Due date : 04 Sep 2026 at 23:59% (Hurdle: False)",
+      "- Aboriginal Cultural Astronomy Portfolio Portfolio to demonstrate a comprehensive and interdisciplinary understanding of Aboriginal Cultural Astronomy through research, reflection, visual analysis, comparative critique, and first-hand sky observation.: 60%: Week 13 Due date : 02 Nov 2026 at 23:59% (Hurdle: False)"
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0 anchor: no work-integrated learning, placement, practicum or community-based project appears anywhere in the documented course structure. The requirements for award list Degree Core, Table E Foundation units, the Cultural Capstone Project, a major, a minor or second major and Open Learning Environment credit, with no placement or practicum component; no unit in the extract carries practitioner supervision or assessment in a workplace or professional-community setting. Level 1 is not reached either: the only optional out-of-classroom activity documented is international exchange and global mobility, which is not work-situated learning, so the ambiguity resolves downward. Site visits in INLI1001 are curricular field activity, not supervised participation in a workplace, and no in-practice cohort is documented.",
+    "evidenceLines": [
+      "(2) To qualify for the award of the Bachelor of Science (Extended), a student must complete 168 credit points of units of study, comprising:",
+      "(ii) A 6 credit point Cultural Capstone Project unit; and",
+      "(e) 6 credit points of units of study in the Open Learning Environment as specified in Table O and",
+      "The Faculty of Science encourages students in this course to participate in international exchange and global mobility programs as set out in the Resolutions of the Faculty of Science, provided that the progression requirements and timelines of the Course Resolutions can be met.",
+      "Students must complete 30 credit points of units of study from Table E including:"
+    ]
+  },
+  "workplace": 2,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The award requires a staged, compulsory structure rather than interchangeable generic content: a Degree Core, 24 credit points of Foundation units on an explicit prerequisite chain (INLI1002 after INLI1001, MATH1200 after MATH1100, the capstone gated at 144 credit points), a required 48 credit point major and a required minor or second major, with progression rules specified for each component. That satisfies the staged prerequisite chain and compulsory specialist core route to PASS. Caveat: the internal depth of the Table A major is documented in Table A, which is outside this extract, so the pass rests on the required-major structure plus the Table E chain.",
+      "evidenceLines": [
+        "Students must complete 30 credit points of units of study from Table E including:",
+        "(c) A major (48 credit points of units of study) or stream defined in Section 7 below and listed in Table A; and",
+        "(d) A minor (36 credit points units of study) or second major (48 credit points of units of study) as defined in Section 7 below and listed in Table A or Table S; and",
+        "Enrolment and progress for each candidate for a major minor, stream, or program is governed by progression rules specified in the relevant Table for the component."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The FAIL condition — recall or scripted responses only — does not hold. Alongside weekly quizzes, the required capstone unit is assessed by an open-ended multimedia project and a portfolio requiring comparative critique and first-hand observation, applied to knowledge described as fragmented by colonisation, and course learning outcome 1 makes contestability of current knowledge an outcome of the program. That is the capstone-with-real-uncertainty route to PASS. Weakest link: no assessment in the extract documents a defended trade-off decision, and accountability runs to the teaching team only.",
+      "evidenceLines": [
+        "Demonstrate a coherent understanding by articulating the methods of science and explaining why current knowledge is both contestable and testable by further inquiry.",
+        "(ii) A 6 credit point Cultural Capstone Project unit; and",
+        "- Aboriginal Cultural Astronomy Multimedia project that explores Aboriginal Cultural Astronomy: 40%: Week 05 Due date : 04 Sep 2026 at 23:59% (Hurdle: False)",
+        "- Aboriginal Cultural Astronomy Portfolio Portfolio to demonstrate a comprehensive and interdisciplinary understanding of Aboriginal Cultural Astronomy through research, reflection, visual analysis, comparative critique, and first-hand sky observation.: 60%: Week 13 Due date : 02 Nov 2026 at 23:59% (Hurdle: False)",
+        "ethical and collaborative methodologies for reconstructing Aboriginal astronomical knowledge fragmented by colonisation."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2 straddled levels 1 and 2: reflection is assessed (Task 1, Task 2b) and the capstone portfolio names comparative critique, but no criteria, standards or exemplars are documented and the critique targets knowledge paradigms rather than work quality; resolved to 1 by the never-resolve-upward rule.",
+    "C4 straddled levels 2 and 3: a Cultural Capstone Project unit is required in the core, but the extract does not document that students scope it themselves, nor any assessed knowledge-gap identification with a closure plan; resolved to 2 by the never-resolve-upward rule.",
+    "C5 straddled levels 1 and 2: the portfolio's first-hand sky observation is primary data collection, but inquiry design and methodology selection appear only in course learning outcomes 6, 7 and 8 and in no assessment task; resolved to 1 by the never-resolve-upward rule.",
+    "W1 straddled levels 1 and 2: the INLI3000 multimedia project could be a public-facing artefact, but neither its audience nor practice-drawn criteria are documented, so it scores as an academic artefact; resolved to 1.",
+    "W3 straddled levels 0 and 1: international exchange and global mobility is the only optional out-of-classroom activity documented, and it is mobility rather than work-situated learning; resolved to 0.",
+    "One construct, one home: the INLI3000 portfolio's reflection component was considered for C2 and its cross-context application for C4; the reflection is cited in C2 (appraisal construct) and the interdisciplinary comparison in C4 (transfer construct), and neither is scored twice. The oral presentation was considered for C1 and W1 and is scored only in W1, since the extract documents an audience but no collaboration.",
+    "Coverage caveat: the extract documents the Table E Foundation Studies core (INLI1001 and INLI3000 subject pages) plus the course resolutions. The Table A Degree Core, the required 48 credit point major, Table S and Table O unit content are named in the resolutions but their outcomes and assessment tasks are not in this extract, so every item is scored on the documented Foundation core only."
+  ],
+  "notScoreable": [],
+  "instrument": "4.2-draft",
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-07"
+  }
+};
+
+export default record;

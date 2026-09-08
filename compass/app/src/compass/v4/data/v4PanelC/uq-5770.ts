@@ -1,0 +1,147 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor is met several times over: core prescribed units assess collaborative practice, including group work with individual accountability (the team case study carries a separately weighted individual reflection) and stakeholder-facing team analysis. Level 3 is not reached: it additionally requires at least one assessment in which coordinating work across people AND tools/AI systems is itself assessed - documented role and tool allocation, or the division of work between people and systems as the assessed object. The extract documents team tasks that use tools (an IT governance team project, a marketing dashboard) but never documents that the people/tool allocation is assessed, so the evidence sits at level 2.",
+    "evidenceLines": [
+      "- A1: Corporate Analysis Briefing Team or group-based In-person: 40%% (Hurdle: False)",
+      "- A2: Team Case Study Presentation and Reflection Team or group-based In-person: 40% (Presentation 30%, Individual Reflection 10%)% (Hurdle: False)",
+      "- IT Governance Mechanisms in Action Team Project Identity Verified Team or group-based In-person: 30%% (Hurdle: False)",
+      "- A1: Stakeholder and Situation Analysis Team or group-based: 40%% (Hurdle: False)",
+      "- Work collaboratively with peers to analyse key IT governance issues and communicate strategic recommendations to stakeholders."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 anchor - core assessment includes criterion-referenced appraisal of quality - is met by assessed structured critique tasks (a review of a published article, a critical marketing analysis, a critical reflection essay) rather than only an outcome statement, so R2 is satisfied above level 1. Level 3 requires assessment that makes students document and justify reliance decisions on a tool, source or collaborator, defend judgements of AI-output quality, or evidence strategy adjustment over time. The journals and reflections are titled as such but the extract does not document what they require students to justify, so the reliance/adjustment condition is not documented and the lower level stands.",
+    "evidenceLines": [
+      "- Newspaper Article Review Identity Verified In-person: 30%% (Hurdle: False)",
+      "- A1: Critical Marketing Analysis Online: 20%% (Hurdle: False)",
+      "- Critical Reflection Essay: 20%% (Hurdle: False)",
+      "- A3: Learning Journal: 40%% (Hurdle: False)",
+      "- Opportunity Journey – Journal Reflection Online: 20%% (Hurdle: False)"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Above level 1 because digital content is not confined to electives or tool operation: a prescribed core unit addresses digital capabilities together with governance and ethics, and assesses them (an ethical decision-making case study with an executive briefing, an IT governance team project, an assessment of emerging digital technologies). Level 3 requires core assessment critiquing or governing AI systems in the discipline's own context. The extract documents governance and ethics of information technology and emerging digital technologies but never names AI or gen AI systems, so the AI-specific condition of level 3 is not documented and the score stays at 2.",
+    "evidenceLines": [
+      "Students are encouraged to develop a sense of digital ethics that goes beyond legislative requirements, and to apply strong critical thinking skills in assessing, evaluating, and considering information that supports evidence-based, ethical decision-making.",
+      "- Design and communicate a cohesive IT Governance framework that aligns with business needs.",
+      "- Ethical Decision Making Case Study: 30% Executive Briefing 20% and Explanatory Note 10%% (Hurdle: False)",
+      "- Apply evidence-based ethical decision-making for information technology investments for an Indigenous community and reflect on the process.",
+      "- Impact of Emerging Digital Technologies: 40%% (Hurdle: False)"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "The level 3 anchor - documented structured progression toward independent learning via a self-scoped capstone or project - is met by the prescribed Impact Academy 1-2-3 sequence, an explicitly numbered progression in which the second course has students work on a project they have identified themselves and the third assesses its execution through an individually presented business model test and a venture build workbook. This is assessment evidence, not an outcome claim, so R2 is satisfied. Level 2 alone would understate it, because the self-scoping and the staged sequence are documented rather than a single novel-problem task.",
+    "evidenceLines": [
+      "The following 19 units of study are prescribed for this academic program:",
+      "  * [ MGTS7820 Impact Academy 1: Discovering New Solutions for Complex Problems ](https://my.uq.edu.au/programs-courses/course.html?course_code=MGTS7820)",
+      "In this course, students will work on a real project they have identified based on either a business idea or an industry partner¿s business problem.",
+      "- Opportunity and Execution Presentation: 50%% (Hurdle: False)",
+      "- Business Model Test Results (individual oral presentation with Q&A) Identity Verified In-person: 30%% (Hurdle: False)",
+      "- Venture Build Workbook: 70%% (Hurdle: False)",
+      "- Critically evaluate one’s own suitability and willingness to execute a value creation opportunity in light of new insights and data sensemaking."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 is met: research-methods units assess students designing and conducting an inquiry with data collection, including a pilot research project weighted at 70% and a conducted-and-reported qualitative team study. Level 3 requires that a substantial primary-evidence project be REQUIRED rather than one route among several, with methodology defended under scrutiny. The Research Project does carry a proposal presentation, thesis and supervised progress check-ins, but the program overview presents the research project as one option alongside industry client work, an entrepreneurial venture and an immersion, and the prescribed list holds three duplicate Research Project enrolments and three separate methods units - more credit than the 24-unit program - so the requirement is not documented. Ambiguity resolved downward.",
+    "evidenceLines": [
+      "- Pilot Research Project In-person: 70%% (Hurdle: False)",
+      "- Independently, and as part of a team, conduct and report qualitative research.",
+      "- Team Report Team or group-based: 35%% (Hurdle: False)",
+      "Semester long research project on selected topic within an area of major interest. Topic to be approved by Head of School.",
+      "- Research Proposal Presentation Identity Verified In-person: 20%% (Hurdle: False)",
+      "- Progress Check-ins with Supervisor Identity Verified In-person: 10%% (Hurdle: False)",
+      "You also have the chance to put your leadership skills to the test whilst working with industry clients, tackling your own entrepreneurial venture, undertaking your own research project, or exploring new markets on an MBA immersion."
+    ]
+  },
+  "adaptiveness": 11,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2 is met by core assessments in recognised professional genres - an advisory report on strategic options, a consulting report, an executive briefing, a corporate analysis briefing and an oral presentation - rather than only academic genres addressed to the marker. Level 3 additionally requires at least one core assessment delivered to or judged by a real external audience or practitioner, with professional conduct or accountability explicitly among the assessed criteria. The extract documents external stakeholder engagement as work students undertake, but neither an external judging audience for an assessment nor conduct criteria among the assessed criteria, so the lower level stands.",
+    "evidenceLines": [
+      "- A1: Advisory report to develop strategic options: 30%% (Hurdle: False)",
+      "- Consulting Report - Innovation strategy Team or group-based: 40%% (Hurdle: False)",
+      "- Ethical Decision Making Case Study: 30% Executive Briefing 20% and Explanatory Note 10%% (Hurdle: False)",
+      "- A1: Corporate Analysis Briefing Team or group-based In-person: 40%% (Hurdle: False)",
+      "- A1: Oral Presentation Identity Verified In-person: 20%% (Hurdle: False)",
+      "- Communicate the outcomes of your analysis to diverse stakeholders."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Practitioner artefacts are the assessment spine rather than a single instance: an operational review report, a real-world financial problem report, a marketing dashboard, a written strategy and implementation plan, a consulting report and a venture build workbook run across the prescribed core, scaffolded by the staged Impact Academy sequence. The second condition - a genuine constraint of practice - is met by an externally supplied problem (an industry partner's business problem) and by a task whose stated end point is external validation from customers, investors or stakeholders, plus assessed comparison of investment options in explicitly ambiguous and uncertain contexts. Scored on documented task features only, not on the handbook's own 'authentic' or 'real-world' labels (R4).",
+    "evidenceLines": [
+      "- A3: Operational Review Report Online: 40%% (Hurdle: False)",
+      "- A3: Real-World Financial Problem Report Online: 40%% (Hurdle: False)",
+      "- A2: Marketing Dashboard Team or group-based In-person: 30%% (Hurdle: False)",
+      "- A3: Written Strategy and Implementation Plan Online: 50%% (Hurdle: False)",
+      "- Individually and in teams, evaluate and compare investment options in ambiguous and/or uncertain contexts.",
+      "In this course, students will work on a real project they have identified based on either a business idea or an industry partner¿s business problem.",
+      "Students will be mentored as they seek to systematically implement, iterate and validate their strategy/business model, and endeavour to achieve external validation through external customer, investor or stakeholder engagement and commitment."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Above level 0 because work-situated activity does appear in the structure - client work, an entrepreneurial venture and an MBA immersion - but the overview presents them as alternative opportunities, and within the prescribed course the industry-partner problem is one of two routes the student may choose. Level 2 needs a core unit that places students in a real workplace or professional-community setting with practitioner supervision and assessment; no placement, practicum or supervised client engagement with a host is documented. The in-practice route also fails: the cohort is documented as practising (four years of relevant work experience at admission) but no core unit is documented as assessing activity conducted in the student's own practice with real recipients and an outcome measure - the one unit that mentions students' own work experience frames it as reflection opportunities, and its assessments are a group presentation and a case analysis.",
+    "evidenceLines": [
+      "You also have the chance to put your leadership skills to the test whilst working with industry clients, tackling your own entrepreneurial venture, undertaking your own research project, or exploring new markets on an MBA immersion.",
+      "In this course, students will work on a real project they have identified based on either a business idea or an industry partner¿s business problem.",
+      "Students will also be given opportunities to reflect on their own work experiences and improve their current practice.",
+      "- Assessment 1: Small Group Presentation PowerPoint: Assessed Team or group-based: 40%% (Hurdle: False)",
+      "a bachelor's degree (or equivalent) in any discipline with a GPA of 4.5 on a 7-point scale, plus 4 years full-time equivalent, relevant work experience (see below), or"
+    ]
+  },
+  "workplace": 6,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS on the coherent specialist core limb of the anchor: the handbook documents a prescribed list of named business units covering accounting, economics, finance, operations, strategy, marketing, leadership and research methods, plus an explicitly staged three-course Impact Academy sequence (Discovering, Designing, Delivering) that supplies progressive methodological depth. The content is disciplinary rather than interchangeable generic study, notwithstanding the 'general business degree' framing.",
+      "evidenceLines": [
+        "The following 19 units of study are prescribed for this academic program:",
+        "  * [ MGTS7820 Impact Academy 1: Discovering New Solutions for Complex Problems ](https://my.uq.edu.au/programs-courses/course.html?course_code=MGTS7820)",
+        "  * [ MGTS7821 Impact Academy 2: Designing Solutions that Create Value ](https://my.uq.edu.au/programs-courses/course.html?course_code=MGTS7821)",
+        "  * [ MGTS7822 Impact Academy 3: Delivering and Capturing New Values ](https://my.uq.edu.au/programs-courses/course.html?course_code=MGTS7822)",
+        "The Master of Business Administration (MBA) is a masters-level general business degree which will equip you with the skills and capabilities to become a successful business leader who embraces ambiguity and leads confidently to execute ideas to create business and social value."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS: core assessment requires defended trade-off decisions and includes simulations carrying real uncertainty - selecting and recommending the implementation of a strategic option, a business simulation, a stakeholder simulation, assessed comparison of investment options in ambiguous and uncertain contexts, and an outcome requiring students to formulate and defend solutions. This is well beyond recall or scripted response.",
+      "evidenceLines": [
+        "- A2: Selecting & Recommending Implementation of a Strategic Option Identity Verified Team or group-based In-person: 30%% (Hurdle: False)",
+        "- A3: Business Simulation Reflection Online: 40%% (Hurdle: False)",
+        "- A1: Stakeholder Simulation Team or group-based In-person: 30%% (Hurdle: False)",
+        "- Individually and in teams, evaluate and compare investment options in ambiguous and/or uncertain contexts.",
+        "- Analyse problems to formulate and defend solutions, to achieve financial goals and objectives."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1 straddled 2 and 3: team assessments recur across the core and two of them (the IT governance team project, the marketing dashboard) combine people and digital tools, but the extract never documents that the allocation of work between people and systems is itself assessed. Lower level taken under the ambiguity rule.",
+    "C2 straddled 2 and 3: a learning journal, an opportunity journey journal and a business simulation reflection are process-focused in form, and one outcome speaks of re-evaluating one's own position 'in light of new insights and data sensemaking', which edges toward the level 3 'strategy adjustment over time' route. Because the extract documents only task titles, not what students must justify, the lower level was taken.",
+    "C3 straddled 2 and 3: the governance and ethics assessment in the prescribed digital unit would satisfy level 3 if the systems governed were AI systems, but the extract says information technology and emerging digital technologies throughout and never names AI. Lower level taken.",
+    "C5 straddled 2 and 3: the Research Project has the level 3 machinery (proposal presentation, thesis, supervised progress check-ins) but is not documented as required - the overview lists it as one route among four, and the 19 'prescribed' units total more credit than the program's 24 units, so the list evidently contains alternatives. Lower level taken under the 'REQUIRED (not one route among several)' clause.",
+    "W1 straddled 2 and 3: professional genres recur across the core, which meets the repetition half of level 3, but neither an external judging audience for an assessment nor professional conduct among the assessed criteria is documented. Lower level taken.",
+    "W3 straddled 1 and 2: industry client work appears inside a prescribed course, which could read as a live client project (level 2), but it is one of two routes within that course and the overview frames client work, the venture, the research project and the immersion as alternatives, with no practitioner supervision or host accountability documented. Lower level taken.",
+    "One-construct-one-home: the industry-partner project line and the external-validation line were used for W2 (task fidelity) and W3 (work-situated learning) respectively on their different constructs, and are not scored in C1 or C4; the admission work-experience line is used only to test W3's in-practice route.",
+    "G1 caveat: the program describes itself as a 'general business degree' and the prescribed list plainly contains alternatives, so the coherent-core judgement rests on the named disciplinary units and the staged Impact Academy sequence rather than on an all-compulsory core."
+  ],
+  "notScoreable": [],
+  "instrument": "4.2-draft",
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-07"
+  }
+};
+
+export default record;

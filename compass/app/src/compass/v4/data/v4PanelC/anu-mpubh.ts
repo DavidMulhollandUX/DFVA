@@ -1,0 +1,139 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "C1": {
+    "score": 0,
+    "rationale": "Level 0's anchor holds: no collaborative, stakeholder or team-based work is assessed anywhere in the captured core. The two core units whose assessment tables were captured list only individual essays, quizzes, a critical appraisal, assignments and exams, and no program learning outcome names collaboration, teamwork or interprofessional practice, so even level 1 (collaboration claimed in outcomes but unassessed) is unsupported.",
+    "evidenceLines": [
+      "- Short essays: 15% (Hurdle: False)",
+      "- Quizzes: 20% (Hurdle: False)",
+      "- Critical appraisal: 30% (Hurdle: False)",
+      "- Final exam: 35% (Hurdle: False)",
+      "- Online quizzes: 10% (Hurdle: False)",
+      "- Assignment 1: 20% (Hurdle: False)",
+      "- Assignment 2: 30% (Hurdle: False)",
+      "- Take home exam: 40% (Hurdle: False)"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2's anchor is met: a core unit's assessment includes appraisal of the quality of work, not merely a reflection claim in outcomes. POPH8100 carries a 30%-weighted critical appraisal task, and its outcomes fix what is appraised — the design, bias and causal inference of published epidemiologic studies; POPH8101 assesses the same appraisal of published statistical evidence. Level 3 fails because no captured assessment requires students to document and justify reliance decisions over a tool, source or collaborator, to defend judgements of AI-output quality, or to evidence strategy adjustment over time.",
+    "evidenceLines": [
+      "- Critical appraisal: 30% (Hurdle: False)",
+      "- Use epidemiologic reasoning to evaluate causal inference in epidemiologic studies and to critique epidemiologic literature.",
+      "- Reflect upon major sources of error and bias in epidemiologic research, assess the implications and propose approaches to minimise their impact.",
+      "- Critically assess the statistical methods and evidence presented in published research studies."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1's anchor names exactly what is documented: digital tools appear as tool operation or training. The core biostatistics unit teaches use of Stata and scripted analysis in Stata or R, which is the operational level TEQSA identifies as non-durable. Level 2 fails because no core unit is documented as addressing AI capabilities alongside limitations or ethics — gen AI is absent from the extract entirely — and level 0 is wrong because digital content is present in a core unit.",
+    "evidenceLines": [
+      "Throughout the course, the emphasis will be on understanding the reasons why the techniques are appropriate, underlying assumptions, use of the statistical analysis package Stata and interpretation of results, rather than the mechanics of calculation.",
+      "- Construct functioning scripted statistical analysis (in Stata or R) to load, wrangle, and analyse a dataset."
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Level 1's anchor fits: transfer is claimed in program outcomes — applying analytic tools to define public health problems and integrating research methods to address a research question — but no captured core assessment is documented as requiring application to a novel or unfamiliar problem. The biostatistics assignments are named only as 'Assignment 1' and 'Assignment 2', with no statement that the dataset or case is unseen, so the evidence sits between levels 1 and 2 and resolves down. Level 3 fails because no self-scoped capstone or research project is documented as required, and no assessment asks students to identify their own knowledge gaps and plan to close them.",
+    "evidenceLines": [
+      "5. Apply analytic tools to defining and describing public health problems.",
+      "8. Integrate knowledge and research methods skills to address a research question.",
+      "- Assignment 1: 20% (Hurdle: False)",
+      "- Assignment 2: 30% (Hurdle: False)",
+      "Integrative course list"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1's anchor — introductory methods units — is what the extract documents: a fundamentals-of-epidemiology unit and a biostatistics unit, with assessment on critiquing and interpreting the published literature. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; study design appears only as a learning outcome ('Critically assess and design basic epidemiologic studies') and no captured assessment task documents data collection or methodology selection, so the ambiguity resolves down. Level 3's required substantial primary-evidence project defended under scrutiny is absent.",
+    "evidenceLines": [
+      "Fundamentals of Epidemiology",
+      "Biostatistics in Population Health",
+      "- Critically assess and design basic epidemiologic studies.",
+      "8. Integrate knowledge and research methods skills to address a research question."
+    ]
+  },
+  "adaptiveness": 5,
+  "W1": {
+    "score": 0,
+    "rationale": "Level 0's anchor holds for the captured core: every documented assessment is an academic genre addressed to the marker — short essays, quizzes, a critical appraisal, assignments and exams — with no professional genre and no spoken task. Level 1 needs both halves: a communication claim in outcomes AND core assessment that adds presentation to peers or staff. Only the first half is present (CILO 7 claims oral and written communication), and Barrie's rule against scoring stated attributes applies with full force, so the evidence straddling 0 and 1 resolves down.",
+    "evidenceLines": [
+      "7. Communicate effectively and persuasively, both orally and in writing.",
+      "- Short essays: 15% (Hurdle: False)",
+      "- Final exam: 35% (Hurdle: False)",
+      "- Take home exam: 40% (Hurdle: False)",
+      "- Critical appraisal: 30% (Hurdle: False)"
+    ]
+  },
+  "W2": {
+    "score": 0,
+    "rationale": "Level 1's anchor describes what is documented: tasks are contextualised — biostatistics topics are drawn from papers in the medical and public health literature, epidemiology introduces the tools for using and interpreting population health data, and the assignments work on datasets — but the artefacts produced (essays, quizzes, appraisals, assignments, exams) and the criteria applied remain academic. Level 2 requires at least one core assessment reproducing a professional task end to end, producing the artefact a practitioner would produce against criteria drawn from practice; no such task is documented. Per R4 the phrase 'real-world public health issues' is a label and is not itself scored — the score rests on the documented task features.",
+    "evidenceLines": [
+      "Each topic will draw upon one or two papers from the literature.",
+      "The course will also introduce the basic tools necessary for using and interpreting population health data.",
+      "- Produce appropriate visual displays and summary statistics for datasets, and describe the shape and properties of the data from those outputs.",
+      "- Short essays: 15% (Hurdle: False)"
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0's anchor holds: no work-integrated learning, placement, practicum or community-based project appears anywhere in the documented course structure, which lists only named coursework units and three course lists (Public Health Topics, Integrative, Public Health Electives). Level 1 would require work-situated learning present at least as an elective or optional internship, and none is named. The extract also carries no documentation that the cohort is already practising in the profession, so the v4.2 in-practice route does not open.",
+    "evidenceLines": [
+      "The Master of Public Health requires the completion of 96 units, of which:",
+      "Public Health Topics course list",
+      "Integrative course list",
+      "Public Health topics course list or ANU Elective",
+      "No inherent requirements."
+    ]
+  },
+  "workplace": 0,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents a coherent specialist core with progressive methodological depth: a 96-unit public health award whose Year 1 fixes named compulsory units in epidemiology, biostatistics, health services research and policy, and social and cultural determinants of health, with Year 2 requiring integrative coursework on top of that base. The content is discipline-specific rather than generic or interchangeable.",
+      "evidenceLines": [
+        "The Master of Public Health requires the completion of 96 units, of which:",
+        "Fundamentals of Epidemiology",
+        "Biostatistics in Population Health",
+        "Introduction to Health Services Research and Policy",
+        "Social and Cultural Determinants of Health",
+        "Integrative course list"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Assessment goes beyond recall or scripted response: the biostatistics assignments and take-home exam require choosing among statistical models and tests and then testing those choices against the model's assumptions, and the 30% critical appraisal requires judging causal inference and the implications of bias in published studies. Both are defended trade-off decisions made under uncertainty rather than retrieval of a taught answer.",
+      "evidenceLines": [
+        "- Choose and implement appropriate statistical models and tests and interpret their outputs to make inferences from data; continuous outcomes, binary data, categorical data, count data.",
+        "- Produce appropriate diagnostic plots for statistical models and use these to critically assess the assumptions of the model against the data.",
+        "- Assignment 2: 30% (Hurdle: False)",
+        "- Critical appraisal: 30% (Hurdle: False)",
+        "- Use epidemiologic reasoning to evaluate causal inference in epidemiologic studies and to critique epidemiologic literature."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C4 straddled levels 1 and 2: the biostatistics assignments operate on datasets and could involve unseen data, but the extract names them only 'Assignment 1' and 'Assignment 2' and never documents novelty, so the take-the-lower rule fixed the score at 1.",
+    "C5 straddled levels 1 and 2: 'Critically assess and design basic epidemiologic studies' is a design claim, but it appears as a learning outcome and no assessment task documents methodology selection with data collection, so R2 (level 3 needs assessment evidence) and the take-the-lower rule fixed the score at 1.",
+    "W1 straddled levels 0 and 1: CILO 7 claims oral communication, but level 1 also requires core assessment adding a presentation to peers or staff, and none is documented in the captured assessment tables, so the score resolved down to 0.",
+    "W2 straddled levels 0 and 1: the captured assessments are exams, essays, quizzes and assignments, which reads as level 0, but the documented framing in published literature and population health datasets is genuine situational framing beyond the 'real-world' label R4 forbids scoring, so level 1 was taken on the documented framing alone.",
+    "C2 vs W2 boundary: the 30% critical appraisal is appraisal of the quality of work, so under 'one construct, one home' it scores in C2 only and was not counted toward W2's task fidelity."
+  ],
+  "notScoreable": [
+    "POPH8103 (Introduction to Health Services Research and Policy) was captured with empty Overview, Learning Outcomes and Assessment Tasks fields, so it contributed no assessment evidence to any item.",
+    "POPH8108 (Social and Cultural Determinants of Health) is named in the Year 1 structure but its course page is not in the extract, so its assessment tasks contributed no evidence.",
+    "The Public Health Topics, Integrative and Public Health Electives course lists are named in the structure but never enumerated, so the level-0 scores for C1, W1 and W3 rest on the two core units whose assessment tables were captured (POPH8100 and POPH8101) plus the program outcomes."
+  ],
+  "instrument": "4.2-draft",
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-07"
+  }
+};
+
+export default record;

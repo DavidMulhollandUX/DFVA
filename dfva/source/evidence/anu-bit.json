@@ -1,102 +1,170 @@
 {
   "code": "anu-bit",
   "panelCv4": {
-    "instrument": "4.2-draft",
-    "adaptiveness": 15,
-    "workplace": 6,
     "C1": {
-      "score": 3,
-      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science.",
+      "score": 1,
+      "rationale": "Level 1 anchor: collaboration appears in the program learning outcomes but no core unit assesses it. Program CILO 6 states teamwork, yet every core unit whose page carries an assessment table (COMP1100, COMP1600, COMP2300, MATH1005) lists only individual assignments, labs, quizzes and exams — no group project, client or stakeholder work, and nothing that assesses the division of work across people and tools. Level 2 fails because no core assessment task is documented as collaborative; the only assessed team task in the extract (the ENGN1211 rover project) sits in the elective list, not the core.",
       "evidenceLines": [
-        "**Institution**: The Australian National University (ANU)",
-        "**Academic Plan Code**: BIT",
-        "- **Institution**: The Australian National University (ANU)"
+        "6. Work effectively within a team in order to achieve a common goal.",
+        "- Assignments: 30% (Hurdle: False)",
+        "- Lab Assessment: 5% (Hurdle: False)",
+        "- Mid-term quiz: 10% (Hurdle: True)",
+        "- Final Exam: 55% (Hurdle: True)",
+        "- Labs and Quizzes: 10% (Hurdle: False)",
+        "- Practical Assignments: 40% (Hurdle: False)",
+        "- Final Exam: 50% (Hurdle: False)",
+        ") and/or engineering oriented electives (such as",
+        "The major project for the course is to work in teams to design and build a robot rover that can autonomously navigate around a maze."
       ]
     },
     "C2": {
-      "score": 3,
-      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science.",
+      "score": 1,
+      "rationale": "Level 1 anchor: self- and peer-assessment appears in the program outcomes, but no core unit assesses appraisal against criteria. CILO 7 names self- and peer-assessment of performance; the core assessment tables contain no peer review, structured critique, portfolio against standards, or marking against exemplars. Level 2 fails because criterion-referenced appraisal of quality is nowhere in a core assessment task — the only assessed reflection in the extract is ENGN1211's, an elective course. No core task requires documenting or justifying reliance on a tool, source or collaborator, so level 3 is not in question.",
       "evidenceLines": [
-        "**Academic Year**: 2027",
-        "**Career / Study Level**: Undergraduate",
-        "- **Career / Study Level**: Undergraduate"
+        "7. Demonstrate commitment to professional conduct and development that recognises the social, legal and ethical implications of their work, to work independently, and self- and peer-assess performance.",
+        "- Assignments: 40% (Hurdle: False)",
+        "- Quizzes: 10% (Hurdle: False)",
+        "- Final Exam: 50% (Hurdle: False)",
+        "- Workshop quizzes: 10% (Hurdle: False)",
+        "- Workshop contributions: 10% (Hurdle: False)",
+        "- Written assignments: 20% (Hurdle: False)",
+        "- Reflection: 15% (Hurdle: False)",
+        "ENGN1211"
       ]
     },
     "C3": {
-      "score": 3,
-      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science.",
+      "score": 1,
+      "rationale": "Level 1 anchor: digital tools appear in the core as tool operation, and the ethics/limitations content sits in electives. COMP1100 introduces productivity tools and revision control — the operational level the anchor caps at 1. Level 2 fails because no core unit is documented as addressing AI capabilities together with limitations or ethics and assessing use with limits: the one unit that connects the technology to ethics, privacy and social impact (COMP2400 Relational Databases) is listed among the first-year electives, not the core, and the program-level ethics claim in CILO 1 is an outcome statement, which R2 bars from carrying a level above 1. No gen-AI content appears anywhere in the extract.",
       "evidenceLines": [
-        "Subject: Programming as Problem Solving (COMP1100)",
-        "Subject: Structured Programming (COMP1110)",
-        "**Program Duration**: 3 year full-time"
+        "The course also introduces students to standard productivity tools for software development that will be used throughout the course and remainder of the computer science degree. These include distributed software revision control systems.",
+        "1. Analyse well defined problems, and design, implement and evaluate solutions that demonstrate an understanding of the systems context in which software is developed and operated including economic, social, historical, sustainability and ethical aspects.",
+        "These can be additional computing courses (e.g.:",
+        "COMP2400",
+        "- Connect database design with social and economic impacts including security, ethics, and Australian Privacy Principles."
       ]
     },
     "C4": {
-      "score": 3,
-      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science.",
+      "score": 1,
+      "rationale": "Level 1 anchor: transfer is claimed in the outcomes but not assessed. CILO 3 claims adaptation to new environments and technologies. Level 2 fails because no core assessment task is documented as applying methods to a novel or unfamiliar problem — the core assessment items are assignments, labs, quizzes and final exams within the taught content of each unit, with no case variation, unseen dataset or cross-context project described. Level 3 fails because the course structure names no capstone, project or research unit: the third year is specified only as 3000/4000-level computing courses and electives, so no structured progression toward self-scoped independent learning is documented.",
       "evidenceLines": [
-        "**Minimum Units Required**: 144 Units",
-        "**Mode of Delivery**: of delivery In Person",
-        "- **Program Duration**: 3 year full-time"
+        "3. Adapt to new environments and technologies, and to innovate.",
+        "Year 3",
+        "Computing Course",
+        "3000/4000 level",
+        "Elective course",
+        "- Assignments: 30% (Hurdle: False)",
+        "- Final Exam: 55% (Hurdle: True)",
+        "- Assignments: 40% (Hurdle: False)"
       ]
     },
     "C5": {
-      "score": 3,
-      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science.",
+      "score": 0,
+      "rationale": "Level 0 anchor: no research-methods training in the core. The core sequence documented in the study options is programming, discrete mathematics, foundations of computing, software construction, computer architecture and COMP2420 — none is a methods unit, and no core assessment item is a literature review, an inquiry design or data collection. Level 1 fails because the only unit in the extract named for methods, STAT1008 Quantitative Research Methods, appears solely in the first-year elective list and its page carries no overview, outcomes or assessment, so no methods training is documented as part of the program.",
       "evidenceLines": [
-        "Subject: Programming as Problem Solving (Advanced) (COMP1130)",
-        "Subject: Structured Programming (Advanced) (COMP1140)",
-        "**Post Nominal**: Nominal"
+        "MATH1005",
+        "Discrete Mathematical Models",
+        "COMP1600",
+        "Foundations of Computing",
+        "COMP2300",
+        "Computer Architecture",
+        "Subject: Quantitative Research Methods (STAT1008)",
+        "STAT1008",
+        "4. Demonstrate an operational understanding of the foundations of computer science including programming, algorithms, logic, architectures and data structures."
       ]
     },
     "W1": {
-      "score": 2,
-      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science.",
+      "score": 0,
+      "rationale": "Level 0 anchor: all documented core assessment is in academic genres addressed to the marker. Communication and professional conduct do appear in CILOs 5 and 7, but the second clause of the level 1 anchor — core assessment that adds presentation to peers or staff — is not documented: the core assessment tables list assignments, lab assessment, quizzes, practical assignments and final exams only. MATH1005's 'Workshop contributions' is the nearest candidate, but the extract does not describe it as spoken or presented work, and R1 bars scoring what a student plausibly does over what the handbook documents; the ambiguity between 0 and 1 is therefore resolved down. Level 2 fails outright: no core assessment names a professional genre or an audience beyond the teaching team.",
       "evidenceLines": [
-        "**CRICOS Code**: code 029996A",
-        "- **Institution**: The Australian National University (ANU)",
-        "- **Career / Study Level**: Undergraduate"
+        "5. Communicate complex concepts effectively with diverse audiences using a range of modalities.",
+        "7. Demonstrate commitment to professional conduct and development that recognises the social, legal and ethical implications of their work, to work independently, and self- and peer-assess performance.",
+        "- Workshop contributions: 10% (Hurdle: False)",
+        "- Assignments: 30% (Hurdle: False)",
+        "- Lab Assessment: 5% (Hurdle: False)",
+        "- Final Exam: 55% (Hurdle: True)",
+        "- Labs and Quizzes: 10% (Hurdle: False)",
+        "- Final Exam: 50% (Hurdle: False)"
       ]
     },
     "W2": {
-      "score": 3,
-      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science.",
+      "score": 1,
+      "rationale": "Level 1 anchor: contextualised design tasks appear, but the artefact and the criteria remain academic. Level 0 is excluded because the core is not entirely decontextualised — COMP2300's practical assignments require building a working general-purpose computer in a digital simulator, a constructed design artefact rather than a problem set. Level 2 fails because no core assessment is documented as reproducing a professional task end to end: the simulator processor, the functional-programming assignments and the Hoare-logic proofs produce academic artefacts marked by the teaching team, and no criteria drawn from practice are described. Per R4 no credit is taken from any 'real-world' labelling; the ENGN1211 rover project, the one build task framed by professional practice, is an elective.",
       "evidenceLines": [
-        "**UAC Code**: code 136063 (B Information Technology)",
-        "Subject: Foundations of Computing (COMP1600)",
-        "- **Program Duration**: 3 year full-time"
+        "Students build a fully functional general-purpose computer from simple logic circuits in a digital simulator.",
+        "- Design and implement a simple processor in a digital simulator following a principled approach.",
+        "- Practical Assignments: 40% (Hurdle: False)",
+        "- Final Exam: 50% (Hurdle: False)",
+        "- Prove simple programs correct using Hoare Logic.",
+        "- Assignments: 40% (Hurdle: False)",
+        "- Apply fundamental programming concepts, using a functional programming language, to solve problems."
       ]
     },
     "W3": {
-      "score": 1,
-      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "score": 0,
+      "rationale": "Level 0 anchor: no work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure. The 144-unit structure lists named computing courses, computing electives, 3000/4000-level computing courses and free electives across the three years, with no placement, internship, industry project or live client unit in either the core or the elective lists. Level 1 fails because not even an optional or extracurricular work-situated activity is documented in the extract, and the cohort is a school-leaver undergraduate intake with no documentation of existing professional practice, so the in-practice route does not apply.",
       "evidenceLines": [
-        "- **Program Duration**: 3 year full-time",
-        "- **Institution**: The Australian National University (ANU)"
+        "The Bachelor of Information Technology requires completion of 144 units, of which:",
+        "Year 2",
+        "Computing elective",
+        "Year 3",
+        "Computing Course",
+        "3000/4000 level",
+        "Elective course",
+        "Once you have met the program requirements of your degree, you may have enough electives to complete an additional elective",
+        "- **Career / Study Level**: Undergraduate"
       ]
     },
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Information Technology.",
+        "rationale": "PASS anchor: a coherent specialist core with progressive technical depth. COMP1100 is documented as the first of three core computer science courses on programming, and the structure stages that sequence — programming and discrete mathematics in year 1 with COMP1600 Foundations of Computing, software construction and computer architecture in year 2, then five 3000/4000-level computing courses in year 3. A mathematics prerequisite gates entry. This is a disciplinary identity, not interchangeable generic content, so the FAIL condition does not hold.",
         "evidenceLines": [
-          "- **Program Duration**: 3 year full-time",
-          "A single three year undergraduate award offered by theANU College of Engineering Computing & Cybernetics"
+          "This course is the first of three core computer science courses on programming.",
+          "COMP1100",
+          "Programming as Problem Solving",
+          "COMP1110",
+          "Structured Programming",
+          "COMP2100",
+          "Software Construction",
+          "COMP2300",
+          "Computer Architecture",
+          "Computing Course",
+          "3000/4000 level",
+          "ACT: Mathematical Methods (Major)/Further Mathematics (Major)/Specialist Mathematics/Specialist Methods (Major)"
         ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "Specialist academic program structured through sequential study in computer science.",
+        "rationale": "PASS anchor: assessed simulation work carrying design trade-off decisions. COMP2300's assessment is 40% practical assignments against a documented requirement to design and implement a processor in a digital simulator and to evaluate trade-offs between designs and account for the implications of machine-level choices; COMP1100's 30% assignments require determining which algorithmic approach fits a problem from a named set of alternatives. The FAIL condition — recall or scripted responses only — is contradicted by these design and selection tasks, even though half of the core marks sit in final exams.",
         "evidenceLines": [
-          "Subject: Programming as Problem Solving (COMP1100)",
-          "**Institution**: The Australian National University (ANU)"
+          "- Evaluate tradeoffs of different designs and ideas.",
+          "- Evaluate computer systems at abstraction levels from software to individual digital circuits and account for the implications of machine-level choices.",
+          "- Design and implement a simple processor in a digital simulator following a principled approach.",
+          "- Practical Assignments: 40% (Hurdle: False)",
+          "- Discuss basic algorithmic analysis for simple algorithms; determine appropriate algorithmic approaches to a problem (for example bruteforce, greedy, divide-and-conquer, recursive backtracking, heuristic, dynamic programming).",
+          "- Assignments: 30% (Hurdle: False)"
         ]
       }
     },
+    "adaptiveness": 4,
+    "workplace": 1,
     "ambiguities": [
-      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
-      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+      "W1 straddled levels 0 and 1: MATH1005 assesses 'Workshop contributions: 10%', which could be spoken participation in front of peers and staff (level 1) or graded attendance and written work (level 0). The extract does not describe the mode, so R1 and the resolve-down rule fix it at 0.",
+      "C1 straddled levels 1 and 2: three core units in the study options — COMP1110 Structured Programming, COMP2100 Software Construction and COMP2420 — carry no assessment evidence in the extract (the first two pages are empty, COMP2420 has no page), and software-construction units commonly assess group work. With no documented collaborative core assessment the resolve-down rule fixes C1 at 1.",
+      "C5 straddled levels 0 and 1: STAT1008 'Quantitative Research Methods' appears in the first-year elective list, which could read as an available introductory methods unit (level 1), but it is not core and its page carries no outcomes or assessment, so the score resolves down to 0.",
+      "C3 straddled levels 1 and 2: CILO 1 claims solutions demonstrating understanding of ethical and social context, and the elective COMP2400 assesses privacy and security implications. Both are outside the assessed core (R2 bars the outcome statement; COMP2400 is an elective), so C3 stays at 1.",
+      "W2 versus C2: COMP2300's 'Evaluate tradeoffs of different designs and ideas' could read as appraisal of quality. Under one-construct-one-home, appraisal belongs to C2 and task fidelity to W2; the trade-off evidence is used for the G2 gate and for W2's task description, not to raise C2, because no criterion-referenced appraisal of work is documented.",
+      "G2 is the weakest of the two gate calls: the trade-off language sits in COMP2300 learning outcomes rather than in an assessment task description, and the assessment table names only 'Practical Assignments'. It passes on the documented simulator design work, not on the outcome statement alone."
     ],
-    "notScoreable": []
+    "notScoreable": [
+      "Three units named in the core study options carry no content in the extract — COMP1110 Structured Programming and COMP2100 Software Construction have empty 'Overview:', 'Learning Outcomes:' and 'Assessment Tasks:' sections, and COMP2420 is listed in year 2 with no course page at all. No item could be scored from them, so C1, C2, W1 and W2 rest on the four core units that do carry assessment tables (COMP1100, COMP1600, COMP2300, MATH1005).",
+      "No unit outline in the extract mentions generative AI in any form, so C3 is scored on general digital-tool and ethics evidence only; the extract carries no evidence bearing on AI governance, bias, accountability or transparency."
+    ],
+    "instrument": "4.2-draft",
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-09-07"
+    }
   }
 }

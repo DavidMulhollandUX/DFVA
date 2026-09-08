@@ -1,102 +1,132 @@
 {
   "code": "anu-bcomm",
   "panelCv4": {
-    "instrument": "4.2-draft",
-    "adaptiveness": 12,
-    "workplace": 5,
     "C1": {
-      "score": 3,
-      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+      "score": 1,
+      "rationale": "Level 1 anchor — 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' Teamwork is stated at program level (CILO 6) and again as an inherent requirement, but no core course documents an assessed collaborative task. The only collaborative wording inside a core course's assessment field is 'group project tasks' buried in MGMT2100's hedged 'may include, but are not restricted to' list, which documents a possibility rather than a requirement. The one definite group task in the extract (INFS2005) sits in a course the structure lists as 'Elective - INFS2005 suggested', so it is not core. Level 2 requires that at least one core unit assesses collaborative practice; that is not documented, and R1 forbids scoring the plausible over the documented.",
       "evidenceLines": [
-        "**Institution**: The Australian National University (ANU)",
-        "**Academic Plan Code**: BCOMM",
-        "- **Institution**: The Australian National University (ANU)"
+        "6. Work collaboratively and productively in diverse teams.",
+        "Inherent requirements in this program include the ability to communicate orally and work effectively in teams as well as individually.",
+        "Typical assessments may include, but are not restricted to: in-class exercises, written and oral assignments, quizzes, examinations, group project tasks, oral presentations, and other assessments deemed appropriate to show the attainment of the learning outcomes set for the course. Further details will be made available via the Class Summary.: 100% (Hurdle: False)",
+        "Elective -",
+        "INFS2005",
+        "suggested"
       ]
     },
     "C2": {
-      "score": 2,
-      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+      "score": 1,
+      "rationale": "Level 1 anchor — evaluative judgement 'appears in outcomes or graduate attributes, but no core unit assesses it against criteria.' CILO 5 claims judgement and evaluation of solutions, and MGMT1003 states an outcome of critically discussing strengths and weaknesses, but no core assessment field in the extract names peer review, structured critique, a portfolio against standards, or marking against exemplars. Every core assessment field is a generic list of exams, quizzes, assignments and class participation. Level 2 needs criterion-referenced appraisal of the quality of work in core assessment; level 3 additionally needs documented reliance or override decisions, and the extract contains no AI, tool-reliance or process-focused assessment at all.",
       "evidenceLines": [
-        "**Academic Year**: 2027",
-        "**Career / Study Level**: Undergraduate",
-        "- **Academic Plan Code**: BCOMM"
+        "5. Integrate best judgement to implement and evaluate solutions to problems from a variety of contexts.",
+        "Critically discuss weaknesses and strengths of different theories relevant to managerial work.",
+        "Typical assessment may include, but is not restricted to, class participation, assignment, quizzes and examination as appropriate to assess the learning outcomes of the course.: 100% (Hurdle: False)"
       ]
     },
     "C3": {
-      "score": 2,
-      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+      "score": 1,
+      "rationale": "Level 1 anchor — digital tools appear 'only as electives or as tool operation/training'. The only digital content in a course that is core for its stream is BUSN1002's computerised accounting package, which is tool operation, the level TEQSA identifies as non-durable. The two courses carrying digital ethics or governance language (COMP2400 on privacy principles and security, INFS1001 on ethical implications of information systems) appear only in the Business Information Systems study option, state it as a learning outcome, and document assessment as in-class activities, quizzes, assignments and a final exam with no governance task named. Level 2 requires core units to address capabilities AND limitations/ethics, discussed and assessed. There is no mention of AI, generative AI or machine learning anywhere in the extract, so no level-2 or level-3 route exists.",
       "evidenceLines": [
-        "Subject: International Business (BUSI2025)",
-        "Subject: Business Reporting and Analysis (BUSN1001)",
-        "**Program Duration**: 3 year full-time"
+        "utilise a computerised accounting package to set up the accounts and complete the accounting cycle of a small business;",
+        "Connect database design with social and economic impacts including security, ethics, and Australian Privacy Principles.",
+        "Demonstrate an understanding of and interpret the personal, social, ethical, and business implications of using information systems;",
+        "In-class activities and quizzes: 10% (Hurdle: False)"
       ]
     },
     "C4": {
-      "score": 3,
-      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+      "score": 1,
+      "rationale": "Level 1 anchor — 'Transfer is claimed in outcomes (\"apply knowledge in new settings\") but not assessed.' CILO 5 claims solutions to problems 'from a variety of contexts' and CILO 2 claims application of knowledge and research techniques, but no core assessment field documents application to a novel or unfamiliar problem: case analysis and live case studies appear as learning outcomes of stream-specific courses (MGMT2007, MKTG2004), never as a specified assessment task. Level 3 requires documented structured progression to independent learning — a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps. The three-year structure lists only major and elective courses, with no capstone or research project in any study option.",
       "evidenceLines": [
-        "**Minimum Units Required**: 144 Units",
-        "**Mode of Delivery**: of delivery In Person",
-        "- **Career / Study Level**: Undergraduate"
+        "5. Integrate best judgement to implement and evaluate solutions to problems from a variety of contexts.",
+        "2. Apply theoretical and technical business knowledge, skills and research techniques relevant to the major(s) studied.",
+        "Apply organisational behaviour concepts, models and theories to real life management situations through case analysis;",
+        "Identify marketing problems from live case studies;"
       ]
     },
     "C5": {
-      "score": 2,
-      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+      "score": 1,
+      "rationale": "Level 1 anchor — 'Introductory methods unit'. STAT1008 Quantitative Research Methods is listed in the core of every study option shown, and CILO 2 claims research techniques, which satisfies the introductory-methods route. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; the STAT1008 page in this extract carries an empty Overview, Learning Outcomes and Assessment Tasks, so no inquiry design, data collection or methodology-selection evidence exists to quote. Level 3 requires a required substantial primary-evidence project defended under scrutiny, and no such project appears in the structure.",
       "evidenceLines": [
-        "Subject: Accounting Processes and Systems (BUSN1002)",
-        "Subject: Introduction to Commercial Law (BUSN1101)",
-        "**Post Nominal**: Nominal BComm"
+        "Subject: Quantitative Research Methods (STAT1008)",
+        "STAT1008",
+        "Quantitative Research Methods",
+        "2. Apply theoretical and technical business knowledge, skills and research techniques relevant to the major(s) studied."
       ]
     },
+    "adaptiveness": 5,
     "W1": {
-      "score": 2,
-      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+      "score": 1,
+      "rationale": "Level 1 anchor — communication appears in outcomes and 'core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team.' MGMT2100 Communication for Business is core in nearly every study option and carries a distinct, separately listed oral assessment task, which is the strongest assessment-level communication evidence in the extract. Its outcome of producing professional documents is an outcome only, and Barrie's warning plus R2 forbid scoring the stated attribute. Level 2 requires a recognised professional genre or an audience beyond the teaching team judged against criteria drawn from professional practice: no client, panel, external audience or practice-derived criterion is documented anywhere, and the oral task is specified only as 'Further details, including % value, will be made available via the Class Summary'.",
       "evidenceLines": [
-        "**CRICOS Code**: code 002289F",
-        "- **Institution**: The Australian National University (ANU)",
-        "- **Academic Plan Code**: BCOMM"
+        "4. Communicate effectively to stakeholders in a clear, effective, appropriate and ethical manner, in both written and oral formats.",
+        "Subject: Communication for Business (MGMT2100)",
+        "Oral assessment task. Further details, including % value, will be made available via the Class Summary.: 0% (Hurdle: False)",
+        "produce effective professional documents;",
+        "demonstrate the ability to effectively communicate ideas and answer questions verbally in-person to a group."
       ]
     },
     "W2": {
-      "score": 2,
-      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+      "score": 1,
+      "rationale": "Level 1 anchor — 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic.' Business framing is pervasive (BUSN1001 analyses financial reports from the users' perspective; MGMT2007 and MKTG2004 name case analysis and live case studies), but every documented assessment artefact is an exam, quiz, assignment, class-participation or in-class exercise. Level 2 requires at least one core assessment that reproduces a professional task end to end, producing the practitioner's artefact and judged against criteria drawn from practice. No assessment task in the extract is specified beyond a hedged 'may include' list, so the artefact and the criteria are undocumented, and R4 forbids inferring fidelity from disciplinary framing.",
       "evidenceLines": [
-        "**UAC Code**: code 133003 (B Commerce)",
-        "Subject: Programming as Problem Solving (COMP1100)",
-        "- **Career / Study Level**: Undergraduate"
+        "Typical assessment may include, but is not restricted to, class participation, assignment, quizzes and examination as appropriate to assess the learning outcomes of the course.: 100% (Hurdle: False)",
+        "Analyse financial reports with regard to key aspects of performance such as profitability, solvency and liquidity;",
+        "Identify marketing problems from live case studies;",
+        "utilise a computerised accounting package to set up the accounts and complete the accounting cycle of a small business;"
       ]
     },
     "W3": {
-      "score": 1,
-      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "score": 0,
+      "rationale": "Level 0 anchor — 'No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure.' The published structure for every study option resolves to major courses, elective courses and named coursework subjects across three years; the elective statement confirms electives are unconstrained ordinary courses. The extract contains no occurrence of placement, practicum, internship, work-integrated learning, industry project or community project, and no course describes practitioner supervision or a host organisation. There is also no documentation that the cohort is already practising, so the v4.2 in-practice route at levels 2-3 does not open. Level 1 would require work-situated learning to exist at least as an elective or optional internship; nothing of the kind is named.",
       "evidenceLines": [
-        "- **Program Duration**: 3 year full-time",
-        "- **Institution**: The Australian National University (ANU)"
+        "The Bachelor of Commerce requires completion of 144 units, of which:",
+        "You can use your electives to enrol in any courses that you like, provided you meet prerequisite requirements.",
+        "Once you have met the program requirements of your degree, you may have enough electives to complete an additional elective",
+        "Remember that you can choose up to 11 ANU wide elective courses if you are undertaking the single Bachelor of Commerce. If you are in a double degree, you can choose 3 ANU wide elective courses to count towards the Bachelor of Commerce side."
       ]
     },
+    "workplace": 2,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Commerce.",
+        "rationale": "PASS condition — a coherent specialist core with progressive technical or methodological depth via a staged chain. A common commerce core recurs in every study option (business reporting, microeconomics, macroeconomics, quantitative research methods, business communication), and each major documents an explicit staged progression: BUSN1002 states it extends BUSN1001, FINM1001 states it provides the foundation for later finance studies and is followed by FINM2001 Corporate Finance, and COMP1100 states it is the first of three core computing courses and the foundation for more advanced ones. That is disciplinary identity with documented depth, not generic interchangeable content, so the FAIL condition is not met — notwithstanding the heavy elective load and the absence of formal program prerequisites, both recorded as an ambiguity.",
         "evidenceLines": [
-          "- **Program Duration**: 3 year full-time",
-          "A single three year undergraduate award offered by theANU College of Business and Economics"
+          "The course extends the material in Business Reporting and Analysis. It provides detailed understanding of the technical aspects and concepts used in producing financial and management accounting reports.",
+          "It also provides students with a solid foundation for later studies in finance.",
+          "This course is the first of three core computer science courses on programming.",
+          "1. Demonstrate in-depth knowledge of foundational theories and models relevant to the major(s) studied."
         ]
       },
       "G2": {
-        "result": "PASS",
-        "rationale": "Specialist academic program structured through sequential study in business and management.",
+        "result": "FAIL",
+        "rationale": "The PASS condition requires that assessments require defended trade-off decisions, or simulations, capstones or live projects with real uncertainty and accountability. Neither route is documented. No assessment task anywhere in the extract is specified beyond a hedged 'may include, but is not restricted to' list of exams, quizzes, assignments, class participation and in-class exercises, so no task is documented as requiring a defended decision; and the structure contains no capstone, simulation or live project in any study option. The strongest contrary evidence is at outcome level only — BUSN1001's outcome of evaluating investment opportunities and MKTG2004's overview topic of decision making under high uncertainty and ambiguity — and MKTG2004 is core only to the marketing study option. Resolving that ambiguity upward is forbidden, so the gate fails on absent assessment evidence rather than on a finding that the program is recall-only.",
         "evidenceLines": [
-          "Subject: International Business (BUSI2025)",
-          "**Institution**: The Australian National University (ANU)"
+          "Evaluate investment opportunities, including cost-volume-profit analysis, capital investment decision making, and budgeting.",
+          "industry analysis, buyer behaviour in the consumer and business organisations, and decision making under conditions of high uncertainty and ambiguity.",
+          "Typical assessment may include, but is not restricted to, class participation, assignment, quizzes and examination as appropriate to assess the learning outcomes of the course.: 100% (Hurdle: False)",
+          "Typical assessments may include, but is not restricted to: in-class exercises, written and oral assignments, quizzes, examinations, group project tasks, oral presentation, and other assessment deemed appropriate to show attainment of the learning outcomes set for the course. Further details will be made available via the Class Summary.: 100% (Hurdle: False)"
         ]
       }
     },
     "ambiguities": [
-      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
-      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+      "C1 straddled levels 1 and 2: MGMT2100 is core in nearly every study option and its assessment field names 'group project tasks', which would satisfy the level-2 anchor if it were a commitment, but the field is hedged as 'may include, but are not restricted to' and no percentage or task specification attaches to it. Resolved down to 1 by the never-resolve-upward rule and R1 (score what the handbook documents).",
+      "C1 vs W1: the inherent-requirements line couples oral communication and teamwork in one sentence. Under 'one construct, one home' the teamwork half is scored in C1 and the oral-communication half in W1; the sentence is cited in C1 only for the teamwork claim.",
+      "C3 straddled levels 1 and 2: COMP2400's privacy, security and ethics outcome and INFS1001's ethical-implications outcome read toward level 2, but both are stream-specific rather than program core, both are learning outcomes with no matching assessment task, and neither concerns AI. Resolved down to 1 under R2.",
+      "C4 straddled levels 1 and 2: the case-analysis and live-case-study outcomes in MGMT2007 and MKTG2004 approach the level-2 'application to novel or unfamiliar problems' anchor, but they are learning outcomes of study-option-specific courses, not documented assessment tasks. Resolved down to 1 under R2.",
+      "W1 straddled levels 1 and 2: MGMT2100's 'produce effective professional documents' outcome points at a professional genre, but the level-2 anchor also requires criteria drawn from professional practice or an audience beyond the teaching team, and neither is documented. Resolved down to 1 under R2 and the Barrie caution in the W1 migration note.",
+      "W2 straddled levels 1 and 2: BUSN1002's outcome of completing a small business's accounting cycle in a computerised package is close to a practitioner artefact, but it is a learning outcome in a study-option-specific course and the course's assessment field names only class participation, assignments, quizzes and examination. Resolved down to 1 under R2 and R4.",
+      "G2 straddled PASS and FAIL: the extract documents neither pure recall nor a defended trade-off task, because it documents no assessment task specifications at all. Recorded as FAIL under the never-resolve-upward rule, on absent evidence for the PASS condition.",
+      "G1 carried a contrary signal: 'There are no formal program prerequisites' and a structure in which Year 2 and Year 3 each show five elective slots out of eight. PASS rests on the staged within-major chains and the recurring commerce core, which the anchor accepts as a staged prerequisite chain."
     ],
-    "notScoreable": []
+    "notScoreable": [
+      "C5 above level 1: the STAT1008 Quantitative Research Methods page in this extract has empty Overview, Learning Outcomes and Assessment Tasks fields, so whether the core methods unit requires inquiry design, methodology selection or data collection cannot be established from the supplied text.",
+      "Four core or near-core course pages in the extract are empty of overview, outcomes and assessment: STAT1008 (Quantitative Research Methods), ECON1101 (Microeconomics 1), ECON1102 (Macroeconomics 1) and BUSN1101 (Introduction to Commercial Law). Roughly a third of the universal core therefore contributes no assessment evidence to any item.",
+      "Assessment task specification is absent program-wide: every populated course page states assessment as a 'Typical assessment may include, but is not restricted to' list with 100% attached and defers detail to the Class Summary, which is not in the extract. No item could be tested against the level-3 requirement to quote a specific assessment task, hurdle or placement requirement."
+    ],
+    "instrument": "4.2-draft",
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-09-07"
+    }
   }
 }

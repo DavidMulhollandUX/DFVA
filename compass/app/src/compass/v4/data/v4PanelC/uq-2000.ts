@@ -1,0 +1,130 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor 'at least one core unit assesses collaborative practice' is met: the sole prescribed core unit carries an applied-class assessment item whose documented mode is team or group-based, and the unit's outcomes name work in small groups. Not level 3: the extract documents one core unit only, so assessed collaborative practice cannot be shown to recur across the program, and no assessment requires coordinating work across people AND tools or AI systems. Not level 1, because the collaborative work is carried by an assessment item and not by outcomes alone. Ambiguity: the extract gives the assessment mode label without a task description, so individual accountability within the group is not documented.",
+    "evidenceLines": [
+      "- Applied Class Assessment Team or group-based In-person: 10%% (Hurdle: False)",
+      "- Mathematical confidence - Confidently work independently and in small groups to use mathematics in solving problems",
+      "The following 1 units of study are prescribed for this academic program:"
+    ]
+  },
+  "C2": {
+    "score": 0,
+    "rationale": "Level 0 anchor 'no assessment requires students to appraise the quality of work' holds on the documented evidence: the four assessment items in the only prescribed core unit are an applied-class assessment, online assignments and two invigilated exams, none of which asks students to appraise their own, a peer's or a tool's work against criteria. Level 1 is not reached either, because no reflection or self-assessment statement appears in the program text or the core unit outcomes; the nearest outcome asks students to appreciate the importance of mathematics, which is disposition, not criterion-referenced appraisal.",
+    "evidenceLines": [
+      "- Applied Class Assessment Team or group-based In-person: 10%% (Hurdle: False)",
+      "- Assignments Online: 15% Assignments are equally weighted% (Hurdle: False)",
+      "- In-Semester Exam Hurdle Identity Verified In-person: 20%% (Hurdle: True)",
+      "- End of Semester examination Hurdle Identity Verified In-person: 55%% (Hurdle: True)",
+      "- Mathematical confidence - Appreciate the power and importance of mathematics in solving diverse problems"
+    ]
+  },
+  "C3": {
+    "score": 0,
+    "rationale": "Level 0 anchor 'no digital/AI content in any core unit or program-level outcome': the only prescribed core unit is a mathematical foundations course whose documented topics are statistics, functions, differentiation and integration, with no digital tool, AI or governance content, and the program-level text states no digital or AI outcome. Scored down from level 1 under the lower-level rule: a 'Media and Digital Cultures' minor appears in the elective study areas, which would read as level 1 ('AI or digital tools appear only as electives'), but the extract carries the minor title alone with no course list or content, so no digital or AI content is documented anywhere (R1).",
+    "evidenceLines": [
+      "Overview: This course covers fundamental mathematical concepts, useful to students in a wide range of discipline areas, including agriculture, arts, business, education, health sciences, science, social sciences, applied science and engineering.",
+      "* [ MATH1040 Mathematical Foundations I ](https://my.uq.edu.au/programs-courses/course.html?course_code=MATH1040)",
+      "Media and Digital Cultures"
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Level 1 anchor 'transfer is claimed in outcomes but not assessed': the core unit's outcomes claim application across a range of discipline areas and to physical problems, and the program text claims the graduate can apply skills in many different jobs, careers and life situations. Level 2 requires a core assessment demanding application to novel or unfamiliar problems, and the four documented assessment items are described only by mode and weight, with no case variation, unseen data or cross-context task documented. Level 3 needs a documented progression to independent learning; the honours year is an additional year of study, not part of this program's structure.",
+    "evidenceLines": [
+      "- Mathematical confidence - Apply mathematical and quantitative skills to a variety of problems across a range of discipline areas",
+      "- Calculus - Apply the techniques of calculus to solve physical problems",
+      "A BA graduate is someone who has gained skills and knowledge and can apply these skills in many different jobs, careers and life situations.",
+      "- Assignments Online: 15% Assignments are equally weighted% (Hurdle: False)"
+    ]
+  },
+  "C5": {
+    "score": 0,
+    "rationale": "Level 0 anchor 'no research-methods training' on the documented core: the single prescribed unit is a foundations course covering probability and statistics as mathematical content, and no methods unit, literature review, inquiry design or data collection is prescribed or assessed. Scored down from level 1 under the lower-level rule: the statistics topics could be read as an introductory methods unit, but nothing in the extract documents methodology selection or a literature-review assessment. The honours year, which would carry a research project, is stated as an additional year beyond this program.",
+    "evidenceLines": [
+      "Topics include: statistics (counting & probability, discrete random variables, continuous random variables), functions (quadratic, logarithmic, exponential, non-linear, trigonometric), differentiation and its applications, and integration and its applications.",
+      "Honours is available as an additional year of study.",
+      "The honours program requires an additional year of study and calls for greater specialisation in a chosen area at a high standard of scholarship."
+    ]
+  },
+  "adaptiveness": 3,
+  "W1": {
+    "score": 0,
+    "rationale": "Level 0 anchor 'all core assessment is in academic genres addressed to the marker': the documented core assessment is online assignments, an in-semester exam and an end-of-semester exam, both identity-verified hurdles, plus an applied-class item — all academic genres marked by the teaching team, with no professional genre and no documented spoken or presented component. The program text's claim of highly developed skills in written communication is a stated graduate attribute, which R2 and Barrie forbid scoring. Level 1 would need core assessment that adds presentation to peers or staff, which the extract does not document.",
+    "evidenceLines": [
+      "- Assignments Online: 15% Assignments are equally weighted% (Hurdle: False)",
+      "- In-Semester Exam Hurdle Identity Verified In-person: 20%% (Hurdle: True)",
+      "- End of Semester examination Hurdle Identity Verified In-person: 55%% (Hurdle: True)",
+      "The program will provide you with highly developed skills in written communication, problem-solving, critical thinking and interpersonal understanding."
+    ]
+  },
+  "W2": {
+    "score": 0,
+    "rationale": "Level 0 anchor 'core assessment is entirely decontextualised — exams, problem sets and essays with no situational framing': the documented assessment of the sole prescribed unit is assignments plus two weighted exams delivered against a lecture-and-applied-class workload, with no situational framing given for any task. Scored down from level 1 under the lower-level rule: the unit's outcomes mention solving physical problems and practical problems in other fields, which could be read as scenario framing, but those are outcome statements, and R1 requires the framing to be documented in the task, not inferred from an outcome.",
+    "evidenceLines": [
+      "- Assignments Online: 15% Assignments are equally weighted% (Hurdle: False)",
+      "- End of Semester examination Hurdle Identity Verified In-person: 55%% (Hurdle: True)",
+      "- Calculus - Understand the concept of integration as the reverse of differentiation as well as area under the curve, be able to integrate simple functions, and apply integration to solve practical problems in other fields.",
+      "Workload: Lecture 3 Hours/ Week Applied Class 2 Hours/ Week 3L 2A"
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0 anchor 'no work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure': the structure documented in the extract prescribes one mathematics unit whose workload is lectures and applied classes, and no placement, practicum, live client or community project is named at program or unit level. Level 1 is not reached: the only out-of-classroom activity documented is a student exchange program, which is study abroad, not supervised participation in a workplace or professional community. The cohort is not documented as already practising, so the in-practice route does not apply.",
+    "evidenceLines": [
+      "The following 1 units of study are prescribed for this academic program:",
+      "Workload: Lecture 3 Hours/ Week Applied Class 2 Hours/ Week 3L 2A",
+      "EXCHANGE PROGRAM: <10>Because of the flexible nature of the BA degree program, BA students are ideally placed to participate in UQ's student exchange program."
+    ]
+  },
+  "workplace": 0,
+  "gates": {
+    "G1": {
+      "result": "FAIL",
+      "rationale": "FAIL condition 'generic or interchangeable content without disciplinary identity' is what the extract documents: one unit of 48 is prescribed, and it is a service mathematics foundations course rather than a specialist core. The program is described as broad and flexible with the choice of major left to the student, and the extract documents no all-compulsory specialist core, no accredited sequence and no staged prerequisite chain. A major's own sequence might supply that depth, but no major structure is documented in this extract, so on the documented evidence the gate fails.",
+      "evidenceLines": [
+        "The following 1 units of study are prescribed for this academic program:",
+        "* [ MATH1040 Mathematical Foundations I ](https://my.uq.edu.au/programs-courses/course.html?course_code=MATH1040)",
+        "The Bachelor of Arts provides a broad, flexible education and is excellent preparation for a wide range of careers.",
+        "You can choose from a wide range of majors, tailoring the degree to suit your own particular career aspirations."
+      ]
+    },
+    "G2": {
+      "result": "FAIL",
+      "rationale": "FAIL condition 'recall or scripted responses only': 75% of the documented core assessment is two identity-verified in-person exams, with the remainder equally weighted online assignments and an applied-class item, and the unit outcomes are calculation and comprehension statements. No defended trade-off decision, simulation, capstone or live project with real uncertainty and accountability is documented anywhere in the extract.",
+      "evidenceLines": [
+        "- In-Semester Exam Hurdle Identity Verified In-person: 20%% (Hurdle: True)",
+        "- End of Semester examination Hurdle Identity Verified In-person: 55%% (Hurdle: True)",
+        "- Assignments Online: 15% Assignments are equally weighted% (Hurdle: False)",
+        "- Probability - Calculate probabilities from random variables to solve practical problems"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1 straddled 1 and 2: the assessment line gives a 'Team or group-based' mode label with no task description or individual-accountability detail. Level 1 was excluded on fact, because a core assessment item does carry collaborative work, so the level-2 anchor's operative clause is met; the missing task detail is recorded here rather than resolved upward to 3.",
+    "C3 straddled 0 and 1: a 'Media and Digital Cultures' minor sits in the elective study areas, which reads toward level 1, but the extract names the minor without any course or content. Resolved to 0 by the lower-level rule and R1 (score what the handbook documents).",
+    "C5 straddled 0 and 1: the core unit teaches probability and statistics, which could be read as an introductory methods unit, but no methodology selection, data collection or literature-review assessment is documented. Resolved to 0 by the lower-level rule.",
+    "W2 straddled 0 and 1: outcomes refer to solving physical problems and practical problems in other fields, which could imply scenario-framed tasks, but the assessment items themselves carry no documented framing. Resolved to 0 by the lower-level rule and R1.",
+    "C1 versus W1: the applied-class group item could be read as spoken communication as well as collaboration. Scored in C1 only, under the one-construct-one-home rule, since C1 names coordination across people and W1 requires an audience beyond the teaching team, which is not documented.",
+    "G1: the extract documents no major or minor course sequence, so the disciplinary depth a BA extended major might supply could not be assessed; the gate was resolved on the documented prescribed structure."
+  ],
+  "notScoreable": [
+    "Program coverage: the extract documents 1 prescribed unit of the 48 units in the program, and lists majors and minors by title only, with no course lists, outcomes or assessment for any of them. Every score therefore rests on the program-level pages plus the single core unit MATH1040.",
+    "C1 recurrence: the level-3 test of whether assessed collaborative practice recurs across the program cannot be evaluated, because only one core unit's assessment is in the extract.",
+    "C2, C3, C5, W1, W2, W3: the level-0 scores describe the documented core (one unit) and the program-level text. Whether appraisal of quality, digital or AI content, inquiry, professional-genre communication, authentic tasks or work-situated learning appear inside a major's own units is absent from this extract and was not inferred.",
+    "W3 in-practice route: the extract carries no statement about whether the cohort is already practising in a profession, so the v4.2 in-practice route could not be evaluated on its own terms."
+  ],
+  "instrument": "4.2-draft",
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-07"
+  }
+};
+
+export default record;

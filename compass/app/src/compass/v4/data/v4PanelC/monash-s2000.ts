@@ -1,0 +1,135 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2's anchor - at least one core unit assesses collaborative practice - is met by the single all-student compulsory unit SCI1000, whose assessment schedule carries a 30% group vodcast and whose outcome names collaborative communication. Level 3 is not reached: the anchor requires assessed collaborative practice recurring across the program AND at least one assessment coordinating work across people AND tools/AI systems, and the extract documents no assessed division of work between people and systems anywhere, nor any second compulsory collaborative assessment (every other unit carrying group work sits in a choice menu). The course-level outcome on working collaboratively is an outcome statement only and cannot lift the score by itself (R2).",
+    "evidenceLines": [
+      "SCI1000 Science communication to influence change",
+      "- Group vodcast: 30% (Hurdle: None)",
+      "- Collaboratively communicate scientific concepts and research relating to a sustainable development goal aligned with your areas of study.",
+      "You will have opportunities to work both independently and in collaboration with other students.",
+      "work and learn both independently and collaboratively to encompass diverse abilities and perspectives"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1's anchor is met exactly: appraisal of the quality of work appears in outcomes - SCI1000 requires students to critically evaluate sources and to identify features of effective scientific communication - but no core assessment task is documented as criterion-referenced appraisal of quality. Level 2 needs core assessment that includes peer review, structured critique, a portfolio with standards or marking against exemplars; SCI1000's four assessment tasks are a group vodcast, quizzes and workshop activities, a popular media article and an infographic, none described as an appraisal task against criteria. Level 3, which needs documented and justified reliance decisions on a tool, source or collaborator, has no support at all in the extract.",
+    "evidenceLines": [
+      "- Locate and critically evaluate different sources of scientific ideas, knowledge, and research;",
+      "- Identify features of effective scientific communication across a range of disciplines, purposes, and audiences;",
+      "- Quizzes and workshop activities: 25% (Hurdle: None)",
+      "- Explore ethical aspects of science communication and its broader impact on contemporary society;"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1's anchor - AI or digital tools appear only as electives or as tool operation/training - describes this program precisely. Digital tooling reaches the compulsory layer only as operation: the mandatory mathematics and statistics unit can be satisfied by SCI1022, a practical coding-module unit, and the only mention of AI in the whole extract is a tool-awareness outcome in FIT1008/FIT1054, which sit inside one optional Level 1 sequence. Level 2 requires core units addressing AI capabilities AND limitations or ethics, discussed and assessed; the extract documents no such content. The program-level outcome on using mathematical and statistical tools keeps the score above 0 but is operational, which the anchor caps at 1.",
+    "evidenceLines": [
+      "collect, organise, analyse and interpret data meaningfully, using mathematical and statistical tools as appropriate to the discipline of the chosen major(s)",
+      "This unit will teach the fundamental principles of the writing and development of scientific computing code through the completion of practical modules.",
+      "- Demonstrate awareness and working knowledge of relevant tools and technologies, and use them effectively to increase productivity and improve quality, such as IDEs, AI, and Version Control Systems.",
+      "You must complete at least one of the following level 1 mathematics or statistics units if not already taken as part of a level 1 approved sequence."
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Level 1's anchor - transfer claimed in outcomes but not assessed - fits: the course outcome claims application and integration of scientific knowledge in professional contexts, and no compulsory assessment is documented as requiring application to novel or unfamiliar problems. Level 3 fails outright because the self-scoped research route, SCI3990, sits in the Years two and three choice list rather than the required core, so the program documents no required structured progression toward independent learning. Level 2 is not established: see the recorded ambiguity over SCI1000's self-chosen project, resolved downward.",
+    "evidenceLines": [
+      "develop, apply and integrate scientific knowledge in professional contexts to analyse challenges and to develop effective solutions",
+      "In this unit you will choose an issue of interest to you, and conduct a project to find, explore and communicate relevant science to non-specialist audiences.",
+      "SCI3990 Science in action research project",
+      "You must complete any additional units required to make the total Level 2 and 3 Bachelor of Science listed units to 60 credit points"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1's anchor - introductory methods unit; literature-review assessment - is what the compulsory layer documents: every student must complete one introductory mathematics or statistics unit, and the compulsory SCI1000 assesses locating and critically evaluating sources rather than generating primary evidence. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed, and no unit meeting that description is required of every student; see the recorded ambiguity, resolved downward. Level 3 is far out of reach: no substantial primary-evidence project is required, and no viva, defence or staged supervised review appears anywhere in the extract.",
+    "evidenceLines": [
+      "You must complete at least one of the following level 1 mathematics or statistics units if not already taken as part of a level 1 approved sequence.",
+      "- Locate and critically evaluate different sources of scientific ideas, knowledge, and research;",
+      "- Formulate hypotheses, collect experimental data and demonstrate proficiency in interpreting their results;",
+      "- Statistical analysis projects: 30% (Hurdle: None)",
+      "You must complete at least two approved Level 1 sequences from the disciplines listed below."
+    ]
+  },
+  "adaptiveness": 6,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2's anchor - at least one core assessment requires a recognised professional genre or an audience beyond the teaching team, including a public-facing artefact - is met by the compulsory SCI1000, which assesses a popular media article and an infographic produced for non-specialist audiences. That evidence rules level 1 out, because level 1 requires that no professional genre and no audience beyond the teaching team appear. Level 3 is not reached: the anchor needs professional communication assessed repeatedly and progressively across the program plus delivery to or judgement by a real external audience or practitioner with professional conduct among the assessed criteria, and the only units carrying an external practitioner judgement (the science internships, with their employer assessment) are elective.",
+    "evidenceLines": [
+      "- Popular media article: 25% (Hurdle: None)",
+      "- Infographic: 20% (Hurdle: None)",
+      "- Effectively communicate scientific thinking, complex concepts, and research to different audiences using a variety of formats;",
+      "convey ideas and results effectively to diverse audiences and in a variety of formats",
+      "- Employer assessment: 20% (Hurdle: None)"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1's anchor - contextualised or scenario-framed tasks appear, but the artefact produced and the criteria applied remain academic - is what the extract supports once the artefact-and-audience evidence is homed in W1 under the one-construct-one-home rule. Scenario framing is well documented across the choice menus (a disaster case study, laboratory reports), and the compulsory SCI1000 project is framed on a real self-chosen issue. Level 2 requires a core assessment that reproduces a professional task end to end AND is judged against criteria drawn from practice; the extract states no assessment criteria for any unit, and per R4 the score cannot rest on the handbook's own claims of real-world or work-ready framing. Level 3 additionally needs such tasks as the assessment spine plus a genuine constraint of practice, neither of which is documented.",
+    "evidenceLines": [
+      "In this unit you will choose an issue of interest to you, and conduct a project to find, explore and communicate relevant science to non-specialist audiences.",
+      "- Case study: 20% (Hurdle: None)",
+      "- Laboratory report: 15% (Hurdle: None)",
+      "- Laboratory based assessment: 30% (Hurdle: Threshold)"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1's anchor - work-situated learning exists only as an elective or an optional internship - matches the structure exactly. All three internship units and the career-skills unit appear in the Years two and three list of units a student may choose to reach the Level 2 and 3 credit-point total, not in any required part of the course. Level 2 needs a core unit that places students in a real workplace with practitioner supervision and assessment; no placement unit is compulsory. The in-practice route added at v4.2 does not apply, because the extract documents an undergraduate entry cohort, not a cohort already practising in the profession. Level 0 is ruled out because placement units do appear in the course structure.",
+    "evidenceLines": [
+      "SCI3920 Science internship",
+      "SCI3925 Science internship (Extended)",
+      "You must complete any additional units required to make the total Level 2 and 3 Bachelor of Science listed units to 60 credit points",
+      "Minimum eight weeks of placement"
+    ]
+  },
+  "workplace": 4,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The PASS condition is met on the staged prerequisite chain route: the course mandates a 48-point science listed major with a documented depth profile (no more than two Level 1 units and at least three Level 3 units) and enforces a progression rule that Level 1 sequences precede Level 2 science units. The major is described as a focused program of study developing expertise in one discipline area, so the specialist content is disciplinary rather than interchangeable, and the FAIL condition of generic content without disciplinary identity does not hold. The gate passes on the documented depth requirement rather than on an all-compulsory core, which this comprehensive degree does not have.",
+      "evidenceLines": [
+        "Complete at least one science listed major from those listed below.",
+        "A major requires eight units with no more than two units at level 1 (12 points) and at least three units (18 points) at level 3.",
+        "This will provide you with a focused program of study that will develop your expertise in one discipline area.",
+        "You must complete the level one sequences at stage one before enrolling in level two science units.",
+        "demonstrate broad knowledge and technical skills in at least one area of science"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The PASS condition - assessments require defended trade-off decisions - is documented on every Level 1 sequence pathway the structure allows. Chemistry requires students to design their own experiments, assessed through a threshold-hurdle laboratory component; physics requires designing and executing experiments; the computational sequence assesses communication of implementation choices and performance trade-offs; and the statistics option assesses selecting and justifying methods for real scientific problems. The FAIL condition of recall or scripted responses only is contradicted by the compulsory SCI1000 project, which is self-scoped rather than scripted.",
+      "evidenceLines": [
+        "design your own experiments to solve a range of chemical problems",
+        "- Laboratory based assessment: 30% (Hurdle: Threshold)",
+        "- Design and execute experiments;",
+        "- Communicate algorithmic reasoning and correctness, implementation choices, performance trade-offs and testing evidence using appropriate technical terminology and representations.",
+        "- Select, justify, and apply appropriate statistical methods to solve real-world scientific problems, including hypothesis testing, estimation, and model evaluation;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C4 straddled levels 1 and 2. The compulsory SCI1000 has students choose their own issue and run a project on it, which reads as a cross-context project (level 2), but the documented task is finding and communicating existing science rather than applying taught methods to a novel or unfamiliar problem. Resolved down to 1 by the never-resolve-upward rule.",
+    "C5 straddled levels 1 and 2. Several Level 1 sequence options do assess design and conduct of inquiry with data collection - chemistry's design-your-own-experiments laboratory hurdle, physics's design and execute experiments, biology's hypothesis formulation and experimental data collection - which would be level 2 if any were required. The structure requires only that a student complete two approved sequences from a seven-discipline menu, and a documented pathway (Mathematics plus Computational science, whose assessments are tests, projects, portfolios and coding work) reaches graduation with no assessed data collection. Resolved down to 1 by the never-resolve-upward rule.",
+    "SCI1000's popular media article and infographic fit both W1 and W2. Scored in W1, whose construct names the genres a profession uses and audiences beyond the teaching team, per the one-construct-one-home rule; W2 was then scored on the task-and-context evidence alone, which reaches only level 1.",
+    "W1 straddled levels 1 and 2. Level 2 requires the professional genre or external audience AND criteria drawn from professional practice; the extract documents the genre and audience but states no assessment criteria for any unit. Level 1 was nonetheless ruled out because its anchor requires that no professional genre appear, which the compulsory popular media article and infographic contradict. Scored 2 with the criteria half unevidenced.",
+    "G1 rests on the staged prerequisite chain and the major's documented Level 3 depth, not on an all-compulsory specialist core. Only SCI1000 is compulsory for every student, and 48 of 144 credit points are free electives, so a stricter reading of the FAIL condition on interchangeable content is available. Recorded rather than acted on, because the anchor lists the prerequisite chain as an independent PASS route.",
+    "G2 rests on assessments that are compulsory as a class but individually chosen: no single unit carrying a defended trade-off decision is required of every student. The gate passed because every documented sequence pathway includes at least one such assessment and the FAIL condition of recall-only assessment is contradicted."
+  ],
+  "notScoreable": [
+    "No item was wholly unscoreable, but the specialist half of the curriculum is absent from the extract. The course page lists 29 majors, 23 extended majors and 24 minors by code only; no major unit list, and no Level 2 or Level 3 unit page, was captured. Every unit page in the extract is Level 1 apart from MTH2010, MTH2015, MTH2040, MTE4235, SCI2030, SCI2400 and the SCI3xxx elective units. C5 levels 2-3, W2 levels 2-3 and W3 levels 2-3 could only ever be evidenced from major-level capstone, project and placement units, so those ceilings reflect the capture as much as the program. A recapture that includes the major pages should re-open C5, W2 and G1."
+  ],
+  "instrument": "4.2-draft",
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-07"
+  }
+};
+
+export default record;

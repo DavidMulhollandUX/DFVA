@@ -57,6 +57,11 @@ export const ITEM_IDS = V4_ITEMS.map((i) => i.id);
 export interface V4PortfolioRow {
   code: string;
   name: string;
+  /** The university that owns the program. Always set. */
+  institution: string;
+  /** One of Melbourne's nine official faculties, or "" for a program at any
+   *  other university — reportIndex.ts refuses to guess a Melbourne faculty
+   *  for a program that has none. */
   faculty: string;
   /** True iff status === "current": a v4 Panel C score exists. */
   assessed: boolean;
@@ -85,14 +90,15 @@ export interface V4PortfolioRow {
   verifiedAt: string | null;
 }
 
-/** All 118 rows: the assessed programs plus research degrees (and any future
- *  archived rows) as separated, honestly-labelled groups. */
+/** Every row on the index: the assessed programs plus research degrees (and any
+ *  future archived rows) as separated, honestly-labelled groups. */
 export function v4PortfolioRows(): V4PortfolioRow[] {
   return REPORT_INDEX.map((e): V4PortfolioRow => {
     if (e.status !== "current") {
       return {
         code: e.code,
         name: e.name,
+        institution: e.institution,
         faculty: e.faculty,
         assessed: false,
         unassessedReason: e.status === "research" ? "research" : "archived",
@@ -124,6 +130,7 @@ export function v4PortfolioRows(): V4PortfolioRow[] {
     return {
       code: e.code,
       name: e.name,
+      institution: e.institution,
       faculty: e.faculty,
       assessed: true,
       unassessedReason: null,
@@ -219,7 +226,7 @@ export function needsAttention(
     .slice(0, limit);
 }
 
-export interface FacultyRow {
+export interface GroupRow {
   name: string;
   /** All rows in the faculty — assessed and unassessed. Chip counts use this. */
   total: number;
@@ -233,14 +240,26 @@ export interface FacultyRow {
   gateFailures: number;
 }
 
-export function facultyRows(rows: V4PortfolioRow[]): FacultyRow[] {
-  const byFaculty = new Map<string, V4PortfolioRow[]>();
+/** Kept as the old name: the faculty table, its tests and the faculty detail
+ *  pages all type against it, and an institution row is the same shape. */
+export type FacultyRow = GroupRow;
+
+/** One row per distinct key, ordered strongest average adaptiveness first.
+ *  A row whose key is empty is dropped — that is how a non-Melbourne program
+ *  stays out of the faculty table, whose nine names are Melbourne's own. */
+function groupRows(
+  rows: V4PortfolioRow[],
+  keyOf: (r: V4PortfolioRow) => string,
+): GroupRow[] {
+  const byKey = new Map<string, V4PortfolioRow[]>();
   for (const r of rows) {
-    const list = byFaculty.get(r.faculty) ?? [];
+    const key = keyOf(r);
+    if (!key) continue;
+    const list = byKey.get(key) ?? [];
     list.push(r);
-    byFaculty.set(r.faculty, list);
+    byKey.set(key, list);
   }
-  return [...byFaculty.entries()]
+  return [...byKey.entries()]
     .map(([name, list]) => {
       const assessedList = list.filter((r) => r.assessed);
       const averages = itemAverages(list);
@@ -266,6 +285,18 @@ export function facultyRows(rows: V4PortfolioRow[]): FacultyRow[] {
       };
     })
     .sort((a, b) => (b.avgAdaptiveness ?? 0) - (a.avgAdaptiveness ?? 0));
+}
+
+/** Melbourne's nine official faculties. Non-Melbourne rows carry no faculty
+ *  (reportIndex.ts refuses to guess one) and so do not appear here. */
+export function facultyRows(rows: V4PortfolioRow[]): GroupRow[] {
+  return groupRows(rows, (r) => r.faculty);
+}
+
+/** One row per university. The cross-institution comparison the Go8
+ *  cross-section exists to support. */
+export function institutionRows(rows: V4PortfolioRow[]): GroupRow[] {
+  return groupRows(rows, (r) => r.institution);
 }
 
 /** True when either precondition gate is not met. Null gates (unassessed

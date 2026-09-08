@@ -1,92 +1,139 @@
 {
   "code": "anu-aengi",
   "panelCv4": {
-    "instrument": "4.2-draft",
-    "adaptiveness": 12,
-    "workplace": 7,
     "C1": {
       "score": 2,
-      "rationale": "Multi-stakeholder team engineering, combining varied technical specialisations, negotiating with clients, and managing external stakeholder expectations (ENGN2300, ENGN3300).",
+      "rationale": "Level 2 anchor met several times over: core units assess collaborative practice (ENGN1211's team rover project at 40%, ENGN2300's team design project at 35%, ENGN2301, ENGN3300, ENGN4300). Level 3 needs BOTH recurrence AND an assessment that requires coordinating work across people AND tools/AI systems; the extract documents team role allocation among people only, and the one documented human-plus-AI task (COMP1730's GenAI-aided programming project) is individual, with no assessed division of work between people and systems. Held at 2 per the lower-level rule.",
       "evidenceLines": [
-        "Draw on the strengths of a diverse and interdisciplinary team for an external stakeholder",
-        "Operate as an effective member of an engineering team combining different disciplinary perspectives"
+        "The major project for the course is to work in teams to design and build a robot rover that can autonomously navigate around a maze.",
+        "- Rover Project: 40% (Hurdle: False)",
+        "You will be challenged in small teams to generate an engineering design using the systems approach that meets the requirements of project stakeholders in one of a range of application domain areas of systems engineering.",
+        "- Operate as an effective member of an engineering team combining different disciplinary perspectives and strengths",
+        "- Design Project: 35% (Hurdle: False)",
+        "- Identify responsibilities within an engineering team in relation to professional practice."
       ]
     },
     "C2": {
-      "score": 3,
-      "rationale": "Extensive open-ended engineering design innovation, requiring original physical and cyber-physical systems architecture, iterative prototyping, and autonomous robotic problem solving (ENGN1211, ENGN2300, ENGN4300).",
+      "score": 2,
+      "rationale": "Level 2 anchor ('criterion-referenced appraisal of quality: peer review, structured critique') is met inside assessed core work: ENGN4300 requires students to lead review of other teams' output and processes as part of the assessed capstone, and ENGN3300/ENGN3301 run professional engineering review cycles. Level 3 requires assessment that documents and justifies reliance decisions or evidences strategy adjustment over time; the repeated reflection tasks (ENGN2300 20%, ENGN2301 logbook 10%, ENGN4300 20%) are described as connecting experience to practice, not as documenting when a tool, source or collaborator was relied on or overridden, and COMP1730's 'evaluate and improve code quality' is a learning outcome with no assessment task naming appraisal of AI output (R2). Ambiguous 2/3, resolved down.",
       "evidenceLines": [
-        "The major project for the course is to work in teams to design and build a robot rover that can autonomously navigate around a maze.",
-        "You will undertake a project using a systems approach to design, which is a formal process for generating robust and relevant engineering designs, applicable to all areas of engineering.",
-        "Synthesise technical knowledge and approaches to generate solutions to an open-ended engineering problem"
+        "During the project, you will be situated with other teams to simulate an engineering firm working on multiple projects, and will take a lead in reviewing the output and processes of other projects.",
+        "- Provide and act on feedback on engineering work in a professional environment",
+        "- Enhance and reflect on complex engineering projects through professional engineering review cycles",
+        "- Individual Reflection and Logbook: 10% (Hurdle: False)",
+        "- Reflections: 20% (Hurdle: False)",
+        "- Evaluate and improve code quality using critical judgement."
       ]
     },
     "C3": {
-      "score": 3,
-      "rationale": "Advanced quantitative systems modelling and transdisciplinary constraint balancing under trade-offs between physical, financial, and environmental performance (ENGN2301, ENGN4300).",
+      "score": 1,
+      "rationale": "The AI content that is documented in a core unit is tool operation and training — COMP1730 teaches prompting, prompt-engineering workflow and using GenAI to help understand code — which the item's migration note caps at level 1 as the operational level TEQSA identifies as non-durable. Level 2 requires core units to address AI capabilities AND limitations/ethics with use and its limits assessed: the only limitation documented in an assessment is a GenAI-free exam condition, and ENGN3301's coverage of AI risks in professional engineering is a topic statement with no assessment task addressing it (R2). Evidence is consistent with 1 and 2; taken at 1.",
       "evidenceLines": [
-        "Make predictions about the performance of a system based on engineering models, understanding that engineering design will depend on the context for which it is being developed",
-        "Synthesise technical knowledge and approaches to generate solutions to an open-ended engineering problem",
-        "Navigate constraints and balance multiple design factors"
+        "We will take a different approach, including prompting and working with GenAI, with emphasis on testing, debugging and problem decomposition, and using GenAI to help understand code.",
+        "- Apply the workflow of AI-assisted programming and prompt-engineering techniques to guide and improve code generated by AI assistants.",
+        "Assessment will include exam(s) without the aid of GenAI.",
+        "The course will also explore the potential use and risks of emerging artificial intelligence tools in professional engineering applications.",
+        "- Quizzes: 20% (Hurdle: False)"
       ]
     },
     "C4": {
-      "score": 2,
-      "rationale": "Adapts engineering design choices dynamically in scenarios marked by scarce resources, conflicting requirements, and imperfect environmental information (ENGN2300, ENGN2301).",
+      "score": 3,
+      "rationale": "Level 3 anchor 'a self-scoped capstone' is documented and assessed, not merely claimed: the capstone requires teams to define and scope the project themselves with hosts and to negotiate, scope, manage and deliver every aspect, carried by a 70%-weighted design project. The structured progression toward independent learning is documented across the design core, which explicitly positions the capstone as navigating the whole project autonomously by drawing on the earlier courses. Above level 2 because the requirement is not only application to a novel problem but a program-documented progression to self-scoped independent work.",
       "evidenceLines": [
-        "You will apply research and design techniques to visualise, prototype and evaluate alternatives, in situations limited by available resources and imperfect information.",
-        "Navigate constraints and balance multiple design factors"
+        "Teams will work to define and scope their project in consultation with project hosts, and tailor and manage system life-cycle processes to the delivery of the project.",
+        "You will be expected to negotiate, scope, manage and deliver on all aspects of a significant design project, and present your work at a public showcase towards the end of the project.",
+        "- Design Project: 70% (Hurdle: False)",
+        "In Capstone Project, you will be able to navigate the whole project autonomously, drawing upon earlier Engineering Design courses and your major.",
+        "You will develop skills for life-long learning by completing modules in a range of prototyping and modelling methods including visualisation, electronics and fabrication."
       ]
     },
     "C5": {
       "score": 2,
-      "rationale": "Demands hands-on hardware fabrication, electronic prototyping, component assembly, and physical rover testing in laboratory settings (ENGN1211, ENGN2300).",
+      "rationale": "Level 2 anchor met: ENGN2301 is a core unit in which students design models and experiments and work with data to make evidence-based decisions, assessed through an analysis plan report (20%), a statistics assignment (20%) and a project presentation and interview (20%). Level 3 requires a substantial primary-evidence project that is REQUIRED and not one route among several, with methodology defended under scrutiny: the year-4 project is 'ENGN4300 ... OR ENGN4350', ENGN4350's page carries no overview, outcomes or assessment in the extract, and the capstone's scrutiny is documented as a presentation and public showcase rather than a viva or staged supervised methodological defence. Ambiguous 2/3, resolved down.",
       "evidenceLines": [
-        "The major project for the course is to work in teams to design and build a robot rover that can autonomously navigate around a maze.",
-        "You will develop skills for life-long learning by completing modules in a range of prototyping and modelling methods including visualisation, electronics and fabrication."
+        "This includes designing models and experiments to predict the behaviour of engineering designs, and working with data to make evidence-based decisions.",
+        "- Project Framing and Analysis Plan Report: 20% (Hurdle: False)",
+        "- Statistics Assignment: 20% (Hurdle: False)",
+        "- Project Presentation and Interview: 20% (Hurdle: False)",
+        "- Apply research skills and methodologies to identify, collate, summarise and critically evaluate relevant literature, data and sources",
+        "Subject: Individual Project (ENGN4350)"
       ]
     },
+    "adaptiveness": 10,
     "W1": {
-      "score": 3,
-      "rationale": "Immerses student teams in an engineering consultancy simulation executing live commercial capstones scoped with external industry hosts across full project lifecycles (ENGN4300).",
+      "score": 2,
+      "rationale": "Level 2 anchor met: core assessment requires recognised professional genres — ENGN3300's assessed design project delivers a Systems Engineering Management Plan described as representative of best professional practice, and ENGN1211's design report and ENGN4300's presentation address professional and lay audiences beyond the marker. Level 3 additionally requires professional conduct or accountability explicitly among the ASSESSED criteria and delivery to a real external audience: upholding professional integrity appears only in ENGN3300/ENGN3301 learning outcomes, which R2 and the Barrie caution forbid scoring, and the public showcase sits in ENGN4300, one of two alternative year-4 routes. Ambiguous 2/3, resolved down.",
       "evidenceLines": [
-        "In Capstone Design Project, you will work as an independent group to deliver value on a real-world project. Teams will work to define and scope their project in consultation with project hosts, and tailor and manage system life-cycle processes to the delivery of the project.",
-        "During the project, you will be situated with other teams to simulate an engineering firm working on multiple projects, and will take a lead in reviewing the output and processes of other projects."
+        "The project will deliver a Systems Engineering Management Plan (SEMP) that is representative of best professional practice in Engineering Management.",
+        "- Design Project: 25% (Hurdle: False)",
+        "- Communicate engineering concepts and solutions effectively using different media to professional and other audiences.",
+        "- Engineering Design Report: 15% (Hurdle: False)",
+        "- Transmit design decisions and solutions using appropriate media to professional and lay audiences",
+        "- Presentation: 10% (Hurdle: False)",
+        "- Uphold professional integrity and ethical behaviour in a management context"
       ]
     },
     "W2": {
-      "score": 2,
-      "rationale": "Instills professional engineering ethics, safety accountability, reflective practice, and governance integrity consistent with Engineers Australia standards (ENGN1211, ENGN3300).",
+      "score": 3,
+      "rationale": "Level 3 anchor met on documented task features rather than on the 'real-world' label (R4). Practice-shaped tasks are the assessment spine, one at every stage: ENGN1211's rover build in year 1, ENGN2300's stakeholder-requirement design project (35%) and ENGN2301's analysis plan in year 2, ENGN3300's SEMP deliverable (25%) and ENGN3301's design project (40%) in year 3, and the year-4 capstone design project (70%). Genuine constraints of practice are documented explicitly — alternatives evaluated under limited resources and imperfect information, stakeholder requirements as the criterion, and time-sensitive deliverables — which is what lifts this above the single-instance level 2.",
       "evidenceLines": [
-        "Uphold professional integrity and ethical behaviour in a management context",
-        "Students work in teams, allowing them to develop their collaboration and communication skills, as well as their project management skills. This is complemented by learning about the importance of reflective and ethical professional practice."
+        "You will apply research and design techniques to visualise, prototype and evaluate alternatives, in situations limited by available resources and imperfect information.",
+        "The major project in this course will address a real-world engineering system.",
+        "- Design Project: 40% (Hurdle: False)",
+        "- Apply project management and organisational skills to produce time-sensitive deliverables in a transdisciplinary team",
+        "- Design Project: 70% (Hurdle: False)",
+        "The project will deliver a Systems Engineering Management Plan (SEMP) that is representative of best professional practice in Engineering Management."
       ]
     },
     "W3": {
-      "score": 2,
-      "rationale": "Applies formal systems engineering methodologies, architectural modeling tools, and engineering analysis software across system life-cycles (ENGN1211, ENGN2300).",
+      "score": 1,
+      "rationale": "No placement, practicum, internship or community-based unit appears anywhere in the four-year structure, so the level-2 anchor's core requirement — a unit that PLACES students in a real workplace or professional-community setting with practitioner supervision and assessment — is not documented. The nearest evidence, the capstone's consultation with project hosts, is explicitly framed as being situated with other teams to simulate an engineering firm, and simulation is scored in W2, not here; no practitioner supervision or accountability to a host is documented. Scored above 0 only because host-facing project work does appear in the structure. Ambiguous 1/2, resolved down.",
       "evidenceLines": [
-        "During the early stages of the course, you will become fluent in the language of systems engineering for the purposes of describing a design problem space. This includes how to research and systematically generate requirements, undertake a functional analysis of a system, and create and communicate the architecture of an engineering design.",
-        "Select and use appropriate engineering tools to model and analyse engineering components."
+        "In Capstone Design Project, you will work as an independent group to deliver value on a real-world project.",
+        "During the project, you will be situated with other teams to simulate an engineering firm working on multiple projects, and will take a lead in reviewing the output and processes of other projects.",
+        "- Draw on the strengths of a diverse and interdisciplinary team for an external stakeholder"
       ]
     },
+    "workplace": 6,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "Program satisfies foundational discipline depth requirements.",
+        "rationale": "PASS on the anchor's 'staged prerequisite chain' and specialist-core routes: a 192-unit honours award with a compulsory five-course interdisciplinary engineering design core numbered and sequenced from ENGN1211 to ENGN3301 into a year-4 capstone, technical courses that state they build directly on their year-1 predecessors, mathematics prerequisites at admission, and a required ENGN major. Content is disciplinary and non-interchangeable, not generic.",
         "evidenceLines": [
-          "Discovering Engineering is the foundation course for engineering. The course invites students to discover engineering by tackling an open-ended design project, as well as learning a variety of essential technical and non-technical skills."
+          "The Bachelor of Engineering (Honours) requires completion of 192 units, of which:",
+          "ED2 is the second course in the interdisciplinary engineering design core, which situates design within the life-cycle of systems.",
+          "ENGN2218Electrical Systems & Design builds directly onENGN1218Introduction to Electrical Systems",
+          "ACT: Mathematical Methods (Major)/Further Mathematics (Major)/Specialist Mathematics/Specialist Methods (Major)",
+          "24 units from completion of courses from the following subject areas: ENGN Engineering"
         ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "Program satisfies contextual professional and analytical practice requirements.",
+        "rationale": "PASS: core assessment requires defended trade-off decisions and carries real uncertainty. ENGN2301 requires navigating constraints, balancing multiple design factors and constructing justifications from data; ENGN2219 assesses evaluation of design trade-offs; the capstone requires critically evaluating alternative options to justify solutions on an open-ended project. This is not recall or scripted response.",
         "evidenceLines": [
-          "In Capstone Design Project, you will work as an independent group to deliver value on a real-world project. Teams will work to define and scope their project in consultation with project hosts, and tailor and manage system life-cycle processes to the delivery of the project."
+          "- Navigate constraints and balance multiple design factors",
+          "- Construct clear justifications for design based on data and analysis",
+          "- Evaluate tradeoffs of different designs and ideas.",
+          "- Develop, analyse, and critically evaluate alternative options in order to justify and generate solutions in a real-world project",
+          "- Justify appropriate operational decisions in the running of a complex engineering system"
         ]
       }
     },
-    "ambiguities": [],
-    "notScoreable": []
+    "ambiguities": [
+      "C1 straddled 2 and 3: assessed teamwork recurs across every stage (level-3 first clause satisfied), but no assessment documents allocation of work between people and tools/AI systems; the lower-level rule and the 'one construct, one home' rule (COMP1730's GenAI work is individual) held it at 2.",
+      "C2 straddled 2 and 3: reflection is assessed in five core units and a logbook is assessed in ENGN2301, which is process-focused in form, but the extract never states that any reflection requires documenting or justifying reliance on a tool, source or collaborator; resolved down to 2.",
+      "C3 straddled 1 and 2: ENGN3301 states it explores the use and risks of AI tools in professional engineering, which reads as level-2 capabilities-plus-limits content, but no assessment task in that course names AI, and COMP1730's AI content is prompt-engineering tool operation, which the item caps at level 1; resolved down to 1 under R2.",
+      "C5 straddled 2 and 3: ENGN2301's 'Project Presentation and Interview' is defence-shaped scrutiny of a data-generating project, but the substantial year-4 project is one of two routes (ENGN4300 OR ENGN4350) and no viva or staged supervised methodological review is documented; resolved down to 2.",
+      "W1 straddled 2 and 3: professional-genre communication is assessed repeatedly and progressively and the capstone includes a public showcase, but professional conduct appears as a learning outcome rather than as a stated assessment criterion, which R2 and the Barrie caution in the item's migration note forbid scoring; resolved down to 2.",
+      "W3 straddled 1 and 2: the capstone is core and assessed and involves external project hosts (level-2 'live client project' shape), but the extract documents simulation of an engineering firm rather than placement in a workplace, and no practitioner supervision or host accountability; resolved down to 1. Scored above 0 because host-facing project work does appear in the structure.",
+      "Seven core or alternative courses have empty Overview, Learning Outcomes and Assessment Tasks fields in the extract (ENGN1217, ENGN1218, ENGN2217, ENGN2228, ENGN4350, MATH1013, MATH1014), so every item was scored from the documented courses only; the missing pages could only raise scores, never lower them, so the lower-level rule applies to them as well."
+    ],
+    "notScoreable": [],
+    "instrument": "4.2-draft",
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-09-07"
+    }
   }
 }

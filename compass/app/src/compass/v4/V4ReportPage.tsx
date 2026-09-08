@@ -6,7 +6,7 @@ import { getFaculty } from "../faculty";
 import { v3ProgramByCode, type V3Program } from "../v3/data/v3Programs";
 import { V4_INSTRUMENT } from "./data/v4Rubric";
 import { V4_RESEARCH_DEGREES } from "./data/v4Meta";
-import { v4OnlyProgramByCode, v4PanelABasisByCode } from "./data/v4Basis";
+import { useV4Basis } from "./useV4Basis";
 import { useV4PanelC } from "./useV4PanelC";
 import { basisMedian } from "./exposureBasis";
 import { v4Quadrant } from "./v4Position";
@@ -47,13 +47,16 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
     ? PROGRAMS.find((p) => p.assessmentSlug === `dfva-${code}`)
     : undefined;
   const v3 = code ? v3ProgramByCode(code) : undefined;
-  // The record is its own chunk; `ready` is false until it has arrived.
-  const { panelC, ready } = useV4PanelC(code);
+  // Both records are their own chunks; the page holds its first paint until
+  // each has arrived, rather than painting a report with no exposure on it.
+  const { panelC, ready: panelCReady } = useV4PanelC(code);
+  const { onlyProgram, panelABasis, ready: basisReady } = useV4Basis(code);
+  const ready = panelCReady && basisReady;
   // A program can be scored on Panel C without being in the assessed portfolio:
   // no exposure, no alumni destinations, no market report. That is half a
   // position, and the page says so rather than pretending the assessment does
   // not exist (the old behaviour) or estimating the missing half.
-  const v4Only = !v3 && code ? v4OnlyProgramByCode(code) : undefined;
+  const v4Only = v3 ? undefined : onlyProgram;
   const program: Pick<V3Program, "code" | "name" | "faculty"> | undefined =
     v3 ?? v4Only
       ? {
@@ -112,7 +115,7 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
   // Which destination distribution the value was computed on (own record,
   // program family, related program, or field list). Drives the label, the
   // median it is placed against, and how the plane draws it.
-  const basis = code ? v4PanelABasisByCode(code) : undefined;
+  const basis = panelABasis;
   const expMedian = basisMedian(basis);
   const position =
     exposure !== null ? v4Quadrant(exposure, panelC.adaptiveness, basis) : null;
