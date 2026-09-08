@@ -13,33 +13,41 @@ const record: V4BasisRecord = {
     "code": "adelaide-mdsci_mdatasci",
     "name": "Master of Data Science",
     "hasMarketReport": false,
-    "exposure": 94.94,
-    "entryExposure": 96.08,
-    "jirN": 96,
-    "nTitles": 15,
-    "nMedium": 14,
+    "exposure": 81.84,
+    "entryExposure": 81.93,
+    "jirN": null,
+    "nTitles": 12,
+    "nMedium": 4,
     "exposureBasis": {
-      "tier": "exact",
-      "grain": "program",
+      "tier": "field",
+      "grain": "field",
       "sources": [
         {
-          "name": "Master of Data Science",
-          "n": 96
+          "name": "JSA HEO · 020199 Computer Science, n.e.c.",
+          "n": null
         }
       ],
-      "indexVariant": "AIOE-2021"
+      "field": "020199",
+      "indexVariant": "AIOE-2021",
+      "coverage": 46.4,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 85.44
     }
   },
   "panelABasis": {
-    "tier": "exact",
-    "grain": "program",
+    "tier": "field",
+    "grain": "field",
     "sources": [
       {
-        "name": "Master of Data Science",
-        "n": 96
+        "name": "JSA HEO · 020199 Computer Science, n.e.c.",
+        "n": null
       }
     ],
-    "indexVariant": "AIOE-2021"
+    "field": "020199",
+    "indexVariant": "AIOE-2021",
+    "coverage": 46.4,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 85.44
   }
 };
 

@@ -36,14 +36,29 @@ def load_crosswalk():
     return glob_map, scoped
 
 
+# Melbourne codes are bare (244cw, b-sci) or carry one of these prefixes; every
+# other prefix is an institution slug (monash-, uq-, usyd-, …).
+UOM_CODE_PREFIXES = {'mc', 'b', 'dr', 'dh', 'me'}
+
+
+def is_melbourne(code):
+    prefix, _, rest = code.partition('-')
+    return not rest or prefix in UOM_CODE_PREFIXES
+
+
 def resolve(code):
     """The program's professions as data — what --json prints. Shared with
     dfva-market-scaffold.py so the market report and this view cannot disagree."""
     fields = json.loads((ROOT / 'data/jsa/program_fields.json').read_text())['programs']
     meta = fields.get(code, {})
     name = meta.get('name')
+    # data/jir_data.json is 141 University of Melbourne Job Insights Reports, and
+    # this match is on program NAME alone. Monash's Master of Public Health has
+    # the same name as Melbourne's, so it resolved to Melbourne's 562 graduates
+    # and the market report's section 1 claimed them as "this program's own"
+    # destination record. Only a Melbourne code may reach the JIR store.
     records = [r for r in json.loads((ROOT / 'data/jir_data.json').read_text())['records']
-               if name and r['program'] == name]
+               if name and r['program'] == name and is_melbourne(code)]
     glob_map, scoped = load_crosswalk()
 
     if not records:

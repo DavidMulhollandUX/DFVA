@@ -13,33 +13,41 @@ const record: V4BasisRecord = {
     "code": "usyd-juris-doctor",
     "name": "Juris Doctor",
     "hasMarketReport": false,
-    "exposure": 94.43,
-    "entryExposure": 93.12,
-    "jirN": 1277,
-    "nTitles": 15,
-    "nMedium": 7,
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 4,
     "exposureBasis": {
-      "tier": "exact",
-      "grain": "program",
+      "tier": "field",
+      "grain": "field",
       "sources": [
         {
-          "name": "Juris Doctor",
-          "n": 1277
+          "name": "JSA HEO · 0909 Law",
+          "n": null
         }
       ],
-      "indexVariant": "AIOE-2021"
+      "field": "0909",
+      "indexVariant": "AIOE-2021",
+      "coverage": 58.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 93.74
     }
   },
   "panelABasis": {
-    "tier": "exact",
-    "grain": "program",
+    "tier": "field",
+    "grain": "field",
     "sources": [
       {
-        "name": "Juris Doctor",
-        "n": 1277
+        "name": "JSA HEO · 0909 Law",
+        "n": null
       }
     ],
-    "indexVariant": "AIOE-2021"
+    "field": "0909",
+    "indexVariant": "AIOE-2021",
+    "coverage": 58.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 93.74
   }
 };
 

@@ -156,3 +156,25 @@ def test_select_claims_skips_question_claims():
                                     claim('s', 'L1', 'Employers list Python in most postings.')]}
     texts = [d['text'] for pair in ms.select_claims([led]) for d in pair if isinstance(d, dict) and 'lane' in d]
     assert texts == ['Employers list Python in most postings.']
+
+
+def test_only_melbourne_codes_reach_the_jir_store():
+    """data/jir_data.json is 141 University of Melbourne Job Insights Reports and
+    the record match is on program NAME. Monash's Master of Public Health shares
+    its name with Melbourne's, so it resolved at "exact" grain and section 1 of
+    its market report claimed Melbourne's 562 graduates as its own."""
+    professions_of = importlib.import_module('professions-of')
+    for code in ('monash-m6024', 'uq-5760', 'usyd-public-health', 'anu-mpubh'):
+        assert professions_of.resolve(code)['grain'] == 'field', code
+    # Melbourne's own record still resolves.
+    assert professions_of.resolve('244cw')['grain'] == 'exact'
+
+
+def test_a_non_melbourne_report_never_cites_a_unimelb_handbook_url():
+    """The header hardcoded the UoM handbook pattern, so every non-Melbourne
+    report carried a fabricated source line for a page that does not exist."""
+    scaffold = importlib.import_module('dfva-market-scaffold')
+    assert 'handbook.monash.edu' in scaffold.handbook_url('monash-m6024')
+    assert 'handbook.unimelb.edu.au' in scaffold.handbook_url('244cw')
+    for code in ('uq-5760', 'anu-mpubh', 'uwa-92550'):
+        assert 'unimelb' not in scaffold.handbook_url(code), code
