@@ -51,6 +51,16 @@
   ./src/… from routes.tsx" (or, worse, ships the old routes). `wasp compile` needs Node 24 on PATH
   (`export PATH="$HOME/.nvm/versions/node/v24.16.0/bin:$PATH"`); `nvm use` does not persist across
   tool calls.
+- **Never `pkill` a running `wasp start`, and never run two at once.** `.wasp/out`
+  is regenerated continuously, and wasp does NOT recreate its subdirectories if
+  they go missing — it fails with `openFile: does not exist` and stays failed.
+  Two concurrent `wasp start` processes cost the `sdk/wasp/core` and
+  `sdk/wasp/universal` trees on 2026-09-08; a `pkill` during teardown cost
+  `.wasp/out/db/` the same day. **`rm -rf` on the missing directory makes it
+  worse** — the only repair is `wasp clean && wasp install && wasp compile`
+  (several minutes, needs Node 24 on PATH). Stop the app by interrupting the
+  process that owns it, and check `pgrep -f "wasp start"` before starting another.
+
 - **A stale `.wasp/out/web-app/build` is NOT a stale-deploy risk.** `deploy-dev.sh`
   runs `npx vite build`, which reads `compass/app/src` directly and overwrites that
   directory — the build dir's date says nothing about what ships. What does matter
