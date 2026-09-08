@@ -30,6 +30,7 @@
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs'
 import * as path from 'node:path'
 import { institutionOf, MELBOURNE } from './lib-institution'
+import { V4_INDEX } from '../compass/app/src/compass/v4/data/v4Meta'
 
 const ROOT = path.resolve(__dirname, '..')
 const CAPTURES = path.join(ROOT, 'scrapes/v4')
@@ -119,13 +120,40 @@ export function captureTitle(text: string, code = ''): string | null {
 const STRUCTURE =
   /(award requirements|course structure|program structure|requirements for the (degree|award)|core units|credit points|units of credit|course rules|resolutions of the)/i
 
+/** Study level, which the bare-name path needs to tell a master's from a
+ *  bachelor's when the manifest name carries no award word. UNSW states it on
+ *  a `**Study Level**` line; Sydney states it only in the handbook URL —
+ *  `medicine-health-pg/coursework/…` and `law/postgraduate/…` are
+ *  postgraduate, `architecture/undergraduate/…` and the un-suffixed
+ *  `arts/coursework/…` are undergraduate. A URL that says neither stays null,
+ *  and the candidate is skipped exactly as before. */
+export function studyLevelOf(head: string, url: string): string | null {
+  const stated = head.match(/\*\*Study Level\*\*:\s*(\w+)/i)?.[1]
+  if (stated) return stated
+  // Match on the path segments themselves rather than fixed positions: the
+  // host is followed by `handbooks/` at Sydney and by nothing at all elsewhere.
+  const segments = url.replace(/^https?:\/\/[^/]+\//, '').split('/')
+  if (segments.some((seg) => /^postgraduate/i.test(seg) || /-pg$/i.test(seg))) return 'Postgraduate'
+  if (segments.some((seg) => /^undergraduate/i.test(seg))) return 'Undergraduate'
+  // An un-suffixed faculty that lists coursework is Sydney's undergraduate form
+  // (`arts/coursework/…`); the postgraduate one always carries the `-pg` suffix.
+  if (segments.some((seg) => /^coursework/i.test(seg))) return 'Undergraduate'
+  return null
+}
+
 function loadCandidates(): Candidate[] {
   const man = JSON.parse(readFileSync(path.join(ROOT, 'scripts/v4_cohort_ext.json'), 'utf8')) as {
     code: string
     name: string
     url?: string
   }[]
+  // Two published codes — `244cw` and `mc-mgmthre` — are in the generated
+  // registry but in neither cohort manifest, so a manifest-only lookup drops
+  // them. `244cw` is Melbourne's Master of Public Health, the reference the
+  // Public health row is read against, so the row would print without its
+  // reference cell.
   const names = new Map(man.map((m) => [m.code, m.name]))
+  for (const [code, e] of Object.entries(V4_INDEX)) if (!names.has(code)) names.set(code, e.name)
   const urls = new Map(man.map((m) => [m.code, m.url ?? '']))
   const out: Candidate[] = []
   for (const f of readdirSync(path.join(ROOT, 'dfva/source/evidence'))) {
@@ -145,7 +173,7 @@ function loadCandidates(): Candidate[] {
       url,
       capturePath,
       captureBytes: statSync(capturePath).size,
-      studyLevel: head.match(/\*\*Study Level\*\*:\s*(\w+)/i)?.[1] ?? null,
+      studyLevel: studyLevelOf(head, url),
       // A research degree is out of scope for Panel C v4 at any institution:
       // the instrument reads coursework structure and assessment.
       isResearch: /\/research\/programs\//.test(head) || /\*\*Study Level\*\*:\s*Research/i.test(head),

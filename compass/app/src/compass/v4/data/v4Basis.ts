@@ -289,6 +289,7 @@ import b_usyd_education from "./v4Basis/usyd-education";
 import b_usyd_juris_doctor from "./v4Basis/usyd-juris-doctor";
 import b_usyd_mba_technology_digital_strategy from "./v4Basis/usyd-mba-technology-digital-strategy";
 import b_usyd_psychology_coaching from "./v4Basis/usyd-psychology-coaching";
+import b_usyd_public_health from "./v4Basis/usyd-public-health";
 import b_usyd_science_extended from "./v4Basis/usyd-science-extended";
 import b_uwa_42520 from "./v4Basis/uwa-42520";
 import b_uwa_62530 from "./v4Basis/uwa-62530";
@@ -573,6 +574,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = Object.fromEntrie
     ["usyd-juris-doctor", b_usyd_juris_doctor.onlyProgram],
     ["usyd-mba-technology-digital-strategy", b_usyd_mba_technology_digital_strategy.onlyProgram],
     ["usyd-psychology-coaching", b_usyd_psychology_coaching.onlyProgram],
+    ["usyd-public-health", b_usyd_public_health.onlyProgram],
     ["usyd-science-extended", b_usyd_science_extended.onlyProgram],
     ["uwa-42520", b_uwa_42520.onlyProgram],
     ["uwa-62530", b_uwa_62530.onlyProgram],
@@ -860,6 +862,7 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = Object.fromEntrie
     ["usyd-juris-doctor", b_usyd_juris_doctor.panelABasis],
     ["usyd-mba-technology-digital-strategy", b_usyd_mba_technology_digital_strategy.panelABasis],
     ["usyd-psychology-coaching", b_usyd_psychology_coaching.panelABasis],
+    ["usyd-public-health", b_usyd_public_health.panelABasis],
     ["usyd-science-extended", b_usyd_science_extended.panelABasis],
     ["uwa-42520", b_uwa_42520.panelABasis],
     ["uwa-62530", b_uwa_62530.panelABasis],

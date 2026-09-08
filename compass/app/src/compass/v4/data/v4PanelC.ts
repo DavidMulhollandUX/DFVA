@@ -295,6 +295,7 @@ import p_usyd_education from "./v4PanelC/usyd-education";
 import p_usyd_juris_doctor from "./v4PanelC/usyd-juris-doctor";
 import p_usyd_mba_technology_digital_strategy from "./v4PanelC/usyd-mba-technology-digital-strategy";
 import p_usyd_psychology_coaching from "./v4PanelC/usyd-psychology-coaching";
+import p_usyd_public_health from "./v4PanelC/usyd-public-health";
 import p_usyd_science_extended from "./v4PanelC/usyd-science-extended";
 import p_uwa_42520 from "./v4PanelC/uwa-42520";
 import p_uwa_62530 from "./v4PanelC/uwa-62530";
@@ -575,6 +576,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "usyd-juris-doctor": p_usyd_juris_doctor,
   "usyd-mba-technology-digital-strategy": p_usyd_mba_technology_digital_strategy,
   "usyd-psychology-coaching": p_usyd_psychology_coaching,
+  "usyd-public-health": p_usyd_public_health,
   "usyd-science-extended": p_usyd_science_extended,
   "uwa-42520": p_uwa_42520,
   "uwa-62530": p_uwa_62530,
