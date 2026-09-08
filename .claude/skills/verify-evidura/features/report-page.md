@@ -10,6 +10,11 @@ Covered by: `compass/e2e-tests/tests/compass/reports.spec.ts`.
   market part, improvement plan, footer with archived v1 links.
 - Research-degree report (`v4/report/ResearchReport.tsx`): no rating, a research
   notice, the carried-forward narrative, market card, archived v1 link.
+- Related courses (`v4/report/RelatedCourses.tsx`), at the foot of a v4 report:
+  the same subject at other universities, each with its scores, an eight-item
+  profile marked with this program's score, and a link to its own report.
+  Absent for a subject no other published university runs, and the hero nav
+  drops its entry to match.
 - Pending state (`v4/report/PendingReport.tsx`) for a v1-only program.
 - Archived v1 page (`compass/app/src/compass/ReportDetailPage.tsx`) for any
   `dfva-*` slug.
@@ -39,6 +44,10 @@ Test ids:
 - Scorecard and gates: `data-testid="rated-v4-*"` (C1–C5, W1–W3),
   `data-testid="gate-*"` (G1, G2), `data-testid="v4-workplace-pending"`.
 - Market and plan: `data-testid="v4-no-market"`, `data-testid="v4-no-plan"`.
+- Related courses: `data-testid="related-course"` (one per university, carries
+  `data-code`), `data-testid="related-item-bar"` (eight per card, carrying
+  `data-item` and `data-score`), `data-testid="related-delta"`,
+  `data-testid="related-rank"`.
 - Footer: `data-testid="archived-reports"`.
 - Research and pending: `data-testid="v4-research-notice"`,
   `data-testid="v4r-no-plan"` (research pages state that no v4 plan exists),
@@ -62,3 +71,10 @@ Test ids:
 - `find` in the in-app browser matches accessibility names, not test ids. Use
   `javascript_tool` with `document.querySelectorAll('[data-testid]')` to list
   what a page rendered.
+- A v4 report runs to 17,000–27,000 px, and the in-app browser returns a blank
+  image for a screenshot taken at that scroll depth. The page is fine; the
+  capture is not. To see a section that far down, clone it into an empty body
+  with `javascript_tool` and screenshot at scroll 0.
+- Related-courses matching is on subject, never on name or level: UNSW names
+  programs by the bare field, so its level is `other` and gating on level would
+  drop it from every comparison (`v4/relatedPrograms.ts`).
