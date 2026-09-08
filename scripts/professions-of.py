@@ -22,11 +22,51 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 
 
+# The same three sources, in the same precedence, as CROSSWALK_SOURCES in
+# scripts/dfva-panela-basis.ts. This file read only the last of them, so a title
+# mapped authoritatively — "Health Promotion Officer", the largest single
+# destination for public health graduates, along with Management Consultant,
+# Solicitor and Software Engineer — was invisible here and dropped from the
+# market report's job-family map. What survived was the residual buckets, so a
+# Master of Public Health drew its discussion signals from solar accreditation
+# and retail, and a Master of Clinical Rehabilitation from GMO research. The
+# exposure numbers were always right; only this path was short a crosswalk.
+_SOC_TITLES = None
+
+
+def soc_titles():
+    """O*NET SOC code -> title, from the Felten population the indices come from."""
+    global _SOC_TITLES
+    if _SOC_TITLES is None:
+        rows = json.loads((ROOT / 'data/aioe/felten_aioe.json').read_text())
+        _SOC_TITLES = {r['soc']: r['title'] for r in rows}
+    return _SOC_TITLES
+
+
+CROSSWALK_SOURCES = (
+    'data/aioe/reconciliation/reconcile_C_authoritative_288_index.csv',
+    'data/aioe/reconciliation/v2_panelA_new_occupation_crosswalk.csv',
+    'data/aioe/v31_extension_crosswalk.csv',
+)
+
+
 def load_crosswalk():
     glob_map, scoped = {}, {}
-    with open(ROOT / 'data/aioe/v31_extension_crosswalk.csv') as fh:
-        for r in csv.DictReader(fh):
-            glob_map[r['occupation'].strip().lower()] = (r['onet_soc_code'], r['onet_soc_title'])
+    for rel in CROSSWALK_SOURCES:
+        path = ROOT / rel
+        if not path.exists():
+            continue
+        with open(path) as fh:
+            for r in csv.DictReader(fh):
+                if not r.get('occupation') or not r.get('onet_soc_code'):
+                    continue
+                # The authoritative file carries no onet_soc_title column, so the
+                # SOC's own name is read from the Felten population rather than
+                # falling back to the bare code, which would print "21-1091"
+                # where the report means "Health Educators".
+                glob_map[r['occupation'].strip().lower()] = (
+                    r['onet_soc_code'],
+                    r.get('onet_soc_title') or soc_titles().get(r['onet_soc_code'], r['onet_soc_code']))
     p = ROOT / 'data/aioe/program_scoped_crosswalk.csv'
     if p.exists():
         with open(p) as fh:
