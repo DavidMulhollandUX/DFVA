@@ -13,75 +13,41 @@ const record: V4BasisRecord = {
     "code": "uq-2336",
     "name": "Bachelor of Commerce",
     "hasMarketReport": false,
-    "exposure": 97.01,
-    "entryExposure": 96.82,
-    "jirN": 8738,
-    "nTitles": 71,
-    "nMedium": 23,
+    "exposure": 88.71,
+    "entryExposure": 88.85,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 1,
     "exposureBasis": {
-      "tier": "pooled",
-      "grain": "program-family",
+      "tier": "field",
+      "grain": "field",
       "sources": [
         {
-          "name": "Bachelor of Commerce (Accounting)",
-          "n": 1693
-        },
-        {
-          "name": "Bachelor of Commerce (Actuarial Studies)",
-          "n": 101
-        },
-        {
-          "name": "Bachelor of Commerce (Economics)",
-          "n": 1549
-        },
-        {
-          "name": "Bachelor of Commerce (Finance)",
-          "n": 3546
-        },
-        {
-          "name": "Bachelor of Commerce (Management)",
-          "n": 928
-        },
-        {
-          "name": "Bachelor of Commerce (Marketing)",
-          "n": 921
+          "name": "JSA HEO · 0803 Business and Management",
+          "n": null
         }
       ],
+      "field": "0803",
       "indexVariant": "AIOE-2021",
-      "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+      "coverage": 34.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 89.99
     }
   },
   "panelABasis": {
-    "tier": "pooled",
-    "grain": "program-family",
+    "tier": "field",
+    "grain": "field",
     "sources": [
       {
-        "name": "Bachelor of Commerce (Accounting)",
-        "n": 1693
-      },
-      {
-        "name": "Bachelor of Commerce (Actuarial Studies)",
-        "n": 101
-      },
-      {
-        "name": "Bachelor of Commerce (Economics)",
-        "n": 1549
-      },
-      {
-        "name": "Bachelor of Commerce (Finance)",
-        "n": 3546
-      },
-      {
-        "name": "Bachelor of Commerce (Management)",
-        "n": 928
-      },
-      {
-        "name": "Bachelor of Commerce (Marketing)",
-        "n": 921
+        "name": "JSA HEO · 0803 Business and Management",
+        "n": null
       }
     ],
+    "field": "0803",
     "indexVariant": "AIOE-2021",
-    "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+    "coverage": 34.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 89.99
   }
 };
 

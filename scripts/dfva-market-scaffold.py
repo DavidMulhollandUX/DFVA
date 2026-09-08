@@ -53,6 +53,9 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 professions_of = importlib.import_module('professions-of')
 footer = importlib.import_module('build-market-footer')
 
+# Melbourne codes are bare (244cw) or carry one of these prefixes; every other
+# prefix is an institution slug (monash-, uq-, …).
+UOM_CODE_PREFIXES = {'mc', 'b', 'dr', 'dh', 'me', 'j17re', 'd01lf', 'm04aa', 'n01aa'}
 A = 'TO BE AUTHORED'
 NOT_STATED = 'not stated in the market report'
 EMPIRICAL = 'empirical-five-lane-v1'
@@ -195,8 +198,24 @@ def _keywords(led):
     return [k for k in (led.get('jobAds') or {}).get('topSkills', []) if k and not NO_KEYWORDS.search(k)]
 
 
+def handbook_url(code):
+    """The program's own handbook page. The UoM pattern was hardcoded here, so
+    every non-Melbourne report cited a unimelb.edu.au URL that does not exist —
+    a fabricated source line on a document about another university. The cohort
+    manifest carries the real URL for all 3,023 programs."""
+    manifest = json.loads((ROOT / 'scripts/v4_cohort_ext.json').read_text())
+    for entry in manifest:
+        if entry.get('code') == code and entry.get('url'):
+            return entry['url']
+    if '-' not in code or code.split('-')[0] in UOM_CODE_PREFIXES:
+        return f"https://handbook.unimelb.edu.au/2026/courses/{code}"
+    raise SystemExit(
+        f"{code}: no handbook URL in scripts/v4_cohort_ext.json, and the code is not "
+        f"a University of Melbourne one — refusing to cite a URL that may not exist")
+
+
 def render_header(code, name, date):
-    url = f"https://handbook.unimelb.edu.au/2026/courses/{code}"
+    url = handbook_url(code)
     return f"# DFVA MARKET INTELLIGENCE: {name} ({code.upper()})\n**Assessment Date:** {date} | **Source:** {url}\n"
 
 

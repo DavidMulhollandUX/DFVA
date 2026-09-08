@@ -13,33 +13,41 @@ const record: V4BasisRecord = {
     "code": "uq-5770",
     "name": "Master of Business Administration",
     "hasMarketReport": false,
-    "exposure": 91.73,
-    "entryExposure": 95.09,
-    "jirN": 422,
-    "nTitles": 15,
-    "nMedium": 9,
+    "exposure": 88.71,
+    "entryExposure": 88.85,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 1,
     "exposureBasis": {
-      "tier": "exact",
-      "grain": "program",
+      "tier": "field",
+      "grain": "field",
       "sources": [
         {
-          "name": "Master of Business Administration",
-          "n": 422
+          "name": "JSA HEO · 0803 Business and Management",
+          "n": null
         }
       ],
-      "indexVariant": "AIOE-2021"
+      "field": "0803",
+      "indexVariant": "AIOE-2021",
+      "coverage": 34.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 89.99
     }
   },
   "panelABasis": {
-    "tier": "exact",
-    "grain": "program",
+    "tier": "field",
+    "grain": "field",
     "sources": [
       {
-        "name": "Master of Business Administration",
-        "n": 422
+        "name": "JSA HEO · 0803 Business and Management",
+        "n": null
       }
     ],
-    "indexVariant": "AIOE-2021"
+    "field": "0803",
+    "indexVariant": "AIOE-2021",
+    "coverage": 34.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 89.99
   }
 };
 

@@ -13,33 +13,53 @@ const record: V4BasisRecord = {
     "code": "monash-m6024",
     "name": "Master of Public Health",
     "hasMarketReport": false,
-    "exposure": 89.46,
-    "entryExposure": 84.77,
-    "jirN": 562,
-    "nTitles": 15,
-    "nMedium": 8,
+    "exposure": 76.5,
+    "entryExposure": 76.42,
+    "jirN": null,
+    "nTitles": 11,
+    "nMedium": 0,
     "exposureBasis": {
-      "tier": "exact",
-      "grain": "program",
+      "tier": "field",
+      "grain": "field",
       "sources": [
         {
-          "name": "Master of Public Health",
-          "n": 562
+          "name": "JSA HEO · 0613 Public Health",
+          "n": null
         }
       ],
-      "indexVariant": "AIOE-2021"
+      "field": "0613",
+      "indexVariant": "AIOE-2021",
+      "coverage": 28.1,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "University Lecturer",
+          "share": 1.688
+        }
+      ],
+      "exposureWeighted": 76.88
     }
   },
   "panelABasis": {
-    "tier": "exact",
-    "grain": "program",
+    "tier": "field",
+    "grain": "field",
     "sources": [
       {
-        "name": "Master of Public Health",
-        "n": 562
+        "name": "JSA HEO · 0613 Public Health",
+        "n": null
       }
     ],
-    "indexVariant": "AIOE-2021"
+    "field": "0613",
+    "indexVariant": "AIOE-2021",
+    "coverage": 28.1,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "University Lecturer",
+        "share": 1.688
+      }
+    ],
+    "exposureWeighted": 76.88
   }
 };
 

@@ -21,12 +21,23 @@
  *   cognate | partial   curated borrow from a related program (panela_basis_overrides.json)
  *   field    JSA HEO occupation list for the program's ASCED field (the only tier with shares)
  *
+ * EVERY ALUMNI TIER IS MELBOURNE-ONLY. The JIR store is 141 University of
+ * Melbourne Job Insights Reports, and the curated overrides are Melbourne
+ * program codes, but the tiers above match on program NAME. A Master of Public
+ * Health at Monash therefore resolved to Melbourne's record and was published
+ * as tier `exact`, whose page copy reads "measured on the program's own alumni
+ * destination record (n = 562)" — a false claim about a named institution, on
+ * 15 programs, with 17 more claiming a Melbourne program family. A
+ * non-Melbourne code now goes straight to the field tier, which says what it
+ * is: "graduates of the whole field, not this program".
+ *
  * An unmapped title never yields a subset mean: the resolver throws
  * UnmappedTitlesError carrying the titles, and the caller decides whether that
  * is a build failure (generator) or a report (guard).
  */
 import { readFileSync, existsSync } from 'node:fs'
 import * as path from 'node:path'
+import { institutionOf, MELBOURNE } from './lib-institution'
 
 export const REPO_ROOT = path.resolve(__dirname, '..')
 
@@ -447,7 +458,11 @@ function resolveField(code: string, ctx: PanelAContext): PanelAResult | null {
  * missing from the crosswalk.
  */
 export function resolvePanelA(code: string, name: string, ctx: PanelAContext): PanelAResult | null {
-  const resolved = resolveOwn(code, name, ctx) ?? resolveCombined(code, name, ctx) ?? resolveOverride(code, ctx)
+  // Alumni destinations exist for Melbourne programs only; see the header.
+  const melbourne = institutionOf(code).slug === MELBOURNE.slug
+  const resolved = melbourne
+    ? resolveOwn(code, name, ctx) ?? resolveCombined(code, name, ctx) ?? resolveOverride(code, ctx)
+    : null
   if (resolved) {
     const { recs, tier, note, excluded } = resolved
     const basis: PanelABasis = {
