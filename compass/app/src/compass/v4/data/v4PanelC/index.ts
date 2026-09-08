@@ -279,6 +279,7 @@ export const V4_PANEL_C_LOADERS: Record<
   "usyd-juris-doctor": () => import("./usyd-juris-doctor"),
   "usyd-mba-technology-digital-strategy": () => import("./usyd-mba-technology-digital-strategy"),
   "usyd-psychology-coaching": () => import("./usyd-psychology-coaching"),
+  "usyd-public-health": () => import("./usyd-public-health"),
   "usyd-science-extended": () => import("./usyd-science-extended"),
   "uwa-42520": () => import("./uwa-42520"),
   "uwa-62530": () => import("./uwa-62530"),

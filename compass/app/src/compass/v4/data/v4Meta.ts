@@ -6928,6 +6928,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "usyd-public-health": {
+    "code": "usyd-public-health",
+    "name": "Public Health",
+    "institution": "The University of Sydney",
+    "institutionSlug": "usyd",
+    "level": "other",
+    "exposure": 76.5,
+    "entryExposure": 76.42,
+    "exposureTier": "field",
+    "adaptiveness": 4,
+    "workplace": 3,
+    "C1": 0,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-08"
+  },
   "usyd-science-extended": {
     "code": "usyd-science-extended",
     "name": "Bachelor of Science",
