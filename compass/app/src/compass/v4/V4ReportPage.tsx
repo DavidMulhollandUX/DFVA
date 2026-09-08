@@ -5,7 +5,7 @@ import { PROGRAMS } from "../sharedProgramData";
 import { getFaculty } from "../faculty";
 import { v3ProgramByCode, type V3Program } from "../v3/data/v3Programs";
 import { V4_INSTRUMENT } from "./data/v4Rubric";
-import { V4_RESEARCH_DEGREES } from "./data/v4Meta";
+import { V4_RESEARCH_DEGREES, v4IndexByCode } from "./data/v4Meta";
 import { useV4Basis } from "./useV4Basis";
 import { useV4PanelC } from "./useV4PanelC";
 import { basisMedian } from "./exposureBasis";
@@ -15,6 +15,8 @@ import { MarketPart } from "./report/MarketPart";
 import { MethodPart } from "./report/MethodPart";
 import { PendingReport } from "./report/PendingReport";
 import { PositionCard } from "./report/PositionCard";
+import { RelatedCourses } from "./report/RelatedCourses";
+import { relatedPrograms } from "./relatedPrograms";
 import { ReportFooter } from "./report/ReportFooter";
 import { ReportHero } from "./report/ReportHero";
 import { PartHeading } from "./report/ReportChrome";
@@ -24,6 +26,7 @@ import {
   NAV_PART_A,
   NAV_PART_B,
   NAV_PART_C,
+  RELATED_NAV,
   PART_A,
   PART_A_TITLE,
   PART_B,
@@ -139,6 +142,10 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
   // Both sub-scales get the same ceiling accounting; W joins once scored.
   const allScores = [...scores, ...wScores];
   const itemsAtCeiling = allScores.filter((s) => s === 3).length;
+  // Resolved here rather than inside the module so the nav can leave the link
+  // out for a subject no other published university runs: a nav entry whose
+  // anchor is not on the page scrolls nowhere.
+  const related = relatedPrograms(program.code);
 
   return (
     <InsightsGate>
@@ -153,6 +160,9 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
             { href: "#finding", label: NAV_PART_A },
             { href: "#market", label: NAV_PART_B },
             { href: "#method", label: NAV_PART_C },
+            ...(related.length
+              ? [{ href: "#related", label: RELATED_NAV }]
+              : []),
           ]}
         />
 
@@ -191,6 +201,13 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
         {/* ================= PART C — METHOD ================= */}
         <PartHeading id="method" part={PART_C} title={PART_C_TITLE} />
         <MethodPart panelC={panelC} />
+
+        {/* ============ ACROSS UNIVERSITIES — the same subject elsewhere ==== */}
+        <RelatedCourses
+          related={related}
+          self={v4IndexByCode(program.code)}
+          programName={program.name}
+        />
 
         <ReportFooter programCode={program.code} hasV31={Boolean(v3)} v1={v1} />
       </div>

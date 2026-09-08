@@ -420,3 +420,47 @@ export const PART_C_TITLE = "Method, instrument & references";
 export const PART_A = "Part A";
 export const PART_B = "Part B";
 export const PART_C = "Part C";
+
+/* --------------------------------------------------- related courses module */
+
+export const LABEL_RELATED = "Across universities";
+export const TITLE_RELATED = "The same subject elsewhere";
+export const RELATED_NAV = "Across universities";
+
+/** Says what the reader is looking at and what it is not. The published
+ *  non-Melbourne set is a cross-section, so a subject with one peer is a
+ *  comparison of two programs, not a ranking of Australian higher education. */
+export const relatedIntro = (subject: string, n: number): string =>
+  `${
+    n === 1 ? "One other university" : `${n} other universities`
+  } in the published set ${
+    n === 1 ? "runs" : "run"
+  } a program in ${subject}, scored on the same instrument from the same kind of handbook evidence. Each card compares that program with this one item by item. Universities are added to the published set as their scores are verified, so a subject shows the universities scored so far, not every university that teaches it.`;
+
+/** Where the program being read sits among its peers on adaptiveness. Computed
+ *  per program: a rank claim written for one program is false for the rest. */
+export const relatedRank = (
+  programName: string,
+  adaptiveness: number,
+  max: number,
+  rank: number,
+  total: number,
+): string =>
+  rank === 1
+    ? `${programName} scores ${adaptiveness}/${max}, the highest of the ${total} programs compared here.`
+    : rank === total
+      ? `${programName} scores ${adaptiveness}/${max}, the lowest of the ${total} programs compared here.`
+      : `${programName} scores ${adaptiveness}/${max}, ${rank}${
+          rank === 2 ? "nd" : rank === 3 ? "rd" : "th"
+        } of the ${total} programs compared here.`;
+
+export const RELATED_PROFILE_LEGEND =
+  "Bars are the other program's item scores, 0–3. The line across each bar marks this program's score on the same item.";
+
+export const relatedProfileAria = (
+  peerName: string,
+  programName: string,
+): string =>
+  `Item scores for ${peerName}, each marked with the score ${programName} carries on the same item`;
+
+export const RELATED_UNSCORED_WORKPLACE = "Workplace sub-scale not scored";

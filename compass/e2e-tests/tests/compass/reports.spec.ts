@@ -187,6 +187,35 @@ test.describe("/reports/:slug — dispatcher", () => {
     );
   });
 
+  test("the related-courses module lists other universities and links to them", async ({
+    page,
+  }) => {
+    // Public health is the one subject every Go8 in the published set runs, so
+    // it exercises the module without pinning a count that changes as more
+    // institutions are scored.
+    await page.goto("/reports/244cw");
+    const cards = page.locator('[data-testid="related-course"]');
+    await expect(cards.first()).toBeVisible(LOAD);
+    const n = await cards.count();
+    expect(n).toBeGreaterThanOrEqual(2);
+    // Every card is another university, and the count label agrees with the grid.
+    await expect(page.getByTestId("related-rank")).toBeVisible();
+    const body = await page.locator('[data-testid="related-course"]').allInnerTexts();
+    for (const text of body)
+      expect(text).not.toMatch(/University of Melbourne/i);
+    // Each card carries the eight-item profile the comparison is read from.
+    await expect(
+      cards.first().locator('[data-testid="related-item-bar"]'),
+    ).toHaveCount(8);
+    // The card is the link to that program's own report.
+    await cards.first().click();
+    await expect(page).toHaveURL(/\/reports\/[^/]+$/);
+    await expect(page.locator('[data-testid="finding-block"]')).toHaveCount(
+      1,
+      LOAD,
+    );
+  });
+
   test("a dfva-* slug renders the archived v1 page with its banner", async ({
     page,
   }) => {
