@@ -12,7 +12,7 @@ const record: V4BasisRecord = {
   "onlyProgram": {
     "code": "adelaide-bengh_behcivs1",
     "name": "Bachelor of Engineering",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 83.48,
     "entryExposure": 82.67,
     "jirN": null,

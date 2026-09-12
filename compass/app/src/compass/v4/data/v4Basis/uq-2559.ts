@@ -12,7 +12,7 @@ const record: V4BasisRecord = {
   "onlyProgram": {
     "code": "uq-2559",
     "name": "Bachelor of Computer Science",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 83.3,
     "entryExposure": 81.63,
     "jirN": null,

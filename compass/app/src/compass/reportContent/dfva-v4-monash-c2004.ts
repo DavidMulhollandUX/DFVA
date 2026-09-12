@@ -1,0 +1,296 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Bachelor of Information Technology (MONASH-C2004) — Durability Report (v4 draft)",
+  institution: "University of Melbourne",
+  markdown: `# DFVA v4 DURABILITY REPORT: Bachelor of Information Technology (MONASH-C2004)
+
+**Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
+**Assessment date:** 2026-09-07
+**Handbook vintage:** 2026 · **Source URL(s):** https://handbook.monash.edu/2026/courses/C2004 (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 26 pages captured
+**Course Director:** not listed on the handbook course page
+
+> **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
+> ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
+> [v4.1 recommendation](../docs/dfva-panelc-v41-recommendation.md), 2026-08-14;
+> [v4.2 amendment](../docs/dfva-rubric-evolution.md), 2026-08-16).
+> Neither sub-score is comparable with any v3.1 value.
+
+> **This program is outside the v3.1 registry, but not outside Panel A.** Bachelor of Information Technology
+> has never been assessed on v3.1, so it has no adaptiveness score on the published
+> instrument. Exposure does not depend on the scoring instrument, so §1 reports a value
+> computed by the identical Panel A procedure, on the basis stated there.
+
+> **The exposure value is an estimate, not this program's own graduates.** It rests on
+> a field grain basis (JSA HEO · 0201 Computer Science). What such a
+> value may and may not be used for is set out in
+> [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
+
+## 1. POSITION — Basis: measured × scored
+
+**Destination AI Exposure: 83.30.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 14 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 0201 Computer Science; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **above** it.
+
+**Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
+
+**Workplace Practice: 6 / 9.** Scored on sub-scale W [[19]](https://www.legislation.gov.au/F2021L00488) in the same pass, from the same extract. The position axis remains adaptiveness alone; the workplace sub-score is reported beside it, not folded into the axis, and the two are never added together.
+
+**Position: High exposure · high adaptiveness.** Assigned against the v4 medians (exposure 83.21 on the field basis, adaptiveness 9), computed from all 34 reference-cohort programs re-scored on this instrument. This is the deterministic median rule the site applies, not a probabilistic stability class.
+
+## 2. PANEL C v4.2 SCORECARD — Basis: scored
+
+The two sub-scales are kept separate and carry their own subtotals. Panel C has no
+combined total: the sub-scores are reported side by side and never added.
+
+| Item | Score | Rationale (anchor-referenced) |
+| --- | --- | --- |
+| C1 Distributed cognition & relational capability [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 2 | Meets the level-2 anchor: a core unit assesses collaborative practice with individual accountability — FIT3077, required within the compulsory software development major, assesses two team-based sprints alongside an individual sprint. Level 3 fails on its second conjunct: no core assessment requires coordinating work across people AND tools/AI systems, and nothing in the extract documents a task where the division of work between people and systems is itself assessed. Teamwork also appears as course outcome 1 and as a FIT1049 outcome, which under R2 would alone cap the item at 1; the sprint assessments carry it to 2. |
+| C2 Hybrid metacognition & evaluative judgement [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) | 2 | Meets the level-2 anchor of criterion-referenced appraisal of quality in core assessment: FIT2081 assesses application critiques and a peer-engagement component, and FIT2175 assesses interface evaluation against usability criteria. Level 3 fails because no assessment in the extract requires students to document and justify reliance decisions on a tool, source or collaborator, to defend judgements of AI-output quality, or to evidence strategy adjustment over time; the reflection tasks in FIT3077 and FIT1049 are titled only as reflections, and their content is not documented, so R2 does not permit reading process-focused appraisal into them. |
+| C3 Digital & AI literacy, including governance [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 1 | Level 1's anchor — digital tools present as tool operation/training, the operational level TEQSA identifies as non-durable — describes the documented core: programming languages, an enterprise relational database system, Xcode, and industry-standard cloud platforms. AI appears exactly once in the extract, in a FIT2002 learning outcome, and no FIT2002 assessment title documents AI work, so under R2 that outcome cannot lift the item. Level 2 would require core units addressing AI capabilities AND limitations/ethics with use-with-limits assessed; FIT1049's ethics is professional, legal and social conduct in IT generally and FIT1047's is cybersecurity threats, neither of which is AI capability-and-limitation content. The evidence is consistent with 1 and 2 on the ethics half only, so the lower level stands. |
+| C4 Life-long learning & transfer [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 2 | Meets the level-2 anchor that at least one core assessment requires application to novel or unfamiliar problems: FIT2081's advanced app creation task requires students to build their own application to solve a practical problem rather than reproduce a taught exemplar, and FIT2001 requires selecting a development approach for the specific context. Level 3 fails because the extract documents no self-scoped capstone or research project in the core and no assessment of a student's own knowledge gaps together with a plan to close them; the FIT3047/FIT3048 project is scoped by an external client and its work-situated evidence is homed in W3. Transfer is claimed at course-outcome level ('learn and apply emerging technologies'), which under R2 would alone score 1. |
+| C5 Inquiry & evidence generation [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 2 | Meets the level-2 anchor that students design and conduct an inquiry with data collection, assessed: FIT2175, required within the compulsory major, assesses a user-data gathering and analysis submission and an evaluation of a high-fidelity prototype, and the unit covers methods for evaluating interfaces with experts and users, so a method is chosen rather than prescribed. Level 3 fails on two counts: no substantial primary-evidence project is required in the core, and no viva, defence or staged supervised review of methodology is documented anywhere in the extract. The methods-heavy units that would raise this (BEI1067 Evidence for action, MON3500) are Part C electives, not core. |
+| **Adaptive capabilities** | **9 / 15** | |
+| W1 Professional communication & conduct [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) | 2 | Meets the level-2 anchor that at least one core assessment requires a professional genre or an audience beyond the teaching team: FIT1049 is a compulsory core unit whose assessed tasks apply professional communication modes and formats, and FIT3047/FIT3048 require communicating with clients or client representatives to meet their requirements. Level 3 fails because the extract publishes assessment titles and weights but no criteria, so neither 'judged by a real external audience or practitioner' nor 'professional conduct or accountability explicitly among the assessed criteria' is documented — an unquotable criterion is not evidence under R3. Course outcome 4 states professional communication with clients, users and peers, which under R2 alone would cap the item at 1. |
+| W2 Authentic task design [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) | 2 | Meets the level-2 anchor that at least one core assessment reproduces a professional task end to end: FIT2175 runs the interaction-designer's own sequence — user data gathering, storyboards and a low-fidelity prototype, then a high-fidelity prototype with evaluation — producing the artefacts a practitioner produces, and FIT2104 assesses a business case analysis and design followed by implementation in a rapid development framework. Level 3 is not reached: the clearest genuine constraint of practice in the extract is the externally supplied client problem of FIT3047/FIT3048, and under the one-construct-one-home rule that live-client evidence is scored in W3, which its anchor names. No other core assessment documents an ambiguous or externally supplied problem, a real resource or time limit, a consequential audience, or the profession's own standards of performance. Per R4 the phrase 'real-world systems' in FIT1050 and FIT2104 is a label and is not scored. |
+| W3 Work-situated learning [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) | 2 | Meets the level-2 anchor via the live-client-project route: FIT3047 and FIT3048 are compulsory applied studies in which teams deliver an IT application to a client, and they are assessed, including work-based learning materials and an individual reflection. Level 3 is not reached because its anchor is a conjunction and two conjuncts are undocumented: the extract describes a studio project with a client, not placement in a real workplace, and it names no practitioner supervisor, so 'an extended placement or practicum ... supervised by a practitioner' is not satisfied. The in-practice route does not apply — nothing documents this cohort as already practising in the profession. The required two-unit sequence and the reflection tasks point toward 3, so the lower level is taken and the ambiguity recorded. |
+| **Workplace practice** | **6 / 9** | |
+
+**C1 Distributed cognition & relational capability — 2/3**
+
+> work effectively in a team environment
+>
+> - Effectively contribute professionally to teams using appropriate techniques, concepts and technologies;
+>
+> You must complete the software development major.
+>
+> - Sprint One (team based): 20% (Hurdle: None)
+>
+> - Sprint Two (team based): 30% (Hurdle: None)
+>
+> - Sprint Three (individual): 40% (Hurdle: None)
+
+**C2 Hybrid metacognition & evaluative judgement — 2/3**
+
+> - A1 - Application Critiques: 10% (Hurdle: None)
+>
+> - A4 - Quiz + Peer-engagement: 30% (Hurdle: None)
+>
+> - Critically evaluate and assess user interfaces, providing recommendations for improvement.
+>
+> - Evaluate and critique proposed web database solutions to a business problem.
+>
+> - Reflections (Individual): 10% (Hurdle: None)
+
+**C3 Digital & AI literacy, including governance — 1/3**
+
+> - Apply collaborative strategies to support effective teamwork in modern IT projects. Sem 2, 2026: Critically evaluate the use of emerging tools, such as AI, in project management contexts.
+>
+> - Adaptive Project Management: 40% (Hurdle: None)
+>
+> - Utilise a range of cloud programming tools, frameworks, and development methodologies effectively.
+>
+> - Discuss the fundamental concepts of cybersecurity, including common threats and countermeasures.
+>
+> - Describe the social, ethical and legal implications of working with IT expertise in a professional capacity;
+
+**C4 Life-long learning & transfer — 2/3**
+
+> learn and apply emerging technologies.
+>
+> - Create mobile applications that utilize both hardware and capabilities of the device that are running on, to solve practical problems in the real world.
+>
+> - A3 - Advanced App Creation + Demonstration: 30% (Hurdle: None)
+>
+> - Determine when to use relevant system development approaches based on the specific context;
+>
+> - Implement practical system development techniques at different levels of abstraction to a business problem within a contemporary development framework;
+
+**C5 Inquiry & evidence generation — 2/3**
+
+> - Unit project submission 1: Data gathering and user analysis: 25% (Hurdle: None)
+>
+> - Conduct comprehensive analysis of user gathered data to inform design decisions that align with users’ needs;
+>
+> methods and tools for developing different fidelity prototypes, and methods to evaluate the usability of interfaces with experts and users
+>
+> You must complete 48 credit points of elective units.
+
+**W1 Professional communication & conduct — 2/3**
+
+> communicate at a professional level with clients, system users and peers
+>
+> - Effectively plan, develop and deliver a range of professional communications using appropriate techniques, concepts and technologies;
+>
+> Skills and knowledge will be developed and applied through a range of collaborative, individual and reflective tasks in relevant communication modes and formats.
+>
+> - Assignment 2: 24% (Hurdle: None)
+>
+> - Work with clients or client representatives, communicating effectively with them to meet their requirements;
+>
+> - Presentation and demo: 10% (Hurdle: None)
+
+**W2 Authentic task design — 2/3**
+
+> - Unit project submission 2: Storyboards and Low-fidelity prototype: 25% (Hurdle: None)
+>
+> - Employ user-centred design throughout the design process;
+>
+> - Business case analysis and design: 20% (Hurdle: None)
+>
+> - Implementation with rapid development framework: 20% (Hurdle: None)
+>
+> - Demonstrating Unit Learning Outcomes: 0% (Hurdle: Competency)
+
+**W3 Work-situated learning — 2/3**
+
+> * FIT3047 Industry experience studio project 1
+>
+> * FIT3048 Industry experience studio project 2
+>
+> In teams, you design, develop and deliver an IT applications for a client, manage the project through all its development stages, communicate effectively with all project stakeholders and develop project documentation to a professional standard.
+>
+> FIT3047 is the first of two industry experience units for most majors in the Bachelor of Information Technology. After successful completion of this unit, you must enrol in and pass FIT3048 to complete your industry experience project requirements.
+>
+> - Team - Project Deliverables: 75% (Hurdle: None)
+>
+> - Work-Based Learning Materials: 10% (Hurdle: None)
+>
+> - Individual - Reflection: 15% (Hurdle: None)
+>
+> - Evaluate, assess and communicate both personal and team progress and learning, thus engaging in meaningful reflective practice.
+
+## 3. GATES — Basis: scored
+
+- **G1 Disciplinary foundation:** PASS — The program documents an all-compulsory specialist core plus a staged technical chain, which the PASS condition names. Part A prescribes six named FIT core units and two applied studies with no choice, Part B requires a single named eight-unit software development major, and the requirements section imposes a level-1 cap and a level-3 floor within FIT-coded study, giving progressive technical depth rather than interchangeable content. FIT3048 additionally carries an explicit prerequisite on FIT3047.
+- **G2 Decision-making under uncertainty:** PASS — Assessments require defended trade-off decisions, and the core also contains a live project with real uncertainty and accountability. FIT3077 assesses sprints against an outcome requiring design decisions to be justified to project stakeholders, FIT2001 requires deciding when a given development approach applies to the context, and FIT1049 requires decisions to be made and justified against a professional code and legal frameworks. This is not recall or scripted response.
+
+## 4. MARKET EVIDENCE — Basis: reported
+
+The tables condense [the market report](dfva-market-monash-c2004.md); they report what the market says and do not argue a score.
+
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Software Developers, Applications | Analyst Programmer; Developer Programmer; Full Stack Software Engineer; Graduate Developer; Senior Software Developer; Software Engineer - Research | not stated in the market report | recurring keywords in the advertisement sample: Full-stack development, Cloud (K8s/Terraform), AI-assisted coding, Code review & testing |
+| Computer User Support Specialists | IT Support; Help Desk Technician; Service Desk Analyst; Computer User Support Specialist | not stated in the market report | recurring keywords in the advertisement sample: support, ai, remote, software |
+| Web Developers | Web Developer; Front-end Developer; Full-stack Developer | not stated in the market report | recurring keywords in the advertisement sample: ai, ui, git, wordpress |
+| Computer Systems Analysts | Business Intelligence Analyst; Clinical Informatics Analyst (Outpatients); Data and Integration Analyst; ICT Business Analyst; IT Graduate; Technical Business Analyst | not stated in the market report | recurring keywords in the advertisement sample: Requirements analysis, System specification, Stakeholder engagement, AI-tooling literacy |
+| Electrical and Electronics Repairers, Commercial and Industrial Equipment | Electronic Equipment Trades Worker; Industrial Electronics Repairer; Commercial Electrician Repairer | not stated in the market report | not stated in the market report |
+| Computer Network Support Specialists | ICT Support Engineer | not stated in the market report | not stated in the market report |
+| Retail Salespersons | Sales Assistant (General); Sales Assistants and Salespersons nec | not stated in the market report | recurring keywords in the advertisement sample: retail assistant, customer service, merchandising, sales target |
+| Network and Computer Systems Administrators | Network Administrator; Systems Administrator; IT Administrator | not stated in the market report | recurring keywords in the advertisement sample: network, lan, security, aws |
+
+**What the §1 exposure value is.** 83.30. Rests on a **field-of-education** basis (JSA HEO · 0201 Computer Science) — graduates of the whole field, not this program. 3 of 14 titles carry only medium mapping confidence. It sits **above** the field median of 83.21.
+
+| Signal or shift | Direction | Bearing on the scored items |
+| --- | --- | --- |
+| ai | Rising | 2,439 Computer User Support Specialist postings name it (§2 Signal 2), and JSA's Gen AI Capacity Study finds ICT technical-development tasks augmented rather than automated (§3 Theme 4) — the market rewards supervised, disclosed AI use, not avoidance. — C3 |
+| Full-stack development | Steady | Sustained demand across 7,476 Software Developer postings (§2 Signal 1); PwC's AI Jobs Barometer finds AI-exposed occupations command a wage premium rather than shrinking (§3 Theme 6) — rewarding graduates who can transfer the skill beyond the taught stack. — C4 |
+| Cloud (K8s/Terraform) | Rising | The deployment half of the same 7,476-posting sample (§2 Signal 1); the market report notes this is not what §3 names as automatable, consistent with JSA's augmentation-not-automation finding for technical-development tasks (§3 Theme 4) — the market is asking for governed tool use, not avoidance. — C3 |
+| AI-assisted coding | Rising | Named directly in the 7,476-posting Software Developer sample (§2 Signal 1); JSA finds augmentation rather than substitution for ICT roles (§3 Theme 4) — the market is asking for supervised, disclosed tool use (§5 CI-2). — C3 |
+| Code review & testing | Rising | Recurs in the same 7,476-posting sample (§2 Signal 1); the ACS Code binds the practitioner for the output regardless of what produced it, making review the accountable step (§3 Theme 2) — rewarding teams that can allocate and check AI-assisted work. — C1 |
+| System design | Rising | Recurs in the same sample (§2 Signal 1); the design judgement generation does not supply, and the wage premium sits with the exposed-and-augmented occupations, not the automated ones (§3 Theme 6) — pointing to methodology and design skills the core does not yet require as a defended capstone. — C5 |
+
+**Confidence, restated from the market report.** Its discussion signals are stated at HIGH confidence. Its declared gaps: Destination basis (LOW — Field-of-education grain (0201 Computer Science): the destinations are the field's, not this program's.); Software Developers, Applications — regulatory and statutory instruments (HIGH — 2 recorded claim(s); retrieved 2026-08-27.); Software Developers, Applications — scholarly and grey-literature studies (HIGH — 2 recorded claim(s); retrieved 2026-08-27.); Software Developers, Applications — trade and professional press (HIGH — 2 recorded claim(s); retrieved 2026-08-27.); Software Developers, Applications — job-advertisement signals (HIGH — 11 recorded claim(s); retrieved 2026-08-27.); Software Developers, Applications — practitioner discourse (HIGH — 73 recorded claim(s); retrieved 2026-08-27.); Software Developers, Applications — search (LOW — Search returned nothing: Factiva L3: OpenAthens session expired 2026-08-27 (auth_expired) — L3 rests on web trade press (ACS Digital Pulse, JSA study, TCA, Adaca).); Software Developers, Applications — search (LOW — Search returned nothing: L5 grounding source unreachable (keyless web search unavailable); reddit, x, youtube, hackernews sampled.); Software Developers, Applications — search (LOW — Search returned nothing: L5 TikTok and Instagram unavailable (has_scrapecreators: false) — coverage gap, not evidence of quiet.); Software Developers, Applications — record caveat (HIGH — L3 Factiva lane unavailable this run (OpenAthens auth expired); L3 claims drawn from web trade press only.); Software Developers, Applications — record caveat (HIGH — ANZSCO set by best-effort mapping; no authoritative O*NET->ANZSCO occupation mapping in repo.); Software Developers, Applications — record caveat (HIGH — L2 studies are US/enterprise samples; treated as indicative for Australian developers.); Software Developers, Applications — record caveat (HIGH — 2026-08-29: restored from the genuine 2026-08-27 research (git rev bf79597) after a concurrent session's broad commit (4a6cbae) accidentally overwrote it with pre-existing fabricated content. See the profession record, 'Fabrication incident 2026-08-24'.); Computer User Support Specialists — regulatory and statutory instruments (HIGH — 1 recorded claim(s); retrieved 2026-08-29.); Computer User Support Specialists — scholarly and grey-literature studies (HIGH — 4 recorded claim(s); retrieved 2026-08-29.); Computer User Support Specialists — trade and professional press (HIGH — 2 recorded claim(s); retrieved 2026-08-29.); Computer User Support Specialists — job-advertisement signals (HIGH — 10 recorded claim(s); retrieved 2026-08-29.); Computer User Support Specialists — practitioner discourse (HIGH — 61 recorded claim(s); retrieved 2026-08-29.); Computer User Support Specialists — L3 via factiva (LOW — Search returned nothing (auth_expired): OpenAthens SSO session not available in unattended run (cookies last refreshed 2026-08-26). Gap logged to the profession record for backfill.); Computer User Support Specialists — L4 via seek (LOW — Search returned nothing (not_sampled): Seek trend pages not sampled this pass; Adzuna AU used as the quantitative L4 source.); Computer User Support Specialists — L5 via grounding (LOW — Search returned nothing (degraded): last30days grounding source returned 0 items for this occupation this run (engine status: partial/failed).); Computer User Support Specialists — L5 via jobs (LOW — Search returned nothing (degraded): last30days jobs source returned 0 items this run.); Web Developers — regulatory and statutory instruments (HIGH — 1 recorded claim(s); retrieved 2026-08-29.); Web Developers — scholarly and grey-literature studies (HIGH — 4 recorded claim(s); retrieved 2026-08-29.); Web Developers — trade and professional press (HIGH — 2 recorded claim(s); retrieved 2026-08-29.); Web Developers — job-advertisement signals (HIGH — 10 recorded claim(s); retrieved 2026-08-29.); Web Developers — practitioner discourse (HIGH — 66 recorded claim(s); retrieved 2026-08-29.); Web Developers — L3 via factiva (LOW — Search returned nothing (auth_expired): OpenAthens SSO session not available in unattended run (cookies last refreshed 2026-08-26). Gap logged to the profession record for backfill.); Web Developers — L4 via seek (LOW — Search returned nothing (not_sampled): Seek trend pages not sampled this pass; Adzuna AU used as the quantitative L4 source.); Web Developers — L5 via grounding (LOW — Search returned nothing (degraded): last30days grounding source returned 0 items for this occupation this run (engine status: partial/failed).); Web Developers — L5 via jobs (LOW — Search returned nothing (degraded): last30days jobs source returned 0 items this run.); Computer Systems Analysts — regulatory and statutory instruments (HIGH — 2 recorded claim(s); retrieved 2026-08-27.); Computer Systems Analysts — scholarly and grey-literature studies (HIGH — 2 recorded claim(s); retrieved 2026-08-27.); Computer Systems Analysts — trade and professional press (HIGH — 2 recorded claim(s); retrieved 2026-08-27.); Computer Systems Analysts — job-advertisement signals (HIGH — 11 recorded claim(s); retrieved 2026-08-27.); Computer Systems Analysts — practitioner discourse (HIGH — 58 recorded claim(s); retrieved 2026-08-27.); Computer Systems Analysts — search (LOW — Search returned nothing: Factiva L3: OpenAthens session expired 2026-08-27 (auth_expired) — L3 rests on web trade press (ACS Digital Pulse, JSA study, TCA, Adaca).); Computer Systems Analysts — search (LOW — Search returned nothing: L5 grounding source unreachable (keyless web search unavailable); reddit, x, youtube, hackernews sampled.); Computer Systems Analysts — search (LOW — Search returned nothing: L5 TikTok and Instagram unavailable (has_scrapecreators: false) — coverage gap, not evidence of quiet.); Computer Systems Analysts — record caveat (HIGH — L3 Factiva lane unavailable this run (OpenAthens auth expired); L3 claims drawn from web trade press only.); Computer Systems Analysts — record caveat (HIGH — ANZSCO set by best-effort mapping; no authoritative O*NET->ANZSCO occupation mapping in repo.); Computer Systems Analysts — record caveat (HIGH — L2 studies are US/enterprise samples; treated as indicative for Australian analysts, not direct local measurement.); Computer Systems Analysts — record caveat (HIGH — 2026-08-29: restored from the genuine 2026-08-27 research (git rev bf79597) after a concurrent session's broad commit (4a6cbae) accidentally overwrote it with pre-existing fabricated content. See the profession record, 'Fabrication incident 2026-08-24'.); Electrical and Electronics Repairers, Commercial and Industrial Equipment — regulatory and statutory instruments (HIGH — 1 recorded claim(s); retrieved 2026-08-30.); Electrical and Electronics Repairers, Commercial and Industrial Equipment — scholarly and grey-literature studies (HIGH — 2 recorded claim(s); retrieved 2026-08-30.); Electrical and Electronics Repairers, Commercial and Industrial Equipment — trade and professional press (HIGH — 2 recorded claim(s); retrieved 2026-08-30.); Electrical and Electronics Repairers, Commercial and Industrial Equipment — job-advertisement signals (HIGH — 10 recorded claim(s); retrieved 2026-08-30.); Electrical and Electronics Repairers, Commercial and Industrial Equipment — practitioner discourse (HIGH — 36 recorded claim(s); retrieved 2026-08-30.); Electrical and Electronics Repairers, Commercial and Industrial Equipment — L3 via factiva (LOW — Search returned nothing (auth_expired, 2026-08-30): OpenAthens session expired; re-run factiva_reauth.py. Logged to factiva_backlog.json.); Electrical and Electronics Repairers, Commercial and Industrial Equipment — L4 via seek (LOW — Search returned nothing (not-sampled, 2026-08-30): Seek trend pages not queried this batch; Adzuna AU + LinkedIn used for L4 demand signal.); Electrical and Electronics Repairers, Commercial and Industrial Equipment — L4 via last30days-hiring-signals (LOW — Search returned nothing (not-sampled, 2026-08-30): last30days --hiring-signals not run separately this batch (L5 last30days ran; Adzuna+LinkedIn cover L4 demand).); Electrical and Electronics Repairers, Commercial and Industrial Equipment — record caveat (HIGH — L3 (Factiva trade press) sampled 2026-08-30 from prior-collected payloads: 2 on-topic hit(s) retained after screening 40 raw keyword hits (keyword overcapture documented). Live Factiva re-collection not attempted this unattended run (OpenAthens auth interactive).); Electrical and Electronics Repairers, Commercial and Industrial Equipment — record caveat (HIGH — L3 Factiva claims backfilled 2026-08-30 (hybrid cookie session).); Computer Network Support Specialists — regulatory and statutory instruments (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Computer Network Support Specialists — scholarly and grey-literature studies (HIGH — 2 recorded claim(s); retrieved 2026-08-24.); Computer Network Support Specialists — trade and professional press (HIGH — 2 recorded claim(s); retrieved 2026-08-24.); Computer Network Support Specialists — job-advertisement signals (HIGH — 10 recorded claim(s); retrieved 2026-08-24.); Computer Network Support Specialists — practitioner discourse (HIGH — 54 recorded claim(s); retrieved 2026-08-24.); Computer Network Support Specialists — L3 via factiva (LOW — Search returned nothing (, 2026-08-30): OpenAthens session expired 2026-08-30; Factiva L3 trade-press lane unavailable. Gap logged, not evidence of quiet. Re-run factiva_reauth.py then factiva_backfill.py.); Computer Network Support Specialists — record caveat (HIGH — L3 Factiva trade-press lane unavailable this run (OpenAthens auth expired 2026-08-30; logged to factiva_backlog.json). L3 covered by web trade press / professional-body publications instead. L1/L2 sources are Australian regulatory/scholarly (ACS, Actuaries Institute, AMSI, JSA Gen AI Capacity Study) plus international scholarly (arXiv/Nature) scoped as such. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); last30days --hiring-signals not run separately. L5 practitioner corpus (last30days) was already present from a prior run and was verified, not re-swept. Confidence now rests on >=2 L1/L2 claims plus the declared L5 corpus.); Retail Salespersons — regulatory and statutory instruments (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Retail Salespersons — scholarly and grey-literature studies (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Retail Salespersons — trade and professional press (LOW — No claim recorded in this lane.); Retail Salespersons — job-advertisement signals (HIGH — 11 recorded claim(s); retrieved 2026-08-24.); Retail Salespersons — practitioner discourse (HIGH — 42 recorded claim(s); retrieved 2026-08-24.); Retail Salespersons — L3 via factiva (LOW — Search returned nothing (, 2026-09-07): Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet.); Retail Salespersons — record caveat (HIGH — Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.); Retail Salespersons — record caveat (HIGH — Commodity retail sales face e-commerce substitution while luxury/technical retail demands human consultation.); Network and Computer Systems Administrators — regulatory and statutory instruments (HIGH — 1 recorded claim(s); retrieved 2026-08-29.); Network and Computer Systems Administrators — scholarly and grey-literature studies (HIGH — 4 recorded claim(s); retrieved 2026-08-29.); Network and Computer Systems Administrators — trade and professional press (HIGH — 2 recorded claim(s); retrieved 2026-08-29.); Network and Computer Systems Administrators — job-advertisement signals (HIGH — 10 recorded claim(s); retrieved 2026-08-29.); Network and Computer Systems Administrators — practitioner discourse (HIGH — 56 recorded claim(s); retrieved 2026-08-29.); Network and Computer Systems Administrators — L3 via factiva (LOW — Search returned nothing (auth_expired): OpenAthens SSO session not available in unattended run (cookies last refreshed 2026-08-26). Gap logged to the profession record for backfill.); Network and Computer Systems Administrators — L4 via seek (LOW — Search returned nothing (not_sampled): Seek trend pages not sampled this pass; Adzuna AU used as the quantitative L4 source.); Network and Computer Systems Administrators — L5 via grounding (LOW — Search returned nothing (degraded): last30days grounding source returned 0 items for this occupation this run (engine status: partial/failed).); Network and Computer Systems Administrators — L5 via jobs (LOW — Search returned nothing (degraded): last30days jobs source returned 0 items this run.).
+
+## 5. CURRICULUM IMPLICATIONS — Basis: inferred
+
+This section argues from the preceding evidence; it is interpretation, not observation.
+
+Each row states an option and what it costs, not a directive. Anchor text, sequencing
+and the score deltas are in the [improvement plan](dfva-v4-recommend-monash-c2004.md); rows
+below are ordered by headroom, which is not the plan's P-lever order.
+
+| Item | Score | Implication | Cost | Sources |
+| --- | --- | --- | --- | --- |
+| C3 Digital & AI literacy, including governance | 1/3 | Core units document tool operation — languages, an enterprise database system, Xcode, cloud platforms — but no core assessment addresses AI capabilities and limitations, while 'ai' and 'AI-assisted coding' are recurring or Rising keywords and JSA finds ICT technical-development tasks augmented rather than automated; the gap sits between operational tool use and the governed, disclosed use the market and the ACS Code now expect. | Reaching level 2 needs an assessed AI-capabilities-and-limits module added to a compulsory FIT unit such as FIT1049 (P1, low effort, Term 1 syllabus update); reaching level 3 then needs extending that module into a graded critique of a named AI tool's bias, provenance or accountability under the ACS Code (P4, medium effort, Term 2, contingent on P1 landing first) — two sequential syllabus changes, not a one-step fix. | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
+| C1 Distributed cognition & relational capability | 2/3 | At level 2, FIT3077's team sprints assess collaborative practice but not the coordination of people and AI tools together; the market's Rising 'Code review & testing' shift, reasoned from the ACS Code binding the practitioner for AI-assisted output regardless of origin, rewards teams that can allocate and check that work, not only divide it among people. | Adding a documented AI-and-role allocation criterion to the FIT3077 sprint rubric (P2) is a low-effort rubric update within an existing core unit; it adds no marking capacity beyond what the sprint assessment already carries. | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| C2 Hybrid metacognition & evaluative judgement | 2/3 | FIT2081 and FIT2175 assess appraisal of quality against criteria, but no core assessment requires students to document and justify reliance or override decisions on a tool, source or collaborator; the ACS Code holds practitioners accountable for signed-off work regardless of what generated it, and the National AI Plan left that code as the operative control, so reliance-judgement is exactly what the profession now polices. | Attaching an assessed reliance-and-override log to the FIT3077 or FIT1049 reflection task (P3) is a low-effort assessment-brief update; it adds marking load for a new criterion but does not displace existing core content. | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) |
+| C4 Life-long learning & transfer | 2/3 | FIT2081's advanced app-creation task and FIT2001's approach-selection task require applying taught methods to a novel problem, but no core capstone or research project requires self-scoped work or an assessed plan to close a knowledge gap; PwC's AI Jobs Barometer finds the most AI-exposed occupations 2.5x more likely to command a wage premium and their most-exposed junior roles 7x more likely to need senior-level skills, rewarding transfer beyond the taught context. | Adding an unfamiliar-stack or unfamiliar-domain variant to the FIT3047/FIT3048 applied-studies brief, or a capstone knowledge-gap plan (P6), is a medium-effort Term 2 assessment-brief update inside the existing applied-studies unit — it does not require a new subject. | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
+| C5 Inquiry & evidence generation | 2/3 | FIT2175 already assesses a chosen inquiry method (user-data gathering, prototype evaluation), but no core project requires primary-evidence generation defended under staged supervised review; 3,698 Computer Systems Analyst postings name requirements analysis and stakeholder engagement, and 'System design' is Rising because generation does not supply the design judgement, pointing to a methodology-and-defence capability the core does not yet assess. | Requiring the FIT3047/FIT3048 project (or a methods unit) to defend a self-designed data-gathering methodology under staged supervised review (P7) is medium-to-high effort, scheduled for the next course review as a methodology-defence checkpoint added to an existing project unit, not a new unit. | [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| W1 Professional communication & conduct | 2/3 | FIT1049 and FIT3047/FIT3048 already require professional communication modes and client communication, but the extract publishes assessment titles and weights without criteria, so a real external audience judging conduct against explicit criteria is not documented; ICT carries no statutory licence in Australia, so the ACS Code and the degree's own assessed communication are the primary competence signal an employer sees. | Adding a client- or practitioner-judged milestone to FIT3047/FIT3048 with conduct and communication as explicit assessed criteria (P5) is medium effort, scheduled for Term 2, and extends the existing client-facing assessment rather than adding a new one. | [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) |
+| W2 Authentic task design | 2/3 | FIT2175 and FIT2104 already reproduce a practitioner's own task sequence, and the FIT3047/FIT3048 live-client project supplies a genuine external constraint, but that evidence is homed in W3 under the one-construct-one-home rule, so no other core assessment yet documents an externally supplied, ambiguous or resource-constrained problem as the program's assessment spine; the requirements-analysis and stakeholder-engagement demand in the Computer Systems Analyst postings names exactly that missing spine. | Carrying the FIT2175/FIT3047-3048 practice-standard task into an earlier core unit such as FIT2104, with at least one instance carrying a genuinely externally supplied brief (P8), is high effort — a sequence restructure scheduled for the next course review, not a single-unit change. | [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) |
+| W3 Work-situated learning | 2/3 | FIT3047 and FIT3048 already deliver a compulsory two-unit client project with a reflection component, but the extract documents a studio project with a client, not placement in a real workplace supervised by a named practitioner, so the placement-and-supervision conjunct is undocumented; the Tech Council of Australia records software-engineering ad volume nearly halving 2022-2025 while employer experience expectations rose from 70% to 85%, rewarding workplace-tested experience. | Extending FIT3047/FIT3048 into a required, supervised placement sequence with structured reflection and host accountability (P9) is high effort, scheduled for the next course review, and depends on host-partnership capacity outside the faculty's direct control. | [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) |
+
+## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
+
+**Panel A metadata.** Basis tier **field** (field grain), n = 0, 14 destination titles, 3 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
+
+**Panel C provenance.** Scored from the 2026 handbook capture (26 pages) and verified on 2026-09-07: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
+
+**Ambiguities and construct-boundary notes** (6):
+
+- W3 straddled 2 and 3: the required FIT3047 to FIT3048 sequence, the work-based learning materials and the individual reflection read as level 3, but the extract documents a client studio project rather than a workplace placement and names no practitioner supervisor. Two conjuncts of the level-3 anchor being undocumented, the lower level was taken.
+- W1 straddled 2 and 3: professional communication is assessed repeatedly and progressively (FIT1049 at level 1, FIT1050 presentation video, FIT2175 presentation and demo, FIT3047/FIT3048 client communication), and a real external client audience exists, but the handbook publishes no assessment criteria, so 'professional conduct or accountability explicitly among the assessed criteria' is unquotable. R3 forced the lower level.
+- W2 straddled 2 and 3: practitioner-artefact tasks do appear at every stage, but the only clearly documented genuine constraint of practice is FIT3047/FIT3048's externally supplied client problem. The one-construct-one-home rule homes that live-client evidence in W3, whose anchor names it, so W2 was scored on the remaining core tasks and held at 2.
+- C3 straddled 1 and 2: FIT1049 assesses professional, social, ethical and legal implications of IT work, which resembles the ethics half of level 2, but the capabilities-and-limitations half is met only by a single unassessed FIT2002 outcome mentioning AI. The lower level was taken.
+- C1 and W1 both draw on FIT1049 and on FIT3047/FIT3048, but on different lines and constructs: C1 scores the assessed team sprints (coordination), W1 scores the professional-communication outcome and the client-communication line (audience). No line is used in both.
+- C5's methodology-selection conjunct is only indirectly documented — the FIT2175 overview lists methods for evaluating interfaces with experts and users, but no assessment title states that students choose the method. The item was still scored 2 because level 1's anchor (introductory methods unit, literature-review assessment) does not describe any core unit here.
+
+**Not scoreable from the handbook** (2):
+
+- Assessment criteria are absent from the extract for every unit: the handbook publishes assessment titles, weights and hurdle status only. This is what blocks level 3 on W1 and W2, where the anchors turn on the criteria applied rather than on the task title.
+- MGI3991 Leadership principles and practices lists no assessment tasks at all in the extract, so it could not be scored on any item; it is a Part C elective and does not bear on the core in any case.
+
+**Standing v4 limitations.**
+
+- Scores describe **documented curriculum intent**, not demonstrated graduate
+  capability; the extrapolation warrant is constructive alignment, stated as an
+  assumption (Kane [17]).
+- Indigenous data governance is not scored as a distinct construct; C3 level 3
+  counts it where taught (CARE Principles; Lodge et al. 2025 Principle 4 [[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/)).
+- Perception/manipulation (Frey & Osborne's third bottleneck [[7]](https://doi.org/10.1016/j.techfore.2016.08.019)) is unscored.
+- A high W3 score describes curriculum design, not student welfare: required
+  placements can disadvantage students who cannot afford unpaid work or
+  relocation (Accord [[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report); Fawns et al. [[24]](https://doi.org/10.1080/02602938.2024.2404634) on ableism and elitism).
+- W2 is scored against each discipline's own criterion situation [[22]](https://doi.org/10.1007/BF02504676), so
+  cross-disciplinary W2 comparison is weaker than within-discipline comparison.
+- W3 excludes simulation by design (simulation scores in W2), so programs whose
+  professional norm is high-fidelity simulation may score low on W3 for a
+  defensible pedagogic choice. Read the two sub-scores together.
+- The authentic-assessment employability evidence rests largely on student
+  self-report [[25]](https://doi.org/10.1016/j.stueduc.2021.101030); W2's warrant is documented design fidelity plus the
+  assessment-drives-learning mechanism [26], not demonstrated employment effects.
+- Work-integrated learning is NOT claimed to raise employment rates — Jackson &
+  Collings [[28]](https://doi.org/10.1007/s10734-017-0216-z) found it does not. W3's warrant is skill development, employment
+  relevance and professional identity formation [[29]](https://doi.org/10.1080/07294360.2016.1139551).
+
+## REFERENCES
+
+1. Lodge JM, de Barba P, Ainscough L, et al. (2026). Assuring quality learning in a gen AI-integrated future: The role of adaptive capabilities. TEQSA. https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities
+2. Lodge JM, et al. (2025). Australian Framework for Artificial Intelligence in Higher Education. ACSES. (Principles 4 & 6.) https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/
+3. Lodge JM, Howard S, Bearman M, Dawson P & Associates (2023). Assessment reform for the age of artificial intelligence. TEQSA. https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf
+4. Tai J, Ajjawi R, Boud D, Dawson P, Panadero E (2018). Developing evaluative judgement: enabling students to make decisions about the quality of work. Higher Education 76:467–481. https://doi.org/10.1007/s10734-017-0220-3
+5. Deming DJ (2017). The growing importance of social skills in the labor market. Quarterly Journal of Economics 132(4):1593–1640. https://doi.org/10.1093/qje/qjx022
+6. Deming DJ, Noray K (2020). Earnings dynamics, changing job skills, and STEM careers. Quarterly Journal of Economics 135(4):1965–2005. https://doi.org/10.1093/qje/qjaa021
+7. Frey CB, Osborne MA (2017). The future of employment: how susceptible are jobs to computerisation? Technological Forecasting & Social Change 114:254–280. https://doi.org/10.1016/j.techfore.2016.08.019
+8. Brynjolfsson E, Mitchell T, Rock D (2018). What can machines learn, and what does it mean for occupations and the economy? AEA Papers & Proceedings 108:43–47. (The SML rubric — the declarative-anchor form R1 copies.) https://doi.org/10.1257/pandp.20181019
+9. Pellegrino JW, Hilton ML (eds) (2012). Education for Life and Work: Developing Transferable Knowledge and Skills in the 21st Century. National Research Council. https://www.nationalacademies.org/read/13398/chapter/2
+10. Measuring adaptive expertise and adaptive performance in (becoming) healthcare professionals: a scoping review of measurement instruments (2025). Advances in Health Sciences Education. https://doi.org/10.1007/s10459-025-10413-y
+11. Long D, Magerko B (2020). What is AI literacy? Competencies and design considerations. CHI 2020. https://doi.org/10.1145/3313831.3376727
+12. UNESCO (2024). AI competency framework for students. https://unesdoc.unesco.org/ark:/48223/pf0000391105
+13. European Commission JRC — DigComp (Digital Competence Framework for Citizens); basis of the Australian Digital Capability Framework (DEWR, 2022).
+14. Boyer EL (1990). Scholarship Reconsidered: Priorities of the Professoriate. Carnegie Foundation.
+15. Brew A (2006). Research and Teaching: Beyond the Divide. Palgrave Macmillan.
+16. Knight FH (1921). Risk, Uncertainty and Profit. Houghton Mifflin.
+17. Kane MT (2013). Validating the interpretations and uses of test scores. Journal of Educational Measurement 50(1):1–73. (The validity-argument frame for the v4 evidence plan.)
+18. Woods L, Lyons K, et al. (2026). Assessing the effectiveness of artificial intelligence education and training for healthcare workers: a systematic review. BMC Medical Education 26:549. (The construct-validity critique v4 answers.) https://doi.org/10.1186/s12909-026-08969-3
+19. Higher Education Standards Framework (Threshold Standards) 2021, F2021L00488. Clause 1.4.2(b)–(d) (generic and employment-related learning outcomes, applied in disciplinary context), 1.4.3 (assessment must confirm the outcomes), 5.4.1 (work-integrated learning and placements are quality assured, including supervision). https://www.legislation.gov.au/F2021L00488
+20. QILT Employer Satisfaction Survey (ESS) — national employer ratings across five graduate attribute domains: foundation, adaptive, collaborative, technical and employability skills. (2025 national results: technical 94.0%, foundation 93.3%, adaptive 90.7%, collaborative 88.6%, employability 86.2%.) https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29
+21. Core Skills for Work Developmental Framework (Australian Government, 2013). Three clusters — navigate the world of work, interact with others, get the work done — over ten skill areas and five performance stages. Anchor-content source; a VET framework, not a higher-education construct authority. https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework
+22. Gulikers JTM, Bastiaens TJ, Kirschner PA (2004). A five-dimensional framework for authentic assessment. Educational Technology Research and Development 52(3):67–86. (Task, physical context, social context, result/form, criteria; authenticity is a continuum defined against the criterion situation — design rule R4.) https://doi.org/10.1007/BF02504676
+23. Villarroel V, Bloxham S, Bruna D, Bruna C, Herrera-Seda C (2018). Authentic assessment: creating a blueprint for course design. Assessment & Evaluation in Higher Education 43(5):840–854. (Realism, cognitive challenge, evaluative judgement — the third dimension is DFVA C2, not W2.) https://doi.org/10.1080/02602938.2017.1412396
+24. Fawns T, Bearman M, Dawson P, Nieminen JH, Ashford-Rowe K, Willey K, Jensen LX, Damşa C, Press N (2024). Authentic assessment: from panacea to criticality. Assessment & Evaluation in Higher Education 50(3):396–408. (The label risks becoming a 'thought-terminating cliché' — the constraint behind R4.) https://doi.org/10.1080/02602938.2024.2404634
+25. Sokhanvar Z, Salehi K, Sokhanvar F (2021). Advantages of authentic assessment for improving the learning experience and employability skills of higher education students: a systematic literature review. Studies in Educational Evaluation 70:101030. (26 studies, 2010–2019; outcomes largely student self-report.) https://doi.org/10.1016/j.stueduc.2021.101030
+26. Gibbs G, Simpson C (2004). Conditions under which assessment supports students' learning. Learning and Teaching in Higher Education 1:3–31. (Assessment governs what and how students study — the mechanism warrant for scoring assessment design rather than curriculum statement.)
+27. Kuh GD (2008). High-Impact Educational Practices: What They Are, Who Has Access to Them, and Why They Matter. AAC&U. (Internships, capstones, undergraduate research, collaborative and community-based learning; shared features include sustained time and effort, feedback, and application in novel settings.)
+28. Jackson D, Collings D (2018). The influence of work-integrated learning and paid work during studies on graduate employment and underemployment. Higher Education 76:403–425. (WIL did NOT raise full-time employment rates; evidence for better relevance and quality of employment — the honest bound on the W3 claim.) https://doi.org/10.1007/s10734-017-0216-z
+29. Jackson D (2016). Re-conceptualising graduate employability: the importance of pre-professional identity. Higher Education Research & Development 35(5):925–939. (Identity formed through participation in communities of practice — the mechanism distinguishing W3 from W2.) https://doi.org/10.1080/07294360.2016.1139551
+30. Australian Universities Accord Final Report (2024), Department of Education. (WIL as national priority; placement poverty and the Commonwealth Prac Payment — the equity limitation declared against W3.) https://www.education.gov.au/australian-universities-accord/resources/final-report
+31. NACE Career Readiness Competencies (rev. April 2024). Eight competencies: career & self-development, communication, critical thinking, equity & inclusion, leadership, professionalism, teamwork, technology. https://www.naceweb.org/career-readiness/competencies/career-readiness-defined
+32. Heckman JJ, Stixrud J, Urzua S (2006). The effects of cognitive and noncognitive abilities on labor market outcomes and social behavior. Journal of Labor Economics 24(3):411–482. https://doi.org/10.1086/504455
+33. Barrie SC (2006). Understanding what we mean by the generic attributes of graduates. Higher Education 51:215–241; and Barrie SC (2007), A conceptual framework for the teaching and learning of generic graduate attributes, Studies in Higher Education 32(4):439–458. (Stated graduate attributes are not evidence of attainment — why R2 binds hardest on W1.)
+34. Tomlinson M (2017). Forms of graduate capital and their relationship to graduate employability. Education + Training 59(4):338–352. (Scoping source: social, cultural and psychological capital are student and network properties, not curriculum properties, and are therefore out of scope.)
+35. Lester S, Costley C (2010). Work-based learning at higher education level: value, practice and critique. Studies in Higher Education 35(5):561–575. (Work-based learning in the learner's own employment as an established higher-education mode for in-practice cohorts — the warrant for W3's own-practice route, added in v4.2.) https://doi.org/10.1080/03075070903216635
+`,
+};
+
+export default content;

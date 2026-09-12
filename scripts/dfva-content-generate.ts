@@ -17,6 +17,7 @@
  */
 import { existsSync, mkdirSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from 'node:fs'
 import * as path from 'node:path'
+import { isReportKeySafe } from './lib-report-key'
 
 const repoRoot = path.resolve(__dirname, '..')
 const compassDir = path.join(repoRoot, 'compass/app/src/compass')
@@ -136,7 +137,7 @@ const keys = [
 ].sort()
 if (keys.length === 0) throw new Error(`No reports/dfva-*.md found in ${reportsDir}`)
 for (const key of keys) {
-  if (!/^dfva-[a-z0-9.-]+$/.test(key)) {
+  if (!isReportKeySafe(key)) {
     throw new Error(`Key "${key}" is not filename-safe — refusing to write reportContent/${key}.ts`)
   }
 }

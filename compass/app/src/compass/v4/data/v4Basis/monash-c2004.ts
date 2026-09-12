@@ -12,7 +12,7 @@ const record: V4BasisRecord = {
   "onlyProgram": {
     "code": "monash-c2004",
     "name": "Bachelor of Information Technology",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 83.3,
     "entryExposure": 81.63,
     "jirN": null,

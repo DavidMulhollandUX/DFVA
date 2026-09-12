@@ -1,0 +1,275 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Law (UNSW-4701) — Durability Report (v4 draft)",
+  institution: "University of Melbourne",
+  markdown: `# DFVA v4 DURABILITY REPORT: Law (UNSW-4701)
+
+**Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
+**Assessment date:** 2026-09-07
+**Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unsw.edu.au/undergraduate/courses/2026/LAWS1021 (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 156 pages captured
+**Course Director:** not listed on the handbook course page
+
+> **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
+> ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
+> [v4.1 recommendation](../docs/dfva-panelc-v41-recommendation.md), 2026-08-14;
+> [v4.2 amendment](../docs/dfva-rubric-evolution.md), 2026-08-16).
+> Neither sub-score is comparable with any v3.1 value.
+
+> **This program is outside the v3.1 registry, but not outside Panel A.** Law
+> has never been assessed on v3.1, so it has no adaptiveness score on the published
+> instrument. Exposure does not depend on the scoring instrument, so §1 reports a value
+> computed by the identical Panel A procedure, on the basis stated there.
+
+> **The exposure value is an estimate, not this program's own graduates.** It rests on
+> a field grain basis (JSA HEO · 0909 Law). What such a
+> value may and may not be used for is set out in
+> [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
+
+## 1. POSITION — Basis: measured × scored
+
+**Destination AI Exposure: 90.52.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 4 of 13 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 0909 Law; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **above** it.
+
+**Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
+
+**Workplace Practice: 4 / 9.** Scored on sub-scale W [[19]](https://www.legislation.gov.au/F2021L00488) in the same pass, from the same extract. The position axis remains adaptiveness alone; the workplace sub-score is reported beside it, not folded into the axis, and the two are never added together.
+
+**Position: High exposure · low adaptiveness.** Assigned against the v4 medians (exposure 83.21 on the field basis, adaptiveness 9), computed from all 34 reference-cohort programs re-scored on this instrument. This is the deterministic median rule the site applies, not a probabilistic stability class.
+
+## 2. PANEL C v4.2 SCORECARD — Basis: scored
+
+The two sub-scales are kept separate and carry their own subtotals. Panel C has no
+combined total: the sub-scores are reported side by side and never added.
+
+| Item | Score | Rationale (anchor-referenced) |
+| --- | --- | --- |
+| C1 Distributed cognition & relational capability [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 2 | Level 2's anchor — at least one core unit assesses collaborative practice — is met explicitly: the compulsory core course Equity and Trusts documents a group assessment task, and the compulsory Lawyers, Ethics and Justice documents team work plus client work. Level 3 fails on both of its conjuncts as documented: nothing in the extract requires coordinating a division of work across people AND tools or AI systems, and recurrence of ASSESSED collaboration cannot be established because every course page lists assessment only as generic modality rows with no task description. Kingsford Legal Centre clinical work is not counted here; placement evidence has its home in W3. |
+| C2 Hybrid metacognition & evaluative judgement [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) | 1 | Level 1's anchor fits exactly: self-assessment and reflection appear in the program learning outcomes and in core and prescribed-theory course outcomes, but no core unit is documented as assessing appraisal against criteria. Level 2 needs core ASSESSMENT containing criterion-referenced appraisal of quality — peer review, structured critique, portfolio with standards, marking against exemplars — and the extract carries no assessment task descriptions at all, only modality rows. The trust-deed critique outcome is critique of a legal instrument rather than documented appraisal of the quality of work, so it does not lift the item. |
+| C3 Digital & AI literacy, including governance [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 1 | Above level 0 because digital and AI content is present at program-outcome level and in one core course outcome. It stops at level 1: the only core AI reference is a single recognition-level outcome about responsible use of generative AI, which is the operational register the anchor caps at 1, and substantive law-and-technology content sits in electives (Information Technology Law, Designing Technology Solutions for Access to Justice, Law and Technology). Level 2 requires core units to address AI capabilities AND limitations or ethics with use and limits assessed; no assessment of that content is documented anywhere in the extract. |
+| C4 Life-long learning & transfer [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 1 | Transfer is claimed in outcomes — applying principles to hypothetical fact scenarios and applying cumulative knowledge to propose solutions recur across the core — but level 1 is where that stops, because level 2 requires a core ASSESSMENT documented as applying methods to novel or unfamiliar problems and the course pages describe no assessment tasks. Level 3 is not available: the self-scoped research project route exists only as Research Thesis electives, not as required structured progression to independent learning. |
+| C5 Inquiry & evidence generation [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 1 | Level 1's anchor — an introductory methods unit and literature-based written work — is met by the compulsory zero-credit Legal Research and Writing, whose outcomes cover locating and citing primary and secondary sources, and by research outcomes in other core courses. Level 2 needs students to design and conduct an inquiry with methodology selection and data collection, assessed; the extract documents no such core task, and the thesis routes that would generate primary evidence are electives, which also rules out level 3's requirement that the project be REQUIRED. |
+| **Adaptive capabilities** | **6 / 15** | |
+| W1 Professional communication & conduct [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) | 1 | Communication and professional conduct are stated program outcomes, and core assessment is documented as including spoken work presented in class — the level 1 anchor's presentation to peers and staff. Level 2 requires at least one core ASSESSMENT in a recognised professional genre or to an audience beyond the teaching team, judged against criteria drawn from practice; drafting memoranda and contractual documents and advising clients appear only as outcome statements, and Barrie's rule against scoring stated attributes plus R2 hold the item at 1. Level 3's repeated, progressive professional communication judged by an external audience is not documented. |
+| W2 Authentic task design [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) | 1 | The core is scenario-framed throughout — hypothetical fact scenarios and hypothetical legislative instruments — which is exactly level 1: contextualised tasks whose artefact and criteria remain academic. Level 2 requires a core assessment that reproduces a professional task end to end and produces the artefact a practitioner would produce, judged against criteria drawn from practice; the extract's assessment rows carry only modality and no task, so the documented features needed under R4 are absent. Workplace immersion at the Kingsford Legal Centre is excluded here by construct and scored in W3. |
+| W3 Work-situated learning [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) | 2 | Level 1 is falsified: work-situated learning is not confined to electives, because the compulsory core course Lawyers, Ethics and Justice documents a clinical component in which students work with clients and lawyers at the Kingsford Legal Centre, with clinical experience listed among its topics and an outcome that locates application of legal and ethical principles within community legal centre practice. That matches level 2's professional-community setting with practitioners, and it is short and stands alone within a single 6 UOC course. Level 3 is not met: no extended placement or sequence of placements sits in the core, and no accountability to a host or structured reflection on professional practice is documented; the clinics and internships that would supply that are all electives. |
+| **Workplace practice** | **4 / 9** | |
+
+**C1 Distributed cognition & relational capability — 2/3**
+
+> 8. Collaborate effectively in diverse professional contexts to achieve common goals, enable others and facilitate change.
+>
+> - Work as a member of a team in contributing to class discussion and completing a group assessment task. (PLO 8)
+>
+> - Work effectively in teams and reflect on how their values and interpersonal styles influence team work. (PLO 8)
+>
+> - Examine the principles of private law critically in light of practical problems in the operation of the law, both alone and in co-operation with others. (PLO 1)
+
+**C2 Hybrid metacognition & evaluative judgement — 1/3**
+
+> 9. Build capacity for self-management and self-development, including independent learning; self-reflection; using feedback.
+>
+> - Demonstrate self-management through self-assessment of performance and use of previous feedback received in the course. (PLO 9)
+>
+> - Demonstrate self-management through self-assessment of capabilities and performance and use of previous feedback received in the course (PLO 9)
+>
+> - Apply knowledge of trust law to critique and suggest improvements to clauses in a trust deed. (PLO 6)
+
+**C3 Digital & AI literacy, including governance — 1/3**
+
+> 5. Conduct independent research to address legal and policy issues, using diverse legal and non-legal sources, and through responsible use of technologies.
+>
+> - Recognise responsible and appropriate use of generative AI in legal research and writing within the context of university studies and legal practice. (PLO 5, 7)
+>
+> - **LAWS3131**: Information Technology Law [6 UOC]
+>
+> - **LAWS3196**: Designing Technology Solutions for Access to Justice [6 UOC]
+
+**C4 Life-long learning & transfer — 1/3**
+
+> - Apply key principles of contract law to hypothetical fact scenarios. (PLO 6)
+>
+> - Apply cumulative knowledge and skills to propose solutions to hypothetical fact scenarios. (PLO 6)
+>
+> - **LAWS3423**: Research Thesis [6 UOC]
+>
+> 9. Build capacity for self-management and self-development, including independent learning; self-reflection; using feedback.
+
+**C5 Inquiry & evidence generation — 1/3**
+
+> - **LAWS1055**: Legal Research and Writing [0 UOC]
+>
+> - Locate and cite relevant primary and secondary legal sources using appropriate legal research methods. (PLO 5)
+>
+> - Conduct effective legal research using appropriate scholarly resources and methods (PLO5)
+>
+> - **LAWS3434**: Research Thesis: Extended [6 UOC]
+
+**W1 Professional communication & conduct — 1/3**
+
+> 7. Communicate, both orally and in writing, in ways that are effective, appropriate and persuasive for legal and non-legal audiences.
+>
+> - Demonstrate effective oral communication skills by presenting assessments using diverse media. (PLO 7)
+>
+> - Demonstrate effective oral communication skills by discussing and debating course concepts in a scholarly, reflective and respectful manner. (PLO 7)
+>
+> - Develop skills in drafting contractual documents including memoranda, contract terms and their interpretation. (PLO 7)
+
+**W2 Authentic task design — 1/3**
+
+> - Apply propositions of constitutional law to hypothetical problems testing the validity of legislative action. (PLO 6)
+>
+> - Navigate the interaction of common law, equity and statute when applying real property law to hypothetical fact scenarios. (PLO 4, 6)
+>
+> - Use statutory interpretation principles to identify the constituent elements of criminal offences and apply to hypothetical fact scenarios. (PLO 4)
+>
+> - In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)
+
+**W3 Work-situated learning — 2/3**
+
+> This course combines interactive teaching, group work, and a clinical component in which students work with clients and lawyers at UNSW Law & Justice's Kingsford Legal Centre.
+>
+> Clinical experience at KLC
+>
+> - Apply legal and ethical principles to hypothetical fact scenarios and other contexts, including within a community legal centre practice. (PLO 6)
+>
+> - Demonstrate client skills, including interviewing, handling ethical issues and duties and cultural awareness. (PLO 8)
+>
+> - **LAWS1230**: Lawyers, Ethics and Justice [6 UOC]
+
+## 3. GATES — Basis: scored
+
+- **G1 Disciplinary foundation:** PASS — The program documents a coherent all-compulsory specialist core of 96 UOC of named Law courses within a 144 UOC disciplinary component, an accredited sequence recognised by the Legal Profession Admission Board for admission to practice, and a staged chain: a prescribed first-term pairing, a public law course that expressly prepares students for two later core courses, and later core courses normally taken after named earlier ones. That is the anchor's progressive methodological depth, not interchangeable generic content.
+- **G2 Decision-making under uncertainty:** PASS — The core goes beyond recall or scripted response: students are required to weigh dispute-resolution options and evaluate possible client choices, to advise on appropriate remedies across statute, common law and equity, and to work through ethical decisions in context, including live client work at a community legal centre. Those are defended trade-off decisions and a live project with accountability, which is what the PASS side of the anchor names.
+
+## 4. MARKET EVIDENCE — Basis: reported
+
+The tables condense [the market report](dfva-market-unsw-4701.md); they report what the market says and do not argue a score.
+
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Lawyers | Tax Counsel; Solicitor; Graduate Lawyer; Intellectual Property Consultant; Intellectual Property Lawyer; Head of Intellectual Property; Government Lawyer; Construction Lawyer; General Counsel; Barrister; IP Specialist; Legal Counsel | not stated in the market report | recurring keywords in the advertisement sample: Contract drafting, Statutory interpretation, Dispute resolution, Legal advocacy |
+| Paralegals and Legal Assistants | Legal Executive | not stated in the market report | recurring keywords in the advertisement sample: litigation, contract, compliance, drafting |
+| Office Clerks, General | General Clerk; General Clerks nfd | not stated in the market report | recurring keywords in the advertisement sample: administration, clerical, data entry, office administration |
+| Accountants and Auditors | Chartered Accountant; Accountant; Business Services Accountant; Audit Manager; Audit Graduate; Accountant (General); External Auditor; Assistant Accountant; Certified Practising Accountant; Management Accountant; Forensic Accountant | not stated in the market report | recurring keywords in the advertisement sample: Audit sampling, Financial statement analysis, ASRS sustainability assurance, Tax compliance |
+| Business Operations Specialists, All Other | Energy Consultant; Energy Specialist; Energy Systems Analyst; Energy Systems Consultant; Energy sustainability Consultant; Governance Project Officer | not stated in the market report | not stated in the market report |
+| Retail Salespersons | Sales Assistant (General); Sales Assistants and Salespersons nec | not stated in the market report | recurring keywords in the advertisement sample: retail assistant, customer service, merchandising, sales target |
+| Management Analysts | Agribusiness Analyst; Analyst; Business Analyst - Energy & Greenhouse; Consultant - Policy, Economics & Public Impact; Director, Surveys and Evaluation; Evaluation Advisor | not stated in the market report | recurring keywords in the advertisement sample: Communication Skills, Change Management, Stakeholder Management, Project Management |
+| Political Scientists | Assistant Director; Diplomat; Director, Policy and Government Relations; Foreign Service Officer; Government Affairs Advisor; Government Relations Project Officer | not stated in the market report | not stated in the market report |
+
+**What the §1 exposure value is.** 90.52. Rests on a **field-of-education** basis (JSA HEO · 0909 Law) — graduates of the whole field, not this program. 4 of 13 titles carry only medium mapping confidence. It sits **above** the field median of 83.21.
+
+| Signal or shift | Direction | Bearing on the scored items |
+| --- | --- | --- |
+| Contract drafting | Falling | Contract drafting is a falling keyword in the 4,820-posting Lawyers advertisement sample (§2 Signal 1). The market report ties automated contract analytics to compressed entry-level document-review volume and to generative drafting sitting inside the same solicitor-verification framework as delegating to a paralegal (§3 Theme 2; §3 Theme 4), bearing on C2 (verifying AI-drafted work against source authority), W1 (drafting contractual documents is named among the core's professional-communication outcomes) and W2 (a professional-form drafting artefact, per §5 CI-3). |
+| Statutory interpretation | Rising | Statutory interpretation is a rising keyword in the same Lawyers sample (§2 Signal 1). The gate evidence records the core requiring advice on remedies across statute, common law and equity (G2), and Theme 2 records rising demand for cross-jurisdictional negotiation and trade-off judgement as routine work automates — bearing on C4 (application to novel or unfamiliar problems) and G2. |
+| Dispute resolution | Steady | Dispute resolution holds steady in the Lawyers sample (§2 Signal 1). The gate evidence records the core requiring students to weigh dispute-resolution options and evaluate client choices (G2) — bearing on G2; no item rationale in the improvement plan attributes a scored gap to this specific skill. |
+| Legal advocacy | Rising | Legal advocacy is a rising keyword in the Lawyers sample (§2 Signal 1). Theme 1 and Theme 4 tie legal work generally to non-delegable oversight and verification requirements, and §5 CI-1 names a professional genre or audience beyond the teaching team as the market-warranted next step for that kind of communication — bearing on W1. |
+| Fiduciary risk management | Rising | Fiduciary risk management is a rising keyword in the Lawyers sample (§2 Signal 1). Theme 1 records that legal practice rules mandate non-delegable fiduciary liability and human oversight of AI-generated legal work, and Theme 4 extends that oversight framework to generative drafting generally — bearing on C1 (documented tool allocation in team work), C2 and C3 (verifying and governing AI-generated output) and W1 (accountable communication), per the improvement plan's own item rationale. |
+| litigation | Falling | Litigation is a falling keyword in the 367-posting Paralegals and Legal Assistants sample (§2 Signal 2). Theme 2 records that automated contract analytics and LLM discovery review compress the entry-level document-review and litigation-support volume that has traditionally trained junior lawyers, and §5 CI-2 asks any placement to protect its supervised-judgement component rather than its document-volume component as that work thins — bearing on C5 (a required primary-evidence project as an alternative evidence source) and W3 (protecting the clinic's supervised-judgement component). |
+
+**Confidence, restated from the market report.** Its discussion signals are stated at MEDIUM confidence. Its declared gaps: Destination basis (LOW — Field-of-education grain (0909 Law): the destinations are the field's, not this program's.); Lawyers — regulatory and statutory instruments (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Lawyers — scholarly and grey-literature studies (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Lawyers — trade and professional press (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Lawyers — job-advertisement signals (HIGH — 10 recorded claim(s); retrieved 2026-08-24.); Lawyers — practitioner discourse (HIGH — 67 recorded claim(s); retrieved 2026-08-24.); Paralegals and Legal Assistants — regulatory and statutory instruments (HIGH — 2 recorded claim(s); retrieved 2026-08-24.); Paralegals and Legal Assistants — scholarly and grey-literature studies (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Paralegals and Legal Assistants — trade and professional press (LOW — No claim recorded in this lane.); Paralegals and Legal Assistants — job-advertisement signals (HIGH — 11 recorded claim(s); retrieved 2026-08-24.); Paralegals and Legal Assistants — practitioner discourse (HIGH — 60 recorded claim(s); retrieved 2026-08-24.); Paralegals and Legal Assistants — L3 via factiva (LOW — Search returned nothing (, 2026-09-07): Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet.); Paralegals and Legal Assistants — record caveat (HIGH — Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.); Paralegals and Legal Assistants — record caveat (HIGH — L1 sources govern supervising solicitors rather than independent paralegal registration.); Office Clerks, General — regulatory and statutory instruments (MEDIUM — 1 recorded claim(s); retrieved 2026-08-31.); Office Clerks, General — scholarly and grey-literature studies (MEDIUM — 3 recorded claim(s); retrieved 2026-08-31.); Office Clerks, General — trade and professional press (MEDIUM — 3 recorded claim(s); retrieved 2026-08-31.); Office Clerks, General — job-advertisement signals (MEDIUM — 14 recorded claim(s); retrieved 2026-08-31.); Office Clerks, General — practitioner discourse (MEDIUM — 119 recorded claim(s); retrieved 2026-08-31.); Office Clerks, General — L3 via factiva (LOW — Search returned nothing (auth_expired, 2026-08-31): OpenAthens session expired (cookies 2026-08-26); re-run factiva_reauth.py); Office Clerks, General — L5 via grounding (LOW — Search returned nothing (unreachable, 2026-08-31): Keyless web search unavailable in this environment); Office Clerks, General — record caveat (MEDIUM — L1 is regime-general (Privacy Act / Fair Work); no occupation-specific licensing body for general clerks.); Office Clerks, General — record caveat (MEDIUM — Factiva unavailable (auth expired); L3 led by web trade press.); Office Clerks, General — record caveat (MEDIUM — Government case examples (nucamp) are illustrative, not a workforce forecast.); Accountants and Auditors — regulatory and statutory instruments (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Accountants and Auditors — scholarly and grey-literature studies (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Accountants and Auditors — trade and professional press (LOW — No claim recorded in this lane.); Accountants and Auditors — job-advertisement signals (HIGH — 9 recorded claim(s); retrieved 2026-08-24.); Accountants and Auditors — practitioner discourse (HIGH — 59 recorded claim(s); retrieved 2026-08-24.); Business Operations Specialists, All Other — regulatory and statutory instruments (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Business Operations Specialists, All Other — scholarly and grey-literature studies (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Business Operations Specialists, All Other — trade and professional press (LOW — No claim recorded in this lane.); Business Operations Specialists, All Other — job-advertisement signals (HIGH — 10 recorded claim(s); retrieved 2026-08-24.); Business Operations Specialists, All Other — practitioner discourse (HIGH — 61 recorded claim(s); retrieved 2026-08-24.); Business Operations Specialists, All Other — L3 via factiva (LOW — Search returned nothing (auth_expired, 2026-08-30): OpenAthens session expired (re-run factiva_reauth.py). Logged to factiva_backlog.json; L3 trade-press lane pending re-auth backfill.); Business Operations Specialists, All Other — record caveat (HIGH — L3 Factiva trade-press lane pending re-auth (auth_expired 2026-08-30); backfill via factiva_backlog.json.); Business Operations Specialists, All Other — record caveat (HIGH — L5 corpus is a broad AI-discourse sample (Hacker News / GitHub), not occupation-specific practitioner communities; treat as indicative, not representative.); Retail Salespersons — regulatory and statutory instruments (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Retail Salespersons — scholarly and grey-literature studies (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Retail Salespersons — trade and professional press (LOW — No claim recorded in this lane.); Retail Salespersons — job-advertisement signals (HIGH — 11 recorded claim(s); retrieved 2026-08-24.); Retail Salespersons — practitioner discourse (HIGH — 42 recorded claim(s); retrieved 2026-08-24.); Retail Salespersons — L3 via factiva (LOW — Search returned nothing (, 2026-09-07): Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet.); Retail Salespersons — record caveat (HIGH — Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.); Retail Salespersons — record caveat (HIGH — Commodity retail sales face e-commerce substitution while luxury/technical retail demands human consultation.); Management Analysts — regulatory and statutory instruments (LOW — No claim recorded in this lane.); Management Analysts — scholarly and grey-literature studies (MEDIUM — 2 recorded claim(s); retrieved 2026-08-25.); Management Analysts — trade and professional press (MEDIUM — 8 recorded claim(s); retrieved 2026-08-25.); Management Analysts — job-advertisement signals (MEDIUM — 10 recorded claim(s); retrieved 2026-08-25.); Management Analysts — practitioner discourse (MEDIUM — 65 recorded claim(s); retrieved 2026-08-25.); Management Analysts — search (LOW — Search returned nothing: grounding: unreachable (keyless web search unavailable)); Management Analysts — search (LOW — Search returned nothing: polymarket: ran, no results); Management Analysts — search (LOW — Search returned nothing: x: unauthenticated (bird_authenticated false) - coverage degraded, not recorded as silence); Management Analysts — search (LOW — Search returned nothing: tiktok/instagram: skipped-unconfigured (no ScrapeCreators key)); Management Analysts — search (LOW — Search returned nothing: adzuna-au: no API credentials configured - L4 falls back to Workforce Australia public vacancy count); Management Analysts — record caveat (MEDIUM — L3-led claim set graded medium because Factiva was unavailable (constraint 3).); Management Analysts — record caveat (MEDIUM — L4 uses Workforce Australia's public ANZSCO vacancy count instead of Adzuna: no Adzuna API credentials are configured on this machine.); Management Analysts — record caveat (MEDIUM — The L2 claims describe construction-sector client organisations, which are adjacent to rather than identical with the destination profession.); Management Analysts — record caveat (MEDIUM — 2026-08-29: restored from the genuine 2026-08-27 research (git rev bf79597) after a concurrent session's broad commit (4a6cbae) accidentally overwrote it with pre-existing fabricated content. See the profession record, 'Fabrication incident 2026-08-24'.); Political Scientists — regulatory and statutory instruments (HIGH — 2 recorded claim(s); retrieved 2026-08-31.); Political Scientists — scholarly and grey-literature studies (HIGH — 1 recorded claim(s); retrieved 2026-08-31.); Political Scientists — trade and professional press (HIGH — 2 recorded claim(s); retrieved 2026-08-31.); Political Scientists — job-advertisement signals (HIGH — 10 recorded claim(s); retrieved 2026-08-31.); Political Scientists — practitioner discourse (HIGH — 46 recorded claim(s); retrieved 2026-08-31.); Political Scientists — L5 via grounding (LOW — Search returned nothing (unreachable, 2026-08-31): keyless web search unavailable); Political Scientists — L5 via jobs (LOW — Search returned nothing (unreachable, 2026-08-31): URL Error: nodename nor servname provided).
+
+## 5. CURRICULUM IMPLICATIONS — Basis: inferred
+
+This section argues from the preceding evidence; it is interpretation, not observation.
+
+Each row states an option and what it costs, not a directive. Anchor text, sequencing
+and the score deltas are in the [improvement plan](dfva-v4-recommend-unsw-4701.md); rows
+below are ordered by headroom, which is not the plan's P-lever order.
+
+| Item | Score | Implication | Cost | Sources |
+| --- | --- | --- | --- | --- |
+| C2 Hybrid metacognition & evaluative judgement | 1/3 | The core's self-assessment and reflection outcomes are stated but not assessed against criteria, so the program cannot show the criterion-referenced check that the Legal Profession Uniform Law's non-delegable fiduciary liability and required oversight of AI-generated legal work make a disciplinary matter (§3 Theme 1; §5 CI-1). | Reaching level 2 needs a rubric-development and marking-load increase inside an existing drafting subject; reaching level 3 needs a further assessment-criteria redesign adding a documented reliance-justification requirement (recommend plan P1, P8). | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) |
+| C3 Digital & AI literacy, including governance | 1/3 | The only core AI reference is a single recognition-level outcome on responsible generative-AI use; substantive content on AI capabilities and limits sits in electives, short of what the Law Council's finding that generative drafting requires the same solicitor-verification framework as delegating to a paralegal implies belongs in the core (§3 Theme 4). | Level 2 needs a core-unit content and assessment redesign plus displacing an elective's current AI content into the core; level 3 needs a further assessment redesign adding governance-critique content (recommend plan P4, P9). | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
+| C4 Life-long learning & transfer | 1/3 | The core claims transfer in its outcome statements but documents no assessed application to a novel or unfamiliar problem, leaving the program unable to show it meets the cross-jurisdictional negotiation and trade-off judgement that automated contract analytics and LLM discovery review are shifting demand toward as document-review volume compresses (§3 Theme 2). | Level 2 needs a new fact pattern and marking criteria added to an existing core assessment; level 3 needs converting the elective Research Thesis route into a required core capstone, with associated supervision load (recommend plan P3, P10). | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
+| C5 Inquiry & evidence generation | 1/3 | Legal Research and Writing establishes research literacy at the introductory level, but no core task requires designing and conducting an inquiry with methodology selection and data collection — the gap a required primary-evidence project would help close given the program's own field-of-education-grain destination basis (§6). | Level 2 needs a proposal-stage assessment task and marking criteria added to an existing core course; level 3 needs converting the elective thesis structure into a required core component with a supervised defence, plus supervision-load increase (recommend plan P2, P13). | [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| W1 Professional communication & conduct | 1/3 | The core documents spoken presentation to peers and staff but no assessed professional genre or audience beyond the teaching team, so the accountable communication that the Law Council's non-delegable fiduciary liability and verification requirements for AI-generated legal work make a disciplinary matter (§3 Theme 1; §3 Theme 4) is not yet demonstrated as assessed evidence. | Level 2 needs sourcing an external or simulated client brief and practice-derived marking criteria for an existing drafting or advocacy task; level 3 needs a further assessed communication task plus recruiting or simulating an external practitioner panel (recommend plan P5, P11). | [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) |
+| W2 Authentic task design | 1/3 | The core's hypothetical fact scenarios stay academic in artefact and criteria, so a graduate has no professional-form artefact distinguishing them from the clerical and paralegal destinations this field's own outcomes list carries — a gap the Privacy Act's application to those entities and clerical work's automation exposure make material (§3 Theme 5; §3 Theme 6; §5 CI-3). | Level 2 needs an assessment redesign around an authentic client matter and deliverable; level 3 needs redesigning assessment across multiple core courses as a scaffolded spine rather than one (recommend plan P6, P12). | [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) |
+| C1 Distributed cognition & relational capability | 2/3 | At level 2, the compulsory Equity and Trusts and Lawyers, Ethics and Justice team and client-work tasks establish assessed collaboration between people, but no core assessment documents how work is divided between people and AI tools — the gap that Fiduciary risk management's rise across the 4,820-posting Lawyers advertisement sample and the same-oversight framework drafting sits under would next need to close (§2 Signal 1; §3 Theme 4). | Extending the existing team task to document and mark tool allocation is a team-assessment redesign plus new marking criteria for tool allocation, inside a course that already carries the collaboration component (recommend plan P7). | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| W3 Work-situated learning | 2/3 | The compulsory Kingsford Legal Centre clinical component inside Lawyers, Ethics and Justice already places the item above level 1, but it is short and stands alone rather than an extended or required sequence with structured reflection and host accountability — the supervised-judgement route worth protecting as automated contract analytics and LLM discovery review compress document-review volume (§3 Theme 2; §5 CI-2). | Level 3 needs a second clinical rotation or extended placement plus host-relationship management (recommend plan P14), carrying the equity cost the plan notes where an extended placement is unpaid or relocation-dependent. | [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) |
+
+## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
+
+**Panel A metadata.** Basis tier **field** (field grain), n = 0, 13 destination titles, 4 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
+
+**Panel C provenance.** Scored from the 2026 handbook capture (156 pages) and verified on 2026-09-07: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
+
+**Ambiguities and construct-boundary notes** (7):
+
+- C1 straddled 2 and 3: assessed collaboration is documented once (a group assessment task in Equity and Trusts) and team work appears in a second core course, but recurrence across the program cannot be established from outcome statements alone and no human-plus-tool coordination is documented, so the lower level stands.
+- C2 straddled 1 and 2: the trust-deed critique outcome and the self-assessment outcomes could be read as criterion-referenced appraisal, but neither is tied to a documented assessment task, so R2 and the lower-level rule hold it at 1.
+- C3 straddled 1 and 2: a core course outcome names responsible use of generative AI in legal practice, which gestures at limits, but it is recognition-level, unassessed and unaccompanied by any documented treatment of AI capabilities, so the operational cap at level 1 applies.
+- C4 straddled 1 and 2: hypothetical fact scenarios recur across core outcomes and could be read as novel-problem application, but they are outcome claims with no assessment task documented, so the lower level stands.
+- W1 straddled 1 and 2: client interviewing in the core ethics course and contract drafting in Contracts are professional genres with audiences beyond the teaching team, but both appear only as learning outcomes with no assessment task documented, so the lower level stands.
+- W2 straddled 1 and 2: drafting contractual documents and improving trust deed clauses would be practitioner artefacts if documented as assessment, but the extract records no task, only modality, so the scenario-framed level 1 reading stands. The trust deed evidence is cited in C2 rather than reused here.
+- W3 straddled 1 and 2 in the other direction: the clinics and internships are electives, which reads as level 1, but the Kingsford Legal Centre clinical component sits inside a compulsory core course, which falsifies level 1's 'only as an elective' anchor; level 2 was taken because the component is short and stands alone, and explicit assessment of the clinical work is not itemised.
+
+**Not scoreable from the handbook** (2):
+
+- Assessment task detail is absent program-wide: every course page in the extract lists assessment only as generic modality rows such as 'In-person - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)' and 'Multimodal - Standard (usually weekly or fortnightly): N/A% (Hurdle: False)', with no task description, weighting or hurdle. No level-3 anchor on any item could therefore be tested against assessment evidence as R2 requires, and C2, C3, C4, W1 and W2 were held at their outcome-only levels for this reason rather than because the capability is documented as absent.
+- Workload and contact-hour data are empty on every course page ('Workload:' with no value), so nothing about the duration or intensity of the core clinical component could be established for the W3 level-3 test.
+
+**Standing v4 limitations.**
+
+- Scores describe **documented curriculum intent**, not demonstrated graduate
+  capability; the extrapolation warrant is constructive alignment, stated as an
+  assumption (Kane [17]).
+- Indigenous data governance is not scored as a distinct construct; C3 level 3
+  counts it where taught (CARE Principles; Lodge et al. 2025 Principle 4 [[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/)).
+- Perception/manipulation (Frey & Osborne's third bottleneck [[7]](https://doi.org/10.1016/j.techfore.2016.08.019)) is unscored.
+- A high W3 score describes curriculum design, not student welfare: required
+  placements can disadvantage students who cannot afford unpaid work or
+  relocation (Accord [[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report); Fawns et al. [[24]](https://doi.org/10.1080/02602938.2024.2404634) on ableism and elitism).
+- W2 is scored against each discipline's own criterion situation [[22]](https://doi.org/10.1007/BF02504676), so
+  cross-disciplinary W2 comparison is weaker than within-discipline comparison.
+- W3 excludes simulation by design (simulation scores in W2), so programs whose
+  professional norm is high-fidelity simulation may score low on W3 for a
+  defensible pedagogic choice. Read the two sub-scores together.
+- The authentic-assessment employability evidence rests largely on student
+  self-report [[25]](https://doi.org/10.1016/j.stueduc.2021.101030); W2's warrant is documented design fidelity plus the
+  assessment-drives-learning mechanism [26], not demonstrated employment effects.
+- Work-integrated learning is NOT claimed to raise employment rates — Jackson &
+  Collings [[28]](https://doi.org/10.1007/s10734-017-0216-z) found it does not. W3's warrant is skill development, employment
+  relevance and professional identity formation [[29]](https://doi.org/10.1080/07294360.2016.1139551).
+
+## REFERENCES
+
+1. Lodge JM, de Barba P, Ainscough L, et al. (2026). Assuring quality learning in a gen AI-integrated future: The role of adaptive capabilities. TEQSA. https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities
+2. Lodge JM, et al. (2025). Australian Framework for Artificial Intelligence in Higher Education. ACSES. (Principles 4 & 6.) https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/
+3. Lodge JM, Howard S, Bearman M, Dawson P & Associates (2023). Assessment reform for the age of artificial intelligence. TEQSA. https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf
+4. Tai J, Ajjawi R, Boud D, Dawson P, Panadero E (2018). Developing evaluative judgement: enabling students to make decisions about the quality of work. Higher Education 76:467–481. https://doi.org/10.1007/s10734-017-0220-3
+5. Deming DJ (2017). The growing importance of social skills in the labor market. Quarterly Journal of Economics 132(4):1593–1640. https://doi.org/10.1093/qje/qjx022
+6. Deming DJ, Noray K (2020). Earnings dynamics, changing job skills, and STEM careers. Quarterly Journal of Economics 135(4):1965–2005. https://doi.org/10.1093/qje/qjaa021
+7. Frey CB, Osborne MA (2017). The future of employment: how susceptible are jobs to computerisation? Technological Forecasting & Social Change 114:254–280. https://doi.org/10.1016/j.techfore.2016.08.019
+8. Brynjolfsson E, Mitchell T, Rock D (2018). What can machines learn, and what does it mean for occupations and the economy? AEA Papers & Proceedings 108:43–47. (The SML rubric — the declarative-anchor form R1 copies.) https://doi.org/10.1257/pandp.20181019
+9. Pellegrino JW, Hilton ML (eds) (2012). Education for Life and Work: Developing Transferable Knowledge and Skills in the 21st Century. National Research Council. https://www.nationalacademies.org/read/13398/chapter/2
+10. Measuring adaptive expertise and adaptive performance in (becoming) healthcare professionals: a scoping review of measurement instruments (2025). Advances in Health Sciences Education. https://doi.org/10.1007/s10459-025-10413-y
+11. Long D, Magerko B (2020). What is AI literacy? Competencies and design considerations. CHI 2020. https://doi.org/10.1145/3313831.3376727
+12. UNESCO (2024). AI competency framework for students. https://unesdoc.unesco.org/ark:/48223/pf0000391105
+13. European Commission JRC — DigComp (Digital Competence Framework for Citizens); basis of the Australian Digital Capability Framework (DEWR, 2022).
+14. Boyer EL (1990). Scholarship Reconsidered: Priorities of the Professoriate. Carnegie Foundation.
+15. Brew A (2006). Research and Teaching: Beyond the Divide. Palgrave Macmillan.
+16. Knight FH (1921). Risk, Uncertainty and Profit. Houghton Mifflin.
+17. Kane MT (2013). Validating the interpretations and uses of test scores. Journal of Educational Measurement 50(1):1–73. (The validity-argument frame for the v4 evidence plan.)
+18. Woods L, Lyons K, et al. (2026). Assessing the effectiveness of artificial intelligence education and training for healthcare workers: a systematic review. BMC Medical Education 26:549. (The construct-validity critique v4 answers.) https://doi.org/10.1186/s12909-026-08969-3
+19. Higher Education Standards Framework (Threshold Standards) 2021, F2021L00488. Clause 1.4.2(b)–(d) (generic and employment-related learning outcomes, applied in disciplinary context), 1.4.3 (assessment must confirm the outcomes), 5.4.1 (work-integrated learning and placements are quality assured, including supervision). https://www.legislation.gov.au/F2021L00488
+20. QILT Employer Satisfaction Survey (ESS) — national employer ratings across five graduate attribute domains: foundation, adaptive, collaborative, technical and employability skills. (2025 national results: technical 94.0%, foundation 93.3%, adaptive 90.7%, collaborative 88.6%, employability 86.2%.) https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29
+21. Core Skills for Work Developmental Framework (Australian Government, 2013). Three clusters — navigate the world of work, interact with others, get the work done — over ten skill areas and five performance stages. Anchor-content source; a VET framework, not a higher-education construct authority. https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework
+22. Gulikers JTM, Bastiaens TJ, Kirschner PA (2004). A five-dimensional framework for authentic assessment. Educational Technology Research and Development 52(3):67–86. (Task, physical context, social context, result/form, criteria; authenticity is a continuum defined against the criterion situation — design rule R4.) https://doi.org/10.1007/BF02504676
+23. Villarroel V, Bloxham S, Bruna D, Bruna C, Herrera-Seda C (2018). Authentic assessment: creating a blueprint for course design. Assessment & Evaluation in Higher Education 43(5):840–854. (Realism, cognitive challenge, evaluative judgement — the third dimension is DFVA C2, not W2.) https://doi.org/10.1080/02602938.2017.1412396
+24. Fawns T, Bearman M, Dawson P, Nieminen JH, Ashford-Rowe K, Willey K, Jensen LX, Damşa C, Press N (2024). Authentic assessment: from panacea to criticality. Assessment & Evaluation in Higher Education 50(3):396–408. (The label risks becoming a 'thought-terminating cliché' — the constraint behind R4.) https://doi.org/10.1080/02602938.2024.2404634
+25. Sokhanvar Z, Salehi K, Sokhanvar F (2021). Advantages of authentic assessment for improving the learning experience and employability skills of higher education students: a systematic literature review. Studies in Educational Evaluation 70:101030. (26 studies, 2010–2019; outcomes largely student self-report.) https://doi.org/10.1016/j.stueduc.2021.101030
+26. Gibbs G, Simpson C (2004). Conditions under which assessment supports students' learning. Learning and Teaching in Higher Education 1:3–31. (Assessment governs what and how students study — the mechanism warrant for scoring assessment design rather than curriculum statement.)
+27. Kuh GD (2008). High-Impact Educational Practices: What They Are, Who Has Access to Them, and Why They Matter. AAC&U. (Internships, capstones, undergraduate research, collaborative and community-based learning; shared features include sustained time and effort, feedback, and application in novel settings.)
+28. Jackson D, Collings D (2018). The influence of work-integrated learning and paid work during studies on graduate employment and underemployment. Higher Education 76:403–425. (WIL did NOT raise full-time employment rates; evidence for better relevance and quality of employment — the honest bound on the W3 claim.) https://doi.org/10.1007/s10734-017-0216-z
+29. Jackson D (2016). Re-conceptualising graduate employability: the importance of pre-professional identity. Higher Education Research & Development 35(5):925–939. (Identity formed through participation in communities of practice — the mechanism distinguishing W3 from W2.) https://doi.org/10.1080/07294360.2016.1139551
+30. Australian Universities Accord Final Report (2024), Department of Education. (WIL as national priority; placement poverty and the Commonwealth Prac Payment — the equity limitation declared against W3.) https://www.education.gov.au/australian-universities-accord/resources/final-report
+31. NACE Career Readiness Competencies (rev. April 2024). Eight competencies: career & self-development, communication, critical thinking, equity & inclusion, leadership, professionalism, teamwork, technology. https://www.naceweb.org/career-readiness/competencies/career-readiness-defined
+32. Heckman JJ, Stixrud J, Urzua S (2006). The effects of cognitive and noncognitive abilities on labor market outcomes and social behavior. Journal of Labor Economics 24(3):411–482. https://doi.org/10.1086/504455
+33. Barrie SC (2006). Understanding what we mean by the generic attributes of graduates. Higher Education 51:215–241; and Barrie SC (2007), A conceptual framework for the teaching and learning of generic graduate attributes, Studies in Higher Education 32(4):439–458. (Stated graduate attributes are not evidence of attainment — why R2 binds hardest on W1.)
+34. Tomlinson M (2017). Forms of graduate capital and their relationship to graduate employability. Education + Training 59(4):338–352. (Scoping source: social, cultural and psychological capital are student and network properties, not curriculum properties, and are therefore out of scope.)
+35. Lester S, Costley C (2010). Work-based learning at higher education level: value, practice and critique. Studies in Higher Education 35(5):561–575. (Work-based learning in the learner's own employment as an established higher-education mode for in-practice cohorts — the warrant for W3's own-practice route, added in v4.2.) https://doi.org/10.1080/03075070903216635
+`,
+};
+
+export default content;

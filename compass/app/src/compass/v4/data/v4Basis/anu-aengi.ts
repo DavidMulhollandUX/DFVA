@@ -12,7 +12,7 @@ const record: V4BasisRecord = {
   "onlyProgram": {
     "code": "anu-aengi",
     "name": "Bachelor of Engineering (Honours)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 83.48,
     "entryExposure": 82.67,
     "jirN": null,

@@ -12,7 +12,7 @@ const record: V4BasisRecord = {
   "onlyProgram": {
     "code": "usyd-psychology-coaching",
     "name": "Coaching Psychology",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 89.85,
     "entryExposure": 88.29,
     "jirN": null,

@@ -12,7 +12,7 @@ const record: V4BasisRecord = {
   "onlyProgram": {
     "code": "uwa-62530",
     "name": "Master of Data Science",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 81.84,
     "entryExposure": 81.93,
     "jirN": null,
