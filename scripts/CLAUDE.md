@@ -1,5 +1,5 @@
 # dfva-scripts — Claude Memory
-> Last analyzed: 2026-08-23
+> Last analyzed: 2026-09-11
 > Re-analysis needed: NO — read .claude/rules/ files instead of source files
 
 ## What this project is
@@ -8,12 +8,13 @@ DFVA batch pipeline validation and tooling
 ## Quick reference
 - **Stack**: JavaScript
 - **Dev**: `N/A`
-- **Test**: `N/A`
+- **Test**: `node --import tsx --test *.test.ts`
 - **Build**: `N/A`
 
 ## Memory files (read these, not source files)
 - @.claude/rules/architecture.md — folder map, entry points, data flow
 - @.claude/rules/stack.md — tech stack, versions, all commands
+- @.claude/rules/modules.md — every module and what it does
 - @.claude/rules/models.md — DB schemas and data types
 - @.claude/rules/api.md — all routes and endpoints
 - @.claude/rules/conventions.md — naming, patterns, testing approach
