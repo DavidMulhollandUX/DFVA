@@ -117,7 +117,7 @@ def generate_pulse():
     output.append("## 3. High-Priority Governance & Execution Focus")
     output.append("1. **Trademark Clearance**: Nice classes 9, 35, 41, 42 (IP Australia priority gate prior to public launch).")
     output.append("2. **UoM Commercialisation**: Maintain clean IP boundary between academic pilots and independent spinout assets.")
-    output.append(r"3. **Inter-Rater Reliability**: Validate Cohen's kappa $\ge 0.70$ across 11 rubric dimensions.")
+    output.append("3. **Inter-Rater Reliability**: Validate Cohen's kappa κ ≥ 0.70 across 11 rubric dimensions.")
     output.append("")
     output.append("> **Chief of Staff Recommendation**: Run `npm --prefix scripts run dfva:check` to verify report parity before deploying Wasp app updates.")
     
