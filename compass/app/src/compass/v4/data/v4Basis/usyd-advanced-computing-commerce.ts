@@ -12,7 +12,7 @@ const record: V4BasisRecord = {
   "onlyProgram": {
     "code": "usyd-advanced-computing-commerce",
     "name": "Bachelor of Advanced Computing and Bachelor of Commerce",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 83.3,
     "entryExposure": 81.63,
     "jirN": null,

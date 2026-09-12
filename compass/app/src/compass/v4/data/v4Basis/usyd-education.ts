@@ -12,7 +12,7 @@ const record: V4BasisRecord = {
   "onlyProgram": {
     "code": "usyd-education",
     "name": "Education",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 76.56,
     "entryExposure": 77.57,
     "jirN": null,

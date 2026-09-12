@@ -12,7 +12,7 @@ const record: V4BasisRecord = {
   "onlyProgram": {
     "code": "uwa-bp004",
     "name": "Bachelor of Science",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 76.63,
     "entryExposure": 75.06,
     "jirN": null,

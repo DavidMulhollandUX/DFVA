@@ -12,7 +12,7 @@ const record: V4BasisRecord = {
   "onlyProgram": {
     "code": "anu-allb",
     "name": "Bachelor of Laws (Honours)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 90.52,
     "entryExposure": 90.67,
     "jirN": null,

@@ -12,7 +12,7 @@ const record: V4BasisRecord = {
   "onlyProgram": {
     "code": "uq-5770",
     "name": "Master of Business Administration",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 88.71,
     "entryExposure": 88.85,
     "jirN": null,

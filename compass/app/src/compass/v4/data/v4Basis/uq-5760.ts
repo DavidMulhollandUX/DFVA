@@ -12,7 +12,7 @@ const record: V4BasisRecord = {
   "onlyProgram": {
     "code": "uq-5760",
     "name": "Master of Public Health",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 76.5,
     "entryExposure": 76.42,
     "jirN": null,

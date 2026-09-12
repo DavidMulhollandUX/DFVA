@@ -12,7 +12,7 @@ const record: V4BasisRecord = {
   "onlyProgram": {
     "code": "unsw-3502",
     "name": "Commerce",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 88.71,
     "entryExposure": 88.85,
     "jirN": null,
