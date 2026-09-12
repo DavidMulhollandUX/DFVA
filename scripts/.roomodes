@@ -7,7 +7,7 @@ DFVA batch pipeline validation and tooling
 
 ## Stack: JavaScript
 - Dev: `N/A`
-- Test: `N/A`
+- Test: `node --import tsx --test *.test.ts`
 - Build: `N/A`
 
 ## Codebase Knowledge
@@ -55,10 +55,13 @@ DFVA batch pipeline validation and tooling
 | Command | What it does |
 |---------|-------------|
 | `npm run dfva:gen` | npx tsx dfva-generate.ts |
-| `npm run dfva:gen-v4` | npx tsx dfva-v4-gen.ts |
+| `npm run test` | node --import tsx --test *.test.ts |
+| `npm run dfva:gen-v4` | npx tsx dfva-v4-schema-check.ts && npx tsx dfva-v4-gen.ts |
 | `npm run dfva:gen-content` | npx tsx dfva-content-generate.ts |
 | `npm run dfva:gen-assessments` | npx tsx dfva-build-assessments.ts |
-| `npm run dfva:check` | npx tsx dfva-check.ts && npx tsx dfva-content-check.ts && npx tsx dfva-registry-check.ts && npx tsx dfva-assessments-check.ts && npx tsx dfva-panela-coverage-check.ts && npx tsx dfva-reports-index-check.ts && python3 check-report-prose.py |
+| `npm run dfva:v4-schema-check` | npx tsx dfva-v4-schema-check.ts |
+| `npm run dfva:v4-parity-check` | npx tsx dfva-v4-parity-check.ts |
+| `npm run dfva:check` | npx tsx dfva-check.ts && npx tsx check-report-format.ts && npx tsx dfva-v4-schema-check.ts && npx tsx dfva-v4-parity-check.ts && npx tsx dfva-content-check.ts && npx tsx dfva-registry-check.ts && npx tsx dfva-assessments-check.ts && npx tsx dfva-panela-coverage-check.ts && npx tsx dfva-reports-index-check.ts && npx tsx dfva-v4-distinctness-check.ts && npx tsx dfva-instrument-purity-check.ts && npx tsx dfva-v4-verify-evidence.ts --strict && npx tsx check-capture-duplicates.ts && python3 check-report-prose.py |
 | `npm run dfva:assessments-check` | npx tsx dfva-assessments-check.ts |
 | `npm run dfva:check-registry` | npx tsx dfva-registry-check.ts |
 | `npm run dfva:content-check` | npx tsx dfva-content-check.ts |
@@ -67,10 +70,33 @@ DFVA batch pipeline validation and tooling
 | `npm run dfva:deck` | python3 build-evidura-deck.py |
 | `npm run dfva:sync-skill` | cp ../dfva/dist/claude-skill/SKILL.md ~/.claude/skills/dfva/SKILL.md |
 | `npm run dfva:panela-coverage` | npx tsx dfva-panela-coverage-check.ts |
+| `npm run dfva:verify-evidence` | npx tsx dfva-v4-verify-evidence.ts |
 | `npm run dfva:capture-check` | npx tsx check-capture-provenance.ts |
 | `npm run dfva:capture-queue` | python3 build-capture-queue.py |
 | `npm run dfva:reports-index` | npx tsx dfva-reports-index-check.ts |
+| `npm run dfva:purity-check` | npx tsx dfva-instrument-purity-check.ts |
 | `npm run dfva:report-prose` | python3 check-report-prose.py |
+| `npm run dfva:latrobe-discover` | python3 latrobe-handbook-scrape.py --discover |
+| `npm run dfva:latrobe-scrape` | python3 latrobe-handbook-scrape.py --scrape |
+| `npm run dfva:monash-discover` | python3 monash-handbook-scrape.py --discover |
+| `npm run dfva:monash-scrape` | python3 monash-handbook-scrape.py --scrape |
+| `npm run dfva:unsw-discover` | python3 unsw-handbook-scrape.py --discover |
+| `npm run dfva:unsw-scrape` | python3 unsw-handbook-scrape.py --scrape |
+| `npm run dfva:anu-discover` | python3 anu-handbook-scrape.py --discover |
+| `npm run dfva:anu-scrape` | python3 anu-handbook-scrape.py --scrape |
+| `npm run dfva:uwa-discover` | python3 uwa-handbook-scrape.py --discover |
+| `npm run dfva:uwa-scrape` | python3 uwa-handbook-scrape.py --scrape |
+| `npm run dfva:adelaide-discover` | python3 adelaide-handbook-scrape.py --discover |
+| `npm run dfva:adelaide-scrape` | python3 adelaide-handbook-scrape.py --scrape |
+| `npm run dfva:usyd-discover` | python3 usyd-handbook-scrape.py --discover |
+| `npm run dfva:usyd-scrape` | python3 usyd-handbook-scrape.py --scrape |
+| `npm run dfva:uq-discover` | python3 uq-handbook-scrape.py --discover |
+| `npm run dfva:uq-scrape` | python3 uq-handbook-scrape.py --scrape |
+| `npm run dfva:go8-status` | python3 go8-handbook-status.py |
+| `npm run dfva:subjects-discover` | python3 national-subject-scrape.py --discover --institution all |
+| `npm run dfva:subjects-scrape` | python3 national-subject-scrape.py --scrape --wave 1 --workers 10 |
+| `npm run dfva:subjects-status` | python3 national-subject-status.py |
+| `npm run dfva:distinctness` | npx tsx dfva-v4-distinctness-check.ts |
 
 ---
 
@@ -80,17 +106,18 @@ DFVA batch pipeline validation and tooling
 - **Location**: `workflows/`
 - **Purpose**: Project folder
 - **Key files**:
+  - `workflows/dfva-profession-research.js`
   - `workflows/socialisation-pack.js`
   - `workflows/v4-recommend-cohort.js`
   - `workflows/v4-score-cohort.js`
-- **File count**: 3
+- **File count**: 4
 
 ---
 
 # Data Models
 
 ## Model Files
-No model files detected
+- `dfva-v4-schema-check.ts`
 
 
 ## Enums & Constants
@@ -136,7 +163,7 @@ No route files detected
 
 
 ## Testing Approach
-- No test script detected
+- Test command: `npm run test`
 
 
 ## Code Style Notes
