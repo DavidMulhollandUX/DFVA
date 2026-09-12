@@ -64,7 +64,10 @@ const results = await parallel(
         `scrapes/v4/pending/${code}.recommend-fill.json (drop the "context" key), then run: ` +
         `cd scripts && npx tsx dfva-v4-recommend-scaffold.ts ${code} --fill ../scrapes/v4/pending/${code}.recommend-fill.json ` +
         `&& npx tsx check-report-format.ts --code ${code}. On a lint error, edit the fill JSON — never ` +
-        `the report file — and rerun both commands. Return {code, status, levers (the number of ` +
+        `the report file — and rerun both commands. The lint covers the whole family, so it also reports ` +
+        `"dfva-v4-${code}: carries unfilled scaffold markers" whenever the sibling assessment body has not ` +
+        `had its §4/§5 authored yet. That error belongs to the body, not to your plan: ignore it, and set ` +
+        `lintClean true when it is the only error left. Return {code, status, levers (the number of ` +
         `interventions), recommendPlan path, lintClean}.`,
       { label: `recommend:${code}`, phase: 'Recommend', model: 'sonnet', schema: RESULT },
     ),
