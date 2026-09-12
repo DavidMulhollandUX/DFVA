@@ -873,6 +873,14 @@ export async function appV4DataModules(): Promise<{
     '/** Research degrees excluded from Panel C v4 by scope (thesis PhDs, higher\n' +
     ' *  doctorates): no taught curriculum to score. Source: scripts/v4_cohort_ext_exclusions.json. */\n' +
     `export const V4_RESEARCH_DEGREES: readonly string[] = ${JSON.stringify(researchDegrees, null, 2)};\n\n` +
+    '/** The awarding university for each research degree. They carry no Panel C\n' +
+    ' *  score, so they are absent from V4_INDEX and the report hero has nowhere\n' +
+    ' *  else to read the institution from. */\n' +
+    `export const V4_RESEARCH_DEGREE_INSTITUTION: Readonly<Record<string, string>> = ${JSON.stringify(
+      Object.fromEntries(researchDegrees.map((c) => [c, institutionOf(c).name])),
+      null,
+      2,
+    )};\n\n` +
     '/** The light per-program spine for /reports and /insights (docs: this file is\n' +
     ' *  half of the split that keeps the landing page and reports index off the\n' +
     ' *  28,000-line Panel C rationale/evidence text in v4PanelC.ts). One entry per\n' +

@@ -13,6 +13,7 @@ export function ReportHero({
   pilot,
   name,
   code,
+  institution,
   faculty,
   nav,
 }: {
@@ -22,6 +23,8 @@ export function ReportHero({
   pilot: boolean;
   name: string;
   code: string;
+  /** The awarding university, from the program's own record. */
+  institution: string;
   faculty: string;
   nav: HeroNavItem[];
 }) {
@@ -34,7 +37,7 @@ export function ReportHero({
         {name}
       </h1>
       <p className="text-muted-foreground mt-2 font-mono text-sm uppercase">
-        {heroMeta(code, faculty)}
+        {heroMeta(code, institution, faculty)}
       </p>
       <nav className="text-muted-foreground mt-5 flex flex-wrap gap-x-6 gap-y-1 text-sm">
         <span className="text-foreground font-medium">{HERO_NAV_LEAD}</span>
