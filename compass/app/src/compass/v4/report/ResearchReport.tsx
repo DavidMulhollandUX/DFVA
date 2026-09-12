@@ -9,6 +9,7 @@ import { InsightsGate } from "../../InsightsGate";
 import { ReportMarkdownCard } from "../../v2/components/ReportMarkdownCard";
 import type { PROGRAMS } from "../../sharedProgramData";
 import { V4_INSTRUMENT } from "../data/v4Rubric";
+import { V4_RESEARCH_DEGREE_INSTITUTION } from "../data/v4Meta";
 import { CardLabel, PartHeading } from "./ReportChrome";
 import { ReportHero } from "./ReportHero";
 import { LabourMarketCard } from "./LabourMarketCard";
@@ -88,6 +89,7 @@ export function V4ResearchReport({
           pilot={false}
           name={name}
           code={code.toUpperCase()}
+          institution={V4_RESEARCH_DEGREE_INSTITUTION[code] ?? ""}
           faculty={faculty}
           nav={[
             { href: "#finding", label: NAV_PART_A },

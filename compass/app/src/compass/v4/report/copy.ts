@@ -402,8 +402,17 @@ export const noPanelCBody = (code: string | undefined): string =>
 export const eyebrow = (instrument: string, pilot: boolean): string =>
   `Durability Assessment · Panel C ${instrument}${pilot ? " pilot" : ""}`;
 
-export const heroMeta = (code: string, faculty: string): string =>
-  `${code} · University of Melbourne${faculty ? ` · ${faculty}` : ""}`;
+/** The institution comes from the record, never from the page. Hardcoding
+ *  Melbourne here named the wrong university on all 58 non-Melbourne reports
+ *  that reached dev.evidura.ai on 2026-09-12. */
+export const heroMeta = (
+  code: string,
+  institution: string,
+  faculty: string,
+): string =>
+  `${code}${institution ? ` · ${institution}` : ""}${
+    faculty ? ` · ${faculty}` : ""
+  }`;
 
 export const HERO_NAV_LEAD = "In this report:";
 export const NAV_PART_A = "Part A — The finding";

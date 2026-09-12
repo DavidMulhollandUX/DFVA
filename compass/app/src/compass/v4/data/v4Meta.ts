@@ -144,6 +144,26 @@ export const V4_RESEARCH_DEGREES: readonly string[] = [
   "dr-philvet"
 ];
 
+/** The awarding university for each research degree. They carry no Panel C
+ *  score, so they are absent from V4_INDEX and the report hero has nowhere
+ *  else to read the institution from. */
+export const V4_RESEARCH_DEGREE_INSTITUTION: Readonly<Record<string, string>> = {
+  "dh-lld": "The University of Melbourne",
+  "dh-sc": "The University of Melbourne",
+  "dr-philabp": "The University of Melbourne",
+  "dr-philagr": "The University of Melbourne",
+  "dr-philart": "The University of Melbourne",
+  "dr-philbe": "The University of Melbourne",
+  "dr-philedu": "The University of Melbourne",
+  "dr-phileit": "The University of Melbourne",
+  "dr-philfam": "The University of Melbourne",
+  "dr-philik": "The University of Melbourne",
+  "dr-phillaw": "The University of Melbourne",
+  "dr-philmdh": "The University of Melbourne",
+  "dr-philsci": "The University of Melbourne",
+  "dr-philvet": "The University of Melbourne"
+};
+
 /** The light per-program spine for /reports and /insights (docs: this file is
  *  half of the split that keeps the landing page and reports index off the
  *  28,000-line Panel C rationale/evidence text in v4PanelC.ts). One entry per

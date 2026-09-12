@@ -145,6 +145,7 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
   // Resolved here rather than inside the module so the nav can leave the link
   // out for a subject no other published university runs: a nav entry whose
   // anchor is not on the page scrolls nowhere.
+  const self = v4IndexByCode(program.code);
   const related = relatedPrograms(program.code);
 
   return (
@@ -155,6 +156,7 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
           pilot
           name={program.name}
           code={program.code}
+          institution={self?.institution ?? ""}
           faculty={program.faculty}
           nav={[
             { href: "#finding", label: NAV_PART_A },
@@ -205,7 +207,7 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
         {/* ============ ACROSS UNIVERSITIES — the same subject elsewhere ==== */}
         <RelatedCourses
           related={related}
-          self={v4IndexByCode(program.code)}
+          self={self}
           programName={program.name}
         />
 
