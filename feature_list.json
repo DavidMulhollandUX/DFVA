@@ -6,7 +6,7 @@
       "features_generated": 23
     },
     "dev_loop": {
-      "last_run": "2026-08-26T11:13:08Z",
+      "last_run": "2026-08-30T00:00:00Z",
       "features_built": 16
     },
     "research_loop": {
@@ -180,14 +180,15 @@
     {
       "id": "feat-015",
       "name": "Coursedog Inferred Program Maps Response \u2014 Own 'Degree Durability' Framing",
-      "status": "approved",
+      "status": "draft",
       "spec_file": "features/feat-015.md",
       "created": "2026-07-09",
       "priority": "high",
       "score": 8,
       "type": "competitor_move",
       "source": "research-loop Crawl4AI",
-      "detail": "Coursedog's Course Demand Projections now includes 'Inferred Program Maps' (auto degree-to-course mapping), 'Requirement Tracking,' and 'Student Completion Matrix.' This is Coursedog's closest move yet to DFVA's core thesis \u2014 program-level analysis. Key difference: Coursedog's analysis is scheduling-optimization (descriptive: what IS happening), DFVA's is durability-assessment (prescriptive: what SHOULD exist). DFVA must own 'degree durability / future-viability' framing before Coursedog extends their maps in that direction."
+      "detail": "Coursedog's Course Demand Projections now includes 'Inferred Program Maps' (auto degree-to-course mapping), 'Requirement Tracking,' and 'Student Completion Matrix.' This is Coursedog's closest move yet to DFVA's core thesis \u2014 program-level analysis. Key difference: Coursedog's analysis is scheduling-optimization (descriptive: what IS happening), DFVA's is durability-assessment (prescriptive: what SHOULD exist). DFVA must own 'degree durability / future-viability' framing before Coursedog extends their maps in that direction.",
+      "demoted_reason": "Demoted approved \u2192 draft by dev-loop 2026-08-27. features/feat-015.md was never authored \u2014 it appears in no branch's git history (git log --all -- features/feat-015.md is empty). Approved-with-no-spec is a permanent no-op that absorbed 5 consecutive dev-loop cycles. draft routes it to the spec-loop, which generates specs for draft features whose spec file is missing on disk. Re-approve once the spec exists."
     },
     {
       "id": "feat-016",
